@@ -137,6 +137,742 @@
     }
     .hint-overlay {
       position: absolute; inset: 0; z-index: 10;
+      background: rgba(255, 255, 255, 0.08);
+      opacity: 0; transition: opacity 0.3s ease;
+      border-radius: 13px; pointer-events: none;
+    }
+    .hint-overlay.visible { opacity: 1; }
+
+    .message {
+      text-align: center; font-size: 1.12rem; font-weight: 800;
+      color: var(--subtle); margin: 15px 0; min-height: 1.5em;
+    }
+
+    .stats {
+      display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+      margin: 8px 0 16px;
+    }
+    .stat {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #475569;
+    }
+
+    .controls {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 12px; margin-top: 15px;
+    }
+    button {
+      width: 100%; border: none; border-radius: 999px; padding: 16px;
+      font-size: 1.05rem; font-weight: 800; cursor: pointer;
+      transition: transform 0.1s ease, filter 0.2s ease; text-align: center; margin: 0;
+    }
+    button:active { transform: scale(0.97); filter: brightness(0.92); }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+    .btn-audio, .btn-reset, .btn-plain { background: #f1f5f9; color: #475569; }
+    .btn-hint { background: var(--primary); color: #fff; box-shadow: 0 4px 10px rgba(91, 161, 255, 0.2); }
+    .btn-next, .btn-start { background: var(--secondary); color: #fff; box-shadow: 0 4px 10px rgba(252, 158, 73, 0.2); }
+
+    .footer-note {
+      margin-top: 12px;
+      font-size: 0.88rem;
+      color: #64748b;
+      line-height: 1.55;
+      text-align: center;
+    }
+    .hidden { display: none !important; }
+
+    @media (max-width: 720px) {
+      .loader-actions, .setup-controls { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 400px) {
+      button { font-size: 1rem; padding: 14px 10px; }
+      .controls { grid-template-columns: 1fr; }
+      #question { font-size: 1.72rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="panel" id="setup-panel">
+      <div class="topbar">
+        <div class="title">選擇要匯入的版本</div>
+        <div class="badge" id="setup-badge">題庫載入中</div>
+      </div>
+
+      <div class="setup-title">支援 GitHub / 任何同結構網站 / 本機資料夾</div>
+      <div class="setup-subtle">
+        遠端模式：只要有相同的 <code>quiz-index.json</code> 與 <code>packs/*.json</code> 結構，就能直接載入。<br>
+        本機模式：若直接雙擊 HTML 開啟，瀏覽器通常不允許用 <code>fetch()</code> 讀取本地 JSON；這版已補上「選擇本機資料夾」入口來正確載入。<br>
+        遠端 pack 載入改用平行非同步處理，並採 <code>Promise.allSettled</code>，可容忍部分 pack 失敗。
+      </div>
+
+      <div class="loader-actions">
+        <button class="btn-plain" type="button" id="btn-reload-remote">從目前網站重新讀取題庫</button>
+        <button class="btn-plain" type="button" id="btn-load-local">從本機資料夾載入題庫</button>
+      </div>
+      <input id="local-folder-input" class="hidden" type="file" webkitdirectory directory multiple accept=".json" />
+
+      <div class="pack-list" id="pack-list"></div>
+
+      <div class="setup-controls">
+        <button class="btn-plain" type="button" id="btn-select-all">全選</button>
+        <button class="btn-plain" type="button" id="btn-clear-all">清除</button>
+        <button class="btn-start" type="button" id="btn-start-import">開始匯入並作答</button>
+      </div>
+
+      <div class="footer-note" id="setup-note">
+        若外部來源或本機資料夾都沒有可用題庫，系統會自動改用內建 fallback pack。
+      </div>
+    </div>
+
+    <div class="panel hidden" id="quiz-panel">
+      <div class="topbar">
+        <div class="title">聽寫練習</div>
+        <div class="badge" id="progress-badge">第 1 / 1 題</div>
+      </div>
+
+      <div class="question-wrap">
+        <div class="question-label">請先聽整句，再把空格中的字寫在下方大格子</div>
+        <div id="question">載入中...</div>
+      </div>
+
+      <div class="writers" id="writers"></div>
+
+      <div class="message" id="message">準備開始</div>
+
+      <div class="stats">
+        <div class="stat" id="stat-loaded-packs">已載入版本：0</div>
+        <div class="stat" id="stat-question-total">題數：0</div>
+        <div class="stat" id="stat-complete">本題完成：0 / 0</div>
+      </div>
+
+      <div class="controls">
+        <button class="btn-audio" type="button" id="btn-audio">🔊 聽整句</button>
+        <button class="btn-reset" type="button" id="btn-reset">↺ 重寫</button>
+        <button class="btn-hint" type="button" id="btn-hint">💡 筆順提示</button>
+        <button class="btn-next" type="button" id="btn-next">下一題 ➔</button>
+      </div>
+
+      <div class="footer-note">
+        Writer id 採穩定可預測格式：<code>writer-{packId}__{questionId}-blank-{index}</code><br>
+        方便之後做錯題記錄、測試與除錯。
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const COLOR_PRIMARY = "#5ba1ff";
+    const COLOR_TEXT = "#111827";
+    const COLOR_OUTLINE = "rgba(17, 24, 39, 0.18)";
+
+    const APP_CONFIG = {
+      catalogUrl: "quiz-index.json",
+      autoPlayOnRender: true,
+      autoNextDelayMs: 2000,
+      speechRate: 0.85
+    };
+
+    const FALLBACK_PACKS = [
+      {
+        id: "fallback_nani_g1_s1_2026",
+        title: "2026年小一上南一版（內建示例）",
+        tags: ["2026年", "小一上", "南一版"],
+        version: "1.0.0",
+        sourceType: "fallback",
+        questions: [
+          {
+            id: "fb_q_001",
+            readText: "我是一個工程師",
+            tokens: [
+              { type: "blank", char: "我", zhuyin: "ㄨㄛˇ" },
+              { type: "text", char: "是", zhuyin: "ㄕˋ" },
+              { type: "text", char: "一", zhuyin: "ㄧˊ" },
+              { type: "text", char: "個", zhuyin: "ㄍㄜ˙" },
+              { type: "text", char: "工", zhuyin: "ㄍㄨㄥ" },
+              { type: "text", char: "程", zhuyin: "ㄔㄥˊ" },
+              { type: "text", char: "師", zhuyin: "ㄕ" }
+            ]
+          },
+          {
+            id: "fb_q_002",
+            readText: "他喜歡學習新東西",
+            tokens: [
+              { type: "text", char: "他", zhuyin: "ㄊㄚ" },
+              { type: "text", char: "喜", zhuyin: "ㄒㄧˇ" },
+              { type: "text", char: "歡", zhuyin: "ㄏㄨㄢ" },
+              { type: "blank", char: "學", zhuyin: "ㄒㄩㄝˊ" },
+              { type: "blank", char: "習", zhuyin: "ㄒㄧˊ" },
+              { type: "text", char: "新", zhuyin: "ㄒㄧㄣ" },
+              { type: "text", char: "東", zhuyin: "ㄉㄨㄥ" },
+              { type: "text", char: "西", zhuyin: "ㄒㄧ" }
+            ]
+          }
+        ]
+      },
+      {
+        id: "fallback_hanlin_g1_s2_2025",
+        title: "2025年小一下翰林版（內建示例）",
+        tags: ["2025年", "小一下", "翰林版"],
+        version: "1.0.0",
+        sourceType: "fallback",
+        questions: [
+          {
+            id: "fb_q_101",
+            readText: "放學後要回家",
+            tokens: [
+              { type: "text", char: "放", zhuyin: "ㄈㄤˋ" },
+              { type: "text", char: "學", zhuyin: "ㄒㄩㄝˊ" },
+              { type: "text", char: "後", zhuyin: "ㄏㄡˋ" },
+              { type: "text", char: "要", zhuyin: "ㄧㄠˋ" },
+              { type: "blank", char: "回", zhuyin: "ㄏㄨㄟˊ" },
+              { type: "blank", char: "家", zhuyin: "ㄐㄧㄚ" }
+            ]
+          }
+        ]
+      }
+    ];
+
+    function isValidQuestion(question) {
+      if (!question || typeof question !== "object") return false;
+      if (typeof question.id !== "string" || !question.id.trim()) return false;
+      if (typeof question.readText !== "string" || !question.readText.trim()) return false;
+      if (!Array.isArray(question.tokens) || question.tokens.length === 0) return false;
+      return question.tokens.every(token =>
+        token &&
+        typeof token === "object" &&
+        ["text", "blank"].includes(token.type) &&
+        typeof token.char === "string" &&
+        token.char.length > 0 &&
+        typeof token.zhuyin === "string"
+      );
+    }
+
+    function normalizePack(raw, fallbackId = "", sourceType = "external") {
+      if (!raw || typeof raw !== "object") return null;
+      const questions = Array.isArray(raw.questions) ? raw.questions.filter(isValidQuestion) : [];
+      if (!questions.length) return null;
+      const id = typeof raw.id === "string" && raw.id.trim() ? raw.id.trim() : fallbackId;
+      if (!id) return null;
+      return {
+        id,
+        title: typeof raw.title === "string" && raw.title.trim() ? raw.title.trim() : id,
+        tags: Array.isArray(raw.tags) ? raw.tags.filter(t => typeof t === "string" && t.trim()) : [],
+        version: typeof raw.version === "string" ? raw.version : "",
+        sourceType,
+        description: typeof raw.description === "string" ? raw.description : "",
+        questions
+      };
+    }
+
+    async function loadPacksFromRemote() {
+      const resp = await fetch(APP_CONFIG.catalogUrl, { cache: "no-store" });
+      if (!resp.ok) throw new Error("catalog fetch failed");
+      const catalog = await resp.json();
+      if (!Array.isArray(catalog) || !catalog.length) throw new Error("catalog invalid");
+
+      const tasks = catalog.map(async item => {
+        if (!item || typeof item !== "object") return null;
+        const id = typeof item.id === "string" ? item.id.trim() : "";
+        const title = typeof item.title === "string" ? item.title.trim() : id;
+        const dataUrl = typeof item.dataUrl === "string" ? item.dataUrl.trim() : "";
+        if (!id || !dataUrl) return null;
+
+        const packResp = await fetch(dataUrl, { cache: "no-store" });
+        if (!packResp.ok) throw new Error(`pack fetch failed: ${dataUrl}`);
+        const packJson = await packResp.json();
+
+        return normalizePack({
+          ...packJson,
+          id: packJson.id || id,
+          title: packJson.title || title,
+          tags: Array.isArray(packJson.tags) ? packJson.tags : (Array.isArray(item.tags) ? item.tags : []),
+          version: packJson.version || item.version || ""
+        }, id, "external");
+      });
+
+      const results = await Promise.allSettled(tasks);
+      const packs = results.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
+      if (!packs.length) throw new Error("no valid remote packs");
+      return packs;
+    }
+
+    function buildFileMap(files) {
+      const map = new Map();
+      for (const file of files) {
+        const rel = (file.webkitRelativePath || file.name || "").replace(/\\/g, "/");
+        if (!rel) continue;
+        const parts = rel.split("/");
+        const normalized = parts.length > 1 ? parts.slice(1).join("/") : parts[0];
+        map.set(normalized, file);
+        map.set(file.name, file);
+      }
+      return map;
+    }
+
+    async function readJsonFile(file) {
+      return JSON.parse(await file.text());
+    }
+
+    async function loadPacksFromLocalFiles(files) {
+      const fileMap = buildFileMap(files);
+      const indexFile = fileMap.get("quiz-index.json");
+      if (!indexFile) throw new Error("local quiz-index.json not found");
+
+      const catalog = await readJsonFile(indexFile);
+      if (!Array.isArray(catalog) || !catalog.length) throw new Error("local catalog invalid");
+
+      const tasks = catalog.map(async item => {
+        if (!item || typeof item !== "object") return null;
+        const id = typeof item.id === "string" ? item.id.trim() : "";
+        const title = typeof item.title === "string" ? item.title.trim() : id;
+        const dataUrl = typeof item.dataUrl === "string" ? item.dataUrl.trim().replace(/\\/g, "/") : "";
+        if (!id || !dataUrl) return null;
+
+        const packFile = fileMap.get(dataUrl) || fileMap.get(dataUrl.split("/").pop());
+        if (!packFile) return null;
+        const packJson = await readJsonFile(packFile);
+
+        return normalizePack({
+          ...packJson,
+          id: packJson.id || id,
+          title: packJson.title || title,
+          tags: Array.isArray(packJson.tags) ? packJson.tags : (Array.isArray(item.tags) ? item.tags : []),
+          version: packJson.version || item.version || ""
+        }, id, "local");
+      });
+
+      const results = await Promise.allSettled(tasks);
+      const packs = results.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
+      if (!packs.length) throw new Error("no valid local packs");
+      return packs;
+    }
+
+    async function loadPacksWithFallback(mode, localFiles = null) {
+      try {
+        if (mode === "local") return await loadPacksFromLocalFiles(localFiles);
+        return await loadPacksFromRemote();
+      } catch (err) {
+        return FALLBACK_PACKS;
+      }
+    }
+
+    class DictationApp {
+      constructor(initialPacks) {
+        this.allPacks = initialPacks;
+        this.selectedPacks = [];
+        this.db = [];
+        this.currentIndex = 0;
+        this.writers = [];
+        this.autoNextTimer = null;
+
+        this.els = {
+          setupPanel: document.getElementById("setup-panel"),
+          quizPanel: document.getElementById("quiz-panel"),
+          setupBadge: document.getElementById("setup-badge"),
+          setupNote: document.getElementById("setup-note"),
+          packList: document.getElementById("pack-list"),
+          btnReloadRemote: document.getElementById("btn-reload-remote"),
+          btnLoadLocal: document.getElementById("btn-load-local"),
+          localFolderInput: document.getElementById("local-folder-input"),
+          btnSelectAll: document.getElementById("btn-select-all"),
+          btnClearAll: document.getElementById("btn-clear-all"),
+          btnStartImport: document.getElementById("btn-start-import"),
+
+          question: document.getElementById("question"),
+          writersContainer: document.getElementById("writers"),
+          msg: document.getElementById("message"),
+          progress: document.getElementById("progress-badge"),
+          statLoadedPacks: document.getElementById("stat-loaded-packs"),
+          statQuestionTotal: document.getElementById("stat-question-total"),
+          statComplete: document.getElementById("stat-complete"),
+          btnAudio: document.getElementById("btn-audio"),
+          btnHint: document.getElementById("btn-hint"),
+          btnReset: document.getElementById("btn-reset"),
+          btnNext: document.getElementById("btn-next")
+        };
+
+        this.resizeObserver = new ResizeObserver(entries => {
+          for (const entry of entries) {
+            const box = entry.target;
+            const w = this.writers.find(x => x.boxId === box.id);
+            if (w && w.instance && box.clientWidth > 0 && box.clientHeight > 0) {
+              w.instance.updateDimensions({ width: box.clientWidth, height: box.clientHeight });
+            }
+          }
+        });
+
+        this.bindEvents();
+        this.renderPackSelector();
+      }
+
+      bindEvents() {
+        this.els.btnReloadRemote.addEventListener("click", async () => {
+          this.els.setupBadge.textContent = "遠端載入中";
+          this.allPacks = await loadPacksWithFallback("remote");
+          this.renderPackSelector();
+          this.els.setupNote.textContent = "已重新從目前網站讀取題庫。若遠端失敗，已自動改用 fallback。";
+        });
+
+        this.els.btnLoadLocal.addEventListener("click", () => {
+          this.els.localFolderInput.value = "";
+          this.els.localFolderInput.click();
+        });
+
+        this.els.localFolderInput.addEventListener("change", async (e) => {
+          const files = Array.from(e.target.files || []);
+          if (!files.length) return;
+          this.els.setupBadge.textContent = "本機載入中";
+          this.allPacks = await loadPacksWithFallback("local", files);
+          this.renderPackSelector();
+          this.els.setupNote.textContent = "已從本機資料夾載入題庫；若資料夾結構不完整，已自動改用 fallback。";
+        });
+
+        this.els.btnSelectAll.addEventListener("click", () => this.selectAllPacks());
+        this.els.btnClearAll.addEventListener("click", () => this.clearAllPacks());
+        this.els.btnStartImport.addEventListener("click", () => this.startImport());
+        this.els.btnAudio.addEventListener("click", () => this.playAudio());
+        this.els.btnHint.addEventListener("click", () => this.showHint());
+        this.els.btnReset.addEventListener("click", () => this.reset());
+        this.els.btnNext.addEventListener("click", () => this.next());
+      }
+
+      renderPackSelector() {
+        this.els.packList.innerHTML = "";
+        this.els.setupBadge.textContent = `可選版本：${this.allPacks.length}`;
+
+        this.allPacks.forEach(pack => {
+          const card = document.createElement("label");
+          card.className = "pack-card";
+          card.dataset.packId = pack.id;
+          const tagsHtml = (pack.tags || []).map(tag => `<span class="tag">${tag}</span>`).join("");
+
+          card.innerHTML = `
+            <div class="pack-head">
+              <input type="checkbox" value="${pack.id}" />
+              <div>
+                <div class="pack-title">${pack.title}</div>
+                <div class="pack-meta">
+                  ${pack.version ? `版本：${pack.version}<br>` : ""}
+                  題數：${pack.questions.length}
+                  ${pack.sourceType ? `<br>來源：${pack.sourceType === "external" ? "遠端" : (pack.sourceType === "local" ? "本機資料夾" : "內建 fallback")}` : ""}
+                </div>
+                <div class="tag-list">${tagsHtml}</div>
+              </div>
+            </div>
+          `;
+
+          const checkbox = card.querySelector("input[type=checkbox]");
+          checkbox.addEventListener("change", () => {
+            card.classList.toggle("selected", checkbox.checked);
+          });
+
+          this.els.packList.appendChild(card);
+        });
+
+        const firstCheckbox = this.els.packList.querySelector("input[type=checkbox]");
+        if (firstCheckbox) {
+          firstCheckbox.checked = true;
+          firstCheckbox.closest(".pack-card").classList.add("selected");
+        }
+      }
+
+      getSelectedPackIds() {
+        return Array.from(this.els.packList.querySelectorAll("input[type=checkbox]:checked")).map(el => el.value);
+      }
+
+      selectAllPacks() {
+        this.els.packList.querySelectorAll("input[type=checkbox]").forEach(el => {
+          el.checked = true;
+          el.closest(".pack-card").classList.add("selected");
+        });
+      }
+
+      clearAllPacks() {
+        this.els.packList.querySelectorAll("input[type=checkbox]").forEach(el => {
+          el.checked = false;
+          el.closest(".pack-card").classList.remove("selected");
+        });
+      }
+
+      buildQuestionDbFromSelectedPacks(selectedIds) {
+        const packs = this.allPacks.filter(pack => selectedIds.includes(pack.id));
+        const merged = [];
+        const seen = new Set();
+
+        packs.forEach(pack => {
+          pack.questions.forEach(q => {
+            const stableId = `${pack.id}__${q.id}`;
+            if (seen.has(stableId)) return;
+            seen.add(stableId);
+            merged.push({
+              ...q,
+              packId: pack.id,
+              packTitle: pack.title,
+              stableId
+            });
+          });
+        });
+
+        return { packs, merged };
+      }
+
+      startImport() {
+        const selectedIds = this.getSelectedPackIds();
+        if (!selectedIds.length) {
+          alert("請至少勾選一個版本。");
+          return;
+        }
+
+        const { packs, merged } = this.buildQuestionDbFromSelectedPacks(selectedIds);
+        if (!merged.length) {
+          alert("目前選取的版本沒有可用題目。");
+          return;
+        }
+
+        this.selectedPacks = packs;
+        this.db = merged;
+        this.currentIndex = 0;
+
+        this.els.setupPanel.classList.add("hidden");
+        this.els.quizPanel.classList.remove("hidden");
+
+        this.renderQuestion();
+      }
+
+      clearTimers() {
+        if (this.autoNextTimer) {
+          clearTimeout(this.autoNextTimer);
+          this.autoNextTimer = null;
+        }
+      }
+
+      setMessage(text, color = "var(--subtle)") {
+        this.els.msg.innerHTML = `<span style="color:${color}">${text}</span>`;
+      }
+
+      clearQuestionResources() {
+        this.resizeObserver.disconnect();
+        this.writers.forEach(w => { try { w.instance.cancelQuiz(); } catch(e) {} });
+        this.writers = [];
+        this.els.writersContainer.innerHTML = "";
+      }
+
+      getCurrentQuestion() {
+        return this.db[this.currentIndex];
+      }
+
+      updateStats() {
+        const completedCount = this.writers.filter(w => w.completed).length;
+        this.els.progress.textContent = `第 ${this.currentIndex + 1} / ${this.db.length} 題`;
+        this.els.statLoadedPacks.textContent = `已載入版本：${this.selectedPacks.length}`;
+        this.els.statQuestionTotal.textContent = `題數：${this.db.length}`;
+        this.els.statComplete.textContent = `本題完成：${completedCount} / ${this.writers.length}`;
+      }
+
+      renderQuestion() {
+        this.clearTimers();
+        this.clearQuestionResources();
+
+        const qData = this.getCurrentQuestion();
+        let sentenceHtml = '<span class="zhuyin-sentence">';
+        let blankIndex = 0;
+
+        qData.tokens.forEach(token => {
+          if (token.type === "text") {
+            sentenceHtml += `<ruby>${token.char}<rt>${token.zhuyin || ""}</rt></ruby>`;
+          } else if (token.type === "blank") {
+            sentenceHtml += `<ruby><span class="blank-char">　</span><rt>${token.zhuyin || ""}</rt></ruby>`;
+            this.buildWriterCard(token.char, blankIndex, qData.stableId);
+            blankIndex += 1;
+          }
+        });
+
+        sentenceHtml += "</span>";
+        this.els.question.innerHTML = sentenceHtml;
+        this.setMessage(`已載入：${qData.packTitle}`);
+        this.updateStats();
+
+        if (APP_CONFIG.autoPlayOnRender) {
+          setTimeout(() => this.playAudio(), 350);
+        }
+      }
+
+      buildWriterCard(char, blankIndex, stableQuestionId) {
+        const card = document.createElement("div");
+        card.className = "writer-card";
+
+        const label = document.createElement("div");
+        label.className = "writer-index";
+        label.textContent = `第 ${blankIndex + 1} 個字`;
+        card.appendChild(label);
+
+        const box = document.createElement("div");
+        box.className = "writer-box";
+        box.id = `writer-${stableQuestionId}-blank-${blankIndex}`;
+        card.appendChild(box);
+
+        this.els.writersContainer.appendChild(card);
+        this.initWriterInstance(box.id, char, stableQuestionId, blankIndex);
+      }
+
+      initWriterInstance(boxId, char, stableQuestionId, blankIndex) {
+        const box = document.getElementById(boxId);
+        const writerInstance = HanziWriter.create(boxId, char, {
+          width: box.clientWidth || 150,
+          height: box.clientHeight || 150,
+          padding: 15,
+          showCharacter: false,
+          showOutline: false,
+          strokeColor: COLOR_TEXT,
+          drawingColor: COLOR_TEXT,
+          highlightColor: COLOR_PRIMARY,
+          drawingWidth: 22
+        });
+
+        this.resizeObserver.observe(box);
+
+        const writerObj = {
+          instance: writerInstance,
+          boxId,
+          char,
+          completed: false,
+          stableQuestionId,
+          blankIndex
+        };
+        this.writers.push(writerObj);
+
+        writerInstance.quiz({
+          onMistake: () => {
+            box.classList.add("wrong");
+            setTimeout(() => box.classList.remove("wrong"), 200);
+          },
+          onComplete: () => {
+            writerObj.completed = true;
+            box.classList.remove("wrong");
+            box.classList.add("correct");
+            this.updateStats();
+            this.checkWinCondition();
+          }
+        });
+      }
+
+      checkWinCondition() {
+        if (this.writers.length && this.writers.every(w => w.completed)) {
+          this.setMessage("✨ 太棒了！全部寫對了！", "var(--success)");
+          this.autoNextTimer = setTimeout(() => this.next(), APP_CONFIG.autoNextDelayMs);
+        } else {
+          const remain = this.writers.filter(w => !w.completed).length;
+          this.setMessage(`很好！還有 ${remain} 個字喔`);
+        }
+      }
+
+      showHint() {
+        const unfinished = this.writers.filter(w => !w.completed);
+        if (!unfinished.length) return;
+        this.setMessage("已顯示筆順提示");
+
+        unfinished.forEach(w => {
+          const boxEl = document.getElementById(w.boxId);
+          if (!boxEl || boxEl.querySelector(".hint-overlay")) return;
+
+          const overlay = document.createElement("div");
+          overlay.className = "hint-overlay";
+          overlay.id = `hint-layer-${w.boxId}`;
+          boxEl.appendChild(overlay);
+
+          const hintWriter = HanziWriter.create(overlay.id, w.char, {
+            width: boxEl.clientWidth || 150,
+            height: boxEl.clientHeight || 150,
+            padding: 15,
+            showCharacter: false,
+            showOutline: true,
+            outlineColor: COLOR_OUTLINE,
+            strokeColor: COLOR_PRIMARY,
+            drawingColor: COLOR_PRIMARY,
+            highlightColor: COLOR_PRIMARY,
+            strokeAnimationSpeed: 1.8
+          });
+
+          requestAnimationFrame(() => overlay.classList.add("visible"));
+
+          hintWriter.animateCharacter({
+            onComplete: () => {
+              setTimeout(() => {
+                overlay.classList.remove("visible");
+                setTimeout(() => overlay.remove(), 300);
+              }, 500);
+            }
+          });
+        });
+      }
+
+      playAudio() {
+        const text = this.getCurrentQuestion().readText;
+        const utter = new SpeechSynthesisUtterance(text);
+        utter.lang = "zh-TW";
+        utter.rate = APP_CONFIG.speechRate;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(utter);
+      }
+
+      next() {
+        this.currentIndex = (this.currentIndex + 1) % this.db.length;
+        this.renderQuestion();
+      }
+
+      reset() {
+        this.renderQuestion();
+        this.setMessage("已重寫本題");
+      }
+    }
+
+    window.addEventListener("load", async () => {
+      const initialPacks = await loadPacksWithFallback("remote");
+      window.app = new DictationApp(initialPacks);
+    });
+  </script>
+</body>
+</html>
+    }
+    .blank-char {
+      display: inline-block; min-width: 1.2em; color: #111827;
+      border-bottom: 4px solid var(--subtle); line-height: 1; margin: 0 4px;
+    }
+
+    .writers {
+      display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;
+      width: 100%; margin-bottom: 15px;
+    }
+    .writer-card {
+      flex: 1 1 200px; max-width: 320px;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .writer-index {
+      font-size: 1.05rem; color: var(--subtle);
+      margin-bottom: 8px; font-weight: 800;
+    }
+    .writer-box {
+      position: relative; width: 100%; aspect-ratio: 1 / 1; height: auto;
+      border: 3px solid var(--border); border-radius: 16px; background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); overflow: hidden;
+      touch-action: none; transition: border-color 0.2s ease, transform 0.1s ease;
+      background-image:
+        linear-gradient(to right, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px)),
+        linear-gradient(to bottom, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px));
+    }
+    .writer-box.correct {
+      border-color: var(--success); transform: scale(1.02); background-color: #f0fff4;
+    }
+    .writer-box.wrong {
+      border-color: var(--error); transform: scale(0.98);
+    }
+    .hint-overlay {
+      position: absolute; inset: 0; z-index: 10;
       background: rgba(255, 255, 255, 0.12);
       opacity: 0; transition: opacity 0.3s ease;
       border-radius: 13px; pointer-events: none;
