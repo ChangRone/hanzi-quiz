@@ -137,8 +137,8 @@
     }
     .hint-overlay {
       position: absolute; inset: 0; z-index: 10;
-      background: rgba(255, 255, 255, 0.22);
-      opacity: 0; transition: opacity 0.25s ease;
+      background: rgba(255, 255, 255, 0.12);
+      opacity: 0; transition: opacity 0.3s ease;
       border-radius: 13px; pointer-events: none;
     }
     .hint-overlay.visible { opacity: 1; }
@@ -395,13 +395,8 @@
         }, id, "external");
       });
 
-      // 這裡用 Promise.allSettled，而不是 Promise.all：
-      // 只要有部分 pack 成功，就仍可正常使用，不會因一包損壞整體失敗。
       const results = await Promise.allSettled(tasks);
-      const packs = results
-        .filter(r => r.status === "fulfilled" && r.value)
-        .map(r => r.value);
-
+      const packs = results.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
       if (!packs.length) throw new Error("no valid remote packs");
       return packs;
     }
@@ -452,19 +447,14 @@
       });
 
       const results = await Promise.allSettled(tasks);
-      const packs = results
-        .filter(r => r.status === "fulfilled" && r.value)
-        .map(r => r.value);
-
+      const packs = results.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
       if (!packs.length) throw new Error("no valid local packs");
       return packs;
     }
 
     async function loadPacksWithFallback(mode, localFiles = null) {
       try {
-        if (mode === "local") {
-          return await loadPacksFromLocalFiles(localFiles);
-        }
+        if (mode === "local") return await loadPacksFromLocalFiles(localFiles);
         return await loadPacksFromRemote();
       } catch (err) {
         return FALLBACK_PACKS;
@@ -760,8 +750,6 @@
           onMistake: () => {
             box.classList.add("wrong");
             setTimeout(() => box.classList.remove("wrong"), 200);
-            // 之後可在這裡記錄錯題：
-            // console.log("mistake", writerObj.stableQuestionId, writerObj.blankIndex, writerObj.char);
           },
           onComplete: () => {
             writerObj.completed = true;
@@ -797,7 +785,6 @@
           overlay.id = `hint-layer-${w.boxId}`;
           boxEl.appendChild(overlay);
 
-          // 提示方式：先有整字陰影，再藍色逐筆補上
           const hintWriter = HanziWriter.create(overlay.id, w.char, {
             width: boxEl.clientWidth || 150,
             height: boxEl.clientHeight || 150,
