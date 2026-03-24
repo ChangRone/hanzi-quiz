@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>漢字聽寫練習（2x2佈局與提示優化）</title>
+  <title>漢字聽寫（多版本＋本機/遠端雙模式）</title>
   <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
   <style>
     :root {
@@ -12,15 +12,13 @@
       --text: #1f2937;
       --subtle: #6b7280;
       --border: #d1d5db;
-      --primary: #5ba1ff; 
-      --secondary: #fc9e49; 
+      --primary: #5ba1ff;
+      --secondary: #fc9e49;
       --success: #16a34a;
       --error: #ef4444;
       --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     }
-    
     * { box-sizing: border-box; }
-    
     body {
       margin: 0;
       font-family: "Bopomofo Ruby", "Microsoft JhengHei", "PingFang TC", sans-serif;
@@ -29,123 +27,229 @@
       min-height: 100vh;
       padding: 15px 12px;
     }
-    
-    .app { max-width: 800px; margin: 0 auto; }
-    .panel { background: var(--card); border-radius: 20px; box-shadow: var(--shadow); padding: 20px 16px; }
-    
-    .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
-    .badge { background: #e0e7ff; color: #4338ca; border-radius: 999px; padding: 6px 14px; font-size: 0.95rem; font-weight: 800; }
+    .app { max-width: 940px; margin: 0 auto; }
+    .panel {
+      background: var(--card);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      padding: 20px 16px;
+      margin-bottom: 14px;
+    }
+    .topbar {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 15px; gap: 10px; flex-wrap: wrap;
+    }
+    .badge {
+      background: #e0e7ff; color: #4338ca; border-radius: 999px;
+      padding: 6px 14px; font-size: 0.95rem; font-weight: 800;
+    }
     .title { font-size: 1.15rem; font-weight: 800; color: #374151; }
-    
-    .question-wrap { text-align: center; margin-bottom: 20px; background: #f8fafc; padding: 16px; border-radius: 16px; border: 1px solid #e2e8f0; }
-    .question-label { color: var(--subtle); font-size: 0.95rem; margin-bottom: 12px; font-weight: 700; }
-    #question { font-size: 2.2rem; line-height: 2; font-weight: 800; min-height: 3em; }
-    .zhuyin-sentence { display: inline-block; text-align: center; letter-spacing: 0.05em; }
-    
-    ruby { ruby-position: over; ruby-align: center; margin: 0 3px; }
-    rt { font-size: 0.4em; color: var(--subtle); letter-spacing: 0.02em; user-select: none; margin-bottom: 2px; }
-    .blank-char { display: inline-block; min-width: 1.2em; color: #111827; border-bottom: 4px solid var(--subtle); line-height: 1; margin: 0 4px; }
-    
-    .writers { 
-      display: flex; 
-      justify-content: center; 
-      gap: 15px; 
-      flex-wrap: wrap; 
-      width: 100%; 
-      margin-bottom: 15px;
+
+    .setup-title { font-size: 1.02rem; font-weight: 800; margin-bottom: 10px; }
+    .setup-subtle {
+      font-size: 0.92rem; color: var(--subtle); margin-bottom: 14px; line-height: 1.55;
     }
-    
-    .writer-card { 
-      flex: 1 1 200px; 
-      max-width: 320px; 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .loader-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
     }
-    
-    .writer-index { font-size: 1.05rem; color: var(--subtle); margin-bottom: 8px; font-weight: 800; }
-    
-    .writer-box {
-      position: relative;
-      width: 100%; 
-      aspect-ratio: 1 / 1; 
-      height: auto;
-      border: 3px solid var(--border); 
+    .pack-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .pack-card {
+      border: 2px solid #e5e7eb;
       border-radius: 16px;
-      background-color: #fff; 
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-      overflow: hidden; 
-      touch-action: none; 
-      transition: border-color 0.2s ease, transform 0.1s ease;
+      padding: 12px;
+      background: #fff;
+      cursor: pointer;
+      transition: 0.18s ease;
+    }
+    .pack-card:hover { border-color: #c7d2fe; background: #fafbff; }
+    .pack-card.selected { border-color: var(--primary); background: #f5f9ff; }
+    .pack-head { display: flex; gap: 10px; align-items: flex-start; }
+    .pack-head input { margin-top: 2px; transform: scale(1.15); }
+    .pack-title { font-size: 0.98rem; font-weight: 800; line-height: 1.4; }
+    .pack-meta { margin-top: 6px; font-size: 0.88rem; color: var(--subtle); line-height: 1.5; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      background: #eef2ff; color: #4338ca;
+      border-radius: 999px; padding: 4px 8px;
+      font-size: 0.8rem; font-weight: 700;
+    }
+    .setup-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1.2fr;
+      gap: 10px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .question-wrap {
+      text-align: center; margin-bottom: 20px;
+      background: #f8fafc; padding: 16px;
+      border-radius: 16px; border: 1px solid #e2e8f0;
+    }
+    .question-label { color: var(--subtle); font-size: 0.95rem; margin-bottom: 12px; font-weight: 700; }
+    #question { font-size: 2.15rem; line-height: 2; font-weight: 800; min-height: 3em; }
+
+    .zhuyin-sentence { display: inline-block; text-align: center; letter-spacing: 0.05em; }
+    ruby { ruby-position: over; ruby-align: center; margin: 0 3px; }
+    rt {
+      font-size: 0.4em; color: var(--subtle); letter-spacing: 0.02em;
+      user-select: none; margin-bottom: 2px;
+    }
+    .blank-char {
+      display: inline-block; min-width: 1.2em; color: #111827;
+      border-bottom: 4px solid var(--subtle); line-height: 1; margin: 0 4px;
+    }
+
+    .writers {
+      display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;
+      width: 100%; margin-bottom: 15px;
+    }
+    .writer-card {
+      flex: 1 1 200px; max-width: 320px;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .writer-index {
+      font-size: 1.05rem; color: var(--subtle);
+      margin-bottom: 8px; font-weight: 800;
+    }
+    .writer-box {
+      position: relative; width: 100%; aspect-ratio: 1 / 1; height: auto;
+      border: 3px solid var(--border); border-radius: 16px; background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); overflow: hidden;
+      touch-action: none; transition: border-color 0.2s ease, transform 0.1s ease;
       background-image:
         linear-gradient(to right, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px)),
         linear-gradient(to bottom, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px));
     }
-    .writer-box.correct { border-color: var(--success); transform: scale(1.02); background-color: #f0fff4; }
-    .writer-box.wrong { border-color: var(--error); transform: scale(0.98); }
-    
-    .hint-overlay { 
-      position: absolute; 
-      inset: 0; 
-      z-index: 10; 
-      /* 稍微調高透明圖層的不透明度，讓灰色底字更清楚，但仍能透出原本寫的字 */
-      background: rgba(255, 255, 255, 0.3); 
-      opacity: 0; 
-      transition: opacity 0.3s ease; 
+    .writer-box.correct {
+      border-color: var(--success); transform: scale(1.02); background-color: #f0fff4;
+    }
+    .writer-box.wrong {
+      border-color: var(--error); transform: scale(0.98);
+    }
+    .hint-overlay {
+      position: absolute; inset: 0; z-index: 10;
+      background: rgba(255, 255, 255, 0.22);
+      opacity: 0; transition: opacity 0.25s ease;
+      border-radius: 13px; pointer-events: none;
     }
     .hint-overlay.visible { opacity: 1; }
-    
-    .message { text-align: center; font-size: 1.15rem; font-weight: 800; color: var(--subtle); margin: 15px 0; min-height: 1.5em; }
-    
-    /* --- 【核心修改】2x2 按鈕網格佈局 --- */
-    .controls { 
-      display: grid; 
-      grid-template-columns: 1fr 1fr; 
-      gap: 12px; 
-      margin-top: 15px; 
+
+    .message {
+      text-align: center; font-size: 1.12rem; font-weight: 800;
+      color: var(--subtle); margin: 15px 0; min-height: 1.5em;
     }
-    
-    button { 
-      width: 100%;
-      border: none; 
-      border-radius: 999px; 
-      padding: 16px; 
-      font-size: 1.15rem; 
-      font-weight: 800; 
-      cursor: pointer; 
-      transition: transform 0.1s ease, filter 0.2s ease; 
-      text-align: center;
-      margin: 0;
+
+    .stats {
+      display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+      margin: 8px 0 16px;
     }
-    button:active { transform: scale(0.97); filter: brightness(0.9); }
-    
-    /* 按鈕獨立配色 */
-    .btn-audio { background: #f1f5f9; color: #475569; }
-    .btn-reset { background: #f1f5f9; color: #475569; }
+    .stat {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #475569;
+    }
+
+    .controls {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 12px; margin-top: 15px;
+    }
+    button {
+      width: 100%; border: none; border-radius: 999px; padding: 16px;
+      font-size: 1.05rem; font-weight: 800; cursor: pointer;
+      transition: transform 0.1s ease, filter 0.2s ease; text-align: center; margin: 0;
+    }
+    button:active { transform: scale(0.97); filter: brightness(0.92); }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+    .btn-audio, .btn-reset, .btn-plain { background: #f1f5f9; color: #475569; }
     .btn-hint { background: var(--primary); color: #fff; box-shadow: 0 4px 10px rgba(91, 161, 255, 0.2); }
-    .btn-next { background: var(--secondary); color: #fff; box-shadow: 0 4px 10px rgba(252, 158, 73, 0.2); }
-    
+    .btn-next, .btn-start { background: var(--secondary); color: #fff; box-shadow: 0 4px 10px rgba(252, 158, 73, 0.2); }
+
+    .footer-note {
+      margin-top: 12px;
+      font-size: 0.88rem;
+      color: #64748b;
+      line-height: 1.55;
+      text-align: center;
+    }
+    .hidden { display: none !important; }
+
+    @media (max-width: 720px) {
+      .loader-actions, .setup-controls { grid-template-columns: 1fr; }
+    }
     @media (max-width: 400px) {
-      button { font-size: 1.05rem; padding: 14px 10px; }
+      button { font-size: 1rem; padding: 14px 10px; }
+      .controls { grid-template-columns: 1fr; }
+      #question { font-size: 1.72rem; }
     }
   </style>
 </head>
 <body>
   <div class="app">
-    <div class="panel">
+    <div class="panel" id="setup-panel">
+      <div class="topbar">
+        <div class="title">選擇要匯入的版本</div>
+        <div class="badge" id="setup-badge">題庫載入中</div>
+      </div>
+
+      <div class="setup-title">支援 GitHub / 任何同結構網站 / 本機資料夾</div>
+      <div class="setup-subtle">
+        遠端模式：只要有相同的 <code>quiz-index.json</code> 與 <code>packs/*.json</code> 結構，就能直接載入。<br>
+        本機模式：若直接雙擊 HTML 開啟，瀏覽器通常不允許用 <code>fetch()</code> 讀取本地 JSON；這版已補上「選擇本機資料夾」入口來正確載入。<br>
+        遠端 pack 載入改用平行非同步處理，並採 <code>Promise.allSettled</code>，可容忍部分 pack 失敗。
+      </div>
+
+      <div class="loader-actions">
+        <button class="btn-plain" type="button" id="btn-reload-remote">從目前網站重新讀取題庫</button>
+        <button class="btn-plain" type="button" id="btn-load-local">從本機資料夾載入題庫</button>
+      </div>
+      <input id="local-folder-input" class="hidden" type="file" webkitdirectory directory multiple accept=".json" />
+
+      <div class="pack-list" id="pack-list"></div>
+
+      <div class="setup-controls">
+        <button class="btn-plain" type="button" id="btn-select-all">全選</button>
+        <button class="btn-plain" type="button" id="btn-clear-all">清除</button>
+        <button class="btn-start" type="button" id="btn-start-import">開始匯入並作答</button>
+      </div>
+
+      <div class="footer-note" id="setup-note">
+        若外部來源或本機資料夾都沒有可用題庫，系統會自動改用內建 fallback pack。
+      </div>
+    </div>
+
+    <div class="panel hidden" id="quiz-panel">
       <div class="topbar">
         <div class="title">聽寫練習</div>
         <div class="badge" id="progress-badge">第 1 / 1 題</div>
       </div>
 
       <div class="question-wrap">
-        <div class="question-label">請聽整句，把空格中的字寫在下方大格子</div>
+        <div class="question-label">請先聽整句，再把空格中的字寫在下方大格子</div>
         <div id="question">載入中...</div>
       </div>
 
       <div class="writers" id="writers"></div>
-      
+
       <div class="message" id="message">準備開始</div>
+
+      <div class="stats">
+        <div class="stat" id="stat-loaded-packs">已載入版本：0</div>
+        <div class="stat" id="stat-question-total">題數：0</div>
+        <div class="stat" id="stat-complete">本題完成：0 / 0</div>
+      </div>
 
       <div class="controls">
         <button class="btn-audio" type="button" id="btn-audio">🔊 聽整句</button>
@@ -153,56 +257,249 @@
         <button class="btn-hint" type="button" id="btn-hint">💡 筆順提示</button>
         <button class="btn-next" type="button" id="btn-next">下一題 ➔</button>
       </div>
+
+      <div class="footer-note">
+        Writer id 採穩定可預測格式：<code>writer-{packId}__{questionId}-blank-{index}</code><br>
+        方便之後做錯題記錄、測試與除錯。
+      </div>
     </div>
   </div>
 
   <script>
     const COLOR_PRIMARY = "#5ba1ff";
     const COLOR_TEXT = "#111827";
-    const COLOR_OUTLINE = "#d1d5db"; // 淺灰色的色碼
+    const COLOR_CHARACTER_SHADOW = "rgba(17, 24, 39, 0.16)";
 
-    const quizDatabase = [
+    const APP_CONFIG = {
+      catalogUrl: "quiz-index.json",
+      autoPlayOnRender: true,
+      autoNextDelayMs: 2000,
+      speechRate: 0.85
+    };
+
+    const FALLBACK_PACKS = [
       {
-        id: "q_001",
-        readText: "我是一個工程師",
-        tokens: [
-          { type: "blank", char: "我", zhuyin: "ㄨㄛˇ" },
-          { type: "text", char: "是", zhuyin: "ㄕˋ" },
-          { type: "text", char: "一", zhuyin: "ㄧˊ" },
-          { type: "text", char: "個", zhuyin: "ㄍㄜ˙" },
-          { type: "text", char: "工", zhuyin: "ㄍㄨㄥ" },
-          { type: "text", char: "程", zhuyin: "ㄔㄥˊ" },
-          { type: "text", char: "師", zhuyin: "ㄕ" }
+        id: "fallback_nani_g1_s1_2026",
+        title: "2026年小一上南一版（內建示例）",
+        tags: ["2026年", "小一上", "南一版"],
+        version: "1.0.0",
+        sourceType: "fallback",
+        questions: [
+          {
+            id: "fb_q_001",
+            readText: "我是一個工程師",
+            tokens: [
+              { type: "blank", char: "我", zhuyin: "ㄨㄛˇ" },
+              { type: "text", char: "是", zhuyin: "ㄕˋ" },
+              { type: "text", char: "一", zhuyin: "ㄧˊ" },
+              { type: "text", char: "個", zhuyin: "ㄍㄜ˙" },
+              { type: "text", char: "工", zhuyin: "ㄍㄨㄥ" },
+              { type: "text", char: "程", zhuyin: "ㄔㄥˊ" },
+              { type: "text", char: "師", zhuyin: "ㄕ" }
+            ]
+          },
+          {
+            id: "fb_q_002",
+            readText: "他喜歡學習新東西",
+            tokens: [
+              { type: "text", char: "他", zhuyin: "ㄊㄚ" },
+              { type: "text", char: "喜", zhuyin: "ㄒㄧˇ" },
+              { type: "text", char: "歡", zhuyin: "ㄏㄨㄢ" },
+              { type: "blank", char: "學", zhuyin: "ㄒㄩㄝˊ" },
+              { type: "blank", char: "習", zhuyin: "ㄒㄧˊ" },
+              { type: "text", char: "新", zhuyin: "ㄒㄧㄣ" },
+              { type: "text", char: "東", zhuyin: "ㄉㄨㄥ" },
+              { type: "text", char: "西", zhuyin: "ㄒㄧ" }
+            ]
+          }
         ]
       },
       {
-        id: "q_002",
-        readText: "他喜歡學習新東西",
-        tokens: [
-          { type: "text", char: "他", zhuyin: "ㄊㄚ" },
-          { type: "text", char: "喜", zhuyin: "ㄒㄧˇ" },
-          { type: "text", char: "歡", zhuyin: "ㄏㄨㄢ" },
-          { type: "blank", char: "學", zhuyin: "ㄒㄩㄝˊ" },
-          { type: "blank", char: "習", zhuyin: "ㄒㄧˊ" },
-          { type: "text", char: "新", zhuyin: "ㄒㄧㄣ" },
-          { type: "text", char: "東", zhuyin: "ㄉㄨㄥ" },
-          { type: "text", char: "西", zhuyin: "ㄒㄧ" }
+        id: "fallback_hanlin_g1_s2_2025",
+        title: "2025年小一下翰林版（內建示例）",
+        tags: ["2025年", "小一下", "翰林版"],
+        version: "1.0.0",
+        sourceType: "fallback",
+        questions: [
+          {
+            id: "fb_q_101",
+            readText: "放學後要回家",
+            tokens: [
+              { type: "text", char: "放", zhuyin: "ㄈㄤˋ" },
+              { type: "text", char: "學", zhuyin: "ㄒㄩㄝˊ" },
+              { type: "text", char: "後", zhuyin: "ㄏㄡˋ" },
+              { type: "text", char: "要", zhuyin: "ㄧㄠˋ" },
+              { type: "blank", char: "回", zhuyin: "ㄏㄨㄟˊ" },
+              { type: "blank", char: "家", zhuyin: "ㄐㄧㄚ" }
+            ]
+          }
         ]
       }
     ];
 
+    function isValidQuestion(question) {
+      if (!question || typeof question !== "object") return false;
+      if (typeof question.id !== "string" || !question.id.trim()) return false;
+      if (typeof question.readText !== "string" || !question.readText.trim()) return false;
+      if (!Array.isArray(question.tokens) || question.tokens.length === 0) return false;
+      return question.tokens.every(token =>
+        token &&
+        typeof token === "object" &&
+        ["text", "blank"].includes(token.type) &&
+        typeof token.char === "string" &&
+        token.char.length > 0 &&
+        typeof token.zhuyin === "string"
+      );
+    }
+
+    function normalizePack(raw, fallbackId = "", sourceType = "external") {
+      if (!raw || typeof raw !== "object") return null;
+      const questions = Array.isArray(raw.questions) ? raw.questions.filter(isValidQuestion) : [];
+      if (!questions.length) return null;
+      const id = typeof raw.id === "string" && raw.id.trim() ? raw.id.trim() : fallbackId;
+      if (!id) return null;
+      return {
+        id,
+        title: typeof raw.title === "string" && raw.title.trim() ? raw.title.trim() : id,
+        tags: Array.isArray(raw.tags) ? raw.tags.filter(t => typeof t === "string" && t.trim()) : [],
+        version: typeof raw.version === "string" ? raw.version : "",
+        sourceType,
+        description: typeof raw.description === "string" ? raw.description : "",
+        questions
+      };
+    }
+
+    async function loadPacksFromRemote() {
+      const resp = await fetch(APP_CONFIG.catalogUrl, { cache: "no-store" });
+      if (!resp.ok) throw new Error("catalog fetch failed");
+      const catalog = await resp.json();
+      if (!Array.isArray(catalog) || !catalog.length) throw new Error("catalog invalid");
+
+      const tasks = catalog.map(async item => {
+        if (!item || typeof item !== "object") return null;
+        const id = typeof item.id === "string" ? item.id.trim() : "";
+        const title = typeof item.title === "string" ? item.title.trim() : id;
+        const dataUrl = typeof item.dataUrl === "string" ? item.dataUrl.trim() : "";
+        if (!id || !dataUrl) return null;
+
+        const packResp = await fetch(dataUrl, { cache: "no-store" });
+        if (!packResp.ok) throw new Error(`pack fetch failed: ${dataUrl}`);
+        const packJson = await packResp.json();
+
+        return normalizePack({
+          ...packJson,
+          id: packJson.id || id,
+          title: packJson.title || title,
+          tags: Array.isArray(packJson.tags) ? packJson.tags : (Array.isArray(item.tags) ? item.tags : []),
+          version: packJson.version || item.version || ""
+        }, id, "external");
+      });
+
+      // 這裡用 Promise.allSettled，而不是 Promise.all：
+      // 只要有部分 pack 成功，就仍可正常使用，不會因一包損壞整體失敗。
+      const results = await Promise.allSettled(tasks);
+      const packs = results
+        .filter(r => r.status === "fulfilled" && r.value)
+        .map(r => r.value);
+
+      if (!packs.length) throw new Error("no valid remote packs");
+      return packs;
+    }
+
+    function buildFileMap(files) {
+      const map = new Map();
+      for (const file of files) {
+        const rel = (file.webkitRelativePath || file.name || "").replace(/\\/g, "/");
+        if (!rel) continue;
+        const parts = rel.split("/");
+        const normalized = parts.length > 1 ? parts.slice(1).join("/") : parts[0];
+        map.set(normalized, file);
+        map.set(file.name, file);
+      }
+      return map;
+    }
+
+    async function readJsonFile(file) {
+      return JSON.parse(await file.text());
+    }
+
+    async function loadPacksFromLocalFiles(files) {
+      const fileMap = buildFileMap(files);
+      const indexFile = fileMap.get("quiz-index.json");
+      if (!indexFile) throw new Error("local quiz-index.json not found");
+
+      const catalog = await readJsonFile(indexFile);
+      if (!Array.isArray(catalog) || !catalog.length) throw new Error("local catalog invalid");
+
+      const tasks = catalog.map(async item => {
+        if (!item || typeof item !== "object") return null;
+        const id = typeof item.id === "string" ? item.id.trim() : "";
+        const title = typeof item.title === "string" ? item.title.trim() : id;
+        const dataUrl = typeof item.dataUrl === "string" ? item.dataUrl.trim().replace(/\\/g, "/") : "";
+        if (!id || !dataUrl) return null;
+
+        const packFile = fileMap.get(dataUrl) || fileMap.get(dataUrl.split("/").pop());
+        if (!packFile) return null;
+        const packJson = await readJsonFile(packFile);
+
+        return normalizePack({
+          ...packJson,
+          id: packJson.id || id,
+          title: packJson.title || title,
+          tags: Array.isArray(packJson.tags) ? packJson.tags : (Array.isArray(item.tags) ? item.tags : []),
+          version: packJson.version || item.version || ""
+        }, id, "local");
+      });
+
+      const results = await Promise.allSettled(tasks);
+      const packs = results
+        .filter(r => r.status === "fulfilled" && r.value)
+        .map(r => r.value);
+
+      if (!packs.length) throw new Error("no valid local packs");
+      return packs;
+    }
+
+    async function loadPacksWithFallback(mode, localFiles = null) {
+      try {
+        if (mode === "local") {
+          return await loadPacksFromLocalFiles(localFiles);
+        }
+        return await loadPacksFromRemote();
+      } catch (err) {
+        return FALLBACK_PACKS;
+      }
+    }
+
     class DictationApp {
-      constructor(database) {
-        this.db = database;
+      constructor(initialPacks) {
+        this.allPacks = initialPacks;
+        this.selectedPacks = [];
+        this.db = [];
         this.currentIndex = 0;
-        this.writers = []; 
+        this.writers = [];
         this.autoNextTimer = null;
 
         this.els = {
+          setupPanel: document.getElementById("setup-panel"),
+          quizPanel: document.getElementById("quiz-panel"),
+          setupBadge: document.getElementById("setup-badge"),
+          setupNote: document.getElementById("setup-note"),
+          packList: document.getElementById("pack-list"),
+          btnReloadRemote: document.getElementById("btn-reload-remote"),
+          btnLoadLocal: document.getElementById("btn-load-local"),
+          localFolderInput: document.getElementById("local-folder-input"),
+          btnSelectAll: document.getElementById("btn-select-all"),
+          btnClearAll: document.getElementById("btn-clear-all"),
+          btnStartImport: document.getElementById("btn-start-import"),
+
           question: document.getElementById("question"),
           writersContainer: document.getElementById("writers"),
           msg: document.getElementById("message"),
           progress: document.getElementById("progress-badge"),
+          statLoadedPacks: document.getElementById("stat-loaded-packs"),
+          statQuestionTotal: document.getElementById("stat-question-total"),
+          statComplete: document.getElementById("stat-complete"),
           btnAudio: document.getElementById("btn-audio"),
           btnHint: document.getElementById("btn-hint"),
           btnReset: document.getElementById("btn-reset"),
@@ -210,26 +507,151 @@
         };
 
         this.resizeObserver = new ResizeObserver(entries => {
-          for (let entry of entries) {
+          for (const entry of entries) {
             const box = entry.target;
-            if (box.clientWidth > 0 && box.clientHeight > 0) {
-              const w = this.writers.find(x => x.boxId === box.id);
-              if (w && w.instance) {
-                w.instance.updateDimensions({ width: box.clientWidth, height: box.clientHeight });
-              }
+            const w = this.writers.find(x => x.boxId === box.id);
+            if (w && w.instance && box.clientWidth > 0 && box.clientHeight > 0) {
+              w.instance.updateDimensions({ width: box.clientWidth, height: box.clientHeight });
             }
           }
         });
 
         this.bindEvents();
-        this.renderQuestion();
+        this.renderPackSelector();
       }
 
       bindEvents() {
+        this.els.btnReloadRemote.addEventListener("click", async () => {
+          this.els.setupBadge.textContent = "遠端載入中";
+          this.allPacks = await loadPacksWithFallback("remote");
+          this.renderPackSelector();
+          this.els.setupNote.textContent = "已重新從目前網站讀取題庫。若遠端失敗，已自動改用 fallback。";
+        });
+
+        this.els.btnLoadLocal.addEventListener("click", () => {
+          this.els.localFolderInput.value = "";
+          this.els.localFolderInput.click();
+        });
+
+        this.els.localFolderInput.addEventListener("change", async (e) => {
+          const files = Array.from(e.target.files || []);
+          if (!files.length) return;
+          this.els.setupBadge.textContent = "本機載入中";
+          this.allPacks = await loadPacksWithFallback("local", files);
+          this.renderPackSelector();
+          this.els.setupNote.textContent = "已從本機資料夾載入題庫；若資料夾結構不完整，已自動改用 fallback。";
+        });
+
+        this.els.btnSelectAll.addEventListener("click", () => this.selectAllPacks());
+        this.els.btnClearAll.addEventListener("click", () => this.clearAllPacks());
+        this.els.btnStartImport.addEventListener("click", () => this.startImport());
         this.els.btnAudio.addEventListener("click", () => this.playAudio());
         this.els.btnHint.addEventListener("click", () => this.showHint());
         this.els.btnReset.addEventListener("click", () => this.reset());
         this.els.btnNext.addEventListener("click", () => this.next());
+      }
+
+      renderPackSelector() {
+        this.els.packList.innerHTML = "";
+        this.els.setupBadge.textContent = `可選版本：${this.allPacks.length}`;
+
+        this.allPacks.forEach(pack => {
+          const card = document.createElement("label");
+          card.className = "pack-card";
+          card.dataset.packId = pack.id;
+          const tagsHtml = (pack.tags || []).map(tag => `<span class="tag">${tag}</span>`).join("");
+
+          card.innerHTML = `
+            <div class="pack-head">
+              <input type="checkbox" value="${pack.id}" />
+              <div>
+                <div class="pack-title">${pack.title}</div>
+                <div class="pack-meta">
+                  ${pack.version ? `版本：${pack.version}<br>` : ""}
+                  題數：${pack.questions.length}
+                  ${pack.sourceType ? `<br>來源：${pack.sourceType === "external" ? "遠端" : (pack.sourceType === "local" ? "本機資料夾" : "內建 fallback")}` : ""}
+                </div>
+                <div class="tag-list">${tagsHtml}</div>
+              </div>
+            </div>
+          `;
+
+          const checkbox = card.querySelector("input[type=checkbox]");
+          checkbox.addEventListener("change", () => {
+            card.classList.toggle("selected", checkbox.checked);
+          });
+
+          this.els.packList.appendChild(card);
+        });
+
+        const firstCheckbox = this.els.packList.querySelector("input[type=checkbox]");
+        if (firstCheckbox) {
+          firstCheckbox.checked = true;
+          firstCheckbox.closest(".pack-card").classList.add("selected");
+        }
+      }
+
+      getSelectedPackIds() {
+        return Array.from(this.els.packList.querySelectorAll("input[type=checkbox]:checked")).map(el => el.value);
+      }
+
+      selectAllPacks() {
+        this.els.packList.querySelectorAll("input[type=checkbox]").forEach(el => {
+          el.checked = true;
+          el.closest(".pack-card").classList.add("selected");
+        });
+      }
+
+      clearAllPacks() {
+        this.els.packList.querySelectorAll("input[type=checkbox]").forEach(el => {
+          el.checked = false;
+          el.closest(".pack-card").classList.remove("selected");
+        });
+      }
+
+      buildQuestionDbFromSelectedPacks(selectedIds) {
+        const packs = this.allPacks.filter(pack => selectedIds.includes(pack.id));
+        const merged = [];
+        const seen = new Set();
+
+        packs.forEach(pack => {
+          pack.questions.forEach(q => {
+            const stableId = `${pack.id}__${q.id}`;
+            if (seen.has(stableId)) return;
+            seen.add(stableId);
+            merged.push({
+              ...q,
+              packId: pack.id,
+              packTitle: pack.title,
+              stableId
+            });
+          });
+        });
+
+        return { packs, merged };
+      }
+
+      startImport() {
+        const selectedIds = this.getSelectedPackIds();
+        if (!selectedIds.length) {
+          alert("請至少勾選一個版本。");
+          return;
+        }
+
+        const { packs, merged } = this.buildQuestionDbFromSelectedPacks(selectedIds);
+        if (!merged.length) {
+          alert("目前選取的版本沒有可用題目。");
+          return;
+        }
+
+        this.selectedPacks = packs;
+        this.db = merged;
+        this.currentIndex = 0;
+
+        this.els.setupPanel.classList.add("hidden");
+        this.els.quizPanel.classList.remove("hidden");
+
+        this.renderQuestion();
       }
 
       clearTimers() {
@@ -240,92 +662,121 @@
       }
 
       setMessage(text, color = "var(--subtle)") {
-        this.els.msg.innerHTML = `<span style="color: ${color}">${text}</span>`;
+        this.els.msg.innerHTML = `<span style="color:${color}">${text}</span>`;
+      }
+
+      clearQuestionResources() {
+        this.resizeObserver.disconnect();
+        this.writers.forEach(w => { try { w.instance.cancelQuiz(); } catch(e) {} });
+        this.writers = [];
+        this.els.writersContainer.innerHTML = "";
+      }
+
+      getCurrentQuestion() {
+        return this.db[this.currentIndex];
+      }
+
+      updateStats() {
+        const completedCount = this.writers.filter(w => w.completed).length;
+        this.els.progress.textContent = `第 ${this.currentIndex + 1} / ${this.db.length} 題`;
+        this.els.statLoadedPacks.textContent = `已載入版本：${this.selectedPacks.length}`;
+        this.els.statQuestionTotal.textContent = `題數：${this.db.length}`;
+        this.els.statComplete.textContent = `本題完成：${completedCount} / ${this.writers.length}`;
       }
 
       renderQuestion() {
         this.clearTimers();
-        this.resizeObserver.disconnect();
-        
-        this.writers.forEach(w => { try { w.instance.cancelQuiz(); } catch(e){} });
-        this.writers = [];
-        this.els.writersContainer.innerHTML = '';
-        
-        const qData = this.db[this.currentIndex];
-        this.els.progress.textContent = `第 ${this.currentIndex + 1} / ${this.db.length} 題`;
-        
+        this.clearQuestionResources();
+
+        const qData = this.getCurrentQuestion();
         let sentenceHtml = '<span class="zhuyin-sentence">';
         let blankIndex = 0;
 
         qData.tokens.forEach(token => {
-          if (token.type === 'text') {
+          if (token.type === "text") {
             sentenceHtml += `<ruby>${token.char}<rt>${token.zhuyin || ""}</rt></ruby>`;
-          } else if (token.type === 'blank') {
+          } else if (token.type === "blank") {
             sentenceHtml += `<ruby><span class="blank-char">　</span><rt>${token.zhuyin || ""}</rt></ruby>`;
-            
-            setTimeout(() => {
-              this.buildWriterCard(token.char, blankIndex, qData.id);
-              blankIndex++;
-            }, 50);
+            this.buildWriterCard(token.char, blankIndex, qData.stableId);
+            blankIndex += 1;
           }
         });
-        sentenceHtml += '</span>';
 
+        sentenceHtml += "</span>";
         this.els.question.innerHTML = sentenceHtml;
-        this.setMessage("請聽整句，開始作答");
-        setTimeout(() => this.playAudio(), 400);
+        this.setMessage(`已載入：${qData.packTitle}`);
+        this.updateStats();
+
+        if (APP_CONFIG.autoPlayOnRender) {
+          setTimeout(() => this.playAudio(), 350);
+        }
       }
 
-      buildWriterCard(char, index, qId) {
+      buildWriterCard(char, blankIndex, stableQuestionId) {
         const card = document.createElement("div");
         card.className = "writer-card";
 
         const label = document.createElement("div");
         label.className = "writer-index";
-        label.textContent = `第 ${index + 1} 個字`;
+        label.textContent = `第 ${blankIndex + 1} 個字`;
         card.appendChild(label);
 
         const box = document.createElement("div");
         box.className = "writer-box";
-        box.id = `writer-${qId}-${index}-${Date.now()}`; 
+        box.id = `writer-${stableQuestionId}-blank-${blankIndex}`;
         card.appendChild(box);
-        this.els.writersContainer.appendChild(card);
 
-        const writerInstance = HanziWriter.create(box.id, char, {
-          width: box.clientWidth || 150, 
-          height: box.clientHeight || 150, 
+        this.els.writersContainer.appendChild(card);
+        this.initWriterInstance(box.id, char, stableQuestionId, blankIndex);
+      }
+
+      initWriterInstance(boxId, char, stableQuestionId, blankIndex) {
+        const box = document.getElementById(boxId);
+        const writerInstance = HanziWriter.create(boxId, char, {
+          width: box.clientWidth || 150,
+          height: box.clientHeight || 150,
           padding: 15,
-          showCharacter: false, 
-          showOutline: false, 
-          strokeColor: COLOR_TEXT, 
-          drawingColor: COLOR_TEXT, 
-          highlightColor: COLOR_PRIMARY, 
+          showCharacter: false,
+          showOutline: false,
+          strokeColor: COLOR_TEXT,
+          drawingColor: COLOR_TEXT,
+          highlightColor: COLOR_PRIMARY,
           drawingWidth: 22
         });
 
         this.resizeObserver.observe(box);
 
-        const writerObj = { instance: writerInstance, boxId: box.id, char: char, completed: false };
+        const writerObj = {
+          instance: writerInstance,
+          boxId,
+          char,
+          completed: false,
+          stableQuestionId,
+          blankIndex
+        };
         this.writers.push(writerObj);
 
         writerInstance.quiz({
           onMistake: () => {
             box.classList.add("wrong");
             setTimeout(() => box.classList.remove("wrong"), 200);
+            // 之後可在這裡記錄錯題：
+            // console.log("mistake", writerObj.stableQuestionId, writerObj.blankIndex, writerObj.char);
           },
           onComplete: () => {
             writerObj.completed = true;
             box.classList.remove("wrong");
             box.classList.add("correct");
+            this.updateStats();
             this.checkWinCondition();
           }
         });
       }
 
       checkWinCondition() {
-        if (this.writers.every(w => w.completed)) {
+        if (this.writers.length && this.writers.every(w => w.completed)) {
           this.setMessage("✨ 太棒了！全部寫對了！", "var(--success)");
-          this.autoNextTimer = setTimeout(() => this.next(), 2000);
+          this.autoNextTimer = setTimeout(() => this.next(), APP_CONFIG.autoNextDelayMs);
         } else {
           const remain = this.writers.filter(w => !w.completed).length;
           this.setMessage(`很好！還有 ${remain} 個字喔`);
@@ -334,27 +785,29 @@
 
       showHint() {
         const unfinished = this.writers.filter(w => !w.completed);
-        if (unfinished.length === 0) return;
+        if (!unfinished.length) return;
         this.setMessage("已顯示筆順提示");
 
         unfinished.forEach(w => {
           const boxEl = document.getElementById(w.boxId);
-          if (boxEl.querySelector('.hint-overlay')) return; 
+          if (!boxEl || boxEl.querySelector(".hint-overlay")) return;
 
           const overlay = document.createElement("div");
           overlay.className = "hint-overlay";
           overlay.id = `hint-layer-${w.boxId}`;
           boxEl.appendChild(overlay);
 
-          // 【核心修改】讓提示動畫時，底層顯示淺灰色的完整字體輪廓
+          // 提示方式：先有整字陰影，再藍色逐筆補上
           const hintWriter = HanziWriter.create(overlay.id, w.char, {
-            width: boxEl.clientWidth || 150, 
-            height: boxEl.clientHeight || 150, 
+            width: boxEl.clientWidth || 150,
+            height: boxEl.clientHeight || 150,
             padding: 15,
-            showCharacter: false, 
-            showOutline: true,           // 打開底字輪廓
-            outlineColor: COLOR_OUTLINE, // 設定為淺灰色
-            strokeColor: COLOR_PRIMARY,  // 動畫筆畫維持亮藍色
+            showCharacter: true,
+            characterColor: COLOR_CHARACTER_SHADOW,
+            showOutline: false,
+            strokeColor: COLOR_PRIMARY,
+            drawingColor: COLOR_PRIMARY,
+            highlightColor: COLOR_PRIMARY,
             strokeAnimationSpeed: 1.8
           });
 
@@ -364,18 +817,18 @@
             onComplete: () => {
               setTimeout(() => {
                 overlay.classList.remove("visible");
-                setTimeout(() => overlay.remove(), 300); 
-              }, 400); 
+                setTimeout(() => overlay.remove(), 300);
+              }, 500);
             }
           });
         });
       }
 
       playAudio() {
-        const text = this.db[this.currentIndex].readText;
+        const text = this.getCurrentQuestion().readText;
         const utter = new SpeechSynthesisUtterance(text);
         utter.lang = "zh-TW";
-        utter.rate = 0.85; 
+        utter.rate = APP_CONFIG.speechRate;
         window.speechSynthesis.cancel();
         window.speechSynthesis.speak(utter);
       }
@@ -387,11 +840,13 @@
 
       reset() {
         this.renderQuestion();
+        this.setMessage("已重寫本題");
       }
     }
 
-    window.addEventListener("load", () => {
-      new DictationApp(quizDatabase);
+    window.addEventListener("load", async () => {
+      const initialPacks = await loadPacksWithFallback("remote");
+      window.app = new DictationApp(initialPacks);
     });
   </script>
 </body>
