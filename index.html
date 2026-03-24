@@ -3,22 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>漢字聽寫練習（結構化 x 現代 UI 完全體）</title>
+  <title>漢字聽寫練習（2x2佈局與提示優化）</title>
   <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
   <style>
-    /* --- 現代化 UI 變數 --- */
     :root {
-      --bg: #f7f8fb;
+      --bg: #f3f4f6;
       --card: #ffffff;
       --text: #1f2937;
       --subtle: #6b7280;
       --border: #d1d5db;
-      --primary: #2563eb;
-      --primary-soft: #dbeafe;
+      --primary: #5ba1ff; 
+      --secondary: #fc9e49; 
       --success: #16a34a;
       --error: #ef4444;
-      --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-      --box-size: 178px; /* 大空間書寫框 */
+      --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     }
     
     * { box-sizing: border-box; }
@@ -29,69 +27,106 @@
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
-      padding: 18px 14px 28px;
+      padding: 15px 12px;
     }
     
-    .app { max-width: 820px; margin: 0 auto; }
-    .panel { background: var(--card); border-radius: 18px; box-shadow: var(--shadow); padding: 18px 16px; }
+    .app { max-width: 800px; margin: 0 auto; }
+    .panel { background: var(--card); border-radius: 20px; box-shadow: var(--shadow); padding: 20px 16px; }
     
-    /* --- 頂部狀態列 --- */
-    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
-    .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--primary-soft); color: var(--primary); border-radius: 999px; padding: 7px 12px; font-size: 0.95rem; font-weight: 700; }
-    .title { font-size: 1.1rem; font-weight: 800; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+    .badge { background: #e0e7ff; color: #4338ca; border-radius: 999px; padding: 6px 14px; font-size: 0.95rem; font-weight: 800; }
+    .title { font-size: 1.15rem; font-weight: 800; color: #374151; }
     
-    /* --- 題目區 (上下文顯示) --- */
-    .question-wrap { text-align: center; margin: 8px 0 20px; background: #f8fafc; padding: 15px; border-radius: 12px; border: 1px solid #e2e8f0; }
-    .question-label { color: var(--subtle); font-size: 0.98rem; margin-bottom: 10px; font-weight: bold; }
-    #question { font-size: 2rem; line-height: 1.9; font-weight: 700; min-height: 3.8em; }
-    .zhuyin-sentence { display: inline-block; text-align: center; letter-spacing: 0.02em; }
+    .question-wrap { text-align: center; margin-bottom: 20px; background: #f8fafc; padding: 16px; border-radius: 16px; border: 1px solid #e2e8f0; }
+    .question-label { color: var(--subtle); font-size: 0.95rem; margin-bottom: 12px; font-weight: 700; }
+    #question { font-size: 2.2rem; line-height: 2; font-weight: 800; min-height: 3em; }
+    .zhuyin-sentence { display: inline-block; text-align: center; letter-spacing: 0.05em; }
     
-    ruby { ruby-position: over; ruby-align: center; margin: 0 2px; }
+    ruby { ruby-position: over; ruby-align: center; margin: 0 3px; }
     rt { font-size: 0.4em; color: var(--subtle); letter-spacing: 0.02em; user-select: none; margin-bottom: 2px; }
-    .blank-char { display: inline-block; min-width: 1.2em; color: #111827; font-weight: 900; border-bottom: 3px solid var(--subtle); line-height: 1; margin: 0 4px; }
+    .blank-char { display: inline-block; min-width: 1.2em; color: #111827; border-bottom: 4px solid var(--subtle); line-height: 1; margin: 0 4px; }
     
-    /* --- 獨立大空間書寫區 --- */
-    .writers { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 10px; }
-    .writer-card { position: relative; width: var(--box-size); }
-    .writer-index { text-align: center; font-size: 1rem; color: var(--subtle); margin-bottom: 8px; font-weight: 700; }
+    .writers { 
+      display: flex; 
+      justify-content: center; 
+      gap: 15px; 
+      flex-wrap: wrap; 
+      width: 100%; 
+      margin-bottom: 15px;
+    }
+    
+    .writer-card { 
+      flex: 1 1 200px; 
+      max-width: 320px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .writer-index { font-size: 1.05rem; color: var(--subtle); margin-bottom: 8px; font-weight: 800; }
+    
     .writer-box {
       position: relative;
-      width: var(--box-size); height: var(--box-size);
-      border: 3px solid var(--border); border-radius: 16px;
-      background-color: #fff; box-shadow: 0 5px 16px rgba(0, 0, 0, 0.04);
-      overflow: hidden; touch-action: none;
-      transition: border-color 0.18s ease, transform 0.12s ease;
+      width: 100%; 
+      aspect-ratio: 1 / 1; 
+      height: auto;
+      border: 3px solid var(--border); 
+      border-radius: 16px;
+      background-color: #fff; 
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+      overflow: hidden; 
+      touch-action: none; 
+      transition: border-color 0.2s ease, transform 0.1s ease;
       background-image:
-        linear-gradient(to right, transparent calc(50% - 0.8px), #eceff4 calc(50% - 0.8px), #eceff4 calc(50% + 0.8px), transparent calc(50% + 0.8px)),
-        linear-gradient(to bottom, transparent calc(50% - 0.8px), #eceff4 calc(50% - 0.8px), #eceff4 calc(50% + 0.8px), transparent calc(50% + 0.8px));
+        linear-gradient(to right, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px)),
+        linear-gradient(to bottom, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px));
     }
     .writer-box.correct { border-color: var(--success); transform: scale(1.02); background-color: #f0fff4; }
-    .writer-box.wrong { border-color: var(--error); transform: scale(0.985); }
+    .writer-box.wrong { border-color: var(--error); transform: scale(0.98); }
     
-    /* 提示圖層 */
-    .hint-overlay { position: absolute; inset: 0; z-index: 8; background: rgba(255, 255, 255, 0.85); pointer-events: none; opacity: 0; transition: opacity 0.2s ease; }
+    .hint-overlay { 
+      position: absolute; 
+      inset: 0; 
+      z-index: 10; 
+      /* 稍微調高透明圖層的不透明度，讓灰色底字更清楚，但仍能透出原本寫的字 */
+      background: rgba(255, 255, 255, 0.3); 
+      opacity: 0; 
+      transition: opacity 0.3s ease; 
+    }
     .hint-overlay.visible { opacity: 1; }
     
-    /* --- 狀態與控制區 --- */
-    .message { min-height: 1.8em; text-align: center; font-size: 1.1rem; font-weight: 700; color: var(--subtle); margin-top: 15px; }
-    .stats { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
-    .stat { background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 8px 12px; font-size: 0.95rem; color: #374151; font-weight: 700; }
+    .message { text-align: center; font-size: 1.15rem; font-weight: 800; color: var(--subtle); margin: 15px 0; min-height: 1.5em; }
     
-    .controls { margin-top: 20px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-    button { border: none; border-radius: 12px; padding: 14px 14px; font-size: 1.05rem; font-weight: 800; cursor: pointer; transition: transform 0.08s ease; }
-    button:active { transform: translateY(2px) scale(0.98); }
-    .btn-outline { background: #fff; color: var(--primary); border: 2px solid var(--primary); }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-secondary { background: #eef2ff; color: #3730a3; }
-    
-    @media (max-width: 520px) {
-      :root { --box-size: 152px; }
-      #question { font-size: 1.6rem; }
+    /* --- 【核心修改】2x2 按鈕網格佈局 --- */
+    .controls { 
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      gap: 12px; 
+      margin-top: 15px; 
     }
-    @media (max-width: 380px) {
-      :root { --box-size: 136px; }
-      #question { font-size: 1.4rem; }
-      .controls { grid-template-columns: 1fr; }
+    
+    button { 
+      width: 100%;
+      border: none; 
+      border-radius: 999px; 
+      padding: 16px; 
+      font-size: 1.15rem; 
+      font-weight: 800; 
+      cursor: pointer; 
+      transition: transform 0.1s ease, filter 0.2s ease; 
+      text-align: center;
+      margin: 0;
+    }
+    button:active { transform: scale(0.97); filter: brightness(0.9); }
+    
+    /* 按鈕獨立配色 */
+    .btn-audio { background: #f1f5f9; color: #475569; }
+    .btn-reset { background: #f1f5f9; color: #475569; }
+    .btn-hint { background: var(--primary); color: #fff; box-shadow: 0 4px 10px rgba(91, 161, 255, 0.2); }
+    .btn-next { background: var(--secondary); color: #fff; box-shadow: 0 4px 10px rgba(252, 158, 73, 0.2); }
+    
+    @media (max-width: 400px) {
+      button { font-size: 1.05rem; padding: 14px 10px; }
     }
   </style>
 </head>
@@ -99,35 +134,33 @@
   <div class="app">
     <div class="panel">
       <div class="topbar">
-        <div class="title">漢字聽寫（結構化 + 現代 UI 版）</div>
+        <div class="title">聽寫練習</div>
         <div class="badge" id="progress-badge">第 1 / 1 題</div>
       </div>
 
       <div class="question-wrap">
-        <div class="question-label">請聽整句，再把空格中的字寫在下方</div>
+        <div class="question-label">請聽整句，把空格中的字寫在下方大格子</div>
         <div id="question">載入中...</div>
       </div>
 
       <div class="writers" id="writers"></div>
-
+      
       <div class="message" id="message">準備開始</div>
-      <div class="stats">
-        <div class="stat" id="stat-correct">完成字數：0</div>
-        <div class="stat" id="stat-hint">提示次數：0</div>
-        <div class="stat" id="stat-mistake">錯誤次數：0</div>
-      </div>
 
       <div class="controls">
-        <button class="btn-outline" type="button" id="btn-audio">🔊 聽整句</button>
-        <button class="btn-secondary" type="button" id="btn-hint">💡 提示筆順</button>
-        <button class="btn-outline" type="button" id="btn-reset">↺ 重寫本題</button>
-        <button class="btn-primary" type="button" id="btn-next">→ 下一題</button>
+        <button class="btn-audio" type="button" id="btn-audio">🔊 聽整句</button>
+        <button class="btn-reset" type="button" id="btn-reset">↺ 重寫</button>
+        <button class="btn-hint" type="button" id="btn-hint">💡 筆順提示</button>
+        <button class="btn-next" type="button" id="btn-next">下一題 ➔</button>
       </div>
     </div>
   </div>
 
   <script>
-    // 1. 強結構化題庫 (Schema-driven: tokens 陣列)
+    const COLOR_PRIMARY = "#5ba1ff";
+    const COLOR_TEXT = "#111827";
+    const COLOR_OUTLINE = "#d1d5db"; // 淺灰色的色碼
+
     const quizDatabase = [
       {
         id: "q_001",
@@ -155,46 +188,38 @@
           { type: "text", char: "東", zhuyin: "ㄉㄨㄥ" },
           { type: "text", char: "西", zhuyin: "ㄒㄧ" }
         ]
-      },
-      {
-        id: "q_003",
-        readText: "放學後要回家",
-        tokens: [
-          { type: "text", char: "放", zhuyin: "ㄈㄤˋ" },
-          { type: "text", char: "學", zhuyin: "ㄒㄩㄝˊ" },
-          { type: "text", char: "後", zhuyin: "ㄏㄡˋ" },
-          { type: "text", char: "要", zhuyin: "ㄧㄠˋ" },
-          { type: "blank", char: "回", zhuyin: "ㄏㄨㄟˊ" },
-          { type: "blank", char: "家", zhuyin: "ㄐㄧㄚ" }
-        ]
       }
     ];
 
-    // 2. 物件導向架構封裝
     class DictationApp {
       constructor(database) {
         this.db = database;
         this.currentIndex = 0;
-        this.writers = []; // 儲存 HanziWriter 實例與狀態
-        
-        // 學習統計 (全域累計)
-        this.stats = { done: 0, hint: 0, mistake: 0 };
+        this.writers = []; 
         this.autoNextTimer = null;
 
-        // 綁定 DOM 元素
         this.els = {
           question: document.getElementById("question"),
           writersContainer: document.getElementById("writers"),
           msg: document.getElementById("message"),
           progress: document.getElementById("progress-badge"),
-          statCorrect: document.getElementById("stat-correct"),
-          statHint: document.getElementById("stat-hint"),
-          statMistake: document.getElementById("stat-mistake"),
           btnAudio: document.getElementById("btn-audio"),
           btnHint: document.getElementById("btn-hint"),
           btnReset: document.getElementById("btn-reset"),
           btnNext: document.getElementById("btn-next")
         };
+
+        this.resizeObserver = new ResizeObserver(entries => {
+          for (let entry of entries) {
+            const box = entry.target;
+            if (box.clientWidth > 0 && box.clientHeight > 0) {
+              const w = this.writers.find(x => x.boxId === box.id);
+              if (w && w.instance) {
+                w.instance.updateDimensions({ width: box.clientWidth, height: box.clientHeight });
+              }
+            }
+          }
+        });
 
         this.bindEvents();
         this.renderQuestion();
@@ -214,57 +239,43 @@
         }
       }
 
-      updateStatsDOM() {
-        // 計算當前題目已完成的字數
-        const currentDone = this.writers.filter(w => w.completed).length;
-        this.els.statCorrect.textContent = `本題完成：${currentDone} / ${this.writers.length}`;
-        this.els.statHint.textContent = `累計提示：${this.stats.hint}`;
-        this.els.statMistake.textContent = `累計錯誤：${this.stats.mistake}`;
-        this.els.progress.textContent = `第 ${this.currentIndex + 1} / ${this.db.length} 題`;
-      }
-
-      setMessage(text, colorClass = "") {
-        this.els.msg.innerHTML = `<span class="${colorClass}">${text}</span>`;
+      setMessage(text, color = "var(--subtle)") {
+        this.els.msg.innerHTML = `<span style="color: ${color}">${text}</span>`;
       }
 
       renderQuestion() {
         this.clearTimers();
+        this.resizeObserver.disconnect();
         
-        // 清理舊資料與記憶體
-        this.writers.forEach(w => {
-          try { w.instance.cancelQuiz(); } catch(e){}
-        });
+        this.writers.forEach(w => { try { w.instance.cancelQuiz(); } catch(e){} });
         this.writers = [];
         this.els.writersContainer.innerHTML = '';
         
         const qData = this.db[this.currentIndex];
+        this.els.progress.textContent = `第 ${this.currentIndex + 1} / ${this.db.length} 題`;
         
-        // 解析 Tokens，分離「上方句子顯示」與「下方書寫框建立」
         let sentenceHtml = '<span class="zhuyin-sentence">';
         let blankIndex = 0;
 
         qData.tokens.forEach(token => {
           if (token.type === 'text') {
-            // 一般文字顯示
             sentenceHtml += `<ruby>${token.char}<rt>${token.zhuyin || ""}</rt></ruby>`;
           } else if (token.type === 'blank') {
-            // 挖空顯示底線，並建立對應的下方書寫框
             sentenceHtml += `<ruby><span class="blank-char">　</span><rt>${token.zhuyin || ""}</rt></ruby>`;
-            this.buildWriterCard(token.char, blankIndex, qData.id);
-            blankIndex++;
+            
+            setTimeout(() => {
+              this.buildWriterCard(token.char, blankIndex, qData.id);
+              blankIndex++;
+            }, 50);
           }
         });
         sentenceHtml += '</span>';
 
         this.els.question.innerHTML = sentenceHtml;
-        this.setMessage("請聽整句，開始作答", "subtle");
-        this.updateStatsDOM();
-        
-        // 延遲播放語音，讓畫面先渲染完成
-        setTimeout(() => this.playAudio(), 300);
+        this.setMessage("請聽整句，開始作答");
+        setTimeout(() => this.playAudio(), 400);
       }
 
-      // 建立下方獨立大格的書寫區
       buildWriterCard(char, index, qId) {
         const card = document.createElement("div");
         card.className = "writer-card";
@@ -276,34 +287,36 @@
 
         const box = document.createElement("div");
         box.className = "writer-box";
-        box.id = `writer-${qId}-${index}-${Date.now()}`; // 確保 ID 絕對唯一
+        box.id = `writer-${qId}-${index}-${Date.now()}`; 
         card.appendChild(box);
-
         this.els.writersContainer.appendChild(card);
 
-        // 初始化 HanziWriter
         const writerInstance = HanziWriter.create(box.id, char, {
-          width: box.clientWidth, height: box.clientHeight, padding: 12,
-          showCharacter: false, showOutline: false,
-          strokeColor: "#111827", drawingColor: "#111827", highlightColor: "#2563eb",
-          drawingWidth: 20
+          width: box.clientWidth || 150, 
+          height: box.clientHeight || 150, 
+          padding: 15,
+          showCharacter: false, 
+          showOutline: false, 
+          strokeColor: COLOR_TEXT, 
+          drawingColor: COLOR_TEXT, 
+          highlightColor: COLOR_PRIMARY, 
+          drawingWidth: 22
         });
+
+        this.resizeObserver.observe(box);
 
         const writerObj = { instance: writerInstance, boxId: box.id, char: char, completed: false };
         this.writers.push(writerObj);
 
         writerInstance.quiz({
           onMistake: () => {
-            this.stats.mistake++;
-            this.updateStatsDOM();
             box.classList.add("wrong");
-            setTimeout(() => box.classList.remove("wrong"), 180);
+            setTimeout(() => box.classList.remove("wrong"), 200);
           },
           onComplete: () => {
             writerObj.completed = true;
             box.classList.remove("wrong");
             box.classList.add("correct");
-            this.updateStatsDOM();
             this.checkWinCondition();
           }
         });
@@ -311,7 +324,7 @@
 
       checkWinCondition() {
         if (this.writers.every(w => w.completed)) {
-          this.setMessage("✨ 太棒了！全部寫對了！2秒後自動下一題", "success");
+          this.setMessage("✨ 太棒了！全部寫對了！", "var(--success)");
           this.autoNextTimer = setTimeout(() => this.next(), 2000);
         } else {
           const remain = this.writers.filter(w => !w.completed).length;
@@ -319,42 +332,40 @@
         }
       }
 
-      // 無損圖層動畫提示
       showHint() {
         const unfinished = this.writers.filter(w => !w.completed);
         if (unfinished.length === 0) return;
-
-        this.stats.hint++;
-        this.updateStatsDOM();
         this.setMessage("已顯示筆順提示");
 
         unfinished.forEach(w => {
           const boxEl = document.getElementById(w.boxId);
-          if (boxEl.querySelector('.hint-overlay')) return; // 防止重複點擊產生多個圖層
+          if (boxEl.querySelector('.hint-overlay')) return; 
 
           const overlay = document.createElement("div");
           overlay.className = "hint-overlay";
           overlay.id = `hint-layer-${w.boxId}`;
           boxEl.appendChild(overlay);
 
-          // 產生專門表演動畫的替身 Writer
+          // 【核心修改】讓提示動畫時，底層顯示淺灰色的完整字體輪廓
           const hintWriter = HanziWriter.create(overlay.id, w.char, {
-            width: boxEl.clientWidth, height: boxEl.clientHeight, padding: 12,
-            showCharacter: false, showOutline: false,
-            strokeColor: "rgba(37, 99, 235, 0.4)", // 半透明藍色提示
-            drawingColor: "rgba(37, 99, 235, 0.4)",
+            width: boxEl.clientWidth || 150, 
+            height: boxEl.clientHeight || 150, 
+            padding: 15,
+            showCharacter: false, 
+            showOutline: true,           // 打開底字輪廓
+            outlineColor: COLOR_OUTLINE, // 設定為淺灰色
+            strokeColor: COLOR_PRIMARY,  // 動畫筆畫維持亮藍色
             strokeAnimationSpeed: 1.8
           });
 
-          // 啟動 CSS 淡入
           requestAnimationFrame(() => overlay.classList.add("visible"));
 
           hintWriter.animateCharacter({
             onComplete: () => {
               setTimeout(() => {
-                overlay.classList.remove("visible"); // CSS 淡出
-                setTimeout(() => overlay.remove(), 250); // DOM 移除
-              }, 400); // 播完後稍微停留
+                overlay.classList.remove("visible");
+                setTimeout(() => overlay.remove(), 300); 
+              }, 400); 
             }
           });
         });
@@ -364,7 +375,7 @@
         const text = this.db[this.currentIndex].readText;
         const utter = new SpeechSynthesisUtterance(text);
         utter.lang = "zh-TW";
-        utter.rate = 0.85; // 稍微放慢語速適合低年級
+        utter.rate = 0.85; 
         window.speechSynthesis.cancel();
         window.speechSynthesis.speak(utter);
       }
@@ -379,7 +390,6 @@
       }
     }
 
-    // 3. 啟動應用
     window.addEventListener("load", () => {
       new DictationApp(quizDatabase);
     });
