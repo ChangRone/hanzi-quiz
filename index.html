@@ -494,10 +494,32 @@
       return JSON.parse(JSON.stringify(obj));
     }
 
-    function dedupePacksById(packs) {
+    function mergePacksById(packs, report = null) {
       const map = new Map();
       packs.forEach(pack => {
-        if (pack && typeof pack.id === 'string' && !map.has(pack.id)) map.set(pack.id, pack);
+        if (!pack || typeof pack.id !== 'string') return;
+        if (!map.has(pack.id)) {
+          map.set(pack.id, {
+            ...pack,
+            questions: Array.isArray(pack.questions) ? [...pack.questions] : [],
+            loadedLessonFiles: Array.isArray(pack.loadedLessonFiles) ? [...pack.loadedLessonFiles] : []
+          });
+          return;
+        }
+        const current = map.get(pack.id);
+        const metaKeys = ['title', 'year', 'publisherCode', 'grade', 'semester', 'version'];
+        const mismatch = metaKeys.some(key => String(current[key] || '') !== String(pack[key] || ''));
+        if (mismatch && report && Array.isArray(report.failed)) {
+          report.failed.push({ id: pack.id, reason: '同教材不同課檔的 metadata 不一致，已忽略後續差異欄位' });
+        }
+        const questionMap = new Map(current.questions.map(question => [question.id, question]));
+        (Array.isArray(pack.questions) ? pack.questions : []).forEach(question => {
+          if (!questionMap.has(question.id)) questionMap.set(question.id, question);
+        });
+        current.questions = Array.from(questionMap.values()).sort((a, b) => String(a.id).localeCompare(String(b.id)));
+        const lessonFiles = new Set([...(current.loadedLessonFiles || []), ...((Array.isArray(pack.loadedLessonFiles) ? pack.loadedLessonFiles : []))]);
+        current.loadedLessonFiles = Array.from(lessonFiles);
+        current.sourceType = current.sourceType || pack.sourceType;
       });
       return Array.from(map.values());
     }
@@ -593,6 +615,48 @@
         return this.schemaConfig;
       }
 
+      expandLessonTargets(item) {
+        const pattern = String(item && item.lessonPattern || '').trim();
+        const range = Array.isArray(item && item.lessonRange) ? item.lessonRange : null;
+        if (!pattern || !range || range.length !== 2) return [];
+        const start = Number(range[0]);
+        const end = Number(range[1]);
+        if (!Number.isInteger(start) || !Number.isInteger(end) || start < 1 || end < start) return [];
+        const targets = [];
+        for (let lesson = start; lesson <= end; lesson += 1) {
+          const ll = String(lesson).padStart(2, '0');
+          targets.push({
+            lesson: ll,
+            path: pattern.replaceAll('{LL}', ll),
+            itemId: String(item.id || '').trim() || 'unknown'
+          });
+        }
+        return targets;
+      }
+
+      createReport(mode) {
+        return {
+          mode,
+          successIds: [],
+          loadedLessonFiles: [],
+          failed: [],
+          usedFallback: false,
+          schemaStatus: '沿用目前設定',
+          schemaSource: 'current'
+        };
+      }
+
+      addLoadedLesson(report, path) {
+        const normalized = this.normalizePath(path);
+        if (normalized && !report.loadedLessonFiles.includes(normalized)) {
+          report.loadedLessonFiles.push(normalized);
+        }
+      }
+
+      mergePacksById(packs, report = null) {
+        return mergePacksById(packs, report);
+      }
+
       async loadRemoteCatalog() {
         const res = await fetch(this.config.catalogUrl, { cache: 'no-store' });
         if (!res.ok) throw new Error('遠端索引讀取失敗');
@@ -601,37 +665,127 @@
         return json;
       }
 
-      async loadRemotePacks() {
-        const catalog = await this.loadRemoteCatalog();
-        const report = { mode: 'remote', successIds: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定', schemaSource: 'current' };
-        const tasks = catalog.map(async item => {
+      async fetchRemotePackByPath(path, item, report, options = {}) {
+        const res = await fetch(path, { cache: 'no-store' });
+        if (!res.ok) {
+          const error = new Error(`HTTP ${res.status}`);
+          error.status = res.status;
+          throw error;
+        }
+        const json = await res.json();
+        const pack = this.normalizePack({
+          ...json,
+          id: json.id || item.id,
+          title: json.title || item.title,
+          version: json.version || item.version
+        }, item.id, 'remote');
+        pack.loadedLessonFiles = [this.normalizePath(path)];
+        this.addLoadedLesson(report, path);
+        return pack;
+      }
+
+      async loadCatalogItemRemote(item, report) {
+        const itemId = String(item.id || '').trim() || 'unknown';
+        const lessonTargets = this.expandLessonTargets(item);
+        const lessonTasks = lessonTargets.map(async target => {
           try {
-            const res = await fetch(item.dataUrl, { cache: 'no-store' });
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const json = await res.json();
-            const pack = this.normalizePack({ ...json, id: json.id || item.id, title: json.title || item.title, version: json.version || item.version }, item.id, 'remote');
-            report.successIds.push(pack.id);
-            return pack;
+            return await this.fetchRemotePackByPath(target.path, item, report);
           } catch (err) {
-            report.failed.push({ id: String(item.id || '').trim() || 'unknown', reason: err.message || '讀取失敗' });
+            if (err && err.status === 404) return null;
+            report.failed.push({ id: `${itemId}-${target.lesson}`, reason: err.message || '讀取失敗' });
             return null;
           }
         });
+        const lessonResults = lessonTasks.length ? await Promise.allSettled(lessonTasks) : [];
+        const lessonPacks = lessonResults.filter(result => result.status === 'fulfilled' && result.value).map(result => result.value);
+        if (lessonPacks.length) return lessonPacks;
+
+        const fallbackPath = this.normalizePath(item.dataUrl || '');
+        if (!fallbackPath) return [];
+        const fallbackAlreadyTried = lessonTargets.some(target => this.normalizePath(target.path) === fallbackPath);
+        if (fallbackAlreadyTried) return [];
+
+        try {
+          return [await this.fetchRemotePackByPath(fallbackPath, item, report)];
+        } catch (err) {
+          report.failed.push({ id: itemId, reason: err.message || '讀取失敗' });
+          return [];
+        }
+      }
+
+      async loadRemotePacks() {
+        const catalog = await this.loadRemoteCatalog();
+        const report = this.createReport('remote');
+        const tasks = catalog.map(item => this.loadCatalogItemRemote(item, report));
         const results = await Promise.allSettled(tasks);
-        const packs = results.filter(r => r.status === 'fulfilled' && r.value).map(r => r.value);
-        const uniquePacks = dedupePacksById(packs);
-        report.successIds = uniquePacks.map(pack => pack.id);
-        if (!uniquePacks.length) {
+        const packs = results
+          .filter(result => result.status === 'fulfilled' && Array.isArray(result.value))
+          .flatMap(result => result.value);
+        const mergedPacks = this.mergePacksById(packs, report);
+        report.successIds = mergedPacks.map(pack => pack.id);
+        if (!mergedPacks.length) {
           const error = new Error('no valid remote packs');
           error.report = report;
           throw error;
         }
-        return { packs: uniquePacks, report, schemaConfig: this.schemaConfig };
+        return { packs: mergedPacks, report, schemaConfig: this.schemaConfig };
+      }
+
+      async loadCatalogItemLocal(item, indexes, report) {
+        const itemId = String(item.id || '').trim() || 'unknown';
+        const lessonTargets = this.expandLessonTargets(item);
+        const lessonPacks = [];
+
+        for (const target of lessonTargets) {
+          const packFile = this.findLocalFile(target.path, indexes);
+          if (!packFile) continue;
+          try {
+            const packJson = await readJsonFile(packFile);
+            const pack = this.normalizePack({
+              ...packJson,
+              id: packJson.id || item.id,
+              title: packJson.title || item.title,
+              version: packJson.version || item.version
+            }, item.id, 'local');
+            const packPath = this.normalizePath(packFile.webkitRelativePath || packFile.name || target.path);
+            pack.loadedLessonFiles = [packPath];
+            this.addLoadedLesson(report, packPath);
+            lessonPacks.push(pack);
+          } catch (err) {
+            report.failed.push({ id: `${itemId}-${target.lesson}`, reason: err.message || '讀取失敗' });
+          }
+        }
+
+        if (lessonPacks.length) return lessonPacks;
+
+        const fallbackPath = this.normalizePath(item.dataUrl || '');
+        if (!fallbackPath) return [];
+        const fallbackAlreadyTried = lessonTargets.some(target => this.normalizePath(target.path) === fallbackPath);
+        if (fallbackAlreadyTried) return [];
+
+        try {
+          const packFile = this.findLocalFile(fallbackPath, indexes) || this.findLocalFile(`packs/${itemId}.json`, indexes);
+          if (!packFile) throw new Error(`找不到對應檔案：${fallbackPath || `packs/${itemId}.json`}`);
+          const packJson = await readJsonFile(packFile);
+          const pack = this.normalizePack({
+            ...packJson,
+            id: packJson.id || item.id,
+            title: packJson.title || item.title,
+            version: packJson.version || item.version
+          }, item.id, 'local');
+          const packPath = this.normalizePath(packFile.webkitRelativePath || packFile.name || fallbackPath);
+          pack.loadedLessonFiles = [packPath];
+          this.addLoadedLesson(report, packPath);
+          return [pack];
+        } catch (err) {
+          report.failed.push({ id: itemId, reason: err.message || '讀取失敗' });
+          return [];
+        }
       }
 
       async loadLocalPacks(files) {
         const jsonFiles = Array.from(files || []).filter(file => file.name.endsWith('.json'));
-        const report = { mode: 'local', successIds: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定', schemaSource: 'current' };
+        const report = this.createReport('local');
         if (!jsonFiles.length) {
           const error = new Error('找不到 JSON 檔');
           error.report = report;
@@ -669,37 +823,24 @@
           throw error;
         }
 
-        const tasks = catalog.map(async item => {
-          const itemId = String(item.id || '').trim() || 'unknown';
-          try {
-            const dataUrl = item.dataUrl || '';
-            const packFile = this.findLocalFile(dataUrl, indexes) || this.findLocalFile(`packs/${itemId}.json`, indexes);
-            if (!packFile) throw new Error(`找不到對應檔案：${dataUrl || `packs/${itemId}.json`}`);
-            const packJson = await readJsonFile(packFile);
-            const pack = this.normalizePack({ ...packJson, id: packJson.id || item.id, title: packJson.title || item.title, version: packJson.version || item.version }, item.id, 'local');
-            report.successIds.push(pack.id);
-            return pack;
-          } catch (err) {
-            report.failed.push({ id: itemId, reason: err.message || '讀取失敗' });
-            return null;
-          }
-        });
-
+        const tasks = catalog.map(item => this.loadCatalogItemLocal(item, indexes, report));
         const results = await Promise.allSettled(tasks);
-        const packs = results.filter(r => r.status === 'fulfilled' && r.value).map(r => r.value);
-        const uniquePacks = dedupePacksById(packs);
-        report.successIds = uniquePacks.map(pack => pack.id);
-        if (!uniquePacks.length) {
+        const packs = results
+          .filter(result => result.status === 'fulfilled' && Array.isArray(result.value))
+          .flatMap(result => result.value);
+        const mergedPacks = this.mergePacksById(packs, report);
+        report.successIds = mergedPacks.map(pack => pack.id);
+        if (!mergedPacks.length) {
           const error = new Error('no valid local packs');
           error.report = report;
           throw error;
         }
-        return { packs: uniquePacks, report, schemaConfig: this.schemaConfig };
+        return { packs: mergedPacks, report, schemaConfig: this.schemaConfig };
       }
 
       loadFallbackPacks() {
         this.applySchemaConfig(this.defaultSchemaConfig);
-        return dedupePacksById(FALLBACK_PACKS.map(pack => this.normalizePack(deepClone(pack), pack.id, 'fallback')));
+        return this.mergePacksById(FALLBACK_PACKS.map(pack => this.normalizePack(deepClone(pack), pack.id, 'fallback')));
       }
 
       async loadPacksWithFallback(mode, localFiles = null) {
@@ -710,6 +851,7 @@
           report: {
             mode,
             successIds: report && Array.isArray(report.successIds) ? report.successIds : [],
+            loadedLessonFiles: report && Array.isArray(report.loadedLessonFiles) ? report.loadedLessonFiles : [],
             failed: report && Array.isArray(report.failed) ? report.failed : [],
             usedFallback: true,
             fallbackReason: reason,
@@ -723,7 +865,15 @@
             packs: this.loadFallbackPacks(),
             actualMode: 'fallback',
             schemaConfig: this.schemaConfig,
-            report: { mode: 'fallback', successIds: FALLBACK_PACKS.map(pack => pack.id), failed: [], usedFallback: false, schemaStatus: '已使用內建預設設定', schemaSource: 'fallback' }
+            report: {
+              mode: 'fallback',
+              successIds: FALLBACK_PACKS.map(pack => pack.id),
+              loadedLessonFiles: [],
+              failed: [],
+              usedFallback: false,
+              schemaStatus: '已使用內建預設設定',
+              schemaSource: 'fallback'
+            }
           };
         }
 
@@ -736,7 +886,7 @@
       }
 
       normalizePack(raw, fallbackId = '', sourceType = 'remote') {
-        const questions = Array.isArray(raw.questions) ? raw.questions.filter(q => this.validateQuestion(q)) : [];
+        const questions = Array.isArray(raw.questions) ? raw.questions.filter(q => this.validateQuestion(q)).sort((a, b) => String(a.id).localeCompare(String(b.id))) : [];
         if (!questions.length) throw new Error(`pack ${fallbackId || raw.id} has no valid question`);
         const pack = {
           id: String(raw.id || fallbackId || '').trim(),
@@ -765,16 +915,6 @@
         if (!Array.isArray(q.tokens) || !q.tokens.length) return false;
         return q.tokens.every(token => token && ['text', 'blank'].includes(String(token.type || '')) && typeof token.char === 'string' && token.char.length === 1);
       }
-
-      async loadPacksWithFallback(mode, localFiles = null) {
-        try {
-          if (mode === 'local') return await this.loadLocalPacks(localFiles);
-          if (mode === 'fallback') return this.loadFallbackPacks();
-          return await this.loadRemotePacks();
-        } catch (err) {
-          return this.loadFallbackPacks();
-        }
-      }
     }
 
     class SessionStore {
@@ -792,7 +932,7 @@
         };
       }
       setPacks(packs, sourceMode) {
-        this.state.packs = dedupePacksById(packs);
+        this.state.packs = mergePacksById(packs);
         this.state.sourceMode = sourceMode;
       }
       setSelectedPackIds(ids) {
@@ -1004,48 +1144,38 @@
           leniency: 1
         });
 
-        const item = { boxId: writerId, instance: writer, overlay, box, completed: false };
-        this.enableWriterQuiz(item);
-
-        this.resizeObserver.observe(box);
-        this.writers.push(item);
-      }
-
-      enableWriterQuiz(item) {
-        if (!item || item.completed) return;
-        item.instance.quiz({
-          onComplete: () => {
-            item.box.classList.remove('wrong');
-            item.box.classList.add('correct');
-            item.instance.hideOutline();
-            item.completed = true;
+        writer.quiz({
+          onComplete: summary => {
+            box.classList.remove('wrong');
+            box.classList.add('correct');
+            writer.hideOutline();
+            const target = this.writers.find(item => item.boxId === writerId);
+            if (target) target.completed = true;
             this.updateCompleteStat();
           },
           onMistake: () => {
-            item.box.classList.add('wrong');
-            setTimeout(() => item.box.classList.remove('wrong'), 500);
+            box.classList.add('wrong');
+            setTimeout(() => box.classList.remove('wrong'), 500);
           }
         });
+
+        this.resizeObserver.observe(box);
+        this.writers.push({ boxId: writerId, instance: writer, overlay, completed: false });
       }
 
       async showHint() {
         if (this.store.state.hintState === 'showing') return;
         this.store.setHintState('showing');
-        const pendingWriters = this.writers.filter(item => !item.completed);
-        try {
-          for (const item of pendingWriters) {
-            item.overlay.classList.add('visible');
-            item.instance.hideCharacter();
-            item.instance.showOutline();
-            await item.instance.animateCharacter();
-            item.instance.hideCharacter();
-            item.instance.hideOutline();
-            item.overlay.classList.remove('visible');
-            this.enableWriterQuiz(item);
-          }
-        } finally {
-          this.store.setHintState('idle');
+        for (const item of this.writers) {
+          item.overlay.classList.add('visible');
+          item.instance.hideCharacter();
+          item.instance.showOutline();
+          await item.instance.animateCharacter();
+          item.instance.hideCharacter();
+          item.instance.hideOutline();
+          item.overlay.classList.remove('visible');
         }
+        this.store.setHintState('idle');
       }
 
       playAudio(question) {

@@ -3,12 +3,22 @@
     "id": "20260020",
     "title": "2026年小二上南一版",
     "version": "1.0.0",
-    "dataUrl": "packs/20260020.json"
+    "dataUrl": "packs/2026南一小二上-03.json",
+    "lessonPattern": "packs/2026南一小二上-{LL}.json",
+    "lessonRange": [
+      1,
+      20
+    ]
   },
   {
     "id": "20251021",
     "title": "2025年小二下翰林版",
     "version": "1.0.0",
-    "dataUrl": "packs/20251021.json"
+    "dataUrl": "packs/2025翰林小二下-04.json",
+    "lessonPattern": "packs/2025翰林小二下-{LL}.json",
+    "lessonRange": [
+      1,
+      20
+    ]
   }
 ]
