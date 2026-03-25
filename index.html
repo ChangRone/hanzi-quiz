@@ -371,11 +371,19 @@
       </div>
 
       <div class="quiz-meta-top">
-        <div class="stats">
-          <div class="stat" id="stat-loaded-packs">已載入版本：0</div>
-          <div class="stat" id="stat-question-total">題數：0</div>
-          <div class="stat" id="stat-complete">本題完成：0 / 0</div>
-          <div class="stat" id="stat-source">來源：remote</div>
+        <div class="quiz-toolbar">
+          <div class="stats">
+            <div class="stat" id="stat-loaded-packs">已載入版本：0</div>
+            <div class="stat" id="stat-question-total">題數：0</div>
+            <div class="stat" id="stat-complete">本題完成：0 / 0</div>
+            <div class="stat" id="stat-source">來源：remote</div>
+          </div>
+          <div class="lesson-picker">
+            <label for="lesson-select">課次</label>
+            <select id="lesson-select">
+              <option value="">全部課次</option>
+            </select>
+          </div>
         </div>
       </div>
 
@@ -927,7 +935,9 @@
           sourceMode: 'remote',
           packs: [],
           selectedPackIds: [],
+          allMergedQuestions: [],
           mergedQuestions: [],
+          selectedLesson: '',
           currentQuestionIndex: 0
         };
       }
@@ -938,9 +948,19 @@
       setSelectedPackIds(ids) {
         this.state.selectedPackIds = Array.from(new Set(ids));
       }
+      setSelectedLesson(lesson) {
+        this.state.selectedLesson = String(lesson || '');
+      }
       buildMergedQuestions() {
         const selected = this.state.packs.filter(pack => this.state.selectedPackIds.includes(pack.id));
-        this.state.mergedQuestions = selected.flatMap(pack => pack.questions.map(question => ({ ...question, packId: pack.id, packTitle: pack.title, stableQuestionId: `${pack.id}__${question.id}` })));
+        this.state.allMergedQuestions = selected.flatMap(pack => pack.questions.map(question => ({ ...question, packId: pack.id, packTitle: pack.title, stableQuestionId: `${pack.id}__${question.id}` })));
+        this.applyLessonFilter(this.state.selectedLesson);
+      }
+      applyLessonFilter(lesson = '') {
+        this.state.selectedLesson = String(lesson || '');
+        this.state.mergedQuestions = this.state.selectedLesson
+          ? this.state.allMergedQuestions.filter(question => getQuestionLessonCode(question) === this.state.selectedLesson)
+          : [...this.state.allMergedQuestions];
         this.state.currentQuestionIndex = 0;
       }
       setMode(mode) { this.state.mode = mode; }
@@ -1092,11 +1112,14 @@
         this.els.btnReset.addEventListener('click', handlers.resetQuestion);
         this.els.btnNext.addEventListener('click', handlers.nextQuestion);
         this.els.btnBackHome.addEventListener('click', handlers.backHome);
+        this.els.lessonSelect.addEventListener('change', event => handlers.changeLesson(event.target.value));
       }
 
       renderQuestion(question, totalLoadedPacks) {
         this.disposeQuestionResources();
+        this.renderLessonOptions();
         if (!question) return;
+        const lessonCode = getQuestionLessonCode(question);
         this.els.progress.textContent = `第 ${this.store.state.currentQuestionIndex + 1} / ${this.store.state.mergedQuestions.length} 題`;
         this.els.statLoadedPacks.textContent = `已載入版本：${totalLoadedPacks}`;
         this.els.statQuestionTotal.textContent = `題數：${this.store.state.mergedQuestions.length}`;
@@ -1106,7 +1129,7 @@
         const blankTokens = question.tokens.map((token, index) => ({ token, index })).filter(item => item.token.type === 'blank');
         blankTokens.forEach((item, blankIndex) => this.buildWriterCard(question, item.token, blankIndex));
         this.updateCompleteStat();
-        this.els.msg.textContent = `${question.packTitle}｜請開始書寫`;
+        this.els.msg.textContent = `${question.packTitle}｜${formatLessonLabel(lessonCode)}｜請開始書寫`;
       }
 
       buildQuestionHtml(question) {
@@ -1144,15 +1167,24 @@
           leniency: 1
         });
 
-        const item = { boxId: writerId, instance: writer, overlay, box, completed: false };
-        this.enableWriterQuiz(item);
+        const meta = { boxId: writerId, box, instance: writer, overlay, completed: false };
+        this.enableWriterQuiz(meta);
 
         this.resizeObserver.observe(box);
-        this.writers.push(item);
+        this.writers.push(meta);
+      }
+
+      renderLessonOptions() {
+        const previous = this.store.state.selectedLesson || '';
+        const lessonCodes = [...new Set((this.store.state.allMergedQuestions || []).map(question => getQuestionLessonCode(question)).filter(Boolean))].sort();
+        this.els.lessonSelect.innerHTML = `<option value="">全部課次</option>` + lessonCodes.map(code => `<option value="${escapeHtml(code)}">${escapeHtml(formatLessonLabel(code))}</option>`).join('');
+        this.els.lessonSelect.value = lessonCodes.includes(previous) ? previous : '';
+        this.els.lessonSelect.disabled = lessonCodes.length <= 1;
       }
 
       enableWriterQuiz(item) {
         if (!item || item.completed) return;
+        try { item.instance.cancelQuiz(); } catch (err) {}
         item.instance.quiz({
           onComplete: () => {
             item.box.classList.remove('wrong');
@@ -1171,21 +1203,18 @@
       async showHint() {
         if (this.store.state.hintState === 'showing') return;
         this.store.setHintState('showing');
-        const pendingWriters = this.writers.filter(item => !item.completed);
-        try {
-          for (const item of pendingWriters) {
-            item.overlay.classList.add('visible');
-            item.instance.hideCharacter();
-            item.instance.showOutline();
-            await item.instance.animateCharacter();
-            item.instance.hideCharacter();
-            item.instance.hideOutline();
-            item.overlay.classList.remove('visible');
-            this.enableWriterQuiz(item);
-          }
-        } finally {
-          this.store.setHintState('idle');
+        const pending = this.writers.filter(item => !item.completed);
+        for (const item of pending) {
+          item.overlay.classList.add('visible');
+          item.instance.hideCharacter();
+          item.instance.showOutline();
+          await item.instance.animateCharacter();
+          item.instance.hideCharacter();
+          item.instance.hideOutline();
+          item.overlay.classList.remove('visible');
+          this.enableWriterQuiz(item);
         }
+        this.store.setHintState('idle');
       }
 
       playAudio(question) {
@@ -1266,6 +1295,7 @@
           statQuestionTotal: document.getElementById('stat-question-total'),
           statComplete: document.getElementById('stat-complete'),
           statSource: document.getElementById('stat-source'),
+          lessonSelect: document.getElementById('lesson-select'),
           btnAudio: document.getElementById('btn-audio'),
           btnHint: document.getElementById('btn-hint'),
           btnReset: document.getElementById('btn-reset'),
@@ -1301,7 +1331,8 @@
           showHint: async () => this.quizView.showHint(),
           resetQuestion: () => this.quizView.resetQuestion(this.store.currentQuestion),
           nextQuestion: () => this.nextQuestion(),
-          backHome: () => this.backToHome()
+          backHome: () => this.backToHome(),
+          changeLesson: lesson => this.changeLesson(lesson)
         });
       }
 
@@ -1327,6 +1358,7 @@
         }
         const packs = result.packs || [];
         this.store.setPacks(packs, result.actualMode || mode);
+        this.store.setSelectedLesson('');
         this.store.setSelectedPackIds(packs.map(pack => pack.id));
         this.selectionView.renderPacks(packs);
         this.els.setupNote.textContent = this.buildLoadSummary(note || '題庫已更新。', result);
@@ -1338,6 +1370,7 @@
           this.els.setupNote.textContent = '請至少勾選一個版本後再開始。';
           return;
         }
+        this.store.setSelectedLesson('');
         this.store.buildMergedQuestions();
         if (!this.store.state.mergedQuestions.length) {
           this.els.setupNote.textContent = '選取的版本沒有有效題目。';
@@ -1367,6 +1400,19 @@
         if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
       }
 
+      changeLesson(lesson) {
+        this.quizView.clearAutoNext();
+        this.store.applyLessonFilter(lesson);
+        if (!this.store.state.mergedQuestions.length) {
+          this.els.msg.textContent = '目前課次沒有可作答題目。';
+          this.els.question.textContent = '請改選其他課次';
+          this.els.writersContainer.innerHTML = '';
+          return;
+        }
+        this.renderCurrentQuestion();
+        if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
+      }
+
       finishQuiz() {
         this.store.setMode('finished');
         this.els.msg.textContent = '全部完成，已回到首頁。';
@@ -1380,6 +1426,8 @@
         this.store.setMode('setup');
         this.store.setAudioState('idle');
         this.store.setHintState('idle');
+        this.store.setSelectedLesson('');
+        this.els.lessonSelect.value = '';
         this.els.quizPanel.classList.add('hidden');
         this.els.quizDock.classList.add('hidden');
         this.els.setupPanel.classList.remove('hidden');
