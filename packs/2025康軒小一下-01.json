@@ -1,0 +1,331 @@
+{
+  "id": "20252011",
+  "title": "2025年小一下康軒版",
+  "year": "2025",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "1",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202520110101",
+      "examPhase": "midterm_before",
+      "readText": "我要靜靜的看",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110102",
+      "examPhase": "midterm_before",
+      "readText": "看天空",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202520110103",
+      "examPhase": "midterm_before",
+      "readText": "看白雲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110104",
+      "examPhase": "midterm_before",
+      "readText": "看蟲鳥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110105",
+      "examPhase": "midterm_before",
+      "readText": "看完了再去玩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110106",
+      "examPhase": "midterm_before",
+      "readText": "我先看白雲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110107",
+      "examPhase": "midterm_before",
+      "readText": "小鳥在天空飛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202520110108",
+      "examPhase": "midterm_before",
+      "readText": "草地上有小蟲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110109",
+      "examPhase": "midterm_before",
+      "readText": "先喝水再去玩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110110",
+      "examPhase": "midterm_before",
+      "readText": "天空的雲真美",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    }
+  ]
+}

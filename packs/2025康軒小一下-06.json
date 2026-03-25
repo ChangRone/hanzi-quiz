@@ -1,0 +1,401 @@
+{
+  "id": "20252011",
+  "title": "2025年小一下康軒版",
+  "year": "2025",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "1",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202520110601",
+      "examPhase": "midterm_before",
+      "readText": "奶奶起床了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "床",
+          "zhuyin": "ㄔㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202520110602",
+      "examPhase": "midterm_before",
+      "readText": "弟弟跟著奶奶",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110603",
+      "examPhase": "midterm_before",
+      "readText": "她也一起澆水",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "她",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "澆",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110604",
+      "examPhase": "midterm_before",
+      "readText": "弟弟玩家家酒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110605",
+      "examPhase": "midterm_before",
+      "readText": "他拿出卡片給奶奶",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "卡",
+          "zhuyin": "ㄎㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110606",
+      "examPhase": "midterm_before",
+      "readText": "我喜歡和您在一起",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "喜",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "歡",
+          "zhuyin": "ㄏㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "您",
+          "zhuyin": "ㄋㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110607",
+      "examPhase": "midterm_before",
+      "readText": "我寫卡片給您",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "卡",
+          "zhuyin": "ㄎㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "您",
+          "zhuyin": "ㄋㄧㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110608",
+      "examPhase": "midterm_before",
+      "readText": "我們都是好朋友",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": ""
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110609",
+      "examPhase": "midterm_before",
+      "readText": "小跟班真可愛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "班",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110610",
+      "examPhase": "midterm_before",
+      "readText": "弟弟拿著卡片",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "卡",
+          "zhuyin": "ㄎㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ]
+    }
+  ]
+}

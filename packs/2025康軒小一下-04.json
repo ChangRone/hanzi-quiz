@@ -1,0 +1,376 @@
+{
+  "id": "20252011",
+  "title": "2025年小一下康軒版",
+  "year": "2025",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "1",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202520110401",
+      "examPhase": "midterm_before",
+      "readText": "我回家把鞋脫下",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "脫",
+          "zhuyin": "ㄊㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110402",
+      "examPhase": "midterm_before",
+      "readText": "爸爸也把鞋脫下",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "脫",
+          "zhuyin": "ㄊㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110403",
+      "examPhase": "midterm_before",
+      "readText": "鞋靠在一起",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110404",
+      "examPhase": "midterm_before",
+      "readText": "說著一天的見聞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110405",
+      "examPhase": "midterm_before",
+      "readText": "鞋像小小的船",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110406",
+      "examPhase": "midterm_before",
+      "readText": "船回到港口",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "港",
+          "zhuyin": "ㄍㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110407",
+      "examPhase": "midterm_before",
+      "readText": "家裡真溫暖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110408",
+      "examPhase": "midterm_before",
+      "readText": "享受回家的快樂",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "享",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄩㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110409",
+      "examPhase": "midterm_before",
+      "readText": "爸爸回家了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202520110410",
+      "examPhase": "midterm_before",
+      "readText": "小鞋放門口",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        }
+      ]
+    }
+  ]
+}

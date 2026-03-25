@@ -1,0 +1,361 @@
+{
+  "id": "20252011",
+  "title": "2025年小一下康軒版",
+  "year": "2025",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "1",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202520110501",
+      "examPhase": "midterm_before",
+      "readText": "我種下小種子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": ""
+        }
+      ]
+    },
+    {
+      "id": "202520110502",
+      "examPhase": "midterm_before",
+      "readText": "我要怎麼做",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怎",
+          "zhuyin": "ㄗㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "麼",
+          "zhuyin": "ㄇㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110503",
+      "examPhase": "midterm_before",
+      "readText": "它才會長大",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "它",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110504",
+      "examPhase": "midterm_before",
+      "readText": "它需要水",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "它",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110505",
+      "examPhase": "midterm_before",
+      "readText": "於是我們一起澆水",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "於",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": ""
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "澆",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110506",
+      "examPhase": "midterm_before",
+      "readText": "陽光照進院子",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": ""
+        }
+      ]
+    },
+    {
+      "id": "202520110507",
+      "examPhase": "midterm_before",
+      "readText": "把它放在院子裡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "它",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": ""
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110508",
+      "examPhase": "midterm_before",
+      "readText": "我問外公",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": ""
+        },
+        {
+          "type": "blank",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202520110509",
+      "examPhase": "midterm_before",
+      "readText": "和它說說話",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "它",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110510",
+      "examPhase": "midterm_before",
+      "readText": "有陪伴就不怕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "陪",
+          "zhuyin": ""
+        },
+        {
+          "type": "blank",
+          "char": "伴",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": ""
+        },
+        {
+          "type": "text",
+          "char": "怕",
+          "zhuyin": ""
+        }
+      ]
+    }
+  ]
+}

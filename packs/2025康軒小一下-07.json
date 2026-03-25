@@ -1,0 +1,401 @@
+{
+  "id": "20252011",
+  "title": "2025年小一下康軒版",
+  "year": "2025",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "1",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202520110701",
+      "examPhase": "midterm_before",
+      "readText": "白雲躺著作夢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "躺",
+          "zhuyin": "ㄊㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "夢",
+          "zhuyin": "ㄇㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110702",
+      "examPhase": "midterm_before",
+      "readText": "夢到自己變成棉花糖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夢",
+          "zhuyin": "ㄇㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "棉",
+          "zhuyin": "ㄇㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "糖",
+          "zhuyin": "ㄊㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110703",
+      "examPhase": "midterm_before",
+      "readText": "黑雲變成黑天鵝",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "鵝",
+          "zhuyin": "ㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110704",
+      "examPhase": "midterm_before",
+      "readText": "作夢的雲真漂亮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "夢",
+          "zhuyin": "ㄇㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "漂",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110705",
+      "examPhase": "midterm_before",
+      "readText": "把天空變得更好玩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110706",
+      "examPhase": "midterm_before",
+      "readText": "我也會作夢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "夢",
+          "zhuyin": "ㄇㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110707",
+      "examPhase": "midterm_before",
+      "readText": "棉花糖好甜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "棉",
+          "zhuyin": "ㄇㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "糖",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "甜",
+          "zhuyin": "ㄊㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110708",
+      "examPhase": "midterm_before",
+      "readText": "黑天鵝真美",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "鵝",
+          "zhuyin": "ㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110709",
+      "examPhase": "midterm_before",
+      "readText": "自己動手更好",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": ""
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": ""
+        },
+        {
+          "type": "blank",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110710",
+      "examPhase": "midterm_before",
+      "readText": "天空變得更亮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    }
+  ]
+}

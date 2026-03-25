@@ -1,0 +1,361 @@
+{
+  "id": "20252011",
+  "title": "2025年小一下康軒版",
+  "year": "2025",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "1",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202520110201",
+      "examPhase": "midterm_before",
+      "readText": "你有沒有聽到",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202520110202",
+      "examPhase": "midterm_before",
+      "readText": "小鳥正唱著歌",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "唱",
+          "zhuyin": "ㄔㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "歌",
+          "zhuyin": "ㄍㄜ"
+        }
+      ]
+    },
+    {
+      "id": "202520110203",
+      "examPhase": "midterm_before",
+      "readText": "輕快的歌聲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "歌",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202520110204",
+      "examPhase": "midterm_before",
+      "readText": "小草長出了新芽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "芽",
+          "zhuyin": "ㄧㄚˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110205",
+      "examPhase": "midterm_before",
+      "readText": "花園裡有什麼呢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "什",
+          "zhuyin": "ㄕㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "麼",
+          "zhuyin": "ㄇㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "呢",
+          "zhuyin": "ㄋㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202520110206",
+      "examPhase": "midterm_before",
+      "readText": "我沒聽清楚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202520110207",
+      "examPhase": "midterm_before",
+      "readText": "花園裡真香",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202520110208",
+      "examPhase": "midterm_before",
+      "readText": "新芽冒出來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "芽",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "冒",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110209",
+      "examPhase": "midterm_before",
+      "readText": "小狗聞一聞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "狗",
+          "zhuyin": "ㄍㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202520110210",
+      "examPhase": "midterm_before",
+      "readText": "身上香香的",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    }
+  ]
+}
