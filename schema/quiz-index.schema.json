@@ -1,15 +1,55 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "QuizIndexSchemaV1",
+  "title": "QuizIndexSchemaV1_5",
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id", "title", "version", "dataUrl"],
+    "required": [
+      "id",
+      "title",
+      "version",
+      "dataUrl"
+    ],
     "properties": {
-      "id": { "type": "string", "pattern": "^[0-9]{8}$" },
-      "title": { "type": "string", "minLength": 1 },
-      "version": { "type": "string", "minLength": 1 },
-      "dataUrl": { "type": "string", "minLength": 1 }
+      "id": {
+        "type": "string",
+        "pattern": "^[0-9]{8}$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "version": {
+        "type": "string",
+        "minLength": 1
+      },
+      "dataUrl": {
+        "type": "string",
+        "minLength": 1
+      },
+      "lessonPattern": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": ".*\\{LL\\}.*"
+      },
+      "lessonRange": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 99
+        }
+      }
+    },
+    "dependentRequired": {
+      "lessonPattern": [
+        "lessonRange"
+      ],
+      "lessonRange": [
+        "lessonPattern"
+      ]
     }
   }
 }
