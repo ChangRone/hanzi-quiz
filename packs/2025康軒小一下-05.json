@@ -35,12 +35,12 @@
         {
           "type": "blank",
           "char": "種",
-          "zhuyin": "ㄓㄨㄥˋ"
+          "zhuyin": "ㄓㄨㄥˇ"
         },
         {
           "type": "text",
           "char": "子",
-          "zhuyin": ""
+          "zhuyin": "ㄗˇ"
         }
       ]
     },
@@ -148,7 +148,7 @@
         {
           "type": "text",
           "char": "是",
-          "zhuyin": ""
+          "zhuyin": "ㄕˋ"
         },
         {
           "type": "text",
@@ -215,7 +215,7 @@
         {
           "type": "text",
           "char": "子",
-          "zhuyin": ""
+          "zhuyin": "ㄗˇ"
         }
       ]
     },
@@ -252,7 +252,7 @@
         {
           "type": "text",
           "char": "子",
-          "zhuyin": ""
+          "zhuyin": "ㄗˇ"
         },
         {
           "type": "text",
@@ -279,7 +279,7 @@
         {
           "type": "text",
           "char": "外",
-          "zhuyin": ""
+          "zhuyin": "ㄨㄞˋ"
         },
         {
           "type": "blank",
@@ -333,7 +333,7 @@
         {
           "type": "text",
           "char": "陪",
-          "zhuyin": ""
+          "zhuyin": "ㄆㄟˊ"
         },
         {
           "type": "blank",
@@ -348,12 +348,12 @@
         {
           "type": "text",
           "char": "不",
-          "zhuyin": ""
+          "zhuyin": "ㄅㄨˊ"
         },
         {
           "type": "text",
           "char": "怕",
-          "zhuyin": ""
+          "zhuyin": "ㄆㄚˋ"
         }
       ]
     }
