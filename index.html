@@ -1004,23 +1004,28 @@
           leniency: 1
         });
 
-        writer.quiz({
-          onComplete: summary => {
-            box.classList.remove('wrong');
-            box.classList.add('correct');
-            writer.hideOutline();
-            const target = this.writers.find(item => item.boxId === writerId);
-            if (target) target.completed = true;
+        const item = { boxId: writerId, instance: writer, overlay, box, completed: false };
+        this.enableWriterQuiz(item);
+
+        this.resizeObserver.observe(box);
+        this.writers.push(item);
+      }
+
+      enableWriterQuiz(item) {
+        if (!item || item.completed) return;
+        item.instance.quiz({
+          onComplete: () => {
+            item.box.classList.remove('wrong');
+            item.box.classList.add('correct');
+            item.instance.hideOutline();
+            item.completed = true;
             this.updateCompleteStat();
           },
           onMistake: () => {
-            box.classList.add('wrong');
-            setTimeout(() => box.classList.remove('wrong'), 500);
+            item.box.classList.add('wrong');
+            setTimeout(() => item.box.classList.remove('wrong'), 500);
           }
         });
-
-        this.resizeObserver.observe(box);
-        this.writers.push({ boxId: writerId, instance: writer, overlay, completed: false });
       }
 
       async showHint() {
@@ -1036,6 +1041,7 @@
             item.instance.hideCharacter();
             item.instance.hideOutline();
             item.overlay.classList.remove('visible');
+            this.enableWriterQuiz(item);
           }
         } finally {
           this.store.setHintState('idle');
