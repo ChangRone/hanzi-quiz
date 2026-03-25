@@ -1144,38 +1144,48 @@
           leniency: 1
         });
 
-        writer.quiz({
-          onComplete: summary => {
-            box.classList.remove('wrong');
-            box.classList.add('correct');
-            writer.hideOutline();
-            const target = this.writers.find(item => item.boxId === writerId);
-            if (target) target.completed = true;
+        const item = { boxId: writerId, instance: writer, overlay, box, completed: false };
+        this.enableWriterQuiz(item);
+
+        this.resizeObserver.observe(box);
+        this.writers.push(item);
+      }
+
+      enableWriterQuiz(item) {
+        if (!item || item.completed) return;
+        item.instance.quiz({
+          onComplete: () => {
+            item.box.classList.remove('wrong');
+            item.box.classList.add('correct');
+            item.instance.hideOutline();
+            item.completed = true;
             this.updateCompleteStat();
           },
           onMistake: () => {
-            box.classList.add('wrong');
-            setTimeout(() => box.classList.remove('wrong'), 500);
+            item.box.classList.add('wrong');
+            setTimeout(() => item.box.classList.remove('wrong'), 500);
           }
         });
-
-        this.resizeObserver.observe(box);
-        this.writers.push({ boxId: writerId, instance: writer, overlay, completed: false });
       }
 
       async showHint() {
         if (this.store.state.hintState === 'showing') return;
         this.store.setHintState('showing');
-        for (const item of this.writers) {
-          item.overlay.classList.add('visible');
-          item.instance.hideCharacter();
-          item.instance.showOutline();
-          await item.instance.animateCharacter();
-          item.instance.hideCharacter();
-          item.instance.hideOutline();
-          item.overlay.classList.remove('visible');
+        const pendingWriters = this.writers.filter(item => !item.completed);
+        try {
+          for (const item of pendingWriters) {
+            item.overlay.classList.add('visible');
+            item.instance.hideCharacter();
+            item.instance.showOutline();
+            await item.instance.animateCharacter();
+            item.instance.hideCharacter();
+            item.instance.hideOutline();
+            item.overlay.classList.remove('visible');
+            this.enableWriterQuiz(item);
+          }
+        } finally {
+          this.store.setHintState('idle');
         }
-        this.store.setHintState('idle');
       }
 
       playAudio(question) {
