@@ -68,7 +68,7 @@
     }
     .source-actions { grid-template-columns: repeat(3, 1fr); margin-bottom: 14px; }
     .setup-controls { grid-template-columns: 1fr 1fr 1.3fr; margin-top: 14px; }
-    .controls { grid-template-columns: 1fr 1fr; margin-top: 15px; }
+    .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 0; }
     .filters {
       border: 1px solid #e5e7eb;
       border-radius: 16px;
@@ -226,6 +226,25 @@
     .quiz-meta-top {
       margin-bottom: 14px;
     }
+    .quiz-toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 12px;
+      align-items: start;
+    }
+    .lesson-picker {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 10px 12px;
+    }
+    .lesson-picker label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 800;
+      color: var(--subtle);
+      margin-bottom: 6px;
+    }
     .stats {
       display: flex;
       justify-content: center;
@@ -268,7 +287,7 @@
       outline: none;
     }
     .quiz-bottom-space {
-      min-height: 176px;
+      min-height: 132px;
       white-space: pre-line;
       color: transparent;
       user-select: none;
@@ -291,14 +310,20 @@
       border-radius: 22px;
       padding: 10px;
     }
+    .quiz-dock .controls button {
+      min-height: 58px;
+      padding: 12px 14px;
+    }
     @media (max-width: 900px) {
       .filter-grid { grid-template-columns: repeat(2, 1fr); }
+      .quiz-toolbar { grid-template-columns: 1fr; }
     }
     @media (max-width: 720px) {
       .source-actions, .setup-controls { grid-template-columns: 1fr; }
     }
     @media (max-width: 480px) {
-      .filter-grid, .controls { grid-template-columns: 1fr; }
+      .filter-grid { grid-template-columns: 1fr; }
+      .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       #question { font-size: 1.72rem; }
       body { padding-bottom: 128px; }
     }
@@ -534,6 +559,19 @@
 
     function escapeHtml(text) {
       return String(text).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
+    }
+
+
+    function getQuestionLessonCode(question) {
+      const rawId = String(question && question.id || '').trim();
+      if (!/^\d{12}$/.test(rawId)) return '';
+      return rawId.slice(8, 10);
+    }
+
+    function formatLessonLabel(code) {
+      const lessonCode = String(code || '').trim();
+      if (!lessonCode) return '全部課次';
+      return `第 ${lessonCode.padStart(2, '0')} 課`;
     }
 
     function readJsonFile(file) {
@@ -1337,11 +1375,12 @@
       }
 
       buildLoadSummary(note, result) {
-        const report = result.report || { successIds: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定' };
+        const report = result.report || { successIds: [], loadedLessonFiles: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定' };
         const lines = [];
         if (note) lines.push(note);
         lines.push(`實際來源：${result.actualMode}`);
         lines.push(`成功 pack id：${report.successIds.length ? report.successIds.join(', ') : '無'}`);
+        lines.push(`已載入課檔：${report.loadedLessonFiles && report.loadedLessonFiles.length ? report.loadedLessonFiles.join(', ') : '無'}`);
         lines.push(`失敗 pack：${report.failed.length ? report.failed.map(item => `${item.id}（${item.reason}）`).join('；') : '無'}`);
         lines.push(`是否退回預設：${report.usedFallback ? '是' : '否'}`);
         lines.push(`schema-config：${report.schemaStatus || '沿用目前設定'}`);
