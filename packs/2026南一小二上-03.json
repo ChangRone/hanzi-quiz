@@ -1,0 +1,38 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600200301",
+      "examPhase": "midterm_before",
+      "readText": "今天一起去上學",
+      "tokens": [
+        { "type": "text", "char": "今", "zhuyin": "ㄐㄧㄣ" },
+        { "type": "blank", "char": "天", "zhuyin": "ㄊㄧㄢ" },
+        { "type": "text", "char": "一", "zhuyin": "ㄧˋ" },
+        { "type": "text", "char": "起", "zhuyin": "ㄑㄧˇ" },
+        { "type": "text", "char": "去", "zhuyin": "ㄑㄩˋ" },
+        { "type": "text", "char": "上", "zhuyin": "ㄕㄤˋ" },
+        { "type": "text", "char": "學", "zhuyin": "ㄒㄩㄝˊ" }
+      ]
+    },
+    {
+      "id": "202600200302",
+      "examPhase": "midterm_before",
+      "readText": "我喜歡寫功課",
+      "tokens": [
+        { "type": "blank", "char": "我", "zhuyin": "ㄨㄛˇ" },
+        { "type": "text", "char": "喜", "zhuyin": "ㄒㄧˇ" },
+        { "type": "text", "char": "歡", "zhuyin": "ㄏㄨㄢ" },
+        { "type": "text", "char": "寫", "zhuyin": "ㄒㄧㄝˇ" },
+        { "type": "text", "char": "功", "zhuyin": "ㄍㄨㄥ" },
+        { "type": "text", "char": "課", "zhuyin": "ㄎㄜˋ" }
+      ]
+    }
+  ]
+}
