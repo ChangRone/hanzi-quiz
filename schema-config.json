@@ -1,0 +1,16 @@
+{
+  "publisherCodeMap": {
+    "0": "南一",
+    "1": "翰林",
+    "2": "康軒"
+  },
+  "semesterCodeMap": {
+    "0": "上學期",
+    "1": "下學期"
+  },
+  "examPhaseMap": {
+    "midterm_before": "期中前",
+    "midterm_after": "期中後",
+    "final_before": "期末前"
+  }
+}

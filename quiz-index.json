@@ -1,24 +1,14 @@
 [
   {
-    "id": "nani_2026_g1_s1",
-    "title": "2026年小一上南一版",
-    "tags": [
-      "2026年",
-      "小一上",
-      "南一版"
-    ],
+    "id": "20260020",
+    "title": "2026年小二上南一版",
     "version": "1.0.0",
-    "dataUrl": "packs/nani_2026_g1_s1.json"
+    "dataUrl": "packs/20260020.json"
   },
   {
-    "id": "hanlin_2025_g1_s2",
-    "title": "2025年小一下翰林版",
-    "tags": [
-      "2025年",
-      "小一下",
-      "翰林版"
-    ],
+    "id": "20251021",
+    "title": "2025年小二下翰林版",
     "version": "1.0.0",
-    "dataUrl": "packs/hanlin_2025_g1_s2.json"
+    "dataUrl": "packs/20251021.json"
   }
 ]
