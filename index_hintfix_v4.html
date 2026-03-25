@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>漢字聽寫練習</title>
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+  <style>
+    :root {
+      --bg: #f3f4f6;
+      --card: #ffffff;
+      --text: #1f2937;
+      --subtle: #6b7280;
+      --border: #d1d5db;
+      --primary: #5ba1ff;
+      --secondary: #fc9e49;
+      --success: #16a34a;
+      --error: #ef4444;
+      --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Bopomofo Ruby", "Microsoft JhengHei", "PingFang TC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 15px 12px 96px;
+    }
+    code { background: #eef2ff; border-radius: 8px; padding: 2px 6px; }
+    .app { max-width: 980px; margin: 0 auto; }
+    .panel {
+      background: var(--card);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      padding: 20px 16px;
+      margin-bottom: 14px;
+    }
+    .hidden { display: none !important; }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+    .title { font-size: 1.15rem; font-weight: 800; }
+    .badge {
+      background: #e0e7ff;
+      color: #4338ca;
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 0.95rem;
+      font-weight: 800;
+    }
+    .setup-title { font-size: 1.02rem; font-weight: 800; margin-bottom: 8px; }
+    .setup-subtle, .footer-note {
+      font-size: 0.92rem;
+      color: var(--subtle);
+      line-height: 1.55;
+      margin-bottom: 14px;
+      white-space: pre-line;
+    }
+    .source-actions, .setup-controls, .controls {
+      display: grid;
+      gap: 10px;
+    }
+    .source-actions { grid-template-columns: repeat(3, 1fr); margin-bottom: 14px; }
+    .setup-controls { grid-template-columns: 1fr 1fr 1.3fr; margin-top: 14px; }
+    .controls { grid-template-columns: 1fr 1fr; margin-top: 15px; }
+    .filters {
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 14px;
+      background: #f8fafc;
+      margin-bottom: 14px;
+    }
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .filter-field label {
+      display: block;
+      font-size: 0.86rem;
+      color: var(--subtle);
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    select, button {
+      width: 100%;
+      border-radius: 999px;
+      font-size: 1rem;
+      padding: 14px 16px;
+      font-weight: 800;
+    }
+    select {
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--text);
+      appearance: none;
+    }
+    button {
+      border: none;
+      cursor: pointer;
+      transition: transform 0.1s ease, filter 0.2s ease;
+    }
+    button:active { transform: scale(0.98); filter: brightness(0.96); }
+    button:disabled { cursor: not-allowed; opacity: 0.65; }
+    .btn-plain { background: #f1f5f9; color: #475569; }
+    .btn-hint { background: var(--primary); color: white; }
+    .btn-next, .btn-start { background: var(--secondary); color: white; }
+    .pack-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .pack-card {
+      border: 2px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 12px;
+      background: white;
+      cursor: pointer;
+      transition: 0.18s ease;
+    }
+    .pack-card:hover { border-color: #c7d2fe; background: #fafbff; }
+    .pack-card.selected { border-color: var(--primary); background: #f5f9ff; }
+    .pack-head { display: flex; gap: 10px; align-items: flex-start; }
+    .pack-title { font-size: 1rem; font-weight: 800; line-height: 1.4; }
+    .pack-meta { margin-top: 6px; font-size: 0.88rem; color: var(--subtle); line-height: 1.55; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      background: #eef2ff;
+      color: #4338ca;
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+    .empty-state {
+      text-align: center;
+      padding: 20px 14px;
+      border: 1px dashed #cbd5e1;
+      border-radius: 16px;
+      color: var(--subtle);
+      background: #fafafa;
+    }
+    .question-wrap {
+      text-align: center;
+      margin-bottom: 18px;
+      background: #f8fafc;
+      padding: 16px;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+    }
+    .question-label {
+      color: var(--subtle);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+    #question { font-size: 2.15rem; line-height: 2; font-weight: 800; min-height: 3em; }
+    ruby { ruby-position: over; ruby-align: center; margin: 0 3px; }
+    rt { font-size: 0.4em; color: var(--subtle); user-select: none; }
+    .blank-char {
+      display: inline-block;
+      min-width: 1.2em;
+      border-bottom: 4px solid var(--subtle);
+      margin: 0 4px;
+      line-height: 1;
+    }
+    .writers {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .writer-card {
+      flex: 1 1 200px;
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .writer-index { font-size: 1rem; color: var(--subtle); margin-bottom: 8px; font-weight: 800; }
+    .writer-box {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border: 3px solid var(--border);
+      border-radius: 16px;
+      background: #fff;
+      overflow: hidden;
+      touch-action: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+      background-image:
+        linear-gradient(to right, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px)),
+        linear-gradient(to bottom, transparent calc(50% - 1px), #e2e8f0 calc(50% - 1px), #e2e8f0 calc(50% + 1px), transparent calc(50% + 1px));
+    }
+    .writer-box.correct { border-color: var(--success); background: #f0fff4; }
+    .writer-box.wrong { border-color: var(--error); }
+    .hint-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      background: rgba(255,255,255,0.08);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      border-radius: 13px;
+      pointer-events: none;
+    }
+    .hint-overlay.visible { opacity: 1; }
+    .message {
+      text-align: center;
+      font-size: 1.08rem;
+      font-weight: 800;
+      color: var(--subtle);
+      margin: 15px 0;
+      min-height: 1.5em;
+    }
+    .quiz-meta-top {
+      margin-bottom: 14px;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 8px 0 16px;
+    }
+    .stat {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #475569;
+    }
+    .writers-stage {
+      position: relative;
+    }
+    .btn-back-home-quiet {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 12;
+      border: none;
+      background: rgba(255,255,255,0.72);
+      color: #64748b;
+      border-radius: 999px;
+      padding: 6px 8px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      opacity: 0.22;
+      cursor: pointer;
+      transition: opacity 0.18s ease, transform 0.18s ease;
+    }
+    .btn-back-home-quiet:hover,
+    .btn-back-home-quiet:focus-visible {
+      opacity: 0.88;
+      transform: translateY(-1px);
+      outline: none;
+    }
+    .quiz-bottom-space {
+      min-height: 176px;
+      white-space: pre-line;
+      color: transparent;
+      user-select: none;
+    }
+    .quiz-dock {
+      position: fixed;
+      left: 50%;
+      bottom: 12px;
+      transform: translateX(-50%);
+      width: min(720px, calc(100vw - 24px));
+      pointer-events: none;
+      z-index: 30;
+    }
+    .quiz-dock-inner {
+      pointer-events: auto;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid rgba(226,232,240,0.9);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      border-radius: 22px;
+      padding: 10px;
+    }
+    @media (max-width: 900px) {
+      .filter-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 720px) {
+      .source-actions, .setup-controls { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 480px) {
+      .filter-grid, .controls { grid-template-columns: 1fr; }
+      #question { font-size: 1.72rem; }
+      body { padding-bottom: 128px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="panel" id="setup-panel">
+      <div class="topbar">
+        <div class="title">選擇要匯入的版本</div>
+        <div class="badge" id="setup-badge">題庫載入中</div>
+      </div>
+
+      <div class="setup-title">支援 GitHub / 同結構網站 / 本機資料夾 / 內建預設</div>
+      <div class="setup-subtle">
+        遠端模式會讀取目前網站的 <code>quiz-index.json</code> 與 <code>packs/*.json</code>；<br>
+        本機模式可在直接雙擊 HTML 時，改用資料夾選取來匯入；<br>
+        內建預設可作為最後 fallback，也方便離線示範。
+      </div>
+
+      <div class="source-actions">
+        <button class="btn-plain" type="button" id="btn-reload-remote">從 GitHub / 目前網站重新讀取</button>
+        <button class="btn-plain" type="button" id="btn-load-local">從本機資料夾載入</button>
+        <button class="btn-plain" type="button" id="btn-load-fallback">改用內建預設題庫</button>
+      </div>
+      <input id="local-folder-input" class="hidden" type="file" webkitdirectory directory multiple accept=".json" />
+
+      <div class="filters">
+        <div class="setup-title">進階分類篩選</div>
+        <div class="setup-subtle" style="margin-bottom:0;">先用固定欄位篩選，不靠自由 tags。可快速縮小版本範圍，再勾選要匯入的 pack。</div>
+        <div class="filter-grid">
+          <div class="filter-field">
+            <label for="filter-year">年份</label>
+            <select id="filter-year"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-publisher">版本</label>
+            <select id="filter-publisher"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-grade">年級</label>
+            <select id="filter-grade"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-semester">學期</label>
+            <select id="filter-semester"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-phase">範圍</label>
+            <select id="filter-phase"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class="pack-list" id="pack-list"></div>
+
+      <div class="setup-controls">
+        <button class="btn-plain" type="button" id="btn-select-all">全選目前篩選結果</button>
+        <button class="btn-plain" type="button" id="btn-clear-all">清除全部勾選</button>
+        <button class="btn-start" type="button" id="btn-start-import">開始匯入並作答</button>
+      </div>
+
+      <div class="footer-note" id="setup-note">系統啟動時會先嘗試遠端題庫，失敗再退回內建預設題庫。</div>
+    </div>
+
+    <div class="panel hidden" id="quiz-panel">
+      <div class="topbar">
+        <div class="title">聽寫練習</div>
+        <div class="badge" id="progress-badge">第 1 / 1 題</div>
+      </div>
+
+      <div class="quiz-meta-top">
+        <div class="stats">
+          <div class="stat" id="stat-loaded-packs">已載入版本：0</div>
+          <div class="stat" id="stat-question-total">題數：0</div>
+          <div class="stat" id="stat-complete">本題完成：0 / 0</div>
+          <div class="stat" id="stat-source">來源：remote</div>
+        </div>
+      </div>
+
+      <div class="question-wrap">
+        <div class="question-label">請先聽整句，再把空格中的字寫在下方大格子</div>
+        <div id="question">載入中...</div>
+      </div>
+
+      <div class="writers-stage">
+        <button class="btn-back-home-quiet" type="button" id="btn-back-home" aria-label="返回首頁">⌂</button>
+        <div class="writers" id="writers"></div>
+      </div>
+      <div class="message" id="message">準備開始</div>
+      <div class="quiz-bottom-space" aria-hidden="true">
+
+
+
+
+
+</div>
+
+      <div class="footer-note">Writer id 固定為 <code>writer-{packId}__{questionId}-blank-{index}</code>，方便未來做錯題記錄、除錯與自動驗證。</div>
+    </div>
+  </div>
+
+  <div class="quiz-dock hidden" id="quiz-dock">
+    <div class="quiz-dock-inner">
+      <div class="controls">
+        <button class="btn-plain" type="button" id="btn-audio">🔊 聽整句</button>
+        <button class="btn-plain" type="button" id="btn-reset">↺ 重寫</button>
+        <button class="btn-hint" type="button" id="btn-hint">💡 筆順提示</button>
+        <button class="btn-next" type="button" id="btn-next">下一題 ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const COLOR_PRIMARY = '#5ba1ff';
+    const COLOR_TEXT = '#111827';
+    const COLOR_OUTLINE = 'rgba(17, 24, 39, 0.18)';
+    const APP_CONFIG = { catalogUrl: 'quiz-index.json', autoPlayOnRender: true, autoNextDelayMs: 2000, speechRate: 0.85 };
+
+    const FALLBACK_PACKS = [
+      {
+        id: '20260020',
+        title: '2026年小二上南一版',
+        year: '2026',
+        publisherCode: '0',
+        grade: '02',
+        semester: '0',
+        version: '1.0.0',
+        questions: [
+          {
+            id: '202600200301',
+            examPhase: 'midterm_before',
+            readText: '今天一起去上學',
+            tokens: [
+              { type: 'text', char: '今', zhuyin: 'ㄐㄧㄣ' },
+              { type: 'blank', char: '天', zhuyin: 'ㄊㄧㄢ' },
+              { type: 'text', char: '一', zhuyin: 'ㄧˋ' },
+              { type: 'text', char: '起', zhuyin: 'ㄑㄧˇ' },
+              { type: 'text', char: '去', zhuyin: 'ㄑㄩˋ' },
+              { type: 'text', char: '上', zhuyin: 'ㄕㄤˋ' },
+              { type: 'text', char: '學', zhuyin: 'ㄒㄩㄝˊ' }
+            ]
+          },
+          {
+            id: '202600200302',
+            examPhase: 'midterm_before',
+            readText: '我喜歡寫功課',
+            tokens: [
+              { type: 'blank', char: '我', zhuyin: 'ㄨㄛˇ' },
+              { type: 'text', char: '喜', zhuyin: 'ㄒㄧˇ' },
+              { type: 'text', char: '歡', zhuyin: 'ㄏㄨㄢ' },
+              { type: 'text', char: '寫', zhuyin: 'ㄒㄧㄝˇ' },
+              { type: 'text', char: '功', zhuyin: 'ㄍㄨㄥ' },
+              { type: 'text', char: '課', zhuyin: 'ㄎㄜˋ' }
+            ]
+          }
+        ]
+      },
+      {
+        id: '20251021',
+        title: '2025年小二下翰林版',
+        year: '2025',
+        publisherCode: '1',
+        grade: '02',
+        semester: '1',
+        version: '1.0.0',
+        questions: [
+          {
+            id: '202510210401',
+            examPhase: 'midterm_after',
+            readText: '放學後一起回家',
+            tokens: [
+              { type: 'text', char: '放', zhuyin: 'ㄈㄤˋ' },
+              { type: 'text', char: '學', zhuyin: 'ㄒㄩㄝˊ' },
+              { type: 'text', char: '後', zhuyin: 'ㄏㄡˋ' },
+              { type: 'text', char: '一', zhuyin: 'ㄧˋ' },
+              { type: 'text', char: '起', zhuyin: 'ㄑㄧˇ' },
+              { type: 'blank', char: '回', zhuyin: 'ㄏㄨㄟˊ' },
+              { type: 'blank', char: '家', zhuyin: 'ㄐㄧㄚ' }
+            ]
+          }
+        ]
+      }
+    ];
+
+    const SCHEMA_CONFIG = {
+      publisherCodeMap: { '0': '南一', '1': '翰林', '2': '康軒' },
+      semesterCodeMap: { '0': '上學期', '1': '下學期' },
+      examPhaseMap: { midterm_before: '期中前', midterm_after: '期中後', final_before: '期末前' }
+    };
+
+    function deepClone(obj) {
+      return JSON.parse(JSON.stringify(obj));
+    }
+
+    function dedupePacksById(packs) {
+      const map = new Map();
+      packs.forEach(pack => {
+        if (pack && typeof pack.id === 'string' && !map.has(pack.id)) map.set(pack.id, pack);
+      });
+      return Array.from(map.values());
+    }
+
+    function escapeHtml(text) {
+      return String(text).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
+    }
+
+    function readJsonFile(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          try {
+            resolve(JSON.parse(reader.result));
+          } catch (err) {
+            reject(err);
+          }
+        };
+        reader.onerror = () => reject(reader.error || new Error('file read failed'));
+        reader.readAsText(file, 'utf-8');
+      });
+    }
+
+    class PackRepository {
+      constructor(config, schemaConfig) {
+        this.config = config;
+        this.schemaConfig = deepClone(schemaConfig);
+        this.defaultSchemaConfig = deepClone(schemaConfig);
+      }
+
+      normalizePath(path) {
+        return String(path || '')
+          .replace(/\\/g, '/')
+          .replace(/^\.\//, '')
+          .replace(/^\/+/, '')
+          .replace(/\/+/g, '/')
+          .trim();
+      }
+
+      createLocalFileIndexes(files) {
+        const exact = new Map();
+        const byName = new Map();
+        const normalizedEntries = [];
+        Array.from(files || []).forEach(file => {
+          const normalized = this.normalizePath(file.webkitRelativePath || file.name);
+          if (normalized) {
+            exact.set(normalized, file);
+            normalizedEntries.push([normalized, file]);
+          }
+          const name = String(file.name || '').trim();
+          if (name) byName.set(name, file);
+        });
+        return { exact, byName, normalizedEntries };
+      }
+
+      findLocalFile(candidatePath, indexes) {
+        const normalized = this.normalizePath(candidatePath);
+        if (!normalized) return null;
+        if (indexes.exact.has(normalized)) return indexes.exact.get(normalized);
+
+        const shortForms = [normalized];
+        if (normalized.includes('/')) shortForms.push(normalized.split('/').slice(-2).join('/'));
+        shortForms.push(normalized.split('/').pop());
+        for (const form of shortForms) {
+          if (indexes.exact.has(form)) return indexes.exact.get(form);
+          if (indexes.byName.has(form)) return indexes.byName.get(form);
+        }
+
+        const endings = shortForms.filter(Boolean);
+        for (const [path, file] of indexes.normalizedEntries) {
+          if (endings.some(ending => path.endsWith(ending))) return file;
+        }
+        return null;
+      }
+
+      mergeSchemaConfig(raw) {
+        const base = deepClone(this.defaultSchemaConfig);
+        if (!raw || typeof raw !== 'object') return base;
+        if (raw.publisherCodeMap && typeof raw.publisherCodeMap === 'object') {
+          base.publisherCodeMap = { ...base.publisherCodeMap, ...raw.publisherCodeMap };
+        }
+        if (raw.semesterCodeMap && typeof raw.semesterCodeMap === 'object') {
+          base.semesterCodeMap = { ...base.semesterCodeMap, ...raw.semesterCodeMap };
+        }
+        if (raw.examPhaseMap && typeof raw.examPhaseMap === 'object') {
+          base.examPhaseMap = { ...base.examPhaseMap, ...raw.examPhaseMap };
+        }
+        return base;
+      }
+
+      applySchemaConfig(schemaConfig) {
+        this.schemaConfig = this.mergeSchemaConfig(schemaConfig);
+        return this.schemaConfig;
+      }
+
+      async loadRemoteCatalog() {
+        const res = await fetch(this.config.catalogUrl, { cache: 'no-store' });
+        if (!res.ok) throw new Error('遠端索引讀取失敗');
+        const json = await res.json();
+        if (!Array.isArray(json)) throw new Error('遠端索引格式錯誤');
+        return json;
+      }
+
+      async loadRemotePacks() {
+        const catalog = await this.loadRemoteCatalog();
+        const report = { mode: 'remote', successIds: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定', schemaSource: 'current' };
+        const tasks = catalog.map(async item => {
+          try {
+            const res = await fetch(item.dataUrl, { cache: 'no-store' });
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const json = await res.json();
+            const pack = this.normalizePack({ ...json, id: json.id || item.id, title: json.title || item.title, version: json.version || item.version }, item.id, 'remote');
+            report.successIds.push(pack.id);
+            return pack;
+          } catch (err) {
+            report.failed.push({ id: String(item.id || '').trim() || 'unknown', reason: err.message || '讀取失敗' });
+            return null;
+          }
+        });
+        const results = await Promise.allSettled(tasks);
+        const packs = results.filter(r => r.status === 'fulfilled' && r.value).map(r => r.value);
+        const uniquePacks = dedupePacksById(packs);
+        report.successIds = uniquePacks.map(pack => pack.id);
+        if (!uniquePacks.length) {
+          const error = new Error('no valid remote packs');
+          error.report = report;
+          throw error;
+        }
+        return { packs: uniquePacks, report, schemaConfig: this.schemaConfig };
+      }
+
+      async loadLocalPacks(files) {
+        const jsonFiles = Array.from(files || []).filter(file => file.name.endsWith('.json'));
+        const report = { mode: 'local', successIds: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定', schemaSource: 'current' };
+        if (!jsonFiles.length) {
+          const error = new Error('找不到 JSON 檔');
+          error.report = report;
+          throw error;
+        }
+        const indexes = this.createLocalFileIndexes(jsonFiles);
+        const indexFile = this.findLocalFile('quiz-index.json', indexes);
+        if (!indexFile) {
+          const error = new Error('本機資料夾缺少 quiz-index.json');
+          error.report = report;
+          throw error;
+        }
+
+        const localSchemaFile = this.findLocalFile('config/schema-config.json', indexes);
+        if (localSchemaFile) {
+          try {
+            const schemaJson = await readJsonFile(localSchemaFile);
+            report.schemaStatus = '已套用本機 schema-config.json';
+            report.schemaSource = this.normalizePath(localSchemaFile.webkitRelativePath || localSchemaFile.name);
+            this.applySchemaConfig(schemaJson);
+          } catch (err) {
+            report.schemaStatus = `schema-config.json 讀取失敗：${err.message || '格式錯誤'}`;
+            report.schemaSource = 'current';
+            this.applySchemaConfig(this.defaultSchemaConfig);
+          }
+        } else {
+          this.applySchemaConfig(this.defaultSchemaConfig);
+          report.schemaStatus = '找不到本機 config/schema-config.json，沿用目前設定';
+        }
+
+        const catalog = await readJsonFile(indexFile);
+        if (!Array.isArray(catalog)) {
+          const error = new Error('本機索引格式錯誤');
+          error.report = report;
+          throw error;
+        }
+
+        const tasks = catalog.map(async item => {
+          const itemId = String(item.id || '').trim() || 'unknown';
+          try {
+            const dataUrl = item.dataUrl || '';
+            const packFile = this.findLocalFile(dataUrl, indexes) || this.findLocalFile(`packs/${itemId}.json`, indexes);
+            if (!packFile) throw new Error(`找不到對應檔案：${dataUrl || `packs/${itemId}.json`}`);
+            const packJson = await readJsonFile(packFile);
+            const pack = this.normalizePack({ ...packJson, id: packJson.id || item.id, title: packJson.title || item.title, version: packJson.version || item.version }, item.id, 'local');
+            report.successIds.push(pack.id);
+            return pack;
+          } catch (err) {
+            report.failed.push({ id: itemId, reason: err.message || '讀取失敗' });
+            return null;
+          }
+        });
+
+        const results = await Promise.allSettled(tasks);
+        const packs = results.filter(r => r.status === 'fulfilled' && r.value).map(r => r.value);
+        const uniquePacks = dedupePacksById(packs);
+        report.successIds = uniquePacks.map(pack => pack.id);
+        if (!uniquePacks.length) {
+          const error = new Error('no valid local packs');
+          error.report = report;
+          throw error;
+        }
+        return { packs: uniquePacks, report, schemaConfig: this.schemaConfig };
+      }
+
+      loadFallbackPacks() {
+        this.applySchemaConfig(this.defaultSchemaConfig);
+        return dedupePacksById(FALLBACK_PACKS.map(pack => this.normalizePack(deepClone(pack), pack.id, 'fallback')));
+      }
+
+      async loadPacksWithFallback(mode, localFiles = null) {
+        const fallbackResponse = (reason, report = null) => ({
+          packs: this.loadFallbackPacks(),
+          actualMode: 'fallback',
+          schemaConfig: this.schemaConfig,
+          report: {
+            mode,
+            successIds: report && Array.isArray(report.successIds) ? report.successIds : [],
+            failed: report && Array.isArray(report.failed) ? report.failed : [],
+            usedFallback: true,
+            fallbackReason: reason,
+            schemaStatus: report && report.schemaStatus ? report.schemaStatus : '已改用內建預設設定',
+            schemaSource: report && report.schemaSource ? report.schemaSource : 'fallback'
+          }
+        });
+
+        if (mode === 'fallback') {
+          return {
+            packs: this.loadFallbackPacks(),
+            actualMode: 'fallback',
+            schemaConfig: this.schemaConfig,
+            report: { mode: 'fallback', successIds: FALLBACK_PACKS.map(pack => pack.id), failed: [], usedFallback: false, schemaStatus: '已使用內建預設設定', schemaSource: 'fallback' }
+          };
+        }
+
+        try {
+          const result = mode === 'local' ? await this.loadLocalPacks(localFiles) : await this.loadRemotePacks();
+          return { ...result, actualMode: mode };
+        } catch (err) {
+          return fallbackResponse(err.message || '載入失敗', err.report || null);
+        }
+      }
+
+      normalizePack(raw, fallbackId = '', sourceType = 'remote') {
+        const questions = Array.isArray(raw.questions) ? raw.questions.filter(q => this.validateQuestion(q)) : [];
+        if (!questions.length) throw new Error(`pack ${fallbackId || raw.id} has no valid question`);
+        const pack = {
+          id: String(raw.id || fallbackId || '').trim(),
+          title: String(raw.title || '').trim(),
+          year: String(raw.year || '').trim(),
+          publisherCode: String(raw.publisherCode || '').trim(),
+          grade: String(raw.grade || '').trim(),
+          semester: String(raw.semester || '').trim(),
+          version: String(raw.version || '').trim() || '1.0.0',
+          sourceType,
+          questions: questions.map(q => ({
+            id: String(q.id),
+            examPhase: String(q.examPhase),
+            readText: String(q.readText),
+            tokens: q.tokens.map(token => ({ type: String(token.type), char: String(token.char), zhuyin: String(token.zhuyin || '') }))
+          }))
+        };
+        if (!/^\d{8}$/.test(pack.id)) throw new Error('invalid pack id');
+        return pack;
+      }
+
+      validateQuestion(q) {
+        if (!q || typeof q !== 'object') return false;
+        if (!/^\d{12}$/.test(String(q.id || ''))) return false;
+        if (!['midterm_before', 'midterm_after', 'final_before'].includes(String(q.examPhase || ''))) return false;
+        if (!Array.isArray(q.tokens) || !q.tokens.length) return false;
+        return q.tokens.every(token => token && ['text', 'blank'].includes(String(token.type || '')) && typeof token.char === 'string' && token.char.length === 1);
+      }
+
+      async loadPacksWithFallback(mode, localFiles = null) {
+        try {
+          if (mode === 'local') return await this.loadLocalPacks(localFiles);
+          if (mode === 'fallback') return this.loadFallbackPacks();
+          return await this.loadRemotePacks();
+        } catch (err) {
+          return this.loadFallbackPacks();
+        }
+      }
+    }
+
+    class SessionStore {
+      constructor() {
+        this.state = {
+          mode: 'setup',
+          questionState: 'writing',
+          audioState: 'idle',
+          hintState: 'idle',
+          sourceMode: 'remote',
+          packs: [],
+          selectedPackIds: [],
+          mergedQuestions: [],
+          currentQuestionIndex: 0
+        };
+      }
+      setPacks(packs, sourceMode) {
+        this.state.packs = dedupePacksById(packs);
+        this.state.sourceMode = sourceMode;
+      }
+      setSelectedPackIds(ids) {
+        this.state.selectedPackIds = Array.from(new Set(ids));
+      }
+      buildMergedQuestions() {
+        const selected = this.state.packs.filter(pack => this.state.selectedPackIds.includes(pack.id));
+        this.state.mergedQuestions = selected.flatMap(pack => pack.questions.map(question => ({ ...question, packId: pack.id, packTitle: pack.title, stableQuestionId: `${pack.id}__${question.id}` })));
+        this.state.currentQuestionIndex = 0;
+      }
+      setMode(mode) { this.state.mode = mode; }
+      setQuestionState(state) { this.state.questionState = state; }
+      setAudioState(state) { this.state.audioState = state; }
+      setHintState(state) { this.state.hintState = state; }
+      setCurrentQuestionIndex(index) { this.state.currentQuestionIndex = index; }
+      get currentQuestion() { return this.state.mergedQuestions[this.state.currentQuestionIndex] || null; }
+    }
+
+    class PackSelectionView {
+      constructor(store, schemaConfig, els, onStart) {
+        this.store = store;
+        this.schemaConfig = schemaConfig;
+        this.els = els;
+        this.onStart = onStart;
+        this.filterValues = { year: '', publisherCode: '', grade: '', semester: '', examPhase: '' };
+      }
+
+      bindEvents(handlers) {
+        this.els.btnSelectAll.addEventListener('click', () => this.selectAll());
+        this.els.btnClearAll.addEventListener('click', () => this.clearAll());
+        this.els.btnStartImport.addEventListener('click', () => this.onStart());
+        this.els.btnReloadRemote.addEventListener('click', handlers.reloadRemote);
+        this.els.btnLoadLocal.addEventListener('click', handlers.chooseLocal);
+        this.els.btnLoadFallback.addEventListener('click', handlers.loadFallback);
+        this.els.localFolderInput.addEventListener('change', handlers.localChosen);
+        [
+          ['year', this.els.filterYear],
+          ['publisherCode', this.els.filterPublisher],
+          ['grade', this.els.filterGrade],
+          ['semester', this.els.filterSemester],
+          ['examPhase', this.els.filterPhase]
+        ].forEach(([key, el]) => {
+          el.addEventListener('change', () => {
+            this.filterValues[key] = el.value;
+            this.renderPacks(this.store.state.packs);
+          });
+        });
+      }
+
+      renderFilterOptions(packs) {
+        const yearOptions = [...new Set(packs.map(p => p.year))].sort((a, b) => b.localeCompare(a));
+        const pubOptions = [...new Set(packs.map(p => p.publisherCode))].sort();
+        const gradeOptions = [...new Set(packs.map(p => p.grade))].sort();
+        const semesterOptions = [...new Set(packs.map(p => p.semester))].sort();
+        const phaseOptions = [...new Set(packs.flatMap(p => p.questions.map(q => q.examPhase)))].sort();
+        this.fillSelect(this.els.filterYear, '不限', yearOptions, value => value);
+        this.fillSelect(this.els.filterPublisher, '不限', pubOptions, value => this.schemaConfig.publisherCodeMap[value] || value);
+        this.fillSelect(this.els.filterGrade, '不限', gradeOptions, value => `小${Number(value)}`);
+        this.fillSelect(this.els.filterSemester, '不限', semesterOptions, value => this.schemaConfig.semesterCodeMap[value] || value);
+        this.fillSelect(this.els.filterPhase, '不限', phaseOptions, value => this.schemaConfig.examPhaseMap[value] || value);
+      }
+
+      fillSelect(selectEl, defaultLabel, values, labelFn) {
+        const previous = selectEl.value;
+        selectEl.innerHTML = `<option value="">${defaultLabel}</option>` + values.map(value => `<option value="${escapeHtml(value)}">${escapeHtml(labelFn(value))}</option>`).join('');
+        if (values.includes(previous)) selectEl.value = previous;
+      }
+
+      getFilteredPacks(packs) {
+        return packs.filter(pack => {
+          if (this.filterValues.year && pack.year !== this.filterValues.year) return false;
+          if (this.filterValues.publisherCode && pack.publisherCode !== this.filterValues.publisherCode) return false;
+          if (this.filterValues.grade && pack.grade !== this.filterValues.grade) return false;
+          if (this.filterValues.semester && pack.semester !== this.filterValues.semester) return false;
+          if (this.filterValues.examPhase && !pack.questions.some(q => q.examPhase === this.filterValues.examPhase)) return false;
+          return true;
+        });
+      }
+
+      renderPacks(packs) {
+        this.renderFilterOptions(packs);
+        const filtered = this.getFilteredPacks(packs);
+        this.els.packList.innerHTML = '';
+        this.els.setupBadge.textContent = `可選版本：${filtered.length} / ${packs.length}`;
+
+        if (!filtered.length) {
+          this.els.packList.innerHTML = '<div class="empty-state">目前篩選條件下沒有可選版本，請調整進階分類。</div>';
+          return;
+        }
+
+        filtered.forEach(pack => {
+          const checked = this.store.state.selectedPackIds.includes(pack.id);
+          const label = document.createElement('label');
+          label.className = `pack-card ${checked ? 'selected' : ''}`;
+          label.dataset.packId = pack.id;
+          const phases = [...new Set(pack.questions.map(q => this.schemaConfig.examPhaseMap[q.examPhase] || q.examPhase))];
+          const tags = [pack.year, `小${Number(pack.grade)}`, this.schemaConfig.semesterCodeMap[pack.semester], this.schemaConfig.publisherCodeMap[pack.publisherCode], ...phases].filter(Boolean);
+          label.innerHTML = `
+            <div class="pack-head">
+              <input type="checkbox" ${checked ? 'checked' : ''} aria-label="選取 ${escapeHtml(pack.title)}" />
+              <div>
+                <div class="pack-title">${escapeHtml(pack.title)}</div>
+                <div class="pack-meta">pack id：${escapeHtml(pack.id)}<br>版本：${escapeHtml(pack.version)}｜題數：${pack.questions.length}｜來源：${escapeHtml(pack.sourceType)}</div>
+                <div class="tag-list">${tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
+              </div>
+            </div>`;
+          const checkbox = label.querySelector('input');
+          label.addEventListener('click', event => {
+            if (event.target !== checkbox) checkbox.checked = !checkbox.checked;
+            this.togglePackSelection(pack.id, checkbox.checked);
+            event.preventDefault();
+          });
+          this.els.packList.appendChild(label);
+        });
+      }
+
+      togglePackSelection(packId, checked) {
+        const ids = new Set(this.store.state.selectedPackIds);
+        if (checked) ids.add(packId); else ids.delete(packId);
+        this.store.setSelectedPackIds([...ids]);
+        this.renderPacks(this.store.state.packs);
+      }
+
+      selectAll() {
+        const filteredIds = this.getFilteredPacks(this.store.state.packs).map(pack => pack.id);
+        const ids = new Set(this.store.state.selectedPackIds);
+        filteredIds.forEach(id => ids.add(id));
+        this.store.setSelectedPackIds([...ids]);
+        this.renderPacks(this.store.state.packs);
+      }
+
+      clearAll() {
+        this.store.setSelectedPackIds([]);
+        this.renderPacks(this.store.state.packs);
+      }
+    }
+
+    class QuizSessionView {
+      constructor(store, els) {
+        this.store = store;
+        this.els = els;
+        this.writers = [];
+        this.autoNextTimer = null;
+        this.resizeObserver = new ResizeObserver(entries => {
+          for (const entry of entries) {
+            const writerMeta = this.writers.find(item => item.boxId === entry.target.id);
+            if (writerMeta && writerMeta.instance && entry.target.clientWidth > 0 && entry.target.clientHeight > 0) {
+              writerMeta.instance.updateDimensions({ width: entry.target.clientWidth, height: entry.target.clientHeight });
+            }
+          }
+        });
+      }
+
+      bindEvents(handlers) {
+        this.els.btnAudio.addEventListener('click', handlers.playAudio);
+        this.els.btnHint.addEventListener('click', handlers.showHint);
+        this.els.btnReset.addEventListener('click', handlers.resetQuestion);
+        this.els.btnNext.addEventListener('click', handlers.nextQuestion);
+        this.els.btnBackHome.addEventListener('click', handlers.backHome);
+      }
+
+      renderQuestion(question, totalLoadedPacks) {
+        this.disposeQuestionResources();
+        if (!question) return;
+        this.els.progress.textContent = `第 ${this.store.state.currentQuestionIndex + 1} / ${this.store.state.mergedQuestions.length} 題`;
+        this.els.statLoadedPacks.textContent = `已載入版本：${totalLoadedPacks}`;
+        this.els.statQuestionTotal.textContent = `題數：${this.store.state.mergedQuestions.length}`;
+        this.els.statSource.textContent = `來源：${this.store.state.sourceMode}`;
+        this.els.question.innerHTML = this.buildQuestionHtml(question);
+        this.els.writersContainer.innerHTML = '';
+        const blankTokens = question.tokens.map((token, index) => ({ token, index })).filter(item => item.token.type === 'blank');
+        blankTokens.forEach((item, blankIndex) => this.buildWriterCard(question, item.token, blankIndex));
+        this.updateCompleteStat();
+        this.els.msg.textContent = `${question.packTitle}｜請開始書寫`;
+      }
+
+      buildQuestionHtml(question) {
+        return `<div class="zhuyin-sentence">${question.tokens.map(token => token.type === 'blank' ? `<ruby><span class="blank-char">　</span><rt>${escapeHtml(token.zhuyin)}</rt></ruby>` : `<ruby><span>${escapeHtml(token.char)}</span><rt>${escapeHtml(token.zhuyin)}</rt></ruby>`).join('')}</div>`;
+      }
+
+      buildWriterCard(question, blankToken, blankIndex) {
+        const stableId = `${question.packId}__${question.id}`;
+        const writerId = `writer-${stableId}-blank-${blankIndex}`;
+        const card = document.createElement('div');
+        card.className = 'writer-card';
+        card.innerHTML = `
+          <div class="writer-index">第 ${blankIndex + 1} 格</div>
+          <div class="writer-box" id="${writerId}">
+            <div class="hint-overlay"></div>
+          </div>`;
+        this.els.writersContainer.appendChild(card);
+
+        const box = card.querySelector('.writer-box');
+        const overlay = card.querySelector('.hint-overlay');
+        const writer = HanziWriter.create(writerId, blankToken.char, {
+          width: box.clientWidth,
+          height: box.clientWidth,
+          padding: 12,
+          strokeAnimationSpeed: 1,
+          delayBetweenStrokes: 220,
+          drawingWidth: 18,
+          drawingColor: COLOR_TEXT,
+          outlineColor: COLOR_OUTLINE,
+          strokeColor: COLOR_PRIMARY,
+          radicalColor: COLOR_PRIMARY,
+          showCharacter: false,
+          showOutline: false,
+          highlightOnComplete: true,
+          leniency: 1
+        });
+
+        writer.quiz({
+          onComplete: summary => {
+            box.classList.remove('wrong');
+            box.classList.add('correct');
+            writer.hideOutline();
+            const target = this.writers.find(item => item.boxId === writerId);
+            if (target) target.completed = true;
+            this.updateCompleteStat();
+          },
+          onMistake: () => {
+            box.classList.add('wrong');
+            setTimeout(() => box.classList.remove('wrong'), 500);
+          }
+        });
+
+        this.resizeObserver.observe(box);
+        this.writers.push({ boxId: writerId, instance: writer, overlay, completed: false });
+      }
+
+      async showHint() {
+        if (this.store.state.hintState === 'showing') return;
+        this.store.setHintState('showing');
+        const pendingWriters = this.writers.filter(item => !item.completed);
+        try {
+          for (const item of pendingWriters) {
+            item.overlay.classList.add('visible');
+            item.instance.hideCharacter();
+            item.instance.showOutline();
+            await item.instance.animateCharacter();
+            item.instance.hideCharacter();
+            item.instance.hideOutline();
+            item.overlay.classList.remove('visible');
+          }
+        } finally {
+          this.store.setHintState('idle');
+        }
+      }
+
+      playAudio(question) {
+        if (!question || !window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(question.readText);
+        utterance.lang = 'zh-TW';
+        utterance.rate = APP_CONFIG.speechRate;
+        this.store.setAudioState('playing');
+        utterance.onend = () => this.store.setAudioState('idle');
+        utterance.onerror = () => this.store.setAudioState('idle');
+        window.speechSynthesis.speak(utterance);
+      }
+
+      resetQuestion(question) {
+        this.clearAutoNext();
+        this.store.setQuestionState('writing');
+        this.renderQuestion(question, this.store.state.selectedPackIds.length);
+      }
+
+      updateCompleteStat() {
+        const total = this.writers.length;
+        const complete = this.writers.filter(item => item.completed).length;
+        this.els.statComplete.textContent = `本題完成：${complete} / ${total}`;
+        if (total > 0 && complete === total) {
+          this.store.setQuestionState('completed_pending_next');
+          this.els.msg.textContent = '本題完成，準備自動下一題';
+          this.clearAutoNext();
+          this.autoNextTimer = setTimeout(() => this.els.btnNext.click(), APP_CONFIG.autoNextDelayMs);
+        }
+      }
+
+      clearAutoNext() {
+        if (this.autoNextTimer) {
+          clearTimeout(this.autoNextTimer);
+          this.autoNextTimer = null;
+        }
+      }
+
+      disposeQuestionResources() {
+        this.clearAutoNext();
+        this.writers.forEach(item => {
+          try { this.resizeObserver.unobserve(document.getElementById(item.boxId)); } catch (err) {}
+          try { item.instance.cancelQuiz(); } catch (err) {}
+        });
+        this.writers = [];
+        this.els.writersContainer.innerHTML = '';
+      }
+    }
+
+    class AppShell {
+      constructor() {
+        this.repository = new PackRepository(APP_CONFIG, SCHEMA_CONFIG);
+        this.store = new SessionStore();
+        this.els = {
+          setupPanel: document.getElementById('setup-panel'),
+          quizPanel: document.getElementById('quiz-panel'),
+          setupBadge: document.getElementById('setup-badge'),
+          setupNote: document.getElementById('setup-note'),
+          packList: document.getElementById('pack-list'),
+          btnReloadRemote: document.getElementById('btn-reload-remote'),
+          btnLoadLocal: document.getElementById('btn-load-local'),
+          btnLoadFallback: document.getElementById('btn-load-fallback'),
+          localFolderInput: document.getElementById('local-folder-input'),
+          btnSelectAll: document.getElementById('btn-select-all'),
+          btnClearAll: document.getElementById('btn-clear-all'),
+          btnStartImport: document.getElementById('btn-start-import'),
+          filterYear: document.getElementById('filter-year'),
+          filterPublisher: document.getElementById('filter-publisher'),
+          filterGrade: document.getElementById('filter-grade'),
+          filterSemester: document.getElementById('filter-semester'),
+          filterPhase: document.getElementById('filter-phase'),
+          question: document.getElementById('question'),
+          writersContainer: document.getElementById('writers'),
+          msg: document.getElementById('message'),
+          progress: document.getElementById('progress-badge'),
+          statLoadedPacks: document.getElementById('stat-loaded-packs'),
+          statQuestionTotal: document.getElementById('stat-question-total'),
+          statComplete: document.getElementById('stat-complete'),
+          statSource: document.getElementById('stat-source'),
+          btnAudio: document.getElementById('btn-audio'),
+          btnHint: document.getElementById('btn-hint'),
+          btnReset: document.getElementById('btn-reset'),
+          btnNext: document.getElementById('btn-next'),
+          btnBackHome: document.getElementById('btn-back-home'),
+          quizDock: document.getElementById('quiz-dock')
+        };
+        this.selectionView = new PackSelectionView(this.store, SCHEMA_CONFIG, this.els, () => this.startImport());
+        this.quizView = new QuizSessionView(this.store, this.els);
+      }
+
+      async init() {
+        this.bindEvents();
+        await this.loadSource('remote', null, '啟動時先嘗試遠端題庫。');
+      }
+
+      bindEvents() {
+        this.selectionView.bindEvents({
+          reloadRemote: async () => this.loadSource('remote', null, '已重新從目前網站讀取題庫。'),
+          chooseLocal: () => {
+            this.els.localFolderInput.value = '';
+            this.els.localFolderInput.click();
+          },
+          loadFallback: async () => this.loadSource('fallback', null, '已切換到內建預設題庫。'),
+          localChosen: async event => {
+            const files = Array.from(event.target.files || []);
+            if (!files.length) return;
+            await this.loadSource('local', files, '已執行本機資料夾匯入檢查。');
+          }
+        });
+        this.quizView.bindEvents({
+          playAudio: () => this.quizView.playAudio(this.store.currentQuestion),
+          showHint: async () => this.quizView.showHint(),
+          resetQuestion: () => this.quizView.resetQuestion(this.store.currentQuestion),
+          nextQuestion: () => this.nextQuestion(),
+          backHome: () => this.backToHome()
+        });
+      }
+
+      buildLoadSummary(note, result) {
+        const report = result.report || { successIds: [], failed: [], usedFallback: false, schemaStatus: '沿用目前設定' };
+        const lines = [];
+        if (note) lines.push(note);
+        lines.push(`實際來源：${result.actualMode}`);
+        lines.push(`成功 pack id：${report.successIds.length ? report.successIds.join(', ') : '無'}`);
+        lines.push(`失敗 pack：${report.failed.length ? report.failed.map(item => `${item.id}（${item.reason}）`).join('；') : '無'}`);
+        lines.push(`是否退回預設：${report.usedFallback ? '是' : '否'}`);
+        lines.push(`schema-config：${report.schemaStatus || '沿用目前設定'}`);
+        return lines.join('\n');
+      }
+
+      async loadSource(mode, localFiles = null, note = '') {
+        this.store.setMode('loading');
+        this.els.setupBadge.textContent = mode === 'remote' ? '遠端載入中' : mode === 'local' ? '本機載入中' : '預設題庫載入中';
+        const result = await this.repository.loadPacksWithFallback(mode, localFiles);
+        if (result.schemaConfig) {
+          this.selectionView.schemaConfig = result.schemaConfig;
+          this.repository.schemaConfig = result.schemaConfig;
+        }
+        const packs = result.packs || [];
+        this.store.setPacks(packs, result.actualMode || mode);
+        this.store.setSelectedPackIds(packs.map(pack => pack.id));
+        this.selectionView.renderPacks(packs);
+        this.els.setupNote.textContent = this.buildLoadSummary(note || '題庫已更新。', result);
+        this.store.setMode('setup');
+      }
+
+      startImport() {
+        if (!this.store.state.selectedPackIds.length) {
+          this.els.setupNote.textContent = '請至少勾選一個版本後再開始。';
+          return;
+        }
+        this.store.buildMergedQuestions();
+        if (!this.store.state.mergedQuestions.length) {
+          this.els.setupNote.textContent = '選取的版本沒有有效題目。';
+          return;
+        }
+        this.store.setMode('quiz');
+        this.els.setupPanel.classList.add('hidden');
+        this.els.quizPanel.classList.remove('hidden');
+        this.els.quizDock.classList.remove('hidden');
+        this.renderCurrentQuestion();
+        if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
+      }
+
+      renderCurrentQuestion() {
+        this.store.setQuestionState('writing');
+        const question = this.store.currentQuestion;
+        if (!question) return this.finishQuiz();
+        this.quizView.renderQuestion(question, this.store.state.selectedPackIds.length);
+      }
+
+      nextQuestion() {
+        this.quizView.clearAutoNext();
+        const nextIndex = this.store.state.currentQuestionIndex + 1;
+        if (nextIndex >= this.store.state.mergedQuestions.length) return this.finishQuiz();
+        this.store.setCurrentQuestionIndex(nextIndex);
+        this.renderCurrentQuestion();
+        if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
+      }
+
+      finishQuiz() {
+        this.store.setMode('finished');
+        this.els.msg.textContent = '全部完成，已回到首頁。';
+        alert('本輪題目已完成。');
+        this.backToHome();
+      }
+
+      backToHome() {
+        this.quizView.disposeQuestionResources();
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+        this.store.setMode('setup');
+        this.store.setAudioState('idle');
+        this.store.setHintState('idle');
+        this.els.quizPanel.classList.add('hidden');
+        this.els.quizDock.classList.add('hidden');
+        this.els.setupPanel.classList.remove('hidden');
+        this.selectionView.renderPacks(this.store.state.packs);
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      const app = new AppShell();
+      await app.init();
+      window.__hanziApp = app;
+    });
+  </script>
+</body>
+</html>
