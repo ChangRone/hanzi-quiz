@@ -192,5 +192,9 @@
   "radStrokes": [
     0,
     1
-  ]
+  ],
+  "_debugVersion": "v8-debug",
+  "_source": "MOE SVG converted for Hanzi Writer",
+  "_char": "像",
+  "_notes": "bbox-centered + optical_adjust_y baseline carried forward for deployment verification"
 }
