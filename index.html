@@ -261,6 +261,83 @@
       font-weight: 700;
       color: #475569;
     }
+    .tuning-panel {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 12px;
+      margin-bottom: 14px;
+    }
+    .tuning-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .tuning-title {
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .tuning-note {
+      font-size: 0.85rem;
+      color: var(--subtle);
+      line-height: 1.55;
+      margin-bottom: 10px;
+    }
+    .tuning-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .tuning-field {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 10px;
+    }
+    .tuning-field label {
+      display: block;
+      font-size: 0.86rem;
+      color: var(--subtle);
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .tuning-help {
+      font-size: 0.76rem;
+      color: var(--subtle);
+      line-height: 1.45;
+      margin-top: 6px;
+    }
+    .tuning-inline-value {
+      display: inline-block;
+      min-width: 3.2em;
+      text-align: right;
+      color: #0f172a;
+      font-weight: 800;
+      margin-left: 6px;
+    }
+    .tuning-field input[type=range] {
+      width: 100%;
+      margin: 6px 0 0;
+    }
+    .tuning-field input[type=text] {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 0.95rem;
+      padding: 12px 14px;
+      font-weight: 700;
+      color: var(--text);
+      background: white;
+    }
+    .tuning-actions {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
     .writers-stage {
       position: relative;
     }
@@ -317,6 +394,7 @@
     @media (max-width: 900px) {
       .filter-grid { grid-template-columns: repeat(2, 1fr); }
       .quiz-toolbar { grid-template-columns: 1fr; }
+      .tuning-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 720px) {
       .source-actions, .setup-controls { grid-template-columns: 1fr; }
@@ -324,6 +402,7 @@
     @media (max-width: 480px) {
       .filter-grid { grid-template-columns: 1fr; }
       .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .tuning-actions { grid-template-columns: 1fr; }
       #question { font-size: 1.72rem; }
       body { padding-bottom: 128px; }
     }
@@ -395,6 +474,86 @@
         <div class="badge" id="progress-badge">第 1 / 1 題</div>
       </div>
 
+      <div class="tuning-panel">
+        <div class="tuning-head">
+          <div class="tuning-title">字體資料與判定設定</div>
+          <div class="badge" id="tuning-badge">建議值</div>
+        </div>
+        <div class="tuning-note" id="tuning-note">策略一先提供字體資料來源切換與自訂路徑樣板；策略二則把 quiz 判定值集中到此處。調整後按「套用設定」，當前題目會重新開始。</div>
+        <div class="tuning-grid">
+          <div class="tuning-field">
+            <label for="setting-char-source">字體資料來源</label>
+            <select id="setting-char-source">
+              <option value="default">預設 Hanzi Writer 字庫</option>
+              <option value="custom-first">自訂字庫優先，失敗回預設</option>
+            </select>
+            <div class="tuning-help">策略一：先保留預設資料源，同時支援自訂 Hanzi Writer 相容 JSON 覆寫。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-char-template">自訂字庫路徑樣板</label>
+            <input type="text" id="setting-char-template" value="char-data/{char}.json" />
+            <div class="tuning-help">支援 <code>{char}</code> 或 <code>{charEncoded}</code>。例如 <code>char-data/{char}.json</code>。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-leniency">leniency<span class="tuning-inline-value" id="setting-leniency-value">1.4</span></label>
+            <input type="range" id="setting-leniency" min="0.5" max="2.0" step="0.1" value="1.4" />
+            <div class="tuning-help">本頁提供 0.5～2.0。越接近 0 越嚴格，越高越寬鬆。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-drawing-width">drawingWidth<span class="tuning-inline-value" id="setting-drawing-width-value">18 px</span></label>
+            <input type="range" id="setting-drawing-width" min="4" max="24" step="1" value="18" />
+            <div class="tuning-help">本頁提供 4～24 px，控制作答時筆畫線條寬度。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-accept-backwards">acceptBackwardsStrokes</label>
+            <select id="setting-accept-backwards">
+              <option value="true">接受反向書寫</option>
+              <option value="false">不接受反向書寫</option>
+            </select>
+            <div class="tuning-help">適合低年級先降低卡關感，但不代表整體不檢查筆順。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-highlight-complete">highlightOnComplete</label>
+            <select id="setting-highlight-complete">
+              <option value="true">完成時短暫高亮</option>
+              <option value="false">完成時不高亮</option>
+            </select>
+            <div class="tuning-help">控制整字完成後是否閃一下提示完成。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-show-hint-after">showHintAfterMisses</label>
+            <select id="setting-show-hint-after">
+              <option value="false">關閉自動提示</option>
+              <option value="1">1 次後提示</option>
+              <option value="2">2 次後提示</option>
+              <option value="3">3 次後提示</option>
+              <option value="4">4 次後提示</option>
+              <option value="5">5 次後提示</option>
+              <option value="6">6 次後提示</option>
+            </select>
+            <div class="tuning-help">本頁提供關閉或 1～6 次失誤後自動提示。</div>
+          </div>
+          <div class="tuning-field">
+            <label for="setting-mark-correct-after">markStrokeCorrectAfterMisses</label>
+            <select id="setting-mark-correct-after">
+              <option value="false">關閉自動判對</option>
+              <option value="2">2 次後自動判對</option>
+              <option value="3">3 次後自動判對</option>
+              <option value="4">4 次後自動判對</option>
+              <option value="5">5 次後自動判對</option>
+              <option value="6">6 次後自動判對</option>
+              <option value="7">7 次後自動判對</option>
+              <option value="8">8 次後自動判對</option>
+            </select>
+            <div class="tuning-help">本頁提供關閉或 2～8 次失誤後直接過該筆。</div>
+          </div>
+        </div>
+        <div class="tuning-actions">
+          <button class="btn-next" type="button" id="btn-apply-tuning">套用設定</button>
+          <button class="btn-plain" type="button" id="btn-reset-tuning">恢復建議值</button>
+        </div>
+      </div>
+
       <div class="quiz-meta-top">
         <div class="quiz-toolbar">
           <div class="stats">
@@ -450,6 +609,18 @@
     const COLOR_TEXT = '#111827';
     const COLOR_OUTLINE = 'rgba(17, 24, 39, 0.18)';
     const APP_CONFIG = { catalogUrl: 'quiz-index.json', autoPlayOnRender: true, autoNextDelayMs: 2000, speechRate: 0.85 };
+    const DEFAULT_CHAR_SOURCE_SETTINGS = {
+      mode: 'default',
+      customTemplate: 'char-data/{char}.json'
+    };
+    const DEFAULT_QUIZ_TUNING = {
+      leniency: 1.4,
+      drawingWidth: 18,
+      acceptBackwardsStrokes: true,
+      showHintAfterMisses: 2,
+      markStrokeCorrectAfterMisses: 4,
+      highlightOnComplete: true
+    };
 
     const FALLBACK_PACKS = [
       {
@@ -572,6 +743,84 @@
       const lessonCode = String(code || '').trim();
       if (!lessonCode) return '全部課次';
       return `第 ${lessonCode.padStart(2, '0')} 課`;
+    }
+
+    function clampNumber(value, min, max, fallback) {
+      const n = Number(value);
+      if (!Number.isFinite(n)) return fallback;
+      return Math.min(max, Math.max(min, n));
+    }
+
+    function parseBooleanString(value, fallback = false) {
+      if (value === true || value === 'true') return true;
+      if (value === false || value === 'false') return false;
+      return fallback;
+    }
+
+    function parseOptionalInteger(value, fallback = false) {
+      if (value === false || value === 'false' || value === '' || value == null) return false;
+      const n = Number(value);
+      return Number.isInteger(n) && n > 0 ? n : fallback;
+    }
+
+    function normalizeQuizTuning(raw) {
+      return {
+        leniency: clampNumber(raw && raw.leniency, 0.5, 2.0, DEFAULT_QUIZ_TUNING.leniency),
+        drawingWidth: Math.round(clampNumber(raw && raw.drawingWidth, 4, 24, DEFAULT_QUIZ_TUNING.drawingWidth)),
+        acceptBackwardsStrokes: parseBooleanString(raw && raw.acceptBackwardsStrokes, DEFAULT_QUIZ_TUNING.acceptBackwardsStrokes),
+        showHintAfterMisses: parseOptionalInteger(raw && raw.showHintAfterMisses, DEFAULT_QUIZ_TUNING.showHintAfterMisses),
+        markStrokeCorrectAfterMisses: parseOptionalInteger(raw && raw.markStrokeCorrectAfterMisses, DEFAULT_QUIZ_TUNING.markStrokeCorrectAfterMisses),
+        highlightOnComplete: parseBooleanString(raw && raw.highlightOnComplete, DEFAULT_QUIZ_TUNING.highlightOnComplete)
+      };
+    }
+
+    function normalizeCharSourceSettings(raw) {
+      const mode = String(raw && raw.mode || DEFAULT_CHAR_SOURCE_SETTINGS.mode).trim();
+      return {
+        mode: ['default', 'custom-first'].includes(mode) ? mode : DEFAULT_CHAR_SOURCE_SETTINGS.mode,
+        customTemplate: String(raw && raw.customTemplate || DEFAULT_CHAR_SOURCE_SETTINGS.customTemplate).trim() || DEFAULT_CHAR_SOURCE_SETTINGS.customTemplate
+      };
+    }
+
+    function formatCharSourceModeLabel(mode) {
+      return mode === 'custom-first' ? '自訂優先' : '預設';
+    }
+
+    const CHAR_DATA_CACHE = new Map();
+
+    function resolveCharTemplate(template, char) {
+      return String(template || '')
+        .replaceAll('{charEncoded}', encodeURIComponent(char))
+        .replaceAll('{char}', char);
+    }
+
+    async function loadDefaultCharacterData(char) {
+      const cacheKey = `default::${char}`;
+      if (CHAR_DATA_CACHE.has(cacheKey)) return CHAR_DATA_CACHE.get(cacheKey);
+      const data = await HanziWriter.loadCharacterData(char);
+      CHAR_DATA_CACHE.set(cacheKey, data);
+      return data;
+    }
+
+    async function loadCustomCharacterData(char, template) {
+      const resolvedPath = resolveCharTemplate(template, char);
+      const cacheKey = `custom::${resolvedPath}`;
+      if (CHAR_DATA_CACHE.has(cacheKey)) return CHAR_DATA_CACHE.get(cacheKey);
+      const res = await fetch(resolvedPath, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`字體資料不存在：${resolvedPath}`);
+      const data = await res.json();
+      CHAR_DATA_CACHE.set(cacheKey, data);
+      return data;
+    }
+
+    function buildCharDataLoader(charSourceSettings) {
+      const settings = normalizeCharSourceSettings(charSourceSettings);
+      if (settings.mode === 'default') return null;
+      return function(char, onComplete) {
+        loadCustomCharacterData(char, settings.customTemplate)
+          .then(onComplete)
+          .catch(() => loadDefaultCharacterData(char).then(onComplete));
+      };
     }
 
     function readJsonFile(file) {
@@ -976,7 +1225,9 @@
           allMergedQuestions: [],
           mergedQuestions: [],
           selectedLesson: '',
-          currentQuestionIndex: 0
+          currentQuestionIndex: 0,
+          quizTuning: normalizeQuizTuning(DEFAULT_QUIZ_TUNING),
+          charSourceSettings: normalizeCharSourceSettings(DEFAULT_CHAR_SOURCE_SETTINGS)
         };
       }
       setPacks(packs, sourceMode) {
@@ -988,6 +1239,18 @@
       }
       setSelectedLesson(lesson) {
         this.state.selectedLesson = String(lesson || '');
+      }
+      setQuizTuning(settings) {
+        this.state.quizTuning = normalizeQuizTuning(settings);
+      }
+      resetQuizTuning() {
+        this.state.quizTuning = normalizeQuizTuning(DEFAULT_QUIZ_TUNING);
+      }
+      setCharSourceSettings(settings) {
+        this.state.charSourceSettings = normalizeCharSourceSettings(settings);
+      }
+      resetCharSourceSettings() {
+        this.state.charSourceSettings = normalizeCharSourceSettings(DEFAULT_CHAR_SOURCE_SETTINGS);
       }
       buildMergedQuestions() {
         const selected = this.state.packs.filter(pack => this.state.selectedPackIds.includes(pack.id));
@@ -1151,17 +1414,23 @@
         this.els.btnNext.addEventListener('click', handlers.nextQuestion);
         this.els.btnBackHome.addEventListener('click', handlers.backHome);
         this.els.lessonSelect.addEventListener('change', event => handlers.changeLesson(event.target.value));
+        this.els.btnApplyTuning.addEventListener('click', handlers.applyTuning);
+        this.els.btnResetTuning.addEventListener('click', handlers.resetTuning);
+        [this.els.settingLeniency, this.els.settingDrawingWidth].forEach(input => {
+          input.addEventListener('input', () => this.updateTuningValueHints());
+        });
       }
 
       renderQuestion(question, totalLoadedPacks) {
         this.disposeQuestionResources();
+        this.renderTuningSettings();
         this.renderLessonOptions();
         if (!question) return;
         const lessonCode = getQuestionLessonCode(question);
         this.els.progress.textContent = `第 ${this.store.state.currentQuestionIndex + 1} / ${this.store.state.mergedQuestions.length} 題`;
         this.els.statLoadedPacks.textContent = `已載入版本：${totalLoadedPacks}`;
         this.els.statQuestionTotal.textContent = `題數：${this.store.state.mergedQuestions.length}`;
-        this.els.statSource.textContent = `來源：${this.store.state.sourceMode}`;
+        this.els.statSource.textContent = `來源：${this.store.state.sourceMode}｜字體：${formatCharSourceModeLabel(this.store.state.charSourceSettings.mode)}`;
         this.els.question.innerHTML = this.buildQuestionHtml(question);
         this.els.writersContainer.innerHTML = '';
         const blankTokens = question.tokens.map((token, index) => ({ token, index })).filter(item => item.token.type === 'blank');
@@ -1188,22 +1457,32 @@
 
         const box = card.querySelector('.writer-box');
         const overlay = card.querySelector('.hint-overlay');
-        const writer = HanziWriter.create(writerId, blankToken.char, {
+        const quizTuning = normalizeQuizTuning(this.store.state.quizTuning);
+        const charSourceSettings = normalizeCharSourceSettings(this.store.state.charSourceSettings);
+        const writerOptions = {
           width: box.clientWidth,
           height: box.clientWidth,
           padding: 12,
           strokeAnimationSpeed: 1,
           delayBetweenStrokes: 220,
-          drawingWidth: 18,
+          drawingWidth: quizTuning.drawingWidth,
           drawingColor: COLOR_TEXT,
           outlineColor: COLOR_OUTLINE,
           strokeColor: COLOR_PRIMARY,
           radicalColor: COLOR_PRIMARY,
           showCharacter: false,
           showOutline: false,
-          highlightOnComplete: true,
-          leniency: 1
-        });
+          highlightOnComplete: quizTuning.highlightOnComplete,
+          leniency: quizTuning.leniency,
+          onLoadCharDataError: reason => {
+            box.classList.add('wrong');
+            const message = reason && reason.message ? reason.message : '字體資料讀取失敗';
+            this.els.msg.textContent = `字體資料讀取失敗：${blankToken.char}（${message}）`;
+          }
+        };
+        const charDataLoader = buildCharDataLoader(charSourceSettings);
+        if (charDataLoader) writerOptions.charDataLoader = charDataLoader;
+        const writer = HanziWriter.create(writerId, blankToken.char, writerOptions);
 
         const meta = { boxId: writerId, box, instance: writer, overlay, completed: false };
         this.enableWriterQuiz(meta);
@@ -1222,8 +1501,14 @@
 
       enableWriterQuiz(item) {
         if (!item || item.completed) return;
+        const quizTuning = normalizeQuizTuning(this.store.state.quizTuning);
         try { item.instance.cancelQuiz(); } catch (err) {}
         item.instance.quiz({
+          leniency: quizTuning.leniency,
+          acceptBackwardsStrokes: quizTuning.acceptBackwardsStrokes,
+          showHintAfterMisses: quizTuning.showHintAfterMisses,
+          markStrokeCorrectAfterMisses: quizTuning.markStrokeCorrectAfterMisses,
+          highlightOnComplete: quizTuning.highlightOnComplete,
           onComplete: () => {
             item.box.classList.remove('wrong');
             item.box.classList.add('correct');
@@ -1236,6 +1521,44 @@
             setTimeout(() => item.box.classList.remove('wrong'), 500);
           }
         });
+      }
+
+      renderTuningSettings() {
+        const quizTuning = normalizeQuizTuning(this.store.state.quizTuning);
+        const charSource = normalizeCharSourceSettings(this.store.state.charSourceSettings);
+        this.els.settingCharSource.value = charSource.mode;
+        this.els.settingCharTemplate.value = charSource.customTemplate;
+        this.els.settingLeniency.value = String(quizTuning.leniency);
+        this.els.settingDrawingWidth.value = String(quizTuning.drawingWidth);
+        this.els.settingAcceptBackwards.value = String(Boolean(quizTuning.acceptBackwardsStrokes));
+        this.els.settingHighlightComplete.value = String(Boolean(quizTuning.highlightOnComplete));
+        this.els.settingShowHintAfter.value = quizTuning.showHintAfterMisses === false ? 'false' : String(quizTuning.showHintAfterMisses);
+        this.els.settingMarkCorrectAfter.value = quizTuning.markStrokeCorrectAfterMisses === false ? 'false' : String(quizTuning.markStrokeCorrectAfterMisses);
+        this.els.tuningBadge.textContent = charSource.mode === 'custom-first' ? '自訂字庫優先' : '預設字庫';
+        this.els.tuningNote.textContent = `策略一：${charSource.mode === 'custom-first' ? '先讀自訂字庫，失敗回預設 Hanzi Writer。' : '直接使用預設 Hanzi Writer 字庫。'} 策略二：調整後按「套用設定」，當前題目會重新開始。`;
+        this.updateTuningValueHints();
+      }
+
+      updateTuningValueHints() {
+        this.els.settingLeniencyValue.textContent = Number(this.els.settingLeniency.value || 1).toFixed(1);
+        this.els.settingDrawingWidthValue.textContent = `${Math.round(Number(this.els.settingDrawingWidth.value || 18))} px`;
+      }
+
+      readTuningSettingsFromUi() {
+        return {
+          charSourceSettings: normalizeCharSourceSettings({
+            mode: this.els.settingCharSource.value,
+            customTemplate: this.els.settingCharTemplate.value
+          }),
+          quizTuning: normalizeQuizTuning({
+            leniency: this.els.settingLeniency.value,
+            drawingWidth: this.els.settingDrawingWidth.value,
+            acceptBackwardsStrokes: this.els.settingAcceptBackwards.value,
+            highlightOnComplete: this.els.settingHighlightComplete.value,
+            showHintAfterMisses: this.els.settingShowHintAfter.value,
+            markStrokeCorrectAfterMisses: this.els.settingMarkCorrectAfter.value
+          })
+        };
       }
 
       async showHint() {
@@ -1334,6 +1657,20 @@
           statComplete: document.getElementById('stat-complete'),
           statSource: document.getElementById('stat-source'),
           lessonSelect: document.getElementById('lesson-select'),
+          tuningBadge: document.getElementById('tuning-badge'),
+          tuningNote: document.getElementById('tuning-note'),
+          settingCharSource: document.getElementById('setting-char-source'),
+          settingCharTemplate: document.getElementById('setting-char-template'),
+          settingLeniency: document.getElementById('setting-leniency'),
+          settingLeniencyValue: document.getElementById('setting-leniency-value'),
+          settingDrawingWidth: document.getElementById('setting-drawing-width'),
+          settingDrawingWidthValue: document.getElementById('setting-drawing-width-value'),
+          settingAcceptBackwards: document.getElementById('setting-accept-backwards'),
+          settingHighlightComplete: document.getElementById('setting-highlight-complete'),
+          settingShowHintAfter: document.getElementById('setting-show-hint-after'),
+          settingMarkCorrectAfter: document.getElementById('setting-mark-correct-after'),
+          btnApplyTuning: document.getElementById('btn-apply-tuning'),
+          btnResetTuning: document.getElementById('btn-reset-tuning'),
           btnAudio: document.getElementById('btn-audio'),
           btnHint: document.getElementById('btn-hint'),
           btnReset: document.getElementById('btn-reset'),
@@ -1370,7 +1707,9 @@
           resetQuestion: () => this.quizView.resetQuestion(this.store.currentQuestion),
           nextQuestion: () => this.nextQuestion(),
           backHome: () => this.backToHome(),
-          changeLesson: lesson => this.changeLesson(lesson)
+          changeLesson: lesson => this.changeLesson(lesson),
+          applyTuning: () => this.applyTuningSettings(),
+          resetTuning: () => this.resetTuningSettings()
         });
       }
 
@@ -1450,6 +1789,29 @@
         }
         this.renderCurrentQuestion();
         if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
+      }
+
+      applyTuningSettings() {
+        const settings = this.quizView.readTuningSettingsFromUi();
+        this.store.setCharSourceSettings(settings.charSourceSettings);
+        this.store.setQuizTuning(settings.quizTuning);
+        this.quizView.renderTuningSettings();
+        this.els.msg.textContent = '已套用字體／判定設定，當前題目已重新開始。';
+        if (this.store.currentQuestion) {
+          this.quizView.resetQuestion(this.store.currentQuestion);
+          if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
+        }
+      }
+
+      resetTuningSettings() {
+        this.store.resetCharSourceSettings();
+        this.store.resetQuizTuning();
+        this.quizView.renderTuningSettings();
+        this.els.msg.textContent = '已恢復建議值，當前題目已重新開始。';
+        if (this.store.currentQuestion) {
+          this.quizView.resetQuestion(this.store.currentQuestion);
+          if (APP_CONFIG.autoPlayOnRender) this.quizView.playAudio(this.store.currentQuestion);
+        }
       }
 
       finishQuiz() {
