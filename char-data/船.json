@@ -164,36 +164,36 @@
     ],
     [
       [
-        860,
-        32
-      ],
-      [
-        828,
-        44
-      ],
-      [
-        796,
-        44
-      ],
-      [
-        764,
-        40
-      ],
-      [
-        736,
-        36
-      ],
-      [
-        704,
-        32
+        640,
+        24
       ],
       [
         672,
         28
       ],
       [
-        640,
-        24
+        704,
+        32
+      ],
+      [
+        736,
+        36
+      ],
+      [
+        764,
+        40
+      ],
+      [
+        796,
+        44
+      ],
+      [
+        828,
+        44
+      ],
+      [
+        860,
+        32
       ]
     ]
   ],
@@ -205,7 +205,7 @@
     4,
     5
   ],
-  "_debugVersion": "logicB-svg-conservative-v1",
+  "_debugVersion": "logicB-conservative-v2-laststroke-fixed",
   "_series": "logicB",
   "_source": "svg incremental conservative transform to common official frame",
   "_normalization": {
@@ -247,5 +247,10 @@
       4,
       8
     ]
+  },
+  "_fix": {
+    "reason": "last stroke median order was reversed",
+    "cause": "for final stroke, median extraction fell back to a path/marker order that ran opposite to the intended writing direction after transform",
+    "applied": "reverse only the last median point sequence; keep all strokes and other medians unchanged"
   }
 }
