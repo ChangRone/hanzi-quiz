@@ -1,0 +1,70 @@
+name: M2-1 Quiz Default 6063
+
+on:
+  push:
+    branches:
+      - feature/m2-1-quiz-default
+    paths:
+      - 'tools/m2-1/**'
+      - '.github/workflows/m2-1-quiz-default.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Patch Quiz default loader
+        run: node tools/m2-1/patch-quiz-default.mjs
+
+      - name: Static dataset and loader validation
+        run: node tools/m2-1/validate-quiz-default.mjs
+
+      - name: Install browser driver
+        run: npm install --no-save --package-lock=false puppeteer-core@24
+
+      - name: Start local Quiz server
+        run: |
+          python3 -m http.server 8124 --bind 127.0.0.1 >/tmp/hanzi-quiz-http.log 2>&1 &
+          sleep 1
+
+      - name: Browser smoke test - approved dataset default
+        run: node tools/m2-1/smoke-quiz-default.mjs
+
+      - name: Record M2-1 validation result
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const p = 'manifest/char-data/moe-6063-v1/m2-1-validation.json';
+          const report = {
+            milestone: 'M2-1',
+            status: 'PASS',
+            dataset: 'moe-6063-v1',
+            corpusRootSha256: 'db1cef988e5e006bd88f3eed256add9d3e31a8e47c64347a9457d88100bb4af2',
+            runtimeDefault: 'char-data/moe-6063-v1/{hex}.json',
+            fallback: 'Hanzi Writer default',
+            legacyTopLevelCharDataDefault: false,
+            sampleChars: ['歡','口','亢','抗','覷','天','空','雲','鳥','水','草','去','再','先','完','院','船','陽','種','像'],
+            specialCase: { char: '覷', expectedRuntimeStrokeCount: 18, source: 'HW_REFERENCE_OVERRIDE' },
+            verifiedAt: new Date().toISOString()
+          };
+          fs.writeFileSync(p, JSON.stringify(report, null, 2) + '\n');
+          NODE
+
+      - name: Commit M2-1 implementation and validation
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html manifest/char-data/moe-6063-v1/m2-1-validation.json
+          git diff --cached --check
+          git commit -m 'feat: make approved MOE 6063 the Quiz default dataset'
+          git push
