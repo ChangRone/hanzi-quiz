@@ -479,20 +479,20 @@
           <div class="tuning-title">字體資料與判定設定</div>
           <div class="badge" id="tuning-badge">建議值</div>
         </div>
-        <div class="tuning-note" id="tuning-note">策略一先提供字體資料來源切換與自訂路徑樣板；策略二則把 quiz 判定值集中到此處。調整後按「套用設定」，當前題目會重新開始。</div>
+        <div class="tuning-note" id="tuning-note">M2-1：正式字形預設使用 MOE 6063 核可 Frozen Dataset；自訂來源僅作顯式覆寫，缺字最後才使用 Hanzi Writer fallback。調整後按「套用設定」，當前題目會重新開始。</div>
         <div class="tuning-grid">
           <div class="tuning-field">
             <label for="setting-char-source">字體資料來源</label>
             <select id="setting-char-source">
-              <option value="default">預設 Hanzi Writer 字庫</option>
-              <option value="custom-first">自訂字庫優先，失敗回預設</option>
+              <option value="default">MOE 6063 核可字庫（預設）</option>
+              <option value="custom-first">自訂字庫優先 → MOE 6063 → Hanzi Writer fallback</option>
             </select>
-            <div class="tuning-help">策略一：先保留預設資料源，同時支援自訂 Hanzi Writer 相容 JSON 覆寫。</div>
+            <div class="tuning-help">預設先讀已核可 Frozen Dataset；6063 以外或檔案缺失時才回退 Hanzi Writer 官方資料。</div>
           </div>
           <div class="tuning-field">
             <label for="setting-char-template">自訂字庫路徑樣板</label>
             <input type="text" id="setting-char-template" value="char-data/{char}.json" />
-            <div class="tuning-help">支援 <code>{char}</code> 或 <code>{charEncoded}</code>。例如 <code>char-data/{char}.json</code>。</div>
+            <div class="tuning-help">自訂來源支援 <code>{char}</code>、<code>{charEncoded}</code>、<code>{hex}</code>。預設核可字庫固定使用 <code>char-data/moe-6063-v1/{hex}.json</code>。</div>
           </div>
           <div class="tuning-field">
             <label for="setting-leniency">leniency<span class="tuning-inline-value" id="setting-leniency-value">1.4</span></label>
@@ -609,6 +609,8 @@
     const COLOR_TEXT = '#111827';
     const COLOR_OUTLINE = 'rgba(17, 24, 39, 0.18)';
     const APP_CONFIG = { catalogUrl: 'quiz-index.json', autoPlayOnRender: true, autoNextDelayMs: 2000, speechRate: 0.85 };
+    const APPROVED_CHAR_DATASET_VERSION = 'moe-6063-v1';
+    const APPROVED_CHAR_DATA_TEMPLATE = 'char-data/moe-6063-v1/{hex}.json';
     const DEFAULT_CHAR_SOURCE_SETTINGS = {
       mode: 'default',
       customTemplate: 'char-data/{char}.json'
@@ -783,15 +785,17 @@
     }
 
     function formatCharSourceModeLabel(mode) {
-      return mode === 'custom-first' ? '自訂優先' : '預設';
+      return mode === 'custom-first' ? '自訂優先' : 'MOE 6063 核可字庫';
     }
 
     const CHAR_DATA_CACHE = new Map();
 
     function resolveCharTemplate(template, char) {
+      const hex = [...String(char || '')][0]?.codePointAt(0)?.toString(16).toLowerCase() || '';
       return String(template || '')
         .replaceAll('{charEncoded}', encodeURIComponent(char))
-        .replaceAll('{char}', char);
+        .replaceAll('{char}', char)
+        .replaceAll('{hex}', hex);
     }
 
     async function loadDefaultCharacterData(char) {
@@ -813,13 +817,19 @@
       return data;
     }
 
+    function loadApprovedCharacterData(char) {
+      return loadCustomCharacterData(char, APPROVED_CHAR_DATA_TEMPLATE);
+    }
+
     function buildCharDataLoader(charSourceSettings) {
       const settings = normalizeCharSourceSettings(charSourceSettings);
-      if (settings.mode === 'default') return null;
       return function(char, onComplete) {
-        loadCustomCharacterData(char, settings.customTemplate)
-          .then(onComplete)
-          .catch(() => loadDefaultCharacterData(char).then(onComplete));
+        const preferred = settings.mode === 'custom-first'
+          ? loadCustomCharacterData(char, settings.customTemplate).catch(() => loadApprovedCharacterData(char))
+          : loadApprovedCharacterData(char);
+        preferred
+          .catch(() => loadDefaultCharacterData(char))
+          .then(onComplete);
       };
     }
 
