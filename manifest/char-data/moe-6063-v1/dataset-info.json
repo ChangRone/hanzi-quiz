@@ -1,0 +1,25 @@
+{
+  "dataset": "MOE-6063",
+  "version": "moe-6063-v1",
+  "format": "hanzi-writer-character-data",
+  "total": 6063,
+  "accepted": 6063,
+  "approved": 6062,
+  "exceptionApproved": 1,
+  "optimizerVersion": "median-v3-adaptive-failclosed",
+  "settingsSignature": "{\"mode\":\"auto\",\"spacing\":16,\"gridStep\":4,\"edgeWeight\":45,\"rawWeight\":0.025,\"smoothPasses\":1,\"autoTune\":true}",
+  "corpusRootSha256": "db1cef988e5e006bd88f3eed256add9d3e31a8e47c64347a9457d88100bb4af2",
+  "source": "MOE 2025 stroke JSON via moedict.tw",
+  "runtimePolicy": "frozen-approved-dataset; do not regenerate at Quiz runtime",
+  "exceptions": [
+    {
+      "char": "覷",
+      "hex": "89b7",
+      "reviewStatus": "EXCEPTION_APPROVED",
+      "reason": "HW_REFERENCE_OVERRIDE",
+      "moeStrokeCount": 19,
+      "hwStrokeCount": 18
+    }
+  ],
+  "generatedForDeploymentAt": "2026-09-08T21:45:07.467Z"
+}

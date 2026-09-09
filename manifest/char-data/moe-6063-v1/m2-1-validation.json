@@ -1,0 +1,37 @@
+{
+  "milestone": "M2-1",
+  "status": "PASS",
+  "dataset": "moe-6063-v1",
+  "corpusRootSha256": "db1cef988e5e006bd88f3eed256add9d3e31a8e47c64347a9457d88100bb4af2",
+  "runtimeDefault": "char-data/moe-6063-v1/{hex}.json",
+  "fallback": "Hanzi Writer default",
+  "legacyTopLevelCharDataDefault": false,
+  "sampleChars": [
+    "歡",
+    "口",
+    "亢",
+    "抗",
+    "覷",
+    "天",
+    "空",
+    "雲",
+    "鳥",
+    "水",
+    "草",
+    "去",
+    "再",
+    "先",
+    "完",
+    "院",
+    "船",
+    "陽",
+    "種",
+    "像"
+  ],
+  "specialCase": {
+    "char": "覷",
+    "expectedRuntimeStrokeCount": 18,
+    "source": "HW_REFERENCE_OVERRIDE"
+  },
+  "verifiedAt": "2026-09-09T03:51:42.921Z"
+}

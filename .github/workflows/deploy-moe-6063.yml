@@ -1,0 +1,56 @@
+name: Deploy reviewed MOE 6063 dataset
+
+on:
+  push:
+    branches: [data/moe-6063-v1]
+    paths:
+      - 'tools/corpus-import/**'
+      - '.github/workflows/deploy-moe-6063.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data/moe-6063-v1
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Resolve official MOE 6063 corpus
+        run: |
+          curl -fL --retry 3 -o /tmp/6063png.zip https://stroke-order.learningweb.moe.edu.tw/download/6063png.zip
+          python3 - <<'PY'
+          import zipfile, pathlib
+          z=zipfile.ZipFile('/tmp/6063png.zip', metadata_encoding='big5')
+          chars=[]
+          for n in z.namelist():
+              if n.endswith('/') or not n.lower().endswith('.png'): continue
+              c=pathlib.PurePosixPath(n).name[:-4]
+              if len(c)==1: chars.append(c)
+          chars=sorted(set(chars), key=ord)
+          assert len(chars)==6063, f'expected 6063, got {len(chars)}'
+          pathlib.Path('tools/corpus-import/moe-6063-v1-hex.txt').write_text('\n'.join(f'{ord(c):x}' for c in chars)+'\n')
+          print('corpus=6063')
+          PY
+      - name: Install browser driver
+        run: npm install --no-save puppeteer-core@24
+      - name: Generate reviewed corpus and verify frozen root
+        env:
+          CORPUS_WORKERS: '4'
+        run: node tools/corpus-import/generate-approved-corpus.mjs
+      - name: Commit verified dataset
+        run: |
+          test "$(find char-data/moe-6063-v1 -type f -name '*.json' | wc -l)" -eq 6063
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add char-data/moe-6063-v1 manifest/char-data/moe-6063-v1
+          git commit -m 'data: deploy reviewed MOE 6063 Hanzi Writer dataset v1'
+          git push origin HEAD:data/moe-6063-v1
