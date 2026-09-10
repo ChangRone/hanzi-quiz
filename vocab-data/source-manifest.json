@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-09-10",
+  "policy": {
+    "primary": "中研院大腦與語言實驗室作為固定主要結構化來源",
+    "crossValidation": "雄::gsyan 作為第三來源，全量逐課交互驗證",
+    "spotCheck": "地方爸爸與他的小幫手們作為視覺抽驗來源",
+    "differenceHandling": "來源不一致時不自動改寫主要資料，保留原值並標記 review"
+  },
+  "sources": [
+    {
+      "id": "sinica-ball-20260723",
+      "name": "中央研究院語言學研究所 大腦與語言實驗室",
+      "artifact": "115上114下學期生字表_大腦與語言實驗室_20260723.xlsx",
+      "version": "20260723",
+      "officialUrl": "https://ball.ling.sinica.edu.tw/brain/edu/radical.html",
+      "sha256": "7fbcca0bf5ea8893948215dc6cfc0742833d305c63c1a0e769f859af3844c343",
+      "role": "primary"
+    },
+    {
+      "id": "gsyan-115-up",
+      "name": "雄::gsyan HTML5-FUN 筆順設定資料庫 115上",
+      "url": "https://docs.google.com/spreadsheets/d/10Nq6prSt0s_ZI1Z1phlGEtr0MDDE1wDqEiPmnHWSM_Q",
+      "sha256": "5829a669919925dd90c5b6ee1f8d9cbdfc6a3f911a954258919f117190f61699",
+      "role": "cross_validation"
+    },
+    {
+      "id": "gsyan-114-down",
+      "name": "雄::gsyan HTML5-FUN 筆順設定資料庫 114下",
+      "url": "https://docs.google.com/spreadsheets/d/1veHorc7pgqXK-TX68mrki-78V4Rdt_zE6AXNq9a3jBU",
+      "sha256": "b3799a8c31fdedf59db10ae0b86a19b28ad69402443f4db25a1453b955621ca6",
+      "role": "cross_validation"
+    },
+    {
+      "id": "difangbaba-115-up",
+      "name": "地方爸爸與他的小幫手們",
+      "url": "https://lihi.cc/Vkqkj",
+      "sampleArtifact": "康軒二上_一般版.pdf",
+      "sampleSha256": "95389b4ab0986b17250b557398009a94241aa535e07d24ad9598520bfa61298d",
+      "role": "spot_check",
+      "licenseNote": "來源 PDF 標示『地方爸爸製作，禁止商用』；repo 僅保存核對結果與來源資訊，不重新散布 PDF。"
+    }
+  ]
+}
