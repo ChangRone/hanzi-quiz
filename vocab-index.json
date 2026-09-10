@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "國小國語生字來源索引",
+  "publisherCodeMap": {
+    "0": "南一",
+    "1": "翰林",
+    "2": "康軒"
+  },
+  "semesterCodeMap": {
+    "0": "上學期",
+    "1": "下學期"
+  },
+  "sourceManifest": "vocab-data/source-manifest.json",
+  "datasets": [
+    {
+      "id": "tw-elementary-zh-vocab-115-1-0",
+      "schoolYear": "115",
+      "academicYearStart": "2026",
+      "semester": "0",
+      "publisher": "南一",
+      "publisherCode": "0",
+      "dataUrl": "vocab-data/115-1/0-南一.json",
+      "term": "1",
+      "semesterCode": "0"
+    },
+    {
+      "id": "tw-elementary-zh-vocab-115-1-1",
+      "schoolYear": "115",
+      "academicYearStart": "2026",
+      "semester": "0",
+      "publisher": "翰林",
+      "publisherCode": "1",
+      "dataUrl": "vocab-data/115-1/1-翰林.json",
+      "term": "1",
+      "semesterCode": "0"
+    },
+    {
+      "id": "tw-elementary-zh-vocab-115-1-2",
+      "schoolYear": "115",
+      "academicYearStart": "2026",
+      "semester": "0",
+      "publisher": "康軒",
+      "publisherCode": "2",
+      "dataUrl": "vocab-data/115-1/2-康軒.json",
+      "term": "1",
+      "semesterCode": "0"
+    },
+    {
+      "id": "tw-elementary-zh-vocab-114-2-0",
+      "schoolYear": "114",
+      "academicYearStart": "2025",
+      "semester": "1",
+      "publisher": "南一",
+      "publisherCode": "0",
+      "dataUrl": "vocab-data/114-2/0-南一.json",
+      "term": "2",
+      "semesterCode": "1"
+    },
+    {
+      "id": "tw-elementary-zh-vocab-114-2-1",
+      "schoolYear": "114",
+      "academicYearStart": "2025",
+      "semester": "1",
+      "publisher": "翰林",
+      "publisherCode": "1",
+      "dataUrl": "vocab-data/114-2/1-翰林.json",
+      "term": "2",
+      "semesterCode": "1"
+    },
+    {
+      "id": "tw-elementary-zh-vocab-114-2-2",
+      "schoolYear": "114",
+      "academicYearStart": "2025",
+      "semester": "1",
+      "publisher": "康軒",
+      "publisherCode": "2",
+      "dataUrl": "vocab-data/114-2/2-康軒.json",
+      "term": "2",
+      "semesterCode": "1"
+    }
+  ]
+}
