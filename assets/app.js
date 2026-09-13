@@ -434,14 +434,19 @@
     for (const lesson of lessons) {
       for (const question of lesson.questions) {
         const skill = skillOfQuestion(question);
+        const questionKeys = new Set(
+          question.tokens
+            .filter(token => token.type === 'blank')
+            .map(token => stateKey(token.char, skill))
+            .filter(key => eligibleKeys.has(key) && !used.has(key))
+        );
         const tokens = question.tokens.map(token => {
           if (token.type !== 'blank') return { ...token };
           const key = stateKey(token.char, skill);
-          if (!eligibleKeys.has(key) || used.has(key)) return { ...token, type: 'text' };
-          used.add(key);
-          return { ...token, type: 'blank' };
+          return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };
         });
         if (!tokens.some(token => token.type === 'blank')) continue;
+        questionKeys.forEach(key => used.add(key));
         queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
       }
     }
@@ -583,9 +588,15 @@
 
   async function recordWriterResult(ws, result) {
     if (ws.recorded) return;
+    if (result === 'fail') ws.failed = true;
     ws.recorded = true;
+    const sameCharStates = state.writerStates.filter(item =>
+      item.question === ws.question && item.token.char === ws.token.char
+    );
+    if (!sameCharStates.every(item => item.recorded)) return;
+    const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';
     try {
-      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result, mode: state.practiceMode });
+      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
     } catch (err) {
       console.error(err);
       els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
