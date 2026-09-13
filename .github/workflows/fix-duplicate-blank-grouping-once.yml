@@ -2,9 +2,10 @@ name: Fix duplicate blank grouping once
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
-      - '.github/workflows/fix-duplicate-blank-grouping-once.yml'
+      - .github/workflows/fix-duplicate-blank-grouping-once.yml
 
 permissions:
   contents: write
@@ -18,94 +19,100 @@ jobs:
           ref: main
 
       - name: Patch duplicate blank grouping
-        shell: python
+        shell: bash
         run: |
+          python - <<'PY'
           from pathlib import Path
 
           path = Path('assets/app.js')
           text = path.read_text(encoding='utf-8')
 
-          old_queue = '''        const skill = skillOfQuestion(question);
-        const tokens = question.tokens.map(token => {
-          if (token.type !== 'blank') return { ...token };
-          const key = stateKey(token.char, skill);
-          if (!eligibleKeys.has(key) || used.has(key)) return { ...token, type: 'text' };
-          used.add(key);
-          return { ...token, type: 'blank' };
-        });
-        if (!tokens.some(token => token.type === 'blank')) continue;
-        queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
-'''
-          new_queue = '''        const skill = skillOfQuestion(question);
-        const questionKeys = new Set(
-          question.tokens
-            .filter(token => token.type === 'blank')
-            .map(token => stateKey(token.char, skill))
-            .filter(key => eligibleKeys.has(key) && !used.has(key))
-        );
-        const tokens = question.tokens.map(token => {
-          if (token.type !== 'blank') return { ...token };
-          const key = stateKey(token.char, skill);
-          return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };
-        });
-        if (!tokens.some(token => token.type === 'blank')) continue;
-        questionKeys.forEach(key => used.add(key));
-        queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
-'''
+          old_queue = """        const skill = skillOfQuestion(question);
+          const tokens = question.tokens.map(token => {
+            if (token.type !== 'blank') return { ...token };
+            const key = stateKey(token.char, skill);
+            if (!eligibleKeys.has(key) || used.has(key)) return { ...token, type: 'text' };
+            used.add(key);
+            return { ...token, type: 'blank' };
+          });
+          if (!tokens.some(token => token.type === 'blank')) continue;
+          queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
+          """
+          new_queue = """        const skill = skillOfQuestion(question);
+          const questionKeys = new Set(
+            question.tokens
+              .filter(token => token.type === 'blank')
+              .map(token => stateKey(token.char, skill))
+              .filter(key => eligibleKeys.has(key) && !used.has(key))
+          );
+          const tokens = question.tokens.map(token => {
+            if (token.type !== 'blank') return { ...token };
+            const key = stateKey(token.char, skill);
+            return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };
+          });
+          if (!tokens.some(token => token.type === 'blank')) continue;
+          questionKeys.forEach(key => used.add(key));
+          queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
+          """
 
-          old_record = '''  async function recordWriterResult(ws, result) {
-    if (ws.recorded) return;
-    ws.recorded = true;
-    try {
-      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result, mode: state.practiceMode });
-    } catch (err) {
-      console.error(err);
-      els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
-    }
-  }
-'''
-          new_record = '''  async function recordWriterResult(ws, result) {
-    if (ws.recorded) return;
-    if (result === 'fail') ws.failed = true;
-    ws.recorded = true;
-    const sameCharStates = state.writerStates.filter(item =>
-      item.question === ws.question && item.token.char === ws.token.char
-    );
-    if (!sameCharStates.every(item => item.recorded)) return;
-    const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';
-    try {
-      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
-    } catch (err) {
-      console.error(err);
-      els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
-    }
-  }
-'''
+          old_record = """  async function recordWriterResult(ws, result) {
+            if (ws.recorded) return;
+            ws.recorded = true;
+            try {
+              await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result, mode: state.practiceMode });
+            } catch (err) {
+              console.error(err);
+              els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
+            }
+          }
+          """
+          new_record = """  async function recordWriterResult(ws, result) {
+            if (ws.recorded) return;
+            if (result === 'fail') ws.failed = true;
+            ws.recorded = true;
+            const sameCharStates = state.writerStates.filter(item =>
+              item.question === ws.question && item.token.char === ws.token.char
+            );
+            if (!sameCharStates.every(item => item.recorded)) return;
+            const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';
+            try {
+              await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
+            } catch (err) {
+              console.error(err);
+              els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
+            }
+          }
+          """
 
           if old_queue not in text:
-            raise SystemExit('Expected buildQueue block not found; refusing to patch.')
+              raise SystemExit('Expected buildQueue block not found; refusing to patch.')
           if old_record not in text:
-            raise SystemExit('Expected recordWriterResult block not found; refusing to patch.')
+              raise SystemExit('Expected recordWriterResult block not found; refusing to patch.')
 
           text = text.replace(old_queue, new_queue, 1)
           text = text.replace(old_record, new_record, 1)
           path.write_text(text, encoding='utf-8')
+          PY
 
       - name: JavaScript syntax check
+        shell: bash
         run: node --check assets/app.js
 
       - name: Verify duplicate grouping patch
-        shell: python
+        shell: bash
         run: |
+          python - <<'PY'
           from pathlib import Path
           text = Path('assets/app.js').read_text(encoding='utf-8')
           assert 'const questionKeys = new Set(' in text
-          assert "questionKeys.forEach(key => used.add(key));" in text
+          assert 'questionKeys.forEach(key => used.add(key));' in text
           assert 'const sameCharStates = state.writerStates.filter' in text
           assert "const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';" in text
           print('duplicate blank grouping patch verified')
+          PY
 
       - name: Commit runtime fix
+        shell: bash
         run: |
           if git diff --quiet -- assets/app.js; then
             echo 'No runtime changes to commit.'
