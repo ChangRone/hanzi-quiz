@@ -9,5 +9,16 @@
       1,
       7
     ]
+  },
+  {
+    "id": "20262020",
+    "title": "2026年小二上康軒版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026康軒小二上-01.json",
+    "lessonPattern": "packs/2026康軒小二上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
   }
 ]
