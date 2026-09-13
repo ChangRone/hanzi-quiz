@@ -1,0 +1,118 @@
+name: Fix duplicate blank grouping once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-duplicate-blank-grouping-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-runtime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Patch duplicate blank grouping
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path('assets/app.js')
+          text = path.read_text(encoding='utf-8')
+
+          old_queue = '''        const skill = skillOfQuestion(question);
+        const tokens = question.tokens.map(token => {
+          if (token.type !== 'blank') return { ...token };
+          const key = stateKey(token.char, skill);
+          if (!eligibleKeys.has(key) || used.has(key)) return { ...token, type: 'text' };
+          used.add(key);
+          return { ...token, type: 'blank' };
+        });
+        if (!tokens.some(token => token.type === 'blank')) continue;
+        queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
+'''
+          new_queue = '''        const skill = skillOfQuestion(question);
+        const questionKeys = new Set(
+          question.tokens
+            .filter(token => token.type === 'blank')
+            .map(token => stateKey(token.char, skill))
+            .filter(key => eligibleKeys.has(key) && !used.has(key))
+        );
+        const tokens = question.tokens.map(token => {
+          if (token.type !== 'blank') return { ...token };
+          const key = stateKey(token.char, skill);
+          return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };
+        });
+        if (!tokens.some(token => token.type === 'blank')) continue;
+        questionKeys.forEach(key => used.add(key));
+        queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
+'''
+
+          old_record = '''  async function recordWriterResult(ws, result) {
+    if (ws.recorded) return;
+    ws.recorded = true;
+    try {
+      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result, mode: state.practiceMode });
+    } catch (err) {
+      console.error(err);
+      els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
+    }
+  }
+'''
+          new_record = '''  async function recordWriterResult(ws, result) {
+    if (ws.recorded) return;
+    if (result === 'fail') ws.failed = true;
+    ws.recorded = true;
+    const sameCharStates = state.writerStates.filter(item =>
+      item.question === ws.question && item.token.char === ws.token.char
+    );
+    if (!sameCharStates.every(item => item.recorded)) return;
+    const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';
+    try {
+      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
+    } catch (err) {
+      console.error(err);
+      els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
+    }
+  }
+'''
+
+          if old_queue not in text:
+            raise SystemExit('Expected buildQueue block not found; refusing to patch.')
+          if old_record not in text:
+            raise SystemExit('Expected recordWriterResult block not found; refusing to patch.')
+
+          text = text.replace(old_queue, new_queue, 1)
+          text = text.replace(old_record, new_record, 1)
+          path.write_text(text, encoding='utf-8')
+
+      - name: JavaScript syntax check
+        run: node --check assets/app.js
+
+      - name: Verify duplicate grouping patch
+        shell: python
+        run: |
+          from pathlib import Path
+          text = Path('assets/app.js').read_text(encoding='utf-8')
+          assert 'const questionKeys = new Set(' in text
+          assert "questionKeys.forEach(key => used.add(key));" in text
+          assert 'const sameCharStates = state.writerStates.filter' in text
+          assert "const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';" in text
+          print('duplicate blank grouping patch verified')
+
+      - name: Commit runtime fix
+        run: |
+          if git diff --quiet -- assets/app.js; then
+            echo 'No runtime changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/app.js
+          git commit -m 'fix repeated blank characters within one question'
+          git push origin HEAD:main
