@@ -27,62 +27,66 @@ jobs:
           path = Path('assets/app.js')
           text = path.read_text(encoding='utf-8')
 
-          old_queue = """        const skill = skillOfQuestion(question);
-          const tokens = question.tokens.map(token => {
-            if (token.type !== 'blank') return { ...token };
-            const key = stateKey(token.char, skill);
-            if (!eligibleKeys.has(key) || used.has(key)) return { ...token, type: 'text' };
-            used.add(key);
-            return { ...token, type: 'blank' };
-          });
-          if (!tokens.some(token => token.type === 'blank')) continue;
-          queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
-          """
-          new_queue = """        const skill = skillOfQuestion(question);
-          const questionKeys = new Set(
-            question.tokens
-              .filter(token => token.type === 'blank')
-              .map(token => stateKey(token.char, skill))
-              .filter(key => eligibleKeys.has(key) && !used.has(key))
-          );
-          const tokens = question.tokens.map(token => {
-            if (token.type !== 'blank') return { ...token };
-            const key = stateKey(token.char, skill);
-            return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };
-          });
-          if (!tokens.some(token => token.type === 'blank')) continue;
-          questionKeys.forEach(key => used.add(key));
-          queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
-          """
+          old_queue = (
+              "        const skill = skillOfQuestion(question);\n"
+              "        const tokens = question.tokens.map(token => {\n"
+              "          if (token.type !== 'blank') return { ...token };\n"
+              "          const key = stateKey(token.char, skill);\n"
+              "          if (!eligibleKeys.has(key) || used.has(key)) return { ...token, type: 'text' };\n"
+              "          used.add(key);\n"
+              "          return { ...token, type: 'blank' };\n"
+              "        });\n"
+              "        if (!tokens.some(token => token.type === 'blank')) continue;\n"
+              "        queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });\n"
+          )
+          new_queue = (
+              "        const skill = skillOfQuestion(question);\n"
+              "        const questionKeys = new Set(\n"
+              "          question.tokens\n"
+              "            .filter(token => token.type === 'blank')\n"
+              "            .map(token => stateKey(token.char, skill))\n"
+              "            .filter(key => eligibleKeys.has(key) && !used.has(key))\n"
+              "        );\n"
+              "        const tokens = question.tokens.map(token => {\n"
+              "          if (token.type !== 'blank') return { ...token };\n"
+              "          const key = stateKey(token.char, skill);\n"
+              "          return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };\n"
+              "        });\n"
+              "        if (!tokens.some(token => token.type === 'blank')) continue;\n"
+              "        questionKeys.forEach(key => used.add(key));\n"
+              "        queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });\n"
+          )
 
-          old_record = """  async function recordWriterResult(ws, result) {
-            if (ws.recorded) return;
-            ws.recorded = true;
-            try {
-              await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result, mode: state.practiceMode });
-            } catch (err) {
-              console.error(err);
-              els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
-            }
-          }
-          """
-          new_record = """  async function recordWriterResult(ws, result) {
-            if (ws.recorded) return;
-            if (result === 'fail') ws.failed = true;
-            ws.recorded = true;
-            const sameCharStates = state.writerStates.filter(item =>
-              item.question === ws.question && item.token.char === ws.token.char
-            );
-            if (!sameCharStates.every(item => item.recorded)) return;
-            const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';
-            try {
-              await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
-            } catch (err) {
-              console.error(err);
-              els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
-            }
-          }
-          """
+          old_record = (
+              "  async function recordWriterResult(ws, result) {\n"
+              "    if (ws.recorded) return;\n"
+              "    ws.recorded = true;\n"
+              "    try {\n"
+              "      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result, mode: state.practiceMode });\n"
+              "    } catch (err) {\n"
+              "      console.error(err);\n"
+              "      els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';\n"
+              "    }\n"
+              "  }\n"
+          )
+          new_record = (
+              "  async function recordWriterResult(ws, result) {\n"
+              "    if (ws.recorded) return;\n"
+              "    if (result === 'fail') ws.failed = true;\n"
+              "    ws.recorded = true;\n"
+              "    const sameCharStates = state.writerStates.filter(item =>\n"
+              "      item.question === ws.question && item.token.char === ws.token.char\n"
+              "    );\n"
+              "    if (!sameCharStates.every(item => item.recorded)) return;\n"
+              "    const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';\n"
+              "    try {\n"
+              "      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });\n"
+              "    } catch (err) {\n"
+              "      console.error(err);\n"
+              "      els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';\n"
+              "    }\n"
+              "  }\n"
+          )
 
           if old_queue not in text:
               raise SystemExit('Expected buildQueue block not found; refusing to patch.')
