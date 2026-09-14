@@ -1,0 +1,190 @@
+name: Import 115-1 quiz release into staging
+
+on:
+  push:
+    branches:
+      - release-1151-quiz-staging
+    paths:
+      - '.github/workflows/release-1151-staging-import.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-and-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging
+        uses: actions/checkout@v4
+
+      - name: Rebuild, import and verify public files
+        shell: python
+        run: |
+          import base64
+          import gzip
+          import hashlib
+          import json
+          from pathlib import Path, PurePosixPath
+
+          transfer = Path('_release_1151_transfer')
+          meta = json.loads((transfer / 'meta.json').read_text(encoding='utf-8'))
+          names = [f'part-{i:02d}.txt' for i in range(1, meta['parts'] + 1)]
+          assert sorted(p.name for p in transfer.glob('part-*.txt')) == names
+          for name in names:
+              data = (transfer / name).read_bytes()
+              assert hashlib.sha256(data).hexdigest() == meta['partSha256'][name], name
+          encoded = b''.join((transfer / name).read_bytes() for name in names)
+          assert len(encoded) == meta['encodedLength']
+          assert hashlib.sha256(encoded).hexdigest() == meta['encodedSha256']
+          raw = gzip.decompress(base64.b64decode(encoded, validate=True))
+          assert len(raw) == meta['rawLength']
+          assert hashlib.sha256(raw).hexdigest() == meta['rawSha256']
+          payload = json.loads(raw.decode('utf-8'))
+          assert payload.get('expectedPackCount') == meta['packCount']
+          assert payload.get('schemaVersion')
+
+          def decode_file_item(path, value):
+              if not isinstance(path, str) or not path:
+                  raise AssertionError(f'invalid file path: {path!r}')
+              pp = PurePosixPath(path)
+              if pp.is_absolute() or '..' in pp.parts:
+                  raise AssertionError(f'unsafe path: {path}')
+              if '/' not in path:
+                  path = 'packs/' + path
+              if not path.startswith('packs/') or not path.endswith('.json'):
+                  raise AssertionError(f'unexpected destination: {path}')
+              if isinstance(value, str):
+                  obj = json.loads(value)
+              else:
+                  obj = value
+              if not isinstance(obj, dict):
+                  raise AssertionError(f'non-object pack: {path}')
+              return path, obj
+
+          file_items = []
+          files = payload['files']
+          if isinstance(files, dict):
+              for path, value in files.items():
+                  file_items.append(decode_file_item(path, value))
+          elif isinstance(files, list):
+              for item in files:
+                  if isinstance(item, (list, tuple)) and len(item) == 2:
+                      file_items.append(decode_file_item(item[0], item[1]))
+                      continue
+                  if not isinstance(item, dict):
+                      raise AssertionError(f'unknown file item: {type(item).__name__}')
+                  path = item.get('path') or item.get('file') or item.get('filename') or item.get('name')
+                  value = None
+                  for key in ('content', 'data', 'json', 'pack'):
+                      if key in item:
+                          value = item[key]
+                          break
+                  if value is None and len(item) == 1:
+                      path, value = next(iter(item.items()))
+                  if path is None or value is None:
+                      raise AssertionError(f'unknown file item keys: {sorted(item)}')
+                  file_items.append(decode_file_item(path, value))
+          else:
+              raise AssertionError(f'unknown files type: {type(files).__name__}')
+
+          assert len(file_items) == meta['packCount'], len(file_items)
+          paths = [path for path, _ in file_items]
+          assert len(paths) == len(set(paths)), 'duplicate destination paths'
+
+          new_entries = payload['indexEntries']
+          assert isinstance(new_entries, list) and len(new_entries) == meta['indexEntryCount']
+          new_ids = [entry['id'] for entry in new_entries]
+          assert len(new_ids) == len(set(new_ids)), 'duplicate new index ids'
+
+          packs_dir = Path('packs')
+          packs_dir.mkdir(exist_ok=True)
+          for path, pack in file_items:
+              out = Path(path)
+              out.parent.mkdir(parents=True, exist_ok=True)
+              out.write_text(json.dumps(pack, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          index_path = Path('quiz-index.json')
+          old_entries = json.loads(index_path.read_text(encoding='utf-8'))
+          assert isinstance(old_entries, list)
+          merged = {entry['id']: entry for entry in old_entries if entry['id'] not in set(new_ids)}
+          for entry in new_entries:
+              merged[entry['id']] = entry
+          merged_entries = [merged[key] for key in sorted(merged)]
+          index_path.write_text(json.dumps(merged_entries, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # File-level runtime QA after writing.
+          question_ids = []
+          pack_course_ids = set()
+          unresolved = 0
+          invalid_tokens = 0
+          blank_counts = []
+          for path, expected_pack in file_items:
+              actual = json.loads(Path(path).read_text(encoding='utf-8'))
+              assert actual == expected_pack, f'round-trip mismatch: {path}'
+              required_pack = {'id','title','year','publisherCode','grade','semester','version','questions'}
+              assert required_pack <= set(actual), path
+              assert len(actual['questions']) == 10, path
+              pack_course_ids.add(actual['id'])
+              for q in actual['questions']:
+                  assert {'id','examPhase','readText','tokens'} <= set(q), (path, q.get('id'))
+                  question_ids.append(q['id'])
+                  assert isinstance(q['readText'], str) and q['readText']
+                  assert isinstance(q['tokens'], list) and q['tokens']
+                  assert ''.join(t.get('char','') for t in q['tokens']) == q['readText'], q['id']
+                  blanks = 0
+                  for token in q['tokens']:
+                      if not {'type','char','zhuyin'} <= set(token):
+                          invalid_tokens += 1
+                          continue
+                      if token['type'] not in ('text','blank') or not isinstance(token['char'], str) or len(token['char']) != 1:
+                          invalid_tokens += 1
+                      if token['type'] == 'blank':
+                          blanks += 1
+                      if not isinstance(token['zhuyin'], str) or not token['zhuyin'].strip():
+                          unresolved += 1
+                  blank_counts.append(blanks)
+
+          assert len(question_ids) == 2000, len(question_ids)
+          assert len(question_ids) == len(set(question_ids)), 'duplicate question ids'
+          assert unresolved == 0, unresolved
+          assert invalid_tokens == 0, invalid_tokens
+          assert pack_course_ids == set(new_ids), 'generated pack ids != new index ids'
+
+          final_index = json.loads(index_path.read_text(encoding='utf-8'))
+          by_id = {entry['id']: entry for entry in final_index}
+          for expected in new_entries:
+              assert by_id[expected['id']] == expected, expected['id']
+              pattern = expected.get('lessonPattern')
+              lesson_range = expected.get('lessonRange')
+              if pattern and lesson_range:
+                  start, end = lesson_range
+                  for lesson in range(start, end + 1):
+                      target = Path(pattern.replace('{LL}', f'{lesson:02d}'))
+                      assert target.exists(), f'missing indexed lesson file: {target}'
+
+          assert len(final_index) == len(old_entries) - len(set(e['id'] for e in old_entries) & set(new_ids)) + len(new_entries)
+          assert min(blank_counts) >= 1
+
+          print('IMPORT_QA_OK')
+          print(f'generatedFiles={len(file_items)}')
+          print(f'courseIds={len(pack_course_ids)}')
+          print(f'questions={len(question_ids)}')
+          print(f'unresolvedZhuyin={unresolved}')
+          print(f'invalidTokens={invalid_tokens}')
+          print(f'finalIndexEntries={len(final_index)}')
+          print(f'blankCountMin={min(blank_counts)}')
+          print(f'blankCountMax={max(blank_counts)}')
+
+      - name: Commit verified staging files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packs quiz-index.json
+          if git diff --cached --quiet; then
+            echo "No content changes to commit"
+          else
+            git commit -m "stage verified 115-1 quiz release"
+            git push origin HEAD:release-1151-quiz-staging
+          fi
