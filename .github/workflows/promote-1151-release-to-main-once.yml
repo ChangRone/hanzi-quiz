@@ -1,0 +1,120 @@
+name: Promote verified 115-1 quiz release to main once
+
+on:
+  push:
+    branches:
+      - release-1151-quiz-staging
+    paths:
+      - '.github/workflows/promote-1151-release-to-main-once.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout verified staging
+        uses: actions/checkout@v4
+        with:
+          ref: release-1151-quiz-staging
+          path: staging
+          fetch-depth: 0
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+          fetch-depth: 0
+      - name: Verify staging and prepare clean main release
+        shell: python
+        run: |
+          import hashlib, json, re, shutil
+          from pathlib import Path
+
+          EXPECTED_STRUCTURE = '52a66d6c57bba96d585143a29d2c63cf35ff563d6e229b85298e298d576393a9'
+          EXPECTED_FINAL = '8d4b6fd815cb0f026a45bfded9c41a37550c6cd28cb16745b51901cc6b25ee54'
+          pack_re = re.compile(r'^2026(?:南一|翰林|康軒)小[一二三四五六]上-(\d{2})\.json$')
+          staging = Path('staging')
+          main = Path('main')
+
+          def canonical(obj):
+              return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+
+          def load_release(root):
+              paths = sorted(p for p in (root/'packs').glob('2026*.json') if pack_re.match(p.name))
+              assert len(paths) == 200, len(paths)
+              files = {p.name:json.loads(p.read_text(encoding='utf-8')) for p in paths}
+              all_index = json.loads((root/'quiz-index.json').read_text(encoding='utf-8'))
+              entries = sorted([x for x in all_index if str(x.get('id','')).startswith('2026')], key=lambda x:x['id'])
+              assert len(entries) == 18, len(entries)
+              return paths, files, entries, all_index
+
+          def structure(files, entries):
+              sf = {}
+              for name, pack in sorted(files.items()):
+                  pp = {k:v for k,v in pack.items() if k != 'questions'}
+                  qs = []
+                  for q in pack['questions']:
+                      qq = {k:v for k,v in q.items() if k != 'tokens'}
+                      qq['tokens'] = [{'type':t['type'],'char':t['char']} for t in q['tokens']]
+                      qs.append(qq)
+                  pp['questions'] = qs
+                  sf[name] = pp
+              return {'files':dict(sorted(sf.items())), 'indexEntries':entries}
+
+          spaths, sfiles, sentries, _ = load_release(staging)
+          sstruct = hashlib.sha256(canonical(structure(sfiles, sentries))).hexdigest()
+          sfull = hashlib.sha256(canonical({'files':dict(sorted(sfiles.items())), 'indexEntries':sentries})).hexdigest()
+          assert sstruct == EXPECTED_STRUCTURE, (sstruct, EXPECTED_STRUCTURE)
+          assert sfull == EXPECTED_FINAL, (sfull, EXPECTED_FINAL)
+          assert sum(len(p['questions']) for p in sfiles.values()) == 2000
+          assert sum(len(q['tokens']) for p in sfiles.values() for q in p['questions']) == 15575
+
+          # Replace only regular 115-1 packs. Preserve all unrelated main files.
+          for p in (main/'packs').glob('2026*.json'):
+              if pack_re.match(p.name):
+                  p.unlink()
+          for src in spaths:
+              shutil.copy2(src, main/'packs'/src.name)
+
+          main_index = json.loads((main/'quiz-index.json').read_text(encoding='utf-8'))
+          release_ids = {x['id'] for x in sentries}
+          assert len(release_ids) == 18
+          preserved = [x for x in main_index if x.get('id') not in release_ids]
+          assert len({x.get('id') for x in preserved}) == len(preserved)
+          merged = preserved + sentries
+          (main/'quiz-index.json').write_text(json.dumps(merged, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          _, mfiles, mentries, _ = load_release(main)
+          mstruct = hashlib.sha256(canonical(structure(mfiles, mentries))).hexdigest()
+          mfull = hashlib.sha256(canonical({'files':dict(sorted(mfiles.items())), 'indexEntries':mentries})).hexdigest()
+          assert mstruct == EXPECTED_STRUCTURE, (mstruct, EXPECTED_STRUCTURE)
+          assert mfull == EXPECTED_FINAL, (mfull, EXPECTED_FINAL)
+
+          # Contextual pronunciation regression on the promoted copy.
+          k2 = mfiles['2026康軒小二上-01.json']
+          by_text = {q['readText']:q for q in k2['questions']}
+          assert [t['zhuyin'] for t in by_text['我希望成為閱讀高手']['tokens'] if t['char']=='為'] == ['ㄨㄟˊ']
+          assert [t['zhuyin'] for t in by_text['老師只為我加油']['tokens'] if t['char']=='為'] == ['ㄨㄟˋ']
+
+          print('PACKS=200 QUESTIONS=2000 TOKENS=15575 INDEX_2026=18')
+          print(f'STRUCTURE_SHA={mstruct}')
+          print(f'FINAL_SHA={mfull}')
+          print('CLEAN_MAIN_RELEASE_READY')
+      - name: Commit and push release to main
+        working-directory: main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A packs quiz-index.json
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo 'Main already contains the verified 115-1 release.'
+          else
+            git commit -m 'release verified 115-1 quiz packs'
+            git push origin HEAD:main
+          fi
