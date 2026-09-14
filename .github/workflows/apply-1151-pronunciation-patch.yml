@@ -1,0 +1,133 @@
+name: Apply exact 115-1 pronunciation patch to staging
+
+on:
+  push:
+    branches:
+      - release-1151-quiz-staging
+    paths:
+      - '_release_1151_patch/meta.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: release-1151-quiz-staging
+          fetch-depth: 0
+      - name: Verify baseline, apply exact patch, verify corrected release
+        shell: python
+        run: |
+          import hashlib, json, re
+          from pathlib import Path
+
+          EXPECTED_BASELINE = '120bcc7dfc08ce3fcabef09f5609deb34ee1089030cc2b40aa659e767e6b43a9'
+          EXPECTED_STRUCTURE = '52a66d6c57bba96d585143a29d2c63cf35ff563d6e229b85298e298d576393a9'
+          EXPECTED_FINAL = '8d4b6fd815cb0f026a45bfded9c41a37550c6cd28cb16745b51901cc6b25ee54'
+          patch_dir = Path('_release_1151_patch')
+          meta = json.loads((patch_dir/'meta.json').read_text(encoding='utf-8'))
+          assert meta['parts'] == 7
+          assert meta['count'] == 334
+          assert meta['baselineFullSha256'] == EXPECTED_BASELINE
+          assert meta['structureSha256'] == EXPECTED_STRUCTURE
+          assert meta['correctedReleaseSha256'] == EXPECTED_FINAL
+
+          pieces = []
+          for i in range(1, meta['parts'] + 1):
+              name = f'part-{i:02d}.tsv'
+              text = (patch_dir/name).read_text(encoding='utf-8')
+              got = hashlib.sha256(text.encode('utf-8')).hexdigest()
+              assert got == meta['partSha256'][name], (name, got, meta['partSha256'][name])
+              pieces.append(text)
+          joined = ''.join(pieces)
+          assert hashlib.sha256(joined.encode('utf-8')).hexdigest() == meta['joinedSha256']
+          rows = [line.split('\t') for line in joined.splitlines() if line]
+          assert len(rows) == 334
+          assert all(len(r) == 4 for r in rows)
+          assert len({r[0] for r in rows}) == 334
+
+          pack_re = re.compile(r'^2026(?:南一|翰林|康軒)小[一二三四五六]上-(\d{2})\.json$')
+          pack_paths = sorted(p for p in Path('packs').glob('2026*.json') if pack_re.match(p.name))
+          assert len(pack_paths) == 200, len(pack_paths)
+          files = {p.name: json.loads(p.read_text(encoding='utf-8')) for p in pack_paths}
+          index_all = json.loads(Path('quiz-index.json').read_text(encoding='utf-8'))
+          entries = sorted([x for x in index_all if str(x.get('id','')).startswith('2026')], key=lambda x: x['id'])
+          assert len(entries) == 18, len(entries)
+
+          def canonical(obj):
+              return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+
+          def structure(files_obj, entries_obj):
+              sf = {}
+              for name, pack in sorted(files_obj.items()):
+                  pp = {k:v for k,v in pack.items() if k != 'questions'}
+                  qs = []
+                  for q in pack['questions']:
+                      qq = {k:v for k,v in q.items() if k != 'tokens'}
+                      qq['tokens'] = [{'type':t['type'],'char':t['char']} for t in q['tokens']]
+                      qs.append(qq)
+                  pp['questions'] = qs
+                  sf[name] = pp
+              return {'files':dict(sorted(sf.items())), 'indexEntries':entries_obj}
+
+          struct_sha = hashlib.sha256(canonical(structure(files, entries))).hexdigest()
+          assert struct_sha == EXPECTED_STRUCTURE, (struct_sha, EXPECTED_STRUCTURE)
+          before = {'files':dict(sorted(files.items())), 'indexEntries':entries}
+          baseline_sha = hashlib.sha256(canonical(before)).hexdigest()
+          assert baseline_sha == EXPECTED_BASELINE, (baseline_sha, EXPECTED_BASELINE)
+
+          token_by_id = {}
+          token_owner = {}
+          for name, pack in sorted(files.items()):
+              pack_id = str(pack['id'])
+              group = f'{pack_id[4]}-{pack_id[5:7]}'
+              lesson = int(pack_re.match(name).group(1))
+              for qnum, q in enumerate(pack['questions'], 1):
+                  for idx, token in enumerate(q['tokens']):
+                      oid = f'{group}-L{lesson:02d}-Q{qnum:02d}-I{idx:02d}'
+                      assert oid not in token_by_id
+                      token_by_id[oid] = token
+                      token_owner[oid] = name
+
+          touched = set()
+          for oid, char, from_zhuyin, selected_zhuyin in rows:
+              assert oid in token_by_id, oid
+              token = token_by_id[oid]
+              assert token['char'] == char, (oid, token['char'], char)
+              assert token['zhuyin'] == from_zhuyin, (oid, token['zhuyin'], from_zhuyin)
+              token['zhuyin'] = selected_zhuyin
+              touched.add(token_owner[oid])
+
+          after = {'files':dict(sorted(files.items())), 'indexEntries':entries}
+          final_sha = hashlib.sha256(canonical(after)).hexdigest()
+          assert final_sha == EXPECTED_FINAL, (final_sha, EXPECTED_FINAL)
+
+          k2 = files['2026康軒小二上-01.json']
+          by_text = {q['readText']:q for q in k2['questions']}
+          become = [t['zhuyin'] for t in by_text['我希望成為閱讀高手']['tokens'] if t['char']=='為']
+          for_me = [t['zhuyin'] for t in by_text['老師只為我加油']['tokens'] if t['char']=='為']
+          assert become == ['ㄨㄟˊ'], become
+          assert for_me == ['ㄨㄟˋ'], for_me
+
+          for name in sorted(touched):
+              (Path('packs')/name).write_text(json.dumps(files[name], ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          print(f'PATCH_COUNT={len(rows)}')
+          print(f'TOUCHED_PACKS={len(touched)}')
+          print(f'BASELINE_SHA={baseline_sha}')
+          print(f'FINAL_SHA={final_sha}')
+          print('EXACT_PATCH_AND_FULL_HASH_PASS')
+      - name: Commit corrected packs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898218+github-actions[bot]@users.noreply.github.com'
+          git add packs/2026*.json
+          git diff --cached --check
+          git commit -m 'apply exact 115-1 pronunciation corrections'
+          git push origin HEAD:release-1151-quiz-staging
