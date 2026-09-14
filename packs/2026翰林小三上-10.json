@@ -1,0 +1,446 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610301001",
+      "examPhase": "midterm_before",
+      "readText": "婚禮服飾很漂亮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "婚",
+          "zhuyin": "ㄏㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "禮",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "飾",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "漂",
+          "zhuyin": "ㄆㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301002",
+      "examPhase": "midterm_before",
+      "readText": "新郎參加迎賓活動",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "郎",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "參",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "迎",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "賓",
+          "zhuyin": "ㄅㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301003",
+      "examPhase": "midterm_before",
+      "readText": "音樂響起代表開始",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "始",
+          "zhuyin": "ㄕˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610301004",
+      "examPhase": "midterm_before",
+      "readText": "婚禮充滿祝福",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "婚",
+          "zhuyin": "ㄏㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "禮",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "充",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "祝",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "福",
+          "zhuyin": "ㄈㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610301005",
+      "examPhase": "midterm_before",
+      "readText": "連喝兩杯酒不好",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "杯",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610301006",
+      "examPhase": "midterm_before",
+      "readText": "長輩互相敬酒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "輩",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "敬",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610301007",
+      "examPhase": "midterm_before",
+      "readText": "文化裡藏著習俗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "藏",
+          "zhuyin": "ㄘㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "俗",
+          "zhuyin": "ㄙㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610301008",
+      "examPhase": "midterm_before",
+      "readText": "我們珍惜互助精神",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "珍",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "惜",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "神",
+          "zhuyin": "ㄕㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610301009",
+      "examPhase": "midterm_before",
+      "readText": "服飾代表族群文化",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "飾",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "族",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "群",
+          "zhuyin": "ㄑㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301010",
+      "examPhase": "midterm_before",
+      "readText": "新郎敬酒表示祝福",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "郎",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "敬",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "示",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "祝",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "福",
+          "zhuyin": "ㄈㄨˊ"
+        }
+      ]
+    }
+  ]
+}

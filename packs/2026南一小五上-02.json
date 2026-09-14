@@ -1,0 +1,476 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500201",
+      "examPhase": "midterm_before",
+      "readText": "小師傅熟練釘木板",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "傅",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "釘",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "板",
+          "zhuyin": "ㄅㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500202",
+      "examPhase": "midterm_before",
+      "readText": "工程延後再遞交",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "程",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "延",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "遞",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "交",
+          "zhuyin": "ㄐㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600500203",
+      "examPhase": "midterm_before",
+      "readText": "經驗豐富做事平穩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "驗",
+          "zhuyin": "ㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "豐",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "富",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "穩",
+          "zhuyin": "ㄨㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500204",
+      "examPhase": "midterm_before",
+      "readText": "按照步驟確認一次",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "按",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "驟",
+          "zhuyin": "ㄗㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "確",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "認",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500205",
+      "examPhase": "midterm_before",
+      "readText": "大家一起清掃服務區",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "掃",
+          "zhuyin": "ㄙㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "務",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "區",
+          "zhuyin": "ㄑㄩ"
+        }
+      ]
+    },
+    {
+      "id": "202600500206",
+      "examPhase": "midterm_before",
+      "readText": "客人稱讚他的口碑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "客",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "稱",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "讚",
+          "zhuyin": "ㄗㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "碑",
+          "zhuyin": "ㄅㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202600500207",
+      "examPhase": "midterm_before",
+      "readText": "好口碑帶來好業績",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "碑",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "績",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202600500208",
+      "examPhase": "midterm_before",
+      "readText": "保障能提升效率",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "障",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "效",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "率",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500209",
+      "examPhase": "midterm_before",
+      "readText": "預先閱讀了解內涵",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "預",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "閱",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "涵",
+          "zhuyin": "ㄏㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500210",
+      "examPhase": "midterm_before",
+      "readText": "精確安排提高效率",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "確",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "效",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "率",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    }
+  ]
+}

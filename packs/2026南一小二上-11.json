@@ -1,0 +1,511 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600201101",
+      "examPhase": "midterm_before",
+      "readText": "今天是冬至要吃湯圓",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "冬",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "至",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "blank",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600201102",
+      "examPhase": "midterm_before",
+      "readText": "妹妹看著太陽升起",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "妹",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "妹",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600201103",
+      "examPhase": "midterm_before",
+      "readText": "因為期待所以很開心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "所",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600201104",
+      "examPhase": "midterm_before",
+      "readText": "我盯著糯米團看",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "盯",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "糯",
+          "zhuyin": "ㄋㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201105",
+      "examPhase": "midterm_before",
+      "readText": "南瓜粉做出黃色麵團",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "南",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "瓜",
+          "zhuyin": "ㄍㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "粉",
+          "zhuyin": "ㄈㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "黃",
+          "zhuyin": "ㄏㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600201106",
+      "examPhase": "midterm_before",
+      "readText": "我笑呵呵接過小碗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "呵",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "呵",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "碗",
+          "zhuyin": "ㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600201107",
+      "examPhase": "midterm_before",
+      "readText": "小牛造型的湯圓很可愛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "牛",
+          "zhuyin": "ㄋㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "造",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "型",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201108",
+      "examPhase": "midterm_before",
+      "readText": "今天我做湯圓真開心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600201109",
+      "examPhase": "midterm_before",
+      "readText": "太陽升起時天空真亮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201110",
+      "examPhase": "midterm_before",
+      "readText": "冬至湯圓接著上桌",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "冬",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "至",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        }
+      ]
+    }
+  ]
+}

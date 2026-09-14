@@ -1,0 +1,491 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400101",
+      "examPhase": "midterm_before",
+      "readText": "游泳池旁掛著一串旗子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "游",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "泳",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "掛",
+          "zhuyin": "ㄍㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "串",
+          "zhuyin": "ㄔㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "旗",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620400102",
+      "examPhase": "midterm_before",
+      "readText": "一般選手姿勢很穩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "般",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姿",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "勢",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "穩",
+          "zhuyin": "ㄨㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400103",
+      "examPhase": "midterm_before",
+      "readText": "頭髮溜直貼在耳旁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "髮",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溜",
+          "zhuyin": "ㄌㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "貼",
+          "zhuyin": "ㄊㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "耳",
+          "zhuyin": "ㄦˇ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400104",
+      "examPhase": "midterm_before",
+      "readText": "飛鷹在天空滑行",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "鷹",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "滑",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400105",
+      "examPhase": "midterm_before",
+      "readText": "海鳥遨遊後緩緩下降",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "遨",
+          "zhuyin": "ㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "緩",
+          "zhuyin": "ㄏㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "緩",
+          "zhuyin": "ㄏㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "降",
+          "zhuyin": "ㄐㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400106",
+      "examPhase": "midterm_before",
+      "readText": "陀螺快速旋轉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陀",
+          "zhuyin": "ㄊㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "螺",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "速",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400107",
+      "examPhase": "midterm_before",
+      "readText": "選手轉身跳躍入水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "躍",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400108",
+      "examPhase": "midterm_before",
+      "readText": "選手轉身舞姿多采",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姿",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "采",
+          "zhuyin": "ㄘㄞˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400109",
+      "examPhase": "midterm_before",
+      "readText": "轉念後別為比賽煩惱",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "賽",
+          "zhuyin": "ㄙㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400110",
+      "examPhase": "midterm_before",
+      "readText": "游泳後像飛鷹般自在",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "游",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "泳",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "鷹",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "般",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        }
+      ]
+    }
+  ]
+}

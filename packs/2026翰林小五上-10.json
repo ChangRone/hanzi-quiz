@@ -1,0 +1,451 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610501001",
+      "examPhase": "midterm_before",
+      "readText": "觀察敏銳又細膩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "察",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "敏",
+          "zhuyin": "ㄇㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "銳",
+          "zhuyin": "ㄖㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膩",
+          "zhuyin": "ㄋㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501002",
+      "examPhase": "midterm_before",
+      "readText": "偉格納來自德國",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "偉",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "格",
+          "zhuyin": "ㄍㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "納",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "德",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "國",
+          "zhuyin": "ㄍㄨㄛˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610501003",
+      "examPhase": "midterm_before",
+      "readText": "南美洲靠近大西洋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "南",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "洲",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "西",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "洋",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610501004",
+      "examPhase": "midterm_before",
+      "readText": "拼湊大陸漂移證據",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "拼",
+          "zhuyin": "ㄆㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "湊",
+          "zhuyin": "ㄘㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陸",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "漂",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "移",
+          "zhuyin": "ㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "證",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "據",
+          "zhuyin": "ㄐㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501005",
+      "examPhase": "midterm_before",
+      "readText": "別急著批評服飾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "急",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "批",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "評",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "飾",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501006",
+      "examPhase": "midterm_before",
+      "readText": "洋娃娃有長頭髮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "洋",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "娃",
+          "zhuyin": "ㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "娃",
+          "zhuyin": "ㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "髮",
+          "zhuyin": "ㄈㄚˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610501007",
+      "examPhase": "midterm_before",
+      "readText": "這個詞讓丈夫笑了",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "詞",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "丈",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610501008",
+      "examPhase": "midterm_before",
+      "readText": "商品正在銷售",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "銷",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "售",
+          "zhuyin": "ㄕㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501009",
+      "examPhase": "midterm_before",
+      "readText": "希臘位在歐洲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "希",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "臘",
+          "zhuyin": "ㄌㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "歐",
+          "zhuyin": "ㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "洲",
+          "zhuyin": "ㄓㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202610501010",
+      "examPhase": "midterm_before",
+      "readText": "偉大想法來自敏銳觀察",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "偉",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "敏",
+          "zhuyin": "ㄇㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "銳",
+          "zhuyin": "ㄖㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "察",
+          "zhuyin": "ㄔㄚˊ"
+        }
+      ]
+    }
+  ]
+}

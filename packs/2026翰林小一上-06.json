@@ -1,0 +1,391 @@
+{
+  "id": "20261010",
+  "title": "2026年小一上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610100601",
+      "examPhase": "midterm_before",
+      "readText": "秋千在天空搖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "秋",
+          "zhuyin": "ㄑㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "千",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100602",
+      "examPhase": "midterm_before",
+      "readText": "早上一下子變冷",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100603",
+      "examPhase": "midterm_before",
+      "readText": "他說今天真好",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100604",
+      "examPhase": "midterm_before",
+      "readText": "早上田裡有花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610100605",
+      "examPhase": "midterm_before",
+      "readText": "這是誰的帽子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "誰",
+          "zhuyin": "ㄕㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "帽",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610100606",
+      "examPhase": "midterm_before",
+      "readText": "我陪他去公園",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "陪",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100607",
+      "examPhase": "midterm_before",
+      "readText": "天空是藍色的",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "藍",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610100608",
+      "examPhase": "midterm_before",
+      "readText": "誰陪我盪秋千",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "誰",
+          "zhuyin": "ㄕㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "陪",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "盪",
+          "zhuyin": "ㄉㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "秋",
+          "zhuyin": "ㄑㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "千",
+          "zhuyin": "ㄑㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610100609",
+      "examPhase": "midterm_before",
+      "readText": "他一早就起床",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "床",
+          "zhuyin": "ㄔㄨㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100610",
+      "examPhase": "midterm_before",
+      "readText": "花田旁有人說話",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    }
+  ]
+}

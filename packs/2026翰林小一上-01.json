@@ -1,0 +1,321 @@
+{
+  "id": "20261010",
+  "title": "2026年小一上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610100101",
+      "examPhase": "midterm_before",
+      "readText": "我向前走",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100102",
+      "examPhase": "midterm_before",
+      "readText": "你在左邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "左",
+          "zhuyin": "ㄗㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610100103",
+      "examPhase": "midterm_before",
+      "readText": "我在右邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610100104",
+      "examPhase": "midterm_before",
+      "readText": "你和爸爸出門",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100105",
+      "examPhase": "midterm_before",
+      "readText": "一起向右走",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100106",
+      "examPhase": "midterm_before",
+      "readText": "你向左看",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "左",
+          "zhuyin": "ㄗㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610100107",
+      "examPhase": "midterm_before",
+      "readText": "前面有人走",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100108",
+      "examPhase": "midterm_before",
+      "readText": "我向右轉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100109",
+      "examPhase": "midterm_before",
+      "readText": "你在前面等我",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100110",
+      "examPhase": "midterm_before",
+      "readText": "和大家一起玩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    }
+  ]
+}

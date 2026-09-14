@@ -1,0 +1,356 @@
+{
+  "id": "20262010",
+  "title": "2026年小一上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620100101",
+      "examPhase": "midterm_before",
+      "readText": "拍拍手真開心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620100102",
+      "examPhase": "midterm_before",
+      "readText": "左手向上伸",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "左",
+          "zhuyin": "ㄗㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "伸",
+          "zhuyin": "ㄕㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620100103",
+      "examPhase": "midterm_before",
+      "readText": "右手向下放",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100104",
+      "examPhase": "midterm_before",
+      "readText": "你也拍一下",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100105",
+      "examPhase": "midterm_before",
+      "readText": "他也舉右手",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "舉",
+          "zhuyin": "ㄐㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100106",
+      "examPhase": "midterm_before",
+      "readText": "你拍拍左邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "左",
+          "zhuyin": "ㄗㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620100107",
+      "examPhase": "midterm_before",
+      "readText": "他向上拍手",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100108",
+      "examPhase": "midterm_before",
+      "readText": "右邊有人拍手",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100109",
+      "examPhase": "midterm_before",
+      "readText": "你和他都向下看",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100110",
+      "examPhase": "midterm_before",
+      "readText": "左右手一起動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "左",
+          "zhuyin": "ㄗㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "右",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    }
+  ]
+}

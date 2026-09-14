@@ -1,0 +1,481 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400801",
+      "examPhase": "midterm_before",
+      "readText": "大俠停頓一下再說",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "俠",
+          "zhuyin": "ㄒㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "頓",
+          "zhuyin": "ㄉㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202610400802",
+      "examPhase": "midterm_before",
+      "readText": "江湖英雄穿著布鞋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "江",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "湖",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "英",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "雄",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "穿",
+          "zhuyin": "ㄔㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "布",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400803",
+      "examPhase": "midterm_before",
+      "readText": "鞋子被雨淋溼",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "被",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "淋",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "溼",
+          "zhuyin": "ㄕ"
+        }
+      ]
+    },
+    {
+      "id": "202610400804",
+      "examPhase": "midterm_before",
+      "readText": "柱子前要停止奔跑",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "柱",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "奔",
+          "zhuyin": "ㄅㄣ"
+        },
+        {
+          "type": "text",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400805",
+      "examPhase": "midterm_before",
+      "readText": "我撐傘才不再慌亂失措",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "撐",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "text",
+          "char": "傘",
+          "zhuyin": "ㄙㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "慌",
+          "zhuyin": "ㄏㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "措",
+          "zhuyin": "ㄘㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400806",
+      "examPhase": "midterm_before",
+      "readText": "大概把傘撐好就行",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "概",
+          "zhuyin": "ㄍㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "傘",
+          "zhuyin": "ㄙㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "撐",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400807",
+      "examPhase": "midterm_before",
+      "readText": "折疊傘根本沒壞",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "折",
+          "zhuyin": "ㄓㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "疊",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "傘",
+          "zhuyin": "ㄙㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "根",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "壞",
+          "zhuyin": "ㄏㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400808",
+      "examPhase": "midterm_before",
+      "readText": "我愣住後脫口回答",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "愣",
+          "zhuyin": "ㄌㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "脫",
+          "zhuyin": "ㄊㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400809",
+      "examPhase": "midterm_before",
+      "readText": "那位大俠真的很帥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "那",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "俠",
+          "zhuyin": "ㄒㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "帥",
+          "zhuyin": "ㄕㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400810",
+      "examPhase": "midterm_before",
+      "readText": "停止後大概愣了幾秒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "概",
+          "zhuyin": "ㄍㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "愣",
+          "zhuyin": "ㄌㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "秒",
+          "zhuyin": "ㄇㄧㄠˇ"
+        }
+      ]
+    }
+  ]
+}

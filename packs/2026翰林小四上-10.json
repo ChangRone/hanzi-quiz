@@ -1,0 +1,486 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610401001",
+      "examPhase": "midterm_before",
+      "readText": "珊瑚礁面積很大",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "珊",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "瑚",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "礁",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "積",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610401002",
+      "examPhase": "midterm_before",
+      "readText": "海藻提供生物生存空間",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "藻",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "供",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610401003",
+      "examPhase": "midterm_before",
+      "readText": "珊瑚礁有花園之稱",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "珊",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "瑚",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "礁",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "稱",
+          "zhuyin": "ㄔㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610401004",
+      "examPhase": "midterm_before",
+      "readText": "一株植物長在縫隙",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "株",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "植",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "縫",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "隙",
+          "zhuyin": "ㄒㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610401005",
+      "examPhase": "midterm_before",
+      "readText": "海底顏色繽紛亮麗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "顏",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繽",
+          "zhuyin": "ㄅㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "紛",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610401006",
+      "examPhase": "midterm_before",
+      "readText": "過度捕撈傷害海洋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "捕",
+          "zhuyin": "ㄅㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "撈",
+          "zhuyin": "ㄌㄠ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "害",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "洋",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610401007",
+      "examPhase": "midterm_before",
+      "readText": "汙染讓海藻變少",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "汙",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "染",
+          "zhuyin": "ㄖㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "藻",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610401008",
+      "examPhase": "midterm_before",
+      "readText": "珊瑚躲在岩石縫裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "珊",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "瑚",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "躲",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "岩",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "縫",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610401009",
+      "examPhase": "midterm_before",
+      "readText": "面積大的礁岩很壯觀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "積",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "礁",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "岩",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "壯",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610401010",
+      "examPhase": "midterm_before",
+      "readText": "保護海藻避免汙染",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "藻",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "避",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "汙",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "染",
+          "zhuyin": "ㄖㄢˇ"
+        }
+      ]
+    }
+  ]
+}

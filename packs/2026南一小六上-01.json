@@ -1,0 +1,476 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600101",
+      "examPhase": "midterm_before",
+      "readText": "陰霾散去空氣涼爽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陰",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "霾",
+          "zhuyin": "ㄇㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "涼",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "爽",
+          "zhuyin": "ㄕㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600102",
+      "examPhase": "midterm_before",
+      "readText": "我把窗邊塵垢擦掉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "塵",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "垢",
+          "zhuyin": "ㄍㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "擦",
+          "zhuyin": "ㄘㄚ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600103",
+      "examPhase": "midterm_before",
+      "readText": "鳳蝶停在書頁旁",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鳳",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "蝶",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "頁",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600104",
+      "examPhase": "midterm_before",
+      "readText": "書頁曝著午後陽光",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "頁",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "曝",
+          "zhuyin": "ㄆㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "午",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600600105",
+      "examPhase": "midterm_before",
+      "readText": "我涉過小溪留下腳跡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "涉",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "跡",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202600600106",
+      "examPhase": "midterm_before",
+      "readText": "曝曬後水痕暈開",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "曝",
+          "zhuyin": "ㄆㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "曬",
+          "zhuyin": "ㄕㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "痕",
+          "zhuyin": "ㄏㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "暈",
+          "zhuyin": "ㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202600600107",
+      "examPhase": "midterm_before",
+      "readText": "陰霾讓天空失去涼爽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陰",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "霾",
+          "zhuyin": "ㄇㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "涼",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "爽",
+          "zhuyin": "ㄕㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600108",
+      "examPhase": "midterm_before",
+      "readText": "鳳蝶飛過塵土小路",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鳳",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "蝶",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "塵",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600109",
+      "examPhase": "midterm_before",
+      "readText": "書頁留下淡淡水跡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "頁",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "淡",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "淡",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "跡",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202600600110",
+      "examPhase": "midterm_before",
+      "readText": "我涉水看見光暈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "涉",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "暈",
+          "zhuyin": "ㄩㄣˋ"
+        }
+      ]
+    }
+  ]
+}

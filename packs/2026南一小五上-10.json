@@ -1,0 +1,516 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600501001",
+      "examPhase": "midterm_before",
+      "readText": "別管閒事也別亂罵人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "管",
+          "zhuyin": "ㄍㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "閒",
+          "zhuyin": "ㄒㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "罵",
+          "zhuyin": "ㄇㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600501002",
+      "examPhase": "midterm_before",
+      "readText": "我究竟該選哪個陣營",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "究",
+          "zhuyin": "ㄐㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "竟",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "該",
+          "zhuyin": "ㄍㄞ"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "哪",
+          "zhuyin": "ㄋㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "陣",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "營",
+          "zhuyin": "ㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600501003",
+      "examPhase": "midterm_before",
+      "readText": "別擔心也別彆扭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "擔",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "彆",
+          "zhuyin": "ㄅㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "扭",
+          "zhuyin": "ㄋㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600501004",
+      "examPhase": "midterm_before",
+      "readText": "老師規勸我們不要記仇",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "規",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "勸",
+          "zhuyin": "ㄑㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "仇",
+          "zhuyin": "ㄔㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600501005",
+      "examPhase": "midterm_before",
+      "readText": "大家坐下討論火鍋材料",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "討",
+          "zhuyin": "ㄊㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "論",
+          "zhuyin": "ㄌㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501006",
+      "examPhase": "midterm_before",
+      "readText": "友誼繫著彼此的心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "誼",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繫",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "彼",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600501007",
+      "examPhase": "midterm_before",
+      "readText": "互相幫忙維持情誼",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "維",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "誼",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501008",
+      "examPhase": "midterm_before",
+      "readText": "畢業後仍保持聯繫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "畢",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "聯",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "繫",
+          "zhuyin": "ㄒㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501009",
+      "examPhase": "midterm_before",
+      "readText": "畢業後失去音訊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "畢",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "訊",
+          "zhuyin": "ㄒㄩㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501010",
+      "examPhase": "midterm_before",
+      "readText": "做人要光明磊落也要規矩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "磊",
+          "zhuyin": "ㄌㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "規",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "矩",
+          "zhuyin": "ㄐㄩˇ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": "20261010",
+  "title": "2026年小一上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610100401",
+      "examPhase": "midterm_before",
+      "readText": "天空有多高",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610100402",
+      "examPhase": "midterm_before",
+      "readText": "請問小草喝水嗎",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "嗎",
+          "zhuyin": "ㄇㄚ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610100403",
+      "examPhase": "midterm_before",
+      "readText": "天上有星星",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610100404",
+      "examPhase": "midterm_before",
+      "readText": "太陽升高了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610100405",
+      "examPhase": "midterm_before",
+      "readText": "水珠跑去哪裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "珠",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "哪",
+          "zhuyin": "ㄋㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100406",
+      "examPhase": "midterm_before",
+      "readText": "有多少星光",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610100407",
+      "examPhase": "midterm_before",
+      "readText": "小草長高了",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610100408",
+      "examPhase": "midterm_before",
+      "readText": "請你去看太陽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100409",
+      "examPhase": "midterm_before",
+      "readText": "天亮了去散步",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610100410",
+      "examPhase": "midterm_before",
+      "readText": "水裡有小草",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        }
+      ]
+    }
+  ]
+}

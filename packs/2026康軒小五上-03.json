@@ -1,0 +1,506 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500301",
+      "examPhase": "midterm_before",
+      "readText": "陡峭山峰高聳入雲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陡",
+          "zhuyin": "ㄉㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "峭",
+          "zhuyin": "ㄑㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "聳",
+          "zhuyin": "ㄙㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500302",
+      "examPhase": "midterm_before",
+      "readText": "強勁風中又冷又飢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "強",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "勁",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "飢",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202620500303",
+      "examPhase": "midterm_before",
+      "readText": "隱形繩索不要亂扯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "隱",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "繩",
+          "zhuyin": "ㄕㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "索",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "扯",
+          "zhuyin": "ㄔㄜˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500304",
+      "examPhase": "midterm_before",
+      "readText": "尖銳箭頭要小心收好",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "尖",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "銳",
+          "zhuyin": "ㄖㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "箭",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500305",
+      "examPhase": "midterm_before",
+      "readText": "堅韌樹根像虯龍盤繞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "韌",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "根",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "虯",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "龍",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "盤",
+          "zhuyin": "ㄆㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "繞",
+          "zhuyin": "ㄖㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500306",
+      "examPhase": "midterm_before",
+      "readText": "老樹鬚根十分繁茂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鬚",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "根",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "繁",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "茂",
+          "zhuyin": "ㄇㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500307",
+      "examPhase": "midterm_before",
+      "readText": "藤蔓生長幾乎不休止",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "藤",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔓",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "幾",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "乎",
+          "zhuyin": "ㄏㄨ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "休",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500308",
+      "examPhase": "midterm_before",
+      "readText": "藉由閱讀豐富經驗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "藉",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "由",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "閱",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "豐",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "富",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "驗",
+          "zhuyin": "ㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500309",
+      "examPhase": "midterm_before",
+      "readText": "遇到挫折仍要前進",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "挫",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "折",
+          "zhuyin": "ㄓㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500310",
+      "examPhase": "midterm_before",
+      "readText": "強勁意志讓人克服挫折",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "強",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "勁",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "克",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "挫",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "折",
+          "zhuyin": "ㄓㄜˊ"
+        }
+      ]
+    }
+  ]
+}

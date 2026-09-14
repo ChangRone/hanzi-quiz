@@ -1,0 +1,481 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600201",
+      "examPhase": "midterm_before",
+      "readText": "我在花園栽種茂盛植物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "栽",
+          "zhuyin": "ㄗㄞ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "茂",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "盛",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "植",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600202",
+      "examPhase": "midterm_before",
+      "readText": "藤蔓爬滿牆面",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "藤",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔓",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "爬",
+          "zhuyin": "ㄆㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "牆",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600203",
+      "examPhase": "midterm_before",
+      "readText": "熟悉的鳥掀動翅膀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "悉",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "掀",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "翅",
+          "zhuyin": "ㄔˋ"
+        },
+        {
+          "type": "text",
+          "char": "膀",
+          "zhuyin": "ㄅㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600204",
+      "examPhase": "midterm_before",
+      "readText": "爸爸添水以免乾掉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "添",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "乾",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600205",
+      "examPhase": "midterm_before",
+      "readText": "尚有光從縫隙進來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "尚",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "縫",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "隙",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600206",
+      "examPhase": "midterm_before",
+      "readText": "櫃頂放著稿紙",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "櫃",
+          "zhuyin": "ㄍㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "頂",
+          "zhuyin": "ㄉㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "稿",
+          "zhuyin": "ㄍㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600207",
+      "examPhase": "midterm_before",
+      "readText": "小鳥顫動肩上的羽毛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "顫",
+          "zhuyin": "ㄔㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "肩",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "羽",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600208",
+      "examPhase": "midterm_before",
+      "readText": "入暮後絨毛更保暖",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "暮",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "絨",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600209",
+      "examPhase": "midterm_before",
+      "readText": "牠咂咂嘴表示信賴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "牠",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "咂",
+          "zhuyin": "ㄗㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "咂",
+          "zhuyin": "ㄗㄚ"
+        },
+        {
+          "type": "text",
+          "char": "嘴",
+          "zhuyin": "ㄗㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "示",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "信",
+          "zhuyin": "ㄒㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "賴",
+          "zhuyin": "ㄌㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600210",
+      "examPhase": "midterm_before",
+      "readText": "繁茂樹影下音樂流瀉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "繁",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "茂",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "瀉",
+          "zhuyin": "ㄒㄧㄝˋ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200901",
+      "examPhase": "midterm_before",
+      "readText": "小黃瓜先沖洗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "黃",
+          "zhuyin": "ㄏㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "瓜",
+          "zhuyin": "ㄍㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "沖",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "洗",
+          "zhuyin": "ㄒㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200902",
+      "examPhase": "midterm_before",
+      "readText": "紅蘿蔔放進鍋裡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蘿",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔔",
+          "zhuyin": "ㄅㄛ˙"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200903",
+      "examPhase": "midterm_before",
+      "readText": "哪一粒米比較大",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "哪",
+          "zhuyin": "ㄋㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "粒",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "較",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200904",
+      "examPhase": "midterm_before",
+      "readText": "熱水浴室很溫暖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "浴",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "室",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200905",
+      "examPhase": "midterm_before",
+      "readText": "饅頭蒸得胖胖的",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "饅",
+          "zhuyin": "ㄇㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡ˙"
+        },
+        {
+          "type": "blank",
+          "char": "蒸",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "胖",
+          "zhuyin": "ㄆㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "胖",
+          "zhuyin": "ㄆㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610200906",
+      "examPhase": "midterm_before",
+      "readText": "通通到齊再點名",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "名",
+          "zhuyin": "ㄇㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200907",
+      "examPhase": "midterm_before",
+      "readText": "海苔包著蛋皮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "苔",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200908",
+      "examPhase": "midterm_before",
+      "readText": "蔬菜通通洗乾淨",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蔬",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "洗",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "乾",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "淨",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200909",
+      "examPhase": "midterm_before",
+      "readText": "細心調出淡味",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "淡",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200910",
+      "examPhase": "midterm_before",
+      "readText": "沖澡後身體發熱",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "沖",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "澡",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600901",
+      "examPhase": "midterm_before",
+      "readText": "她得到一份丫鬟角色",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "她",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "份",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "丫",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "鬟",
+          "zhuyin": "ㄏㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600902",
+      "examPhase": "midterm_before",
+      "readText": "演藝生涯十分辛苦",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "演",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "藝",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "涯",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "辛",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "苦",
+          "zhuyin": "ㄎㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600903",
+      "examPhase": "midterm_before",
+      "readText": "舞者練習劈腿",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "者",
+          "zhuyin": "ㄓㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "劈",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "腿",
+          "zhuyin": "ㄊㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600904",
+      "examPhase": "midterm_before",
+      "readText": "獅子和丑角同臺",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "獅",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "丑",
+          "zhuyin": "ㄔㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "同",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600905",
+      "examPhase": "midterm_before",
+      "readText": "甘草來自市井小店",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "甘",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "井",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600906",
+      "examPhase": "midterm_before",
+      "readText": "圖騰融合不同元素",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "圖",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "騰",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "融",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "同",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "元",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "素",
+          "zhuyin": "ㄙㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600907",
+      "examPhase": "midterm_before",
+      "readText": "舞臺燈光絢麗又經典",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "燈",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "絢",
+          "zhuyin": "ㄒㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "典",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600908",
+      "examPhase": "midterm_before",
+      "readText": "吊飾旁放著蘭花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "吊",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "飾",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蘭",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610600909",
+      "examPhase": "midterm_before",
+      "readText": "尤其喜歡白色素衣",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "尤",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "其",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "喜",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "歡",
+          "zhuyin": "ㄏㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "素",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610600910",
+      "examPhase": "midterm_before",
+      "readText": "經典獅舞十分絢麗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "典",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "獅",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "絢",
+          "zhuyin": "ㄒㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    }
+  ]
+}

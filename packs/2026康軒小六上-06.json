@@ -1,0 +1,691 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600601",
+      "examPhase": "midterm_before",
+      "readText": "她嫁到外地後家鄉奶茶仍風靡當地",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "她",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "嫁",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "鄉",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "茶",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "靡",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "當",
+          "zhuyin": "ㄉㄤ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600602",
+      "examPhase": "midterm_before",
+      "readText": "歷史課介紹松贊干布與古代文化",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "歷",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "史",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "介",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "紹",
+          "zhuyin": "ㄕㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "松",
+          "zhuyin": "ㄙㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "贊",
+          "zhuyin": "ㄗㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "干",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "布",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600603",
+      "examPhase": "midterm_before",
+      "readText": "烹茶時加入樹薯粉末調整口感",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "烹",
+          "zhuyin": "ㄆㄥ"
+        },
+        {
+          "type": "text",
+          "char": "茶",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "薯",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "粉",
+          "zhuyin": "ㄈㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "末",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄊㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600604",
+      "examPhase": "midterm_before",
+      "readText": "新配方增添香氣並擴展選擇",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "配",
+          "zhuyin": "ㄆㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "text",
+          "char": "增",
+          "zhuyin": "ㄗㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "添",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "並",
+          "zhuyin": "ㄅㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "擴",
+          "zhuyin": "ㄎㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "展",
+          "zhuyin": "ㄓㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "擇",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600605",
+      "examPhase": "midterm_before",
+      "readText": "聯袂演出讓歌曲迅速風靡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "聯",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "袂",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "演",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "歌",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "曲",
+          "zhuyin": "ㄑㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "迅",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "速",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "靡",
+          "zhuyin": "ㄇㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600606",
+      "examPhase": "midterm_before",
+      "readText": "醬汁黏稠時要注意味道平衡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "汁",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "黏",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "稠",
+          "zhuyin": "ㄔㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "衡",
+          "zhuyin": "ㄏㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600607",
+      "examPhase": "midterm_before",
+      "readText": "我們徜徉在老街慢慢散步",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "徜",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "徉",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600608",
+      "examPhase": "midterm_before",
+      "readText": "媽媽輕撫杯身再加入煉乳",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "撫",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "杯",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "煉",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "乳",
+          "zhuyin": "ㄖㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600609",
+      "examPhase": "midterm_before",
+      "readText": "廚師烹調披薩時控制火候",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "廚",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "烹",
+          "zhuyin": "ㄆㄥ"
+        },
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄊㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "披",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "薩",
+          "zhuyin": "ㄙㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "控",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "制",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "候",
+          "zhuyin": "ㄏㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600610",
+      "examPhase": "midterm_before",
+      "readText": "樹薯粉與煉乳也能製作甜點",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "薯",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "粉",
+          "zhuyin": "ㄈㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "煉",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "乳",
+          "zhuyin": "ㄖㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "製",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "甜",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    }
+  ]
+}

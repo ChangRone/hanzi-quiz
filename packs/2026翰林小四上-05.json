@@ -1,0 +1,501 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400501",
+      "examPhase": "midterm_before",
+      "readText": "明月高掛皎潔夜空",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "掛",
+          "zhuyin": "ㄍㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "皎",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "潔",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610400502",
+      "examPhase": "midterm_before",
+      "readText": "我凝視天空思考問題",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "凝",
+          "zhuyin": "ㄋㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "思",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "考",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "題",
+          "zhuyin": "ㄊㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400503",
+      "examPhase": "midterm_before",
+      "readText": "曾經看過這輪明月",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "曾",
+          "zhuyin": "ㄘㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "輪",
+          "zhuyin": "ㄌㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400504",
+      "examPhase": "midterm_before",
+      "readText": "我在門外徘徊不定",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "徘",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "徊",
+          "zhuyin": "ㄏㄨㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400505",
+      "examPhase": "midterm_before",
+      "readText": "瑤池仙子整理妝容",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "瑤",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "仙",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "妝",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400506",
+      "examPhase": "midterm_before",
+      "readText": "科學家登上高山",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "科",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "登",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610400507",
+      "examPhase": "midterm_before",
+      "readText": "我循著小路尋找出口",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "循",
+          "zhuyin": "ㄒㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "尋",
+          "zhuyin": "ㄒㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400508",
+      "examPhase": "midterm_before",
+      "readText": "努力思考終於找到答案",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "思",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "考",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "終",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "於",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400509",
+      "examPhase": "midterm_before",
+      "readText": "月亮高掛讓我凝神",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "掛",
+          "zhuyin": "ㄍㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "凝",
+          "zhuyin": "ㄋㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "神",
+          "zhuyin": "ㄕㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400510",
+      "examPhase": "midterm_before",
+      "readText": "曾循著線索找到答案",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "曾",
+          "zhuyin": "ㄘㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "循",
+          "zhuyin": "ㄒㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "索",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    }
+  ]
+}

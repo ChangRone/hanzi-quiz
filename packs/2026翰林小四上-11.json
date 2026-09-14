@@ -1,0 +1,441 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610401101",
+      "examPhase": "midterm_before",
+      "readText": "廣闊海面出現鯊魚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "廣",
+          "zhuyin": "ㄍㄨㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "闊",
+          "zhuyin": "ㄎㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鯊",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610401102",
+      "examPhase": "midterm_before",
+      "readText": "海鮮拼盤很豐富",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鮮",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "拼",
+          "zhuyin": "ㄆㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "盤",
+          "zhuyin": "ㄆㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "豐",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "富",
+          "zhuyin": "ㄈㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610401103",
+      "examPhase": "midterm_before",
+      "readText": "虎鯨在海上游動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "虎",
+          "zhuyin": "ㄏㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鯨",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "游",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610401104",
+      "examPhase": "midterm_before",
+      "readText": "小狗叼著食物餵幼犬",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "狗",
+          "zhuyin": "ㄍㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "叼",
+          "zhuyin": "ㄉㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "餵",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "幼",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "犬",
+          "zhuyin": "ㄑㄩㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610401105",
+      "examPhase": "midterm_before",
+      "readText": "我第一次嘗鮮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "第",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嘗",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鮮",
+          "zhuyin": "ㄒㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610401106",
+      "examPhase": "midterm_before",
+      "readText": "魚籠慢慢沉入海底",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "籠",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沉",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610401107",
+      "examPhase": "midterm_before",
+      "readText": "海豚鑽出水面",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "豚",
+          "zhuyin": "ㄊㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鑽",
+          "zhuyin": "ㄗㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610401108",
+      "examPhase": "midterm_before",
+      "readText": "退潮時海草容易纏腳",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "退",
+          "zhuyin": "ㄊㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "潮",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "易",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "纏",
+          "zhuyin": "ㄔㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610401109",
+      "examPhase": "midterm_before",
+      "readText": "浪潮推著魚籠",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "浪",
+          "zhuyin": "ㄌㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "潮",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "推",
+          "zhuyin": "ㄊㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "籠",
+          "zhuyin": "ㄌㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610401110",
+      "examPhase": "midterm_before",
+      "readText": "鯊魚追著海豚",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鯊",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "追",
+          "zhuyin": "ㄓㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "豚",
+          "zhuyin": "ㄊㄨㄣˊ"
+        }
+      ]
+    }
+  ]
+}

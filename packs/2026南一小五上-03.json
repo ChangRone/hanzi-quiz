@@ -1,0 +1,486 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500301",
+      "examPhase": "midterm_before",
+      "readText": "老師寫下清楚評語",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "評",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "語",
+          "zhuyin": "ㄩˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500302",
+      "examPhase": "midterm_before",
+      "readText": "我索性重寫考卷",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "索",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "性",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "考",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "卷",
+          "zhuyin": "ㄐㄩㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500303",
+      "examPhase": "midterm_before",
+      "readText": "橡皮擦像積木似的",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "橡",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "擦",
+          "zhuyin": "ㄘㄚ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "積",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "似",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600500304",
+      "examPhase": "midterm_before",
+      "readText": "彩綵映在屏風上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "綵",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "映",
+          "zhuyin": "ㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "屏",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500305",
+      "examPhase": "midterm_before",
+      "readText": "別糊塗看錯拼音",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "糊",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "塗",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拼",
+          "zhuyin": "ㄆㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600500306",
+      "examPhase": "midterm_before",
+      "readText": "她眉清目秀很親切",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "她",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "眉",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "秀",
+          "zhuyin": "ㄒㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "親",
+          "zhuyin": "ㄑㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500307",
+      "examPhase": "midterm_before",
+      "readText": "不要因妒忌傷害朋友",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "妒",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "忌",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "害",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500308",
+      "examPhase": "midterm_before",
+      "readText": "孔雀開屏要愛惜羽毛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孔",
+          "zhuyin": "ㄎㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "雀",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "屏",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "惜",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "羽",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500309",
+      "examPhase": "midterm_before",
+      "readText": "我對慈祥奶奶感到慚愧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慈",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "text",
+          "char": "祥",
+          "zhuyin": "ㄒㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慚",
+          "zhuyin": "ㄘㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "愧",
+          "zhuyin": "ㄎㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500310",
+      "examPhase": "midterm_before",
+      "readText": "做錯事要感到慚愧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慚",
+          "zhuyin": "ㄘㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "愧",
+          "zhuyin": "ㄎㄨㄟˋ"
+        }
+      ]
+    }
+  ]
+}

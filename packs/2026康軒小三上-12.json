@@ -1,0 +1,436 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620301201",
+      "examPhase": "midterm_before",
+      "readText": "農場孩子羨慕孔雀",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "羨",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慕",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "孔",
+          "zhuyin": "ㄎㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "雀",
+          "zhuyin": "ㄑㄩㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301202",
+      "examPhase": "midterm_before",
+      "readText": "我模仿雞冠形狀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "仿",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "雞",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "冠",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "狀",
+          "zhuyin": "ㄓㄨㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301203",
+      "examPhase": "midterm_before",
+      "readText": "她動作優雅自然",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "她",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "優",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "雅",
+          "zhuyin": "ㄧㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620301204",
+      "examPhase": "midterm_before",
+      "readText": "救起小鳥擦掉眼淚",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "救",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "擦",
+          "zhuyin": "ㄘㄚ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "淚",
+          "zhuyin": "ㄌㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301205",
+      "examPhase": "midterm_before",
+      "readText": "松鼠咬著堅果",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "松",
+          "zhuyin": "ㄙㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "鼠",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "咬",
+          "zhuyin": "ㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620301206",
+      "examPhase": "midterm_before",
+      "readText": "羽毛很輕容易飄",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "羽",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "易",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202620301207",
+      "examPhase": "midterm_before",
+      "readText": "發揮自己的優點",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "揮",
+          "zhuyin": "ㄏㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "優",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620301208",
+      "examPhase": "midterm_before",
+      "readText": "不必羨慕別人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羨",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慕",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620301209",
+      "examPhase": "midterm_before",
+      "readText": "農夫救起受傷松鼠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "救",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "松",
+          "zhuyin": "ㄙㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "鼠",
+          "zhuyin": "ㄕㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620301210",
+      "examPhase": "midterm_before",
+      "readText": "優雅揮動羽毛扇",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "優",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "雅",
+          "zhuyin": "ㄧㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "揮",
+          "zhuyin": "ㄏㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羽",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "扇",
+          "zhuyin": "ㄕㄢˋ"
+        }
+      ]
+    }
+  ]
+}

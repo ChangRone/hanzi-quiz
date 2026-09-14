@@ -1,0 +1,366 @@
+{
+  "id": "20261010",
+  "title": "2026年小一上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610100501",
+      "examPhase": "midterm_before",
+      "readText": "七彩氣球升上天",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "七",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610100502",
+      "examPhase": "midterm_before",
+      "readText": "我好想爬高",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "爬",
+          "zhuyin": "ㄆㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610100503",
+      "examPhase": "midterm_before",
+      "readText": "爬上去看風景",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "爬",
+          "zhuyin": "ㄆㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100504",
+      "examPhase": "midterm_before",
+      "readText": "地上沒有棉花",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "棉",
+          "zhuyin": "ㄇㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610100505",
+      "examPhase": "midterm_before",
+      "readText": "花朵落下來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100506",
+      "examPhase": "midterm_before",
+      "readText": "泡泡飛進水池",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "泡",
+          "zhuyin": "ㄆㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "泡",
+          "zhuyin": "ㄆㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100507",
+      "examPhase": "midterm_before",
+      "readText": "池邊有棉花糖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "棉",
+          "zhuyin": "ㄇㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "糖",
+          "zhuyin": "ㄊㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100508",
+      "examPhase": "midterm_before",
+      "readText": "想看七彩雲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "七",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100509",
+      "examPhase": "midterm_before",
+      "readText": "我沒看見花",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610100510",
+      "examPhase": "midterm_before",
+      "readText": "好玩的泡泡池",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "泡",
+          "zhuyin": "ㄆㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "泡",
+          "zhuyin": "ㄆㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        }
+      ]
+    }
+  ]
+}

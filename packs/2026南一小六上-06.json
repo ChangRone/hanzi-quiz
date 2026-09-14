@@ -1,0 +1,501 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600601",
+      "examPhase": "midterm_before",
+      "readText": "小艇劃過平靜海面",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "艇",
+          "zhuyin": "ㄊㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "劃",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600602",
+      "examPhase": "midterm_before",
+      "readText": "荒涼大地延伸無垠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "荒",
+          "zhuyin": "ㄏㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "涼",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "延",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "伸",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "無",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "垠",
+          "zhuyin": "ㄧㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600603",
+      "examPhase": "midterm_before",
+      "readText": "宇宙探索留下不朽故事",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "宇",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "宙",
+          "zhuyin": "ㄓㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "探",
+          "zhuyin": "ㄊㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "索",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "朽",
+          "zhuyin": "ㄒㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600604",
+      "examPhase": "midterm_before",
+      "readText": "雜誌介紹一系列訓練",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雜",
+          "zhuyin": "ㄗㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "誌",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "介",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "紹",
+          "zhuyin": "ㄕㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "系",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "列",
+          "zhuyin": "ㄌㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訓",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600605",
+      "examPhase": "midterm_before",
+      "readText": "機械聲從船艙傳來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "械",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "艙",
+          "zhuyin": "ㄘㄤ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600606",
+      "examPhase": "midterm_before",
+      "readText": "駕駛小艇準備出發",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "駕",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "駛",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "艇",
+          "zhuyin": "ㄊㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600600607",
+      "examPhase": "midterm_before",
+      "readText": "凌晨天空出現隕石",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凌",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "晨",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "隕",
+          "zhuyin": "ㄩㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600608",
+      "examPhase": "midterm_before",
+      "readText": "我遠眺奪目的星光",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "眺",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "奪",
+          "zhuyin": "ㄉㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600600609",
+      "examPhase": "midterm_before",
+      "readText": "六億人關注這次遠征",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "六",
+          "zhuyin": "ㄌㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "億",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "征",
+          "zhuyin": "ㄓㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600600610",
+      "examPhase": "midterm_before",
+      "readText": "宇宙飛船駕向遠方",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "宇",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "宙",
+          "zhuyin": "ㄓㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "駕",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        }
+      ]
+    }
+  ]
+}

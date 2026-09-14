@@ -1,0 +1,491 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600400201",
+      "examPhase": "midterm_before",
+      "readText": "汽車載著早餐回家",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "汽",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "載",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600400202",
+      "examPhase": "midterm_before",
+      "readText": "奶奶煮了排骨粥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "煮",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "骨",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "粥",
+          "zhuyin": "ㄓㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202600400203",
+      "examPhase": "midterm_before",
+      "readText": "青菜燙過再換盤子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "燙",
+          "zhuyin": "ㄊㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "換",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "盤",
+          "zhuyin": "ㄆㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600400204",
+      "examPhase": "midterm_before",
+      "readText": "即使牙齒不舒服也要吃飯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "即",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "使",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "齒",
+          "zhuyin": "ㄔˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "舒",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400205",
+      "examPhase": "midterm_before",
+      "readText": "矯正牙齒要有耐心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "矯",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "齒",
+          "zhuyin": "ㄔˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600400206",
+      "examPhase": "midterm_before",
+      "readText": "肚子餓了就吃早餐",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "肚",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "餓",
+          "zhuyin": "ㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600400207",
+      "examPhase": "midterm_before",
+      "readText": "香味彷彿從廚房飄來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "彷",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "彿",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "廚",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400208",
+      "examPhase": "midterm_before",
+      "readText": "濃濃粥香真好聞",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "粥",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400209",
+      "examPhase": "midterm_before",
+      "readText": "我把青菜換成水果",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "換",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400210",
+      "examPhase": "midterm_before",
+      "readText": "排骨煮湯味道很濃",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "骨",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "煮",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        }
+      ]
+    }
+  ]
+}

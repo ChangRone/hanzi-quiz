@@ -1,0 +1,461 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620300901",
+      "examPhase": "midterm_before",
+      "readText": "花蓮有大片溼地",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "蓮",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "溼",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300902",
+      "examPhase": "midterm_before",
+      "readText": "阿美族有特別文化",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "阿",
+          "zhuyin": "ㄚ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "族",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300903",
+      "examPhase": "midterm_before",
+      "readText": "傳統方式打造魚池",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "統",
+          "zhuyin": "ㄊㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "式",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "造",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300904",
+      "examPhase": "midterm_before",
+      "readText": "族語課很有趣",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "族",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "語",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "趣",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300905",
+      "examPhase": "midterm_before",
+      "readText": "三層水池種植物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "三",
+          "zhuyin": "ㄙㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "層",
+          "zhuyin": "ㄘㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "植",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300906",
+      "examPhase": "midterm_before",
+      "readText": "水生植物或小魚都能生活",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "植",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "或",
+          "zhuyin": "ㄏㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300907",
+      "examPhase": "midterm_before",
+      "readText": "智慧釣法很有趣",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "智",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慧",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "釣",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "趣",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300908",
+      "examPhase": "midterm_before",
+      "readText": "先民留下生活智慧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "民",
+          "zhuyin": "ㄇㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "智",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慧",
+          "zhuyin": "ㄏㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300909",
+      "examPhase": "midterm_before",
+      "readText": "保護溼地生態",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "溼",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "態",
+          "zhuyin": "ㄊㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300910",
+      "examPhase": "midterm_before",
+      "readText": "特別設計兼顧生態",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "兼",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "顧",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "態",
+          "zhuyin": "ㄊㄞˋ"
+        }
+      ]
+    }
+  ]
+}

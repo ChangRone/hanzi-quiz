@@ -1,0 +1,391 @@
+{
+  "id": "20260010",
+  "title": "2026年小一上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600100601",
+      "examPhase": "midterm_before",
+      "readText": "金魚尾巴紅",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "尾",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "巴",
+          "zhuyin": "ㄅㄚ˙"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600100602",
+      "examPhase": "midterm_before",
+      "readText": "我說兩句話",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "句",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600100603",
+      "examPhase": "midterm_before",
+      "readText": "大家說悄悄話",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "悄",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "悄",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600100604",
+      "examPhase": "midterm_before",
+      "readText": "魚缸裡開滿紅花",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "缸",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600100605",
+      "examPhase": "midterm_before",
+      "readText": "尾巴輕輕搖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "尾",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "巴",
+          "zhuyin": "ㄅㄚ˙"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600100606",
+      "examPhase": "midterm_before",
+      "readText": "我又說了一句",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "句",
+          "zhuyin": "ㄐㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600100607",
+      "examPhase": "midterm_before",
+      "readText": "兩條金魚游過來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "條",
+          "zhuyin": "ㄊㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "游",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600100608",
+      "examPhase": "midterm_before",
+      "readText": "紅花開滿窗邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600100609",
+      "examPhase": "midterm_before",
+      "readText": "悄悄話不要大聲說",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "悄",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "悄",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202600100610",
+      "examPhase": "midterm_before",
+      "readText": "兩隻魚都搖尾巴",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "隻",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "尾",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "巴",
+          "zhuyin": "ㄅㄚ˙"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600400701",
+      "examPhase": "midterm_before",
+      "readText": "教育活動遇到晴天",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "育",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "晴",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600400702",
+      "examPhase": "midterm_before",
+      "readText": "陶器吸引大家目光",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陶",
+          "zhuyin": "ㄊㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "吸",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "引",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600400703",
+      "examPhase": "midterm_before",
+      "readText": "返程時陽光仍有光芒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "返",
+          "zhuyin": "ㄈㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "程",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "芒",
+          "zhuyin": "ㄇㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400704",
+      "examPhase": "midterm_before",
+      "readText": "劇場演員翻跟斗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "劇",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "演",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "員",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "翻",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "斗",
+          "zhuyin": "ㄉㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400705",
+      "examPhase": "midterm_before",
+      "readText": "高空鋼索讓人不禁驚呼",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "鋼",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "索",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "禁",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "驚",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "呼",
+          "zhuyin": "ㄏㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600400706",
+      "examPhase": "midterm_before",
+      "readText": "我們搭渡船返回港口",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "搭",
+          "zhuyin": "ㄉㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "渡",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "返",
+          "zhuyin": "ㄈㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "港",
+          "zhuyin": "ㄍㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400707",
+      "examPhase": "midterm_before",
+      "readText": "我買紀念品留念",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "紀",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400708",
+      "examPhase": "midterm_before",
+      "readText": "傳統麵食值得品嘗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "統",
+          "zhuyin": "ㄊㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "嘗",
+          "zhuyin": "ㄔㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400709",
+      "examPhase": "midterm_before",
+      "readText": "晴天去劇場看表演",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "晴",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "劇",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "演",
+          "zhuyin": "ㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400710",
+      "examPhase": "midterm_before",
+      "readText": "陶器上的花紋值得細看",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陶",
+          "zhuyin": "ㄊㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "紋",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    }
+  ]
+}

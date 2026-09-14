@@ -1,0 +1,451 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620301001",
+      "examPhase": "midterm_before",
+      "readText": "萬里外有一隻狐狸",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "萬",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "里",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "隻",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "狐",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "狸",
+          "zhuyin": "ㄌㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620301002",
+      "examPhase": "midterm_before",
+      "readText": "狐狸兄弟說悄悄話",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "狐",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "狸",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "兄",
+          "zhuyin": "ㄒㄩㄥ"
+        },
+        {
+          "type": "text",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "悄",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "悄",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301003",
+      "examPhase": "midterm_before",
+      "readText": "秘密呀別說出去",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "秘",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "密",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "呀",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301004",
+      "examPhase": "midterm_before",
+      "readText": "孩子踢到泥巴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "踢",
+          "zhuyin": "ㄊㄧ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "泥",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "巴",
+          "zhuyin": "ㄅㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620301005",
+      "examPhase": "midterm_before",
+      "readText": "想個妙計別放棄",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "妙",
+          "zhuyin": "ㄇㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "棄",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301006",
+      "examPhase": "midterm_before",
+      "readText": "烏鴉覺得果子很酸",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "鴉",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "覺",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "酸",
+          "zhuyin": "ㄙㄨㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620301007",
+      "examPhase": "midterm_before",
+      "readText": "烏鴉叼著肉塊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "鴉",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "叼",
+          "zhuyin": "ㄉㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "肉",
+          "zhuyin": "ㄖㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "塊",
+          "zhuyin": "ㄎㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301008",
+      "examPhase": "midterm_before",
+      "readText": "狐狸想出一個妙計",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "狐",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "狸",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "妙",
+          "zhuyin": "ㄇㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301009",
+      "examPhase": "midterm_before",
+      "readText": "強壯狐狸搬石頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "強",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "壯",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "狐",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "狸",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "搬",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620301010",
+      "examPhase": "midterm_before",
+      "readText": "泥地裡留著狐狸腳印",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "泥",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "狐",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "狸",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        }
+      ]
+    }
+  ]
+}

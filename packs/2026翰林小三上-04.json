@@ -1,0 +1,461 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610300401",
+      "examPhase": "midterm_before",
+      "readText": "食堂門口掛風鈴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堂",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "掛",
+          "zhuyin": "ㄍㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鈴",
+          "zhuyin": "ㄌㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300402",
+      "examPhase": "midterm_before",
+      "readText": "師傅帶著徒弟工作",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "傅",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "徒",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300403",
+      "examPhase": "midterm_before",
+      "readText": "大家撿木柴生火",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "撿",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柴",
+          "zhuyin": "ㄔㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300404",
+      "examPhase": "midterm_before",
+      "readText": "鍋裡熱氣一直冒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "blank",
+          "char": "冒",
+          "zhuyin": "ㄇㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300405",
+      "examPhase": "midterm_before",
+      "readText": "水在鍋中沸騰",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "沸",
+          "zhuyin": "ㄈㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "騰",
+          "zhuyin": "ㄊㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300406",
+      "examPhase": "midterm_before",
+      "readText": "別揚起熱湯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "揚",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610300407",
+      "examPhase": "midterm_before",
+      "readText": "抽走木柴火就變小",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "抽",
+          "zhuyin": "ㄔㄡ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柴",
+          "zhuyin": "ㄔㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300408",
+      "examPhase": "midterm_before",
+      "readText": "釜底抽薪能解決問題",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "釜",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "抽",
+          "zhuyin": "ㄔㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "薪",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "決",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "題",
+          "zhuyin": "ㄊㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300409",
+      "examPhase": "midterm_before",
+      "readText": "師傅從鍋旁抽出木柴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "傅",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "抽",
+          "zhuyin": "ㄔㄡ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柴",
+          "zhuyin": "ㄔㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300410",
+      "examPhase": "midterm_before",
+      "readText": "鈴聲響起大家停止說話",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鈴",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    }
+  ]
+}

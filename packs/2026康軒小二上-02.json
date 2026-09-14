@@ -1,0 +1,411 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620200201",
+      "examPhase": "midterm_before",
+      "readText": "全家一起煎蛋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "全",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "煎",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200202",
+      "examPhase": "midterm_before",
+      "readText": "荷包蛋煎得圓圓",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "荷",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煎",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200203",
+      "examPhase": "midterm_before",
+      "readText": "番茄切成小圓片",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "番",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "茄",
+          "zhuyin": "ㄑㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200204",
+      "examPhase": "midterm_before",
+      "readText": "起司夾進吐司",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "夾",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "吐",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        }
+      ]
+    },
+    {
+      "id": "202620200205",
+      "examPhase": "midterm_before",
+      "readText": "中間放著番茄",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "番",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "茄",
+          "zhuyin": "ㄑㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200206",
+      "examPhase": "midterm_before",
+      "readText": "四方盒子像城堡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "text",
+          "char": "盒",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堡",
+          "zhuyin": "ㄅㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200207",
+      "examPhase": "midterm_before",
+      "readText": "接著畫一張笑臉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200208",
+      "examPhase": "midterm_before",
+      "readText": "全家切吐司",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "全",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "吐",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        }
+      ]
+    },
+    {
+      "id": "202620200209",
+      "examPhase": "midterm_before",
+      "readText": "圓輪子滾到城堡前",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "輪",
+          "zhuyin": "ㄌㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "滾",
+          "zhuyin": "ㄍㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堡",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200210",
+      "examPhase": "midterm_before",
+      "readText": "蛋和起司放中間",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500101",
+      "examPhase": "midterm_before",
+      "readText": "我堅定又有耐心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610500102",
+      "examPhase": "midterm_before",
+      "readText": "勞作活動很多元",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "勞",
+          "zhuyin": "ㄌㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "元",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500103",
+      "examPhase": "midterm_before",
+      "readText": "刺蝟需要溫暖擁抱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "刺",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蝟",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "擁",
+          "zhuyin": "ㄩㄥ"
+        },
+        {
+          "type": "text",
+          "char": "抱",
+          "zhuyin": "ㄅㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500104",
+      "examPhase": "midterm_before",
+      "readText": "繩子旁放著牙刷",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "繩",
+          "zhuyin": "ㄕㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "刷",
+          "zhuyin": "ㄕㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610500105",
+      "examPhase": "midterm_before",
+      "readText": "牙膏擠在牙刷上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "膏",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "擠",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "刷",
+          "zhuyin": "ㄕㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500106",
+      "examPhase": "midterm_before",
+      "readText": "周遭環境關係密切",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "周",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "遭",
+          "zhuyin": "ㄗㄠ"
+        },
+        {
+          "type": "text",
+          "char": "環",
+          "zhuyin": "ㄏㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "係",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "密",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500107",
+      "examPhase": "midterm_before",
+      "readText": "老師提供資源讓教室充滿笑聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "供",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "源",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "室",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "充",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610500108",
+      "examPhase": "midterm_before",
+      "readText": "凸顯彼此的優點",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凸",
+          "zhuyin": "ㄊㄨ"
+        },
+        {
+          "type": "text",
+          "char": "顯",
+          "zhuyin": "ㄒㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "彼",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "優",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500109",
+      "examPhase": "midterm_before",
+      "readText": "大家協助讓氣氛融洽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "協",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "氛",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "融",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "洽",
+          "zhuyin": "ㄑㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500110",
+      "examPhase": "midterm_before",
+      "readText": "了解真諦需要耐心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "諦",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    }
+  ]
+}

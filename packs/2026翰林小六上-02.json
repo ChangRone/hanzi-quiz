@@ -1,0 +1,481 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600201",
+      "examPhase": "midterm_before",
+      "readText": "眼眶紅了仍不固執",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "眶",
+          "zhuyin": "ㄎㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "固",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "執",
+          "zhuyin": "ㄓˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600202",
+      "examPhase": "midterm_before",
+      "readText": "固執只會讓辯論僵住",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "固",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "執",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "辯",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "論",
+          "zhuyin": "ㄌㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "僵",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600203",
+      "examPhase": "midterm_before",
+      "readText": "雙胞胎一起集郵",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雙",
+          "zhuyin": "ㄕㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "胞",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "胎",
+          "zhuyin": "ㄊㄞ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "集",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "郵",
+          "zhuyin": "ㄧㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600204",
+      "examPhase": "midterm_before",
+      "readText": "我看太久郵票有點暈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "久",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "郵",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "票",
+          "zhuyin": "ㄆㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "暈",
+          "zhuyin": "ㄩㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610600205",
+      "examPhase": "midterm_before",
+      "readText": "幼稚孩子溜出去玩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "幼",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "稚",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "溜",
+          "zhuyin": "ㄌㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600206",
+      "examPhase": "midterm_before",
+      "readText": "臉色慘白讓人擔憂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慘",
+          "zhuyin": "ㄘㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "擔",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "憂",
+          "zhuyin": "ㄧㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202610600207",
+      "examPhase": "midterm_before",
+      "readText": "大家對不公感到憤慨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "憤",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慨",
+          "zhuyin": "ㄎㄞˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600208",
+      "examPhase": "midterm_before",
+      "readText": "別狠狠擦鼻涕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "狠",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "狠",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "擦",
+          "zhuyin": "ㄘㄚ"
+        },
+        {
+          "type": "text",
+          "char": "鼻",
+          "zhuyin": "ㄅㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "涕",
+          "zhuyin": "ㄊㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600209",
+      "examPhase": "midterm_before",
+      "readText": "朋友的話給我寬慰",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "寬",
+          "zhuyin": "ㄎㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "慰",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600210",
+      "examPhase": "midterm_before",
+      "readText": "寂寞時眼眶容易紅",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "寂",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "寞",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "眶",
+          "zhuyin": "ㄎㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "易",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        }
+      ]
+    }
+  ]
+}

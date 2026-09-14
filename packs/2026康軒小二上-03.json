@@ -1,0 +1,411 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620200301",
+      "examPhase": "midterm_before",
+      "readText": "小巷裡叔叔養貓",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "巷",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨ˙"
+        },
+        {
+          "type": "text",
+          "char": "養",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "貓",
+          "zhuyin": "ㄇㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202620200302",
+      "examPhase": "midterm_before",
+      "readText": "屋前有人捧著花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "捧",
+          "zhuyin": "ㄆㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620200303",
+      "examPhase": "midterm_before",
+      "readText": "蝴蝶忙著採花蜜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蝴",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蝶",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "採",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "蜜",
+          "zhuyin": "ㄇㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200304",
+      "examPhase": "midterm_before",
+      "readText": "新郎要娶新娘",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "郎",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "娶",
+          "zhuyin": "ㄑㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "娘",
+          "zhuyin": "ㄋㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200305",
+      "examPhase": "midterm_before",
+      "readText": "我用黃筆畫太陽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "黃",
+          "zhuyin": "ㄏㄨㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200306",
+      "examPhase": "midterm_before",
+      "readText": "大家幫新娘打扮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "娘",
+          "zhuyin": "ㄋㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "扮",
+          "zhuyin": "ㄅㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200307",
+      "examPhase": "midterm_before",
+      "readText": "這個模樣很美",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "模",
+          "zhuyin": "ㄇㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200308",
+      "examPhase": "midterm_before",
+      "readText": "巷子越走越寬",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "巷",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "寬",
+          "zhuyin": "ㄎㄨㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620200309",
+      "examPhase": "midterm_before",
+      "readText": "花園越來越美麗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200310",
+      "examPhase": "midterm_before",
+      "readText": "叔叔捧著黃花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨ˙"
+        },
+        {
+          "type": "blank",
+          "char": "捧",
+          "zhuyin": "ㄆㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "黃",
+          "zhuyin": "ㄏㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    }
+  ]
+}

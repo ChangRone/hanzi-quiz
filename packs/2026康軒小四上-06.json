@@ -1,0 +1,526 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400601",
+      "examPhase": "midterm_before",
+      "readText": "秀真個性開朗愛登山",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "秀",
+          "zhuyin": "ㄒㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "性",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "朗",
+          "zhuyin": "ㄌㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "登",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620400602",
+      "examPhase": "midterm_before",
+      "readText": "大家稱秀真勇敢堅持",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "稱",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "秀",
+          "zhuyin": "ㄒㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "敢",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400603",
+      "examPhase": "midterm_before",
+      "readText": "珠穆朗瑪峰高聳入雲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "珠",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "穆",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "朗",
+          "zhuyin": "ㄌㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "瑪",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "聳",
+          "zhuyin": "ㄙㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400604",
+      "examPhase": "midterm_before",
+      "readText": "登山家想挑戰高峰",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "登",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "挑",
+          "zhuyin": "ㄊㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620400605",
+      "examPhase": "midterm_before",
+      "readText": "母親陪秀真整理裝備",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "母",
+          "zhuyin": "ㄇㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "親",
+          "zhuyin": "ㄑㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "陪",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "秀",
+          "zhuyin": "ㄒㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "裝",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400606",
+      "examPhase": "midterm_before",
+      "readText": "冷酷風雪帶來磨練",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "酷",
+          "zhuyin": "ㄎㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "磨",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400607",
+      "examPhase": "midterm_before",
+      "readText": "攀登前要適應低氧",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "攀",
+          "zhuyin": "ㄆㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "登",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "應",
+          "zhuyin": "ㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "氧",
+          "zhuyin": "ㄧㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400608",
+      "examPhase": "midterm_before",
+      "readText": "低氧環境前先接受訓練",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "氧",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "環",
+          "zhuyin": "ㄏㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訓",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400609",
+      "examPhase": "midterm_before",
+      "readText": "跌到谷底仍聽見心跳作響",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "跌",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400610",
+      "examPhase": "midterm_before",
+      "readText": "登上頂峰笑容燦爛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "登",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "頂",
+          "zhuyin": "ㄉㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "燦",
+          "zhuyin": "ㄘㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "爛",
+          "zhuyin": "ㄌㄢˋ"
+        }
+      ]
+    }
+  ]
+}

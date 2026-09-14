@@ -1,0 +1,416 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610301201",
+      "examPhase": "midterm_before",
+      "readText": "叔叔回家團圓",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨ˙"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610301202",
+      "examPhase": "midterm_before",
+      "readText": "他默默收好剩下紙張",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "默",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "默",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "剩",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610301203",
+      "examPhase": "midterm_before",
+      "readText": "我上樓開視訊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訊",
+          "zhuyin": "ㄒㄩㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301204",
+      "examPhase": "midterm_before",
+      "readText": "叔叔站在鏡頭前",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨ˙"
+        },
+        {
+          "type": "text",
+          "char": "站",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610301205",
+      "examPhase": "midterm_before",
+      "readText": "媽媽逗娃娃笑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "逗",
+          "zhuyin": "ㄉㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "娃",
+          "zhuyin": "ㄨㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "娃",
+          "zhuyin": "ㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301206",
+      "examPhase": "midterm_before",
+      "readText": "壓歲錢放進紅包",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "壓",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "歲",
+          "zhuyin": "ㄙㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610301207",
+      "examPhase": "midterm_before",
+      "readText": "我透過視訊聊天",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "透",
+          "zhuyin": "ㄊㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訊",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "聊",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610301208",
+      "examPhase": "midterm_before",
+      "readText": "團員互相握手",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "員",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "握",
+          "zhuyin": "ㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610301209",
+      "examPhase": "midterm_before",
+      "readText": "鏡頭拍到叔叔",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "叔",
+          "zhuyin": "ㄕㄨ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610301210",
+      "examPhase": "midterm_before",
+      "readText": "娃娃旁剩下零錢",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "娃",
+          "zhuyin": "ㄨㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "娃",
+          "zhuyin": "ㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "剩",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "零",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    }
+  ]
+}

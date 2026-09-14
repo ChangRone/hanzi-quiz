@@ -1,0 +1,431 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500301",
+      "examPhase": "midterm_before",
+      "readText": "完璧歸還原主",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "璧",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "歸",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "還",
+          "zhuyin": "ㄏㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "原",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500302",
+      "examPhase": "midterm_before",
+      "readText": "諸侯大會十分隆重",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "諸",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "侯",
+          "zhuyin": "ㄏㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "隆",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500303",
+      "examPhase": "midterm_before",
+      "readText": "他挺身保護官員",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "挺",
+          "zhuyin": "ㄊㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "官",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "員",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500304",
+      "examPhase": "midterm_before",
+      "readText": "將軍不怕羞辱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "將",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "怕",
+          "zhuyin": "ㄆㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羞",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "辱",
+          "zhuyin": "ㄖㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500305",
+      "examPhase": "midterm_before",
+      "readText": "懦弱行為讓人羞恥",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "懦",
+          "zhuyin": "ㄋㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "弱",
+          "zhuyin": "ㄖㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "羞",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "恥",
+          "zhuyin": "ㄔˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500306",
+      "examPhase": "midterm_before",
+      "readText": "有權勢也不能欺人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "權",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "勢",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "欺",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500307",
+      "examPhase": "midterm_before",
+      "readText": "軍隊準備攻城",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攻",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500308",
+      "examPhase": "midterm_before",
+      "readText": "國君親自坐鎮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "國",
+          "zhuyin": "ㄍㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "君",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "親",
+          "zhuyin": "ㄑㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鎮",
+          "zhuyin": "ㄓㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500309",
+      "examPhase": "midterm_before",
+      "readText": "做錯事讓我羞愧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "羞",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "愧",
+          "zhuyin": "ㄎㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500310",
+      "examPhase": "midterm_before",
+      "readText": "荊條旁談肝膽相照",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "荊",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "條",
+          "zhuyin": "ㄊㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "談",
+          "zhuyin": "ㄊㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "肝",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "膽",
+          "zhuyin": "ㄉㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610601201",
+      "examPhase": "midterm_before",
+      "readText": "我擬定新的頭銜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "擬",
+          "zhuyin": "ㄋㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "銜",
+          "zhuyin": "ㄒㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601202",
+      "examPhase": "midterm_before",
+      "readText": "碩大成果令人自豪",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "碩",
+          "zhuyin": "ㄕㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "豪",
+          "zhuyin": "ㄏㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601203",
+      "examPhase": "midterm_before",
+      "readText": "農人割草女兒準備出嫁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "割",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "女",
+          "zhuyin": "ㄋㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "兒",
+          "zhuyin": "ㄦˊ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "嫁",
+          "zhuyin": "ㄐㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610601204",
+      "examPhase": "midterm_before",
+      "readText": "警方抓到竊賊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "警",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "text",
+          "char": "抓",
+          "zhuyin": "ㄓㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竊",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "賊",
+          "zhuyin": "ㄗㄟˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601205",
+      "examPhase": "midterm_before",
+      "readText": "市場攤位不能只憑感覺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "攤",
+          "zhuyin": "ㄊㄢ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "憑",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "覺",
+          "zhuyin": "ㄐㄩㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601206",
+      "examPhase": "midterm_before",
+      "readText": "證據確鑿讓人無法反駁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "證",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "據",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "確",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鑿",
+          "zhuyin": "ㄗㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "無",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "反",
+          "zhuyin": "ㄈㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "駁",
+          "zhuyin": "ㄅㄛˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601207",
+      "examPhase": "midterm_before",
+      "readText": "傢俱店遭人誣告",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "傢",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "俱",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "遭",
+          "zhuyin": "ㄗㄠ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "誣",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "告",
+          "zhuyin": "ㄍㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610601208",
+      "examPhase": "midterm_before",
+      "readText": "竊賊被送進監牢",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竊",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "賊",
+          "zhuyin": "ㄗㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "被",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "送",
+          "zhuyin": "ㄙㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "監",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "牢",
+          "zhuyin": "ㄌㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601209",
+      "examPhase": "midterm_before",
+      "readText": "瓜蒂表面有粗紋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "瓜",
+          "zhuyin": "ㄍㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "蒂",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "粗",
+          "zhuyin": "ㄘㄨ"
+        },
+        {
+          "type": "text",
+          "char": "紋",
+          "zhuyin": "ㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601210",
+      "examPhase": "midterm_before",
+      "readText": "幸虧他毫不慌張",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "幸",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "虧",
+          "zhuyin": "ㄎㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "毫",
+          "zhuyin": "ㄏㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "慌",
+          "zhuyin": "ㄏㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        }
+      ]
+    }
+  ]
+}

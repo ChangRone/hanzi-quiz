@@ -1,0 +1,491 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500101",
+      "examPhase": "midterm_before",
+      "readText": "蚊帳送到非洲村落",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蚊",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "帳",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "送",
+          "zhuyin": "ㄙㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "非",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "洲",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "村",
+          "zhuyin": "ㄘㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500102",
+      "examPhase": "midterm_before",
+      "readText": "瘧疾可能使人死亡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "瘧",
+          "zhuyin": "ㄋㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "疾",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "使",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "死",
+          "zhuyin": "ㄙˇ"
+        },
+        {
+          "type": "text",
+          "char": "亡",
+          "zhuyin": "ㄨㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500103",
+      "examPhase": "midterm_before",
+      "readText": "蚊子叮人需要防範",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蚊",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "叮",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "防",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "範",
+          "zhuyin": "ㄈㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500104",
+      "examPhase": "midterm_before",
+      "readText": "我存錢參加募集活動",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "參",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "募",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "集",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500105",
+      "examPhase": "midterm_before",
+      "readText": "大家募集物資寄出去",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "募",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "集",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "blank",
+          "char": "寄",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500106",
+      "examPhase": "midterm_before",
+      "readText": "我捐贈善款給基金",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "捐",
+          "zhuyin": "ㄐㄩㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "贈",
+          "zhuyin": "ㄗㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "善",
+          "zhuyin": "ㄕㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "款",
+          "zhuyin": "ㄎㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "基",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620500107",
+      "examPhase": "midterm_before",
+      "readText": "老師頒發獎狀鼓勵他",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "頒",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "獎",
+          "zhuyin": "ㄐㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "狀",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "鼓",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "勵",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620500108",
+      "examPhase": "midterm_before",
+      "readText": "把獎狀好好收藏",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "獎",
+          "zhuyin": "ㄐㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "狀",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "藏",
+          "zhuyin": "ㄘㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500109",
+      "examPhase": "midterm_before",
+      "readText": "雜誌介紹公益基金",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雜",
+          "zhuyin": "ㄗㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "誌",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "介",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "紹",
+          "zhuyin": "ㄕㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "益",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "基",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620500110",
+      "examPhase": "midterm_before",
+      "readText": "全力以赴寄出蚊帳",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "全",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "赴",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "寄",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "蚊",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "帳",
+          "zhuyin": "ㄓㄤˋ"
+        }
+      ]
+    }
+  ]
+}

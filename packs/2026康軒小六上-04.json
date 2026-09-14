@@ -1,0 +1,581 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600401",
+      "examPhase": "midterm_before",
+      "readText": "廚師準備彰化特色小吃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "廚",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "彰",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        }
+      ]
+    },
+    {
+      "id": "202620600402",
+      "examPhase": "midterm_before",
+      "readText": "颳風時先把竹筍收進屋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "颳",
+          "zhuyin": "ㄍㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "筍",
+          "zhuyin": "ㄙㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202620600403",
+      "examPhase": "midterm_before",
+      "readText": "把醬汁淋在切丁蔬菜上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "汁",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "淋",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "丁",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "蔬",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600404",
+      "examPhase": "midterm_before",
+      "readText": "竹筍晒乾後更耐保存",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "筍",
+          "zhuyin": "ㄙㄨㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "晒",
+          "zhuyin": "ㄕㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "乾",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600405",
+      "examPhase": "midterm_before",
+      "readText": "醃菜前要攪拌均勻",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "醃",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攪",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "拌",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "均",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "勻",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600406",
+      "examPhase": "midterm_before",
+      "readText": "晶瑩糖衣包著剛炸好的地瓜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "晶",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "瑩",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "糖",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "剛",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "炸",
+          "zhuyin": "ㄓㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "瓜",
+          "zhuyin": "ㄍㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620600407",
+      "examPhase": "midterm_before",
+      "readText": "今晚設宴饗客分享家常菜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "宴",
+          "zhuyin": "ㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "饗",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "客",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "享",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "常",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600408",
+      "examPhase": "midterm_before",
+      "readText": "豬肉煮熟才能安心食用",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "豬",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "肉",
+          "zhuyin": "ㄖㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煮",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600409",
+      "examPhase": "midterm_before",
+      "readText": "廚房裡正在煮鼎邊小吃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "廚",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煮",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鼎",
+          "zhuyin": "ㄉㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        }
+      ]
+    },
+    {
+      "id": "202620600410",
+      "examPhase": "midterm_before",
+      "readText": "彰化宴席端出清爽醃筍",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "彰",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "宴",
+          "zhuyin": "ㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "席",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "端",
+          "zhuyin": "ㄉㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "爽",
+          "zhuyin": "ㄕㄨㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "醃",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "筍",
+          "zhuyin": "ㄙㄨㄣˇ"
+        }
+      ]
+    }
+  ]
+}

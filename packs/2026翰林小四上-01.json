@@ -1,0 +1,411 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400101",
+      "examPhase": "midterm_before",
+      "readText": "臺灣是美麗寶島",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "寶",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "島",
+          "zhuyin": "ㄉㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400102",
+      "examPhase": "midterm_before",
+      "readText": "不要亂吐唾沫",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "吐",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "唾",
+          "zhuyin": "ㄊㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沫",
+          "zhuyin": "ㄇㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400103",
+      "examPhase": "midterm_before",
+      "readText": "忠實士兵守衛家園",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "忠",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "士",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "兵",
+          "zhuyin": "ㄅㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "守",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "衛",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400104",
+      "examPhase": "midterm_before",
+      "readText": "寒天喝甜湯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "寒",
+          "zhuyin": "ㄏㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "甜",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610400105",
+      "examPhase": "midterm_before",
+      "readText": "椰子和香蕉很香",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "椰",
+          "zhuyin": "ㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "蕉",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610400106",
+      "examPhase": "midterm_before",
+      "readText": "大家結隊走上街",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        }
+      ]
+    },
+    {
+      "id": "202610400107",
+      "examPhase": "midterm_before",
+      "readText": "臺灣水果香甜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "甜",
+          "zhuyin": "ㄊㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400108",
+      "examPhase": "midterm_before",
+      "readText": "糖果像童話屋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "糖",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "童",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202610400109",
+      "examPhase": "midterm_before",
+      "readText": "街上賣椰子糖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "賣",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "椰",
+          "zhuyin": "ㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "糖",
+          "zhuyin": "ㄊㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400110",
+      "examPhase": "midterm_before",
+      "readText": "守衛陪著兒童過街",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "守",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "衛",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "陪",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "兒",
+          "zhuyin": "ㄦˊ"
+        },
+        {
+          "type": "blank",
+          "char": "童",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600401201",
+      "examPhase": "midterm_before",
+      "readText": "貧苦夫妻互相照顧",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "貧",
+          "zhuyin": "ㄆㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "苦",
+          "zhuyin": "ㄎㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "妻",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "顧",
+          "zhuyin": "ㄍㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600401202",
+      "examPhase": "midterm_before",
+      "readText": "白茫茫雪地看不清",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "茫",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "茫",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600401203",
+      "examPhase": "midterm_before",
+      "readText": "我們打算祈求平安",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "算",
+          "zhuyin": "ㄙㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "祈",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600401204",
+      "examPhase": "midterm_before",
+      "readText": "他繼續往前走",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "繼",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "往",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600401205",
+      "examPhase": "midterm_before",
+      "readText": "這件外套便宜又耐用",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "件",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "套",
+          "zhuyin": "ㄊㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "便",
+          "zhuyin": "ㄆㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "宜",
+          "zhuyin": "ㄧ˙"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600401206",
+      "examPhase": "midterm_before",
+      "readText": "傍晚才離開市場",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "傍",
+          "zhuyin": "ㄅㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600401207",
+      "examPhase": "midterm_before",
+      "readText": "燈光漸漸變得隱約",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "燈",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "漸",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "漸",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "隱",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "約",
+          "zhuyin": "ㄩㄝ"
+        }
+      ]
+    },
+    {
+      "id": "202600401208",
+      "examPhase": "midterm_before",
+      "readText": "請笑納這份託付",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "納",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "份",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "託",
+          "zhuyin": "ㄊㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "付",
+          "zhuyin": "ㄈㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600401209",
+      "examPhase": "midterm_before",
+      "readText": "價格很划算又便宜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "價",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "格",
+          "zhuyin": "ㄍㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "划",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "算",
+          "zhuyin": "ㄙㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "便",
+          "zhuyin": "ㄆㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "宜",
+          "zhuyin": "ㄧ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600401210",
+      "examPhase": "midterm_before",
+      "readText": "貧苦夫妻繼續努力",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "貧",
+          "zhuyin": "ㄆㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "苦",
+          "zhuyin": "ㄎㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "妻",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "繼",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    }
+  ]
+}

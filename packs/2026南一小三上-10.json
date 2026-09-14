@@ -1,0 +1,446 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600301001",
+      "examPhase": "midterm_before",
+      "readText": "北極熊踩著白雪",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "北",
+          "zhuyin": "ㄅㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "極",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "熊",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "踩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301002",
+      "examPhase": "midterm_before",
+      "readText": "人腦會留下記憶",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "腦",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "憶",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301003",
+      "examPhase": "midterm_before",
+      "readText": "事實根本不是這樣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "根",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301004",
+      "examPhase": "midterm_before",
+      "readText": "陽光反射在雪地",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "反",
+          "zhuyin": "ㄈㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "射",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301005",
+      "examPhase": "midterm_before",
+      "readText": "北極熊皮膚很厚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "北",
+          "zhuyin": "ㄅㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "極",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "熊",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "膚",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "厚",
+          "zhuyin": "ㄏㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301006",
+      "examPhase": "midterm_before",
+      "readText": "小豬不是呆頭呆腦",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "豬",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "呆",
+          "zhuyin": "ㄉㄞ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "呆",
+          "zhuyin": "ㄉㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "腦",
+          "zhuyin": "ㄋㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301007",
+      "examPhase": "midterm_before",
+      "readText": "第一印象很重要",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "第",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301008",
+      "examPhase": "midterm_before",
+      "readText": "實在很難忘的記憶",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "忘",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "憶",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301009",
+      "examPhase": "midterm_before",
+      "readText": "雪球一路滾下山",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "滾",
+          "zhuyin": "ㄍㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600301010",
+      "examPhase": "midterm_before",
+      "readText": "小豬在雪地打滾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "豬",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "滾",
+          "zhuyin": "ㄍㄨㄣˇ"
+        }
+      ]
+    }
+  ]
+}

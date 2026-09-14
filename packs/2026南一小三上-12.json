@@ -1,0 +1,471 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600301201",
+      "examPhase": "midterm_before",
+      "readText": "昆蟲遇到攻擊會逃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "昆",
+          "zhuyin": "ㄎㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攻",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "擊",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "逃",
+          "zhuyin": "ㄊㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600301202",
+      "examPhase": "midterm_before",
+      "readText": "牠演戲保住小命",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "牠",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "演",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "戲",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301203",
+      "examPhase": "midterm_before",
+      "readText": "翅膀幫牠逃離敵人",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "翅",
+          "zhuyin": "ㄔˋ"
+        },
+        {
+          "type": "text",
+          "char": "膀",
+          "zhuyin": "ㄅㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "牠",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "逃",
+          "zhuyin": "ㄊㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "敵",
+          "zhuyin": "ㄉㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600301204",
+      "examPhase": "midterm_before",
+      "readText": "我看看四周以免跌倒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "周",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "跌",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "倒",
+          "zhuyin": "ㄉㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301205",
+      "examPhase": "midterm_before",
+      "readText": "竹節蟲躲在樹枝上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "躲",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "枝",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301206",
+      "examPhase": "midterm_before",
+      "readText": "這隻昆蟲演技真好",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "隻",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "昆",
+          "zhuyin": "ㄎㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "演",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "技",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301207",
+      "examPhase": "midterm_before",
+      "readText": "遇到敵人先倒退",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "敵",
+          "zhuyin": "ㄉㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "倒",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "退",
+          "zhuyin": "ㄊㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301208",
+      "examPhase": "midterm_before",
+      "readText": "放屁也是保命妙招",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "屁",
+          "zhuyin": "ㄆㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "妙",
+          "zhuyin": "ㄇㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600301209",
+      "examPhase": "midterm_before",
+      "readText": "竹節蟲保持不動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301210",
+      "examPhase": "midterm_before",
+      "readText": "攻擊失敗就快退後",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "攻",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "擊",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "敗",
+          "zhuyin": "ㄅㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "退",
+          "zhuyin": "ㄊㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        }
+      ]
+    }
+  ]
+}

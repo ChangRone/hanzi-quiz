@@ -1,0 +1,486 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400401",
+      "examPhase": "midterm_before",
+      "readText": "兄弟看老鷹飛翔",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兄",
+          "zhuyin": "ㄒㄩㄥ"
+        },
+        {
+          "type": "text",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鷹",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "翔",
+          "zhuyin": "ㄒㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400402",
+      "examPhase": "midterm_before",
+      "readText": "無論如何都要控制速度",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "無",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "論",
+          "zhuyin": "ㄌㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "如",
+          "zhuyin": "ㄖㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "何",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "控",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "制",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "速",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400403",
+      "examPhase": "midterm_before",
+      "readText": "生命有自己的意義",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "義",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400404",
+      "examPhase": "midterm_before",
+      "readText": "訂下目標再慢慢改良",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "訂",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "標",
+          "zhuyin": "ㄅㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "改",
+          "zhuyin": "ㄍㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "良",
+          "zhuyin": "ㄌㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400405",
+      "examPhase": "midterm_before",
+      "readText": "研究如何控制飛行",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "研",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "究",
+          "zhuyin": "ㄐㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "如",
+          "zhuyin": "ㄖㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "何",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "控",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "制",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400406",
+      "examPhase": "midterm_before",
+      "readText": "研究中忽然靈光一閃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "研",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "究",
+          "zhuyin": "ㄐㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "忽",
+          "zhuyin": "ㄏㄨ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "閃",
+          "zhuyin": "ㄕㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400407",
+      "examPhase": "midterm_before",
+      "readText": "飛機升空滑翔",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "滑",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "翔",
+          "zhuyin": "ㄒㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400408",
+      "examPhase": "midterm_before",
+      "readText": "公園裡有紀念碑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "紀",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "碑",
+          "zhuyin": "ㄅㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202610400409",
+      "examPhase": "midterm_before",
+      "readText": "老鷹升空飛向高處",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鷹",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400410",
+      "examPhase": "midterm_before",
+      "readText": "改良設計成為新紀念",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "改",
+          "zhuyin": "ㄍㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "良",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "紀",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        }
+      ]
+    }
+  ]
+}

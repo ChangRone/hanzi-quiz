@@ -1,0 +1,441 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600301",
+      "examPhase": "midterm_before",
+      "readText": "杏花在風中婆娑",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "杏",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "娑",
+          "zhuyin": "ㄙㄨㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202610600302",
+      "examPhase": "midterm_before",
+      "readText": "鐘聲鏗鏘有力",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鐘",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鏗",
+          "zhuyin": "ㄎㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鏘",
+          "zhuyin": "ㄑㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600303",
+      "examPhase": "midterm_before",
+      "readText": "智慧話語撫慰人心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "智",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慧",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "語",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "撫",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "慰",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610600304",
+      "examPhase": "midterm_before",
+      "readText": "杏壇老師耐心授徒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "杏",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "壇",
+          "zhuyin": "ㄊㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "授",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "徒",
+          "zhuyin": "ㄊㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600305",
+      "examPhase": "midterm_before",
+      "readText": "學徒每天鍛鍊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "徒",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "每",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "鍛",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鍊",
+          "zhuyin": "ㄌㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600306",
+      "examPhase": "midterm_before",
+      "readText": "古人曰學而時習之矣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "曰",
+          "zhuyin": "ㄩㄝ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "而",
+          "zhuyin": "ㄦˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "矣",
+          "zhuyin": "ㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600307",
+      "examPhase": "midterm_before",
+      "readText": "舊書內容值得重述",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "舊",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "述",
+          "zhuyin": "ㄕㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600308",
+      "examPhase": "midterm_before",
+      "readText": "亦可如此理解焉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "亦",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "如",
+          "zhuyin": "ㄖㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "焉",
+          "zhuyin": "ㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610600309",
+      "examPhase": "midterm_before",
+      "readText": "智慧能幫助分辨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "智",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慧",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "辨",
+          "zhuyin": "ㄅㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600310",
+      "examPhase": "midterm_before",
+      "readText": "時時警惕自己",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "警",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "惕",
+          "zhuyin": "ㄊㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        }
+      ]
+    }
+  ]
+}

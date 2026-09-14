@@ -1,0 +1,436 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400301",
+      "examPhase": "midterm_before",
+      "readText": "我用鏡頭拍軌道",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "軌",
+          "zhuyin": "ㄍㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400302",
+      "examPhase": "midterm_before",
+      "readText": "高樓與老屋並排",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "並",
+          "zhuyin": "ㄅㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400303",
+      "examPhase": "midterm_before",
+      "readText": "農夫努力耕耘土地",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "耕",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "耘",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400304",
+      "examPhase": "midterm_before",
+      "readText": "耕地裡長滿蔬菜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "耕",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蔬",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400305",
+      "examPhase": "midterm_before",
+      "readText": "小魚鼓著腮幫子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鼓",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "腮",
+          "zhuyin": "ㄙㄞ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610400306",
+      "examPhase": "midterm_before",
+      "readText": "烤箱裡有柳丁片",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "箱",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "柳",
+          "zhuyin": "ㄌㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "丁",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400307",
+      "examPhase": "midterm_before",
+      "readText": "烤餅撒上金粉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "撒",
+          "zhuyin": "ㄙㄚ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "粉",
+          "zhuyin": "ㄈㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400308",
+      "examPhase": "midterm_before",
+      "readText": "上網記錄旅程",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "網",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "錄",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "旅",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "程",
+          "zhuyin": "ㄔㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400309",
+      "examPhase": "midterm_before",
+      "readText": "鏡頭記錄高樓夜景",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "錄",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400310",
+      "examPhase": "midterm_before",
+      "readText": "柳丁和蔬菜都新鮮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "柳",
+          "zhuyin": "ㄌㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "丁",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔬",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "鮮",
+          "zhuyin": "ㄒㄧㄢ"
+        }
+      ]
+    }
+  ]
+}

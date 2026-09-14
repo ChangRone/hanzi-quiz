@@ -1,0 +1,501 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620401001",
+      "examPhase": "midterm_before",
+      "readText": "奇幻故事配著旋律",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幻",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "配",
+          "zhuyin": "ㄆㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "律",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401002",
+      "examPhase": "midterm_before",
+      "readText": "扁扁石頭瞬間滾下坡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "扁",
+          "zhuyin": "ㄅㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "扁",
+          "zhuyin": "ㄅㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡ˙"
+        },
+        {
+          "type": "blank",
+          "char": "瞬",
+          "zhuyin": "ㄕㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "滾",
+          "zhuyin": "ㄍㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "坡",
+          "zhuyin": "ㄆㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202620401003",
+      "examPhase": "midterm_before",
+      "readText": "體驗奇幻遊戲很有趣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "驗",
+          "zhuyin": "ㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幻",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "戲",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "趣",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401004",
+      "examPhase": "midterm_before",
+      "readText": "牙尖旁黏著芝麻",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "尖",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "黏",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "芝",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "麻",
+          "zhuyin": "ㄇㄚˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620401005",
+      "examPhase": "midterm_before",
+      "readText": "奇幻故事裡出現大盜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幻",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "盜",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401006",
+      "examPhase": "midterm_before",
+      "readText": "他邁開腳步離開困境",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "邁",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "困",
+          "zhuyin": "ㄎㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401007",
+      "examPhase": "midterm_before",
+      "readText": "龐大石球需要用手搓動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "龐",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "搓",
+          "zhuyin": "ㄘㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401008",
+      "examPhase": "midterm_before",
+      "readText": "大家嚮往榮華富貴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "嚮",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "往",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "榮",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "華",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "富",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "貴",
+          "zhuyin": "ㄍㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401009",
+      "examPhase": "midterm_before",
+      "readText": "旋律很快傳遍校園",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "律",
+          "zhuyin": "ㄌㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "遍",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "校",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620401010",
+      "examPhase": "midterm_before",
+      "readText": "困難只是一瞬間",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "困",
+          "zhuyin": "ㄎㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "瞬",
+          "zhuyin": "ㄕㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    }
+  ]
+}

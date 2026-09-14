@@ -11,11 +11,198 @@
     ]
   },
   {
+    "id": "20260010",
+    "title": "2026年小一上南一版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026南一小一上-01.json",
+    "lessonPattern": "packs/2026南一小一上-{LL}.json",
+    "lessonRange": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "20260020",
+    "title": "2026年小二上南一版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026南一小二上-01.json",
+    "lessonPattern": "packs/2026南一小二上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20260030",
+    "title": "2026年小三上南一版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026南一小三上-01.json",
+    "lessonPattern": "packs/2026南一小三上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20260040",
+    "title": "2026年小四上南一版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026南一小四上-01.json",
+    "lessonPattern": "packs/2026南一小四上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20260050",
+    "title": "2026年小五上南一版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026南一小五上-01.json",
+    "lessonPattern": "packs/2026南一小五上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20260060",
+    "title": "2026年小六上南一版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026南一小六上-01.json",
+    "lessonPattern": "packs/2026南一小六上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20261010",
+    "title": "2026年小一上翰林版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026翰林小一上-01.json",
+    "lessonPattern": "packs/2026翰林小一上-{LL}.json",
+    "lessonRange": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "20261020",
+    "title": "2026年小二上翰林版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026翰林小二上-01.json",
+    "lessonPattern": "packs/2026翰林小二上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20261030",
+    "title": "2026年小三上翰林版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026翰林小三上-01.json",
+    "lessonPattern": "packs/2026翰林小三上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20261040",
+    "title": "2026年小四上翰林版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026翰林小四上-01.json",
+    "lessonPattern": "packs/2026翰林小四上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20261050",
+    "title": "2026年小五上翰林版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026翰林小五上-01.json",
+    "lessonPattern": "packs/2026翰林小五上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20261060",
+    "title": "2026年小六上翰林版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026翰林小六上-01.json",
+    "lessonPattern": "packs/2026翰林小六上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20262010",
+    "title": "2026年小一上康軒版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026康軒小一上-01.json",
+    "lessonPattern": "packs/2026康軒小一上-{LL}.json",
+    "lessonRange": [
+      1,
+      6
+    ]
+  },
+  {
     "id": "20262020",
     "title": "2026年小二上康軒版",
     "version": "1.0.0",
     "dataUrl": "packs/2026康軒小二上-01.json",
     "lessonPattern": "packs/2026康軒小二上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20262030",
+    "title": "2026年小三上康軒版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026康軒小三上-01.json",
+    "lessonPattern": "packs/2026康軒小三上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20262040",
+    "title": "2026年小四上康軒版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026康軒小四上-01.json",
+    "lessonPattern": "packs/2026康軒小四上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20262050",
+    "title": "2026年小五上康軒版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026康軒小五上-01.json",
+    "lessonPattern": "packs/2026康軒小五上-{LL}.json",
+    "lessonRange": [
+      1,
+      12
+    ]
+  },
+  {
+    "id": "20262060",
+    "title": "2026年小六上康軒版",
+    "version": "1.0.0",
+    "dataUrl": "packs/2026康軒小六上-01.json",
+    "lessonPattern": "packs/2026康軒小六上-{LL}.json",
     "lessonRange": [
       1,
       12

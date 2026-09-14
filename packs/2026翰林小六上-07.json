@@ -1,0 +1,481 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600701",
+      "examPhase": "midterm_before",
+      "readText": "阿姨欣賞公共雕塑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "阿",
+          "zhuyin": "ㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "姨",
+          "zhuyin": "ㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "欣",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "賞",
+          "zhuyin": "ㄕㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "共",
+          "zhuyin": "ㄍㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "雕",
+          "zhuyin": "ㄉㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "塑",
+          "zhuyin": "ㄙㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600702",
+      "examPhase": "midterm_before",
+      "readText": "我用拓印蒐集紋樣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拓",
+          "zhuyin": "ㄊㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蒐",
+          "zhuyin": "ㄙㄡ"
+        },
+        {
+          "type": "text",
+          "char": "集",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "紋",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600703",
+      "examPhase": "midterm_before",
+      "readText": "蕨類旁站著梅花鹿",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蕨",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "類",
+          "zhuyin": "ㄌㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "站",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "梅",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "鹿",
+          "zhuyin": "ㄌㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600704",
+      "examPhase": "midterm_before",
+      "readText": "公鹿佇立在冷冽風中",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鹿",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "佇",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "立",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "冽",
+          "zhuyin": "ㄌㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610600705",
+      "examPhase": "midterm_before",
+      "readText": "銅像表面有光澤",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "銅",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "澤",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600706",
+      "examPhase": "midterm_before",
+      "readText": "錦鯉眨眼很可愛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "錦",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "鯉",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "眨",
+          "zhuyin": "ㄓㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600707",
+      "examPhase": "midterm_before",
+      "readText": "生鏽鋼材需要保養",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鏽",
+          "zhuyin": "ㄒㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鋼",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "養",
+          "zhuyin": "ㄧㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600708",
+      "examPhase": "midterm_before",
+      "readText": "作品意涵記在書籍裡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "涵",
+          "zhuyin": "ㄏㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "籍",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600709",
+      "examPhase": "midterm_before",
+      "readText": "時代更迭留下雕塑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "迭",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "雕",
+          "zhuyin": "ㄉㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "塑",
+          "zhuyin": "ㄙㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600710",
+      "examPhase": "midterm_before",
+      "readText": "青銅小鹿閃著光澤",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "銅",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鹿",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "閃",
+          "zhuyin": "ㄕㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "澤",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    }
+  ]
+}

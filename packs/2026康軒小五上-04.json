@@ -1,0 +1,516 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500401",
+      "examPhase": "midterm_before",
+      "readText": "澄澈天空下稻穗搖動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "澄",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "澈",
+          "zhuyin": "ㄔㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "稻",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "穗",
+          "zhuyin": "ㄙㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500402",
+      "examPhase": "midterm_before",
+      "readText": "成熟稻穗養活農家",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "稻",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "穗",
+          "zhuyin": "ㄙㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "養",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620500403",
+      "examPhase": "midterm_before",
+      "readText": "藝術創作的靈感來源很多",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "藝",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "術",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "創",
+          "zhuyin": "ㄔㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "源",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202620500404",
+      "examPhase": "midterm_before",
+      "readText": "樸實農夫整理草堆",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "樸",
+          "zhuyin": "ㄆㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "堆",
+          "zhuyin": "ㄉㄨㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202620500405",
+      "examPhase": "midterm_before",
+      "readText": "我撿起掉落的頭巾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "撿",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "巾",
+          "zhuyin": "ㄐㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620500406",
+      "examPhase": "midterm_before",
+      "readText": "肩膀痠了仍穿著樸素",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "肩",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "膀",
+          "zhuyin": "ㄅㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "痠",
+          "zhuyin": "ㄙㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "穿",
+          "zhuyin": "ㄔㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樸",
+          "zhuyin": "ㄆㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "素",
+          "zhuyin": "ㄙㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500407",
+      "examPhase": "midterm_before",
+      "readText": "尊重別人維護人格尊嚴",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "尊",
+          "zhuyin": "ㄗㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "維",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "格",
+          "zhuyin": "ㄍㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "尊",
+          "zhuyin": "ㄗㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "嚴",
+          "zhuyin": "ㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500408",
+      "examPhase": "midterm_before",
+      "readText": "任勞任怨完成工作",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "任",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "勞",
+          "zhuyin": "ㄌㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "任",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怨",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500409",
+      "examPhase": "midterm_before",
+      "readText": "慷慨分享令人感動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "慷",
+          "zhuyin": "ㄎㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "慨",
+          "zhuyin": "ㄎㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "享",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500410",
+      "examPhase": "midterm_before",
+      "readText": "藝術滋養恆久心靈",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "藝",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "術",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "滋",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "blank",
+          "char": "養",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "恆",
+          "zhuyin": "ㄏㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "久",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        }
+      ]
+    }
+  ]
+}

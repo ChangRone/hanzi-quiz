@@ -1,0 +1,506 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600401",
+      "examPhase": "midterm_before",
+      "readText": "魚鰭動作很奧妙",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鰭",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奧",
+          "zhuyin": "ㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "妙",
+          "zhuyin": "ㄇㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600402",
+      "examPhase": "midterm_before",
+      "readText": "仿生設計不必急迫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "仿",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "急",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "迫",
+          "zhuyin": "ㄆㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600403",
+      "examPhase": "midterm_before",
+      "readText": "蚊子叮咬皮膚",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蚊",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "叮",
+          "zhuyin": "ㄉㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "咬",
+          "zhuyin": "ㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "膚",
+          "zhuyin": "ㄈㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202610600404",
+      "examPhase": "midterm_before",
+      "readText": "零件組成鋸齒形狀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "零",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "件",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "組",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鋸",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "齒",
+          "zhuyin": "ㄔˇ"
+        },
+        {
+          "type": "text",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "狀",
+          "zhuyin": "ㄓㄨㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600405",
+      "examPhase": "midterm_before",
+      "readText": "血管擴張讓血液流動",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "血",
+          "zhuyin": "ㄒㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "管",
+          "zhuyin": "ㄍㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "擴",
+          "zhuyin": "ㄎㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "血",
+          "zhuyin": "ㄒㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "液",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600406",
+      "examPhase": "midterm_before",
+      "readText": "蓮葉表面有奈米結構",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蓮",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奈",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "構",
+          "zhuyin": "ㄍㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600407",
+      "examPhase": "midterm_before",
+      "readText": "仿照自然藉此創新",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "仿",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "藉",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "創",
+          "zhuyin": "ㄔㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610600408",
+      "examPhase": "midterm_before",
+      "readText": "巨無霸老鵰模型",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "巨",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "無",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "霸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鵰",
+          "zhuyin": "ㄉㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "型",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600409",
+      "examPhase": "midterm_before",
+      "readText": "屋角翹起又垂直落下",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "翹",
+          "zhuyin": "ㄑㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "垂",
+          "zhuyin": "ㄔㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600410",
+      "examPhase": "midterm_before",
+      "readText": "研究奈米材料前先觀察蓮葉結構",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "研",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "究",
+          "zhuyin": "ㄐㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "奈",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "察",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蓮",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "構",
+          "zhuyin": "ㄍㄡˋ"
+        }
+      ]
+    }
+  ]
+}

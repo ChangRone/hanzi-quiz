@@ -1,0 +1,516 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400501",
+      "examPhase": "midterm_before",
+      "readText": "凱勒完成大學學業",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凱",
+          "zhuyin": "ㄎㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "勒",
+          "zhuyin": "ㄌㄟ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400502",
+      "examPhase": "midterm_before",
+      "readText": "凱勒的勵志故事帶來力量",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凱",
+          "zhuyin": "ㄎㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "勒",
+          "zhuyin": "ㄌㄟ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "勵",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "量",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400503",
+      "examPhase": "midterm_before",
+      "readText": "寧靜環境適合閱讀",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "寧",
+          "zhuyin": "ㄋㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "環",
+          "zhuyin": "ㄏㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "閱",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400504",
+      "examPhase": "midterm_before",
+      "readText": "保護視力值得注意",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400505",
+      "examPhase": "midterm_before",
+      "readText": "判斷不能單憑視覺印象",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "判",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "斷",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "單",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "憑",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "覺",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400506",
+      "examPhase": "midterm_before",
+      "readText": "蓓蕾在春天開花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蓓",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蕾",
+          "zhuyin": "ㄌㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620400507",
+      "examPhase": "midterm_before",
+      "readText": "任何房間鋪地毯都更舒適",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "任",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "何",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "鋪",
+          "zhuyin": "ㄆㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "毯",
+          "zhuyin": "ㄊㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "舒",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400508",
+      "examPhase": "midterm_before",
+      "readText": "視覺世界色彩繽紛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "覺",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "世",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "界",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "繽",
+          "zhuyin": "ㄅㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "紛",
+          "zhuyin": "ㄈㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620400509",
+      "examPhase": "midterm_before",
+      "readText": "我會盡力完成學業",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "盡",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400510",
+      "examPhase": "midterm_before",
+      "readText": "盡情欣賞繽紛光影",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "盡",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "欣",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "賞",
+          "zhuyin": "ㄕㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "繽",
+          "zhuyin": "ㄅㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "紛",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        }
+      ]
+    }
+  ]
+}

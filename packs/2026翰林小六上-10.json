@@ -1,0 +1,456 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610601001",
+      "examPhase": "midterm_before",
+      "readText": "農莊旁有安靜鄉村",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "莊",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "鄉",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "村",
+          "zhuyin": "ㄘㄨㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610601002",
+      "examPhase": "midterm_before",
+      "readText": "樸實農人一起暢談",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "樸",
+          "zhuyin": "ㄆㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "暢",
+          "zhuyin": "ㄔㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "談",
+          "zhuyin": "ㄊㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601003",
+      "examPhase": "midterm_before",
+      "readText": "黍米田外有城郭",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "黍",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "郭",
+          "zhuyin": "ㄍㄨㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202610601004",
+      "examPhase": "midterm_before",
+      "readText": "夕陽斜照開軒窗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "夕",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "斜",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "軒",
+          "zhuyin": "ㄒㄩㄢ"
+        },
+        {
+          "type": "text",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610601005",
+      "examPhase": "midterm_before",
+      "readText": "桑樹旁盛開菊花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "桑",
+          "zhuyin": "ㄙㄤ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "盛",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "菊",
+          "zhuyin": "ㄐㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610601006",
+      "examPhase": "midterm_before",
+      "readText": "穀物收成記在農曆",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "穀",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "曆",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610601007",
+      "examPhase": "midterm_before",
+      "readText": "村外山脈連綿",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "村",
+          "zhuyin": "ㄘㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "脈",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "綿",
+          "zhuyin": "ㄇㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601008",
+      "examPhase": "midterm_before",
+      "readText": "主人殷勤招待客人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "殷",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "勤",
+          "zhuyin": "ㄑㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "text",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "客",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601009",
+      "examPhase": "midterm_before",
+      "readText": "我們訂下賞菊之約",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "訂",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "賞",
+          "zhuyin": "ㄕㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "菊",
+          "zhuyin": "ㄐㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "約",
+          "zhuyin": "ㄩㄝ"
+        }
+      ]
+    },
+    {
+      "id": "202610601010",
+      "examPhase": "midterm_before",
+      "readText": "恬靜農莊讓人放鬆",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "恬",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "莊",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "鬆",
+          "zhuyin": "ㄙㄨㄥ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620501201",
+      "examPhase": "midterm_before",
+      "readText": "劇烈風浪讓人暈船",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "劇",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "烈",
+          "zhuyin": "ㄌㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "浪",
+          "zhuyin": "ㄌㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "暈",
+          "zhuyin": "ㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501202",
+      "examPhase": "midterm_before",
+      "readText": "昏暗船艙讓人不安",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "昏",
+          "zhuyin": "ㄏㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "暗",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "艙",
+          "zhuyin": "ㄘㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620501203",
+      "examPhase": "midterm_before",
+      "readText": "途中強風捲起浪花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "途",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "強",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "捲",
+          "zhuyin": "ㄐㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "浪",
+          "zhuyin": "ㄌㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620501204",
+      "examPhase": "midterm_before",
+      "readText": "野獸不慎命喪陷阱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "野",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "獸",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "慎",
+          "zhuyin": "ㄕㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "喪",
+          "zhuyin": "ㄙㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "陷",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "阱",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620501205",
+      "examPhase": "midterm_before",
+      "readText": "他渾身無力十分喪氣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "渾",
+          "zhuyin": "ㄏㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "無",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "喪",
+          "zhuyin": "ㄙㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620501206",
+      "examPhase": "midterm_before",
+      "readText": "小船擱淺在礁石旁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "擱",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "淺",
+          "zhuyin": "ㄑㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "礁",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501207",
+      "examPhase": "midterm_before",
+      "readText": "木筏撞到倒塌樹幹",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "筏",
+          "zhuyin": "ㄈㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "撞",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "倒",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "塌",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "幹",
+          "zhuyin": "ㄍㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620501208",
+      "examPhase": "midterm_before",
+      "readText": "把泥捏好再燒成碗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "泥",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "捏",
+          "zhuyin": "ㄋㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "燒",
+          "zhuyin": "ㄕㄠ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "碗",
+          "zhuyin": "ㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620501209",
+      "examPhase": "midterm_before",
+      "readText": "木臼旁放著小烤爐",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "臼",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "爐",
+          "zhuyin": "ㄌㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501210",
+      "examPhase": "midterm_before",
+      "readText": "看見烤爐讓人躍躍欲試",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "爐",
+          "zhuyin": "ㄌㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "躍",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "躍",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "欲",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "試",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    }
+  ]
+}
