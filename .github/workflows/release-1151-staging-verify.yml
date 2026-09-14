@@ -26,6 +26,7 @@ jobs:
           import gzip
           import hashlib
           import json
+          from collections import Counter
           from pathlib import Path
 
           root = Path('_release_1151_transfer')
@@ -76,9 +77,11 @@ jobs:
           assert len(index_entries) == meta['indexEntryCount'], (len(index_entries), meta['indexEntryCount'])
 
           pack_ids = [p['id'] for p in packs]
-          assert len(pack_ids) == len(set(pack_ids)), 'duplicate pack ids'
           index_ids = [e['id'] for e in index_entries]
+          pack_id_counts = Counter(pack_ids)
           assert len(index_ids) == len(set(index_ids)), 'duplicate index ids'
+          assert len(pack_id_counts) == meta['indexEntryCount'], (len(pack_id_counts), meta['indexEntryCount'])
+          assert set(pack_id_counts) == set(index_ids), 'pack course ids do not match index ids'
 
           question_ids = []
           question_count = 0
@@ -113,9 +116,11 @@ jobs:
           print(f"rawLength={len(raw)}")
           print(f"rawSha256={raw_sha}")
           print(f"packs={len(packs)}")
+          print(f"courseIds={len(pack_id_counts)}")
           print(f"indexEntries={len(index_entries)}")
           print(f"questions={question_count}")
           print(f"unresolvedZhuyin={unresolved}")
           print(f"invalidTokens={invalid_tokens}")
+          print('packCountsByCourse=' + json.dumps(dict(sorted(pack_id_counts.items())), ensure_ascii=False, sort_keys=True))
           if isinstance(payload, dict):
               print('payloadKeys=' + ','.join(sorted(payload.keys())))
