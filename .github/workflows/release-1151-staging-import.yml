@@ -5,7 +5,8 @@ on:
     branches:
       - release-1151-quiz-staging
     paths:
-      - '.github/workflows/release-1151-staging-import.yml'
+      - '_release_1151_transfer/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -150,6 +151,15 @@ jobs:
           assert invalid_tokens == 0, invalid_tokens
           assert pack_course_ids == set(new_ids), 'generated pack ids != new index ids'
 
+          # Context-sensitive pronunciation regression is already asserted when the
+          # private release archive is built; assert it again after public import.
+          k2 = json.loads(Path('packs/2026康軒小二上-01.json').read_text(encoding='utf-8'))
+          q_by_text = {q['readText']: q for q in k2['questions']}
+          become = [t['zhuyin'] for t in q_by_text['我希望成為閱讀高手']['tokens'] if t['char'] == '為']
+          for_me = [t['zhuyin'] for t in q_by_text['老師只為我加油']['tokens'] if t['char'] == '為']
+          assert become == ['ㄨㄟˊ'], become
+          assert for_me == ['ㄨㄟˋ'], for_me
+
           final_index = json.loads(index_path.read_text(encoding='utf-8'))
           by_id = {entry['id']: entry for entry in final_index}
           for expected in new_entries:
@@ -174,6 +184,7 @@ jobs:
           print(f'finalIndexEntries={len(final_index)}')
           print(f'blankCountMin={min(blank_counts)}')
           print(f'blankCountMax={max(blank_counts)}')
+          print('contextualPronunciationRegression=PASS')
 
       - name: Commit verified staging files
         shell: bash
