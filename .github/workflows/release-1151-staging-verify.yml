@@ -1,0 +1,121 @@
+name: Verify 115-1 quiz release staging
+
+on:
+  push:
+    branches:
+      - release-1151-quiz-staging
+    paths:
+      - '_release_1151_transfer/**'
+      - '.github/workflows/release-1151-staging-verify.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging
+        uses: actions/checkout@v4
+
+      - name: Verify transfer and payload
+        shell: python
+        run: |
+          import base64
+          import gzip
+          import hashlib
+          import json
+          from pathlib import Path
+
+          root = Path('_release_1151_transfer')
+          meta = json.loads((root / 'meta.json').read_text(encoding='utf-8'))
+          expected_names = [f'part-{i:02d}.txt' for i in range(1, meta['parts'] + 1)]
+          actual_names = sorted(p.name for p in root.glob('part-*.txt'))
+          assert actual_names == expected_names, (len(actual_names), actual_names)
+
+          for name in expected_names:
+              data = (root / name).read_bytes()
+              got = hashlib.sha256(data).hexdigest()
+              expected = meta['partSha256'][name]
+              assert got == expected, f'{name}: {got} != {expected}'
+
+          encoded = b''.join((root / name).read_bytes() for name in expected_names)
+          assert len(encoded) == meta['encodedLength'], (len(encoded), meta['encodedLength'])
+          encoded_sha = hashlib.sha256(encoded).hexdigest()
+          assert encoded_sha == meta['encodedSha256'], (encoded_sha, meta['encodedSha256'])
+
+          archive = base64.b64decode(encoded, validate=True)
+          raw = gzip.decompress(archive)
+          assert len(raw) == meta['rawLength'], (len(raw), meta['rawLength'])
+          raw_sha = hashlib.sha256(raw).hexdigest()
+          assert raw_sha == meta['rawSha256'], (raw_sha, meta['rawSha256'])
+          payload = json.loads(raw.decode('utf-8'))
+
+          seen = set()
+          packs = []
+          index_entries = []
+          def walk(obj):
+              oid = id(obj)
+              if oid in seen:
+                  return
+              seen.add(oid)
+              if isinstance(obj, dict):
+                  if {'id','title','year','publisherCode','grade','semester','version','questions'} <= set(obj) and isinstance(obj.get('questions'), list):
+                      packs.append(obj)
+                  if {'id','title','version'} <= set(obj) and ('dataUrl' in obj or 'lessonPattern' in obj):
+                      index_entries.append(obj)
+                  for value in obj.values():
+                      walk(value)
+              elif isinstance(obj, list):
+                  for value in obj:
+                      walk(value)
+          walk(payload)
+
+          assert len(packs) == meta['packCount'], (len(packs), meta['packCount'])
+          assert len(index_entries) == meta['indexEntryCount'], (len(index_entries), meta['indexEntryCount'])
+
+          pack_ids = [p['id'] for p in packs]
+          assert len(pack_ids) == len(set(pack_ids)), 'duplicate pack ids'
+          index_ids = [e['id'] for e in index_entries]
+          assert len(index_ids) == len(set(index_ids)), 'duplicate index ids'
+
+          question_ids = []
+          question_count = 0
+          unresolved = 0
+          invalid_tokens = 0
+          for pack in packs:
+              assert len(pack['questions']) == 10, f"{pack['id']}: question count={len(pack['questions'])}"
+              for q in pack['questions']:
+                  question_count += 1
+                  assert {'id','examPhase','readText','tokens'} <= set(q), (pack['id'], q)
+                  question_ids.append(q['id'])
+                  assert isinstance(q['readText'], str) and q['readText'], q['id']
+                  assert isinstance(q['tokens'], list) and q['tokens'], q['id']
+                  for token in q['tokens']:
+                      if not {'type','char','zhuyin'} <= set(token):
+                          invalid_tokens += 1
+                          continue
+                      if token['type'] not in ('text','blank') or not isinstance(token['char'], str) or len(token['char']) != 1:
+                          invalid_tokens += 1
+                      if not isinstance(token['zhuyin'], str) or not token['zhuyin'].strip():
+                          unresolved += 1
+
+          assert question_count == 2000, question_count
+          assert len(question_ids) == len(set(question_ids)), 'duplicate question ids'
+          assert invalid_tokens == 0, invalid_tokens
+          assert unresolved == 0, unresolved
+
+          print('VERIFY_OK')
+          print(f"parts={len(actual_names)}")
+          print(f"encodedLength={len(encoded)}")
+          print(f"encodedSha256={encoded_sha}")
+          print(f"rawLength={len(raw)}")
+          print(f"rawSha256={raw_sha}")
+          print(f"packs={len(packs)}")
+          print(f"indexEntries={len(index_entries)}")
+          print(f"questions={question_count}")
+          print(f"unresolvedZhuyin={unresolved}")
+          print(f"invalidTokens={invalid_tokens}")
+          if isinstance(payload, dict):
+              print('payloadKeys=' + ','.join(sorted(payload.keys())))
