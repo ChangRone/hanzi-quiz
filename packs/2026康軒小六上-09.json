@@ -1,0 +1,556 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600901",
+      "examPhase": "midterm_before",
+      "readText": "街亭旁駐守著數支隊伍",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "亭",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "駐",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "守",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "數",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "支",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "伍",
+          "zhuyin": "ㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600902",
+      "examPhase": "midterm_before",
+      "readText": "這個縣只剩幾戶人家",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "縣",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "剩",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "戶",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620600903",
+      "examPhase": "midterm_before",
+      "readText": "司馬懿率領魏軍前進",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "text",
+          "char": "馬",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "懿",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "率",
+          "zhuyin": "ㄌㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "領",
+          "zhuyin": "ㄌㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "魏",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600904",
+      "examPhase": "midterm_before",
+      "readText": "山崗插著整排旗幟",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "崗",
+          "zhuyin": "ㄍㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "插",
+          "zhuyin": "ㄔㄚ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "旗",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幟",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600905",
+      "examPhase": "midterm_before",
+      "readText": "百姓倘若有需要可以求助",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "百",
+          "zhuyin": "ㄅㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姓",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "倘",
+          "zhuyin": "ㄊㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "若",
+          "zhuyin": "ㄖㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600906",
+      "examPhase": "midterm_before",
+      "readText": "書僮點起薰香整理房間",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "僮",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "薰",
+          "zhuyin": "ㄒㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620600907",
+      "examPhase": "midterm_before",
+      "readText": "軍隊謹慎撤退避免受困",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "謹",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "慎",
+          "zhuyin": "ㄕㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "撤",
+          "zhuyin": "ㄔㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "退",
+          "zhuyin": "ㄊㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "避",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "困",
+          "zhuyin": "ㄎㄨㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600908",
+      "examPhase": "midterm_before",
+      "readText": "諸葛亮擔任蜀漢丞相",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "諸",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "葛",
+          "zhuyin": "ㄍㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "擔",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "text",
+          "char": "任",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "蜀",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "漢",
+          "zhuyin": "ㄏㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "丞",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600909",
+      "examPhase": "midterm_before",
+      "readText": "魏軍撤離後旗幟也收走",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "魏",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "撤",
+          "zhuyin": "ㄔㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旗",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幟",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600910",
+      "examPhase": "midterm_before",
+      "readText": "司馬懿做事十分謹慎",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "text",
+          "char": "馬",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "懿",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "謹",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "慎",
+          "zhuyin": "ㄕㄣˋ"
+        }
+      ]
+    }
+  ]
+}

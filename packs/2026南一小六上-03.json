@@ -1,0 +1,476 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600301",
+      "examPhase": "midterm_before",
+      "readText": "房舍四周皆是花草",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "舍",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "text",
+          "char": "周",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "皆",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600302",
+      "examPhase": "midterm_before",
+      "readText": "因緣讓朋友走進蓬門",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "緣",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蓬",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600303",
+      "examPhase": "midterm_before",
+      "readText": "晚飧雖簡單卻很香",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "飧",
+          "zhuyin": "ㄙㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "簡",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "單",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "text",
+          "char": "卻",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600600304",
+      "examPhase": "midterm_before",
+      "readText": "桌上只有一樽酒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "樽",
+          "zhuyin": "ㄗㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600305",
+      "examPhase": "midterm_before",
+      "readText": "舊酒旁放著新醅",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "舊",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "醅",
+          "zhuyin": "ㄆㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202600600306",
+      "examPhase": "midterm_before",
+      "readText": "籬笆圍著簡陋小屋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "籬",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "笆",
+          "zhuyin": "ㄅㄚ"
+        },
+        {
+          "type": "text",
+          "char": "圍",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "簡",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "陋",
+          "zhuyin": "ㄌㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600600307",
+      "examPhase": "midterm_before",
+      "readText": "城鎮外溪水潺潺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鎮",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "潺",
+          "zhuyin": "ㄔㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "潺",
+          "zhuyin": "ㄔㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600308",
+      "examPhase": "midterm_before",
+      "readText": "陳年飲料先過濾",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陳",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "飲",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "濾",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600309",
+      "examPhase": "midterm_before",
+      "readText": "孤寂房舍靠近籬笆",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孤",
+          "zhuyin": "ㄍㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "寂",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "舍",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "籬",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "笆",
+          "zhuyin": "ㄅㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600600310",
+      "examPhase": "midterm_before",
+      "readText": "簡單酒菜也能兼具美味",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "簡",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "單",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "酒",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "兼",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "具",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    }
+  ]
+}

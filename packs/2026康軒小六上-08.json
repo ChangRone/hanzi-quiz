@@ -1,0 +1,671 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600801",
+      "examPhase": "midterm_before",
+      "readText": "我們閱讀劉向整理的戰國策故事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "閱",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "劉",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "國",
+          "zhuyin": "ㄍㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "策",
+          "zhuyin": "ㄘㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600802",
+      "examPhase": "midterm_before",
+      "readText": "編纂寓言需要查找相關資料",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "編",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "纂",
+          "zhuyin": "ㄗㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "寓",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "言",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "查",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600803",
+      "examPhase": "midterm_before",
+      "readText": "鷸和蚌在河邊僵持不下",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鷸",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蚌",
+          "zhuyin": "ㄅㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "河",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "僵",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600804",
+      "examPhase": "midterm_before",
+      "readText": "文章記述一位聲名顯赫的人物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "章",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "述",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "名",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "顯",
+          "zhuyin": "ㄒㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "赫",
+          "zhuyin": "ㄏㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600805",
+      "examPhase": "midterm_before",
+      "readText": "面對威脅不必畏懼可以先詢問大人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "威",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "脅",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "畏",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "懼",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "詢",
+          "zhuyin": "ㄒㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600806",
+      "examPhase": "midterm_before",
+      "readText": "古文中常見曰與吾字",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "常",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "曰",
+          "zhuyin": "ㄩㄝ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "吾",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "字",
+          "zhuyin": "ㄗˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600807",
+      "examPhase": "midterm_before",
+      "readText": "受到諷刺後他遂改變做法",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "諷",
+          "zhuyin": "ㄈㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "刺",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "遂",
+          "zhuyin": "ㄙㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "改",
+          "zhuyin": "ㄍㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600808",
+      "examPhase": "midterm_before",
+      "readText": "虛假消息容易蒙蔽判斷",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "虛",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "假",
+          "zhuyin": "ㄐㄧㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "易",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "蒙",
+          "zhuyin": "ㄇㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔽",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "判",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "斷",
+          "zhuyin": "ㄉㄨㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600809",
+      "examPhase": "midterm_before",
+      "readText": "不妨用問題引導而不是誘騙",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "妨",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "題",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "引",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "導",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "而",
+          "zhuyin": "ㄦˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "誘",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "騙",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600810",
+      "examPhase": "midterm_before",
+      "readText": "這則寓言諷刺虛張聲勢的人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "則",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "寓",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "言",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "諷",
+          "zhuyin": "ㄈㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "刺",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "blank",
+          "char": "虛",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "勢",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    }
+  ]
+}

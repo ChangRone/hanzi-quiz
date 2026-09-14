@@ -1,0 +1,501 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500701",
+      "examPhase": "midterm_before",
+      "readText": "建築設計用了圓弧線",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "建",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "築",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "弧",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500702",
+      "examPhase": "midterm_before",
+      "readText": "欄杆圍著一棟房子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "欄",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "杆",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "text",
+          "char": "圍",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "棟",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600500703",
+      "examPhase": "midterm_before",
+      "readText": "磁磚排成魚鱗花紋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "磁",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "text",
+          "char": "磚",
+          "zhuyin": "ㄓㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鱗",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "紋",
+          "zhuyin": "ㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500704",
+      "examPhase": "midterm_before",
+      "readText": "屋頂像薑餅覆著白霜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "頂",
+          "zhuyin": "ㄉㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "薑",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "覆",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "霜",
+          "zhuyin": "ㄕㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600500705",
+      "examPhase": "midterm_before",
+      "readText": "整棟屋角像巨爪",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "棟",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "巨",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "爪",
+          "zhuyin": "ㄓㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500706",
+      "examPhase": "midterm_before",
+      "readText": "聖堂高塔伸向天際",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "聖",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "堂",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "塔",
+          "zhuyin": "ㄊㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "伸",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "際",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500707",
+      "examPhase": "midterm_before",
+      "readText": "玻璃彩窗讓人目瞪口呆",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "玻",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "璃",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "瞪",
+          "zhuyin": "ㄉㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "呆",
+          "zhuyin": "ㄉㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202600500708",
+      "examPhase": "midterm_before",
+      "readText": "彩繪玻璃映出光影",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "繪",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "玻",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "璃",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "映",
+          "zhuyin": "ㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500709",
+      "examPhase": "midterm_before",
+      "readText": "堅持保存文化遺產",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "遺",
+          "zhuyin": "ㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "產",
+          "zhuyin": "ㄔㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500710",
+      "examPhase": "midterm_before",
+      "readText": "他投入多年堅持設計",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "投",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "blank",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ]
+    }
+  ]
+}

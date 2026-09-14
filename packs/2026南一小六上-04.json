@@ -1,0 +1,481 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600401",
+      "examPhase": "midterm_before",
+      "readText": "運動衫貼著肌膚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "運",
+          "zhuyin": "ㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "衫",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "貼",
+          "zhuyin": "ㄊㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "肌",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "膚",
+          "zhuyin": "ㄈㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600600402",
+      "examPhase": "midterm_before",
+      "readText": "現場氣氛沸騰起來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "氛",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "沸",
+          "zhuyin": "ㄈㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "騰",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600403",
+      "examPhase": "midterm_before",
+      "readText": "他兀自坐在唯一空位",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "兀",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "唯",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600404",
+      "examPhase": "midterm_before",
+      "readText": "我握拳摸後腦勺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "握",
+          "zhuyin": "ㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "拳",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "摸",
+          "zhuyin": "ㄇㄛ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "腦",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "勺",
+          "zhuyin": "ㄕㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600405",
+      "examPhase": "midterm_before",
+      "readText": "觀眾吶喊握拳加油",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "眾",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "吶",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "喊",
+          "zhuyin": "ㄏㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "握",
+          "zhuyin": "ㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "拳",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "油",
+          "zhuyin": "ㄧㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600406",
+      "examPhase": "midterm_before",
+      "readText": "選手抵達指定位置",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "抵",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "達",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "指",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "置",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600407",
+      "examPhase": "midterm_before",
+      "readText": "頒獎時榮耀屬於大家",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "頒",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "獎",
+          "zhuyin": "ㄐㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "榮",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "耀",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "屬",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "於",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600600408",
+      "examPhase": "midterm_before",
+      "readText": "別搞錯這個位置",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "搞",
+          "zhuyin": "ㄍㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "置",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600409",
+      "examPhase": "midterm_before",
+      "readText": "黝黑皮膚襯出笑容",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "黝",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "膚",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "襯",
+          "zhuyin": "ㄔㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600410",
+      "examPhase": "midterm_before",
+      "readText": "他摟著朋友別惹麻煩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "摟",
+          "zhuyin": "ㄌㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "惹",
+          "zhuyin": "ㄖㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "麻",
+          "zhuyin": "ㄇㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400701",
+      "examPhase": "midterm_before",
+      "readText": "薄餅烙好再沾醬",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "薄",
+          "zhuyin": "ㄅㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "烙",
+          "zhuyin": "ㄌㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沾",
+          "zhuyin": "ㄓㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400702",
+      "examPhase": "midterm_before",
+      "readText": "咖哩香味十分濃郁",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "咖",
+          "zhuyin": "ㄎㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "哩",
+          "zhuyin": "ㄌㄧ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "郁",
+          "zhuyin": "ㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400703",
+      "examPhase": "midterm_before",
+      "readText": "印度師傅會甩餅",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "傅",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "甩",
+          "zhuyin": "ㄕㄨㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400704",
+      "examPhase": "midterm_before",
+      "readText": "新鮮食材配上醬料",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "鮮",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "配",
+          "zhuyin": "ㄆㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400705",
+      "examPhase": "midterm_before",
+      "readText": "義大利麵拌紅醬",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "義",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "利",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "拌",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400706",
+      "examPhase": "midterm_before",
+      "readText": "青醬味道濃郁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "郁",
+          "zhuyin": "ㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400707",
+      "examPhase": "midterm_before",
+      "readText": "壽司沾一點醋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "壽",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "沾",
+          "zhuyin": "ㄓㄢ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "醋",
+          "zhuyin": "ㄘㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400708",
+      "examPhase": "midterm_before",
+      "readText": "未知食材讓人期待",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "未",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "知",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400709",
+      "examPhase": "midterm_before",
+      "readText": "食材切薄更好入口",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "薄",
+          "zhuyin": "ㄅㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400710",
+      "examPhase": "midterm_before",
+      "readText": "咖哩醬配麵也好吃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "咖",
+          "zhuyin": "ㄎㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "哩",
+          "zhuyin": "ㄌㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "配",
+          "zhuyin": "ㄆㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        }
+      ]
+    }
+  ]
+}

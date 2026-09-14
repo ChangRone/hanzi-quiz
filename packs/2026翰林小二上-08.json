@@ -1,0 +1,431 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200801",
+      "examPhase": "midterm_before",
+      "readText": "我介紹圓形盤子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "介",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "紹",
+          "zhuyin": "ㄕㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "盤",
+          "zhuyin": "ㄆㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610200802",
+      "examPhase": "midterm_before",
+      "readText": "白紙上畫著米粒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "粒",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200803",
+      "examPhase": "midterm_before",
+      "readText": "米紙泡水會變軟",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "泡",
+          "zhuyin": "ㄆㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "軟",
+          "zhuyin": "ㄖㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200804",
+      "examPhase": "midterm_before",
+      "readText": "別搶桌上的食材",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "搶",
+          "zhuyin": "ㄑㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200805",
+      "examPhase": "midterm_before",
+      "readText": "蝦子旁放著米線",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蝦",
+          "zhuyin": "ㄒㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200806",
+      "examPhase": "midterm_before",
+      "readText": "各種青菜都新鮮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "各",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "鮮",
+          "zhuyin": "ㄒㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610200807",
+      "examPhase": "midterm_before",
+      "readText": "接著聽老師說明",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200808",
+      "examPhase": "midterm_before",
+      "readText": "多聽一次會更清楚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200809",
+      "examPhase": "midterm_before",
+      "readText": "圓形米紙很薄",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "米",
+          "zhuyin": "ㄇㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "薄",
+          "zhuyin": "ㄅㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200810",
+      "examPhase": "midterm_before",
+      "readText": "食材有蝦和青菜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蝦",
+          "zhuyin": "ㄒㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        }
+      ]
+    }
+  ]
+}

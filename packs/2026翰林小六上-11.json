@@ -1,0 +1,501 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610601101",
+      "examPhase": "midterm_before",
+      "readText": "羹湯勾芡後更濃稠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "羹",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "text",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "勾",
+          "zhuyin": "ㄍㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "芡",
+          "zhuyin": "ㄑㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "稠",
+          "zhuyin": "ㄔㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601102",
+      "examPhase": "midterm_before",
+      "readText": "熱鍋香氣滑過喉間",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "滑",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "喉",
+          "zhuyin": "ㄏㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610601103",
+      "examPhase": "midterm_before",
+      "readText": "小巷羹湯可以祛寒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "巷",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羹",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "text",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "祛",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "text",
+          "char": "寒",
+          "zhuyin": "ㄏㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601104",
+      "examPhase": "midterm_before",
+      "readText": "肉販把食材放進鍋裡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "肉",
+          "zhuyin": "ㄖㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "販",
+          "zhuyin": "ㄈㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610601105",
+      "examPhase": "midterm_before",
+      "readText": "醬汁需要攪拌均勻",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "汁",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攪",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "拌",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "均",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "勻",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610601106",
+      "examPhase": "midterm_before",
+      "readText": "狹小廚房只能蹲著找東西",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "狹",
+          "zhuyin": "ㄒㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "廚",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蹲",
+          "zhuyin": "ㄉㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "東",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "西",
+          "zhuyin": "ㄒㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610601107",
+      "examPhase": "midterm_before",
+      "readText": "別縱容孩子撒嬌",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "縱",
+          "zhuyin": "ㄗㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "撒",
+          "zhuyin": "ㄙㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "嬌",
+          "zhuyin": "ㄐㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610601108",
+      "examPhase": "midterm_before",
+      "readText": "餃子外皮裹著香菇",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "餃",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "裹",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "菇",
+          "zhuyin": "ㄍㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202610601109",
+      "examPhase": "midterm_before",
+      "readText": "塞滿食材的鍋很重",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "塞",
+          "zhuyin": "ㄙㄞ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "鍋",
+          "zhuyin": "ㄍㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610601110",
+      "examPhase": "midterm_before",
+      "readText": "撒嬌也不能偷吃肉羹",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "撒",
+          "zhuyin": "ㄙㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "嬌",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "偷",
+          "zhuyin": "ㄊㄡ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "肉",
+          "zhuyin": "ㄖㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羹",
+          "zhuyin": "ㄍㄥ"
+        }
+      ]
+    }
+  ]
+}

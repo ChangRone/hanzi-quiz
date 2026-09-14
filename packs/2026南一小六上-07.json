@@ -1,0 +1,476 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600701",
+      "examPhase": "midterm_before",
+      "readText": "勞心之後做出抉擇",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "勞",
+          "zhuyin": "ㄌㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "抉",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "擇",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600702",
+      "examPhase": "midterm_before",
+      "readText": "他抽空練習跆拳道",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "抽",
+          "zhuyin": "ㄔㄡ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "跆",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "拳",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600703",
+      "examPhase": "midterm_before",
+      "readText": "我抽空閱讀科學叢書",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "抽",
+          "zhuyin": "ㄔㄡ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "閱",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "科",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "叢",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600600704",
+      "examPhase": "midterm_before",
+      "readText": "老人步履蹣跚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "履",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蹣",
+          "zhuyin": "ㄆㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "跚",
+          "zhuyin": "ㄕㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600600705",
+      "examPhase": "midterm_before",
+      "readText": "廚房灶旁有人搔頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "廚",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灶",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "搔",
+          "zhuyin": "ㄙㄠ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600706",
+      "examPhase": "midterm_before",
+      "readText": "土壤裡長出花苞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "壤",
+          "zhuyin": "ㄖㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "苞",
+          "zhuyin": "ㄅㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600600707",
+      "examPhase": "midterm_before",
+      "readText": "維護新芽需要耐心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "維",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "芽",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600600708",
+      "examPhase": "midterm_before",
+      "readText": "選擇前先衡量",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "擇",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "衡",
+          "zhuyin": "ㄏㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "量",
+          "zhuyin": "ㄌㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600600709",
+      "examPhase": "midterm_before",
+      "readText": "維持夢想有時要犧牲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "維",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "夢",
+          "zhuyin": "ㄇㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "犧",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "牲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600600710",
+      "examPhase": "midterm_before",
+      "readText": "犧牲休息也別過度勞累",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "犧",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "牲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "休",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "勞",
+          "zhuyin": "ㄌㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "累",
+          "zhuyin": "ㄌㄟˋ"
+        }
+      ]
+    }
+  ]
+}

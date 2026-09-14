@@ -1,0 +1,566 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600101",
+      "examPhase": "midterm_before",
+      "readText": "壓軸比賽正在爭奪冠軍",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "壓",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "軸",
+          "zhuyin": "ㄓㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "賽",
+          "zhuyin": "ㄙㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "爭",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "奪",
+          "zhuyin": "ㄉㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "冠",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620600102",
+      "examPhase": "midterm_before",
+      "readText": "他受了委屈仍不偏心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "委",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "屈",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "偏",
+          "zhuyin": "ㄆㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620600103",
+      "examPhase": "midterm_before",
+      "readText": "大家搬走箱子化解芥蒂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "搬",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "箱",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "芥",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蒂",
+          "zhuyin": "ㄉㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600104",
+      "examPhase": "midterm_before",
+      "readText": "遇到壓抑情緒別急著拒絕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "壓",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "抑",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "緒",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "急",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拒",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "絕",
+          "zhuyin": "ㄐㄩㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600105",
+      "examPhase": "midterm_before",
+      "readText": "兩人見面時有些尷尬",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "些",
+          "zhuyin": "ㄒㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "尷",
+          "zhuyin": "ㄍㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "尬",
+          "zhuyin": "ㄍㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600106",
+      "examPhase": "midterm_before",
+      "readText": "他後悔失言便拱手道歉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "悔",
+          "zhuyin": "ㄏㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "言",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "便",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拱",
+          "zhuyin": "ㄍㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "歉",
+          "zhuyin": "ㄑㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600107",
+      "examPhase": "midterm_before",
+      "readText": "他默默計算起跑距離",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "默",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "默",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "算",
+          "zhuyin": "ㄙㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "距",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600108",
+      "examPhase": "midterm_before",
+      "readText": "扭傷腳仍保持高昂鬥志",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "扭",
+          "zhuyin": "ㄋㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "昂",
+          "zhuyin": "ㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鬥",
+          "zhuyin": "ㄉㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600109",
+      "examPhase": "midterm_before",
+      "readText": "猛然聽到聲音我愣住了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "猛",
+          "zhuyin": "ㄇㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "愣",
+          "zhuyin": "ㄌㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620600110",
+      "examPhase": "midterm_before",
+      "readText": "搬運時拒絕扭曲姿勢",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "搬",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "運",
+          "zhuyin": "ㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "拒",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "絕",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "扭",
+          "zhuyin": "ㄋㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "曲",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "text",
+          "char": "姿",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "勢",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    }
+  ]
+}

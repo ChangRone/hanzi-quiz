@@ -1,0 +1,456 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620201101",
+      "examPhase": "midterm_before",
+      "readText": "黑皮戴著面具",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "戴",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "具",
+          "zhuyin": "ㄐㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201102",
+      "examPhase": "midterm_before",
+      "readText": "舞者像鳥一樣飛起",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "者",
+          "zhuyin": "ㄓㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620201103",
+      "examPhase": "midterm_before",
+      "readText": "海洋北方天氣寒冷",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "洋",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "北",
+          "zhuyin": "ㄅㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "寒",
+          "zhuyin": "ㄏㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620201104",
+      "examPhase": "midterm_before",
+      "readText": "黑皮伸長脖子用嘴找食物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "伸",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "脖",
+          "zhuyin": "ㄅㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嘴",
+          "zhuyin": "ㄗㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201105",
+      "examPhase": "midterm_before",
+      "readText": "吃飽後走在沙灘",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "blank",
+          "char": "飽",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沙",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "text",
+          "char": "灘",
+          "zhuyin": "ㄊㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620201106",
+      "examPhase": "midterm_before",
+      "readText": "別著急先穿衣服",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "急",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "穿",
+          "zhuyin": "ㄔㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620201107",
+      "examPhase": "midterm_before",
+      "readText": "小鳥站著張開翅膀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "站",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "翅",
+          "zhuyin": "ㄔˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膀",
+          "zhuyin": "ㄅㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620201108",
+      "examPhase": "midterm_before",
+      "readText": "心裡充滿思念",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "充",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "思",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201109",
+      "examPhase": "midterm_before",
+      "readText": "北風吹過黑皮外套",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "北",
+          "zhuyin": "ㄅㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "套",
+          "zhuyin": "ㄊㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201110",
+      "examPhase": "midterm_before",
+      "readText": "翅膀飛過海洋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "翅",
+          "zhuyin": "ㄔˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膀",
+          "zhuyin": "ㄅㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "洋",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    }
+  ]
+}

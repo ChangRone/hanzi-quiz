@@ -1,0 +1,466 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620200501",
+      "examPhase": "midterm_before",
+      "readText": "暑假回鄉看竹林",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "暑",
+          "zhuyin": "ㄕㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "假",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鄉",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200502",
+      "examPhase": "midterm_before",
+      "readText": "越南朋友帶我出門",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "南",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200503",
+      "examPhase": "midterm_before",
+      "readText": "大家等待竹籃船",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "籃",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200504",
+      "examPhase": "midterm_before",
+      "readText": "我跨上船開始划",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "跨",
+          "zhuyin": "ㄎㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "始",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "blank",
+          "char": "划",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200505",
+      "examPhase": "midterm_before",
+      "readText": "海風吹過船邊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620200506",
+      "examPhase": "midterm_before",
+      "readText": "原來大家都在叫好",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "原",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200507",
+      "examPhase": "midterm_before",
+      "readText": "原本住在近海的人",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "原",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200508",
+      "examPhase": "midterm_before",
+      "readText": "越南漁夫出海捕魚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "南",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "漁",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "捕",
+          "zhuyin": "ㄅㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200509",
+      "examPhase": "midterm_before",
+      "readText": "這個活動讓我認識朋友",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "認",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "識",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200510",
+      "examPhase": "midterm_before",
+      "readText": "一邊划船一邊吹風",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "划",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600300901",
+      "examPhase": "midterm_before",
+      "readText": "醫生穿著白袍",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "穿",
+          "zhuyin": "ㄔㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "袍",
+          "zhuyin": "ㄆㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300902",
+      "examPhase": "midterm_before",
+      "readText": "他戴上聽診筒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "戴",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "診",
+          "zhuyin": "ㄓㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "筒",
+          "zhuyin": "ㄊㄨㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300903",
+      "examPhase": "midterm_before",
+      "readText": "啄木鳥敲著樹幹",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "啄",
+          "zhuyin": "ㄓㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "敲",
+          "zhuyin": "ㄑㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "幹",
+          "zhuyin": "ㄍㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300904",
+      "examPhase": "midterm_before",
+      "readText": "我準備一顆蘋果",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "顆",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "蘋",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300905",
+      "examPhase": "midterm_before",
+      "readText": "吃藥對付病毒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "blank",
+          "char": "藥",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "付",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "病",
+          "zhuyin": "ㄅㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "毒",
+          "zhuyin": "ㄉㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300906",
+      "examPhase": "midterm_before",
+      "readText": "陽光般笑容很溫暖",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "般",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300907",
+      "examPhase": "midterm_before",
+      "readText": "孩子乖乖吃藥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "乖",
+          "zhuyin": "ㄍㄨㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "乖",
+          "zhuyin": "ㄍㄨㄞ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "blank",
+          "char": "藥",
+          "zhuyin": "ㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300908",
+      "examPhase": "midterm_before",
+      "readText": "醫生準備去看病",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "病",
+          "zhuyin": "ㄅㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300909",
+      "examPhase": "midterm_before",
+      "readText": "穿白袍的人很溫柔",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "穿",
+          "zhuyin": "ㄔㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "袍",
+          "zhuyin": "ㄆㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "柔",
+          "zhuyin": "ㄖㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300910",
+      "examPhase": "midterm_before",
+      "readText": "我戴帽子拿蘋果",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "戴",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "帽",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蘋",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    }
+  ]
+}

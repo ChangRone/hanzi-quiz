@@ -1,0 +1,496 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400201",
+      "examPhase": "midterm_before",
+      "readText": "姐姐向我招招手",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400202",
+      "examPhase": "midterm_before",
+      "readText": "姐姐回家煮紅豆湯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "煮",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "豆",
+          "zhuyin": "ㄉㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620400203",
+      "examPhase": "midterm_before",
+      "readText": "我把跳繩拋向遠處",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繩",
+          "zhuyin": "ㄕㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "拋",
+          "zhuyin": "ㄆㄠ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400204",
+      "examPhase": "midterm_before",
+      "readText": "姐姐幫小鳥準備食糧",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "糧",
+          "zhuyin": "ㄌㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400205",
+      "examPhase": "midterm_before",
+      "readText": "大家爭著扮警察抓小偷",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "爭",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "扮",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "警",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "察",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "抓",
+          "zhuyin": "ㄓㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "偷",
+          "zhuyin": "ㄊㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202620400206",
+      "examPhase": "midterm_before",
+      "readText": "跳繩時要遵守規則",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繩",
+          "zhuyin": "ㄕㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "遵",
+          "zhuyin": "ㄗㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "守",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "規",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "則",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400207",
+      "examPhase": "midterm_before",
+      "readText": "朋友依依不捨離開",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "依",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "依",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "捨",
+          "zhuyin": "ㄕㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202620400208",
+      "examPhase": "midterm_before",
+      "readText": "活動結束暫停音樂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "束",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "暫",
+          "zhuyin": "ㄗㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400209",
+      "examPhase": "midterm_before",
+      "readText": "活動結束大家感到幸福",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "束",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "幸",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "福",
+          "zhuyin": "ㄈㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400210",
+      "examPhase": "midterm_before",
+      "readText": "姐姐拋繩讓我跳",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "姐",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "拋",
+          "zhuyin": "ㄆㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "繩",
+          "zhuyin": "ㄕㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        }
+      ]
+    }
+  ]
+}

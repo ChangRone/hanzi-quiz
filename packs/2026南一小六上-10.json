@@ -1,0 +1,506 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600601001",
+      "examPhase": "midterm_before",
+      "readText": "我亦把心力傾注其中",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "亦",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "傾",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "其",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600601002",
+      "examPhase": "midterm_before",
+      "readText": "頃刻之間仍猶豫不決",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "頃",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "刻",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "猶",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "豫",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "決",
+          "zhuyin": "ㄐㄩㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600601003",
+      "examPhase": "midterm_before",
+      "readText": "用勺舀水放在墊旁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "勺",
+          "zhuyin": "ㄕㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "舀",
+          "zhuyin": "ㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "墊",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600601004",
+      "examPhase": "midterm_before",
+      "readText": "複雜聲音在空中回蕩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "複",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "雜",
+          "zhuyin": "ㄗㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蕩",
+          "zhuyin": "ㄉㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601005",
+      "examPhase": "midterm_before",
+      "readText": "故事勾起一篇回憶",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "勾",
+          "zhuyin": "ㄍㄡ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "篇",
+          "zhuyin": "ㄆㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "憶",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601006",
+      "examPhase": "midterm_before",
+      "readText": "鉅細靡遺都要記清楚",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鉅",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "靡",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "遺",
+          "zhuyin": "ㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600601007",
+      "examPhase": "midterm_before",
+      "readText": "觀眾嘖嘖稱奇聽陳述",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "眾",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嘖",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "嘖",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "稱",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "陳",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "述",
+          "zhuyin": "ㄕㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601008",
+      "examPhase": "midterm_before",
+      "readText": "鑼聲一響動作俐落",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鑼",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "俐",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601009",
+      "examPhase": "midterm_before",
+      "readText": "結果莫測令人詫異",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "莫",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "測",
+          "zhuyin": "ㄘㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "詫",
+          "zhuyin": "ㄔㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "異",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601010",
+      "examPhase": "midterm_before",
+      "readText": "我舀水時動作俐落",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "舀",
+          "zhuyin": "ㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "俐",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        }
+      ]
+    }
+  ]
+}

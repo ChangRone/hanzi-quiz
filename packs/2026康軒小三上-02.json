@@ -1,0 +1,421 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620300201",
+      "examPhase": "midterm_before",
+      "readText": "窗戶旁貼著名字",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "戶",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "貼",
+          "zhuyin": "ㄊㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "名",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "字",
+          "zhuyin": "ㄗˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300202",
+      "examPhase": "midterm_before",
+      "readText": "黑板上寫著答案",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "板",
+          "zhuyin": "ㄅㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300203",
+      "examPhase": "midterm_before",
+      "readText": "專心努力才有收穫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "專",
+          "zhuyin": "ㄓㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "穫",
+          "zhuyin": "ㄏㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300204",
+      "examPhase": "midterm_before",
+      "readText": "比賽已經開始",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "賽",
+          "zhuyin": "ㄙㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "已",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "始",
+          "zhuyin": "ㄕˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300205",
+      "examPhase": "midterm_before",
+      "readText": "雨傘像花似的",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "傘",
+          "zhuyin": "ㄙㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "似",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620300206",
+      "examPhase": "midterm_before",
+      "readText": "大家追著球喊叫",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "追",
+          "zhuyin": "ㄓㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "喊",
+          "zhuyin": "ㄏㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300207",
+      "examPhase": "midterm_before",
+      "readText": "文章作者名字清楚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "章",
+          "zhuyin": "ㄓㄤ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "者",
+          "zhuyin": "ㄓㄜˇ"
+        },
+        {
+          "type": "blank",
+          "char": "名",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "字",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300208",
+      "examPhase": "midterm_before",
+      "readText": "答案寫在黑板上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "板",
+          "zhuyin": "ㄅㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300209",
+      "examPhase": "midterm_before",
+      "readText": "窗外有人追車",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "追",
+          "zhuyin": "ㄓㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        }
+      ]
+    },
+    {
+      "id": "202620300210",
+      "examPhase": "midterm_before",
+      "readText": "專心準備比賽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "專",
+          "zhuyin": "ㄓㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "賽",
+          "zhuyin": "ㄙㄞˋ"
+        }
+      ]
+    }
+  ]
+}

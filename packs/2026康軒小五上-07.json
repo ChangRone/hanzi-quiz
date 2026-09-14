@@ -1,0 +1,576 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500701",
+      "examPhase": "midterm_before",
+      "readText": "逆風中仍保持穩定",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "逆",
+          "zhuyin": "ㄋㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "blank",
+          "char": "穩",
+          "zhuyin": "ㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500702",
+      "examPhase": "midterm_before",
+      "readText": "可憐小鳥也要努力競爭生存",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "blank",
+          "char": "憐",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "競",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "爭",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500703",
+      "examPhase": "midterm_before",
+      "readText": "抵抗風雨後享受安逸時光",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "抵",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "抗",
+          "zhuyin": "ㄎㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "享",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "逸",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620500704",
+      "examPhase": "midterm_before",
+      "readText": "新鄰居很快理解社區脈絡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "鄰",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "社",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "區",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "blank",
+          "char": "脈",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "絡",
+          "zhuyin": "ㄌㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500705",
+      "examPhase": "midterm_before",
+      "readText": "精緻蛛網其實十分脆弱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "緻",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "蛛",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "網",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "其",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "脆",
+          "zhuyin": "ㄘㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "弱",
+          "zhuyin": "ㄖㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500706",
+      "examPhase": "midterm_before",
+      "readText": "打噴嚏記得遮住口鼻",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "噴",
+          "zhuyin": "ㄆㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "嚏",
+          "zhuyin": "ㄊㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "遮",
+          "zhuyin": "ㄓㄜ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "鼻",
+          "zhuyin": "ㄅㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500707",
+      "examPhase": "midterm_before",
+      "readText": "蜘蛛忙碌地織網",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "蜘",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "蛛",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "碌",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "織",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "網",
+          "zhuyin": "ㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500708",
+      "examPhase": "midterm_before",
+      "readText": "春意盎然讓孩子大膽探索",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "盎",
+          "zhuyin": "ㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膽",
+          "zhuyin": "ㄉㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "探",
+          "zhuyin": "ㄊㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "索",
+          "zhuyin": "ㄙㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500709",
+      "examPhase": "midterm_before",
+      "readText": "織完一圈讓蜘蛛有些疲累",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "織",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "圈",
+          "zhuyin": "ㄑㄩㄢ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "蜘",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "蛛",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "些",
+          "zhuyin": "ㄒㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "疲",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "累",
+          "zhuyin": "ㄌㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500710",
+      "examPhase": "midterm_before",
+      "readText": "逆境中別因疲倦放棄",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "逆",
+          "zhuyin": "ㄋㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "疲",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "倦",
+          "zhuyin": "ㄐㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "棄",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    }
+  ]
+}

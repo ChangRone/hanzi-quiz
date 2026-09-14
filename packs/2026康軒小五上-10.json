@@ -1,0 +1,521 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620501001",
+      "examPhase": "midterm_before",
+      "readText": "唐朝生活也有恬淡時光",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "唐",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "朝",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "恬",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "淡",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620501002",
+      "examPhase": "midterm_before",
+      "readText": "日暮時輕輕掩上柴扉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "日",
+          "zhuyin": "ㄖˋ"
+        },
+        {
+          "type": "blank",
+          "char": "暮",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "掩",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柴",
+          "zhuyin": "ㄔㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "扉",
+          "zhuyin": "ㄈㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202620501003",
+      "examPhase": "midterm_before",
+      "readText": "送罷友人才慢慢歸家",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "送",
+          "zhuyin": "ㄙㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "罷",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "歸",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620501004",
+      "examPhase": "midterm_before",
+      "readText": "工作完畢回到簡陋小屋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "畢",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "簡",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "陋",
+          "zhuyin": "ㄌㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202620501005",
+      "examPhase": "midterm_before",
+      "readText": "傍晚確定明日行程",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "傍",
+          "zhuyin": "ㄅㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "確",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "日",
+          "zhuyin": "ㄖˋ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "程",
+          "zhuyin": "ㄔㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501006",
+      "examPhase": "midterm_before",
+      "readText": "閒適午後適合詠詩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "閒",
+          "zhuyin": "ㄒㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "午",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "詠",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "詩",
+          "zhuyin": "ㄕ"
+        }
+      ]
+    },
+    {
+      "id": "202620501007",
+      "examPhase": "midterm_before",
+      "readText": "幽靜夜裡讓人難以入眠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "幽",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "眠",
+          "zhuyin": "ㄇㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501008",
+      "examPhase": "midterm_before",
+      "readText": "辭去官職回鄉吟詩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "辭",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "官",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "職",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "鄉",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "吟",
+          "zhuyin": "ㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "詩",
+          "zhuyin": "ㄕ"
+        }
+      ]
+    },
+    {
+      "id": "202620501009",
+      "examPhase": "midterm_before",
+      "readText": "空曠山谷適合吟唱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "曠",
+          "zhuyin": "ㄎㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "吟",
+          "zhuyin": "ㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "唱",
+          "zhuyin": "ㄔㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620501010",
+      "examPhase": "midterm_before",
+      "readText": "唐詩描寫幽靜山景",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "唐",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "詩",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "描",
+          "zhuyin": "ㄇㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "幽",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    }
+  ]
+}

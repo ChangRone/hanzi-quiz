@@ -1,0 +1,511 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600400301",
+      "examPhase": "midterm_before",
+      "readText": "花蓮有日式老屋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "蓮",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "日",
+          "zhuyin": "ㄖˋ"
+        },
+        {
+          "type": "blank",
+          "char": "式",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600400302",
+      "examPhase": "midterm_before",
+      "readText": "志工和居民一起整理",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "blank",
+          "char": "民",
+          "zhuyin": "ㄇㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400303",
+      "examPhase": "midterm_before",
+      "readText": "老屋拆除前先保存照片",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "拆",
+          "zhuyin": "ㄔㄞ"
+        },
+        {
+          "type": "text",
+          "char": "除",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600400304",
+      "examPhase": "midterm_before",
+      "readText": "酸辣味讓人難忘",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "酸",
+          "zhuyin": "ㄙㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "辣",
+          "zhuyin": "ㄌㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "忘",
+          "zhuyin": "ㄨㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400305",
+      "examPhase": "midterm_before",
+      "readText": "努力靠自己獲得成果",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "獲",
+          "zhuyin": "ㄏㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400306",
+      "examPhase": "midterm_before",
+      "readText": "大家用好態度互相支持",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "態",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "支",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400307",
+      "examPhase": "midterm_before",
+      "readText": "我與志工一起工作",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400308",
+      "examPhase": "midterm_before",
+      "readText": "未來要保存這份回憶",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "未",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "份",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "憶",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400309",
+      "examPhase": "midterm_before",
+      "readText": "居民支持老屋再利用",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "blank",
+          "char": "民",
+          "zhuyin": "ㄇㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "支",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "利",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400310",
+      "examPhase": "midterm_before",
+      "readText": "熱心人士關心未來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "士",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "未",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    }
+  ]
+}

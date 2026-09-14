@@ -1,0 +1,456 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600201201",
+      "examPhase": "midterm_before",
+      "readText": "我帶課本到野外",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "野",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201202",
+      "examPhase": "midterm_before",
+      "readText": "桌上放著一個模型",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "型",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600201203",
+      "examPhase": "midterm_before",
+      "readText": "模型旁放著圖片",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "型",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "圖",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201204",
+      "examPhase": "midterm_before",
+      "readText": "蜜蜂在花間飛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蜜",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蜂",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202600201205",
+      "examPhase": "midterm_before",
+      "readText": "蝴蝶停在花朵上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蝴",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蝶",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201206",
+      "examPhase": "midterm_before",
+      "readText": "圖片裡的小鳥很活潑",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "圖",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "潑",
+          "zhuyin": "ㄆㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202600201207",
+      "examPhase": "midterm_before",
+      "readText": "我用畫筆塗上顏料",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "塗",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "顏",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201208",
+      "examPhase": "midterm_before",
+      "readText": "小湖像天然調色盤",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "湖",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "調",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "盤",
+          "zhuyin": "ㄆㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600201209",
+      "examPhase": "midterm_before",
+      "readText": "我們去逛森林迷宮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "逛",
+          "zhuyin": "ㄍㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "森",
+          "zhuyin": "ㄙㄣ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "迷",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "宮",
+          "zhuyin": "ㄍㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600201210",
+      "examPhase": "midterm_before",
+      "readText": "野外小湖有魚兒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "野",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "湖",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "兒",
+          "zhuyin": "ㄦˊ"
+        }
+      ]
+    }
+  ]
+}

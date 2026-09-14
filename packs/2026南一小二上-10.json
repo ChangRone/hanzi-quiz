@@ -1,0 +1,446 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600201001",
+      "examPhase": "midterm_before",
+      "readText": "羊群靜靜吃著草",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "羊",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "群",
+          "zhuyin": "ㄑㄩㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600201002",
+      "examPhase": "midterm_before",
+      "readText": "小羊抬頭非常有趣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "羊",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "抬",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "非",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "常",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "趣",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201003",
+      "examPhase": "midterm_before",
+      "readText": "近處有一堆棉花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "堆",
+          "zhuyin": "ㄉㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "棉",
+          "zhuyin": "ㄇㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600201004",
+      "examPhase": "midterm_before",
+      "readText": "遠方景色像一幅畫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "幅",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201005",
+      "examPhase": "midterm_before",
+      "readText": "我忽然聽見羊叫聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "忽",
+          "zhuyin": "ㄏㄨ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "羊",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600201006",
+      "examPhase": "midterm_before",
+      "readText": "我向小羊揮揮手",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "羊",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "揮",
+          "zhuyin": "ㄏㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "揮",
+          "zhuyin": "ㄏㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600201007",
+      "examPhase": "midterm_before",
+      "readText": "天色慢慢暗下來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "暗",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600201008",
+      "examPhase": "midterm_before",
+      "readText": "我依依不捨說再見",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "依",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "依",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "捨",
+          "zhuyin": "ㄕㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600201009",
+      "examPhase": "midterm_before",
+      "readText": "放假時再去農場",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "假",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600201010",
+      "examPhase": "midterm_before",
+      "readText": "遠近都有羊群",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "羊",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "群",
+          "zhuyin": "ㄑㄩㄣˊ"
+        }
+      ]
+    }
+  ]
+}

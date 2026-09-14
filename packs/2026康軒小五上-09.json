@@ -1,0 +1,511 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500901",
+      "examPhase": "midterm_before",
+      "readText": "維持信心繼續奮戰",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "維",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "信",
+          "zhuyin": "ㄒㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "繼",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "奮",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500902",
+      "examPhase": "midterm_before",
+      "readText": "崎嶇道路仍能前行",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "崎",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "嶇",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500903",
+      "examPhase": "midterm_before",
+      "readText": "拳擊選手奮戰到底",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "拳",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "擊",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "奮",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500904",
+      "examPhase": "midterm_before",
+      "readText": "癌症治療需要勇氣",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "癌",
+          "zhuyin": "ㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "症",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "治",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "療",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500905",
+      "examPhase": "midterm_before",
+      "readText": "獲得銅牌仍值得驕傲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "獲",
+          "zhuyin": "ㄏㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "銅",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "牌",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "驕",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "傲",
+          "zhuyin": "ㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500906",
+      "examPhase": "midterm_before",
+      "readText": "屢次練習能減少錯誤",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "屢",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "減",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "誤",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500907",
+      "examPhase": "midterm_before",
+      "readText": "給予幼苗陽光和水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "予",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "幼",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "苗",
+          "zhuyin": "ㄇㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500908",
+      "examPhase": "midterm_before",
+      "readText": "椰子即使掉落也能發芽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "椰",
+          "zhuyin": "ㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "即",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "使",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "text",
+          "char": "芽",
+          "zhuyin": "ㄧㄚˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500909",
+      "examPhase": "midterm_before",
+      "readText": "暴雨衝擊讓果實腐爛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "暴",
+          "zhuyin": "ㄅㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "衝",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "擊",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "腐",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "爛",
+          "zhuyin": "ㄌㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500910",
+      "examPhase": "midterm_before",
+      "readText": "持續鍛鍊讓身體強健",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鍛",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鍊",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "強",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "健",
+          "zhuyin": "ㄐㄧㄢˋ"
+        }
+      ]
+    }
+  ]
+}

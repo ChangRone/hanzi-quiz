@@ -1,0 +1,471 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600300501",
+      "examPhase": "midterm_before",
+      "readText": "小噴火龍沖出門",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "噴",
+          "zhuyin": "ㄆㄣ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "龍",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "沖",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300502",
+      "examPhase": "midterm_before",
+      "readText": "兄弟兩人身體健康",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兄",
+          "zhuyin": "ㄒㄩㄥ"
+        },
+        {
+          "type": "text",
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "健",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "康",
+          "zhuyin": "ㄎㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600300503",
+      "examPhase": "midterm_before",
+      "readText": "火龍吐出一口熱氣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "龍",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "吐",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300504",
+      "examPhase": "midterm_before",
+      "readText": "他轉身看見歪桌子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "歪",
+          "zhuyin": "ㄨㄞ"
+        },
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600300505",
+      "examPhase": "midterm_before",
+      "readText": "消防隊員趕來處理",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "防",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "員",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "趕",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300506",
+      "examPhase": "midterm_before",
+      "readText": "警鈴突然大響",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "警",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鈴",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "突",
+          "zhuyin": "ㄊㄨ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300507",
+      "examPhase": "midterm_before",
+      "readText": "護士替傷口注入藥水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "士",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "替",
+          "zhuyin": "ㄊㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "藥",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300508",
+      "examPhase": "midterm_before",
+      "readText": "隊員沒有受重傷",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "員",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600300509",
+      "examPhase": "midterm_before",
+      "readText": "傷重的小鳥沒有死",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "死",
+          "zhuyin": "ㄙˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300510",
+      "examPhase": "midterm_before",
+      "readText": "我轉身向他說原諒你",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "原",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "諒",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "你",
+          "zhuyin": "ㄋㄧˇ"
+        }
+      ]
+    }
+  ]
+}

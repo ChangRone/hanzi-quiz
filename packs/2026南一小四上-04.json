@@ -1,0 +1,471 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600400401",
+      "examPhase": "midterm_before",
+      "readText": "淺淺溪水流過石頭",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "淺",
+          "zhuyin": "ㄑㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "淺",
+          "zhuyin": "ㄑㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400402",
+      "examPhase": "midterm_before",
+      "readText": "風搧動針葉樹梢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "搧",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "針",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "梢",
+          "zhuyin": "ㄕㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600400403",
+      "examPhase": "midterm_before",
+      "readText": "雲從山縫飄過高峰",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "縫",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600400404",
+      "examPhase": "midterm_before",
+      "readText": "遠方島嶼連著山峰",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "text",
+          "char": "島",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "嶼",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600400405",
+      "examPhase": "midterm_before",
+      "readText": "我領受微風吹拂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "領",
+          "zhuyin": "ㄌㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "微",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "拂",
+          "zhuyin": "ㄈㄨˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400406",
+      "examPhase": "midterm_before",
+      "readText": "頑皮孩子吹奏樂曲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "頑",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "奏",
+          "zhuyin": "ㄗㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "曲",
+          "zhuyin": "ㄑㄩ"
+        }
+      ]
+    },
+    {
+      "id": "202600400407",
+      "examPhase": "midterm_before",
+      "readText": "坐在溪邊聆聽鳥聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "聆",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600400408",
+      "examPhase": "midterm_before",
+      "readText": "大家翻唱熟悉樂曲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "翻",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "text",
+          "char": "唱",
+          "zhuyin": "ㄔㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "悉",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "曲",
+          "zhuyin": "ㄑㄩ"
+        }
+      ]
+    },
+    {
+      "id": "202600400409",
+      "examPhase": "midterm_before",
+      "readText": "針葉被風吹拂搖動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "針",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "被",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "拂",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400410",
+      "examPhase": "midterm_before",
+      "readText": "山峰上的風很頑皮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "峰",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "頑",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        }
+      ]
+    }
+  ]
+}

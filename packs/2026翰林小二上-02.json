@@ -1,0 +1,421 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200201",
+      "examPhase": "midterm_before",
+      "readText": "新希望在心裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "希",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200202",
+      "examPhase": "midterm_before",
+      "readText": "老師教我學習",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200203",
+      "examPhase": "midterm_before",
+      "readText": "我卻還是很緊張",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "卻",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "還",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "緊",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610200204",
+      "examPhase": "midterm_before",
+      "readText": "因為努力所以進步",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "所",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200205",
+      "examPhase": "midterm_before",
+      "readText": "我知道怎麼做",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "知",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怎",
+          "zhuyin": "ㄗㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "麼",
+          "zhuyin": "ㄇㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200206",
+      "examPhase": "midterm_before",
+      "readText": "烏雲慢慢消失",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        }
+      ]
+    },
+    {
+      "id": "202610200207",
+      "examPhase": "midterm_before",
+      "readText": "學習使我更有信心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "使",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "信",
+          "zhuyin": "ㄒㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610200208",
+      "examPhase": "midterm_before",
+      "readText": "最喜歡新的課本",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "最",
+          "zhuyin": "ㄗㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "喜",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "歡",
+          "zhuyin": "ㄏㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200209",
+      "examPhase": "midterm_before",
+      "readText": "老師把作品掛牆上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "掛",
+          "zhuyin": "ㄍㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "牆",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200210",
+      "examPhase": "midterm_before",
+      "readText": "希望煩惱消失",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "希",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        }
+      ]
+    }
+  ]
+}

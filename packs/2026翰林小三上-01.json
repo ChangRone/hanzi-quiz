@@ -1,0 +1,431 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610300101",
+      "examPhase": "midterm_before",
+      "readText": "我等待蝸牛慢慢爬",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蝸",
+          "zhuyin": "ㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "牛",
+          "zhuyin": "ㄋㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "爬",
+          "zhuyin": "ㄆㄚˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300102",
+      "examPhase": "midterm_before",
+      "readText": "牠慢吞吞走過來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "牠",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "吞",
+          "zhuyin": "ㄊㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "吞",
+          "zhuyin": "ㄊㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300103",
+      "examPhase": "midterm_before",
+      "readText": "一寸短線畫在紙上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "寸",
+          "zhuyin": "ㄘㄨㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "短",
+          "zhuyin": "ㄉㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300104",
+      "examPhase": "midterm_before",
+      "readText": "大家忙碌奔跑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "碌",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "奔",
+          "zhuyin": "ㄅㄣ"
+        },
+        {
+          "type": "text",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300105",
+      "examPhase": "midterm_before",
+      "readText": "彈簧壓下又彈起",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "彈",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "簧",
+          "zhuyin": "ㄏㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "壓",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "彈",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300106",
+      "examPhase": "midterm_before",
+      "readText": "它的生命很短暫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "它",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "短",
+          "zhuyin": "ㄉㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "暫",
+          "zhuyin": "ㄗㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300107",
+      "examPhase": "midterm_before",
+      "readText": "悲傷像流水離開",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "悲",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202610300108",
+      "examPhase": "midterm_before",
+      "readText": "流水永不停歇",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "永",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "歇",
+          "zhuyin": "ㄒㄧㄝ"
+        }
+      ]
+    },
+    {
+      "id": "202610300109",
+      "examPhase": "midterm_before",
+      "readText": "蝸牛不急著奔跑",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蝸",
+          "zhuyin": "ㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "牛",
+          "zhuyin": "ㄋㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "急",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "奔",
+          "zhuyin": "ㄅㄣ"
+        },
+        {
+          "type": "text",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300110",
+      "examPhase": "midterm_before",
+      "readText": "等待讓悲傷變短",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "悲",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "短",
+          "zhuyin": "ㄉㄨㄢˇ"
+        }
+      ]
+    }
+  ]
+}

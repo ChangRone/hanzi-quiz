@@ -1,0 +1,476 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400701",
+      "examPhase": "midterm_before",
+      "readText": "麵包不小心烤焦",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "焦",
+          "zhuyin": "ㄐㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610400702",
+      "examPhase": "midterm_before",
+      "readText": "我揉好第一批麵團",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "揉",
+          "zhuyin": "ㄖㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "第",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "批",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400703",
+      "examPhase": "midterm_before",
+      "readText": "烤爐門口貼徵人啟事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "爐",
+          "zhuyin": "ㄌㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "貼",
+          "zhuyin": "ㄊㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "徵",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "啟",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400704",
+      "examPhase": "midterm_before",
+      "readText": "滋味太香讓人不禁想吃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "滋",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "禁",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        }
+      ]
+    },
+    {
+      "id": "202610400705",
+      "examPhase": "midterm_before",
+      "readText": "手上沾著麵粉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沾",
+          "zhuyin": "ㄓㄢ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "粉",
+          "zhuyin": "ㄈㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400706",
+      "examPhase": "midterm_before",
+      "readText": "依照溫度調整烤箱",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "依",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "箱",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610400707",
+      "examPhase": "midterm_before",
+      "readText": "做麵包必要耐心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610400708",
+      "examPhase": "midterm_before",
+      "readText": "第二批沒有烤焦",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "第",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "二",
+          "zhuyin": "ㄦˋ"
+        },
+        {
+          "type": "blank",
+          "char": "批",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "烤",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "焦",
+          "zhuyin": "ㄐㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610400709",
+      "examPhase": "midterm_before",
+      "readText": "我把爐火溫度調低",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "爐",
+          "zhuyin": "ㄌㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610400710",
+      "examPhase": "midterm_before",
+      "readText": "徵人啟事寫得很清楚",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "徵",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "啟",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600200101",
+      "examPhase": "midterm_before",
+      "readText": "白雲在天空慢慢飄",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600200102",
+      "examPhase": "midterm_before",
+      "readText": "海風柔柔吹向前方",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "柔",
+          "zhuyin": "ㄖㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "柔",
+          "zhuyin": "ㄖㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600200103",
+      "examPhase": "midterm_before",
+      "readText": "我游到前面看白雲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "游",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600200104",
+      "examPhase": "midterm_before",
+      "readText": "鯨魚噴出美麗水柱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鯨",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "噴",
+          "zhuyin": "ㄆㄣ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "柱",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200105",
+      "examPhase": "midterm_before",
+      "readText": "我先吸氣再用力",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "吸",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200106",
+      "examPhase": "midterm_before",
+      "readText": "試著向大家打招呼",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "試",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "呼",
+          "zhuyin": "ㄏㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600200107",
+      "examPhase": "midterm_before",
+      "readText": "哇這朵白雲真美",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "哇",
+          "zhuyin": "ㄨㄚ˙"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600200108",
+      "examPhase": "midterm_before",
+      "readText": "他又向前游了一段",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "游",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "段",
+          "zhuyin": "ㄉㄨㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200109",
+      "examPhase": "midterm_before",
+      "readText": "第一次練習就成功",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "第",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "功",
+          "zhuyin": "ㄍㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600200110",
+      "examPhase": "midterm_before",
+      "readText": "我用力噴出高水柱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "噴",
+          "zhuyin": "ㄆㄣ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "柱",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    }
+  ]
+}

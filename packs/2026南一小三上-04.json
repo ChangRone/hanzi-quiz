@@ -1,0 +1,486 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600300401",
+      "examPhase": "midterm_before",
+      "readText": "我心裡悶悶又煩惱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "悶",
+          "zhuyin": "ㄇㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "悶",
+          "zhuyin": "ㄇㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300402",
+      "examPhase": "midterm_before",
+      "readText": "別吵架也別勉強",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "吵",
+          "zhuyin": "ㄔㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "架",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "勉",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "強",
+          "zhuyin": "ㄑㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300403",
+      "examPhase": "midterm_before",
+      "readText": "我學會忍耐不發脾氣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "忍",
+          "zhuyin": "ㄖㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "脾",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300404",
+      "examPhase": "midterm_before",
+      "readText": "老師耐心幫我理解",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300405",
+      "examPhase": "midterm_before",
+      "readText": "中央廣場起了大霧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "央",
+          "zhuyin": "ㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "廣",
+          "zhuyin": "ㄍㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "霧",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300406",
+      "examPhase": "midterm_before",
+      "readText": "緊接著我捏住筆尖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "緊",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "捏",
+          "zhuyin": "ㄋㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "尖",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600300407",
+      "examPhase": "midterm_before",
+      "readText": "雖然生氣嗓音仍輕",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嗓",
+          "zhuyin": "ㄙㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600300408",
+      "examPhase": "midterm_before",
+      "readText": "筆尖在紙中央停下",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "尖",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "央",
+          "zhuyin": "ㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300409",
+      "examPhase": "midterm_before",
+      "readText": "別用大嗓門吵人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嗓",
+          "zhuyin": "ㄙㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "吵",
+          "zhuyin": "ㄔㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300410",
+      "examPhase": "midterm_before",
+      "readText": "遇到煩惱也要理解別人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    }
+  ]
+}

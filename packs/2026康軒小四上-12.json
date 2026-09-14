@@ -1,0 +1,531 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620401201",
+      "examPhase": "midterm_before",
+      "readText": "夫妻一起耐心做鞋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "妻",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620401202",
+      "examPhase": "midterm_before",
+      "readText": "皮革鞋賣出好價錢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "革",
+          "zhuyin": "ㄍㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "賣",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "價",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620401203",
+      "examPhase": "midterm_before",
+      "readText": "夫妻收入變成雙倍真開心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "妻",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "雙",
+          "zhuyin": "ㄕㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "倍",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620401204",
+      "examPhase": "midterm_before",
+      "readText": "精靈留下神祕謎團",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "神",
+          "zhuyin": "ㄕㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "祕",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "謎",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620401205",
+      "examPhase": "midterm_before",
+      "readText": "鐘聲敲響時精靈出現",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鐘",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "敲",
+          "zhuyin": "ㄑㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401206",
+      "examPhase": "midterm_before",
+      "readText": "小精靈拿起木鎚敲打",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鎚",
+          "zhuyin": "ㄔㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "敲",
+          "zhuyin": "ㄑㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620401207",
+      "examPhase": "midterm_before",
+      "readText": "手藝靈巧令人嘖嘖稱奇",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "藝",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "靈",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "巧",
+          "zhuyin": "ㄑㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "嘖",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "嘖",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "稱",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620401208",
+      "examPhase": "midterm_before",
+      "readText": "大家手舞足蹈慶祝",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "足",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蹈",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "慶",
+          "zhuyin": "ㄑㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "祝",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620401209",
+      "examPhase": "midterm_before",
+      "readText": "孩子蹦蹦跳跳很開心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "蹦",
+          "zhuyin": "ㄅㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蹦",
+          "zhuyin": "ㄅㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620401210",
+      "examPhase": "midterm_before",
+      "readText": "內心感謝耐心幫忙的人",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "謝",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    }
+  ]
+}

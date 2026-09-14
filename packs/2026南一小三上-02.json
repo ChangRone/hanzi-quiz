@@ -1,0 +1,486 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600300201",
+      "examPhase": "midterm_before",
+      "readText": "走廊裡班級安靜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "廊",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "班",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "級",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300202",
+      "examPhase": "midterm_before",
+      "readText": "大家一起訂下公約",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "訂",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "約",
+          "zhuyin": "ㄩㄝ"
+        }
+      ]
+    },
+    {
+      "id": "202600300203",
+      "examPhase": "midterm_before",
+      "readText": "同學紛紛舉手發言",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "同",
+          "zhuyin": "ㄊㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紛",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "紛",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "舉",
+          "zhuyin": "ㄐㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "言",
+          "zhuyin": "ㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300204",
+      "examPhase": "midterm_before",
+      "readText": "班長主持今天會議",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "班",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "議",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300205",
+      "examPhase": "midterm_before",
+      "readText": "小明負責記錄內容",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "負",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "責",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "錄",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300206",
+      "examPhase": "midterm_before",
+      "readText": "下課不要在走廊聊天",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "廊",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "聊",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600300207",
+      "examPhase": "midterm_before",
+      "readText": "發言結束後大家熱烈鼓掌",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "言",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "束",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "烈",
+          "zhuyin": "ㄌㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "鼓",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "掌",
+          "zhuyin": "ㄓㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600300208",
+      "examPhase": "midterm_before",
+      "readText": "這些約定要記住",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "些",
+          "zhuyin": "ㄒㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "約",
+          "zhuyin": "ㄩㄝ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300209",
+      "examPhase": "midterm_before",
+      "readText": "老師提醒班級規則",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "醒",
+          "zhuyin": "ㄒㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "班",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "級",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "規",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "則",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300210",
+      "examPhase": "midterm_before",
+      "readText": "這些事讓人發愁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "些",
+          "zhuyin": "ㄒㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "愁",
+          "zhuyin": "ㄔㄡˊ"
+        }
+      ]
+    }
+  ]
+}

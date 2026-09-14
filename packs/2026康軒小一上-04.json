@@ -1,0 +1,376 @@
+{
+  "id": "20262010",
+  "title": "2026年小一上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620100401",
+      "examPhase": "midterm_before",
+      "readText": "小孩子去上課",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100402",
+      "examPhase": "midterm_before",
+      "readText": "兩人手拉手",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "拉",
+          "zhuyin": "ㄌㄚ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100403",
+      "examPhase": "midterm_before",
+      "readText": "我們一起看看",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100404",
+      "examPhase": "midterm_before",
+      "readText": "大家找一隻鳥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "隻",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100405",
+      "examPhase": "midterm_before",
+      "readText": "青蛙跳進水裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100406",
+      "examPhase": "midterm_before",
+      "readText": "找到青蛙笑了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620100407",
+      "examPhase": "midterm_before",
+      "readText": "小青蛙很可愛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100408",
+      "examPhase": "midterm_before",
+      "readText": "上課看到兩個人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620100409",
+      "examPhase": "midterm_before",
+      "readText": "孩子拉著朋友",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "拉",
+          "zhuyin": "ㄌㄚ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620100410",
+      "examPhase": "midterm_before",
+      "readText": "開心看小鳥",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        }
+      ]
+    }
+  ]
+}

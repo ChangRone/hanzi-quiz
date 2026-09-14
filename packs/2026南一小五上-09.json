@@ -1,0 +1,506 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500901",
+      "examPhase": "midterm_before",
+      "readText": "一股力量藉由行動傳開",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "股",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "量",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "藉",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "由",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202600500902",
+      "examPhase": "midterm_before",
+      "readText": "我探訪商店購買用品",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "探",
+          "zhuyin": "ㄊㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訪",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "購",
+          "zhuyin": "ㄍㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500903",
+      "examPhase": "midterm_before",
+      "readText": "售票口排隊買票",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "售",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "票",
+          "zhuyin": "ㄆㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "票",
+          "zhuyin": "ㄆㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500904",
+      "examPhase": "midterm_before",
+      "readText": "志工協助翻譯內容",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "協",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "翻",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "譯",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500905",
+      "examPhase": "midterm_before",
+      "readText": "鐵路局提供購票服務",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鐵",
+          "zhuyin": "ㄊㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "局",
+          "zhuyin": "ㄐㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "供",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "購",
+          "zhuyin": "ㄍㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "票",
+          "zhuyin": "ㄆㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "務",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500906",
+      "examPhase": "midterm_before",
+      "readText": "大家捐款幫助亡者家屬",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "捐",
+          "zhuyin": "ㄐㄩㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "款",
+          "zhuyin": "ㄎㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "亡",
+          "zhuyin": "ㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "者",
+          "zhuyin": "ㄓㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "屬",
+          "zhuyin": "ㄕㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500907",
+      "examPhase": "midterm_before",
+      "readText": "大家捐款開挖水井",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "捐",
+          "zhuyin": "ㄐㄩㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "款",
+          "zhuyin": "ㄎㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "挖",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "井",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500908",
+      "examPhase": "midterm_before",
+      "readText": "我努力賺錢幫鄰居",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "賺",
+          "zhuyin": "ㄓㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "鄰",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        }
+      ]
+    },
+    {
+      "id": "202600500909",
+      "examPhase": "midterm_before",
+      "readText": "十元加幣還不夠",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "元",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "幣",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "還",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "夠",
+          "zhuyin": "ㄍㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500910",
+      "examPhase": "midterm_before",
+      "readText": "基金讓諸多計畫實行",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "基",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "諸",
+          "zhuyin": "ㄓㄨ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    }
+  ]
+}

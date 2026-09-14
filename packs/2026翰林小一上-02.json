@@ -1,0 +1,346 @@
+{
+  "id": "20261010",
+  "title": "2026年小一上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610100201",
+      "examPhase": "midterm_before",
+      "readText": "大風吹過來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100202",
+      "examPhase": "midterm_before",
+      "readText": "我們一起玩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100203",
+      "examPhase": "midterm_before",
+      "readText": "大家不停跑",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100204",
+      "examPhase": "midterm_before",
+      "readText": "風吹得很大",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610100205",
+      "examPhase": "midterm_before",
+      "readText": "他們跑來玩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610100206",
+      "examPhase": "midterm_before",
+      "readText": "不停的風聲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610100207",
+      "examPhase": "midterm_before",
+      "readText": "來玩跑步比賽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "賽",
+          "zhuyin": "ㄙㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610100208",
+      "examPhase": "midterm_before",
+      "readText": "我們不停笑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610100209",
+      "examPhase": "midterm_before",
+      "readText": "大的風車轉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610100210",
+      "examPhase": "midterm_before",
+      "readText": "跑來跑去真好玩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    }
+  ]
+}

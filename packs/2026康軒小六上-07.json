@@ -1,0 +1,681 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600701",
+      "examPhase": "midterm_before",
+      "readText": "仰光是緬甸的重要城市",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "仰",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "緬",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "甸",
+          "zhuyin": "ㄉㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600702",
+      "examPhase": "midterm_before",
+      "readText": "雨水濺到腳踝和絨面鞋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "濺",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "踝",
+          "zhuyin": "ㄏㄨㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "絨",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "鞋",
+          "zhuyin": "ㄒㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600703",
+      "examPhase": "midterm_before",
+      "readText": "裙子下襬被風吹動我把它弄平",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "裙",
+          "zhuyin": "ㄑㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "襬",
+          "zhuyin": "ㄅㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "被",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "它",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "弄",
+          "zhuyin": "ㄋㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600704",
+      "examPhase": "midterm_before",
+      "readText": "別恣意批評別人的選擇",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "恣",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "批",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "text",
+          "char": "評",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "擇",
+          "zhuyin": "ㄗㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600705",
+      "examPhase": "midterm_before",
+      "readText": "這種行徑值得大家謹慎看待",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "徑",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "謹",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "慎",
+          "zhuyin": "ㄕㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600706",
+      "examPhase": "midterm_before",
+      "readText": "兩種做法恰好相反卻皆有理由",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "恰",
+          "zhuyin": "ㄑㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "反",
+          "zhuyin": "ㄈㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "卻",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "皆",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "由",
+          "zhuyin": "ㄧㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600707",
+      "examPhase": "midterm_before",
+      "readText": "偏遠展覽乏人注意但來賓皆很專心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "偏",
+          "zhuyin": "ㄆㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "展",
+          "zhuyin": "ㄓㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "覽",
+          "zhuyin": "ㄌㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "乏",
+          "zhuyin": "ㄈㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "但",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "賓",
+          "zhuyin": "ㄅㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "皆",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "專",
+          "zhuyin": "ㄓㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620600708",
+      "examPhase": "midterm_before",
+      "readText": "嗯我不該對他的想法嗤之以鼻",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "嗯",
+          "zhuyin": "ㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "該",
+          "zhuyin": "ㄍㄞ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "嗤",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "鼻",
+          "zhuyin": "ㄅㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600709",
+      "examPhase": "midterm_before",
+      "readText": "緬甸工匠把絨布下襬縫好",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "緬",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "甸",
+          "zhuyin": "ㄉㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "匠",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "絨",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "布",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "襬",
+          "zhuyin": "ㄅㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "縫",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600710",
+      "examPhase": "midterm_before",
+      "readText": "批判之前先弄清事情來龍去脈",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "批",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "text",
+          "char": "判",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "之",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "弄",
+          "zhuyin": "ㄋㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "龍",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "脈",
+          "zhuyin": "ㄇㄞˋ"
+        }
+      ]
+    }
+  ]
+}

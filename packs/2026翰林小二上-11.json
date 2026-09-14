@@ -1,0 +1,426 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610201101",
+      "examPhase": "midterm_before",
+      "readText": "這扇門真奇怪",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "扇",
+          "zhuyin": "ㄕㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "怪",
+          "zhuyin": "ㄍㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610201102",
+      "examPhase": "midterm_before",
+      "readText": "我立刻把門關上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "立",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "刻",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610201103",
+      "examPhase": "midterm_before",
+      "readText": "小馬閒得四處走",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "馬",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "閒",
+          "zhuyin": "ㄒㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610201104",
+      "examPhase": "midterm_before",
+      "readText": "牠闖進房間豎起耳朵",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "牠",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "闖",
+          "zhuyin": "ㄔㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "豎",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "耳",
+          "zhuyin": "ㄦˇ"
+        },
+        {
+          "type": "text",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610201105",
+      "examPhase": "midterm_before",
+      "readText": "主播正在播報新聞",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "播",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "播",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "報",
+          "zhuyin": "ㄅㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610201106",
+      "examPhase": "midterm_before",
+      "readText": "我用力推開大門",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "推",
+          "zhuyin": "ㄊㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610201107",
+      "examPhase": "midterm_before",
+      "readText": "竟然卡住嘴巴",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竟",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "卡",
+          "zhuyin": "ㄎㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "嘴",
+          "zhuyin": "ㄗㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "巴",
+          "zhuyin": "ㄅㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610201108",
+      "examPhase": "midterm_before",
+      "readText": "他問東問西",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "東",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "西",
+          "zhuyin": "ㄒㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610201109",
+      "examPhase": "midterm_before",
+      "readText": "到底誰在門外",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "誰",
+          "zhuyin": "ㄕㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610201110",
+      "examPhase": "midterm_before",
+      "readText": "奇怪小馬又闖進來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "奇",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "怪",
+          "zhuyin": "ㄍㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "馬",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "闖",
+          "zhuyin": "ㄔㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    }
+  ]
+}

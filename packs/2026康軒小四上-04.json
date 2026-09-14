@@ -1,0 +1,496 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400401",
+      "examPhase": "midterm_before",
+      "readText": "馬偕醫師奉獻一生",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "馬",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "偕",
+          "zhuyin": "ㄒㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "奉",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "獻",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620400402",
+      "examPhase": "midterm_before",
+      "readText": "生命投入醫療工作",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "投",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "療",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400403",
+      "examPhase": "midterm_before",
+      "readText": "保持衛生少用藥物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "blank",
+          "char": "衛",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "藥",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400404",
+      "examPhase": "midterm_before",
+      "readText": "醫師替病人治療",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "替",
+          "zhuyin": "ㄊㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "病",
+          "zhuyin": "ㄅㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "治",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "療",
+          "zhuyin": "ㄌㄧㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400405",
+      "examPhase": "midterm_before",
+      "readText": "他翻過山嶺行醫",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "翻",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "嶺",
+          "zhuyin": "ㄌㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202620400406",
+      "examPhase": "midterm_before",
+      "readText": "大家捐物資給醫院",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "捐",
+          "zhuyin": "ㄐㄩㄢ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400407",
+      "examPhase": "midterm_before",
+      "readText": "學堂提供學生食宿",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堂",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "供",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "宿",
+          "zhuyin": "ㄙㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400408",
+      "examPhase": "midterm_before",
+      "readText": "女醫師進入學堂教課",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "女",
+          "zhuyin": "ㄋㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堂",
+          "zhuyin": "ㄊㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400409",
+      "examPhase": "midterm_before",
+      "readText": "醫者濃厚關懷讓人感動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "者",
+          "zhuyin": "ㄓㄜˇ"
+        },
+        {
+          "type": "blank",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "厚",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "懷",
+          "zhuyin": "ㄏㄨㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400410",
+      "examPhase": "midterm_before",
+      "readText": "奉獻醫療留下深遠影響",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "奉",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "獻",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "醫",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "療",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "深",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        }
+      ]
+    }
+  ]
+}

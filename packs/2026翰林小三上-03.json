@@ -1,0 +1,456 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610300301",
+      "examPhase": "midterm_before",
+      "readText": "我統計公車票數量",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "統",
+          "zhuyin": "ㄊㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "票",
+          "zhuyin": "ㄆㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "數",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "量",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300302",
+      "examPhase": "midterm_before",
+      "readText": "三角板放在桌上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "三",
+          "zhuyin": "ㄙㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "角",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "板",
+          "zhuyin": "ㄅㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300303",
+      "examPhase": "midterm_before",
+      "readText": "作業本已經寫完",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "已",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300304",
+      "examPhase": "midterm_before",
+      "readText": "這種情況該怎麼辦",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "況",
+          "zhuyin": "ㄎㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "該",
+          "zhuyin": "ㄍㄞ"
+        },
+        {
+          "type": "text",
+          "char": "怎",
+          "zhuyin": "ㄗㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "麼",
+          "zhuyin": "ㄇㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "辦",
+          "zhuyin": "ㄅㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300305",
+      "examPhase": "midterm_before",
+      "readText": "他大喊別忘書本",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "喊",
+          "zhuyin": "ㄏㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "忘",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300306",
+      "examPhase": "midterm_before",
+      "readText": "文具要整理整齊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "具",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300307",
+      "examPhase": "midterm_before",
+      "readText": "因此我先準備好",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300308",
+      "examPhase": "midterm_before",
+      "readText": "提早準備比較容易",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "較",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "易",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300309",
+      "examPhase": "midterm_before",
+      "readText": "公車票夾在作業本",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "票",
+          "zhuyin": "ㄆㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "夾",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300310",
+      "examPhase": "midterm_before",
+      "readText": "整理文具不用大喊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "具",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "喊",
+          "zhuyin": "ㄏㄢˇ"
+        }
+      ]
+    }
+  ]
+}

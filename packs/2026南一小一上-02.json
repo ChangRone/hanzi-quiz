@@ -1,0 +1,401 @@
+{
+  "id": "20260010",
+  "title": "2026年小一上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600100201",
+      "examPhase": "midterm_before",
+      "readText": "花朵開在窗邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600100202",
+      "examPhase": "midterm_before",
+      "readText": "車子開出門口",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600100203",
+      "examPhase": "midterm_before",
+      "readText": "小花在地上笑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600100204",
+      "examPhase": "midterm_before",
+      "readText": "我向車子招手",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600100205",
+      "examPhase": "midterm_before",
+      "readText": "花朵在風中開",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202600100206",
+      "examPhase": "midterm_before",
+      "readText": "車子停在草地旁",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600100207",
+      "examPhase": "midterm_before",
+      "readText": "妹妹笑著招招手",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "妹",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "妹",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "招",
+          "zhuyin": "ㄓㄠ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600100208",
+      "examPhase": "midterm_before",
+      "readText": "地上開出小花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600100209",
+      "examPhase": "midterm_before",
+      "readText": "我畫一朵笑臉花",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600100210",
+      "examPhase": "midterm_before",
+      "readText": "車子旁有兩朵花",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    }
+  ]
+}

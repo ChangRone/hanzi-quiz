@@ -1,0 +1,566 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500801",
+      "examPhase": "midterm_before",
+      "readText": "巴基斯坦女性勇敢發聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "巴",
+          "zhuyin": "ㄅㄚ"
+        },
+        {
+          "type": "text",
+          "char": "基",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "斯",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "坦",
+          "zhuyin": "ㄊㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "女",
+          "zhuyin": "ㄋㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "性",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "敢",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620500802",
+      "examPhase": "midterm_before",
+      "readText": "霸占公園的組織讓人感到恐怖",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "霸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "占",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "組",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "織",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "恐",
+          "zhuyin": "ㄎㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "怖",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500803",
+      "examPhase": "midterm_before",
+      "readText": "廣播播出重要消息",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "廣",
+          "zhuyin": "ㄍㄨㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "播",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "播",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202620500804",
+      "examPhase": "midterm_before",
+      "readText": "系統控制進出流程",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "系",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "統",
+          "zhuyin": "ㄊㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "控",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "制",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "程",
+          "zhuyin": "ㄔㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500805",
+      "examPhase": "midterm_before",
+      "readText": "受傷後停止攻擊行動",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "攻",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "擊",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500806",
+      "examPhase": "midterm_before",
+      "readText": "基本權利不能受到威脅",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "基",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "權",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "利",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "威",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "脅",
+          "zhuyin": "ㄒㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500807",
+      "examPhase": "midterm_before",
+      "readText": "武力不能帶來真正恢復",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "武",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "恢",
+          "zhuyin": "ㄏㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "復",
+          "zhuyin": "ㄈㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500808",
+      "examPhase": "midterm_before",
+      "readText": "武器攻擊造成巨大震撼",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "武",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攻",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "擊",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "造",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "巨",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "震",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "撼",
+          "zhuyin": "ㄏㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500809",
+      "examPhase": "midterm_before",
+      "readText": "面對恐懼仍保持勇氣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "恐",
+          "zhuyin": "ㄎㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "懼",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500810",
+      "examPhase": "midterm_before",
+      "readText": "保障人權需要適當控制",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "障",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "權",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "當",
+          "zhuyin": "ㄉㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "控",
+          "zhuyin": "ㄎㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "制",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    }
+  ]
+}

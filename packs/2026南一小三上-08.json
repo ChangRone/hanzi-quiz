@@ -1,0 +1,451 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600300801",
+      "examPhase": "midterm_before",
+      "readText": "理髮店像魔法屋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "髮",
+          "zhuyin": "ㄈㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "魔",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600300802",
+      "examPhase": "midterm_before",
+      "readText": "媽媽圍上新圍巾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "圍",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "圍",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "巾",
+          "zhuyin": "ㄐㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600300803",
+      "examPhase": "midterm_before",
+      "readText": "近視哥哥戴眼鏡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "哥",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "哥",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "戴",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300804",
+      "examPhase": "midterm_before",
+      "readText": "籃框旁有數字",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "籃",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "框",
+          "zhuyin": "ㄎㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "數",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "字",
+          "zhuyin": "ㄗˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300805",
+      "examPhase": "midterm_before",
+      "readText": "失誤後也要愉快面對",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "誤",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "愉",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300806",
+      "examPhase": "midterm_before",
+      "readText": "垃圾全數丟進桶子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "垃",
+          "zhuyin": "ㄌㄚ"
+        },
+        {
+          "type": "text",
+          "char": "圾",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "全",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "數",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "丟",
+          "zhuyin": "ㄉㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "桶",
+          "zhuyin": "ㄊㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600300807",
+      "examPhase": "midterm_before",
+      "readText": "剪刀排得整齊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "剪",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "刀",
+          "zhuyin": "ㄉㄠ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300808",
+      "examPhase": "midterm_before",
+      "readText": "我曾經錯過一次機會",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "曾",
+          "zhuyin": "ㄘㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "blank",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300809",
+      "examPhase": "midterm_before",
+      "readText": "鏡子裡頭髮很整齊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "髮",
+          "zhuyin": "ㄈㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300810",
+      "examPhase": "midterm_before",
+      "readText": "魔術師走進店裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "魔",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "術",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    }
+  ]
+}

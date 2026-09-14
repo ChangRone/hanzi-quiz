@@ -1,0 +1,481 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600501201",
+      "examPhase": "midterm_before",
+      "readText": "鳥鳴回蕩在山澗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鳴",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "蕩",
+          "zhuyin": "ㄉㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "澗",
+          "zhuyin": "ㄐㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501202",
+      "examPhase": "midterm_before",
+      "readText": "桂花香讓山林更幽靜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "桂",
+          "zhuyin": "ㄍㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "幽",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501203",
+      "examPhase": "midterm_before",
+      "readText": "雲霧繚繞像一首詩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "霧",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繚",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "繞",
+          "zhuyin": "ㄖㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "首",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "詩",
+          "zhuyin": "ㄕ"
+        }
+      ]
+    },
+    {
+      "id": "202600501204",
+      "examPhase": "midterm_before",
+      "readText": "詩人描寫清晨景色",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "詩",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "描",
+          "zhuyin": "ㄇㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "晨",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501205",
+      "examPhase": "midterm_before",
+      "readText": "沒有煩惱才能保持敏銳",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "blank",
+          "char": "敏",
+          "zhuyin": "ㄇㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "銳",
+          "zhuyin": "ㄖㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501206",
+      "examPhase": "midterm_before",
+      "readText": "我離開城市向朋友辭別",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "辭",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600501207",
+      "examPhase": "midterm_before",
+      "readText": "猿猴啼叫響遍山谷",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "猿",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "猴",
+          "zhuyin": "ㄏㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "啼",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "遍",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600501208",
+      "examPhase": "midterm_before",
+      "readText": "輕舟載著歸人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "舟",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "載",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "歸",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600501209",
+      "examPhase": "midterm_before",
+      "readText": "獲赦後歸心似箭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "獲",
+          "zhuyin": "ㄏㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "赦",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "歸",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "似",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "箭",
+          "zhuyin": "ㄐㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600501210",
+      "examPhase": "midterm_before",
+      "readText": "桂花落在小舟旁",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "桂",
+          "zhuyin": "ㄍㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "舟",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200501",
+      "examPhase": "midterm_before",
+      "readText": "沙灘就在海邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "沙",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "灘",
+          "zhuyin": "ㄊㄢ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610200502",
+      "examPhase": "midterm_before",
+      "readText": "海水退得很遠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "退",
+          "zhuyin": "ㄊㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200503",
+      "examPhase": "midterm_before",
+      "readText": "螃蟹橫著走",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "螃",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "橫",
+          "zhuyin": "ㄏㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200504",
+      "examPhase": "midterm_before",
+      "readText": "我愛注意小動物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "注",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200505",
+      "examPhase": "midterm_before",
+      "readText": "夕陽照著腳丫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夕",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "丫",
+          "zhuyin": "ㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610200506",
+      "examPhase": "midterm_before",
+      "readText": "沙上留下腳印",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "沙",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200507",
+      "examPhase": "midterm_before",
+      "readText": "我在海邊挖沙",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "挖",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "沙",
+          "zhuyin": "ㄕㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610200508",
+      "examPhase": "midterm_before",
+      "readText": "夕陽下海景美麗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夕",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200509",
+      "examPhase": "midterm_before",
+      "readText": "螃蟹留下痕跡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "螃",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "痕",
+          "zhuyin": "ㄏㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "跡",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610200510",
+      "examPhase": "midterm_before",
+      "readText": "遠處沙灘很美麗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沙",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "灘",
+          "zhuyin": "ㄊㄢ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    }
+  ]
+}

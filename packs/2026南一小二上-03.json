@@ -1,0 +1,481 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600200301",
+      "examPhase": "midterm_before",
+      "readText": "教室角落有一棵樹",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "室",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "棵",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200302",
+      "examPhase": "midterm_before",
+      "readText": "葉子上寫著勇敢的事",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "敢",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200303",
+      "examPhase": "midterm_before",
+      "readText": "我努力完成這件事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "件",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200304",
+      "examPhase": "midterm_before",
+      "readText": "我克服心裡的害怕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "克",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "害",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怕",
+          "zhuyin": "ㄆㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200305",
+      "examPhase": "midterm_before",
+      "readText": "跌倒時我沒有哭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "跌",
+          "zhuyin": "ㄉㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "倒",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "哭",
+          "zhuyin": "ㄎㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600200306",
+      "examPhase": "midterm_before",
+      "readText": "天黑時我有點怕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "怕",
+          "zhuyin": "ㄆㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200307",
+      "examPhase": "midterm_before",
+      "readText": "他低聲說了一個故事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200308",
+      "examPhase": "midterm_before",
+      "readText": "勇氣讓我不怕跌倒",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怕",
+          "zhuyin": "ㄆㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "跌",
+          "zhuyin": "ㄉㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "倒",
+          "zhuyin": "ㄉㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600200309",
+      "examPhase": "midterm_before",
+      "readText": "葉子完成後貼回教室",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "貼",
+          "zhuyin": "ㄊㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "室",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200310",
+      "examPhase": "midterm_before",
+      "readText": "我用勇氣說故事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "勇",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    }
+  ]
+}

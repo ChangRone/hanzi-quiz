@@ -1,0 +1,426 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610301101",
+      "examPhase": "midterm_before",
+      "readText": "除夕夜嬸嬸來家裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "除",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "夕",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嬸",
+          "zhuyin": "ㄕㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "嬸",
+          "zhuyin": "ㄕㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610301102",
+      "examPhase": "midterm_before",
+      "readText": "煙火一陣陣升空",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "陣",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陣",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610301103",
+      "examPhase": "midterm_before",
+      "readText": "附近店家都休息",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "附",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "休",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610301104",
+      "examPhase": "midterm_before",
+      "readText": "修車廠正在營業",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "修",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "廠",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "營",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301105",
+      "examPhase": "midterm_before",
+      "readText": "技師檢查車子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "技",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "檢",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "查",
+          "zhuyin": "ㄔㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610301106",
+      "examPhase": "midterm_before",
+      "readText": "幸好找到新零件",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "幸",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "零",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "件",
+          "zhuyin": "ㄐㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610301107",
+      "examPhase": "midterm_before",
+      "readText": "托人幫忙修車",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "托",
+          "zhuyin": "ㄊㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "修",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        }
+      ]
+    },
+    {
+      "id": "202610301108",
+      "examPhase": "midterm_before",
+      "readText": "店旁有修車廠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "修",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "廠",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610301109",
+      "examPhase": "midterm_before",
+      "readText": "一陣煙從遠處飄來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "陣",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610301110",
+      "examPhase": "midterm_before",
+      "readText": "附近零件店關門",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "附",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "零",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "件",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    }
+  ]
+}

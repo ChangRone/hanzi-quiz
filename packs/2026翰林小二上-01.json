@@ -1,0 +1,431 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200101",
+      "examPhase": "midterm_before",
+      "readText": "天冷時候風又颳",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "候",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "颳",
+          "zhuyin": "ㄍㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610200102",
+      "examPhase": "midterm_before",
+      "readText": "我躲進屋裡看閃電",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "躲",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "閃",
+          "zhuyin": "ㄕㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "電",
+          "zhuyin": "ㄉㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200103",
+      "examPhase": "midterm_before",
+      "readText": "難過時看著烏雲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200104",
+      "examPhase": "midterm_before",
+      "readText": "天空烏雲密布",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "密",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "布",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200105",
+      "examPhase": "midterm_before",
+      "readText": "傾盆大雨充滿街道",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "傾",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "盆",
+          "zhuyin": "ㄆㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "充",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200106",
+      "examPhase": "midterm_before",
+      "readText": "雨後天空放晴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "晴",
+          "zhuyin": "ㄑㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200107",
+      "examPhase": "midterm_before",
+      "readText": "彩虹出現在山邊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "虹",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610200108",
+      "examPhase": "midterm_before",
+      "readText": "冷風吹散烏雲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200109",
+      "examPhase": "midterm_before",
+      "readText": "閃電過後雨停了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "閃",
+          "zhuyin": "ㄕㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "電",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610200110",
+      "examPhase": "midterm_before",
+      "readText": "心裡充滿晴朗感覺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "充",
+          "zhuyin": "ㄔㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "晴",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "朗",
+          "zhuyin": "ㄌㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "覺",
+          "zhuyin": "ㄐㄩㄝˊ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200601",
+      "examPhase": "midterm_before",
+      "readText": "月亮照著奶奶家",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610200602",
+      "examPhase": "midterm_before",
+      "readText": "晚飯後出去散步",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200603",
+      "examPhase": "midterm_before",
+      "readText": "屋後有一片竹林",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200604",
+      "examPhase": "midterm_before",
+      "readText": "小溪流到山頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200605",
+      "examPhase": "midterm_before",
+      "readText": "溪旁天色變暗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "暗",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200606",
+      "examPhase": "midterm_before",
+      "readText": "眼睛看著那邊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "睛",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "那",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610200607",
+      "examPhase": "midterm_before",
+      "readText": "星光聚成一顆亮點",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "聚",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "顆",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200608",
+      "examPhase": "midterm_before",
+      "readText": "竹林旁有小屋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202610200609",
+      "examPhase": "midterm_before",
+      "readText": "月光照亮眼睛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "睛",
+          "zhuyin": "ㄐㄧㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610200610",
+      "examPhase": "midterm_before",
+      "readText": "那顆星在頭上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "那",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "顆",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "text",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    }
+  ]
+}

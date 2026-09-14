@@ -1,0 +1,566 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500601",
+      "examPhase": "midterm_before",
+      "readText": "娛樂節目出現汽船畫面",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "娛",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "汽",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500602",
+      "examPhase": "midterm_before",
+      "readText": "口哨聲成為經典旋律",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "哨",
+          "zhuyin": "ㄕㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "典",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "律",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500603",
+      "examPhase": "midterm_before",
+      "readText": "動畫框架安排完整劇情",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "框",
+          "zhuyin": "ㄎㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "架",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "劇",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500604",
+      "examPhase": "midterm_before",
+      "readText": "父母負責陪伴孩子",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "父",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "母",
+          "zhuyin": "ㄇㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "負",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "責",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "陪",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "伴",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620500605",
+      "examPhase": "midterm_before",
+      "readText": "好作品需要判斷力與共鳴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "判",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "斷",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "共",
+          "zhuyin": "ㄍㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鳴",
+          "zhuyin": "ㄇㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500606",
+      "examPhase": "midterm_before",
+      "readText": "新人脫穎而出獲得肯定",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "脫",
+          "zhuyin": "ㄊㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "穎",
+          "zhuyin": "ㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "而",
+          "zhuyin": "ㄦˊ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "獲",
+          "zhuyin": "ㄏㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "肯",
+          "zhuyin": "ㄎㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500607",
+      "examPhase": "midterm_before",
+      "readText": "最佳畫面表現十分細膩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "最",
+          "zhuyin": "ㄗㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "佳",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膩",
+          "zhuyin": "ㄋㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500608",
+      "examPhase": "midterm_before",
+      "readText": "音效團隊提升整體效果",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "效",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "效",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500609",
+      "examPhase": "midterm_before",
+      "readText": "團隊精益求精追求品質",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "益",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "追",
+          "zhuyin": "ㄓㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "質",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500610",
+      "examPhase": "midterm_before",
+      "readText": "新樣貌增加感官體驗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "貌",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "增",
+          "zhuyin": "ㄗㄥ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "官",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "驗",
+          "zhuyin": "ㄧㄢˋ"
+        }
+      ]
+    }
+  ]
+}

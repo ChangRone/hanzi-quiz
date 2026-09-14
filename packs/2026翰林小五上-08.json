@@ -1,0 +1,461 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500801",
+      "examPhase": "midterm_before",
+      "readText": "葫蘆幼苗開始長大",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "葫",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蘆",
+          "zhuyin": "ㄌㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幼",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "苗",
+          "zhuyin": "ㄇㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "始",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500802",
+      "examPhase": "midterm_before",
+      "readText": "鄰居家的藤蔓攀牆",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鄰",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "藤",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔓",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攀",
+          "zhuyin": "ㄆㄢ"
+        },
+        {
+          "type": "text",
+          "char": "牆",
+          "zhuyin": "ㄑㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500803",
+      "examPhase": "midterm_before",
+      "readText": "綠色莖上停著蜜蜂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "綠",
+          "zhuyin": "ㄌㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "莖",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "蜜",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蜂",
+          "zhuyin": "ㄈㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610500804",
+      "examPhase": "midterm_before",
+      "readText": "蜜蜂營營飛來飛去",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "蜜",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蜂",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "營",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "營",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500805",
+      "examPhase": "midterm_before",
+      "readText": "蝴蝶翩翩飛舞",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蝴",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蝶",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "翩",
+          "zhuyin": "ㄆㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "翩",
+          "zhuyin": "ㄆㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500806",
+      "examPhase": "midterm_before",
+      "readText": "小鳥吱吱喳喳叫",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "吱",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "吱",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "喳",
+          "zhuyin": "ㄓㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "喳",
+          "zhuyin": "ㄓㄚ"
+        },
+        {
+          "type": "text",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500807",
+      "examPhase": "midterm_before",
+      "readText": "我每天灌溉花草",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "每",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "灌",
+          "zhuyin": "ㄍㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "溉",
+          "zhuyin": "ㄍㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "草",
+          "zhuyin": "ㄘㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500808",
+      "examPhase": "midterm_before",
+      "readText": "誠心盼望葫蘆結果",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "誠",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "盼",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "葫",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蘆",
+          "zhuyin": "ㄌㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500809",
+      "examPhase": "midterm_before",
+      "readText": "鄰家蜜蜂飛進院子",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鄰",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "蜜",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蜂",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610500810",
+      "examPhase": "midterm_before",
+      "readText": "藤蔓沿著莖向上攀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "藤",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔓",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "沿",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "莖",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攀",
+          "zhuyin": "ㄆㄢ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620200601",
+      "examPhase": "midterm_before",
+      "readText": "小鎮舉辦柿餅節",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鎮",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "舉",
+          "zhuyin": "ㄐㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "辦",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "柿",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200602",
+      "examPhase": "midterm_before",
+      "readText": "因此大家走進市場",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "因",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200603",
+      "examPhase": "midterm_before",
+      "readText": "柿餅排在屋前",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "柿",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200604",
+      "examPhase": "midterm_before",
+      "readText": "遠看一片金黃色",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "黃",
+          "zhuyin": "ㄏㄨㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200605",
+      "examPhase": "midterm_before",
+      "readText": "可愛孩子看月亮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "blank",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200606",
+      "examPhase": "midterm_before",
+      "readText": "果乾吃起來很甜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "乾",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "甜",
+          "zhuyin": "ㄊㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200607",
+      "examPhase": "midterm_before",
+      "readText": "遊客來買伴手禮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "客",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "伴",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "禮",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200608",
+      "examPhase": "midterm_before",
+      "readText": "親朋好友一起過節",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "親",
+          "zhuyin": "ㄑㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200609",
+      "examPhase": "midterm_before",
+      "readText": "祝大家萬事如意",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "祝",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "萬",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "如",
+          "zhuyin": "ㄖㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200610",
+      "examPhase": "midterm_before",
+      "readText": "九月遊客進小鎮",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "九",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "客",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鎮",
+          "zhuyin": "ㄓㄣˋ"
+        }
+      ]
+    }
+  ]
+}

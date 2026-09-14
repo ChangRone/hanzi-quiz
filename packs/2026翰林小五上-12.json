@@ -1,0 +1,466 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610501201",
+      "examPhase": "midterm_before",
+      "readText": "和煦陽光照著裙子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "煦",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "裙",
+          "zhuyin": "ㄑㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610501202",
+      "examPhase": "midterm_before",
+      "readText": "閒置房間變得髒亂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "閒",
+          "zhuyin": "ㄒㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "置",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "髒",
+          "zhuyin": "ㄗㄤ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501203",
+      "examPhase": "midterm_before",
+      "readText": "嘈雜街道揚起塵土",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "嘈",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "雜",
+          "zhuyin": "ㄗㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "揚",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "塵",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610501204",
+      "examPhase": "midterm_before",
+      "readText": "新衣裳讓她笑咪咪",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "裳",
+          "zhuyin": "ㄕㄤ˙"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "她",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "咪",
+          "zhuyin": "ㄇㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "咪",
+          "zhuyin": "ㄇㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610501205",
+      "examPhase": "midterm_before",
+      "readText": "笑咪咪手舞足蹈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "咪",
+          "zhuyin": "ㄇㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "咪",
+          "zhuyin": "ㄇㄧ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "舞",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "足",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蹈",
+          "zhuyin": "ㄉㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610501206",
+      "examPhase": "midterm_before",
+      "readText": "妻子整理柵欄",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "妻",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "柵",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "欄",
+          "zhuyin": "ㄌㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610501207",
+      "examPhase": "midterm_before",
+      "readText": "政府開闢新的公園",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "政",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "府",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "闢",
+          "zhuyin": "ㄆㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610501208",
+      "examPhase": "midterm_before",
+      "readText": "糟糕事情大家皆知",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "糟",
+          "zhuyin": "ㄗㄠ"
+        },
+        {
+          "type": "text",
+          "char": "糕",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "皆",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "知",
+          "zhuyin": "ㄓ"
+        }
+      ]
+    },
+    {
+      "id": "202610501209",
+      "examPhase": "midterm_before",
+      "readText": "古蹟旁有整齊柵欄",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蹟",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "柵",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "欄",
+          "zhuyin": "ㄌㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610501210",
+      "examPhase": "midterm_before",
+      "readText": "衣裳沾上塵土很髒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "裳",
+          "zhuyin": "ㄕㄤ˙"
+        },
+        {
+          "type": "text",
+          "char": "沾",
+          "zhuyin": "ㄓㄢ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "塵",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "髒",
+          "zhuyin": "ㄗㄤ"
+        }
+      ]
+    }
+  ]
+}

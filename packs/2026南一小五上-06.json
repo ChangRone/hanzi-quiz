@@ -1,0 +1,521 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500601",
+      "examPhase": "midterm_before",
+      "readText": "花園剛綻開新花我忙得無暇細看",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "剛",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "綻",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "無",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "暇",
+          "zhuyin": "ㄒㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500602",
+      "examPhase": "midterm_before",
+      "readText": "螃蟹似乎要過馬路",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "螃",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "似",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "乎",
+          "zhuyin": "ㄏㄨ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "馬",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500603",
+      "examPhase": "midterm_before",
+      "readText": "大家召喚陸蟹回頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "召",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "喚",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陸",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500604",
+      "examPhase": "midterm_before",
+      "readText": "小蟹緩緩爬過水溝",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "緩",
+          "zhuyin": "ㄏㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "緩",
+          "zhuyin": "ㄏㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "爬",
+          "zhuyin": "ㄆㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溝",
+          "zhuyin": "ㄍㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202600500605",
+      "examPhase": "midterm_before",
+      "readText": "我蹲下看牠的腹部",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蹲",
+          "zhuyin": "ㄉㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "牠",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "腹",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500606",
+      "examPhase": "midterm_before",
+      "readText": "積水浸路造成阻礙",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "積",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "浸",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "造",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "阻",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "礙",
+          "zhuyin": "ㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500607",
+      "examPhase": "midterm_before",
+      "readText": "陸蟹每年繁殖下一代",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陸",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "每",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "繁",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "殖",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500608",
+      "examPhase": "midterm_before",
+      "readText": "車越來越多悲劇愈多",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "悲",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "劇",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "愈",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        }
+      ]
+    },
+    {
+      "id": "202600500609",
+      "examPhase": "midterm_before",
+      "readText": "明顯路障能阻止車輛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "顯",
+          "zhuyin": "ㄒㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "障",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "阻",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "輛",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500610",
+      "examPhase": "midterm_before",
+      "readText": "歷經多日才孵化",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "歷",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "日",
+          "zhuyin": "ㄖˋ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "孵",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        }
+      ]
+    }
+  ]
+}

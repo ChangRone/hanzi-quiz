@@ -1,0 +1,506 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600601201",
+      "examPhase": "midterm_before",
+      "readText": "家境拮据仍努力生活",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拮",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "据",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "text",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "活",
+          "zhuyin": "ㄏㄨㄛˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600601202",
+      "examPhase": "midterm_before",
+      "readText": "他躡手躡腳去抄筆記",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "躡",
+          "zhuyin": "ㄋㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "躡",
+          "zhuyin": "ㄋㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "抄",
+          "zhuyin": "ㄔㄠ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601203",
+      "examPhase": "midterm_before",
+      "readText": "我模仿昨天看到的動作",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "仿",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "昨",
+          "zhuyin": "ㄗㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601204",
+      "examPhase": "midterm_before",
+      "readText": "疲憊時別急著辯解",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "疲",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "憊",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "急",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "辯",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600601205",
+      "examPhase": "midterm_before",
+      "readText": "長期煎熬讓身體消瘦",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "煎",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "熬",
+          "zhuyin": "ㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "體",
+          "zhuyin": "ㄊㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "瘦",
+          "zhuyin": "ㄕㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601206",
+      "examPhase": "midterm_before",
+      "readText": "他咳了一聲徒然打破安靜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "咳",
+          "zhuyin": "ㄎㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "徒",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "破",
+          "zhuyin": "ㄆㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601207",
+      "examPhase": "midterm_before",
+      "readText": "做錯事讓我懊悔",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "懊",
+          "zhuyin": "ㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "悔",
+          "zhuyin": "ㄏㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600601208",
+      "examPhase": "midterm_before",
+      "readText": "孩子難過啜泣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "啜",
+          "zhuyin": "ㄔㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "泣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601209",
+      "examPhase": "midterm_before",
+      "readText": "他喘吁吁被媽媽安撫",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "喘",
+          "zhuyin": "ㄔㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "吁",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "blank",
+          "char": "吁",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "被",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "撫",
+          "zhuyin": "ㄈㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600601210",
+      "examPhase": "midterm_before",
+      "readText": "爸爸疲憊後酣睡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "疲",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "憊",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "酣",
+          "zhuyin": "ㄏㄢ"
+        },
+        {
+          "type": "text",
+          "char": "睡",
+          "zhuyin": "ㄕㄨㄟˋ"
+        }
+      ]
+    }
+  ]
+}

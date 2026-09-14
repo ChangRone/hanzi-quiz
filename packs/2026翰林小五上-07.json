@@ -1,0 +1,496 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500701",
+      "examPhase": "midterm_before",
+      "readText": "返程路過山寨",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "返",
+          "zhuyin": "ㄈㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "程",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "寨",
+          "zhuyin": "ㄓㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500702",
+      "examPhase": "midterm_before",
+      "readText": "空曠山林十分寂靜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "曠",
+          "zhuyin": "ㄎㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "寂",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500703",
+      "examPhase": "midterm_before",
+      "readText": "茂密樹林傳來鳥鳴",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "茂",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "密",
+          "zhuyin": "ㄇㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鳴",
+          "zhuyin": "ㄇㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500704",
+      "examPhase": "midterm_before",
+      "readText": "山澗旁適合悠閒散步",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "澗",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "悠",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "閒",
+          "zhuyin": "ㄒㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500705",
+      "examPhase": "midterm_before",
+      "readText": "夜色漆黑似乎要下雨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "漆",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "text",
+          "char": "似",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "乎",
+          "zhuyin": "ㄏㄨ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500706",
+      "examPhase": "midterm_before",
+      "readText": "溪谷景色值得描寫",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "溪",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "值",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "描",
+          "zhuyin": "ㄇㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500707",
+      "examPhase": "midterm_before",
+      "readText": "幽靜山谷隱約有光",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "幽",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "隱",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "約",
+          "zhuyin": "ㄩㄝ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610500708",
+      "examPhase": "midterm_before",
+      "readText": "陽光乍現改變山林面貌",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "乍",
+          "zhuyin": "ㄓㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "改",
+          "zhuyin": "ㄍㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "變",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "貌",
+          "zhuyin": "ㄇㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500709",
+      "examPhase": "midterm_before",
+      "readText": "漆黑夜色平添神祕",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "漆",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "添",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "神",
+          "zhuyin": "ㄕㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "祕",
+          "zhuyin": "ㄇㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500710",
+      "examPhase": "midterm_before",
+      "readText": "鳥鳴讓幽谷不再寂寞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鳴",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "幽",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "寂",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "寞",
+          "zhuyin": "ㄇㄛˋ"
+        }
+      ]
+    }
+  ]
+}

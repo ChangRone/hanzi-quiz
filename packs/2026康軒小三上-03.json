@@ -1,0 +1,456 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620300301",
+      "examPhase": "midterm_before",
+      "readText": "由於暴雨道路積水",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "由",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "於",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "暴",
+          "zhuyin": "ㄅㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "積",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300302",
+      "examPhase": "midterm_before",
+      "readText": "小船迷失後上岸",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "迷",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300303",
+      "examPhase": "midterm_before",
+      "readText": "我撞到桌角有人扶我",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "撞",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "扶",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300304",
+      "examPhase": "midterm_before",
+      "readText": "店老闆整理商品",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "闆",
+          "zhuyin": "ㄅㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300305",
+      "examPhase": "midterm_before",
+      "readText": "飛機用料很實在",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300306",
+      "examPhase": "midterm_before",
+      "readText": "參觀路線繞過花園",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "參",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繞",
+          "zhuyin": "ㄖㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300307",
+      "examPhase": "midterm_before",
+      "readText": "我們停留參觀老店",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "參",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "觀",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300308",
+      "examPhase": "midterm_before",
+      "readText": "老闆扶著門框",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "闆",
+          "zhuyin": "ㄅㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "扶",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "框",
+          "zhuyin": "ㄎㄨㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620300309",
+      "examPhase": "midterm_before",
+      "readText": "暴雨讓飛機延誤",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "暴",
+          "zhuyin": "ㄅㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "延",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "誤",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300310",
+      "examPhase": "midterm_before",
+      "readText": "上岸後由導遊帶路",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "由",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "導",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        }
+      ]
+    }
+  ]
+}

@@ -12,14 +12,46 @@
       "examPhase": "midterm_before",
       "readText": "今年我有新的希望",
       "tokens": [
-        {"type":"text","char":"今","zhuyin":"ㄐㄧㄣ"},
-        {"type":"blank","char":"年","zhuyin":"ㄋㄧㄢˊ"},
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"text","char":"有","zhuyin":"ㄧㄡˇ"},
-        {"type":"text","char":"新","zhuyin":"ㄒㄧㄣ"},
-        {"type":"text","char":"的","zhuyin":"ㄉㄜ˙"},
-        {"type":"blank","char":"希","zhuyin":"ㄒㄧ"},
-        {"type":"blank","char":"望","zhuyin":"ㄨㄤˋ"}
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "希",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        }
       ]
     },
     {
@@ -27,14 +59,46 @@
       "examPhase": "midterm_before",
       "readText": "老師請我坐回位子",
       "tokens": [
-        {"type":"blank","char":"老","zhuyin":"ㄌㄠˇ"},
-        {"type":"blank","char":"師","zhuyin":"ㄕ"},
-        {"type":"text","char":"請","zhuyin":"ㄑㄧㄥˇ"},
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"blank","char":"坐","zhuyin":"ㄗㄨㄛˋ"},
-        {"type":"text","char":"回","zhuyin":"ㄏㄨㄟˊ"},
-        {"type":"blank","char":"位","zhuyin":"ㄨㄟˋ"},
-        {"type":"text","char":"子","zhuyin":"ㄗ˙"}
+        {
+          "type": "blank",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
       ]
     },
     {
@@ -42,14 +106,46 @@
       "examPhase": "midterm_before",
       "readText": "我把課本放進書包",
       "tokens": [
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"text","char":"把","zhuyin":"ㄅㄚˇ"},
-        {"type":"text","char":"課","zhuyin":"ㄎㄜˋ"},
-        {"type":"blank","char":"本","zhuyin":"ㄅㄣˇ"},
-        {"type":"text","char":"放","zhuyin":"ㄈㄤˋ"},
-        {"type":"text","char":"進","zhuyin":"ㄐㄧㄣˋ"},
-        {"type":"blank","char":"書","zhuyin":"ㄕㄨ"},
-        {"type":"text","char":"包","zhuyin":"ㄅㄠ"}
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        }
       ]
     },
     {
@@ -57,14 +153,46 @@
       "examPhase": "midterm_before",
       "readText": "淡淡花香飄進書房",
       "tokens": [
-        {"type":"blank","char":"淡","zhuyin":"ㄉㄢˋ"},
-        {"type":"blank","char":"淡","zhuyin":"ㄉㄢˋ"},
-        {"type":"text","char":"花","zhuyin":"ㄏㄨㄚ"},
-        {"type":"text","char":"香","zhuyin":"ㄒㄧㄤ"},
-        {"type":"text","char":"飄","zhuyin":"ㄆㄧㄠ"},
-        {"type":"text","char":"進","zhuyin":"ㄐㄧㄣˋ"},
-        {"type":"blank","char":"書","zhuyin":"ㄕㄨ"},
-        {"type":"text","char":"房","zhuyin":"ㄈㄤˊ"}
+        {
+          "type": "blank",
+          "char": "淡",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "淡",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        }
       ]
     },
     {
@@ -72,14 +200,46 @@
       "examPhase": "midterm_before",
       "readText": "以前我只愛看故事",
       "tokens": [
-        {"type":"blank","char":"以","zhuyin":"ㄧˇ"},
-        {"type":"text","char":"前","zhuyin":"ㄑㄧㄢˊ"},
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"blank","char":"只","zhuyin":"ㄓˇ"},
-        {"type":"text","char":"愛","zhuyin":"ㄞˋ"},
-        {"type":"text","char":"看","zhuyin":"ㄎㄢˋ"},
-        {"type":"blank","char":"故","zhuyin":"ㄍㄨˋ"},
-        {"type":"text","char":"事","zhuyin":"ㄕˋ"}
+        {
+          "type": "blank",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "故",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
       ]
     },
     {
@@ -87,13 +247,41 @@
       "examPhase": "midterm_before",
       "readText": "我用力把門推開",
       "tokens": [
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"blank","char":"用","zhuyin":"ㄩㄥˋ"},
-        {"type":"blank","char":"力","zhuyin":"ㄌㄧˋ"},
-        {"type":"text","char":"把","zhuyin":"ㄅㄚˇ"},
-        {"type":"text","char":"門","zhuyin":"ㄇㄣˊ"},
-        {"type":"text","char":"推","zhuyin":"ㄊㄨㄟ"},
-        {"type":"text","char":"開","zhuyin":"ㄎㄞ"}
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "推",
+          "zhuyin": "ㄊㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
       ]
     },
     {
@@ -101,15 +289,51 @@
       "examPhase": "midterm_before",
       "readText": "我希望成為閱讀高手",
       "tokens": [
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"blank","char":"希","zhuyin":"ㄒㄧ"},
-        {"type":"blank","char":"望","zhuyin":"ㄨㄤˋ"},
-        {"type":"text","char":"成","zhuyin":"ㄔㄥˊ"},
-        {"type":"blank","char":"為","zhuyin":"ㄨㄟˊ"},
-        {"type":"text","char":"閱","zhuyin":"ㄩㄝˋ"},
-        {"type":"text","char":"讀","zhuyin":"ㄉㄨˊ"},
-        {"type":"text","char":"高","zhuyin":"ㄍㄠ"},
-        {"type":"text","char":"手","zhuyin":"ㄕㄡˇ"}
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "希",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "閱",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
       ]
     },
     {
@@ -117,14 +341,46 @@
       "examPhase": "midterm_before",
       "readText": "現在我還坐在教室",
       "tokens": [
-        {"type":"blank","char":"現","zhuyin":"ㄒㄧㄢˋ"},
-        {"type":"text","char":"在","zhuyin":"ㄗㄞˋ"},
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"blank","char":"還","zhuyin":"ㄏㄞˊ"},
-        {"type":"blank","char":"坐","zhuyin":"ㄗㄨㄛˋ"},
-        {"type":"text","char":"在","zhuyin":"ㄗㄞˋ"},
-        {"type":"text","char":"教","zhuyin":"ㄐㄧㄠˋ"},
-        {"type":"text","char":"室","zhuyin":"ㄕˋ"}
+        {
+          "type": "blank",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "還",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "室",
+          "zhuyin": "ㄕˋ"
+        }
       ]
     },
     {
@@ -132,14 +388,46 @@
       "examPhase": "midterm_before",
       "readText": "新學年要用心讀書",
       "tokens": [
-        {"type":"text","char":"新","zhuyin":"ㄒㄧㄣ"},
-        {"type":"text","char":"學","zhuyin":"ㄒㄩㄝˊ"},
-        {"type":"blank","char":"年","zhuyin":"ㄋㄧㄢˊ"},
-        {"type":"text","char":"要","zhuyin":"ㄧㄠˋ"},
-        {"type":"blank","char":"用","zhuyin":"ㄩㄥˋ"},
-        {"type":"text","char":"心","zhuyin":"ㄒㄧㄣ"},
-        {"type":"text","char":"讀","zhuyin":"ㄉㄨˊ"},
-        {"type":"blank","char":"書","zhuyin":"ㄕㄨ"}
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        }
       ]
     },
     {
@@ -147,13 +435,41 @@
       "examPhase": "midterm_before",
       "readText": "老師只為我加油",
       "tokens": [
-        {"type":"blank","char":"老","zhuyin":"ㄌㄠˇ"},
-        {"type":"blank","char":"師","zhuyin":"ㄕ"},
-        {"type":"blank","char":"只","zhuyin":"ㄓˇ"},
-        {"type":"blank","char":"為","zhuyin":"ㄨㄟˋ"},
-        {"type":"text","char":"我","zhuyin":"ㄨㄛˇ"},
-        {"type":"text","char":"加","zhuyin":"ㄐㄧㄚ"},
-        {"type":"text","char":"油","zhuyin":"ㄧㄡˊ"}
+        {
+          "type": "blank",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "油",
+          "zhuyin": "ㄧㄡˊ"
+        }
       ]
     }
   ]

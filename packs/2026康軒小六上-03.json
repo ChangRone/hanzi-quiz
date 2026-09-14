@@ -1,0 +1,606 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600301",
+      "examPhase": "midterm_before",
+      "readText": "卓越人才也靠長期培養",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "卓",
+          "zhuyin": "ㄓㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "培",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "養",
+          "zhuyin": "ㄧㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600302",
+      "examPhase": "midterm_before",
+      "readText": "公司總裁親自處理瑣事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "text",
+          "char": "總",
+          "zhuyin": "ㄗㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "裁",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "親",
+          "zhuyin": "ㄑㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "瑣",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600303",
+      "examPhase": "midterm_before",
+      "readText": "仲夏早晨農夫開始耕田",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "仲",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "夏",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "晨",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "始",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "blank",
+          "char": "耕",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600304",
+      "examPhase": "midterm_before",
+      "readText": "他靠創意賺錢成果異於往年",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "創",
+          "zhuyin": "ㄔㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "賺",
+          "zhuyin": "ㄓㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "異",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "於",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "往",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600305",
+      "examPhase": "midterm_before",
+      "readText": "這次失誤令人惋惜準備也有欠缺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "text",
+          "char": "失",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "誤",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "惋",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "惜",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "欠",
+          "zhuyin": "ㄑㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "缺",
+          "zhuyin": "ㄑㄩㄝ"
+        }
+      ]
+    },
+    {
+      "id": "202620600306",
+      "examPhase": "midterm_before",
+      "readText": "砥礪自己也要保持謙虛",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "砥",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "礪",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "謙",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "虛",
+          "zhuyin": "ㄒㄩ"
+        }
+      ]
+    },
+    {
+      "id": "202620600307",
+      "examPhase": "midterm_before",
+      "readText": "驕傲會讓人停止進步",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "驕",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "傲",
+          "zhuyin": "ㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "停",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "止",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600308",
+      "examPhase": "midterm_before",
+      "readText": "農夫耕耘土地等待收成",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "耕",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "耘",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620600309",
+      "examPhase": "midterm_before",
+      "readText": "隔著玻璃看新芽茁壯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "隔",
+          "zhuyin": "ㄍㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "玻",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "text",
+          "char": "璃",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "芽",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "茁",
+          "zhuyin": "ㄓㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "壯",
+          "zhuyin": "ㄓㄨㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600310",
+      "examPhase": "midterm_before",
+      "readText": "培養習慣能減少瑣事困擾",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "培",
+          "zhuyin": "ㄆㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "養",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "慣",
+          "zhuyin": "ㄍㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "減",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "瑣",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "困",
+          "zhuyin": "ㄎㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "擾",
+          "zhuyin": "ㄖㄠˇ"
+        }
+      ]
+    }
+  ]
+}

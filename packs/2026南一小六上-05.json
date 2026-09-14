@@ -1,0 +1,511 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600501",
+      "examPhase": "midterm_before",
+      "readText": "上載資料對學習有助益",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "載",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "益",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600502",
+      "examPhase": "midterm_before",
+      "readText": "這副耳機可以監聽聲音",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "副",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "耳",
+          "zhuyin": "ㄦˇ"
+        },
+        {
+          "type": "text",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "監",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202600600503",
+      "examPhase": "midterm_before",
+      "readText": "避免噪音傷害耳朵",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "避",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "噪",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "害",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "耳",
+          "zhuyin": "ㄦˇ"
+        },
+        {
+          "type": "text",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600504",
+      "examPhase": "midterm_before",
+      "readText": "消防員迅速撲滅火勢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "防",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "員",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "迅",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "速",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "撲",
+          "zhuyin": "ㄆㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "滅",
+          "zhuyin": "ㄇㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "勢",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600505",
+      "examPhase": "midterm_before",
+      "readText": "救援隊趕到火燒現場",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "救",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "援",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "趕",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "燒",
+          "zhuyin": "ㄕㄠ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600506",
+      "examPhase": "midterm_before",
+      "readText": "毒液會腐蝕金屬",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "毒",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "液",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "腐",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蝕",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "屬",
+          "zhuyin": "ㄕㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600507",
+      "examPhase": "midterm_before",
+      "readText": "接觸高溫要承受風險",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "觸",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "承",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "險",
+          "zhuyin": "ㄒㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600508",
+      "examPhase": "midterm_before",
+      "readText": "陌生地點溫度攝氏十度",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陌",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "攝",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "氏",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "度",
+          "zhuyin": "ㄉㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600509",
+      "examPhase": "midterm_before",
+      "readText": "檔案旁加上註記",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "檔",
+          "zhuyin": "ㄉㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "註",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600510",
+      "examPhase": "midterm_before",
+      "readText": "攝影師撈起相機",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "攝",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "撈",
+          "zhuyin": "ㄌㄠ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    }
+  ]
+}

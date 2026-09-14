@@ -1,0 +1,461 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600601",
+      "examPhase": "midterm_before",
+      "readText": "自嘲可以化解揶揄",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嘲",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "揶",
+          "zhuyin": "ㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "揄",
+          "zhuyin": "ㄩˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600602",
+      "examPhase": "midterm_before",
+      "readText": "僵局中別只調侃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "僵",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "局",
+          "zhuyin": "ㄐㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "侃",
+          "zhuyin": "ㄎㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600603",
+      "examPhase": "midterm_before",
+      "readText": "競選時別嘲笑外貌醜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "競",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "嘲",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "貌",
+          "zhuyin": "ㄇㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "醜",
+          "zhuyin": "ㄔㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600604",
+      "examPhase": "midterm_before",
+      "readText": "調侃得當引人哄笑",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "調",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "侃",
+          "zhuyin": "ㄎㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "當",
+          "zhuyin": "ㄉㄤ"
+        },
+        {
+          "type": "text",
+          "char": "引",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "哄",
+          "zhuyin": "ㄏㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600605",
+      "examPhase": "midterm_before",
+      "readText": "倘若批判先找證據",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "倘",
+          "zhuyin": "ㄊㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "若",
+          "zhuyin": "ㄖㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "批",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "判",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "證",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "據",
+          "zhuyin": "ㄐㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600606",
+      "examPhase": "midterm_before",
+      "readText": "不要嘲諷乞丐",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "嘲",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "諷",
+          "zhuyin": "ㄈㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "乞",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "丐",
+          "zhuyin": "ㄍㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600607",
+      "examPhase": "midterm_before",
+      "readText": "不屑與貶低都會傷人",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "屑",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "貶",
+          "zhuyin": "ㄅㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600608",
+      "examPhase": "midterm_before",
+      "readText": "說話要拿捏口吻",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "話",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "捏",
+          "zhuyin": "ㄋㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "吻",
+          "zhuyin": "ㄨㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600609",
+      "examPhase": "midterm_before",
+      "readText": "坦然面對窘境",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "坦",
+          "zhuyin": "ㄊㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "對",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "窘",
+          "zhuyin": "ㄐㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "境",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600610",
+      "examPhase": "midterm_before",
+      "readText": "坦然幽默更有魅力",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "坦",
+          "zhuyin": "ㄊㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "幽",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "默",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "魅",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    }
+  ]
+}

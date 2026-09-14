@@ -1,0 +1,571 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500501",
+      "examPhase": "midterm_before",
+      "readText": "好商譽來自優良服務",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "譽",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "優",
+          "zhuyin": "ㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "良",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "務",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500502",
+      "examPhase": "midterm_before",
+      "readText": "聯絡客服處理服務問題",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "聯",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "絡",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "客",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "務",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "題",
+          "zhuyin": "ㄊㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500503",
+      "examPhase": "midterm_before",
+      "readText": "申請資料送到財產局核准",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "申",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "送",
+          "zhuyin": "ㄙㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "財",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "產",
+          "zhuyin": "ㄔㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "局",
+          "zhuyin": "ㄐㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "核",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "准",
+          "zhuyin": "ㄓㄨㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500504",
+      "examPhase": "midterm_before",
+      "readText": "黑松商標完成註冊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "松",
+          "zhuyin": "ㄙㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "標",
+          "zhuyin": "ㄅㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "註",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "冊",
+          "zhuyin": "ㄘㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500505",
+      "examPhase": "midterm_before",
+      "readText": "企業堅毅走過長久歷史",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "企",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "堅",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "毅",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "久",
+          "zhuyin": "ㄐㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "歷",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "史",
+          "zhuyin": "ㄕˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500506",
+      "examPhase": "midterm_before",
+      "readText": "英文標誌有助商品銷售",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "英",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "文",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "標",
+          "zhuyin": "ㄅㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "誌",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "助",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "銷",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "售",
+          "zhuyin": "ㄕㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500507",
+      "examPhase": "midterm_before",
+      "readText": "品牌勝出成為市場霸主",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "牌",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "勝",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "霸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500508",
+      "examPhase": "midterm_before",
+      "readText": "服務項目需要清楚說明",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "務",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "項",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "楚",
+          "zhuyin": "ㄔㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "說",
+          "zhuyin": "ㄕㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500509",
+      "examPhase": "midterm_before",
+      "readText": "核准後企業才能安心使用",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "核",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "准",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "企",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "使",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500510",
+      "examPhase": "midterm_before",
+      "readText": "商譽與銷售彼此關聯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "譽",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "銷",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "售",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "彼",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "此",
+          "zhuyin": "ㄘˇ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "聯",
+          "zhuyin": "ㄌㄧㄢˊ"
+        }
+      ]
+    }
+  ]
+}

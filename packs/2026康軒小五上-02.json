@@ -1,0 +1,506 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620500201",
+      "examPhase": "midterm_before",
+      "readText": "德國攝影師拍攝山景",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "德",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "國",
+          "zhuyin": "ㄍㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "攝",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "攝",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500202",
+      "examPhase": "midterm_before",
+      "readText": "颱風過後記錄災情",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "颱",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "錄",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "災",
+          "zhuyin": "ㄗㄞ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500203",
+      "examPhase": "midterm_before",
+      "readText": "他似乎帶著哀愁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "似",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "乎",
+          "zhuyin": "ㄏㄨ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "哀",
+          "zhuyin": "ㄞ"
+        },
+        {
+          "type": "text",
+          "char": "愁",
+          "zhuyin": "ㄔㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500204",
+      "examPhase": "midterm_before",
+      "readText": "山巒連接遼闊縱谷",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "巒",
+          "zhuyin": "ㄌㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "遼",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "闊",
+          "zhuyin": "ㄎㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "縱",
+          "zhuyin": "ㄗㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500205",
+      "examPhase": "midterm_before",
+      "readText": "肚臍附近有細小血管",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "肚",
+          "zhuyin": "ㄉㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "臍",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "附",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "血",
+          "zhuyin": "ㄒㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "管",
+          "zhuyin": "ㄍㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620500206",
+      "examPhase": "midterm_before",
+      "readText": "人禍留下殘破家園",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "禍",
+          "zhuyin": "ㄏㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "殘",
+          "zhuyin": "ㄘㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "破",
+          "zhuyin": "ㄆㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500207",
+      "examPhase": "midterm_before",
+      "readText": "山坡種植許多檳榔",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "坡",
+          "zhuyin": "ㄆㄛ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "植",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "許",
+          "zhuyin": "ㄒㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "檳",
+          "zhuyin": "ㄅㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "榔",
+          "zhuyin": "ㄌㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500208",
+      "examPhase": "midterm_before",
+      "readText": "連日降雨讓水位下降得慢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "日",
+          "zhuyin": "ㄖˋ"
+        },
+        {
+          "type": "blank",
+          "char": "降",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "降",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620500209",
+      "examPhase": "midterm_before",
+      "readText": "工人用鏟子清除汙泥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鏟",
+          "zhuyin": "ㄔㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "除",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "汙",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "泥",
+          "zhuyin": "ㄋㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620500210",
+      "examPhase": "midterm_before",
+      "readText": "汙水不斷流入河川",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "汙",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "斷",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "河",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "川",
+          "zhuyin": "ㄔㄨㄢ"
+        }
+      ]
+    }
+  ]
+}

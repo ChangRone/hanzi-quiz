@@ -1,0 +1,476 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500501",
+      "examPhase": "midterm_before",
+      "readText": "火車行駛過陡峭山路",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "駛",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陡",
+          "zhuyin": "ㄉㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "峭",
+          "zhuyin": "ㄑㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500502",
+      "examPhase": "midterm_before",
+      "readText": "花蕾在山崖旁綻放",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "蕾",
+          "zhuyin": "ㄌㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "崖",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "綻",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500503",
+      "examPhase": "midterm_before",
+      "readText": "海浪在崖下躍動",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "浪",
+          "zhuyin": "ㄌㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "崖",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "躍",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500504",
+      "examPhase": "midterm_before",
+      "readText": "山路凹凸還有坑洞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "凹",
+          "zhuyin": "ㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "凸",
+          "zhuyin": "ㄊㄨ"
+        },
+        {
+          "type": "text",
+          "char": "還",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "坑",
+          "zhuyin": "ㄎㄥ"
+        },
+        {
+          "type": "text",
+          "char": "洞",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500505",
+      "examPhase": "midterm_before",
+      "readText": "鬼斧神工景色雄偉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鬼",
+          "zhuyin": "ㄍㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "斧",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "神",
+          "zhuyin": "ㄕㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "雄",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "偉",
+          "zhuyin": "ㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500506",
+      "examPhase": "midterm_before",
+      "readText": "臨海美景令人陶醉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "臨",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "陶",
+          "zhuyin": "ㄊㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醉",
+          "zhuyin": "ㄗㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500507",
+      "examPhase": "midterm_before",
+      "readText": "縱谷裡稻田一片綠",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "縱",
+          "zhuyin": "ㄗㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "谷",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "稻",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "綠",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500508",
+      "examPhase": "midterm_before",
+      "readText": "澄澈天空照著稻田",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "澄",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "澈",
+          "zhuyin": "ㄔㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "稻",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500509",
+      "examPhase": "midterm_before",
+      "readText": "稻穗在風中搖曳",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "稻",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "穗",
+          "zhuyin": "ㄙㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "曳",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500510",
+      "examPhase": "midterm_before",
+      "readText": "雄偉山景令人醉心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雄",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "偉",
+          "zhuyin": "ㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "令",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醉",
+          "zhuyin": "ㄗㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620300501",
+      "examPhase": "midterm_before",
+      "readText": "我每天練習拍球",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "每",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300502",
+      "examPhase": "midterm_before",
+      "readText": "努力總會有進步",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "總",
+          "zhuyin": "ㄗㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300503",
+      "examPhase": "midterm_before",
+      "readText": "這一段可以利用時間練",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "段",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "利",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300504",
+      "examPhase": "midterm_before",
+      "readText": "手指壓住秒針",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "指",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "壓",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "秒",
+          "zhuyin": "ㄇㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "針",
+          "zhuyin": "ㄓㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620300505",
+      "examPhase": "midterm_before",
+      "readText": "操場隊伍排整齊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "操",
+          "zhuyin": "ㄘㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "伍",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300506",
+      "examPhase": "midterm_before",
+      "readText": "我該繼續練習",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "該",
+          "zhuyin": "ㄍㄞ"
+        },
+        {
+          "type": "text",
+          "char": "繼",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300507",
+      "examPhase": "midterm_before",
+      "readText": "努力必定有成果",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "努",
+          "zhuyin": "ㄋㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300508",
+      "examPhase": "midterm_before",
+      "readText": "大家通通到操場",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "操",
+          "zhuyin": "ㄘㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300509",
+      "examPhase": "midterm_before",
+      "readText": "總教練利用空檔",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "總",
+          "zhuyin": "ㄗㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "利",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "檔",
+          "zhuyin": "ㄉㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300510",
+      "examPhase": "midterm_before",
+      "readText": "秒針走完整圈",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "秒",
+          "zhuyin": "ㄇㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "針",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "圈",
+          "zhuyin": "ㄑㄩㄢ"
+        }
+      ]
+    }
+  ]
+}

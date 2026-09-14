@@ -1,0 +1,601 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620600201",
+      "examPhase": "midterm_before",
+      "readText": "早餐先喝一碗熱粥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "碗",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "粥",
+          "zhuyin": "ㄓㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202620600202",
+      "examPhase": "midterm_before",
+      "readText": "做事先綢繆毋需臨時慌張",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "綢",
+          "zhuyin": "ㄔㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "繆",
+          "zhuyin": "ㄇㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "毋",
+          "zhuyin": "ㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "臨",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "慌",
+          "zhuyin": "ㄏㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "張",
+          "zhuyin": "ㄓㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620600203",
+      "examPhase": "midterm_before",
+      "readText": "藤蔓纏著木架旁有人正在掘土",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "藤",
+          "zhuyin": "ㄊㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "蔓",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "纏",
+          "zhuyin": "ㄔㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "架",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "掘",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600204",
+      "examPhase": "midterm_before",
+      "readText": "包裹綁縛太緊會弄斷絲縷",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        },
+        {
+          "type": "text",
+          "char": "裹",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "綁",
+          "zhuyin": "ㄅㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "縛",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "緊",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "弄",
+          "zhuyin": "ㄋㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "斷",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "絲",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "縷",
+          "zhuyin": "ㄌㄩˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620600205",
+      "examPhase": "midterm_before",
+      "readText": "博物館展示瓦缶與陶器",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "博",
+          "zhuyin": "ㄅㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "館",
+          "zhuyin": "ㄍㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "展",
+          "zhuyin": "ㄓㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "示",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "瓦",
+          "zhuyin": "ㄨㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "缶",
+          "zhuyin": "ㄈㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "陶",
+          "zhuyin": "ㄊㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600206",
+      "examPhase": "midterm_before",
+      "readText": "園蔬雖簡單也能成為珍饈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蔬",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "簡",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "單",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "珍",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "饈",
+          "zhuyin": "ㄒㄧㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202620600207",
+      "examPhase": "midterm_before",
+      "readText": "受到恩惠也勿忘感謝",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "受",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "恩",
+          "zhuyin": "ㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "惠",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "勿",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "忘",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "謝",
+          "zhuyin": "ㄒㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620600208",
+      "examPhase": "midterm_before",
+      "readText": "凡事預先準備比較安心",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凡",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "預",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "準",
+          "zhuyin": "ㄓㄨㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "備",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "較",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620600209",
+      "examPhase": "midterm_before",
+      "readText": "凡人都會經歷歡喜與悲傷",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凡",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "歷",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "歡",
+          "zhuyin": "ㄏㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "喜",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "與",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "悲",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620600210",
+      "examPhase": "midterm_before",
+      "readText": "飽腹不必餐餐追求珍饈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "飽",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "腹",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "追",
+          "zhuyin": "ㄓㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "珍",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "饈",
+          "zhuyin": "ㄒㄧㄡ"
+        }
+      ]
+    }
+  ]
+}

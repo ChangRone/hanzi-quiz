@@ -1,0 +1,476 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610300901",
+      "examPhase": "midterm_before",
+      "readText": "這趟旅行很有挑戰",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "趟",
+          "zhuyin": "ㄊㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "旅",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "挑",
+          "zhuyin": "ㄊㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300902",
+      "examPhase": "midterm_before",
+      "readText": "交通路線跟隨導遊",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "交",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "隨",
+          "zhuyin": "ㄙㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "導",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300903",
+      "examPhase": "midterm_before",
+      "readText": "鳳梨投進籃子裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鳳",
+          "zhuyin": "ㄈㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "梨",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "投",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "籃",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300904",
+      "examPhase": "midterm_before",
+      "readText": "休息過後大家繼續走向古道深處",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "休",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "繼",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "深",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300905",
+      "examPhase": "midterm_before",
+      "readText": "海岸邊水很淺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "淺",
+          "zhuyin": "ㄑㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300906",
+      "examPhase": "midterm_before",
+      "readText": "沿路踩著石頭",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "沿",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "踩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300907",
+      "examPhase": "midterm_before",
+      "readText": "一般人也會疊石頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "般",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "疊",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300908",
+      "examPhase": "midterm_before",
+      "readText": "導遊帶大家看海岸",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "導",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300909",
+      "examPhase": "midterm_before",
+      "readText": "挑戰後繼續前進",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "挑",
+          "zhuyin": "ㄊㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "繼",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "續",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300910",
+      "examPhase": "midterm_before",
+      "readText": "淺水處不要亂踩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "淺",
+          "zhuyin": "ㄑㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "踩",
+          "zhuyin": "ㄘㄞˇ"
+        }
+      ]
+    }
+  ]
+}

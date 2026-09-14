@@ -1,0 +1,471 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400901",
+      "examPhase": "midterm_before",
+      "readText": "弓箭手十分善戰",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "弓",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "箭",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "善",
+          "zhuyin": "ㄕㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "戰",
+          "zhuyin": "ㄓㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400902",
+      "examPhase": "midterm_before",
+      "readText": "人民不要互相爭吵",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "民",
+          "zhuyin": "ㄇㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "互",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "爭",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吵",
+          "zhuyin": "ㄔㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400903",
+      "examPhase": "midterm_before",
+      "readText": "我們祈福盼望恢復平靜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "祈",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "福",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "盼",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "恢",
+          "zhuyin": "ㄏㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "復",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400904",
+      "examPhase": "midterm_before",
+      "readText": "爭鬥只會增加煩惱",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "爭",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鬥",
+          "zhuyin": "ㄉㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "增",
+          "zhuyin": "ㄗㄥ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400905",
+      "examPhase": "midterm_before",
+      "readText": "博學的人也要良善",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "博",
+          "zhuyin": "ㄅㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "良",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "善",
+          "zhuyin": "ㄕㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400906",
+      "examPhase": "midterm_before",
+      "readText": "不要欺負弱小做惡事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "欺",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "text",
+          "char": "負",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "弱",
+          "zhuyin": "ㄖㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "惡",
+          "zhuyin": "ㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400907",
+      "examPhase": "midterm_before",
+      "readText": "別懶散要盡力完成",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "懶",
+          "zhuyin": "ㄌㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "盡",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400908",
+      "examPhase": "midterm_before",
+      "readText": "代表人民晉見國王",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "民",
+          "zhuyin": "ㄇㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "晉",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "國",
+          "zhuyin": "ㄍㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "王",
+          "zhuyin": "ㄨㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400909",
+      "examPhase": "midterm_before",
+      "readText": "把箭放回箭袋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "箭",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "箭",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "袋",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400910",
+      "examPhase": "midterm_before",
+      "readText": "盡力避免爭鬥",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "盡",
+          "zhuyin": "ㄐㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "避",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "爭",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "鬥",
+          "zhuyin": "ㄉㄡˋ"
+        }
+      ]
+    }
+  ]
+}

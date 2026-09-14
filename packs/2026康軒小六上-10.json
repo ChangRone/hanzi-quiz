@@ -1,0 +1,631 @@
+{
+  "id": "20262060",
+  "title": "2026年小六上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620601001",
+      "examPhase": "midterm_before",
+      "readText": "耶誕節我們到郊外看燈飾",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "耶",
+          "zhuyin": "ㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "誕",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "郊",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "燈",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "飾",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620601002",
+      "examPhase": "midterm_before",
+      "readText": "慈祥奶奶總是笑容滿面",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "慈",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "blank",
+          "char": "祥",
+          "zhuyin": "ㄒㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "奶",
+          "zhuyin": "ㄋㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "總",
+          "zhuyin": "ㄗㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "滿",
+          "zhuyin": "ㄇㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620601003",
+      "examPhase": "midterm_before",
+      "readText": "木柴燃燒發出劈啪聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "柴",
+          "zhuyin": "ㄔㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "燃",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "燒",
+          "zhuyin": "ㄕㄠ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "劈",
+          "zhuyin": "ㄆㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "啪",
+          "zhuyin": "ㄆㄚ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620601004",
+      "examPhase": "midterm_before",
+      "readText": "整理零用錢雖麻煩我也不厭倦",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "零",
+          "zhuyin": "ㄌㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "麻",
+          "zhuyin": "ㄇㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "煩",
+          "zhuyin": "ㄈㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "厭",
+          "zhuyin": "ㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "倦",
+          "zhuyin": "ㄐㄩㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620601005",
+      "examPhase": "midterm_before",
+      "readText": "辯護自己時別只顧自私",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "辯",
+          "zhuyin": "ㄅㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "顧",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "私",
+          "zhuyin": "ㄙ"
+        }
+      ]
+    },
+    {
+      "id": "202620601006",
+      "examPhase": "midterm_before",
+      "readText": "貧窮和能力沒有直接關係",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "貧",
+          "zhuyin": "ㄆㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "窮",
+          "zhuyin": "ㄑㄩㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "沒",
+          "zhuyin": "ㄇㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "text",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "係",
+          "zhuyin": "ㄒㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620601007",
+      "examPhase": "midterm_before",
+      "readText": "趁天氣好稍微整理庭院",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "趁",
+          "zhuyin": "ㄔㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "稍",
+          "zhuyin": "ㄕㄠ"
+        },
+        {
+          "type": "text",
+          "char": "微",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "庭",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620601008",
+      "examPhase": "midterm_before",
+      "readText": "罕見的暖色燈光讓房間暖烘烘",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "罕",
+          "zhuyin": "ㄏㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "燈",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "暖",
+          "zhuyin": "ㄋㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "烘",
+          "zhuyin": "ㄏㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "烘",
+          "zhuyin": "ㄏㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620601009",
+      "examPhase": "midterm_before",
+      "readText": "衷心感謝鋼琴老師耐心指導",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "衷",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "感",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "謝",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鋼",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "琴",
+          "zhuyin": "ㄑㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "耐",
+          "zhuyin": "ㄋㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "指",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "text",
+          "char": "導",
+          "zhuyin": "ㄉㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620601010",
+      "examPhase": "midterm_before",
+      "readText": "耶誕老人慈祥地彈著鋼琴",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "耶",
+          "zhuyin": "ㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "誕",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "慈",
+          "zhuyin": "ㄘˊ"
+        },
+        {
+          "type": "blank",
+          "char": "祥",
+          "zhuyin": "ㄒㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "彈",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鋼",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "琴",
+          "zhuyin": "ㄑㄧㄣˊ"
+        }
+      ]
+    }
+  ]
+}

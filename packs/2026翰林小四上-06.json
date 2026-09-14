@@ -1,0 +1,486 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400601",
+      "examPhase": "midterm_before",
+      "readText": "圖書館有億萬本書",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "圖",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "館",
+          "zhuyin": "ㄍㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "億",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "萬",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202610400602",
+      "examPhase": "midterm_before",
+      "readText": "隕石撞擊留下坑洞",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "隕",
+          "zhuyin": "ㄩㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "撞",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "擊",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "坑",
+          "zhuyin": "ㄎㄥ"
+        },
+        {
+          "type": "text",
+          "char": "洞",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400603",
+      "examPhase": "midterm_before",
+      "readText": "陽光照射出圓形形狀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "射",
+          "zhuyin": "ㄕㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "狀",
+          "zhuyin": "ㄓㄨㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400604",
+      "examPhase": "midterm_before",
+      "readText": "兩地距離有一萬公里",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "距",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "萬",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "里",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400605",
+      "examPhase": "midterm_before",
+      "readText": "平均每天騎車半小時",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "均",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "每",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "騎",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "半",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400606",
+      "examPhase": "midterm_before",
+      "readText": "揭開盒子看到月餅",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "揭",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "盒",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400607",
+      "examPhase": "midterm_before",
+      "readText": "科學館展示隕石",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "科",
+          "zhuyin": "ㄎㄜ"
+        },
+        {
+          "type": "text",
+          "char": "學",
+          "zhuyin": "ㄒㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "館",
+          "zhuyin": "ㄍㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "展",
+          "zhuyin": "ㄓㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "示",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "隕",
+          "zhuyin": "ㄩㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400608",
+      "examPhase": "midterm_before",
+      "readText": "我騎車經過坑洞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "騎",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "坑",
+          "zhuyin": "ㄎㄥ"
+        },
+        {
+          "type": "text",
+          "char": "洞",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400609",
+      "examPhase": "midterm_before",
+      "readText": "撞擊力量平均分散",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "撞",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "擊",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "量",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "均",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400610",
+      "examPhase": "midterm_before",
+      "readText": "揭開月球距離謎題",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "揭",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "距",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "謎",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "題",
+          "zhuyin": "ㄊㄧˊ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400801",
+      "examPhase": "midterm_before",
+      "readText": "登高可以居高臨下看大樓",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "登",
+          "zhuyin": "ㄉㄥ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "臨",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400802",
+      "examPhase": "midterm_before",
+      "readText": "長頸鹿造型代表特色",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "頸",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "鹿",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "造",
+          "zhuyin": "ㄗㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "型",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "代",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "表",
+          "zhuyin": "ㄅㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400803",
+      "examPhase": "midterm_before",
+      "readText": "經濟發展帶動高樓建設",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "經",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "濟",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "text",
+          "char": "展",
+          "zhuyin": "ㄓㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "建",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "設",
+          "zhuyin": "ㄕㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400804",
+      "examPhase": "midterm_before",
+      "readText": "阻尼器能減少地震搖晃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "阻",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "尼",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "減",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "震",
+          "zhuyin": "ㄓㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "晃",
+          "zhuyin": "ㄏㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400805",
+      "examPhase": "midterm_before",
+      "readText": "東京晴空塔很高",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "東",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "京",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "晴",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "塔",
+          "zhuyin": "ㄊㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202620400806",
+      "examPhase": "midterm_before",
+      "readText": "通訊塔提升收訊品質",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "訊",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "塔",
+          "zhuyin": "ㄊㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "提",
+          "zhuyin": "ㄊㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "訊",
+          "zhuyin": "ㄒㄩㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "質",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400807",
+      "examPhase": "midterm_before",
+      "readText": "吉隆坡高樓有連通橋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "吉",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "隆",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "坡",
+          "zhuyin": "ㄆㄛ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "橋",
+          "zhuyin": "ㄑㄧㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400808",
+      "examPhase": "midterm_before",
+      "readText": "晴天站在塔下拍照",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "晴",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "站",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "塔",
+          "zhuyin": "ㄊㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "拍",
+          "zhuyin": "ㄆㄞ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400809",
+      "examPhase": "midterm_before",
+      "readText": "大樓阻尼器保護結構",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "阻",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "尼",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "構",
+          "zhuyin": "ㄍㄡˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400810",
+      "examPhase": "midterm_before",
+      "readText": "連通橋連接兩棟樓",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "通",
+          "zhuyin": "ㄊㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "橋",
+          "zhuyin": "ㄑㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "連",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "棟",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        }
+      ]
+    }
+  ]
+}

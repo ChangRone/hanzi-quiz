@@ -1,0 +1,501 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600801",
+      "examPhase": "midterm_before",
+      "readText": "他坐在石墩上撇嘴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "墩",
+          "zhuyin": "ㄉㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "撇",
+          "zhuyin": "ㄆㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "嘴",
+          "zhuyin": "ㄗㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600802",
+      "examPhase": "midterm_before",
+      "readText": "孩子笑咧嘴把東西攏好",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "咧",
+          "zhuyin": "ㄌㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "嘴",
+          "zhuyin": "ㄗㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "東",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "西",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "攏",
+          "zhuyin": "ㄌㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600803",
+      "examPhase": "midterm_before",
+      "readText": "一副不羈模樣很醒目",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "副",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羈",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "醒",
+          "zhuyin": "ㄒㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600804",
+      "examPhase": "midterm_before",
+      "readText": "小伙子收到紙鈔錢幣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "伙",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鈔",
+          "zhuyin": "ㄔㄠ"
+        },
+        {
+          "type": "text",
+          "char": "錢",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幣",
+          "zhuyin": "ㄅㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600805",
+      "examPhase": "midterm_before",
+      "readText": "吹喇叭吹得臉都脹紅",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "喇",
+          "zhuyin": "ㄌㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "叭",
+          "zhuyin": "ㄅㄚ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "脹",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600806",
+      "examPhase": "midterm_before",
+      "readText": "手臂脹起青筋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "臂",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "脹",
+          "zhuyin": "ㄓㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "筋",
+          "zhuyin": "ㄐㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610600807",
+      "examPhase": "midterm_before",
+      "readText": "吉他手儼然是主角",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "吉",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "儼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄩㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600808",
+      "examPhase": "midterm_before",
+      "readText": "我按下車廂開門鈕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "按",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "廂",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "鈕",
+          "zhuyin": "ㄋㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600809",
+      "examPhase": "midterm_before",
+      "readText": "吉他弦排得規矩",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "吉",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "弦",
+          "zhuyin": "ㄒㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "規",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "矩",
+          "zhuyin": "ㄐㄩˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600810",
+      "examPhase": "midterm_before",
+      "readText": "大家都很稱羨那副身手",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "都",
+          "zhuyin": "ㄉㄡ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "稱",
+          "zhuyin": "ㄔㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "羨",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "那",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "副",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        }
+      ]
+    }
+  ]
+}

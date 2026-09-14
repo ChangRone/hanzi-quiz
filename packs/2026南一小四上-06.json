@@ -1,0 +1,466 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600400601",
+      "examPhase": "midterm_before",
+      "readText": "三百公尺共有十層",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "三",
+          "zhuyin": "ㄙㄢ"
+        },
+        {
+          "type": "text",
+          "char": "百",
+          "zhuyin": "ㄅㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "尺",
+          "zhuyin": "ㄔˇ"
+        },
+        {
+          "type": "text",
+          "char": "共",
+          "zhuyin": "ㄍㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "層",
+          "zhuyin": "ㄘㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400602",
+      "examPhase": "midterm_before",
+      "readText": "亞洲有很多高樓",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "亞",
+          "zhuyin": "ㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "洲",
+          "zhuyin": "ㄓㄡ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400603",
+      "examPhase": "midterm_before",
+      "readText": "紅色鋼橋跨過河面",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鋼",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "橋",
+          "zhuyin": "ㄑㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "跨",
+          "zhuyin": "ㄎㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "河",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600400604",
+      "examPhase": "midterm_before",
+      "readText": "護欄分成兩層",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "欄",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "層",
+          "zhuyin": "ㄘㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600400605",
+      "examPhase": "midterm_before",
+      "readText": "紙鈔上印著地標",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "鈔",
+          "zhuyin": "ㄔㄠ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "標",
+          "zhuyin": "ㄅㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600400606",
+      "examPhase": "midterm_before",
+      "readText": "金融大樓仍然亮著燈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "金",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "融",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "仍",
+          "zhuyin": "ㄖㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "燈",
+          "zhuyin": "ㄉㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600400607",
+      "examPhase": "midterm_before",
+      "readText": "我仰望城市地標",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "仰",
+          "zhuyin": "ㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "標",
+          "zhuyin": "ㄅㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600400608",
+      "examPhase": "midterm_before",
+      "readText": "從內部往外俯視街景",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "往",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "俯",
+          "zhuyin": "ㄈㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "視",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600400609",
+      "examPhase": "midterm_before",
+      "readText": "跨年煙火照亮天空",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "跨",
+          "zhuyin": "ㄎㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600400610",
+      "examPhase": "midterm_before",
+      "readText": "鋼骨保護大樓內部",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鋼",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "骨",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "內",
+          "zhuyin": "ㄋㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    }
+  ]
+}

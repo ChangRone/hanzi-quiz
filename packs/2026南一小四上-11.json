@@ -1,0 +1,446 @@
+{
+  "id": "20260040",
+  "title": "2026年小四上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600401101",
+      "examPhase": "midterm_before",
+      "readText": "婆婆臉頰紅紅的",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛ˙"
+        },
+        {
+          "type": "text",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "頰",
+          "zhuyin": "ㄐㄧㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600401102",
+      "examPhase": "midterm_before",
+      "readText": "陰天讓氣色少了血色",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陰",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "血",
+          "zhuyin": "ㄒㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600401103",
+      "examPhase": "midterm_before",
+      "readText": "孩子哀求想品嘗甜點",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "哀",
+          "zhuyin": "ㄞ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "嘗",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "甜",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600401104",
+      "examPhase": "midterm_before",
+      "readText": "竹蓆旁放著栗子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "竹",
+          "zhuyin": "ㄓㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蓆",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "栗",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202600401105",
+      "examPhase": "midterm_before",
+      "readText": "螃蟹橫著走過來",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "螃",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "橫",
+          "zhuyin": "ㄏㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600401106",
+      "examPhase": "midterm_before",
+      "readText": "水缸外面黑漆漆",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "缸",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "黑",
+          "zhuyin": "ㄏㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "漆",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "漆",
+          "zhuyin": "ㄑㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202600401107",
+      "examPhase": "midterm_before",
+      "readText": "膠水太黏手很痛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "膠",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "黏",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "痛",
+          "zhuyin": "ㄊㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600401108",
+      "examPhase": "midterm_before",
+      "readText": "我拚命搬開水缸",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "拚",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "搬",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "缸",
+          "zhuyin": "ㄍㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600401109",
+      "examPhase": "midterm_before",
+      "readText": "婆婆品嘗熱湯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛ˙"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "嘗",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "湯",
+          "zhuyin": "ㄊㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600401110",
+      "examPhase": "midterm_before",
+      "readText": "螃蟹夾到手好痛",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "螃",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "夾",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "痛",
+          "zhuyin": "ㄊㄨㄥˋ"
+        }
+      ]
+    }
+  ]
+}

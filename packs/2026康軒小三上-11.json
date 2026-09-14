@@ -1,0 +1,491 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620301101",
+      "examPhase": "midterm_before",
+      "readText": "歌曲讓人心情愉悅",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "歌",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "曲",
+          "zhuyin": "ㄑㄩˇ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "愉",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "悅",
+          "zhuyin": "ㄩㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301102",
+      "examPhase": "midterm_before",
+      "readText": "我去拜訪老朋友",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "拜",
+          "zhuyin": "ㄅㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訪",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620301103",
+      "examPhase": "midterm_before",
+      "readText": "早點回家免得太晚離開",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "免",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202620301104",
+      "examPhase": "midterm_before",
+      "readText": "漫長冬天盼著春天",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "漫",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "冬",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "盼",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202620301105",
+      "examPhase": "midterm_before",
+      "readText": "枯葉鑽進牆角",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "枯",
+          "zhuyin": "ㄎㄨ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鑽",
+          "zhuyin": "ㄗㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "牆",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "角",
+          "zhuyin": "ㄐㄧㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620301106",
+      "examPhase": "midterm_before",
+      "readText": "拆開答案才大悟",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "拆",
+          "zhuyin": "ㄔㄞ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "悟",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620301107",
+      "examPhase": "midterm_before",
+      "readText": "老屋拆除後花園盛開",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "屋",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "拆",
+          "zhuyin": "ㄔㄞ"
+        },
+        {
+          "type": "text",
+          "char": "除",
+          "zhuyin": "ㄔㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "盛",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202620301108",
+      "examPhase": "midterm_before",
+      "readText": "隨著音樂唱起歌曲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "隨",
+          "zhuyin": "ㄙㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "唱",
+          "zhuyin": "ㄔㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "歌",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "曲",
+          "zhuyin": "ㄑㄩˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620301109",
+      "examPhase": "midterm_before",
+      "readText": "拜訪後帶著愉悅心情離開",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "拜",
+          "zhuyin": "ㄅㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "訪",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "愉",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "悅",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "離",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202620301110",
+      "examPhase": "midterm_before",
+      "readText": "盼望枯樹再次盛開",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "盼",
+          "zhuyin": "ㄆㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "望",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "枯",
+          "zhuyin": "ㄎㄨ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "次",
+          "zhuyin": "ㄘˋ"
+        },
+        {
+          "type": "blank",
+          "char": "盛",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        }
+      ]
+    }
+  ]
+}

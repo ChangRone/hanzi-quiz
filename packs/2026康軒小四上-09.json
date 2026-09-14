@@ -1,0 +1,481 @@
+{
+  "id": "20262040",
+  "title": "2026年小四上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620400901",
+      "examPhase": "midterm_before",
+      "readText": "泰國有華麗佛寺",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "泰",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "國",
+          "zhuyin": "ㄍㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "華",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "佛",
+          "zhuyin": "ㄈㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "寺",
+          "zhuyin": "ㄙˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400902",
+      "examPhase": "midterm_before",
+      "readText": "和尚走過古廟",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "尚",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "廟",
+          "zhuyin": "ㄇㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620400903",
+      "examPhase": "midterm_before",
+      "readText": "我們逛逛當地市場",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "逛",
+          "zhuyin": "ㄍㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "逛",
+          "zhuyin": "ㄍㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "當",
+          "zhuyin": "ㄉㄤ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "市",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "場",
+          "zhuyin": "ㄔㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400904",
+      "examPhase": "midterm_before",
+      "readText": "埃及有尼羅河",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "埃",
+          "zhuyin": "ㄞ"
+        },
+        {
+          "type": "text",
+          "char": "及",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "尼",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "羅",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "河",
+          "zhuyin": "ㄏㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400905",
+      "examPhase": "midterm_before",
+      "readText": "開羅地勢有高有低",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "羅",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "勢",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "高",
+          "zhuyin": "ㄍㄠ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202620400906",
+      "examPhase": "midterm_before",
+      "readText": "低窪地區需要堤防",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "窪",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "區",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "堤",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "防",
+          "zhuyin": "ㄈㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400907",
+      "examPhase": "midterm_before",
+      "readText": "低窪海岸遇到潮水要小心",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "窪",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "遇",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "潮",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202620400908",
+      "examPhase": "midterm_before",
+      "readText": "綠意鬱鬱讓街景更美",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "綠",
+          "zhuyin": "ㄌㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "意",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鬱",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鬱",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "更",
+          "zhuyin": "ㄍㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620400909",
+      "examPhase": "midterm_before",
+      "readText": "在尼羅河上划船看夕陽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "尼",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "羅",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "河",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "划",
+          "zhuyin": "ㄏㄨㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "夕",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620400910",
+      "examPhase": "midterm_before",
+      "readText": "佛寺旁堤防很長",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "佛",
+          "zhuyin": "ㄈㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "寺",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堤",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "防",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        }
+      ]
+    }
+  ]
+}

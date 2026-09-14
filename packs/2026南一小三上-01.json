@@ -1,0 +1,431 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600300101",
+      "examPhase": "midterm_before",
+      "readText": "泥土慢慢化成小路",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "泥",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300102",
+      "examPhase": "midterm_before",
+      "readText": "小雲雀穿著羽衣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雀",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "穿",
+          "zhuyin": "ㄔㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "羽",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202600300103",
+      "examPhase": "midterm_before",
+      "readText": "歌聲輕快又清脆",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "歌",
+          "zhuyin": "ㄍㄜ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "脆",
+          "zhuyin": "ㄘㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300104",
+      "examPhase": "midterm_before",
+      "readText": "男孩整理頭髮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "男",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "髮",
+          "zhuyin": "ㄈㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300105",
+      "examPhase": "midterm_before",
+      "readText": "我們四處旅行",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "text",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "處",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旅",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300106",
+      "examPhase": "midterm_before",
+      "readText": "男孩平安回到家",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "男",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600300107",
+      "examPhase": "midterm_before",
+      "readText": "開朗男孩愛踢足球",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "朗",
+          "zhuyin": "ㄌㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "男",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "踢",
+          "zhuyin": "ㄊㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "足",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600300108",
+      "examPhase": "midterm_before",
+      "readText": "泥土上有輕輕腳印",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "泥",
+          "zhuyin": "ㄋㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "土",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "腳",
+          "zhuyin": "ㄐㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "印",
+          "zhuyin": "ㄧㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600300109",
+      "examPhase": "midterm_before",
+      "readText": "雲雀旅行到遠方",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "雀",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旅",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600300110",
+      "examPhase": "midterm_before",
+      "readText": "羽衣輕輕飄動",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "羽",
+          "zhuyin": "ㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "衣",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "飄",
+          "zhuyin": "ㄆㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "id": "20261040",
+  "title": "2026年小四上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "04",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610400201",
+      "examPhase": "midterm_before",
+      "readText": "溫泉水抹去疲勞",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "泉",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "抹",
+          "zhuyin": "ㄇㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "疲",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "勞",
+          "zhuyin": "ㄌㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400202",
+      "examPhase": "midterm_before",
+      "readText": "我驚訝地露出牙齒",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "驚",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "訝",
+          "zhuyin": "ㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "露",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "齒",
+          "zhuyin": "ㄔˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400203",
+      "examPhase": "midterm_before",
+      "readText": "別為小事打架要快速和好",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "打",
+          "zhuyin": "ㄉㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "架",
+          "zhuyin": "ㄐㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "速",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400204",
+      "examPhase": "midterm_before",
+      "readText": "雲朵彷彿棉花",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "朵",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "彷",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "彿",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "棉",
+          "zhuyin": "ㄇㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610400205",
+      "examPhase": "midterm_before",
+      "readText": "冷泉像天然汽水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "泉",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "汽",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610400206",
+      "examPhase": "midterm_before",
+      "readText": "園區裡有恐龍模型",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "園",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "區",
+          "zhuyin": "ㄑㄩ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "恐",
+          "zhuyin": "ㄎㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "龍",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "模",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "型",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400207",
+      "examPhase": "midterm_before",
+      "readText": "陀螺轉得很快",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "陀",
+          "zhuyin": "ㄊㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "螺",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610400208",
+      "examPhase": "midterm_before",
+      "readText": "家人團聚泡溫泉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "團",
+          "zhuyin": "ㄊㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "聚",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "泡",
+          "zhuyin": "ㄆㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "溫",
+          "zhuyin": "ㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "泉",
+          "zhuyin": "ㄑㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400209",
+      "examPhase": "midterm_before",
+      "readText": "快速轉動的陀螺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "速",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "陀",
+          "zhuyin": "ㄊㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "螺",
+          "zhuyin": "ㄌㄨㄛˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610400210",
+      "examPhase": "midterm_before",
+      "readText": "恐龍牙齒很大",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "恐",
+          "zhuyin": "ㄎㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "龍",
+          "zhuyin": "ㄌㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "牙",
+          "zhuyin": "ㄧㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "齒",
+          "zhuyin": "ㄔˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        }
+      ]
+    }
+  ]
+}

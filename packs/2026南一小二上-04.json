@@ -1,0 +1,486 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600200401",
+      "examPhase": "midterm_before",
+      "readText": "桌上有一塊圓形餅乾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "塊",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "乾",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600200402",
+      "examPhase": "midterm_before",
+      "readText": "芝麻餅聞起來真香",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "芝",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "麻",
+          "zhuyin": "ㄇㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600200403",
+      "examPhase": "midterm_before",
+      "readText": "我咬一口再吃飯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "咬",
+          "zhuyin": "ㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "blank",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200404",
+      "examPhase": "midterm_before",
+      "readText": "吃完飯要做功課",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "功",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200405",
+      "examPhase": "midterm_before",
+      "readText": "我先洗澡再收拾房間",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "洗",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "澡",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "拾",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600200406",
+      "examPhase": "midterm_before",
+      "readText": "妹妹整理好書包",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "妹",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "妹",
+          "zhuyin": "ㄇㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600200407",
+      "examPhase": "midterm_before",
+      "readText": "做完功課才能玩遊戲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "功",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "課",
+          "zhuyin": "ㄎㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "玩",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "遊",
+          "zhuyin": "ㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "戲",
+          "zhuyin": "ㄒㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200408",
+      "examPhase": "midterm_before",
+      "readText": "盒子裡只剩一塊餅",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "盒",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "剩",
+          "zhuyin": "ㄕㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "塊",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600200409",
+      "examPhase": "midterm_before",
+      "readText": "我把芝麻放進圓形盤",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "芝",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "麻",
+          "zhuyin": "ㄇㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "盤",
+          "zhuyin": "ㄆㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600200410",
+      "examPhase": "midterm_before",
+      "readText": "收拾完再整理書包",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "拾",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "完",
+          "zhuyin": "ㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "包",
+          "zhuyin": "ㄅㄠ"
+        }
+      ]
+    }
+  ]
+}

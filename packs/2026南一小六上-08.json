@@ -1,0 +1,481 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600801",
+      "examPhase": "midterm_before",
+      "readText": "不要自怨自艾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怨",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "blank",
+          "char": "艾",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600802",
+      "examPhase": "midterm_before",
+      "readText": "我頭枕手臂休息",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "枕",
+          "zhuyin": "ㄓㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "臂",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "休",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202600600803",
+      "examPhase": "midterm_before",
+      "readText": "小狗趴在膝上看火焰",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "狗",
+          "zhuyin": "ㄍㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "趴",
+          "zhuyin": "ㄆㄚ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膝",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "焰",
+          "zhuyin": "ㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600804",
+      "examPhase": "midterm_before",
+      "readText": "火焰熄滅讓人苦惱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "焰",
+          "zhuyin": "ㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "熄",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "滅",
+          "zhuyin": "ㄇㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "苦",
+          "zhuyin": "ㄎㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600805",
+      "examPhase": "midterm_before",
+      "readText": "他跌倒弄髒鬍鬚",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "跌",
+          "zhuyin": "ㄉㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "倒",
+          "zhuyin": "ㄉㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "弄",
+          "zhuyin": "ㄋㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "髒",
+          "zhuyin": "ㄗㄤ"
+        },
+        {
+          "type": "text",
+          "char": "鬍",
+          "zhuyin": "ㄏㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鬚",
+          "zhuyin": "ㄒㄩ"
+        }
+      ]
+    },
+    {
+      "id": "202600600806",
+      "examPhase": "midterm_before",
+      "readText": "我剝開果皮香氣竄出",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "剝",
+          "zhuyin": "ㄅㄛ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竄",
+          "zhuyin": "ㄘㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202600600807",
+      "examPhase": "midterm_before",
+      "readText": "瞬間安靜後他頹然坐下",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "瞬",
+          "zhuyin": "ㄕㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "text",
+          "char": "靜",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "頹",
+          "zhuyin": "ㄊㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600808",
+      "examPhase": "midterm_before",
+      "readText": "熾熱紅炭不要碰",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "熾",
+          "zhuyin": "ㄔˋ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "炭",
+          "zhuyin": "ㄊㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "碰",
+          "zhuyin": "ㄆㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600809",
+      "examPhase": "midterm_before",
+      "readText": "飢餓時看煙裊裊升起",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "飢",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "餓",
+          "zhuyin": "ㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "裊",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "裊",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "升",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600810",
+      "examPhase": "midterm_before",
+      "readText": "思緒讓我不再苦惱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "思",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "緒",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "苦",
+          "zhuyin": "ㄎㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "惱",
+          "zhuyin": "ㄋㄠˇ"
+        }
+      ]
+    }
+  ]
+}

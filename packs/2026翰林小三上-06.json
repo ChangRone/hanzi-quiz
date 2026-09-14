@@ -1,0 +1,421 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610300601",
+      "examPhase": "midterm_before",
+      "readText": "石墨製成筆芯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "墨",
+          "zhuyin": "ㄇㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "製",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "芯",
+          "zhuyin": "ㄒㄧㄣ"
+        }
+      ]
+    },
+    {
+      "id": "202610300602",
+      "examPhase": "midterm_before",
+      "readText": "鉛筆部分斷裂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鉛",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "斷",
+          "zhuyin": "ㄉㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "裂",
+          "zhuyin": "ㄌㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300603",
+      "examPhase": "midterm_before",
+      "readText": "機器切出凹槽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "凹",
+          "zhuyin": "ㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "槽",
+          "zhuyin": "ㄘㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300604",
+      "examPhase": "midterm_before",
+      "readText": "把筆芯放入木槽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "芯",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "入",
+          "zhuyin": "ㄖㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "槽",
+          "zhuyin": "ㄘㄠˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300605",
+      "examPhase": "midterm_before",
+      "readText": "另外換新筆桿",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "另",
+          "zhuyin": "ㄌㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "換",
+          "zhuyin": "ㄏㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "桿",
+          "zhuyin": "ㄍㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300606",
+      "examPhase": "midterm_before",
+      "readText": "我吃三明治再削筆",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "三",
+          "zhuyin": "ㄙㄢ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "治",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "削",
+          "zhuyin": "ㄒㄩㄝ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300607",
+      "examPhase": "midterm_before",
+      "readText": "筆桿裡放著石墨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "桿",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "墨",
+          "zhuyin": "ㄇㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300608",
+      "examPhase": "midterm_before",
+      "readText": "削筆機轉得很快",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "削",
+          "zhuyin": "ㄒㄩㄝ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "text",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300609",
+      "examPhase": "midterm_before",
+      "readText": "凹槽部分要保持平整",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "凹",
+          "zhuyin": "ㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "槽",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "持",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610300610",
+      "examPhase": "midterm_before",
+      "readText": "機器製作鉛筆",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "機",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "器",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "製",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "鉛",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        }
+      ]
+    }
+  ]
+}

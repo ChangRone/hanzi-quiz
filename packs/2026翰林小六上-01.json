@@ -1,0 +1,446 @@
+{
+  "id": "20261060",
+  "title": "2026年小六上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610600101",
+      "examPhase": "midterm_before",
+      "readText": "水面泛起漣漪",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "泛",
+          "zhuyin": "ㄈㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "漣",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "漪",
+          "zhuyin": "ㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610600102",
+      "examPhase": "midterm_before",
+      "readText": "風吹皺窗簾搖晃",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "皺",
+          "zhuyin": "ㄓㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "窗",
+          "zhuyin": "ㄔㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "簾",
+          "zhuyin": "ㄌㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "晃",
+          "zhuyin": "ㄏㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600103",
+      "examPhase": "midterm_before",
+      "readText": "別捉弄真摯朋友",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "捉",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "弄",
+          "zhuyin": "ㄋㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "摯",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "朋",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600104",
+      "examPhase": "midterm_before",
+      "readText": "蝶蛹長出彩翼",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "蝶",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蛹",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "長",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "翼",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600105",
+      "examPhase": "midterm_before",
+      "readText": "筆記加註噴泉位置",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "筆",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "註",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "噴",
+          "zhuyin": "ㄆㄣ"
+        },
+        {
+          "type": "text",
+          "char": "泉",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "置",
+          "zhuyin": "ㄓˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610600106",
+      "examPhase": "midterm_before",
+      "readText": "資料加註後儲存",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "資",
+          "zhuyin": "ㄗ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "註",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "儲",
+          "zhuyin": "ㄔㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "存",
+          "zhuyin": "ㄘㄨㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610600107",
+      "examPhase": "midterm_before",
+      "readText": "老師勉勵我邁向目標",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "blank",
+          "char": "勉",
+          "zhuyin": "ㄇㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "勵",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "邁",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "向",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "標",
+          "zhuyin": "ㄅㄧㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610600108",
+      "examPhase": "midterm_before",
+      "readText": "主動詢問能減少迷惘",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "主",
+          "zhuyin": "ㄓㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "詢",
+          "zhuyin": "ㄒㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "問",
+          "zhuyin": "ㄨㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "減",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "迷",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "惘",
+          "zhuyin": "ㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610600109",
+      "examPhase": "midterm_before",
+      "readText": "邁步奔赴遠方",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "邁",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "奔",
+          "zhuyin": "ㄅㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "赴",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "遠",
+          "zhuyin": "ㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202610600110",
+      "examPhase": "midterm_before",
+      "readText": "真摯友誼可以永恆",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "真",
+          "zhuyin": "ㄓㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "摯",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "友",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "誼",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "永",
+          "zhuyin": "ㄩㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "恆",
+          "zhuyin": "ㄏㄥˊ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "id": "20262050",
+  "title": "2026年小五上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620501101",
+      "examPhase": "midterm_before",
+      "readText": "達駭身上留有疤痕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "達",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "blank",
+          "char": "駭",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "疤",
+          "zhuyin": "ㄅㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "痕",
+          "zhuyin": "ㄏㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501102",
+      "examPhase": "midterm_before",
+      "readText": "鐵罐傳來咚咚聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "鐵",
+          "zhuyin": "ㄊㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "罐",
+          "zhuyin": "ㄍㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "咚",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "咚",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620501103",
+      "examPhase": "midterm_before",
+      "readText": "途中碰上傾盆大雨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "途",
+          "zhuyin": "ㄊㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "碰",
+          "zhuyin": "ㄆㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "傾",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "盆",
+          "zhuyin": "ㄆㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "雨",
+          "zhuyin": "ㄩˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620501104",
+      "examPhase": "midterm_before",
+      "readText": "山寮旁點起營火",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "寮",
+          "zhuyin": "ㄌㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "營",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620501105",
+      "examPhase": "midterm_before",
+      "readText": "崇敬生命不要殺害動物",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "崇",
+          "zhuyin": "ㄔㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "敬",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "命",
+          "zhuyin": "ㄇㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "殺",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "text",
+          "char": "害",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620501106",
+      "examPhase": "midterm_before",
+      "readText": "棄置物旁小鳥奄奄一息",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "棄",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "置",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "鳥",
+          "zhuyin": "ㄋㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奄",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "奄",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "息",
+          "zhuyin": "ㄒㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202620501107",
+      "examPhase": "midterm_before",
+      "readText": "救援時大家小心翼翼",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "救",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "援",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "翼",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "翼",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620501108",
+      "examPhase": "midterm_before",
+      "readText": "大家為平安祈禱",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "為",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "安",
+          "zhuyin": "ㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "祈",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "禱",
+          "zhuyin": "ㄉㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620501109",
+      "examPhase": "midterm_before",
+      "readText": "大聲吼叫可能傷到喉嚨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "吼",
+          "zhuyin": "ㄏㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "傷",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "喉",
+          "zhuyin": "ㄏㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "嚨",
+          "zhuyin": "ㄌㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620501110",
+      "examPhase": "midterm_before",
+      "readText": "營火旁聽見低沉吼聲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "營",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "聽",
+          "zhuyin": "ㄊㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "見",
+          "zhuyin": "ㄐㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "低",
+          "zhuyin": "ㄉㄧ"
+        },
+        {
+          "type": "text",
+          "char": "沉",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "吼",
+          "zhuyin": "ㄏㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    }
+  ]
+}

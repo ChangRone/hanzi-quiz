@@ -1,0 +1,481 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500401",
+      "examPhase": "midterm_before",
+      "readText": "乳白雲彩渲染天空",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "乳",
+          "zhuyin": "ㄖㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "雲",
+          "zhuyin": "ㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "渲",
+          "zhuyin": "ㄒㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "染",
+          "zhuyin": "ㄖㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600500402",
+      "examPhase": "midterm_before",
+      "readText": "臭味滲進房間",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "臭",
+          "zhuyin": "ㄔㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "滲",
+          "zhuyin": "ㄕㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "房",
+          "zhuyin": "ㄈㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "間",
+          "zhuyin": "ㄐㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600500403",
+      "examPhase": "midterm_before",
+      "readText": "熔漿旁有熱泉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "熔",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "漿",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "泉",
+          "zhuyin": "ㄑㄩㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500404",
+      "examPhase": "midterm_before",
+      "readText": "熱泉附近產生蒸氣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "泉",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "附",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "blank",
+          "char": "產",
+          "zhuyin": "ㄔㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "蒸",
+          "zhuyin": "ㄓㄥ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500405",
+      "examPhase": "midterm_before",
+      "readText": "煙囪排成一列",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "囪",
+          "zhuyin": "ㄘㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "列",
+          "zhuyin": "ㄌㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500406",
+      "examPhase": "midterm_before",
+      "readText": "星羅棋布閃耀夜空",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "星",
+          "zhuyin": "ㄒㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "羅",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "棋",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "布",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "閃",
+          "zhuyin": "ㄕㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "耀",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600500407",
+      "examPhase": "midterm_before",
+      "readText": "微弱螢光照得眼睛有些目眩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "微",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "弱",
+          "zhuyin": "ㄖㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "螢",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "睛",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "些",
+          "zhuyin": "ㄒㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "目",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "眩",
+          "zhuyin": "ㄒㄩㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500408",
+      "examPhase": "midterm_before",
+      "readText": "漲潮和月亮有關係",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "漲",
+          "zhuyin": "ㄓㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "潮",
+          "zhuyin": "ㄔㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "月",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "係",
+          "zhuyin": "ㄒㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500409",
+      "examPhase": "midterm_before",
+      "readText": "特殊光線呈現藍色",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "殊",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "線",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "呈",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "藍",
+          "zhuyin": "ㄌㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500410",
+      "examPhase": "midterm_before",
+      "readText": "乳白海岸呈現特殊面貌",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "乳",
+          "zhuyin": "ㄖㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "呈",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "殊",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "貌",
+          "zhuyin": "ㄇㄠˋ"
+        }
+      ]
+    }
+  ]
+}

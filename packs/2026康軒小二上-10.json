@@ -1,0 +1,451 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620201001",
+      "examPhase": "midterm_before",
+      "readText": "雪梨夜晚很熱鬧",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "梨",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "鬧",
+          "zhuyin": "ㄋㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201002",
+      "examPhase": "midterm_before",
+      "readText": "天氣冷卻適合散步",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "卻",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201003",
+      "examPhase": "midterm_before",
+      "readText": "臺灣四季和南半球相反",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "季",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "南",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "半",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "球",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "反",
+          "zhuyin": "ㄈㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620201004",
+      "examPhase": "midterm_before",
+      "readText": "大家等待看煙火",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620201005",
+      "examPhase": "midterm_before",
+      "readText": "雖然冷還是想出門",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "還",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620201006",
+      "examPhase": "midterm_before",
+      "readText": "春節要買年貨",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "貨",
+          "zhuyin": "ㄏㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201007",
+      "examPhase": "midterm_before",
+      "readText": "我期待年夜飯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620201008",
+      "examPhase": "midterm_before",
+      "readText": "冬夜煙火照天空",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "冬",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "空",
+          "zhuyin": "ㄎㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620201009",
+      "examPhase": "midterm_before",
+      "readText": "雪梨和臺灣不同",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "梨",
+          "zhuyin": "ㄌㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "同",
+          "zhuyin": "ㄊㄨㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620201010",
+      "examPhase": "midterm_before",
+      "readText": "等待春天很有期待",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ]
+    }
+  ]
+}

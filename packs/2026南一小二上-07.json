@@ -1,0 +1,466 @@
+{
+  "id": "20260020",
+  "title": "2026年小二上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600200701",
+      "examPhase": "midterm_before",
+      "readText": "農夫一早去田裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600200702",
+      "examPhase": "midterm_before",
+      "readText": "夏天剛亮就出門",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夏",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "剛",
+          "zhuyin": "ㄍㄤ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600200703",
+      "examPhase": "midterm_before",
+      "readText": "兔子趕路時撞到樹",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兔",
+          "zhuyin": "ㄊㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "趕",
+          "zhuyin": "ㄍㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "撞",
+          "zhuyin": "ㄓㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200704",
+      "examPhase": "midterm_before",
+      "readText": "他覺得今天很幸運",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "覺",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "幸",
+          "zhuyin": "ㄒㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "運",
+          "zhuyin": "ㄩㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200705",
+      "examPhase": "midterm_before",
+      "readText": "以後農夫不再偷懶",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "偷",
+          "zhuyin": "ㄊㄡ"
+        },
+        {
+          "type": "text",
+          "char": "懶",
+          "zhuyin": "ㄌㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600200706",
+      "examPhase": "midterm_before",
+      "readText": "他每天耕田守著作物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "text",
+          "char": "每",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "耕",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "守",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600200707",
+      "examPhase": "midterm_before",
+      "readText": "我等到夜晚才回家",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "晚",
+          "zhuyin": "ㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "才",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600200708",
+      "examPhase": "midterm_before",
+      "readText": "北風吹得樹枝搖晃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "北",
+          "zhuyin": "ㄅㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "枝",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "blank",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "晃",
+          "zhuyin": "ㄏㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600200709",
+      "examPhase": "midterm_before",
+      "readText": "農夫去耕田",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "農",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夫",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "去",
+          "zhuyin": "ㄑㄩˋ"
+        },
+        {
+          "type": "blank",
+          "char": "耕",
+          "zhuyin": "ㄍㄥ"
+        },
+        {
+          "type": "text",
+          "char": "田",
+          "zhuyin": "ㄊㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600200710",
+      "examPhase": "midterm_before",
+      "readText": "兔子在北風裡等天亮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "兔",
+          "zhuyin": "ㄊㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "北",
+          "zhuyin": "ㄅㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "亮",
+          "zhuyin": "ㄌㄧㄤˋ"
+        }
+      ]
+    }
+  ]
+}

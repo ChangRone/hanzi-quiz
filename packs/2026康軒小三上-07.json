@@ -1,0 +1,446 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620300701",
+      "examPhase": "midterm_before",
+      "readText": "傳統商行保留古味",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "統",
+          "zhuyin": "ㄊㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "行",
+          "zhuyin": "ㄏㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "留",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300702",
+      "examPhase": "midterm_before",
+      "readText": "阿婆賣著鐵蛋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "阿",
+          "zhuyin": "ㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "賣",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鐵",
+          "zhuyin": "ㄊㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300703",
+      "examPhase": "midterm_before",
+      "readText": "鐵蛋愈嚼愈香",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鐵",
+          "zhuyin": "ㄊㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "愈",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "嚼",
+          "zhuyin": "ㄐㄩㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "愈",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202620300704",
+      "examPhase": "midterm_before",
+      "readText": "蒼老牆面在山坡上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蒼",
+          "zhuyin": "ㄘㄤ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "牆",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "坡",
+          "zhuyin": "ㄆㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300705",
+      "examPhase": "midterm_before",
+      "readText": "古街讓人想起回憶",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "憶",
+          "zhuyin": "ㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300706",
+      "examPhase": "midterm_before",
+      "readText": "夕陽下船身搖盪",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夕",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "身",
+          "zhuyin": "ㄕㄣ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "盪",
+          "zhuyin": "ㄉㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300707",
+      "examPhase": "midterm_before",
+      "readText": "夕陽下有人撒網",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夕",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "撒",
+          "zhuyin": "ㄙㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "網",
+          "zhuyin": "ㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300708",
+      "examPhase": "midterm_before",
+      "readText": "阿婆站在硬木商店前",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "阿",
+          "zhuyin": "ㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "婆",
+          "zhuyin": "ㄆㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "站",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "硬",
+          "zhuyin": "ㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "商",
+          "zhuyin": "ㄕㄤ"
+        },
+        {
+          "type": "text",
+          "char": "店",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300709",
+      "examPhase": "midterm_before",
+      "readText": "古老山坡景色美",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "古",
+          "zhuyin": "ㄍㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "坡",
+          "zhuyin": "ㄆㄛ"
+        },
+        {
+          "type": "text",
+          "char": "景",
+          "zhuyin": "ㄐㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300710",
+      "examPhase": "midterm_before",
+      "readText": "鐵網在風中搖盪",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鐵",
+          "zhuyin": "ㄊㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "網",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "盪",
+          "zhuyin": "ㄉㄤˋ"
+        }
+      ]
+    }
+  ]
+}

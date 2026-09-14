@@ -1,0 +1,461 @@
+{
+  "id": "20261030",
+  "title": "2026年小三上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610300801",
+      "examPhase": "midterm_before",
+      "readText": "寄居蟹躲進貝殼",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "寄",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "text",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "躲",
+          "zhuyin": "ㄉㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "貝",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "殼",
+          "zhuyin": "ㄎㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300802",
+      "examPhase": "midterm_before",
+      "readText": "第一幕出現紙杯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "第",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幕",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "現",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "杯",
+          "zhuyin": "ㄅㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202610300803",
+      "examPhase": "midterm_before",
+      "readText": "人類不要亂丟瓶子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "類",
+          "zhuyin": "ㄌㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "亂",
+          "zhuyin": "ㄌㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "丟",
+          "zhuyin": "ㄉㄧㄡ"
+        },
+        {
+          "type": "blank",
+          "char": "瓶",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202610300804",
+      "examPhase": "midterm_before",
+      "readText": "瓶蓋落在沙灘上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "瓶",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "蓋",
+          "zhuyin": "ㄍㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "落",
+          "zhuyin": "ㄌㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "沙",
+          "zhuyin": "ㄕㄚ"
+        },
+        {
+          "type": "text",
+          "char": "灘",
+          "zhuyin": "ㄊㄢ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300805",
+      "examPhase": "midterm_before",
+      "readText": "淨灘志工開始工作",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "淨",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "灘",
+          "zhuyin": "ㄊㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "始",
+          "zhuyin": "ㄕˇ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300806",
+      "examPhase": "midterm_before",
+      "readText": "大家一起撿垃圾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "撿",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "垃",
+          "zhuyin": "ㄌㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "圾",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    },
+    {
+      "id": "202610300807",
+      "examPhase": "midterm_before",
+      "readText": "兩位志工愛護海岸",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "兩",
+          "zhuyin": "ㄌㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "位",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "志",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "愛",
+          "zhuyin": "ㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "岸",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610300808",
+      "examPhase": "midterm_before",
+      "readText": "我們應該保護貝殼",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        },
+        {
+          "type": "blank",
+          "char": "應",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "該",
+          "zhuyin": "ㄍㄞ"
+        },
+        {
+          "type": "text",
+          "char": "保",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "護",
+          "zhuyin": "ㄏㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "貝",
+          "zhuyin": "ㄅㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "殼",
+          "zhuyin": "ㄎㄜˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610300809",
+      "examPhase": "midterm_before",
+      "readText": "紙杯和寶特瓶要回收",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "杯",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "寶",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "特",
+          "zhuyin": "ㄊㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "瓶",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202610300810",
+      "examPhase": "midterm_before",
+      "readText": "寄居蟹旁有垃圾",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "寄",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "居",
+          "zhuyin": "ㄐㄩ"
+        },
+        {
+          "type": "text",
+          "char": "蟹",
+          "zhuyin": "ㄒㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "垃",
+          "zhuyin": "ㄌㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "圾",
+          "zhuyin": "ㄐㄧ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "id": "20261020",
+  "title": "2026年小二上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610200401",
+      "examPhase": "midterm_before",
+      "readText": "呱呱聲從池邊傳來",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "呱",
+          "zhuyin": "ㄍㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "呱",
+          "zhuyin": "ㄍㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "從",
+          "zhuyin": "ㄘㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "池",
+          "zhuyin": "ㄔˊ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610200402",
+      "examPhase": "midterm_before",
+      "readText": "我只聞聲音來猜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "聞",
+          "zhuyin": "ㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "猜",
+          "zhuyin": "ㄘㄞ"
+        }
+      ]
+    },
+    {
+      "id": "202610200403",
+      "examPhase": "midterm_before",
+      "readText": "青蛙靠近水邊",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "邊",
+          "zhuyin": "ㄅㄧㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202610200404",
+      "examPhase": "midterm_before",
+      "readText": "請別抓小動物",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "抓",
+          "zhuyin": "ㄓㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200405",
+      "examPhase": "midterm_before",
+      "readText": "如果乖乖就有獎勵",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "如",
+          "zhuyin": "ㄖㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "乖",
+          "zhuyin": "ㄍㄨㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "乖",
+          "zhuyin": "ㄍㄨㄞ"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "獎",
+          "zhuyin": "ㄐㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "勵",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200406",
+      "examPhase": "midterm_before",
+      "readText": "腦袋裡想著西瓜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "腦",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "袋",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "西",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "瓜",
+          "zhuyin": "ㄍㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610200407",
+      "examPhase": "midterm_before",
+      "readText": "我要證明自己會做",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "證",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "自",
+          "zhuyin": "ㄗˋ"
+        },
+        {
+          "type": "text",
+          "char": "己",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610200408",
+      "examPhase": "midterm_before",
+      "readText": "青蛙跳到石頭頂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        },
+        {
+          "type": "text",
+          "char": "跳",
+          "zhuyin": "ㄊㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "頂",
+          "zhuyin": "ㄉㄧㄥˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610200409",
+      "examPhase": "midterm_before",
+      "readText": "別靠近那隻青蛙",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "靠",
+          "zhuyin": "ㄎㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "近",
+          "zhuyin": "ㄐㄧㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "那",
+          "zhuyin": "ㄋㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "隻",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610200410",
+      "examPhase": "midterm_before",
+      "readText": "我猜腦袋裡有答案",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "猜",
+          "zhuyin": "ㄘㄞ"
+        },
+        {
+          "type": "blank",
+          "char": "腦",
+          "zhuyin": "ㄋㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "袋",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "答",
+          "zhuyin": "ㄉㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "案",
+          "zhuyin": "ㄢˋ"
+        }
+      ]
+    }
+  ]
+}

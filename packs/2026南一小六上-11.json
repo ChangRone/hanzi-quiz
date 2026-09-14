@@ -1,0 +1,471 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600601101",
+      "examPhase": "midterm_before",
+      "readText": "老師嚴肅斥責錯誤",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "嚴",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "肅",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "斥",
+          "zhuyin": "ㄔˋ"
+        },
+        {
+          "type": "text",
+          "char": "責",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "誤",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601102",
+      "examPhase": "midterm_before",
+      "readText": "在玄關讀了一遍",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "玄",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "讀",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "遍",
+          "zhuyin": "ㄅㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601103",
+      "examPhase": "midterm_before",
+      "readText": "青春痘紅腫要照顧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "痘",
+          "zhuyin": "ㄉㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "腫",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "顧",
+          "zhuyin": "ㄍㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601104",
+      "examPhase": "midterm_before",
+      "readText": "我央求媽媽幫忙敷藥",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "央",
+          "zhuyin": "ㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "媽",
+          "zhuyin": "ㄇㄚ"
+        },
+        {
+          "type": "text",
+          "char": "幫",
+          "zhuyin": "ㄅㄤ"
+        },
+        {
+          "type": "text",
+          "char": "忙",
+          "zhuyin": "ㄇㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "敷",
+          "zhuyin": "ㄈㄨ"
+        },
+        {
+          "type": "text",
+          "char": "藥",
+          "zhuyin": "ㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601105",
+      "examPhase": "midterm_before",
+      "readText": "不要隱瞞庭院裡的事",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "隱",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "瞞",
+          "zhuyin": "ㄇㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "庭",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600601106",
+      "examPhase": "midterm_before",
+      "readText": "制服袖口有家徽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "制",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "袖",
+          "zhuyin": "ㄒㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "徽",
+          "zhuyin": "ㄏㄨㄟ"
+        }
+      ]
+    },
+    {
+      "id": "202600601107",
+      "examPhase": "midterm_before",
+      "readText": "擤鼻涕要用面紙",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "擤",
+          "zhuyin": "ㄒㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "鼻",
+          "zhuyin": "ㄅㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "涕",
+          "zhuyin": "ㄊㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "紙",
+          "zhuyin": "ㄓˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600601108",
+      "examPhase": "midterm_before",
+      "readText": "鎂光讓照片泛白",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鎂",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "照",
+          "zhuyin": "ㄓㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "泛",
+          "zhuyin": "ㄈㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600601109",
+      "examPhase": "midterm_before",
+      "readText": "桌上有枇杷果實",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "枇",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "blank",
+          "char": "杷",
+          "zhuyin": "ㄆㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600601110",
+      "examPhase": "midterm_before",
+      "readText": "庭院玄關旁掛著家徽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "庭",
+          "zhuyin": "ㄊㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "玄",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "掛",
+          "zhuyin": "ㄍㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "徽",
+          "zhuyin": "ㄏㄨㄟ"
+        }
+      ]
+    }
+  ]
+}

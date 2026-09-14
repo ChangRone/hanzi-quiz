@@ -1,0 +1,471 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500501",
+      "examPhase": "midterm_before",
+      "readText": "英雄神采飛揚",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "英",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "雄",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "神",
+          "zhuyin": "ㄕㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "采",
+          "zhuyin": "ㄘㄞˇ"
+        },
+        {
+          "type": "text",
+          "char": "飛",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "揚",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500502",
+      "examPhase": "midterm_before",
+      "readText": "創作媲美專業作品",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "創",
+          "zhuyin": "ㄔㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "媲",
+          "zhuyin": "ㄆㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "專",
+          "zhuyin": "ㄓㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "業",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500503",
+      "examPhase": "midterm_before",
+      "readText": "我搜尋最新劇情",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "搜",
+          "zhuyin": "ㄙㄡ"
+        },
+        {
+          "type": "text",
+          "char": "尋",
+          "zhuyin": "ㄒㄩㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "最",
+          "zhuyin": "ㄗㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "劇",
+          "zhuyin": "ㄐㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500504",
+      "examPhase": "midterm_before",
+      "readText": "螢幕英雄拯救大家",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "螢",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "幕",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "英",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "雄",
+          "zhuyin": "ㄒㄩㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "拯",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "救",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610500505",
+      "examPhase": "midterm_before",
+      "readText": "影院預告很精彩",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "影",
+          "zhuyin": "ㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "院",
+          "zhuyin": "ㄩㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "預",
+          "zhuyin": "ㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "告",
+          "zhuyin": "ㄍㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "精",
+          "zhuyin": "ㄐㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "彩",
+          "zhuyin": "ㄘㄞˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500506",
+      "examPhase": "midterm_before",
+      "readText": "錯愕時脈搏加快",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "愕",
+          "zhuyin": "ㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "脈",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "搏",
+          "zhuyin": "ㄅㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500507",
+      "examPhase": "midterm_before",
+      "readText": "未授權可能觸犯規定",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "未",
+          "zhuyin": "ㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "授",
+          "zhuyin": "ㄕㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "權",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "觸",
+          "zhuyin": "ㄔㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "犯",
+          "zhuyin": "ㄈㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "規",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "定",
+          "zhuyin": "ㄉㄧㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500508",
+      "examPhase": "midterm_before",
+      "readText": "吔這樣做可能違法",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "吔",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "樣",
+          "zhuyin": "ㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "違",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500509",
+      "examPhase": "midterm_before",
+      "readText": "公司追求合理利潤",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "text",
+          "char": "追",
+          "zhuyin": "ㄓㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "求",
+          "zhuyin": "ㄑㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "利",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "潤",
+          "zhuyin": "ㄖㄨㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500510",
+      "examPhase": "midterm_before",
+      "readText": "創作者看到結果很錯愕",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "創",
+          "zhuyin": "ㄔㄨㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "作",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "者",
+          "zhuyin": "ㄓㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "結",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "果",
+          "zhuyin": "ㄍㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "愕",
+          "zhuyin": "ㄜˋ"
+        }
+      ]
+    }
+  ]
+}

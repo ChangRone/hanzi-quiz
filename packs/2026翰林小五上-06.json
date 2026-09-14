@@ -1,0 +1,471 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500601",
+      "examPhase": "midterm_before",
+      "readText": "世界盃不能缺席",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "世",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "界",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "盃",
+          "zhuyin": "ㄅㄟ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "缺",
+          "zhuyin": "ㄑㄩㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "席",
+          "zhuyin": "ㄒㄧˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500602",
+      "examPhase": "midterm_before",
+      "readText": "塑膠廢料要回收",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "塑",
+          "zhuyin": "ㄙㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "膠",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "廢",
+          "zhuyin": "ㄈㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202610500603",
+      "examPhase": "midterm_before",
+      "readText": "材質適合裝飲料",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "質",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "適",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "裝",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "飲",
+          "zhuyin": "ㄧㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500604",
+      "examPhase": "midterm_before",
+      "readText": "廢物不該只掩埋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "廢",
+          "zhuyin": "ㄈㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "該",
+          "zhuyin": "ㄍㄞ"
+        },
+        {
+          "type": "text",
+          "char": "只",
+          "zhuyin": "ㄓˇ"
+        },
+        {
+          "type": "blank",
+          "char": "掩",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "埋",
+          "zhuyin": "ㄇㄞˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500605",
+      "examPhase": "midterm_before",
+      "readText": "焚化後再熔解材料",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "焚",
+          "zhuyin": "ㄈㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "化",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "熔",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "解",
+          "zhuyin": "ㄐㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "材",
+          "zhuyin": "ㄘㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500606",
+      "examPhase": "midterm_before",
+      "readText": "回收瓶可以抽絲紡紗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "收",
+          "zhuyin": "ㄕㄡ"
+        },
+        {
+          "type": "text",
+          "char": "瓶",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "抽",
+          "zhuyin": "ㄔㄡ"
+        },
+        {
+          "type": "text",
+          "char": "絲",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "紡",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "紗",
+          "zhuyin": "ㄕㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610500607",
+      "examPhase": "midterm_before",
+      "readText": "再生布料品質極佳",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "再",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "布",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "料",
+          "zhuyin": "ㄌㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "品",
+          "zhuyin": "ㄆㄧㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "質",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "blank",
+          "char": "極",
+          "zhuyin": "ㄐㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "佳",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610500608",
+      "examPhase": "midterm_before",
+      "readText": "複合纖維用於紡織",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "複",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "纖",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "維",
+          "zhuyin": "ㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "於",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紡",
+          "zhuyin": "ㄈㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "織",
+          "zhuyin": "ㄓ"
+        }
+      ]
+    },
+    {
+      "id": "202610500609",
+      "examPhase": "midterm_before",
+      "readText": "至少減少能源消耗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "至",
+          "zhuyin": "ㄓˋ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "減",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "能",
+          "zhuyin": "ㄋㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "源",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "消",
+          "zhuyin": "ㄒㄧㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "耗",
+          "zhuyin": "ㄏㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500610",
+      "examPhase": "midterm_before",
+      "readText": "這屆比賽測試摩擦力",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "屆",
+          "zhuyin": "ㄐㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "比",
+          "zhuyin": "ㄅㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "賽",
+          "zhuyin": "ㄙㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "測",
+          "zhuyin": "ㄘㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "試",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "摩",
+          "zhuyin": "ㄇㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "擦",
+          "zhuyin": "ㄘㄚ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    }
+  ]
+}

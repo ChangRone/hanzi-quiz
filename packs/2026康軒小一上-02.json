@@ -1,0 +1,341 @@
+{
+  "id": "20262010",
+  "title": "2026年小一上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "01",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620100201",
+      "examPhase": "midterm_before",
+      "readText": "這是誰的書",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "誰",
+          "zhuyin": "ㄕㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "書",
+          "zhuyin": "ㄕㄨ"
+        }
+      ]
+    },
+    {
+      "id": "202620100202",
+      "examPhase": "midterm_before",
+      "readText": "我分好了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620100203",
+      "examPhase": "midterm_before",
+      "readText": "誰多拿一個",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "誰",
+          "zhuyin": "ㄕㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100204",
+      "examPhase": "midterm_before",
+      "readText": "這個我拿",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620100205",
+      "examPhase": "midterm_before",
+      "readText": "啊原來是誰",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "啊",
+          "zhuyin": "ㄚ˙"
+        },
+        {
+          "type": "text",
+          "char": "原",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "誰",
+          "zhuyin": "ㄕㄨㄟˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620100206",
+      "examPhase": "midterm_before",
+      "readText": "多分一個給他",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "給",
+          "zhuyin": "ㄍㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202620100207",
+      "examPhase": "midterm_before",
+      "readText": "我知道是誰的",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "知",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "blank",
+          "char": "誰",
+          "zhuyin": "ㄕㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620100208",
+      "examPhase": "midterm_before",
+      "readText": "分好了就坐下",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "就",
+          "zhuyin": "ㄐㄧㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "坐",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100209",
+      "examPhase": "midterm_before",
+      "readText": "多的一個在這",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620100210",
+      "examPhase": "midterm_before",
+      "readText": "啊我分錯了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "啊",
+          "zhuyin": "ㄚ˙"
+        },
+        {
+          "type": "blank",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "blank",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "錯",
+          "zhuyin": "ㄘㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ]
+    }
+  ]
+}

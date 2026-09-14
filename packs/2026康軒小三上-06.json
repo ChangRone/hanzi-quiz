@@ -1,0 +1,456 @@
+{
+  "id": "20262030",
+  "title": "2026年小三上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620300601",
+      "examPhase": "midterm_before",
+      "readText": "非常冷記得關門",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "非",
+          "zhuyin": "ㄈㄟ"
+        },
+        {
+          "type": "text",
+          "char": "常",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300602",
+      "examPhase": "midterm_before",
+      "readText": "洗澡時別害怕",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "洗",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "澡",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "害",
+          "zhuyin": "ㄏㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "怕",
+          "zhuyin": "ㄆㄚˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300603",
+      "examPhase": "midterm_before",
+      "readText": "小貓奮力回應叫聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "貓",
+          "zhuyin": "ㄇㄠ"
+        },
+        {
+          "type": "blank",
+          "char": "奮",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "blank",
+          "char": "應",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "叫",
+          "zhuyin": "ㄐㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620300604",
+      "examPhase": "midterm_before",
+      "readText": "平常毛髮要梳理",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "常",
+          "zhuyin": "ㄔㄤˊ"
+        },
+        {
+          "type": "blank",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "髮",
+          "zhuyin": "ㄈㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "梳",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300605",
+      "examPhase": "midterm_before",
+      "readText": "小狗肚子蓋著毯子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "狗",
+          "zhuyin": "ㄍㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "肚",
+          "zhuyin": "ㄉㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "蓋",
+          "zhuyin": "ㄍㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "毯",
+          "zhuyin": "ㄊㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    },
+    {
+      "id": "202620300606",
+      "examPhase": "midterm_before",
+      "readText": "毛很柔軟可以輕揉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "blank",
+          "char": "柔",
+          "zhuyin": "ㄖㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "軟",
+          "zhuyin": "ㄖㄨㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "可",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "輕",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "揉",
+          "zhuyin": "ㄖㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300607",
+      "examPhase": "midterm_before",
+      "readText": "一副眼鏡用膠帶修好",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "副",
+          "zhuyin": "ㄈㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "眼",
+          "zhuyin": "ㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "鏡",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "膠",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "帶",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "修",
+          "zhuyin": "ㄒㄧㄡ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620300608",
+      "examPhase": "midterm_before",
+      "readText": "關門後小貓躺平",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "關",
+          "zhuyin": "ㄍㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "貓",
+          "zhuyin": "ㄇㄠ"
+        },
+        {
+          "type": "text",
+          "char": "躺",
+          "zhuyin": "ㄊㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "平",
+          "zhuyin": "ㄆㄧㄥˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620300609",
+      "examPhase": "midterm_before",
+      "readText": "膠水弄到毛上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "膠",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "弄",
+          "zhuyin": "ㄋㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "毛",
+          "zhuyin": "ㄇㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620300610",
+      "examPhase": "midterm_before",
+      "readText": "肚子不舒服別奮力跑",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "肚",
+          "zhuyin": "ㄉㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "舒",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "服",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "奮",
+          "zhuyin": "ㄈㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "跑",
+          "zhuyin": "ㄆㄠˇ"
+        }
+      ]
+    }
+  ]
+}

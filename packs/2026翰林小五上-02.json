@@ -1,0 +1,461 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610500201",
+      "examPhase": "midterm_before",
+      "readText": "直笛吹奏旋律",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "blank",
+          "char": "笛",
+          "zhuyin": "ㄉㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "吹",
+          "zhuyin": "ㄔㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "奏",
+          "zhuyin": "ㄗㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "律",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500202",
+      "examPhase": "midterm_before",
+      "readText": "樂聲縈繞在樹梢",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "縈",
+          "zhuyin": "ㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "繞",
+          "zhuyin": "ㄖㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "梢",
+          "zhuyin": "ㄕㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202610500203",
+      "examPhase": "midterm_before",
+      "readText": "走廊傳來熟悉笛聲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "廊",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "傳",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "悉",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "笛",
+          "zhuyin": "ㄉㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610500204",
+      "examPhase": "midterm_before",
+      "readText": "合奏聲音十分和諧",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "奏",
+          "zhuyin": "ㄗㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "諧",
+          "zhuyin": "ㄒㄧㄝˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610500205",
+      "examPhase": "midterm_before",
+      "readText": "上樓階必須慢慢走",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "樓",
+          "zhuyin": "ㄌㄡˊ"
+        },
+        {
+          "type": "blank",
+          "char": "階",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "須",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500206",
+      "examPhase": "midterm_before",
+      "readText": "合奏花絮很有趣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "奏",
+          "zhuyin": "ㄗㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "花",
+          "zhuyin": "ㄏㄨㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "絮",
+          "zhuyin": "ㄒㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "趣",
+          "zhuyin": "ㄑㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500207",
+      "examPhase": "midterm_before",
+      "readText": "隊伍整齊有威力",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "伍",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "齊",
+          "zhuyin": "ㄑㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "威",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500208",
+      "examPhase": "midterm_before",
+      "readText": "簡單旋律容易記",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "簡",
+          "zhuyin": "ㄐㄧㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "單",
+          "zhuyin": "ㄉㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "律",
+          "zhuyin": "ㄌㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "容",
+          "zhuyin": "ㄖㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "易",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "記",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610500209",
+      "examPhase": "midterm_before",
+      "readText": "熟悉聲音在走廊迴響",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "熟",
+          "zhuyin": "ㄕㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "悉",
+          "zhuyin": "ㄒㄧ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "廊",
+          "zhuyin": "ㄌㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "迴",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "響",
+          "zhuyin": "ㄒㄧㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202610500210",
+      "examPhase": "midterm_before",
+      "readText": "必須和隊伍一起合奏",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "必",
+          "zhuyin": "ㄅㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "須",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "伍",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "合",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "blank",
+          "char": "奏",
+          "zhuyin": "ㄗㄡˋ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "id": "20262020",
+  "title": "2026年小二上康軒版",
+  "year": "2026",
+  "publisherCode": "2",
+  "grade": "02",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202620200901",
+      "examPhase": "midterm_before",
+      "readText": "大象有粗粗的腿",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "粗",
+          "zhuyin": "ㄘㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "粗",
+          "zhuyin": "ㄘㄨ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "腿",
+          "zhuyin": "ㄊㄨㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200902",
+      "examPhase": "midterm_before",
+      "readText": "曹操站在柱子旁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "曹",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "操",
+          "zhuyin": "ㄘㄠ"
+        },
+        {
+          "type": "text",
+          "char": "站",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柱",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200903",
+      "examPhase": "midterm_before",
+      "readText": "木工砍成幾個部分",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "工",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "砍",
+          "zhuyin": "ㄎㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "分",
+          "zhuyin": "ㄈㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200904",
+      "examPhase": "midterm_before",
+      "readText": "竟然有人搖頭",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竟",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200905",
+      "examPhase": "midterm_before",
+      "readText": "沿路水流往前沖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "沿",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "流",
+          "zhuyin": "ㄌㄧㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "往",
+          "zhuyin": "ㄨㄤˇ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "沖",
+          "zhuyin": "ㄔㄨㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202620200906",
+      "examPhase": "midterm_before",
+      "readText": "首領牽著大象慢慢前進",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "首",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "領",
+          "zhuyin": "ㄌㄧㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "牽",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "前",
+          "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "進",
+          "zhuyin": "ㄐㄧㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200907",
+      "examPhase": "midterm_before",
+      "readText": "水越少船越不會沉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "越",
+          "zhuyin": "ㄩㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沉",
+          "zhuyin": "ㄔㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202620200908",
+      "examPhase": "midterm_before",
+      "readText": "年紀大也沿河散步",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紀",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "沿",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "河",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "步",
+          "zhuyin": "ㄅㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202620200909",
+      "examPhase": "midterm_before",
+      "readText": "幾斤重到底多少",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "斤",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "重",
+          "zhuyin": "ㄓㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "底",
+          "zhuyin": "ㄉㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202620200910",
+      "examPhase": "midterm_before",
+      "readText": "大象竟然不怕水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竟",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "怕",
+          "zhuyin": "ㄆㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ]
+    }
+  ]
+}

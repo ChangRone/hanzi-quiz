@@ -1,0 +1,456 @@
+{
+  "id": "20260030",
+  "title": "2026年小三上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "03",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600301101",
+      "examPhase": "midterm_before",
+      "readText": "石虎額頭有白點",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "虎",
+          "zhuyin": "ㄏㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "額",
+          "zhuyin": "ㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301102",
+      "examPhase": "midterm_before",
+      "readText": "石虎看起來像貓",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "虎",
+          "zhuyin": "ㄏㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "看",
+          "zhuyin": "ㄎㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "貓",
+          "zhuyin": "ㄇㄠ"
+        }
+      ]
+    },
+    {
+      "id": "202600301103",
+      "examPhase": "midterm_before",
+      "readText": "臺灣山林很美",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301104",
+      "examPhase": "midterm_before",
+      "readText": "石虎喜歡獨來獨往",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "虎",
+          "zhuyin": "ㄏㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "喜",
+          "zhuyin": "ㄒㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "歡",
+          "zhuyin": "ㄏㄨㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "獨",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "來",
+          "zhuyin": "ㄌㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "獨",
+          "zhuyin": "ㄉㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "往",
+          "zhuyin": "ㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600301105",
+      "examPhase": "midterm_before",
+      "readText": "祖先很早住在臺灣",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "祖",
+          "zhuyin": "ㄗㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        }
+      ]
+    },
+    {
+      "id": "202600301106",
+      "examPhase": "midterm_before",
+      "readText": "小貓想捉青蛙",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "貓",
+          "zhuyin": "ㄇㄠ"
+        },
+        {
+          "type": "text",
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
+        },
+        {
+          "type": "blank",
+          "char": "捉",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "蛙",
+          "zhuyin": "ㄨㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202600301107",
+      "examPhase": "midterm_before",
+      "readText": "人類不要占用森林",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "類",
+          "zhuyin": "ㄌㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "不",
+          "zhuyin": "ㄅㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "占",
+          "zhuyin": "ㄓㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "森",
+          "zhuyin": "ㄙㄣ"
+        },
+        {
+          "type": "text",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600301108",
+      "examPhase": "midterm_before",
+      "readText": "桌上有雞肉和青菜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "雞",
+          "zhuyin": "ㄐㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "肉",
+          "zhuyin": "ㄖㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "和",
+          "zhuyin": "ㄏㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "青",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "菜",
+          "zhuyin": "ㄘㄞˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600301109",
+      "examPhase": "midterm_before",
+      "readText": "石虎走路很有威風",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "虎",
+          "zhuyin": "ㄏㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "走",
+          "zhuyin": "ㄗㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "路",
+          "zhuyin": "ㄌㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "威",
+          "zhuyin": "ㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202600301110",
+      "examPhase": "midterm_before",
+      "readText": "人類認識一萬種昆蟲",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "人",
+          "zhuyin": "ㄖㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "類",
+          "zhuyin": "ㄌㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "認",
+          "zhuyin": "ㄖㄣˋ"
+        },
+        {
+          "type": "text",
+          "char": "識",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "萬",
+          "zhuyin": "ㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "種",
+          "zhuyin": "ㄓㄨㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "昆",
+          "zhuyin": "ㄎㄨㄣ"
+        },
+        {
+          "type": "text",
+          "char": "蟲",
+          "zhuyin": "ㄔㄨㄥˊ"
+        }
+      ]
+    }
+  ]
+}

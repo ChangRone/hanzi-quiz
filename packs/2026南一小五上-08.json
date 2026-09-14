@@ -1,0 +1,466 @@
+{
+  "id": "20260050",
+  "title": "2026年小五上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600500801",
+      "examPhase": "midterm_before",
+      "readText": "漢堡也有家鄉味",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "漢",
+          "zhuyin": "ㄏㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "堡",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "鄉",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500802",
+      "examPhase": "midterm_before",
+      "readText": "相撲選手吃海螺",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "撲",
+          "zhuyin": "ㄆㄨ"
+        },
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "text",
+          "char": "手",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "吃",
+          "zhuyin": "ㄔ"
+        },
+        {
+          "type": "text",
+          "char": "海",
+          "zhuyin": "ㄏㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "螺",
+          "zhuyin": "ㄌㄨㄛˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500803",
+      "examPhase": "midterm_before",
+      "readText": "鮭魚旁放著山葵",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "鮭",
+          "zhuyin": "ㄍㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "魚",
+          "zhuyin": "ㄩˊ"
+        },
+        {
+          "type": "text",
+          "char": "旁",
+          "zhuyin": "ㄆㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "山",
+          "zhuyin": "ㄕㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "葵",
+          "zhuyin": "ㄎㄨㄟˊ"
+        }
+      ]
+    },
+    {
+      "id": "202600500804",
+      "examPhase": "midterm_before",
+      "readText": "醬汁濃稠慢慢旋轉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "汁",
+          "zhuyin": "ㄓ"
+        },
+        {
+          "type": "text",
+          "char": "濃",
+          "zhuyin": "ㄋㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "稠",
+          "zhuyin": "ㄔㄡˊ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "慢",
+          "zhuyin": "ㄇㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "轉",
+          "zhuyin": "ㄓㄨㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500805",
+      "examPhase": "midterm_before",
+      "readText": "音樂旋律配上麥餅香",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旋",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "律",
+          "zhuyin": "ㄌㄩˋ"
+        },
+        {
+          "type": "text",
+          "char": "配",
+          "zhuyin": "ㄆㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "麥",
+          "zhuyin": "ㄇㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600500806",
+      "examPhase": "midterm_before",
+      "readText": "大家噓聲抗議太吵",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "噓",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "抗",
+          "zhuyin": "ㄎㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "議",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "吵",
+          "zhuyin": "ㄔㄠˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500807",
+      "examPhase": "midterm_before",
+      "readText": "餅皮又硬又扁",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "餅",
+          "zhuyin": "ㄅㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "皮",
+          "zhuyin": "ㄆㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "硬",
+          "zhuyin": "ㄧㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "扁",
+          "zhuyin": "ㄅㄧㄢˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600500808",
+      "examPhase": "midterm_before",
+      "readText": "麵筋加辣椒很夠味",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "麵",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "筋",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "加",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "text",
+          "char": "辣",
+          "zhuyin": "ㄌㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "椒",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "夠",
+          "zhuyin": "ㄍㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "味",
+          "zhuyin": "ㄨㄟˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600500809",
+      "examPhase": "midterm_before",
+      "readText": "辣椒大蒜炒得很香",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "辣",
+          "zhuyin": "ㄌㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "椒",
+          "zhuyin": "ㄐㄧㄠ"
+        },
+        {
+          "type": "text",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蒜",
+          "zhuyin": "ㄙㄨㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "炒",
+          "zhuyin": "ㄔㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "得",
+          "zhuyin": "ㄉㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "很",
+          "zhuyin": "ㄏㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "香",
+          "zhuyin": "ㄒㄧㄤ"
+        }
+      ]
+    },
+    {
+      "id": "202600500810",
+      "examPhase": "midterm_before",
+      "readText": "疊羅漢時要蓋好墊子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "疊",
+          "zhuyin": "ㄉㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "羅",
+          "zhuyin": "ㄌㄨㄛˊ"
+        },
+        {
+          "type": "blank",
+          "char": "漢",
+          "zhuyin": "ㄏㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "蓋",
+          "zhuyin": "ㄍㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "墊",
+          "zhuyin": "ㄉㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ]
+    }
+  ]
+}

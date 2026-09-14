@@ -1,0 +1,446 @@
+{
+  "id": "20261050",
+  "title": "2026年小五上翰林版",
+  "year": "2026",
+  "publisherCode": "1",
+  "grade": "05",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202610501101",
+      "examPhase": "midterm_before",
+      "readText": "蒲公英像一蓬白絮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "蒲",
+          "zhuyin": "ㄆㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "公",
+          "zhuyin": "ㄍㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "英",
+          "zhuyin": "ㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "蓬",
+          "zhuyin": "ㄆㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "白",
+          "zhuyin": "ㄅㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "絮",
+          "zhuyin": "ㄒㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501102",
+      "examPhase": "midterm_before",
+      "readText": "我用梳子梳掉細砂",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "梳",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "blank",
+          "char": "梳",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "細",
+          "zhuyin": "ㄒㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "砂",
+          "zhuyin": "ㄕㄚ"
+        }
+      ]
+    },
+    {
+      "id": "202610501103",
+      "examPhase": "midterm_before",
+      "readText": "螞蟻排隊搬食物",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "螞",
+          "zhuyin": "ㄇㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "蟻",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "排",
+          "zhuyin": "ㄆㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "隊",
+          "zhuyin": "ㄉㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "搬",
+          "zhuyin": "ㄅㄢ"
+        },
+        {
+          "type": "text",
+          "char": "食",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501104",
+      "examPhase": "midterm_before",
+      "readText": "楓葉掉下發出噗聲",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "楓",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "text",
+          "char": "掉",
+          "zhuyin": "ㄉㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "發",
+          "zhuyin": "ㄈㄚ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "噗",
+          "zhuyin": "ㄆㄨ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        }
+      ]
+    },
+    {
+      "id": "202610501105",
+      "examPhase": "midterm_before",
+      "readText": "炸彈聲讓小動物逃散",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "炸",
+          "zhuyin": "ㄓㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "彈",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "讓",
+          "zhuyin": "ㄖㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "逃",
+          "zhuyin": "ㄊㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "散",
+          "zhuyin": "ㄙㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501106",
+      "examPhase": "midterm_before",
+      "readText": "風拂過楓葉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "拂",
+          "zhuyin": "ㄈㄨˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "楓",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "葉",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501107",
+      "examPhase": "midterm_before",
+      "readText": "狂風掃過街道",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "狂",
+          "zhuyin": "ㄎㄨㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "掃",
+          "zhuyin": "ㄙㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "text",
+          "char": "街",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "text",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ]
+    },
+    {
+      "id": "202610501108",
+      "examPhase": "midterm_before",
+      "readText": "颱風後清理水溝",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "颱",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "風",
+          "zhuyin": "ㄈㄥ"
+        },
+        {
+          "type": "text",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "溝",
+          "zhuyin": "ㄍㄡ"
+        }
+      ]
+    },
+    {
+      "id": "202610501109",
+      "examPhase": "midterm_before",
+      "readText": "聰明孩子整理搖籃",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "聰",
+          "zhuyin": "ㄘㄨㄥ"
+        },
+        {
+          "type": "text",
+          "char": "明",
+          "zhuyin": "ㄇㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "孩",
+          "zhuyin": "ㄏㄞˊ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "整",
+          "zhuyin": "ㄓㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "理",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "籃",
+          "zhuyin": "ㄌㄢˊ"
+        }
+      ]
+    },
+    {
+      "id": "202610501110",
+      "examPhase": "midterm_before",
+      "readText": "選擇清脆的聲音",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "選",
+          "zhuyin": "ㄒㄩㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "擇",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "清",
+          "zhuyin": "ㄑㄧㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "脆",
+          "zhuyin": "ㄘㄨㄟˋ"
+        },
+        {
+          "type": "text",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "聲",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "音",
+          "zhuyin": "ㄧㄣ"
+        }
+      ]
+    }
+  ]
+}

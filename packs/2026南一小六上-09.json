@@ -1,0 +1,491 @@
+{
+  "id": "20260060",
+  "title": "2026年小六上南一版",
+  "year": "2026",
+  "publisherCode": "0",
+  "grade": "06",
+  "semester": "0",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "202600600901",
+      "examPhase": "midterm_before",
+      "readText": "實力懸殊也別以寡敵眾",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "實",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "text",
+          "char": "力",
+          "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "懸",
+          "zhuyin": "ㄒㄩㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "殊",
+          "zhuyin": "ㄕㄨ"
+        },
+        {
+          "type": "text",
+          "char": "也",
+          "zhuyin": "ㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "別",
+          "zhuyin": "ㄅㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "以",
+          "zhuyin": "ㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "寡",
+          "zhuyin": "ㄍㄨㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "敵",
+          "zhuyin": "ㄉㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "眾",
+          "zhuyin": "ㄓㄨㄥˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600902",
+      "examPhase": "midterm_before",
+      "readText": "他勃然生氣拿起木棍",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "他",
+          "zhuyin": "ㄊㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "勃",
+          "zhuyin": "ㄅㄛˊ"
+        },
+        {
+          "type": "text",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "生",
+          "zhuyin": "ㄕㄥ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "拿",
+          "zhuyin": "ㄋㄚˊ"
+        },
+        {
+          "type": "text",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "木",
+          "zhuyin": "ㄇㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "棍",
+          "zhuyin": "ㄍㄨㄣˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600903",
+      "examPhase": "midterm_before",
+      "readText": "軍糧在顛簸車上搖晃",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "糧",
+          "zhuyin": "ㄌㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "顛",
+          "zhuyin": "ㄉㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "簸",
+          "zhuyin": "ㄅㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "車",
+          "zhuyin": "ㄔㄜ"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        },
+        {
+          "type": "text",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "text",
+          "char": "晃",
+          "zhuyin": "ㄏㄨㄤˇ"
+        }
+      ]
+    },
+    {
+      "id": "202600600904",
+      "examPhase": "midterm_before",
+      "readText": "將軍獻出一個計策",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "將",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "軍",
+          "zhuyin": "ㄐㄩㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "獻",
+          "zhuyin": "ㄒㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "text",
+          "char": "一",
+          "zhuyin": "ㄧ"
+        },
+        {
+          "type": "text",
+          "char": "個",
+          "zhuyin": "ㄍㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "策",
+          "zhuyin": "ㄘㄜˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600905",
+      "examPhase": "midterm_before",
+      "readText": "幾艘船用鐵鏈鎖住",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "艘",
+          "zhuyin": "ㄙㄡ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "用",
+          "zhuyin": "ㄩㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "鐵",
+          "zhuyin": "ㄊㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "鏈",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鎖",
+          "zhuyin": "ㄙㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600906",
+      "examPhase": "midterm_before",
+      "readText": "否則事情會欠考慮",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "否",
+          "zhuyin": "ㄈㄡˇ"
+        },
+        {
+          "type": "text",
+          "char": "則",
+          "zhuyin": "ㄗㄜˊ"
+        },
+        {
+          "type": "text",
+          "char": "事",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "情",
+          "zhuyin": "ㄑㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "會",
+          "zhuyin": "ㄏㄨㄟˋ"
+        },
+        {
+          "type": "blank",
+          "char": "欠",
+          "zhuyin": "ㄑㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "考",
+          "zhuyin": "ㄎㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "慮",
+          "zhuyin": "ㄌㄩˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600907",
+      "examPhase": "midterm_before",
+      "readText": "江面霧氣瀰漫",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "江",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "霧",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "氣",
+          "zhuyin": "ㄑㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "瀰",
+          "zhuyin": "ㄇㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "漫",
+          "zhuyin": "ㄇㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600908",
+      "examPhase": "midterm_before",
+      "readText": "倉庫需要鞏固牆面",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "倉",
+          "zhuyin": "ㄘㄤ"
+        },
+        {
+          "type": "text",
+          "char": "庫",
+          "zhuyin": "ㄎㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "需",
+          "zhuyin": "ㄒㄩ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "鞏",
+          "zhuyin": "ㄍㄨㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "固",
+          "zhuyin": "ㄍㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "牆",
+          "zhuyin": "ㄑㄧㄤˊ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600909",
+      "examPhase": "midterm_before",
+      "readText": "計策形成三足鼎立",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "計",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "策",
+          "zhuyin": "ㄘㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "形",
+          "zhuyin": "ㄒㄧㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "三",
+          "zhuyin": "ㄙㄢ"
+        },
+        {
+          "type": "text",
+          "char": "足",
+          "zhuyin": "ㄗㄨˊ"
+        },
+        {
+          "type": "blank",
+          "char": "鼎",
+          "zhuyin": "ㄉㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "立",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ]
+    },
+    {
+      "id": "202600600910",
+      "examPhase": "midterm_before",
+      "readText": "顛簸船艘橫過江面",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "顛",
+          "zhuyin": "ㄉㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "簸",
+          "zhuyin": "ㄅㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "艘",
+          "zhuyin": "ㄙㄡ"
+        },
+        {
+          "type": "text",
+          "char": "橫",
+          "zhuyin": "ㄏㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "過",
+          "zhuyin": "ㄍㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "江",
+          "zhuyin": "ㄐㄧㄤ"
+        },
+        {
+          "type": "text",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ]
+    }
+  ]
+}
