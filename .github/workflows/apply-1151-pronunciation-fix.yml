@@ -1,0 +1,156 @@
+name: Apply verified 115-1 pronunciation fixes
+
+on:
+  push:
+    branches:
+      - release-1151-quiz-staging
+    paths:
+      - '.github/workflows/apply-1151-pronunciation-fix.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply occurrence-level pronunciation overrides and verify full release hash
+        shell: python
+        run: |
+          import hashlib, json, re
+          from pathlib import Path
+
+          EXPECTED_STRUCTURE_SHA = '52a66d6c57bba96d585143a29d2c63cf35ff563d6e229b85298e298d576393a9'
+          EXPECTED_FULL_SHA = '8d4b6fd815cb0f026a45bfded9c41a37550c6cd28cb16745b51901cc6b25ee54'
+          EXPECTED_OVERRIDE_SHA = 'd347605ba8c1f8144b4d87cd44f34723497578e65179c6033aaa306a6c17af45'
+          EXPECTED_INDEX_IDS = {
+              '20260010','20260020','20260030','20260040','20260050','20260060',
+              '20261010','20261020','20261030','20261040','20261050','20261060',
+              '20262010','20262020','20262030','20262040','20262050','20262060',
+          }
+
+          def canonical(obj):
+              return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+
+          overrides_obj = json.loads(Path('_release_1151_overrides.json').read_text(encoding='utf-8'))
+          assert overrides_obj['schemaVersion'] == '1.0.0'
+          assert overrides_obj['count'] == 48 == len(overrides_obj['items'])
+          compact = {'schemaVersion':'1.0.0','count':48,'items':sorted(overrides_obj['items'], key=lambda x:x['id'])}
+          override_sha = hashlib.sha256(canonical(compact)).hexdigest()
+          print(f'compactOverridesSha256={override_sha}')
+          assert override_sha == EXPECTED_OVERRIDE_SHA, (override_sha, EXPECTED_OVERRIDE_SHA)
+          overrides = {x['id']: x for x in compact['items']}
+          assert len(overrides) == 48
+
+          index = json.loads(Path('quiz-index.json').read_text(encoding='utf-8'))
+          entries = sorted([x for x in index if x.get('id') in EXPECTED_INDEX_IDS], key=lambda x:x['id'])
+          assert len(entries) == 18
+          assert {x['id'] for x in entries} == EXPECTED_INDEX_IDS
+
+          pack_paths = []
+          for entry in entries:
+              start, end = entry['lessonRange']
+              for lesson in range(start, end + 1):
+                  p = Path(entry['lessonPattern'].replace('{LL}', f'{lesson:02d}'))
+                  assert p.exists(), p
+                  pack_paths.append(p)
+          assert len(pack_paths) == 200
+          assert len({p.name for p in pack_paths}) == 200
+
+          files = {p.name: json.loads(p.read_text(encoding='utf-8')) for p in pack_paths}
+
+          # Pre-change structural fingerprint must exactly match the private release.
+          structural_files = {}
+          qcount = 0
+          tcount = 0
+          for name, pack in sorted(files.items()):
+              pp = {k:v for k,v in pack.items() if k != 'questions'}
+              qs = []
+              for q in pack['questions']:
+                  qcount += 1
+                  qq = {k:v for k,v in q.items() if k != 'tokens'}
+                  ts = []
+                  for t in q['tokens']:
+                      tcount += 1
+                      ts.append({'type':t['type'],'char':t['char']})
+                  qq['tokens'] = ts
+                  qs.append(qq)
+              pp['questions'] = qs
+              structural_files[name] = pp
+          structure_obj = {'files':dict(sorted(structural_files.items())),'indexEntries':entries}
+          structure_sha = hashlib.sha256(canonical(structure_obj)).hexdigest()
+          print(f'packCount={len(files)} questionCount={qcount} tokenCount={tcount}')
+          print(f'structureSha256={structure_sha}')
+          assert qcount == 2000 and tcount == 15575
+          assert structure_sha == EXPECTED_STRUCTURE_SHA
+
+          matched = set()
+          changed_paths = set()
+          for path in pack_paths:
+              pack = files[path.name]
+              pack_id = str(pack['id'])
+              assert len(pack_id) == 8 and pack_id.startswith('2026'), pack_id
+              group = f'{pack_id[4]}-{pack_id[5:7]}'
+              m = re.search(r'-(\d{2})\.json$', path.name)
+              assert m, path.name
+              lesson = int(m.group(1))
+              changed = False
+              for qnum, q in enumerate(pack['questions'], 1):
+                  for i, token in enumerate(q['tokens']):
+                      oid = f'{group}-L{lesson:02d}-Q{qnum:02d}-I{i:02d}'
+                      ov = overrides.get(oid)
+                      if not ov:
+                          continue
+                      assert token['char'] == ov['char'], (oid, token['char'], ov['char'])
+                      matched.add(oid)
+                      if token['zhuyin'] != ov['selectedZhuyin']:
+                          print(f"CHANGE {oid} {token['char']} {token['zhuyin']} -> {ov['selectedZhuyin']}")
+                          token['zhuyin'] = ov['selectedZhuyin']
+                          changed = True
+              if changed:
+                  changed_paths.add(path)
+
+          assert matched == set(overrides), (len(matched), sorted(set(overrides)-matched))
+          print(f'overrideMatched={len(matched)} changedPackCount={len(changed_paths)}')
+
+          # Full corrected release must be byte-canonically identical to private output.
+          full_obj = {'files':dict(sorted(files.items())),'indexEntries':entries}
+          full_sha = hashlib.sha256(canonical(full_obj)).hexdigest()
+          print(f'correctedReleaseSha256={full_sha}')
+          assert full_sha == EXPECTED_FULL_SHA, (full_sha, EXPECTED_FULL_SHA)
+
+          # Known contextual regression: same character, different readings by context.
+          k2 = files['2026康軒小二上-01.json']
+          by_text = {q['readText']:q for q in k2['questions']}
+          assert [t['zhuyin'] for t in by_text['我希望成為閱讀高手']['tokens'] if t['char']=='為'] == ['ㄨㄟˊ']
+          assert [t['zhuyin'] for t in by_text['老師只為我加油']['tokens'] if t['char']=='為'] == ['ㄨㄟˋ']
+
+          # Only now write changed packs.
+          for path in sorted(changed_paths):
+              path.write_text(json.dumps(files[path.name], ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          report = {
+              'status':'PASS',
+              'packCount':200,
+              'questionCount':2000,
+              'tokenCount':15575,
+              'overrideCount':48,
+              'matchedOverrideCount':len(matched),
+              'changedPackCount':len(changed_paths),
+              'structureSha256':structure_sha,
+              'correctedReleaseSha256':full_sha,
+              'compactOverridesSha256':override_sha,
+          }
+          Path('_release_1151_pronunciation_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print('FULL_RELEASE_HASH_PASS')
+      - name: Commit corrected packs after full hash pass
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898218+github-actions[bot]@users.noreply.github.com'
+          git add packs/2026*.json _release_1151_pronunciation_report.json
+          git diff --cached --check
+          git commit -m 'apply verified 115-1 occurrence-level pronunciation fixes' || true
+          git push origin HEAD:release-1151-quiz-staging
