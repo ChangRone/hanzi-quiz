@@ -1,0 +1,79 @@
+name: Verify 115-1 staging structure fingerprint
+
+on:
+  push:
+    branches:
+      - release-1151-quiz-staging
+    paths:
+      - '.github/workflows/verify-1151-structure-fingerprint.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify structure excluding zhuyin
+        shell: python
+        run: |
+          import hashlib, json
+          from pathlib import Path
+
+          EXPECTED_STRUCTURE_SHA = '52a66d6c57bba96d585143a29d2c63cf35ff563d6e229b85298e298d576393a9'
+          EXPECTED_INDEX_IDS = {
+              '20260010','20260020','20260030','20260040','20260050','20260060',
+              '20261010','20261020','20261030','20261040','20261050','20261060',
+              '20262010','20262020','20262030','20262040','20262050','20262060',
+          }
+
+          index = json.loads(Path('quiz-index.json').read_text(encoding='utf-8'))
+          entries = sorted([x for x in index if x.get('id') in EXPECTED_INDEX_IDS], key=lambda x: x['id'])
+          assert len(entries) == 18, len(entries)
+          assert {x['id'] for x in entries} == EXPECTED_INDEX_IDS
+
+          pack_paths = []
+          for entry in entries:
+              pattern = entry['lessonPattern']
+              start, end = entry['lessonRange']
+              for lesson in range(start, end + 1):
+                  p = Path(pattern.replace('{LL}', f'{lesson:02d}'))
+                  assert p.exists(), p
+                  pack_paths.append(p)
+          assert len(pack_paths) == 200, len(pack_paths)
+          assert len({p.name for p in pack_paths}) == 200
+
+          files = {}
+          question_count = 0
+          token_count = 0
+          for path in sorted(pack_paths, key=lambda p: p.name):
+              pack = json.loads(path.read_text(encoding='utf-8'))
+              p = {k: v for k, v in pack.items() if k != 'questions'}
+              questions = []
+              for q in pack['questions']:
+                  question_count += 1
+                  qq = {k: v for k, v in q.items() if k != 'tokens'}
+                  tokens = []
+                  for t in q['tokens']:
+                      token_count += 1
+                      tokens.append({'type': t['type'], 'char': t['char']})
+                  qq['tokens'] = tokens
+                  questions.append(qq)
+              p['questions'] = questions
+              files[path.name] = p
+
+          def canonical(obj):
+              return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+
+          structure_obj = {'files': dict(sorted(files.items())), 'indexEntries': entries}
+          actual = hashlib.sha256(canonical(structure_obj)).hexdigest()
+          print(f'packCount={len(files)}')
+          print(f'questionCount={question_count}')
+          print(f'tokenCount={token_count}')
+          print(f'structureSha256={actual}')
+          assert question_count == 2000, question_count
+          assert token_count == 15575, token_count
+          assert actual == EXPECTED_STRUCTURE_SHA, (actual, EXPECTED_STRUCTURE_SHA)
+          print('STRUCTURE_FINGERPRINT_PASS')
