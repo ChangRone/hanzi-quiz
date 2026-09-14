@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify structure excluding zhuyin
+      - name: Verify structure and print full staging fingerprint
         shell: python
         run: |
           import hashlib, json
@@ -45,11 +45,13 @@ jobs:
           assert len(pack_paths) == 200, len(pack_paths)
           assert len({p.name for p in pack_paths}) == 200
 
-          files = {}
+          raw_files = {}
+          structural_files = {}
           question_count = 0
           token_count = 0
           for path in sorted(pack_paths, key=lambda p: p.name):
               pack = json.loads(path.read_text(encoding='utf-8'))
+              raw_files[path.name] = pack
               p = {k: v for k, v in pack.items() if k != 'questions'}
               questions = []
               for q in pack['questions']:
@@ -62,18 +64,21 @@ jobs:
                   qq['tokens'] = tokens
                   questions.append(qq)
               p['questions'] = questions
-              files[path.name] = p
+              structural_files[path.name] = p
 
           def canonical(obj):
               return json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
 
-          structure_obj = {'files': dict(sorted(files.items())), 'indexEntries': entries}
-          actual = hashlib.sha256(canonical(structure_obj)).hexdigest()
-          print(f'packCount={len(files)}')
+          structure_obj = {'files': dict(sorted(structural_files.items())), 'indexEntries': entries}
+          full_obj = {'files': dict(sorted(raw_files.items())), 'indexEntries': entries}
+          structure_sha = hashlib.sha256(canonical(structure_obj)).hexdigest()
+          full_sha = hashlib.sha256(canonical(full_obj)).hexdigest()
+          print(f'packCount={len(raw_files)}')
           print(f'questionCount={question_count}')
           print(f'tokenCount={token_count}')
-          print(f'structureSha256={actual}')
+          print(f'structureSha256={structure_sha}')
+          print(f'baselineFullSha256={full_sha}')
           assert question_count == 2000, question_count
           assert token_count == 15575, token_count
-          assert actual == EXPECTED_STRUCTURE_SHA, (actual, EXPECTED_STRUCTURE_SHA)
+          assert structure_sha == EXPECTED_STRUCTURE_SHA, (structure_sha, EXPECTED_STRUCTURE_SHA)
           print('STRUCTURE_FINGERPRINT_PASS')
