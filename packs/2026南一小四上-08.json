@@ -57,7 +57,7 @@
         {
           "type": "text",
           "char": "突",
-          "zhuyin": "ㄊㄨ"
+          "zhuyin": "ㄊㄨˊ"
         },
         {
           "type": "text",
@@ -92,7 +92,7 @@
         {
           "type": "blank",
           "char": "眶",
-          "zhuyin": "ㄎㄨㄤˋ"
+          "zhuyin": "ㄎㄨㄤ"
         },
         {
           "type": "text",
@@ -250,7 +250,7 @@
         {
           "type": "blank",
           "char": "踮",
-          "zhuyin": "ㄉㄧㄢˇ"
+          "zhuyin": "ㄉㄧㄢˋ"
         },
         {
           "type": "text",
@@ -292,7 +292,7 @@
         {
           "type": "blank",
           "char": "踮",
-          "zhuyin": "ㄉㄧㄢˇ"
+          "zhuyin": "ㄉㄧㄢˋ"
         },
         {
           "type": "text",
@@ -364,7 +364,7 @@
         {
           "type": "text",
           "char": "髮",
-          "zhuyin": "ㄈㄚˋ"
+          "zhuyin": "ㄈㄚˇ"
         },
         {
           "type": "blank",

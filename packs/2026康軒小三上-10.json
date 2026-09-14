@@ -87,12 +87,12 @@
         {
           "type": "text",
           "char": "悄",
-          "zhuyin": "ㄑㄧㄠ"
+          "zhuyin": "ㄑㄧㄠˇ"
         },
         {
           "type": "text",
           "char": "悄",
-          "zhuyin": "ㄑㄧㄠ"
+          "zhuyin": "ㄑㄧㄠˇ"
         },
         {
           "type": "text",
@@ -119,7 +119,7 @@
         {
           "type": "blank",
           "char": "呀",
-          "zhuyin": "ㄧㄚ˙"
+          "zhuyin": "ㄧㄚ"
         },
         {
           "type": "text",
@@ -245,7 +245,7 @@
         {
           "type": "text",
           "char": "得",
-          "zhuyin": "ㄉㄜˊ"
+          "zhuyin": "ㄉㄜ˙"
         },
         {
           "type": "text",
@@ -391,7 +391,7 @@
         {
           "type": "text",
           "char": "頭",
-          "zhuyin": "ㄊㄡˊ"
+          "zhuyin": "ㄊㄡ˙"
         }
       ]
     },

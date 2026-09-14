@@ -50,7 +50,7 @@
         {
           "type": "text",
           "char": "頭",
-          "zhuyin": "ㄊㄡˊ"
+          "zhuyin": "ㄊㄡ˙"
         }
       ]
     },
@@ -270,7 +270,7 @@
         {
           "type": "text",
           "char": "樂",
-          "zhuyin": "ㄌㄜˋ"
+          "zhuyin": "ㄩㄝˋ"
         },
         {
           "type": "blank",
@@ -364,12 +364,12 @@
         {
           "type": "text",
           "char": "樂",
-          "zhuyin": "ㄌㄜˋ"
+          "zhuyin": "ㄩㄝˋ"
         },
         {
           "type": "blank",
           "char": "曲",
-          "zhuyin": "ㄑㄩ"
+          "zhuyin": "ㄑㄩˇ"
         }
       ]
     },

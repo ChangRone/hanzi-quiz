@@ -345,7 +345,7 @@
         {
           "type": "blank",
           "char": "柵",
-          "zhuyin": "ㄕㄢ"
+          "zhuyin": "ㄓㄚˋ"
         }
       ]
     },
@@ -414,7 +414,7 @@
         {
           "type": "blank",
           "char": "悶",
-          "zhuyin": "ㄇㄣˋ"
+          "zhuyin": "ㄇㄣ"
         },
         {
           "type": "text",
@@ -459,12 +459,12 @@
         {
           "type": "text",
           "char": "垃",
-          "zhuyin": "ㄌㄚ"
+          "zhuyin": "ㄌㄜˋ"
         },
         {
           "type": "text",
           "char": "圾",
-          "zhuyin": "ㄐㄧ"
+          "zhuyin": "ㄙㄜˋ"
         }
       ]
     },
