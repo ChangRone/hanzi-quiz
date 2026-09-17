@@ -140,3 +140,24 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   .quiz-dock { grid-template-columns: repeat(2, 1fr); }
   .quiz-spacer { height: 150px; }
 }
+
+
+/* quiz-ux-behavior-fix */
+.known-lesson-vocab {
+  color: #dc2626;
+  font-weight: 800;
+}
+.question-card { position: relative; }
+.question-loading {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 5;
+  padding: 7px 11px;
+  border-radius: 10px;
+  background: rgba(17, 24, 39, 0.86);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}

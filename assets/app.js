@@ -54,7 +54,7 @@
     reviewSpeedLabel: el('review-speed-label'), allowBackwards: el('allow-backwards'),
     practiceEstimate: el('practice-estimate'), practiceEstimateNote: el('practice-estimate-note'), startPractice: el('start-practice'), homeMessage: el('home-message'),
     backHome: el('back-home'), quizModeLabel: el('quiz-mode-label'), progressLabel: el('progress-label'), quizLessonFocus: el('quiz-lesson-focus'),
-    questionText: el('question-text'), writers: el('writers'), quizMessage: el('quiz-message'),
+    questionText: el('question-text'), questionLoading: el('question-loading'), writers: el('writers'), quizMessage: el('quiz-message'),
     audioButton: el('audio-button'), resetButton: el('reset-button'), hintButton: el('hint-button'), nextButton: el('next-button'),
     dataDialog: el('data-dialog'), storageStatus: el('storage-status'), exportData: el('export-data'), importDataButton: el('import-data-button'), importDataFile: el('import-data-file'),
     driveStatus: el('drive-status'), driveConnect: el('drive-connect'), driveSync: el('drive-sync')
@@ -223,19 +223,10 @@
     }
     state.lessons = lessons.sort(compareLessonsNewestFirst);
     state.catalogLoaded = true;
-    if (!state.selectedLessonKeys.size) {
-      const recommended = getRecommendedLessons();
-      const initial = recommended.length ? recommended : state.lessons;
-      initial.forEach(lesson => state.selectedLessonKeys.add(lesson.key));
-      savePrefs({ selectedLessonKeys: [...state.selectedLessonKeys] });
-    } else {
-      const available = new Set(state.lessons.map(item => item.key));
-      state.selectedLessonKeys = new Set([...state.selectedLessonKeys].filter(key => available.has(key)));
-      if (!state.selectedLessonKeys.size && state.lessons.length) {
-        state.lessons.forEach(lesson => state.selectedLessonKeys.add(lesson.key));
-        savePrefs({ selectedLessonKeys: [...state.selectedLessonKeys] });
-      }
-    }
+    // Keep an existing saved selection, but never auto-select lessons by default.
+    const available = new Set(state.lessons.map(item => item.key));
+    state.selectedLessonKeys = new Set([...state.selectedLessonKeys].filter(key => available.has(key)));
+    savePrefs({ selectedLessonKeys: [...state.selectedLessonKeys] });
   }
 
   async function loadCatalogItem(item) {
@@ -443,7 +434,8 @@
         const tokens = question.tokens.map(token => {
           if (token.type !== 'blank') return { ...token };
           const key = stateKey(token.char, skill);
-          return { ...token, type: questionKeys.has(key) ? 'blank' : 'text' };
+          const staysBlank = questionKeys.has(key);
+          return { ...token, type: staysBlank ? 'blank' : 'text', lessonVocab: !staysBlank };
         });
         if (!tokens.some(token => token.type === 'blank')) continue;
         questionKeys.forEach(key => used.add(key));
@@ -497,8 +489,11 @@
 
   function renderQuestionText(question) {
     return question.tokens.map(token => {
-      const ruby = token.zhuyin ? `<ruby>${token.type === 'blank' ? '<span class="blank-char">　</span>' : escapeHtml(token.char)}<rt>${escapeHtml(token.zhuyin)}</rt></ruby>` : (token.type === 'blank' ? '<span class="blank-char">　</span>' : escapeHtml(token.char));
-      return ruby;
+      const isKnownLessonVocab = token.type !== 'blank' && token.lessonVocab;
+      const base = token.type === 'blank'
+        ? '<span class="blank-char">　</span>'
+        : `<span class="${isKnownLessonVocab ? 'known-lesson-vocab' : ''}">${escapeHtml(token.char)}</span>`;
+      return token.zhuyin ? `<ruby>${base}<rt>${escapeHtml(token.zhuyin)}</rt></ruby>` : base;
     }).join('');
   }
 
@@ -542,11 +537,23 @@
     card.appendChild(box);
     els.writers.appendChild(card);
 
+    const loadMeta = { totalStrokes: 0 };
+    let settleLoaded = () => {};
+    const loaded = new Promise(resolve => {
+      let settled = false;
+      settleLoaded = data => {
+        if (settled) return;
+        settled = true;
+        loadMeta.totalStrokes = data && Array.isArray(data.strokes) ? data.strokes.length : 0;
+        resolve();
+      };
+    });
+
     const writer = HanziWriter.create(box.id, token.char, {
       width: box.clientWidth || 260,
       height: box.clientWidth || 260,
       padding: 8,
-      showOutline: true,
+      showOutline: false,
       showCharacter: false,
       strokeAnimationSpeed: 1,
       delayBetweenStrokes: 180,
@@ -554,24 +561,55 @@
       strokeColor: '#111827',
       outlineColor: 'rgba(17, 24, 39, 0.18)',
       highlightColor: '#5b8def',
-      charDataLoader: makeCharDataLoader()
+      charDataLoader: makeCharDataLoader(),
+      onLoadCharDataSuccess: data => settleLoaded(data),
+      onLoadCharDataError: () => settleLoaded(null)
     });
 
-    const ws = { token, writer, box, failed: false, completed: false, recorded: false, question };
-    startWriterQuiz(ws);
+    const ws = {
+      token, writer, box, failed: false, completed: false, recorded: false, question,
+      nextStrokeNum: 0, missesSinceHint: 0, hinting: false, loaded, loadMeta
+    };
+    startWriterQuiz(ws, 0);
     return ws;
   }
 
-  function startWriterQuiz(ws) {
+  function startWriterQuiz(ws, startStrokeNum = ws.nextStrokeNum || 0) {
+    if (!ws || ws.completed) return;
     ws.completed = false;
+    ws.hinting = false;
+    ws.missesSinceHint = 0;
+    ws.nextStrokeNum = Math.max(0, Number(startStrokeNum) || 0);
     ws.box.classList.remove('done');
+    try { ws.writer.cancelQuiz(); } catch { /* noop */ }
     ws.writer.quiz({
       leniency: Number(state.dev.leniency) || 1.4,
       acceptBackwardsStrokes: state.allowBackwards,
-      showHintAfterMisses: 4,
+      showHintAfterMisses: false,
+      markStrokeCorrectAfterMisses: false,
+      quizStartStrokeNum: ws.nextStrokeNum,
       highlightOnComplete: state.dev.highlightOnComplete !== false,
-      markStrokeCorrectAfterMisses: Number(state.dev.markStrokeCorrectAfterMisses) || 4,
-      onMistake: () => { ws.failed = true; },
+      onCorrectStroke: data => {
+        ws.nextStrokeNum = Number(data.strokeNum) + 1;
+        ws.missesSinceHint = 0;
+      },
+      onMistake: data => {
+        ws.failed = true;
+        ws.missesSinceHint += 1;
+        if (ws.missesSinceHint < 4 || ws.hinting) return;
+        ws.missesSinceHint = 0;
+        ws.hinting = true;
+        const strokeNum = Number(data.strokeNum) || ws.nextStrokeNum || 0;
+        ws.nextStrokeNum = strokeNum;
+        try { ws.writer.cancelQuiz(); } catch { /* noop */ }
+        try {
+          ws.writer.highlightStroke(strokeNum, {
+            onComplete: () => startWriterQuiz(ws, strokeNum)
+          });
+        } catch {
+          startWriterQuiz(ws, strokeNum);
+        }
+      },
       onComplete: async summary => {
         ws.completed = true;
         ws.box.classList.add('done');
@@ -584,6 +622,26 @@
         }
       }
     });
+  }
+
+  async function showRemainingStrokeHint(ws) {
+    if (!ws || ws.completed || ws.hinting) return;
+    ws.failed = true;
+    ws.hinting = true;
+    ws.missesSinceHint = 0;
+    const startStroke = Math.max(0, Number(ws.nextStrokeNum) || 0);
+    const total = Math.max(startStroke + 1, Number(ws.loadMeta.totalStrokes) || startStroke + 1);
+    try { ws.writer.cancelQuiz(); } catch { /* noop */ }
+
+    const animateOne = strokeNum => new Promise(resolve => {
+      try { ws.writer.animateStroke(strokeNum, { onComplete: resolve }); }
+      catch { resolve(); }
+    });
+
+    for (let strokeNum = startStroke; strokeNum < total; strokeNum += 1) {
+      await animateOne(strokeNum);
+    }
+    startWriterQuiz(ws, startStroke);
   }
 
   async function recordWriterResult(ws, result) {
@@ -630,9 +688,14 @@
     els.quizMessage.textContent = `${courseDisplay(question.lesson)}`;
     els.writers.innerHTML = '';
     state.writerStates = [];
+    els.questionLoading.classList.remove('hidden');
+    els.audioButton.disabled = true;
     const blanks = question.tokens.map((token, index) => ({ token, index })).filter(item => item.token.type === 'blank');
     blanks.forEach(item => state.writerStates.push(createWriterState(question, item.token, item.index)));
-    setTimeout(speakQuestion, 250);
+    await Promise.all(state.writerStates.map(ws => ws.loaded));
+    els.questionLoading.classList.add('hidden');
+    els.audioButton.disabled = false;
+    speakQuestion();
   }
 
   async function goNextQuestion() {
@@ -654,16 +717,9 @@
   }
 
   function hintCurrentQuestion() {
-    state.writerStates.forEach(ws => {
-      if (ws.completed) return;
-      ws.failed = true;
-      try {
-        ws.writer.cancelQuiz();
-        ws.writer.animateCharacter({ onComplete: () => startWriterQuiz(ws) });
-      } catch {
-        startWriterQuiz(ws);
-      }
-    });
+    const target = state.writerStates.find(ws => !ws.completed);
+    if (!target) return;
+    showRemainingStrokeHint(target);
   }
 
   async function finishPractice() {
