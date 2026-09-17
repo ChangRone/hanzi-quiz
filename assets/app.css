@@ -148,6 +148,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   font-weight: 800;
 }
 .question-card { position: relative; }
+.question-zoom-button { display: none; }
 .question-loading {
   position: absolute;
   top: 12px;
@@ -196,6 +197,38 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
     border-radius: 15px;
     box-shadow: 0 7px 20px rgba(32, 45, 72, 0.10);
     overflow: hidden;
+  }
+
+  #quiz-view .question-zoom-button {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 3;
+    width: 26px;
+    height: 26px;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(237, 243, 255, .96);
+    color: #416ab8;
+    font-size: 1.05rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  #quiz-view.question-zoomed .question-card {
+    width: 132px;
+    overflow: visible;
+    box-shadow: 0 10px 30px rgba(32, 45, 72, .20);
+  }
+
+  #quiz-view.question-zoomed .question-text {
+    font-size: clamp(1.7rem, 8vw, 2rem);
+    line-height: 1.7;
+    max-height: calc(100svh - 175px);
   }
 
   #quiz-view .question-instruction {

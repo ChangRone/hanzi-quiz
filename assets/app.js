@@ -33,6 +33,8 @@
     currentLessonFocus: '',
     writerStates: [],
     autoNextTimer: null,
+    speechTimer: null,
+    questionZoomed: false,
     catalogLoaded: false,
     driveConfig: null,
     driveTokenClient: null,
@@ -54,7 +56,7 @@
     reviewSpeedLabel: el('review-speed-label'), allowBackwards: el('allow-backwards'),
     practiceEstimate: el('practice-estimate'), practiceEstimateNote: el('practice-estimate-note'), startPractice: el('start-practice'), homeMessage: el('home-message'),
     backHome: el('back-home'), quizModeLabel: el('quiz-mode-label'), progressLabel: el('progress-label'), quizLessonFocus: el('quiz-lesson-focus'),
-    questionText: el('question-text'), questionLoading: el('question-loading'), writers: el('writers'), quizMessage: el('quiz-message'),
+    questionText: el('question-text'), questionLoading: el('question-loading'), questionZoomButton: el('question-zoom-button'), writers: el('writers'), quizMessage: el('quiz-message'),
     audioButton: el('audio-button'), resetButton: el('reset-button'), hintButton: el('hint-button'), nextButton: el('next-button'),
     dataDialog: el('data-dialog'), storageStatus: el('storage-status'), exportData: el('export-data'), importDataButton: el('import-data-button'), importDataFile: el('import-data-file'),
     driveStatus: el('drive-status'), driveConnect: el('drive-connect'), driveSync: el('drive-sync')
@@ -675,14 +677,42 @@
     await Promise.all(jobs);
   }
 
+  function getTaiwanSpeechVoice() {
+    if (!('speechSynthesis' in window)) return null;
+    const voices = speechSynthesis.getVoices ? speechSynthesis.getVoices() : [];
+    return voices.find(voice => String(voice.lang || '').toLowerCase() === 'zh-tw')
+      || voices.find(voice => /^zh[-_]/i.test(String(voice.lang || '')))
+      || null;
+  }
+
+  function setQuestionZoomed(value) {
+    state.questionZoomed = Boolean(value);
+    els.quizView.classList.toggle('question-zoomed', state.questionZoomed);
+    if (els.questionZoomButton) {
+      els.questionZoomButton.textContent = state.questionZoomed ? '－' : '＋';
+      els.questionZoomButton.setAttribute('aria-pressed', state.questionZoomed ? 'true' : 'false');
+      els.questionZoomButton.setAttribute('aria-label', state.questionZoomed ? '還原句子大小' : '放大句子');
+    }
+  }
+
   function speakQuestion() {
     const question = state.currentQueue[state.currentIndex];
     if (!question || !question.readText || !('speechSynthesis' in window)) return;
-    speechSynthesis.cancel();
-    const utter = new SpeechSynthesisUtterance(question.readText);
+    clearTimeout(state.speechTimer);
+    try { speechSynthesis.cancel(); } catch { /* noop */ }
+    const utter = new SpeechSynthesisUtterance(`，${question.readText}`);
     utter.lang = 'zh-TW';
     utter.rate = 0.85;
-    speechSynthesis.speak(utter);
+    const voice = getTaiwanSpeechVoice();
+    if (voice) utter.voice = voice;
+    state.speechTimer = setTimeout(() => {
+      try {
+        if (speechSynthesis.paused) speechSynthesis.resume();
+        speechSynthesis.speak(utter);
+      } catch (err) {
+        console.warn('Speech synthesis failed', err);
+      }
+    }, 160);
   }
 
   async function showQuestion() {
@@ -692,6 +722,7 @@
       await finishPractice();
       return;
     }
+    setQuestionZoomed(false);
     els.progressLabel.textContent = `第 ${state.currentIndex + 1} / ${state.currentQueue.length} 題`;
     els.questionText.innerHTML = renderQuestionText(question);
     els.quizMessage.textContent = `${courseDisplay(question.lesson)}`;
@@ -776,6 +807,7 @@
 
   async function showHome() {
     clearTimeout(state.autoNextTimer);
+    clearTimeout(state.speechTimer);
     try { speechSynthesis.cancel(); } catch { /* noop */ }
     state.currentLessonFocus = '';
     els.quizView.classList.add('hidden');
@@ -1028,6 +1060,7 @@
     els.backHome.addEventListener('click', showHome);
     els.quizLessonFocus.addEventListener('change', () => focusLesson(els.quizLessonFocus.value));
     els.audioButton.addEventListener('click', speakQuestion);
+    if (els.questionZoomButton) els.questionZoomButton.addEventListener('click', () => setQuestionZoomed(!state.questionZoomed));
     els.resetButton.addEventListener('click', resetCurrentQuestion);
     els.hintButton.addEventListener('click', hintCurrentQuestion);
     els.nextButton.addEventListener('click', goNextQuestion);
