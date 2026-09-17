@@ -144,7 +144,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 
 /* quiz-ux-behavior-fix */
 .known-lesson-vocab {
-  color: #dc2626;
+  color: #365f8d;
   font-weight: 800;
 }
 .question-card { position: relative; }
