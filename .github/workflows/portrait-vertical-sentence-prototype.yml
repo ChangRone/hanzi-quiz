@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   patch:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,7 +29,7 @@ jobs:
           if pos < 0:
               raise SystemExit('portrait prototype marker not found')
 
-          block = r'''/* portrait-mobile-quiz-prototype
+          block = '''/* portrait-mobile-quiz-prototype
    Portrait phone layout: vertical sentence on the left, writing boxes in the
    middle, and a dedicated touch-scroll gutter on the right. Quiz/scoring logic
    is intentionally unchanged. */
@@ -44,8 +43,6 @@ jobs:
     align-items: start;
   }
 
-  /* Progress/setup leaves the viewport naturally. The right-most grid column is
-     deliberately kept empty so it remains a reliable vertical drag surface. */
   #quiz-view .quiz-header {
     grid-column: 1 / 3;
     position: relative;
@@ -54,7 +51,6 @@ jobs:
     margin-bottom: 8px;
   }
 
-  /* The sentence and writing area now start on the same horizontal plane. */
   #quiz-view .question-card {
     grid-column: 1;
     position: sticky;
@@ -69,7 +65,6 @@ jobs:
     overflow: hidden;
   }
 
-  /* In portrait mode the visible sentence itself is the instruction. */
   #quiz-view .question-instruction {
     display: none;
   }
@@ -94,8 +89,6 @@ jobs:
     font-size: .36em;
   }
 
-  /* A blank in vertical text becomes a vertical answer marker instead of a
-     horizontal underline. It still reveals no character. */
   #quiz-view .question-text .blank-char {
     display: inline-block;
     min-width: 0;
@@ -159,7 +152,6 @@ jobs:
     font-size: .82rem;
   }
 
-  /* Leave the same right-side drag gutter beside the fixed controls. */
   #quiz-view .quiz-dock {
     left: 9px;
     right: calc(9px + var(--portrait-scroll-gutter));
@@ -181,7 +173,7 @@ jobs:
         run: |
           git diff --check
           grep -q "writing-mode: vertical-rl" assets/app.css
-          grep -q "--portrait-scroll-gutter: 34px" assets/app.css
+          grep -q -- "--portrait-scroll-gutter: 34px" assets/app.css
           grep -q "grid-template-columns: var(--portrait-prompt-width)" assets/app.css
 
       - name: Commit prototype
