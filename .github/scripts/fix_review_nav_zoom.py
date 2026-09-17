@@ -52,6 +52,23 @@ new_eligible = '''    const eligibleKeys = new Set(candidates.filter(item => {
 if old_eligible in app:
     app = app.replace(old_eligible, new_eligible, 1)
 
+old_auto = '''        if (state.writerStates.every(item => item.completed)) {
+          els.quizMessage.textContent = '本題完成';
+          clearTimeout(state.autoNextTimer);
+          state.autoNextTimer = setTimeout(() => goNextQuestion(), 1800);
+        }'''
+new_auto = '''        if (state.writerStates.every(item => item.completed)) {
+          clearTimeout(state.autoNextTimer);
+          if (state.practiceMode === 'review') {
+            els.quizMessage.textContent = '本題完成，請按下一題';
+          } else {
+            els.quizMessage.textContent = '本題完成';
+            state.autoNextTimer = setTimeout(() => goNextQuestion(), 1800);
+          }
+        }'''
+if old_auto in app:
+    app = app.replace(old_auto, new_auto, 1)
+
 old_next = '''  async function goNextQuestion() {
     clearTimeout(state.autoNextTimer);
     await recordIncompleteAsFail();
@@ -100,6 +117,7 @@ if old_css in css:
     css = css.replace(old_css, new_css, 1)
 
 assert "Total review is lesson/question-complete practice" in app
+assert "本題完成，請按下一題" in app
 assert "if (state.navigating) return;" in app
 assert "state.navigating = false;" in app
 assert "width: min(200px, calc(100vw - var(--portrait-scroll-gutter) - 18px));" in css
