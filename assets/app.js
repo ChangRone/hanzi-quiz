@@ -35,6 +35,7 @@
     autoNextTimer: null,
     speechTimer: null,
     questionZoomed: false,
+    navigating: false,
     catalogLoaded: false,
     driveConfig: null,
     driveTokenClient: null,
@@ -415,9 +416,32 @@
     const lessons = (lessonSubset || selectedLessons()).slice().sort(compareLessonsNewestFirst);
     const candidates = collectCandidateCharacters(lessons);
     const stateMap = await getSkillStates(candidates.map(item => item.key));
+
+    // Total review is lesson/question-complete practice, not unique-character scheduling.
+    // Keep every selected question and every original blank. Learned history must not
+    // turn later occurrences blue or remove whole questions from the review queue.
+    if (state.practiceMode === 'review') {
+      const queue = [];
+      const reviewKeys = new Set();
+      for (const lesson of lessons) {
+        for (const question of lesson.questions) {
+          const skill = skillOfQuestion(question);
+          const tokens = question.tokens.map(token => ({ ...token }));
+          tokens.filter(token => token.type === 'blank').forEach(token => reviewKeys.add(stateKey(token.char, skill)));
+          if (!tokens.some(token => token.type === 'blank')) continue;
+          queue.push({ ...question, tokens, lesson, courseKey: lesson.key, skill });
+        }
+      }
+      shuffle(queue);
+      return {
+        queue,
+        charCount: reviewKeys.size,
+        newCount: candidates.filter(item => !stateMap.has(item.key)).length
+      };
+    }
+
     const now = Date.now();
     const eligibleKeys = new Set(candidates.filter(item => {
-      if (state.practiceMode === 'review') return true;
       const skillState = stateMap.get(item.key);
       return !skillState || !skillState.dueAt || new Date(skillState.dueAt).getTime() <= now;
     }).map(item => item.key));
@@ -739,14 +763,22 @@
   }
 
   async function goNextQuestion() {
+    if (state.navigating) return;
+    state.navigating = true;
     clearTimeout(state.autoNextTimer);
-    await recordIncompleteAsFail();
-    if (state.currentIndex >= state.currentQueue.length - 1) {
-      await finishPractice();
-      return;
+    els.nextButton.disabled = true;
+    try {
+      await recordIncompleteAsFail();
+      if (state.currentIndex >= state.currentQueue.length - 1) {
+        await finishPractice();
+        return;
+      }
+      state.currentIndex += 1;
+      await showQuestion();
+    } finally {
+      state.navigating = false;
+      els.nextButton.disabled = false;
     }
-    state.currentIndex += 1;
-    await showQuestion();
   }
 
   async function resetCurrentQuestion() {
@@ -784,6 +816,8 @@
     }
     state.currentQueue = result.queue;
     state.currentIndex = 0;
+    state.navigating = false;
+    els.nextButton.disabled = false;
     els.quizModeLabel.textContent = state.practiceMode === 'review' ? '總複習・隨機' : '一般練習・由新到舊';
     buildQuizLessonFocus();
     els.homeView.classList.add('hidden');

@@ -220,7 +220,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   }
 
   #quiz-view.question-zoomed .question-card {
-    width: 132px;
+    width: min(200px, calc(100vw - var(--portrait-scroll-gutter) - 18px));
     overflow: visible;
     box-shadow: 0 10px 30px rgba(32, 45, 72, .20);
   }
