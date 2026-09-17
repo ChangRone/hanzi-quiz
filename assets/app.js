@@ -651,9 +651,13 @@
         if (summary && Number(summary.totalMistakes) > 0) ws.failed = true;
         await recordWriterResult(ws, ws.failed ? 'fail' : 'pass');
         if (state.writerStates.every(item => item.completed)) {
-          els.quizMessage.textContent = '本題完成';
           clearTimeout(state.autoNextTimer);
-          state.autoNextTimer = setTimeout(() => goNextQuestion(), 1800);
+          if (state.practiceMode === 'review') {
+            els.quizMessage.textContent = '本題完成，請按下一題';
+          } else {
+            els.quizMessage.textContent = '本題完成';
+            state.autoNextTimer = setTimeout(() => goNextQuestion(), 1800);
+          }
         }
       }
     });
