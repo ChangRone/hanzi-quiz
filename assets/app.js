@@ -487,13 +487,22 @@
     renderMaterialSummary();
   }
 
+  function renderZhuyin(zhuyin) {
+    const reading = String(zhuyin || '');
+    const toneMatch = reading.match(/([ˊˇˋ˙])$/u);
+    const tone = toneMatch ? toneMatch[1] : '';
+    const symbols = tone ? reading.slice(0, -1) : reading;
+    const neutralClass = tone === '˙' ? ' zhuyin-tone-neutral' : '';
+    return `<span class="zhuyin-reading"><span class="zhuyin-symbols">${escapeHtml(symbols)}</span>${tone ? `<span class="zhuyin-tone${neutralClass}">${escapeHtml(tone)}</span>` : ''}</span>`;
+  }
+
   function renderQuestionText(question) {
     return question.tokens.map(token => {
       const isKnownLessonVocab = token.type !== 'blank' && token.lessonVocab;
       const base = token.type === 'blank'
         ? '<span class="blank-char">　</span>'
         : `<span class="${isKnownLessonVocab ? 'known-lesson-vocab' : ''}">${escapeHtml(token.char)}</span>`;
-      return token.zhuyin ? `<ruby>${base}<rt>${escapeHtml(token.zhuyin)}</rt></ruby>` : base;
+      return token.zhuyin ? `<ruby>${base}<rt>${renderZhuyin(token.zhuyin)}</rt></ruby>` : base;
     }).join('');
   }
 
