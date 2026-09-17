@@ -141,7 +141,6 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   .quiz-spacer { height: 150px; }
 }
 
-
 /* quiz-ux-behavior-fix */
 .known-lesson-vocab {
   color: #365f8d;
@@ -160,4 +159,105 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
   font-size: 0.82rem;
   font-weight: 800;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* portrait-mobile-quiz-prototype
+   Keep the question visible while reserving a real touch gutter on the right.
+   Quiz logic and writer scoring are intentionally unchanged. */
+@media (max-width: 640px) and (orientation: portrait) {
+  #quiz-view {
+    --portrait-scroll-gutter: 38px;
+  }
+
+  /* Let the setup/progress header leave the viewport naturally; keeping both
+     header and question sticky takes too much vertical room on a phone. */
+  #quiz-view .quiz-header {
+    position: relative;
+    top: auto;
+    z-index: 1;
+    margin-bottom: 8px;
+  }
+
+  /* Compact sticky prompt: the sentence stays in sight while writing lower boxes. */
+  #quiz-view .question-card {
+    position: sticky;
+    top: 6px;
+    z-index: 16;
+    margin-right: var(--portrait-scroll-gutter);
+    margin-bottom: 10px;
+    padding: 10px 12px 9px;
+    border-radius: 16px;
+    box-shadow: 0 7px 20px rgba(32, 45, 72, 0.10);
+  }
+
+  #quiz-view .question-instruction {
+    margin-bottom: 4px;
+    font-size: .76rem;
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #quiz-view .question-text {
+    min-height: 0;
+    font-size: clamp(1.3rem, 6vw, 1.65rem);
+    line-height: 1.65;
+  }
+
+  #quiz-view .question-loading {
+    top: 5px;
+    right: 5px;
+    padding: 5px 8px;
+    font-size: .72rem;
+  }
+
+  /* The 38px right side is deliberately outside writer-card/touch-action:none.
+     A child can drag vertically there even when the rest of the screen is a canvas. */
+  #quiz-view .writers-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-right: var(--portrait-scroll-gutter);
+  }
+
+  #quiz-view .writer-card {
+    width: 100%;
+    max-width: 330px;
+    align-self: flex-start;
+    padding: 9px;
+    border-radius: 16px;
+  }
+
+  #quiz-view .writer-label {
+    margin-bottom: 5px;
+    font-size: .9rem;
+  }
+
+  /* Slightly reduce the square so one prompt + most of one writing box can share
+     a common phone viewport without making the target too small for lower grades. */
+  #quiz-view .writer-box {
+    max-width: 306px;
+    margin: 0 auto;
+  }
+
+  #quiz-view .quiz-message {
+    margin-right: var(--portrait-scroll-gutter);
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: .82rem;
+  }
+
+  #quiz-view .quiz-dock {
+    width: calc(100vw - 18px);
+    bottom: max(8px, env(safe-area-inset-bottom));
+  }
+
+  .dock-button:disabled {
+    opacity: .42;
+    cursor: default;
+  }
 }
