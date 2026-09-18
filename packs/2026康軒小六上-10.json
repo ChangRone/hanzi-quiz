@@ -627,5 +627,8 @@
         }
       ]
     }
-  ]
+  ],
+  "catalog": {
+    "included": true
+  }
 }

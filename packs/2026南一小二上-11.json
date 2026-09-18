@@ -507,5 +507,8 @@
         }
       ]
     }
-  ]
+  ],
+  "catalog": {
+    "included": true
+  }
 }

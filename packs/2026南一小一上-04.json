@@ -412,5 +412,8 @@
         }
       ]
     }
-  ]
+  ],
+  "catalog": {
+    "included": true
+  }
 }

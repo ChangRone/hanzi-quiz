@@ -437,5 +437,8 @@
         }
       ]
     }
-  ]
+  ],
+  "catalog": {
+    "included": true
+  }
 }

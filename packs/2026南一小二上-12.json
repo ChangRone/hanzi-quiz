@@ -452,5 +452,8 @@
         }
       ]
     }
-  ]
+  ],
+  "catalog": {
+    "included": true
+  }
 }
