@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QuizCatalogV2",
+  "type": "object",
+  "required": [
+    "schema",
+    "version",
+    "source",
+    "includedPackCount",
+    "lessonCount",
+    "lessons"
+  ],
+  "properties": {
+    "schema": {
+      "const": "hanzi-quiz-catalog-v2"
+    },
+    "version": {
+      "const": 2
+    },
+    "source": {
+      "type": "string"
+    },
+    "includedPackCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "lessonCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "packId",
+          "packTitle",
+          "year",
+          "rocYear",
+          "publisherCode",
+          "grade",
+          "semester",
+          "version",
+          "lessonCode",
+          "lessonTitle",
+          "questionCount",
+          "charCount",
+          "blankChars",
+          "dataUrl",
+          "sourceHash"
+        ],
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "packId": {
+            "type": "string"
+          },
+          "packTitle": {
+            "type": "string"
+          },
+          "year": {
+            "type": "string"
+          },
+          "rocYear": {
+            "type": "integer"
+          },
+          "publisherCode": {
+            "type": "string"
+          },
+          "grade": {
+            "type": "string"
+          },
+          "semester": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "lessonCode": {
+            "type": "string"
+          },
+          "lessonTitle": {
+            "type": "string"
+          },
+          "questionCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "charCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "blankChars": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dataUrl": {
+            "type": "string"
+          },
+          "sourceHash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    }
+  }
+}
