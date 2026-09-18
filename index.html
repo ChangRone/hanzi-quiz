@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant-TW">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#f5f7fb" />
   <title>漢字練習</title>
   <link rel="stylesheet" href="assets/app.css" />
@@ -14,11 +14,11 @@
     <section id="home-view" class="view">
       <header class="home-header card">
         <div>
-          <div class="eyebrow">HANZI PRACTICE</div>
+          <div class="eyebrow">國語・生字練習</div>
           <h1>漢字練習</h1>
           <p class="subtle">選好教材，系統會依學習紀錄安排今天真正需要練的字。</p>
         </div>
-        <button id="sync-status-button" class="sync-chip" type="button">☁ 資料</button>
+        <button id="sync-status-button" class="sync-chip" type="button">資料備份</button>
       </header>
 
       <section class="profile-row card compact-card">
@@ -35,7 +35,7 @@
       <section class="card">
         <div class="section-head">
           <div><div class="small-label">我的練習教材</div><h2 id="material-summary-title">載入教材中…</h2></div>
-          <button id="open-materials" class="text-button" type="button">修改 / 加入</button>
+          <button id="open-materials" class="text-button" type="button">選擇教材</button>
         </div>
         <div id="material-summary" class="summary-box">正在讀取正式題庫。</div>
       </section>
@@ -67,7 +67,7 @@
 
     <section id="quiz-view" class="view hidden">
       <header class="quiz-header card compact-card">
-        <button id="back-home" class="icon-button" type="button" aria-label="返回首頁">⌂</button>
+        <button id="back-home" class="icon-button" type="button" aria-label="返回首頁">←</button>
         <div class="quiz-title-wrap"><div class="small-label" id="quiz-mode-label">一般練習</div><div id="progress-label" class="quiz-progress">第 1 / 1 題</div></div>
         <select id="quiz-lesson-focus" class="lesson-focus" aria-label="切換課次"></select>
       </header>
@@ -76,10 +76,10 @@
       <div id="quiz-message" class="quiz-message" aria-live="polite">準備開始</div>
       <div class="quiz-spacer"></div>
       <nav class="quiz-dock" aria-label="作答操作">
-        <button id="audio-button" class="dock-button" type="button">🔊 聽整句</button>
-        <button id="reset-button" class="dock-button" type="button">↺ 重寫</button>
-        <button id="hint-button" class="dock-button accent" type="button">💡 筆順提示</button>
-        <button id="next-button" class="dock-button primary" type="button">下一題 ➜</button>
+        <button id="audio-button" class="dock-button" type="button">聽整句</button>
+        <button id="reset-button" class="dock-button" type="button">重寫</button>
+        <button id="hint-button" class="dock-button accent" type="button">筆順提示</button>
+        <button id="next-button" class="dock-button primary" type="button">下一題</button>
       </nav>
     </section>
   </main>
