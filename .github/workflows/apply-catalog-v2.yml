@@ -1,0 +1,55 @@
+name: Apply TW Typography and Catalog v2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/catalog/migrate-from-quiz-index.mjs'
+      - '.github/workflows/apply-catalog-v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-tw-catalog-v2
+  cancel-in-progress: false
+
+jobs:
+  migrate-test-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Migrate explicit Catalog flags
+        run: node tools/catalog/migrate-from-quiz-index.mjs
+      - name: Build and validate Catalog v2
+        run: |
+          node tools/catalog/build-catalog-v2.mjs
+          node tools/catalog/validate-catalog-v2.mjs
+          node --check assets/app.js
+          git diff --check
+      - name: Install browser smoke dependency
+        run: npm install --no-save --package-lock=false puppeteer-core@24
+      - name: Start local Quiz
+        run: |
+          python3 -m http.server 8124 --bind 127.0.0.1 >/tmp/hanzi-quiz-http.log 2>&1 &
+          sleep 1
+      - name: Browser smoke
+        run: node tools/quiz-tw-v1/smoke.mjs
+      - name: Commit migration and generated Catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add packs quiz-catalog-v2.json
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo 'No migration changes.'
+            exit 0
+          fi
+          git commit -m 'feat: migrate packs to Catalog v2'
+          git push
