@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const APP_VERSION = 'learning-loop-v1';
+  const APP_VERSION = 'learning-loop-v2-tw-catalog';
   const DB_NAME = 'hanzi-quiz-learning-db';
   const DB_VERSION = 1;
   const REVIEW_INTERVALS_DAYS = [1, 3, 10, 30, 90];
@@ -23,6 +23,8 @@
     db: null,
     lessons: [],
     selectedLessonKeys: new Set(),
+    draftSelectedLessonKeys: null,
+    catalogSource: '',
     profileGrade: 1,
     practiceMode: 'normal',
     reviewSpeed: 'normal',
@@ -86,9 +88,10 @@
     return n > 1911 ? n - 1911 : n;
   }
 
-  function gradeLabel(grade) { return `${Number(grade)}年級`; }
+  const GRADE_LABELS = { 1: '一年級', 2: '二年級', 3: '三年級', 4: '四年級', 5: '五年級', 6: '六年級' };
+  function gradeLabel(grade) { return GRADE_LABELS[Number(grade)] || String(Number(grade)) + '年級'; }
   function semesterShort(value) { return String(value) === '0' ? '上' : '下'; }
-  function lessonLabel(code) { return `第 ${Number(code)} 課`; }
+  function lessonLabel(code) { return '第' + Number(code) + '課'; }
   function skillOfQuestion(question) { return String(question.practiceType || 'context_write'); }
   function stateKey(char, skill) { return `${char}|${skill}`; }
   function lessonKey(packId, lessonCode) { return `${packId}|${lessonCode}`; }
@@ -215,30 +218,68 @@
   }
 
   async function loadCatalog() {
-    const response = await fetch('quiz-index.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error(`題庫索引載入失敗 (${response.status})`);
-    const catalog = await response.json();
-    if (!Array.isArray(catalog)) throw new Error('題庫索引格式不正確');
-    const lessons = [];
-    for (const item of catalog) {
-      const expanded = await loadCatalogItem(item);
-      lessons.push(...expanded);
+    let v2Error = null;
+    try {
+      await loadCatalogV2();
+      state.catalogSource = 'v2';
+    } catch (err) {
+      v2Error = err;
+      console.warn('Catalog v2 unavailable; falling back to legacy index.', err);
+      await loadLegacyCatalog();
+      state.catalogSource = 'legacy';
     }
-    state.lessons = lessons.sort(compareLessonsNewestFirst);
+    state.lessons.sort(compareLessonsNewestFirst);
     state.catalogLoaded = true;
-    // Keep an existing saved selection, but never auto-select lessons by default.
     const available = new Set(state.lessons.map(item => item.key));
     state.selectedLessonKeys = new Set([...state.selectedLessonKeys].filter(key => available.has(key)));
     savePrefs({ selectedLessonKeys: [...state.selectedLessonKeys] });
+    if (v2Error) els.homeMessage.textContent = '已使用相容題庫索引；建議檢查 Catalog v2。';
+  }
+
+  async function loadCatalogV2() {
+    const response = await fetch('quiz-catalog-v2.json', { cache: 'no-cache' });
+    if (!response.ok) throw new Error('Catalog v2 載入失敗 (' + response.status + ')');
+    const catalog = await response.json();
+    if (!catalog || catalog.schema !== 'hanzi-quiz-catalog-v2' || !Array.isArray(catalog.lessons)) throw new Error('Catalog v2 格式不正確');
+    state.lessons = catalog.lessons.map(item => ({
+      key: String(item.key || lessonKey(item.packId, item.lessonCode)),
+      packId: String(item.packId || ''),
+      packTitle: String(item.packTitle || ''),
+      year: String(item.year || ''),
+      rocYear: Number(item.rocYear || gregorianToRocYear(item.year)),
+      publisherCode: String(item.publisherCode || ''),
+      grade: String(item.grade || ''),
+      semester: String(item.semester || ''),
+      version: String(item.version || '1.0.0'),
+      lessonCode: String(item.lessonCode || '').padStart(2, '0'),
+      lessonTitle: String(item.lessonTitle || ''),
+      questionCount: Number(item.questionCount || 0),
+      charCount: Number(item.charCount || 0),
+      blankChars: Array.isArray(item.blankChars) ? item.blankChars.map(String) : [],
+      dataUrl: String(item.dataUrl || ''),
+      sourceHash: String(item.sourceHash || ''),
+      questions: null,
+      loaded: false,
+      loadPromise: null
+    })).filter(item => item.packId && item.lessonCode && item.dataUrl);
+    if (!state.lessons.length) throw new Error('Catalog v2 沒有可用課次');
+  }
+
+  async function loadLegacyCatalog() {
+    const response = await fetch('quiz-index.json', { cache: 'no-cache' });
+    if (!response.ok) throw new Error('題庫索引載入失敗 (' + response.status + ')');
+    const catalog = await response.json();
+    if (!Array.isArray(catalog)) throw new Error('題庫索引格式不正確');
+    const lessons = [];
+    for (const item of catalog) lessons.push(...await loadCatalogItem(item));
+    state.lessons = lessons;
   }
 
   async function loadCatalogItem(item) {
     const lessonRange = Array.isArray(item.lessonRange) ? item.lessonRange : [];
     if (item.lessonPattern && lessonRange.length === 2) {
-      const start = Number(lessonRange[0]);
-      const end = Number(lessonRange[1]);
       const tasks = [];
-      for (let n = start; n <= end; n += 1) {
+      for (let n = Number(lessonRange[0]); n <= Number(lessonRange[1]); n += 1) {
         const code = String(n).padStart(2, '0');
         const url = String(item.lessonPattern).replace('{LL}', code);
         tasks.push(fetchLessonFile(url, code));
@@ -247,7 +288,7 @@
       return results.filter(r => r.status === 'fulfilled').map(r => r.value);
     }
     if (item.dataUrl) {
-      const response = await fetch(item.dataUrl, { cache: 'no-store' });
+      const response = await fetch(item.dataUrl, { cache: 'force-cache' });
       if (!response.ok) return [];
       const pack = await response.json();
       const grouped = new Map();
@@ -256,18 +297,23 @@
         if (!grouped.has(code)) grouped.set(code, []);
         grouped.get(code).push(q);
       });
-      return [...grouped.entries()].map(([code, questions]) => normalizeLesson(pack, code, questions));
+      return [...grouped.entries()].map(([code, questions]) => {
+        const lesson = normalizeLesson(pack, code, questions);
+        lesson.dataUrl = String(item.dataUrl);
+        return lesson;
+      });
     }
     return [];
   }
 
   async function fetchLessonFile(url, lessonCode) {
-    const response = await fetch(url, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`載入 ${url} 失敗`);
+    const response = await fetch(url, { cache: 'force-cache' });
+    if (!response.ok) throw new Error('載入 ' + url + ' 失敗');
     const pack = await response.json();
-    return normalizeLesson(pack, lessonCode, pack.questions || []);
+    const lesson = normalizeLesson(pack, lessonCode, pack.questions || []);
+    lesson.dataUrl = String(url);
+    return lesson;
   }
-
   function normalizeLesson(pack, lessonCode, questions) {
     const normalizedQuestions = questions.filter(validateQuestion).map(question => ({
       ...question,
@@ -287,7 +333,12 @@
       semester: String(pack.semester || ''),
       version: String(pack.version || '1.0.0'),
       lessonCode: String(lessonCode).padStart(2, '0'),
-      questions: normalizedQuestions
+      lessonTitle: String((pack.catalog && pack.catalog.lessonTitles && pack.catalog.lessonTitles[String(lessonCode).padStart(2, '0')]) || (pack.catalog && pack.catalog.lessonTitle) || ''),
+      questionCount: normalizedQuestions.length,
+      blankChars: [...new Set(normalizedQuestions.flatMap(q => q.tokens.filter(token => token.type === 'blank').map(token => token.char)))],
+      questions: normalizedQuestions,
+      loaded: true,
+      loadPromise: null
     };
   }
 
@@ -300,6 +351,32 @@
     return /^\d{12}$/.test(id) ? id.slice(8, 10) : '00';
   }
 
+  async function ensureLessonLoaded(lesson) {
+    if (!lesson || lesson.loaded) return lesson;
+    if (lesson.loadPromise) return lesson.loadPromise;
+    lesson.loadPromise = (async () => {
+      const version = lesson.sourceHash ? '?v=' + encodeURIComponent(lesson.sourceHash.slice(0, 16)) : '';
+      const response = await fetch(lesson.dataUrl + version, { cache: 'force-cache' });
+      if (!response.ok) throw new Error('教材載入失敗：' + lessonLabel(lesson.lessonCode) + ' (' + response.status + ')');
+      const pack = await response.json();
+      const questions = (pack.questions || []).filter(q => getQuestionLessonCode(q) === lesson.lessonCode);
+      const normalized = normalizeLesson(pack, lesson.lessonCode, questions);
+      lesson.questions = normalized.questions;
+      lesson.questionCount = normalized.questionCount;
+      lesson.blankChars = normalized.blankChars;
+      lesson.charCount = normalized.blankChars.length;
+      lesson.lessonTitle = lesson.lessonTitle || normalized.lessonTitle;
+      lesson.loaded = true;
+      return lesson;
+    })();
+    try { return await lesson.loadPromise; }
+    catch (err) { lesson.loadPromise = null; throw err; }
+  }
+
+  async function ensureLessonsLoaded(lessons) {
+    await Promise.all((lessons || []).map(ensureLessonLoaded));
+    return lessons;
+  }
   function compareLessonsNewestFirst(a, b) {
     return Number(b.rocYear) - Number(a.rocYear)
       || Number(b.grade) - Number(a.grade)
@@ -334,46 +411,57 @@
     if (values.includes(previous)) select.value = previous;
   }
 
+  function currentMaterialSelection() {
+    return state.draftSelectedLessonKeys || state.selectedLessonKeys;
+  }
+
+  function matchesMaterialFilters(lesson, except = '') {
+    if (except !== 'year' && els.filterYear.value && String(lesson.rocYear) !== els.filterYear.value) return false;
+    if (except !== 'publisher' && els.filterPublisher.value && lesson.publisherCode !== els.filterPublisher.value) return false;
+    if (except !== 'grade' && els.filterGrade.value && lesson.grade !== els.filterGrade.value) return false;
+    if (except !== 'semester' && els.filterSemester.value && lesson.semester !== els.filterSemester.value) return false;
+    return true;
+  }
+
   function renderMaterialFilters() {
-    fillSelect(els.filterYear, [...new Set(state.lessons.map(x => String(x.rocYear)))].sort((a, b) => Number(b) - Number(a)), value => `${value} 學年度`);
-    fillSelect(els.filterPublisher, [...new Set(state.lessons.map(x => x.publisherCode))].sort(), value => PUBLISHERS[value] || value);
-    fillSelect(els.filterGrade, [...new Set(state.lessons.map(x => x.grade))].sort(), value => gradeLabel(value));
-    fillSelect(els.filterSemester, [...new Set(state.lessons.map(x => x.semester))].sort(), value => SEMESTERS[value] || value);
+    const valuesFor = (field, except, sort) => [...new Set(state.lessons.filter(x => matchesMaterialFilters(x, except)).map(x => String(x[field])))].sort(sort);
+    fillSelect(els.filterYear, valuesFor('rocYear', 'year', (a, b) => Number(b) - Number(a)), value => value + '學年度');
+    fillSelect(els.filterPublisher, valuesFor('publisherCode', 'publisher'), value => PUBLISHERS[value] || value);
+    fillSelect(els.filterGrade, valuesFor('grade', 'grade', (a, b) => Number(a) - Number(b)), value => gradeLabel(value));
+    fillSelect(els.filterSemester, valuesFor('semester', 'semester', (a, b) => Number(a) - Number(b)), value => SEMESTERS[value] || value);
   }
 
   function filteredLessons() {
-    return state.lessons.filter(lesson => {
-      if (els.filterYear.value && String(lesson.rocYear) !== els.filterYear.value) return false;
-      if (els.filterPublisher.value && lesson.publisherCode !== els.filterPublisher.value) return false;
-      if (els.filterGrade.value && lesson.grade !== els.filterGrade.value) return false;
-      if (els.filterSemester.value && lesson.semester !== els.filterSemester.value) return false;
-      return true;
-    });
+    return state.lessons.filter(lesson => matchesMaterialFilters(lesson));
   }
-
   function renderLessonList() {
     const list = filteredLessons();
     if (!list.length) {
       els.lessonList.innerHTML = '<div class="summary-box">目前篩選條件下沒有已匯入教材。</div>';
       return;
     }
+    const selected = currentMaterialSelection();
     els.lessonList.innerHTML = list.map(lesson => {
-      const checked = state.selectedLessonKeys.has(lesson.key) ? 'checked' : '';
+      const checked = selected.has(lesson.key) ? 'checked' : '';
       const recommended = isRecommendedLesson(lesson) ? '・推薦' : '';
-      return `<label class="lesson-item"><input type="checkbox" data-lesson-key="${escapeHtml(lesson.key)}" ${checked}/><span><strong>${escapeHtml(PUBLISHERS[lesson.publisherCode] || lesson.publisherCode)}・${escapeHtml(lesson.rocYear)} ${gradeLabel(lesson.grade)}${semesterShort(lesson.semester)}・${lessonLabel(lesson.lessonCode)}</strong><small>${lesson.questions.length} 題${recommended}</small></span></label>`;
+      const lessonTitle = lesson.lessonTitle ? '・' + escapeHtml(lesson.lessonTitle) : '';
+      const questionCount = Number(lesson.questionCount || (lesson.questions && lesson.questions.length) || 0);
+      const label = escapeHtml(PUBLISHERS[lesson.publisherCode] || lesson.publisherCode) + '・' + escapeHtml(lesson.rocYear) + '學年度・' + gradeLabel(lesson.grade) + semesterShort(lesson.semester) + '學期・' + lessonLabel(lesson.lessonCode) + lessonTitle;
+      return '<label class="lesson-item"><input type="checkbox" data-lesson-key="' + escapeHtml(lesson.key) + '" ' + checked + '/><span><strong>' + label + '</strong><small>' + questionCount + '題' + recommended + '</small></span></label>';
     }).join('');
   }
-
   function courseDisplay(lesson) {
-    return `${PUBLISHERS[lesson.publisherCode] || lesson.publisherCode} ${lesson.rocYear} ${Number(lesson.grade)}${semesterShort(lesson.semester)} ${lessonLabel(lesson.lessonCode)}`;
+    return (PUBLISHERS[lesson.publisherCode] || lesson.publisherCode) + '・' + lesson.rocYear + '學年度・' + gradeLabel(lesson.grade) + semesterShort(lesson.semester) + '學期・' + lessonLabel(lesson.lessonCode);
   }
 
   function countUniqueChars(lessons) {
     const set = new Set();
-    lessons.forEach(lesson => lesson.questions.forEach(q => q.tokens.forEach(token => { if (token.type === 'blank') set.add(token.char); })));
+    lessons.forEach(lesson => {
+      if (Array.isArray(lesson.blankChars) && lesson.blankChars.length) lesson.blankChars.forEach(ch => set.add(ch));
+      else (lesson.questions || []).forEach(q => q.tokens.forEach(token => { if (token.type === 'blank') set.add(token.char); }));
+    });
     return set.size;
   }
-
   function renderMaterialSummary() {
     const lessons = selectedLessons();
     els.materialSummaryTitle.textContent = lessons.length ? `${lessons.length} 課已加入` : '尚未選擇教材';
@@ -389,9 +477,9 @@
     });
     const rows = [...groups.values()].map(group => {
       group.codes.sort((a, b) => a - b);
-      return `${PUBLISHERS[group.lesson.publisherCode] || group.lesson.publisherCode}・${group.lesson.rocYear} 學年度・${gradeLabel(group.lesson.grade)}${semesterShort(group.lesson.semester)}：第 ${group.codes.join('、')} 課`;
+      return (PUBLISHERS[group.lesson.publisherCode] || group.lesson.publisherCode) + '・' + group.lesson.rocYear + '學年度・' + gradeLabel(group.lesson.grade) + semesterShort(group.lesson.semester) + '學期：第' + group.codes.join('、') + '課';
     });
-    els.materialSummary.innerHTML = `${rows.map(row => escapeHtml(row)).join('<br>')}<br><strong>共 ${countUniqueChars(lessons)} 個生字</strong>`;
+    els.materialSummary.innerHTML = rows.map(row => escapeHtml(row)).join('<br>') + '<br><strong>共' + countUniqueChars(lessons) + '個生字</strong>';
   }
 
   function collectCandidateCharacters(lessons) {
@@ -484,24 +572,30 @@
     if (!state.catalogLoaded || !state.db) return;
     const lessons = selectedLessons();
     if (!lessons.length) {
-      els.practiceEstimate.textContent = '0 字';
+      els.practiceEstimate.textContent = '0字';
       els.practiceEstimateNote.textContent = '請先加入教材。';
       els.startPractice.disabled = true;
       return;
     }
+    els.startPractice.disabled = true;
+    els.practiceEstimate.textContent = '…';
+    els.practiceEstimateNote.textContent = '正在載入已選教材…';
+    try { await ensureLessonsLoaded(lessons); }
+    catch (err) {
+      els.practiceEstimate.textContent = '—';
+      els.practiceEstimateNote.textContent = err.message;
+      return;
+    }
     const result = await buildQueue();
-    els.practiceEstimate.textContent = `${result.charCount} 字`;
-    if (state.practiceMode === 'review') {
-      els.practiceEstimateNote.textContent = '總複習：所選範圍全部納入並打亂。';
-    } else if (result.charCount === 0) {
-      els.practiceEstimateNote.textContent = '目前沒有新字或到期生字；可改用總複習。';
-    } else {
+    els.practiceEstimate.textContent = result.charCount + '字';
+    if (state.practiceMode === 'review') els.practiceEstimateNote.textContent = '總複習：所選範圍全部納入並打亂。';
+    else if (result.charCount === 0) els.practiceEstimateNote.textContent = '目前沒有新字或到期生字；可改用總複習。';
+    else {
       const reviewCount = Math.max(0, result.charCount - result.newCount);
-      els.practiceEstimateNote.textContent = `新字 ${result.newCount}・到期複習 ${reviewCount}；由新到舊。`;
+      els.practiceEstimateNote.textContent = '新字' + result.newCount + '・到期複習' + reviewCount + '；由新到舊。';
     }
     els.startPractice.disabled = result.charCount === 0;
   }
-
   function renderHomeControls() {
     els.profileGrade.value = String(state.profileGrade);
     els.allowBackwards.checked = state.allowBackwards;
@@ -511,27 +605,28 @@
     renderMaterialFilters();
     renderLessonList();
     renderMaterialSummary();
+    els.openMaterials.disabled = !state.catalogLoaded;
   }
-
   function renderZhuyin(zhuyin) {
     const reading = String(zhuyin || '');
     const toneMatch = reading.match(/([ˊˇˋ˙])$/u);
     const tone = toneMatch ? toneMatch[1] : '';
     const symbols = tone ? reading.slice(0, -1) : reading;
-    const neutralClass = tone === '˙' ? ' zhuyin-tone-neutral' : '';
-    return `<span class="zhuyin-reading"><span class="zhuyin-symbols">${escapeHtml(symbols)}</span>${tone ? `<span class="zhuyin-tone${neutralClass}">${escapeHtml(tone)}</span>` : ''}</span>`;
+    const symbolHtml = [...symbols].map(symbol => '<span class="zhuyin-symbol">' + escapeHtml(symbol) + '</span>').join('');
+    const toneClass = tone === '˙' ? ' zhuyin-tone-neutral' : '';
+    return '<span class="zhuyin-reading"><span class="zhuyin-symbols">' + symbolHtml + '</span>' + (tone ? '<span class="zhuyin-tone' + toneClass + '">' + escapeHtml(tone) + '</span>' : '') + '</span>';
   }
 
   function renderQuestionText(question) {
     return question.tokens.map(token => {
       const isKnownLessonVocab = token.type !== 'blank' && token.lessonVocab;
       const base = token.type === 'blank'
-        ? '<span class="blank-char">　</span>'
-        : `<span class="${isKnownLessonVocab ? 'known-lesson-vocab' : ''}">${escapeHtml(token.char)}</span>`;
-      return token.zhuyin ? `<ruby>${base}<rt>${renderZhuyin(token.zhuyin)}</rt></ruby>` : base;
+        ? '<span class="blank-char" aria-hidden="true">　</span>'
+        : '<span class="hanzi-character ' + (isKnownLessonVocab ? 'known-lesson-vocab' : '') + '">' + escapeHtml(token.char) + '</span>';
+      if (!token.zhuyin) return '<span class="hanzi-only">' + base + '</span>';
+      return '<ruby class="bopomofo-cell">' + base + '<rt class="bopomofo-rt">' + renderZhuyin(token.zhuyin) + '</rt></ruby>';
     }).join('');
   }
-
   function codePointHex(char) { return char.codePointAt(0).toString(16).padStart(4, '0'); }
 
   function customCharUrl(template, char) {
@@ -721,8 +816,35 @@
       els.questionZoomButton.setAttribute('aria-pressed', state.questionZoomed ? 'true' : 'false');
       els.questionZoomButton.setAttribute('aria-label', state.questionZoomed ? '還原句子大小' : '放大句子');
     }
+    requestAnimationFrame(fitQuestionText);
   }
 
+  function isPortraitQuestionLayout() {
+    return window.matchMedia('(max-width: 640px) and (orientation: portrait)').matches;
+  }
+
+  function fitQuestionText() {
+    if (!els.questionText) return;
+    els.questionText.classList.remove('question-overflow');
+    els.questionText.style.removeProperty('font-size');
+    if (!isPortraitQuestionLayout() || els.quizView.classList.contains('hidden')) return;
+    let px = state.questionZoomed ? 32 : 23;
+    const minPx = state.questionZoomed ? 21 : 17;
+    els.questionText.style.fontSize = px + 'px';
+    const overflows = () => els.questionText.scrollHeight > els.questionText.clientHeight + 3 || els.questionText.scrollWidth > els.questionText.clientWidth + 6;
+    while (px > minPx && overflows()) { px -= 1; els.questionText.style.fontSize = px + 'px'; }
+    if (overflows()) els.questionText.classList.add('question-overflow');
+  }
+
+  function initQuestionLayoutObserver() {
+    if ('ResizeObserver' in window) {
+      const observer = new ResizeObserver(() => requestAnimationFrame(fitQuestionText));
+      observer.observe(els.quizView);
+      observer.observe(els.questionText);
+    }
+    window.addEventListener('orientationchange', () => setTimeout(fitQuestionText, 60));
+    window.addEventListener('resize', () => requestAnimationFrame(fitQuestionText));
+  }
   function speakQuestion() {
     const question = state.currentQueue[state.currentIndex];
     if (!question || !question.readText || !('speechSynthesis' in window)) return;
@@ -751,8 +873,9 @@
       return;
     }
     setQuestionZoomed(false);
-    els.progressLabel.textContent = `第 ${state.currentIndex + 1} / ${state.currentQueue.length} 題`;
+    els.progressLabel.textContent = '第' + (state.currentIndex + 1) + '／' + state.currentQueue.length + '題';
     els.questionText.innerHTML = renderQuestionText(question);
+    requestAnimationFrame(fitQuestionText);
     els.quizMessage.textContent = `${courseDisplay(question.lesson)}`;
     els.writers.innerHTML = '';
     state.writerStates = [];
@@ -813,7 +936,10 @@
   }
 
   async function startPractice(lessonSubset = null) {
-    const result = await buildQueue(lessonSubset);
+    const targetLessons = lessonSubset || selectedLessons();
+    try { await ensureLessonsLoaded(targetLessons); }
+    catch (err) { els.homeMessage.textContent = err.message; return; }
+    const result = await buildQueue(targetLessons);
     if (!result.queue.length) {
       els.homeMessage.textContent = state.practiceMode === 'normal' ? '目前沒有新字或到期生字。' : '目前沒有可練習的生字。';
       return;
@@ -826,7 +952,7 @@
     buildQuizLessonFocus();
     els.homeView.classList.add('hidden');
     els.quizView.classList.remove('hidden');
-    els.nextButton.textContent = '下一題 ➜';
+    els.nextButton.textContent = '下一題';
     els.nextButton.onclick = () => goNextQuestion();
     await showQuestion();
   }
@@ -1062,24 +1188,33 @@
     });
 
     els.openMaterials.addEventListener('click', () => {
+      if (!state.catalogLoaded) return;
+      state.draftSelectedLessonKeys = new Set(state.selectedLessonKeys);
       renderRecommendedPath(); renderMaterialFilters(); renderLessonList(); els.materialsDialog.showModal();
     });
-    [els.filterYear, els.filterPublisher, els.filterGrade, els.filterSemester].forEach(select => select.addEventListener('change', renderLessonList));
+    [els.filterYear, els.filterPublisher, els.filterGrade, els.filterSemester].forEach(select => select.addEventListener('change', () => { renderMaterialFilters(); renderLessonList(); }));
     els.lessonList.addEventListener('change', event => {
       const checkbox = event.target.closest('input[data-lesson-key]');
-      if (!checkbox) return;
-      checkbox.checked ? state.selectedLessonKeys.add(checkbox.dataset.lessonKey) : state.selectedLessonKeys.delete(checkbox.dataset.lessonKey);
+      if (!checkbox || !state.draftSelectedLessonKeys) return;
+      checkbox.checked ? state.draftSelectedLessonKeys.add(checkbox.dataset.lessonKey) : state.draftSelectedLessonKeys.delete(checkbox.dataset.lessonKey);
     });
-    els.selectRecommended.addEventListener('click', () => { state.selectedLessonKeys = new Set(getRecommendedLessons().map(x => x.key)); renderLessonList(); });
-    els.selectFiltered.addEventListener('click', () => { filteredLessons().forEach(x => state.selectedLessonKeys.add(x.key)); renderLessonList(); });
-    els.clearMaterials.addEventListener('click', () => { state.selectedLessonKeys.clear(); renderLessonList(); });
+    els.selectRecommended.addEventListener('click', () => { state.draftSelectedLessonKeys = new Set(getRecommendedLessons().map(x => x.key)); renderLessonList(); });
+    els.selectFiltered.addEventListener('click', () => {
+      const draft = state.draftSelectedLessonKeys || new Set();
+      filteredLessons().forEach(x => draft.add(x.key));
+      state.draftSelectedLessonKeys = draft;
+      renderLessonList();
+    });
+    els.clearMaterials.addEventListener('click', () => { state.draftSelectedLessonKeys = new Set(); renderLessonList(); });
     els.saveMaterials.addEventListener('click', async () => {
+      state.selectedLessonKeys = new Set(state.draftSelectedLessonKeys || state.selectedLessonKeys);
+      state.draftSelectedLessonKeys = null;
       savePrefs({ selectedLessonKeys: [...state.selectedLessonKeys] });
-      els.materialsDialog.close();
+      els.materialsDialog.close('save');
       renderMaterialSummary();
       await updatePracticeEstimate();
     });
-
+    els.materialsDialog.addEventListener('close', () => { state.draftSelectedLessonKeys = null; });
     els.openLearningSettings.addEventListener('click', () => {
       document.querySelectorAll('input[name="review-speed"]').forEach(input => { input.checked = input.value === state.reviewSpeed; });
       els.learningSettingsDialog.showModal();
@@ -1134,6 +1269,7 @@
   async function bootstrap() {
     loadPrefsIntoState();
     bindEvents();
+    initQuestionLayoutObserver();
     renderHomeControls();
     try {
       state.db = await openDb();
