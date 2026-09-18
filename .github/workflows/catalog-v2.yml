@@ -1,0 +1,49 @@
+name: Quiz Catalog v2 Guard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packs/**'
+      - 'tools/catalog/**'
+      - 'schema/pack.schema.json'
+      - 'schema/quiz-catalog-v2.schema.json'
+      - '.github/workflows/catalog-v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quiz-catalog-v2
+  cancel-in-progress: false
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build Catalog v2
+        run: node tools/catalog/build-catalog-v2.mjs
+      - name: Validate Catalog v2
+        run: node tools/catalog/validate-catalog-v2.mjs
+      - name: Static runtime check
+        run: |
+          node --check assets/app.js
+          git diff --check
+      - name: Commit generated catalog when changed
+        run: |
+          if git diff --quiet -- quiz-catalog-v2.json; then
+            echo 'Catalog already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add quiz-catalog-v2.json
+          git commit -m 'build: refresh Quiz Catalog v2'
+          git push
