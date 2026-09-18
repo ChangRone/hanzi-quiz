@@ -63,3 +63,14 @@ hanzi_project_lessonpattern_v17/
 - `question.id` 仍維持 12 碼，後四碼保留 `LLQQ`
 - `config/schema-config.json` 這次**沒有改動結構**
 - 本次在不動 schema / config 的前提下，補回作答頁課次切換與提示後可續寫的正式行為
+
+
+## Catalog v2（正式選課索引）
+
+- 正式選課改讀 `quiz-catalog-v2.json`，首頁只載入課次 metadata，不再先下載全部題目。
+- 每個 `packs/*.json` **必須**有 `catalog.included: true|false`；不得省略。
+- `catalog.included: true` 是是否進入正式 Catalog 的唯一來源；`false` 可保留草稿／尚未上線題庫。
+- `quiz-catalog-v2.json` 由 `node tools/catalog/build-catalog-v2.mjs` 自動產生，不人工維護。
+- `node tools/catalog/validate-catalog-v2.mjs` 會檢查漏欄位、重複 lesson key、題數／生字 metadata 與 Catalog 是否同步。
+- Runtime 只在已選課需要估算／開始練習時 lazy-load 對應 pack，並以 `sourceHash` 形成版本化 URL 讓瀏覽器可安全快取。
+- 舊 `quiz-index.json` 暫時保留為 fallback 相容入口，不再作為 v2 Catalog 的來源。
