@@ -367,3 +367,167 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
     cursor: default;
   }
 }
+
+
+/* tw-typography-catalog-v1 */
+/* Taiwan Traditional-Chinese learning typography.
+   Keep ruby semantics, but control visual placement explicitly for browsers. */
+.question-text {
+  overflow: visible;
+  line-height: 1.55;
+  word-break: keep-all;
+}
+.bopomofo-cell {
+  display: inline-grid;
+  grid-template-columns: minmax(1em, max-content) .72em;
+  column-gap: .05em;
+  align-items: center;
+  justify-items: center;
+  vertical-align: middle;
+  margin-inline: .04em;
+  ruby-position: inter-character;
+}
+.bopomofo-cell > .hanzi-character,
+.bopomofo-cell > .blank-char {
+  grid-column: 1;
+  grid-row: 1;
+}
+.bopomofo-rt {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: .72em;
+  font-size: .34em;
+  color: var(--subtle);
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+.zhuyin-reading {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  line-height: 1;
+}
+.zhuyin-symbols {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+.zhuyin-symbol {
+  display: block;
+  line-height: 1;
+}
+.zhuyin-tone {
+  display: block;
+  position: absolute;
+  right: -.62em;
+  bottom: -.02em;
+  font-size: .9em;
+  line-height: 1;
+  writing-mode: horizontal-tb;
+}
+.zhuyin-tone-neutral {
+  top: -.72em;
+  right: 50%;
+  bottom: auto;
+  transform: translateX(50%);
+  font-size: .86em;
+}
+.hanzi-only {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 640px) and (orientation: portrait) {
+  #quiz-view {
+    --portrait-prompt-width: 76px;
+    --portrait-scroll-gutter: 34px;
+    grid-template-columns: var(--portrait-prompt-width) minmax(0, 1fr) var(--portrait-scroll-gutter);
+    transition: grid-template-columns .18s ease;
+  }
+
+  #quiz-view.question-zoomed {
+    --portrait-prompt-width: clamp(126px, 42vw, 200px);
+  }
+
+  #quiz-view .question-card,
+  #quiz-view.question-zoomed .question-card {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 9px 6px;
+    box-shadow: 0 7px 20px rgba(32, 45, 72, .10);
+  }
+
+  #quiz-view.question-zoomed .question-card {
+    box-shadow: 0 10px 30px rgba(32, 45, 72, .18);
+  }
+
+  #quiz-view .question-text,
+  #quiz-view.question-zoomed .question-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    min-height: 0;
+    max-height: calc(100svh - 190px);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 4px 4px;
+    overflow: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    line-height: 1.18;
+  }
+
+  #quiz-view .question-text .bopomofo-cell {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    display: inline-grid;
+    grid-template-columns: minmax(1em, max-content) .72em;
+    margin: .08em 0 .16em;
+    vertical-align: middle;
+  }
+
+  #quiz-view .question-text .bopomofo-rt,
+  #quiz-view .question-text .zhuyin-reading,
+  #quiz-view .question-text .zhuyin-symbols {
+    writing-mode: horizontal-tb;
+  }
+
+  #quiz-view .question-text .bopomofo-rt {
+    font-size: .34em;
+  }
+
+  #quiz-view .question-text .blank-char {
+    display: inline-block;
+    inline-size: 1em;
+    block-size: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    border: 0;
+    border-right: 3px solid #727d90;
+    margin: 0 .10em 0 0;
+  }
+
+  #quiz-view .question-text.question-overflow {
+    box-shadow: inset -8px 0 10px -12px rgba(23, 32, 51, .55);
+  }
+}
+
+@media (min-width: 641px), (orientation: landscape) {
+  .question-text .bopomofo-cell {
+    margin-inline: .10em;
+  }
+  .question-text .bopomofo-rt {
+    font-size: .36em;
+  }
+}
