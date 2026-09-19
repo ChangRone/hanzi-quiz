@@ -10,6 +10,8 @@
   const PUBLISHERS = { '0': '南一', '1': '翰林', '2': '康軒' };
   const SEMESTERS = { '0': '上學期', '1': '下學期' };
   const APPROVED_DATASET_PATH = 'char-data/moe-6063-v1/{hex}.json';
+  const PRODUCTION_AUDIO_BASE = 'https://changrone.github.io/hanzi-writing-lab/production-audio/v1/audio/';
+  const PRODUCTION_AUDIO_VERSION = 'hsiaochen-partial-r12-v1';
   const DEFAULT_DEV = {
     leniency: 1.4,
     drawingWidth: 18,
@@ -36,6 +38,8 @@
     writerStates: [],
     autoNextTimer: null,
     speechTimer: null,
+    activeAudio: null,
+    audioCache: new Map(),
     questionZoomed: false,
     navigating: false,
     catalogLoaded: false,
@@ -845,14 +849,42 @@
     window.addEventListener('orientationchange', () => setTimeout(fitQuestionText, 60));
     window.addEventListener('resize', () => requestAnimationFrame(fitQuestionText));
   }
-  function speakQuestion() {
-    const question = state.currentQueue[state.currentIndex];
+  function productionAudioUrl(question) {
+    const id = String(question && question.id || '');
+    return id ? PRODUCTION_AUDIO_BASE + encodeURIComponent(id) + '.mp3?v=' + encodeURIComponent(PRODUCTION_AUDIO_VERSION) : '';
+  }
+
+  function preloadQuestionAudio(question) {
+    const url = productionAudioUrl(question);
+    if (!url || state.audioCache.has(url)) return state.audioCache.get(url) || null;
+    try {
+      const audio = new Audio();
+      audio.preload = 'auto';
+      audio.src = url;
+      audio.load();
+      state.audioCache.set(url, audio);
+      return audio;
+    } catch {
+      return null;
+    }
+  }
+
+  function stopActiveAudio() {
+    if (!state.activeAudio) return;
+    try {
+      state.activeAudio.pause();
+      state.activeAudio.currentTime = 0;
+    } catch { /* noop */ }
+    state.activeAudio = null;
+  }
+
+  function speakQuestionWithWebSpeech(question) {
     if (!question || !question.readText || !('speechSynthesis' in window)) return;
     clearTimeout(state.speechTimer);
     try { speechSynthesis.cancel(); } catch { /* noop */ }
     const utter = new SpeechSynthesisUtterance(`，${question.readText}`);
     utter.lang = 'zh-TW';
-    utter.rate = 0.85;
+    utter.rate = 0.78;
     const voice = getTaiwanSpeechVoice();
     if (voice) utter.voice = voice;
     state.speechTimer = setTimeout(() => {
@@ -860,9 +892,33 @@
         if (speechSynthesis.paused) speechSynthesis.resume();
         speechSynthesis.speak(utter);
       } catch (err) {
-        console.warn('Speech synthesis failed', err);
+        console.warn('Speech synthesis fallback failed', err);
       }
     }, 160);
+  }
+
+  function speakQuestion() {
+    const question = state.currentQueue[state.currentIndex];
+    if (!question || !question.readText) return;
+    clearTimeout(state.speechTimer);
+    try { speechSynthesis.cancel(); } catch { /* noop */ }
+    stopActiveAudio();
+
+    const audio = preloadQuestionAudio(question);
+    if (!audio) {
+      speakQuestionWithWebSpeech(question);
+      return;
+    }
+
+    state.activeAudio = audio;
+    try { audio.currentTime = 0; } catch { /* noop */ }
+    const fallback = () => {
+      if (state.activeAudio === audio) state.activeAudio = null;
+      speakQuestionWithWebSpeech(question);
+    };
+    audio.onerror = fallback;
+    const playPromise = audio.play();
+    if (playPromise && typeof playPromise.catch === 'function') playPromise.catch(fallback);
   }
 
   async function showQuestion() {
@@ -876,6 +932,8 @@
     els.progressLabel.textContent = '第' + (state.currentIndex + 1) + '／' + state.currentQueue.length + '題';
     els.questionText.innerHTML = renderQuestionText(question);
     requestAnimationFrame(fitQuestionText);
+    preloadQuestionAudio(question);
+    preloadQuestionAudio(state.currentQueue[state.currentIndex + 1]);
     els.quizMessage.textContent = `${courseDisplay(question.lesson)}`;
     els.writers.innerHTML = '';
     state.writerStates = [];
@@ -893,6 +951,7 @@
     if (state.navigating) return;
     state.navigating = true;
     clearTimeout(state.autoNextTimer);
+    stopActiveAudio();
     els.nextButton.disabled = true;
     try {
       await recordIncompleteAsFail();
@@ -972,6 +1031,7 @@
   async function showHome() {
     clearTimeout(state.autoNextTimer);
     clearTimeout(state.speechTimer);
+    stopActiveAudio();
     try { speechSynthesis.cancel(); } catch { /* noop */ }
     state.currentLessonFocus = '';
     els.quizView.classList.add('hidden');
