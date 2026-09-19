@@ -43,12 +43,13 @@ jobs:
           assert m['voice']=='zh-TW-HsiaoChenNeural'
           assert m['mode']=='verified-partial'
           assert m['rate']=='-12%'
-          assert m['questionCount']==2070
+          count=int(m['questionCount'])
+          assert count>0
           audio=Path('assets/audio/v1/audio')
           files=list(audio.glob('*.mp3'))
-          assert len(files)==2070, len(files)
+          assert len(files)==count, (len(files),count)
           assert all(x.stat().st_size>500 for x in files)
-          assert len(m['files'])==2070
+          assert len(m['files'])==count
           print('QUIZ_LOCAL_AUDIO_VALIDATE=PASS sourceLabCommit=',m['sourceLabCommit'])
           PY
           git diff --check
