@@ -74,3 +74,18 @@ hanzi_project_lessonpattern_v17/
 - `node tools/catalog/validate-catalog-v2.mjs` 會檢查漏欄位、重複 lesson key、題數／生字 metadata 與 Catalog 是否同步。
 - Runtime 只在已選課需要估算／開始練習時 lazy-load 對應 pack，並以 `sourceHash` 形成版本化 URL 讓瀏覽器可安全快取。
 - 舊 `quiz-index.json` 暫時保留為 fallback 相容入口，不再作為 v2 Catalog 的來源。
+
+
+## 正式語音（Azure 預產 MP3）
+
+正式作答語音採：
+
+- Voice：`zh-TW-HsiaoChenNeural`
+- Strategy：verified partial phoneme（只強制已經 A/B 實聽驗證的字音組合）
+- Prosody rate：`-12%`
+- Runtime：Azure 預產 MP3 優先；不存在、載入失敗或播放失敗時退回瀏覽器 Web Speech
+- Preload：只保留當題與鄰近題目的小型 LRU audio cache，避免大量題目長時間練習時持續佔用記憶體
+- Asset host：`ChangRone/hanzi-writing-lab/production-audio/v1/`
+- Security：Azure Speech Key 僅存在 GitHub Actions Secret，不進瀏覽器程式、題庫或公開 JSON
+
+`PRODUCTION_AUDIO_VERSION` 是瀏覽器快取版本。任何會改變已發布 MP3 內容的正式重建，都必須同步 bump 此版本。
