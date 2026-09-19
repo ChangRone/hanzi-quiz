@@ -854,15 +854,36 @@
     return id ? PRODUCTION_AUDIO_BASE + encodeURIComponent(id) + '.mp3?v=' + encodeURIComponent(PRODUCTION_AUDIO_VERSION) : '';
   }
 
+  function trimAudioCache(maxEntries = 4) {
+    while (state.audioCache.size > maxEntries) {
+      const oldestKey = state.audioCache.keys().next().value;
+      const oldest = state.audioCache.get(oldestKey);
+      if (oldest === state.activeAudio) {
+        state.audioCache.delete(oldestKey);
+        state.audioCache.set(oldestKey, oldest);
+        continue;
+      }
+      try { oldest.pause(); } catch { /* noop */ }
+      state.audioCache.delete(oldestKey);
+    }
+  }
+
   function preloadQuestionAudio(question) {
     const url = productionAudioUrl(question);
-    if (!url || state.audioCache.has(url)) return state.audioCache.get(url) || null;
+    if (!url) return null;
+    if (state.audioCache.has(url)) {
+      const cached = state.audioCache.get(url);
+      state.audioCache.delete(url);
+      state.audioCache.set(url, cached);
+      return cached;
+    }
     try {
       const audio = new Audio();
       audio.preload = 'auto';
       audio.src = url;
       audio.load();
       state.audioCache.set(url, audio);
+      trimAudioCache();
       return audio;
     } catch {
       return null;
@@ -912,7 +933,10 @@
 
     state.activeAudio = audio;
     try { audio.currentTime = 0; } catch { /* noop */ }
+    let fallbackUsed = false;
     const fallback = () => {
+      if (fallbackUsed) return;
+      fallbackUsed = true;
       if (state.activeAudio === audio) state.activeAudio = null;
       speakQuestionWithWebSpeech(question);
     };
