@@ -85,10 +85,12 @@ def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def sync(lab_ref: str, workers: int) -> None:
-    base = f"{LAB_RAW}/{LAB_REPO}/{lab_ref}/production-audio/v1"
-    manifest_bytes = download(f"{base}/manifest.json")
-    manifest = json.loads(manifest_bytes.decode("utf-8"))
+def sync_from_local_lab(lab_dir: Path, lab_ref: str) -> None:
+    source_root = lab_dir / "production-audio" / "v1"
+    manifest_path = source_root / "manifest.json"
+    if not manifest_path.exists():
+        raise RuntimeError(f"Lab production manifest missing: {manifest_path}")
+    manifest = read_json(manifest_path)
     if manifest.get("schema") != "hanzi-quiz-production-audio-v1":
         raise RuntimeError("Unsupported Lab production audio manifest")
     if manifest.get("voice") != "zh-TW-HsiaoChenNeural":
@@ -114,24 +116,27 @@ def sync(lab_ref: str, workers: int) -> None:
         audio_dir = tmp / "audio"
         audio_dir.mkdir()
 
-        def fetch_one(qid: str) -> tuple[str, str, int]:
+        def copy_one(qid: str) -> tuple[str, str, int]:
             item = upstream[qid]
             if not item.get("ready"):
                 raise RuntimeError(f"Upstream audio not ready: {qid}")
-            data = download(f"{base}/audio/{qid}.mp3")
+            src = source_root / "audio" / f"{qid}.mp3"
+            if not src.exists():
+                raise RuntimeError(f"Lab MP3 missing: {src}")
+            data = src.read_bytes()
             if len(data) < 500:
                 raise RuntimeError(f"Suspiciously small MP3: {qid} ({len(data)} bytes)")
             (audio_dir / f"{qid}.mp3").write_bytes(data)
             return qid, sha256(data), len(data)
 
         hashes: dict[str, dict[str, object]] = {}
-        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
-            futures = {pool.submit(fetch_one, qid): qid for qid in sorted(expected)}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, os.cpu_count() or 4)) as pool:
+            futures = {pool.submit(copy_one, qid): qid for qid in sorted(expected)}
             for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
                 qid, digest, size = future.result()
                 hashes[qid] = {"sha256": digest, "bytes": size}
                 if index % 100 == 0 or index == len(expected):
-                    print(f"downloaded {index}/{len(expected)}")
+                    print(f"copied {index}/{len(expected)}")
 
         local_manifest = {
             "schema": "hanzi-quiz-local-audio-v1",
@@ -179,11 +184,19 @@ def sync(lab_ref: str, workers: int) -> None:
 
 def parse_args():
     p = argparse.ArgumentParser()
+    p.add_argument("--lab-dir", type=Path, default=Path(os.environ.get("LAB_AUDIO_DIR", ".cache/hanzi-writing-lab")))
     p.add_argument("--lab-ref", default=os.environ.get("LAB_AUDIO_REF", ""))
-    p.add_argument("--workers", type=int, default=int(os.environ.get("AUDIO_SYNC_WORKERS", "8")))
     return p.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
-    sync(resolve_lab_ref(args.lab_ref or None), max(1, args.workers))
+    lab_dir = args.lab_dir.resolve()
+    if not lab_dir.exists():
+        raise RuntimeError(f"Lab checkout not found: {lab_dir}")
+    actual_ref = args.lab_ref.strip() or subprocess.check_output(
+        ["git", "-C", str(lab_dir), "rev-parse", "HEAD"], text=True, timeout=15
+    ).strip()
+    if len(actual_ref) != 40:
+        raise RuntimeError(f"Invalid Lab commit: {actual_ref}")
+    sync_from_local_lab(lab_dir, actual_ref)
