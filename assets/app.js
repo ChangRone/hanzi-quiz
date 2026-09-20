@@ -704,7 +704,7 @@
     const ws = {
       token, writer, box, failed: false, completed: false, recorded: false, question,
       nextStrokeNum: 0, missesSinceHint: 0, hinting: false, loaded, loadMeta,
-      renderSize: Math.floor(box.getBoundingClientRect().width || box.clientWidth || 260)
+      renderSize: Math.floor(box.clientWidth || box.getBoundingClientRect().width || 260)
     };
     startWriterQuiz(ws, 0);
     return ws;
@@ -840,7 +840,7 @@
   function resizeCurrentWriters() {
     state.writerStates.forEach(ws => {
       if (!ws || !ws.writer || !ws.box || !ws.box.isConnected || typeof ws.writer.updateDimensions !== 'function') return;
-      const width = Math.floor(ws.box.getBoundingClientRect().width);
+      const width = Math.floor(ws.box.clientWidth || ws.box.getBoundingClientRect().width);
       if (!width || Math.abs(width - Number(ws.renderSize || 0)) < 1) return;
       ws.renderSize = width;
       try { ws.writer.updateDimensions({ width, height: width, padding: 8 }); }
