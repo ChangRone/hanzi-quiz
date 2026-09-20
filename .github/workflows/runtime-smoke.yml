@@ -1,0 +1,46 @@
+name: Quiz Runtime Smoke
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/app.js'
+      - 'assets/app.css'
+      - 'index.html'
+      - 'tools/audio/smoke-azure-runtime.mjs'
+      - '.github/workflows/runtime-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quiz-runtime-smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Static runtime checks
+        run: |
+          node --check assets/app.js
+          ! grep -q 'SpeechSynthesisUtterance' assets/app.js
+          git diff --check
+
+      - name: Install browser driver
+        run: npm install --no-save --package-lock=false puppeteer-core@24
+
+      - name: Start local Quiz server
+        run: |
+          python3 -m http.server 8124 --bind 127.0.0.1 >/tmp/hanzi-quiz-http.log 2>&1 &
+          sleep 1
+
+      - name: Browser smoke - Azure audio and rotation
+        run: node tools/audio/smoke-azure-runtime.mjs
