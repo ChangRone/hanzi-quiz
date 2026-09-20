@@ -79,7 +79,7 @@ try {
     const b = box.getBoundingClientRect();
     const s = svg.getBoundingClientRect();
     return {
-      box: { x: b.x, y: b.y, width: b.width, height: b.height },
+      box: { x: b.x, y: b.y, width: b.width, height: b.height, clientWidth: box.clientWidth, clientHeight: box.clientHeight },
       svg: { x: s.x, y: s.y, width: s.width, height: s.height }
     };
   });
@@ -94,7 +94,7 @@ try {
   if (!after) throw new Error('Writer geometry unavailable after rotation');
 
   const close = (a, b, tolerance = 3) => Math.abs(a - b) <= tolerance;
-  if (!close(after.svg.width, after.box.width) || !close(after.svg.height, after.box.height)) {
+  if (!close(after.svg.width, after.box.clientWidth) || !close(after.svg.height, after.box.clientHeight)) {
     throw new Error('Writer SVG size is stale after rotation: ' + JSON.stringify({ before, after }));
   }
   const boxCenterX = after.box.x + after.box.width / 2;
