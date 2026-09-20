@@ -37,7 +37,6 @@
     currentLessonFocus: '',
     writerStates: [],
     autoNextTimer: null,
-    speechTimer: null,
     activeAudio: null,
     audioCache: new Map(),
     recordedKeysForCurrentQuestion: new Set(),
@@ -878,7 +877,10 @@
 
   function productionAudioUrl(question) {
     const id = String(question && question.id || '');
-    return id ? PRODUCTION_AUDIO_BASE + encodeURIComponent(id) + '.mp3?v=' + encodeURIComponent(PRODUCTION_AUDIO_VERSION) : '';
+    if (!id) return '';
+    const packVersion = String(question.lesson && question.lesson.sourceHash || '').slice(0, 16);
+    const version = [PRODUCTION_AUDIO_VERSION, packVersion].filter(Boolean).join('-');
+    return PRODUCTION_AUDIO_BASE + encodeURIComponent(id) + '.mp3?v=' + encodeURIComponent(version);
   }
 
   function trimAudioCache(maxEntries = 4) {
@@ -1083,7 +1085,6 @@
 
   async function showHome() {
     clearTimeout(state.autoNextTimer);
-    clearTimeout(state.speechTimer);
     stopActiveAudio();
     state.currentLessonFocus = '';
     els.quizView.classList.add('hidden');
