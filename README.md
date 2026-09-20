@@ -83,9 +83,12 @@ hanzi_project_lessonpattern_v17/
 - Voice：`zh-TW-HsiaoChenNeural`
 - Strategy：verified partial phoneme（只強制已經 A/B 實聽驗證的字音組合）
 - Prosody rate：`-12%`
-- Runtime：Azure 預產 MP3 優先；不存在、載入失敗或播放失敗時退回瀏覽器 Web Speech
+- Runtime：正式 Quiz 直接讀取 Lab 已驗證的 Azure MP3；**不再以瀏覽器 Web Speech 作 fallback**
+- Audio failure：若 MP3 載入／播放失敗，保留作答功能並顯示可重試訊息，不偷偷換成不同語音來源
 - Preload：只保留當題與鄰近題目的小型 LRU audio cache，避免大量題目長時間練習時持續佔用記憶體
-- Asset host：`ChangRone/hanzi-writing-lab/production-audio/v1/`
+- Asset source of truth：`ChangRone/hanzi-writing-lab/production-audio/v1/`
+- Storage policy：正式 MP3 只在 Lab 保存一份；Quiz 不再複製相同 2070 檔，避免雙份同步與版本漂移
 - Security：Azure Speech Key 僅存在 GitHub Actions Secret，不進瀏覽器程式、題庫或公開 JSON
+- Cache：URL version 同時包含正式語音 profile version 與 pack `sourceHash` 前綴；題目內容更新時會自動換 URL
 
-`PRODUCTION_AUDIO_VERSION` 是瀏覽器快取版本。任何會改變已發布 MP3 內容的正式重建，都必須同步 bump 此版本。
+`PRODUCTION_AUDIO_VERSION` 只代表 voice / mode / rate 等正式語音 profile。若這些正式參數改變，需 bump 此版本；題庫文字或 token 更新則由 `sourceHash` 自動處理快取版本。
