@@ -40,6 +40,7 @@
     speechTimer: null,
     activeAudio: null,
     audioCache: new Map(),
+    recordedKeysForCurrentQuestion: new Set(),
     questionZoomed: false,
     navigating: false,
     catalogLoaded: false,
@@ -702,7 +703,8 @@
 
     const ws = {
       token, writer, box, failed: false, completed: false, recorded: false, question,
-      nextStrokeNum: 0, missesSinceHint: 0, hinting: false, loaded, loadMeta
+      nextStrokeNum: 0, missesSinceHint: 0, hinting: false, loaded, loadMeta,
+      renderSize: Math.floor(box.getBoundingClientRect().width || box.clientWidth || 260)
     };
     startWriterQuiz(ws, 0);
     return ws;
@@ -791,8 +793,11 @@
     );
     if (!sameCharStates.every(item => item.recorded)) return;
     const groupedResult = sameCharStates.some(item => item.failed) ? 'fail' : 'pass';
+    const resultKey = stateKey(ws.token.char, ws.question.skill);
+    if (state.recordedKeysForCurrentQuestion.has(resultKey)) return;
     try {
       await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
+      state.recordedKeysForCurrentQuestion.add(resultKey);
     } catch (err) {
       console.error(err);
       els.quizMessage.textContent = '作答完成，但學習紀錄儲存失敗。';
@@ -802,14 +807,6 @@
   async function recordIncompleteAsFail() {
     const jobs = state.writerStates.filter(ws => !ws.recorded).map(ws => recordWriterResult(ws, 'fail'));
     await Promise.all(jobs);
-  }
-
-  function getTaiwanSpeechVoice() {
-    if (!('speechSynthesis' in window)) return null;
-    const voices = speechSynthesis.getVoices ? speechSynthesis.getVoices() : [];
-    return voices.find(voice => String(voice.lang || '').toLowerCase() === 'zh-tw')
-      || voices.find(voice => /^zh[-_]/i.test(String(voice.lang || '')))
-      || null;
   }
 
   function setQuestionZoomed(value) {
@@ -840,15 +837,45 @@
     if (overflows()) els.questionText.classList.add('question-overflow');
   }
 
+  function resizeCurrentWriters() {
+    state.writerStates.forEach(ws => {
+      if (!ws || !ws.writer || !ws.box || !ws.box.isConnected || typeof ws.writer.updateDimensions !== 'function') return;
+      const width = Math.floor(ws.box.getBoundingClientRect().width);
+      if (!width || Math.abs(width - Number(ws.renderSize || 0)) < 1) return;
+      ws.renderSize = width;
+      try { ws.writer.updateDimensions({ width, height: width, padding: 8 }); }
+      catch (err) { console.warn('Writer resize failed', err); }
+    });
+  }
+
+  function scheduleLayoutRefresh(delay = 0) {
+    setTimeout(() => {
+      requestAnimationFrame(() => {
+        fitQuestionText();
+        resizeCurrentWriters();
+      });
+    }, delay);
+  }
+
   function initQuestionLayoutObserver() {
     if ('ResizeObserver' in window) {
-      const observer = new ResizeObserver(() => requestAnimationFrame(fitQuestionText));
+      const observer = new ResizeObserver(() => {
+        requestAnimationFrame(() => {
+          fitQuestionText();
+          resizeCurrentWriters();
+        });
+      });
       observer.observe(els.quizView);
       observer.observe(els.questionText);
+      observer.observe(els.writers);
     }
-    window.addEventListener('orientationchange', () => setTimeout(fitQuestionText, 60));
-    window.addEventListener('resize', () => requestAnimationFrame(fitQuestionText));
+    window.addEventListener('orientationchange', () => {
+      scheduleLayoutRefresh(60);
+      scheduleLayoutRefresh(240);
+    });
+    window.addEventListener('resize', () => scheduleLayoutRefresh());
   }
+
   function productionAudioUrl(question) {
     const id = String(question && question.id || '');
     return id ? PRODUCTION_AUDIO_BASE + encodeURIComponent(id) + '.mp3?v=' + encodeURIComponent(PRODUCTION_AUDIO_VERSION) : '';
@@ -899,50 +926,49 @@
     state.activeAudio = null;
   }
 
-  function speakQuestionWithWebSpeech(question) {
-    if (!question || !question.readText || !('speechSynthesis' in window)) return;
-    clearTimeout(state.speechTimer);
-    try { speechSynthesis.cancel(); } catch { /* noop */ }
-    const utter = new SpeechSynthesisUtterance(`，${question.readText}`);
-    utter.lang = 'zh-TW';
-    utter.rate = 0.78;
-    const voice = getTaiwanSpeechVoice();
-    if (voice) utter.voice = voice;
-    state.speechTimer = setTimeout(() => {
-      try {
-        if (speechSynthesis.paused) speechSynthesis.resume();
-        speechSynthesis.speak(utter);
-      } catch (err) {
-        console.warn('Speech synthesis fallback failed', err);
-      }
-    }, 160);
+  function evictAudio(audio) {
+    for (const [url, cached] of state.audioCache.entries()) {
+      if (cached === audio) state.audioCache.delete(url);
+    }
+  }
+
+  function showAudioFailure(message = '語音檔載入失敗，請稍後再按「聽整句」重試。') {
+    els.quizMessage.textContent = message;
   }
 
   function speakQuestion() {
     const question = state.currentQueue[state.currentIndex];
     if (!question || !question.readText) return;
-    clearTimeout(state.speechTimer);
-    try { speechSynthesis.cancel(); } catch { /* noop */ }
     stopActiveAudio();
 
     const audio = preloadQuestionAudio(question);
     if (!audio) {
-      speakQuestionWithWebSpeech(question);
+      showAudioFailure();
       return;
     }
 
     state.activeAudio = audio;
     try { audio.currentTime = 0; } catch { /* noop */ }
-    let fallbackUsed = false;
-    const fallback = () => {
-      if (fallbackUsed) return;
-      fallbackUsed = true;
+    let failed = false;
+    const fail = message => {
+      if (failed) return;
+      failed = true;
       if (state.activeAudio === audio) state.activeAudio = null;
-      speakQuestionWithWebSpeech(question);
+      evictAudio(audio);
+      showAudioFailure(message);
     };
-    audio.onerror = fallback;
+    audio.onerror = () => fail();
     const playPromise = audio.play();
-    if (playPromise && typeof playPromise.catch === 'function') playPromise.catch(fallback);
+    if (playPromise && typeof playPromise.catch === 'function') {
+      playPromise.catch(err => {
+        if (err && err.name === 'NotAllowedError') {
+          if (state.activeAudio === audio) state.activeAudio = null;
+          els.quizMessage.textContent = '請按「聽整句」播放語音。';
+          return;
+        }
+        fail();
+      });
+    }
   }
 
   async function showQuestion() {
@@ -966,6 +992,7 @@
     const blanks = question.tokens.map((token, index) => ({ token, index })).filter(item => item.token.type === 'blank');
     blanks.forEach(item => state.writerStates.push(createWriterState(question, item.token, item.index)));
     await Promise.all(state.writerStates.map(ws => ws.loaded));
+    scheduleLayoutRefresh();
     els.questionLoading.classList.add('hidden');
     els.audioButton.disabled = false;
     speakQuestion();
@@ -984,6 +1011,7 @@
         return;
       }
       state.currentIndex += 1;
+      state.recordedKeysForCurrentQuestion = new Set();
       await showQuestion();
     } finally {
       state.navigating = false;
@@ -1029,6 +1057,7 @@
     }
     state.currentQueue = result.queue;
     state.currentIndex = 0;
+    state.recordedKeysForCurrentQuestion = new Set();
     state.navigating = false;
     els.nextButton.disabled = false;
     els.quizModeLabel.textContent = state.practiceMode === 'review' ? '總複習・隨機' : '一般練習・由新到舊';
@@ -1056,7 +1085,6 @@
     clearTimeout(state.autoNextTimer);
     clearTimeout(state.speechTimer);
     stopActiveAudio();
-    try { speechSynthesis.cancel(); } catch { /* noop */ }
     state.currentLessonFocus = '';
     els.quizView.classList.add('hidden');
     els.homeView.classList.remove('hidden');
