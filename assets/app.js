@@ -12,6 +12,13 @@
   const APPROVED_DATASET_PATH = 'char-data/moe-6063-v1/{hex}.json';
   const PRODUCTION_AUDIO_BASE = 'https://changrone.github.io/hanzi-writing-lab/production-audio/v1/audio/';
   const PRODUCTION_AUDIO_VERSION = 'hsiaochen-partial-r12-v1';
+  const PRODUCTION_AUDIO_REVISIONS = {
+    '202620200301': 'uncle-neutral-tone-v1',
+    '202620200310': 'uncle-neutral-tone-v1',
+    '202610301201': 'uncle-neutral-tone-v1',
+    '202610301204': 'uncle-neutral-tone-v1',
+    '202610301209': 'uncle-neutral-tone-v1'
+  };
   const DEFAULT_DEV = {
     leniency: 1.4,
     drawingWidth: 18,
@@ -879,7 +886,8 @@
     const id = String(question && question.id || '');
     if (!id) return '';
     const packVersion = String(question.lesson && question.lesson.sourceHash || '').slice(0, 16);
-    const version = [PRODUCTION_AUDIO_VERSION, packVersion].filter(Boolean).join('-');
+    const questionRevision = PRODUCTION_AUDIO_REVISIONS[id] || '';
+    const version = [PRODUCTION_AUDIO_VERSION, packVersion, questionRevision].filter(Boolean).join('-');
     return PRODUCTION_AUDIO_BASE + encodeURIComponent(id) + '.mp3?v=' + encodeURIComponent(version);
   }
 
