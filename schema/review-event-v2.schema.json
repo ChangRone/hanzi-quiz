@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hanzi-review-event-v2",
+  "title": "Hanzi Quiz Review Event v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "appVersion", "char", "skill", "skillKey", "courseKey",
+    "reviewedAt", "eventType", "mode"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "appVersion": { "type": "string", "minLength": 1 },
+    "char": { "type": "string", "minLength": 1, "maxLength": 1 },
+    "skill": { "type": "string", "minLength": 1 },
+    "skillKey": { "type": "string", "minLength": 1 },
+    "courseKey": { "type": "string", "minLength": 1 },
+    "questionId": { "type": "string" },
+    "dictationUnitId": { "type": "string" },
+    "curriculumStatus": {
+      "type": "string",
+      "enum": ["current_lesson", "earlier_same_term", "prior_term", "future", "unknown_prior", "not_in_curriculum"]
+    },
+    "reviewedAt": { "type": "string", "format": "date-time" },
+    "eventType": { "type": "string", "enum": ["exposed", "tested"] },
+    "result": { "type": ["string", "null"], "enum": ["pass", "fail", null] },
+    "mode": { "type": "string" },
+    "hanziCorrect": { "type": ["boolean", "null"] },
+    "zhuyinCorrect": { "type": ["boolean", "null"] },
+    "responseMs": { "type": "integer", "minimum": 0 },
+    "firstStrokeMs": { "type": "integer", "minimum": 0 },
+    "strokeCount": { "type": "integer", "minimum": 0 },
+    "mistakeCount": { "type": "integer", "minimum": 0 },
+    "hintUsed": { "type": "boolean" },
+    "audioReplayCount": { "type": "integer", "minimum": 0 },
+    "timedOut": { "type": "boolean" },
+    "allowBackwards": { "type": "boolean" },
+    "zhuyinErrorKinds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["missing_symbol", "wrong_symbol", "wrong_slot", "extra_ink", "wrong_tone", "uncertain"]
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "eventType": { "const": "tested" } }, "required": ["eventType"] },
+      "then": { "required": ["result"] }
+    }
+  ]
+}
