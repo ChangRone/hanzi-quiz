@@ -5,7 +5,7 @@
   "publisherCode": "2",
   "grade": "02",
   "semester": "0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "questions": [
     {
       "id": "202620200801",
@@ -441,9 +441,1329 @@
           "zhuyin": "ㄕㄨㄟˇ"
         }
       ]
+    },
+    {
+      "id": "202620200811",
+      "examPhase": "midterm_before",
+      "readText": "口渴的烏鴉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "渴",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "鴉",
+          "zhuyin": "ㄧㄚ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU001",
+      "requiredSpan": "口渴的烏鴉",
+      "targetChars": [
+        "口",
+        "渴",
+        "的",
+        "烏",
+        "鴉"
+      ]
+    },
+    {
+      "id": "202620200812",
+      "examPhase": "midterm_before",
+      "readText": "好方法",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU003",
+      "requiredSpan": "好方法",
+      "targetChars": [
+        "好",
+        "方",
+        "法"
+      ]
+    },
+    {
+      "id": "202620200813",
+      "examPhase": "midterm_before",
+      "readText": "森林裡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "森",
+          "zhuyin": "ㄙㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU004",
+      "requiredSpan": "森林裡",
+      "targetChars": [
+        "森",
+        "林",
+        "裡"
+      ]
+    },
+    {
+      "id": "202620200814",
+      "examPhase": "midterm_before",
+      "readText": "動物們",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU005",
+      "requiredSpan": "動物們",
+      "targetChars": [
+        "動",
+        "物",
+        "們"
+      ]
+    },
+    {
+      "id": "202620200815",
+      "examPhase": "midterm_before",
+      "readText": "外地旅行",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旅",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU006",
+      "requiredSpan": "外地旅行",
+      "targetChars": [
+        "外",
+        "地",
+        "旅",
+        "行"
+      ]
+    },
+    {
+      "id": "202620200816",
+      "examPhase": "midterm_before",
+      "readText": "中午",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "午",
+          "zhuyin": "ㄨˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU007",
+      "requiredSpan": "中午",
+      "targetChars": [
+        "中",
+        "午"
+      ]
+    },
+    {
+      "id": "202620200817",
+      "examPhase": "midterm_before",
+      "readText": "又熱又渴",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "渴",
+          "zhuyin": "ㄎㄜˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU008",
+      "requiredSpan": "又熱又渴",
+      "targetChars": [
+        "又",
+        "熱",
+        "又",
+        "渴"
+      ]
+    },
+    {
+      "id": "202620200818",
+      "examPhase": "midterm_before",
+      "readText": "裝有半瓶水",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "裝",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "半",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "瓶",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU009",
+      "requiredSpan": "裝有半瓶水",
+      "targetChars": [
+        "裝",
+        "有",
+        "半",
+        "瓶",
+        "水"
+      ]
+    },
+    {
+      "id": "202620200819",
+      "examPhase": "midterm_before",
+      "readText": "許多小石頭",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "許",
+          "zhuyin": "ㄒㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "頭",
+          "zhuyin": "ㄊㄡ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU011",
+      "requiredSpan": "許多小石頭",
+      "targetChars": [
+        "許",
+        "多",
+        "小",
+        "石",
+        "頭"
+      ]
+    },
+    {
+      "id": "202620200820",
+      "examPhase": "midterm_before",
+      "readText": "難道",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU013",
+      "requiredSpan": "難道",
+      "targetChars": [
+        "難",
+        "道"
+      ]
+    },
+    {
+      "id": "202620200821",
+      "examPhase": "midterm_before",
+      "readText": "忘了",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "忘",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU014",
+      "requiredSpan": "忘了",
+      "targetChars": [
+        "忘",
+        "了"
+      ]
+    },
+    {
+      "id": "202620200822",
+      "examPhase": "midterm_before",
+      "readText": "烏鴉喝水",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "鴉",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU015",
+      "requiredSpan": "烏鴉喝水",
+      "targetChars": [
+        "烏",
+        "鴉",
+        "喝",
+        "水"
+      ]
+    },
+    {
+      "id": "202620200823",
+      "examPhase": "midterm_before",
+      "readText": "哈哈哈",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "哈",
+          "zhuyin": "ㄏㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "哈",
+          "zhuyin": "ㄏㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "哈",
+          "zhuyin": "ㄏㄚ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU016",
+      "requiredSpan": "哈哈哈",
+      "targetChars": [
+        "哈",
+        "哈",
+        "哈"
+      ]
+    },
+    {
+      "id": "202620200824",
+      "examPhase": "midterm_before",
+      "readText": "但是",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "但",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-08-DU017",
+      "requiredSpan": "但是",
+      "targetChars": [
+        "但",
+        "是"
+      ]
+    },
+    {
+      "id": "202620200851",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念口渴的烏鴉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "渴",
+          "zhuyin": "ㄎㄜˇ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "鴉",
+          "zhuyin": "ㄧㄚ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU001",
+      "requiredSpan": "口渴的烏鴉",
+      "targetChars": [
+        "口",
+        "渴",
+        "的",
+        "烏",
+        "鴉"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200852",
+      "examPhase": "midterm_before",
+      "readText": "我把好方法寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU003",
+      "requiredSpan": "好方法",
+      "targetChars": [
+        "好",
+        "方",
+        "法"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200853",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫森林裡",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "森",
+          "zhuyin": "ㄙㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "林",
+          "zhuyin": "ㄌㄧㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU004",
+      "requiredSpan": "森林裡",
+      "targetChars": [
+        "森",
+        "林",
+        "裡"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200854",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念動物們",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "動",
+          "zhuyin": "ㄉㄨㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "物",
+          "zhuyin": "ㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "們",
+          "zhuyin": "ㄇㄣ˙"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU005",
+      "requiredSpan": "動物們",
+      "targetChars": [
+        "動",
+        "物",
+        "們"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200855",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念外地旅行",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "外",
+          "zhuyin": "ㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "地",
+          "zhuyin": "ㄉㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "旅",
+          "zhuyin": "ㄌㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "行",
+          "zhuyin": "ㄒㄧㄥˊ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU006",
+      "requiredSpan": "外地旅行",
+      "targetChars": [
+        "外",
+        "地",
+        "旅",
+        "行"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200856",
+      "examPhase": "midterm_before",
+      "readText": "我把中午寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "午",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU007",
+      "requiredSpan": "中午",
+      "targetChars": [
+        "中",
+        "午"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200857",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫又熱又渴",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "熱",
+          "zhuyin": "ㄖㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "又",
+          "zhuyin": "ㄧㄡˋ"
+        },
+        {
+          "type": "blank",
+          "char": "渴",
+          "zhuyin": "ㄎㄜˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU008",
+      "requiredSpan": "又熱又渴",
+      "targetChars": [
+        "又",
+        "熱",
+        "又",
+        "渴"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200858",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念裝有半瓶水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "裝",
+          "zhuyin": "ㄓㄨㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "半",
+          "zhuyin": "ㄅㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "瓶",
+          "zhuyin": "ㄆㄧㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU009",
+      "requiredSpan": "裝有半瓶水",
+      "targetChars": [
+        "裝",
+        "有",
+        "半",
+        "瓶",
+        "水"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200859",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念許多小石頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "許",
+          "zhuyin": "ㄒㄩˇ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "石",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "頭",
+          "zhuyin": "ㄊㄡ˙"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU011",
+      "requiredSpan": "許多小石頭",
+      "targetChars": [
+        "許",
+        "多",
+        "小",
+        "石",
+        "頭"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200860",
+      "examPhase": "midterm_before",
+      "readText": "我把難道寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "難",
+          "zhuyin": "ㄋㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "道",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU013",
+      "requiredSpan": "難道",
+      "targetChars": [
+        "難",
+        "道"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200861",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫忘了",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "忘",
+          "zhuyin": "ㄨㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU014",
+      "requiredSpan": "忘了",
+      "targetChars": [
+        "忘",
+        "了"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200862",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念烏鴉喝水",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "烏",
+          "zhuyin": "ㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "鴉",
+          "zhuyin": "ㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "喝",
+          "zhuyin": "ㄏㄜ"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU015",
+      "requiredSpan": "烏鴉喝水",
+      "targetChars": [
+        "烏",
+        "鴉",
+        "喝",
+        "水"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200863",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念哈哈哈",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "哈",
+          "zhuyin": "ㄏㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "哈",
+          "zhuyin": "ㄏㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "哈",
+          "zhuyin": "ㄏㄚ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU016",
+      "requiredSpan": "哈哈哈",
+      "targetChars": [
+        "哈",
+        "哈",
+        "哈"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200864",
+      "examPhase": "midterm_before",
+      "readText": "我把但是寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "但",
+          "zhuyin": "ㄉㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-08-DU017",
+      "requiredSpan": "但是",
+      "targetChars": [
+        "但",
+        "是"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
     }
   ],
   "catalog": {
-    "included": true
+    "included": true,
+    "lessonTitle": "「聰明」的小熊"
   }
 }
