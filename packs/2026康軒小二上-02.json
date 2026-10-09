@@ -5,7 +5,7 @@
   "publisherCode": "2",
   "grade": "02",
   "semester": "0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "questions": [
     {
       "id": "202620200201",
@@ -146,7 +146,7 @@
         {
           "type": "blank",
           "char": "夾",
-          "zhuyin": "ㄐㄧㄚˊ"
+          "zhuyin": "ㄐㄧㄚ"
         },
         {
           "type": "text",
@@ -406,9 +406,1341 @@
           "zhuyin": "ㄐㄧㄢ"
         }
       ]
+    },
+    {
+      "id": "202620200211",
+      "examPhase": "midterm_before",
+      "readText": "全家",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "全",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU001",
+      "requiredSpan": "全家",
+      "targetChars": [
+        "全",
+        "家"
+      ]
+    },
+    {
+      "id": "202620200212",
+      "examPhase": "midterm_before",
+      "readText": "煎蛋",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "煎",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU002",
+      "requiredSpan": "煎蛋",
+      "targetChars": [
+        "煎",
+        "蛋"
+      ]
+    },
+    {
+      "id": "202620200213",
+      "examPhase": "midterm_before",
+      "readText": "圓圓的太陽",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU003",
+      "requiredSpan": "圓圓的太陽",
+      "targetChars": [
+        "圓",
+        "圓",
+        "的",
+        "太",
+        "陽"
+      ]
+    },
+    {
+      "id": "202620200214",
+      "examPhase": "midterm_before",
+      "readText": "切成紅紅的",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU005",
+      "requiredSpan": "切成紅紅的",
+      "targetChars": [
+        "切",
+        "成",
+        "紅",
+        "紅",
+        "的"
+      ]
+    },
+    {
+      "id": "202620200215",
+      "examPhase": "midterm_before",
+      "readText": "紅紅的輪子",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "輪",
+          "zhuyin": "ㄌㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU006",
+      "requiredSpan": "紅紅的輪子",
+      "targetChars": [
+        "紅",
+        "紅",
+        "的",
+        "輪",
+        "子"
+      ]
+    },
+    {
+      "id": "202620200216",
+      "examPhase": "midterm_before",
+      "readText": "起司",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU007",
+      "requiredSpan": "起司",
+      "targetChars": [
+        "起",
+        "司"
+      ]
+    },
+    {
+      "id": "202620200217",
+      "examPhase": "midterm_before",
+      "readText": "夾在吐司中",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "夾",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "吐",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU009",
+      "requiredSpan": "夾在吐司中",
+      "targetChars": [
+        "夾",
+        "在",
+        "吐",
+        "司",
+        "中"
+      ]
+    },
+    {
+      "id": "202620200218",
+      "examPhase": "midterm_before",
+      "readText": "四四方方的小城堡",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堡",
+          "zhuyin": "ㄅㄠˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU010",
+      "requiredSpan": "四四方方的小城堡",
+      "targetChars": [
+        "四",
+        "四",
+        "方",
+        "方",
+        "的",
+        "小",
+        "城",
+        "堡"
+      ]
+    },
+    {
+      "id": "202620200219",
+      "examPhase": "midterm_before",
+      "readText": "接著",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU011",
+      "requiredSpan": "接著",
+      "targetChars": [
+        "接",
+        "著"
+      ]
+    },
+    {
+      "id": "202620200220",
+      "examPhase": "midterm_before",
+      "readText": "番茄醬",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "番",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "茄",
+          "zhuyin": "ㄑㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU012",
+      "requiredSpan": "番茄醬",
+      "targetChars": [
+        "番",
+        "茄",
+        "醬"
+      ]
+    },
+    {
+      "id": "202620200221",
+      "examPhase": "midterm_before",
+      "readText": "畫出笑臉",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU013",
+      "requiredSpan": "畫出笑臉",
+      "targetChars": [
+        "畫",
+        "出",
+        "笑",
+        "臉"
+      ]
+    },
+    {
+      "id": "202620200222",
+      "examPhase": "midterm_before",
+      "readText": "一起做早餐",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU014",
+      "requiredSpan": "一起做早餐",
+      "targetChars": [
+        "一",
+        "起",
+        "做",
+        "早",
+        "餐"
+      ]
+    },
+    {
+      "id": "202620200223",
+      "examPhase": "midterm_before",
+      "readText": "快樂的時光",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-02-DU015",
+      "requiredSpan": "快樂的時光",
+      "targetChars": [
+        "快",
+        "樂",
+        "的",
+        "時",
+        "光"
+      ]
+    },
+    {
+      "id": "202620200251",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫全家",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "全",
+          "zhuyin": "ㄑㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU001",
+      "requiredSpan": "全家",
+      "targetChars": [
+        "全",
+        "家"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200252",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念煎蛋",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煎",
+          "zhuyin": "ㄐㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "蛋",
+          "zhuyin": "ㄉㄢˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU002",
+      "requiredSpan": "煎蛋",
+      "targetChars": [
+        "煎",
+        "蛋"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200253",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念圓圓的太陽",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "圓",
+          "zhuyin": "ㄩㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "太",
+          "zhuyin": "ㄊㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "陽",
+          "zhuyin": "ㄧㄤˊ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU003",
+      "requiredSpan": "圓圓的太陽",
+      "targetChars": [
+        "圓",
+        "圓",
+        "的",
+        "太",
+        "陽"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200254",
+      "examPhase": "midterm_before",
+      "readText": "我把切成紅紅的寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "切",
+          "zhuyin": "ㄑㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "成",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU005",
+      "requiredSpan": "切成紅紅的",
+      "targetChars": [
+        "切",
+        "成",
+        "紅",
+        "紅",
+        "的"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200255",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫紅紅的輪子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "輪",
+          "zhuyin": "ㄌㄨㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU006",
+      "requiredSpan": "紅紅的輪子",
+      "targetChars": [
+        "紅",
+        "紅",
+        "的",
+        "輪",
+        "子"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200256",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念起司",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU007",
+      "requiredSpan": "起司",
+      "targetChars": [
+        "起",
+        "司"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200257",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念夾在吐司中",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "夾",
+          "zhuyin": "ㄐㄧㄚ"
+        },
+        {
+          "type": "blank",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "吐",
+          "zhuyin": "ㄊㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "司",
+          "zhuyin": "ㄙ"
+        },
+        {
+          "type": "blank",
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU009",
+      "requiredSpan": "夾在吐司中",
+      "targetChars": [
+        "夾",
+        "在",
+        "吐",
+        "司",
+        "中"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200258",
+      "examPhase": "midterm_before",
+      "readText": "我把四四方方的小城堡寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "四",
+          "zhuyin": "ㄙˋ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "小",
+          "zhuyin": "ㄒㄧㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "城",
+          "zhuyin": "ㄔㄥˊ"
+        },
+        {
+          "type": "blank",
+          "char": "堡",
+          "zhuyin": "ㄅㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU010",
+      "requiredSpan": "四四方方的小城堡",
+      "targetChars": [
+        "四",
+        "四",
+        "方",
+        "方",
+        "的",
+        "小",
+        "城",
+        "堡"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200259",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫接著",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "接",
+          "zhuyin": "ㄐㄧㄝ"
+        },
+        {
+          "type": "blank",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU011",
+      "requiredSpan": "接著",
+      "targetChars": [
+        "接",
+        "著"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200260",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念番茄醬",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "番",
+          "zhuyin": "ㄈㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "茄",
+          "zhuyin": "ㄑㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "醬",
+          "zhuyin": "ㄐㄧㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU012",
+      "requiredSpan": "番茄醬",
+      "targetChars": [
+        "番",
+        "茄",
+        "醬"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200261",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念畫出笑臉",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "畫",
+          "zhuyin": "ㄏㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "出",
+          "zhuyin": "ㄔㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "笑",
+          "zhuyin": "ㄒㄧㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "臉",
+          "zhuyin": "ㄌㄧㄢˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU013",
+      "requiredSpan": "畫出笑臉",
+      "targetChars": [
+        "畫",
+        "出",
+        "笑",
+        "臉"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200262",
+      "examPhase": "midterm_before",
+      "readText": "我把一起做早餐寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "一",
+          "zhuyin": "ㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "起",
+          "zhuyin": "ㄑㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "做",
+          "zhuyin": "ㄗㄨㄛˋ"
+        },
+        {
+          "type": "blank",
+          "char": "早",
+          "zhuyin": "ㄗㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "餐",
+          "zhuyin": "ㄘㄢ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU014",
+      "requiredSpan": "一起做早餐",
+      "targetChars": [
+        "一",
+        "起",
+        "做",
+        "早",
+        "餐"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200263",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫快樂的時光",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "時",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "光",
+          "zhuyin": "ㄍㄨㄤ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-02-DU015",
+      "requiredSpan": "快樂的時光",
+      "targetChars": [
+        "快",
+        "樂",
+        "的",
+        "時",
+        "光"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
     }
   ],
   "catalog": {
-    "included": true
+    "included": true,
+    "lessonTitle": "一起做早餐"
   }
 }
