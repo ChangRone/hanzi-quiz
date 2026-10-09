@@ -5,7 +5,7 @@
   "publisherCode": "2",
   "grade": "02",
   "semester": "0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "questions": [
     {
       "id": "202620200901",
@@ -451,9 +451,1436 @@
           "zhuyin": "ㄕㄨㄟˇ"
         }
       ]
+    },
+    {
+      "id": "202620200911",
+      "examPhase": "midterm_before",
+      "readText": "曹操",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "曹",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "操",
+          "zhuyin": "ㄘㄠ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU001",
+      "requiredSpan": "曹操",
+      "targetChars": [
+        "曹",
+        "操"
+      ]
+    },
+    {
+      "id": "202620200912",
+      "examPhase": "midterm_before",
+      "readText": "大象",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU002",
+      "requiredSpan": "大象",
+      "targetChars": [
+        "大",
+        "象"
+      ]
+    },
+    {
+      "id": "202620200913",
+      "examPhase": "midterm_before",
+      "readText": "粗大的腿",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "粗",
+          "zhuyin": "ㄘㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "腿",
+          "zhuyin": "ㄊㄨㄟˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU003",
+      "requiredSpan": "粗大的腿",
+      "targetChars": [
+        "粗",
+        "大",
+        "的",
+        "腿"
+      ]
+    },
+    {
+      "id": "202620200914",
+      "examPhase": "midterm_before",
+      "readText": "像柱子",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柱",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU004",
+      "requiredSpan": "像柱子",
+      "targetChars": [
+        "像",
+        "柱",
+        "子"
+      ]
+    },
+    {
+      "id": "202620200915",
+      "examPhase": "midterm_before",
+      "readText": "砍下大樹",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "砍",
+          "zhuyin": "ㄎㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU005",
+      "requiredSpan": "砍下大樹",
+      "targetChars": [
+        "砍",
+        "下",
+        "大",
+        "樹"
+      ]
+    },
+    {
+      "id": "202620200916",
+      "examPhase": "midterm_before",
+      "readText": "好幾部分",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "分",
+          "zhuyin": "ㄈㄣˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU006",
+      "requiredSpan": "好幾部分",
+      "targetChars": [
+        "好",
+        "幾",
+        "部",
+        "分"
+      ]
+    },
+    {
+      "id": "202620200917",
+      "examPhase": "midterm_before",
+      "readText": "直搖頭",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "blank",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU007",
+      "requiredSpan": "直搖頭",
+      "targetChars": [
+        "直",
+        "搖",
+        "頭"
+      ]
+    },
+    {
+      "id": "202620200918",
+      "examPhase": "midterm_before",
+      "readText": "曹沖",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "曹",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "沖",
+          "zhuyin": "ㄔㄨㄥ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU008",
+      "requiredSpan": "曹沖",
+      "targetChars": [
+        "曹",
+        "沖"
+      ]
+    },
+    {
+      "id": "202620200919",
+      "examPhase": "midterm_before",
+      "readText": "好方法",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU009",
+      "requiredSpan": "好方法",
+      "targetChars": [
+        "好",
+        "方",
+        "法"
+      ]
+    },
+    {
+      "id": "202620200920",
+      "examPhase": "midterm_before",
+      "readText": "首先",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "首",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU010",
+      "requiredSpan": "首先",
+      "targetChars": [
+        "首",
+        "先"
+      ]
+    },
+    {
+      "id": "202620200921",
+      "examPhase": "midterm_before",
+      "readText": "牽到大船上",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "牽",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU011",
+      "requiredSpan": "牽到大船上",
+      "targetChars": [
+        "牽",
+        "到",
+        "大",
+        "船",
+        "上"
+      ]
+    },
+    {
+      "id": "202620200922",
+      "examPhase": "midterm_before",
+      "readText": "下沉多少",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沉",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU012",
+      "requiredSpan": "下沉多少",
+      "targetChars": [
+        "下",
+        "沉",
+        "多",
+        "少"
+      ]
+    },
+    {
+      "id": "202620200923",
+      "examPhase": "midterm_before",
+      "readText": "沿著水面",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "沿",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU013",
+      "requiredSpan": "沿著水面",
+      "targetChars": [
+        "沿",
+        "著",
+        "水",
+        "面"
+      ]
+    },
+    {
+      "id": "202620200924",
+      "examPhase": "midterm_before",
+      "readText": "然後",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU014",
+      "requiredSpan": "然後",
+      "targetChars": [
+        "然",
+        "後"
+      ]
+    },
+    {
+      "id": "202620200925",
+      "examPhase": "midterm_before",
+      "readText": "年紀",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紀",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU015",
+      "requiredSpan": "年紀",
+      "targetChars": [
+        "年",
+        "紀"
+      ]
+    },
+    {
+      "id": "202620200926",
+      "examPhase": "midterm_before",
+      "readText": "竟然",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "竟",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-09-DU016",
+      "requiredSpan": "竟然",
+      "targetChars": [
+        "竟",
+        "然"
+      ]
+    },
+    {
+      "id": "202620200951",
+      "examPhase": "midterm_before",
+      "readText": "我把曹操寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "曹",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "操",
+          "zhuyin": "ㄘㄠ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU001",
+      "requiredSpan": "曹操",
+      "targetChars": [
+        "曹",
+        "操"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200952",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫大象",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "象",
+          "zhuyin": "ㄒㄧㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU002",
+      "requiredSpan": "大象",
+      "targetChars": [
+        "大",
+        "象"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200953",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念粗大的腿",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "粗",
+          "zhuyin": "ㄘㄨ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "腿",
+          "zhuyin": "ㄊㄨㄟˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU003",
+      "requiredSpan": "粗大的腿",
+      "targetChars": [
+        "粗",
+        "大",
+        "的",
+        "腿"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200954",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念像柱子",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "像",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "柱",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU004",
+      "requiredSpan": "像柱子",
+      "targetChars": [
+        "像",
+        "柱",
+        "子"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200955",
+      "examPhase": "midterm_before",
+      "readText": "我把砍下大樹寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "砍",
+          "zhuyin": "ㄎㄢˇ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樹",
+          "zhuyin": "ㄕㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU005",
+      "requiredSpan": "砍下大樹",
+      "targetChars": [
+        "砍",
+        "下",
+        "大",
+        "樹"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200956",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫好幾部分",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "幾",
+          "zhuyin": "ㄐㄧˇ"
+        },
+        {
+          "type": "blank",
+          "char": "部",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "分",
+          "zhuyin": "ㄈㄣˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU006",
+      "requiredSpan": "好幾部分",
+      "targetChars": [
+        "好",
+        "幾",
+        "部",
+        "分"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200957",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念直搖頭",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "直",
+          "zhuyin": "ㄓˊ"
+        },
+        {
+          "type": "blank",
+          "char": "搖",
+          "zhuyin": "ㄧㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "頭",
+          "zhuyin": "ㄊㄡˊ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU007",
+      "requiredSpan": "直搖頭",
+      "targetChars": [
+        "直",
+        "搖",
+        "頭"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200958",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念曹沖",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "曹",
+          "zhuyin": "ㄘㄠˊ"
+        },
+        {
+          "type": "blank",
+          "char": "沖",
+          "zhuyin": "ㄔㄨㄥ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU008",
+      "requiredSpan": "曹沖",
+      "targetChars": [
+        "曹",
+        "沖"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200959",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫好方法",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "方",
+          "zhuyin": "ㄈㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "法",
+          "zhuyin": "ㄈㄚˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU009",
+      "requiredSpan": "好方法",
+      "targetChars": [
+        "好",
+        "方",
+        "法"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200960",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫首先",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "首",
+          "zhuyin": "ㄕㄡˇ"
+        },
+        {
+          "type": "blank",
+          "char": "先",
+          "zhuyin": "ㄒㄧㄢ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU010",
+      "requiredSpan": "首先",
+      "targetChars": [
+        "首",
+        "先"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200961",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念牽到大船上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "牽",
+          "zhuyin": "ㄑㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "blank",
+          "char": "大",
+          "zhuyin": "ㄉㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "船",
+          "zhuyin": "ㄔㄨㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU011",
+      "requiredSpan": "牽到大船上",
+      "targetChars": [
+        "牽",
+        "到",
+        "大",
+        "船",
+        "上"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200962",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念下沉多少",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "下",
+          "zhuyin": "ㄒㄧㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "沉",
+          "zhuyin": "ㄔㄣˊ"
+        },
+        {
+          "type": "blank",
+          "char": "多",
+          "zhuyin": "ㄉㄨㄛ"
+        },
+        {
+          "type": "blank",
+          "char": "少",
+          "zhuyin": "ㄕㄠˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU012",
+      "requiredSpan": "下沉多少",
+      "targetChars": [
+        "下",
+        "沉",
+        "多",
+        "少"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200963",
+      "examPhase": "midterm_before",
+      "readText": "我把沿著水面寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "沿",
+          "zhuyin": "ㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "水",
+          "zhuyin": "ㄕㄨㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "面",
+          "zhuyin": "ㄇㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU013",
+      "requiredSpan": "沿著水面",
+      "targetChars": [
+        "沿",
+        "著",
+        "水",
+        "面"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200964",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫然後",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "後",
+          "zhuyin": "ㄏㄡˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU014",
+      "requiredSpan": "然後",
+      "targetChars": [
+        "然",
+        "後"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200965",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念年紀",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "紀",
+          "zhuyin": "ㄐㄧˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU015",
+      "requiredSpan": "年紀",
+      "targetChars": [
+        "年",
+        "紀"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620200966",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念竟然",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "竟",
+          "zhuyin": "ㄐㄧㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-09-DU016",
+      "requiredSpan": "竟然",
+      "targetChars": [
+        "竟",
+        "然"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
     }
   ],
   "catalog": {
-    "included": true
+    "included": true,
+    "lessonTitle": "大象有多重？"
   }
 }

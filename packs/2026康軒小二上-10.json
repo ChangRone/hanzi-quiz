@@ -5,7 +5,7 @@
   "publisherCode": "2",
   "grade": "02",
   "semester": "0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "questions": [
     {
       "id": "202620201001",
@@ -446,9 +446,1470 @@
           "zhuyin": "ㄉㄞˋ"
         }
       ]
+    },
+    {
+      "id": "202620201011",
+      "examPhase": "midterm_before",
+      "readText": "雪梨",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "梨",
+          "zhuyin": "ㄌㄧˊ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU001",
+      "requiredSpan": "雪梨",
+      "targetChars": [
+        "雪",
+        "梨"
+      ]
+    },
+    {
+      "id": "202620201012",
+      "examPhase": "midterm_before",
+      "readText": "跨年夜",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "跨",
+          "zhuyin": "ㄎㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU002",
+      "requiredSpan": "跨年夜",
+      "targetChars": [
+        "跨",
+        "年",
+        "夜"
+      ]
+    },
+    {
+      "id": "202620201013",
+      "examPhase": "midterm_before",
+      "readText": "卻不是",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "卻",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU003",
+      "requiredSpan": "卻不是",
+      "targetChars": [
+        "卻",
+        "不",
+        "是"
+      ]
+    },
+    {
+      "id": "202620201014",
+      "examPhase": "midterm_before",
+      "readText": "冷冷的冬天",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "冬",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU004",
+      "requiredSpan": "冷冷的冬天",
+      "targetChars": [
+        "冷",
+        "冷",
+        "的",
+        "冬",
+        "天"
+      ]
+    },
+    {
+      "id": "202620201015",
+      "examPhase": "midterm_before",
+      "readText": "臺灣",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU005",
+      "requiredSpan": "臺灣",
+      "targetChars": [
+        "臺",
+        "灣"
+      ]
+    },
+    {
+      "id": "202620201016",
+      "examPhase": "midterm_before",
+      "readText": "季節正好相反",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "季",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "反",
+          "zhuyin": "ㄈㄢˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU006",
+      "requiredSpan": "季節正好相反",
+      "targetChars": [
+        "季",
+        "節",
+        "正",
+        "好",
+        "相",
+        "反"
+      ]
+    },
+    {
+      "id": "202620201017",
+      "examPhase": "midterm_before",
+      "readText": "煙火",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU008",
+      "requiredSpan": "煙火",
+      "targetChars": [
+        "煙",
+        "火"
+      ]
+    },
+    {
+      "id": "202620201018",
+      "examPhase": "midterm_before",
+      "readText": "等待",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU009",
+      "requiredSpan": "等待",
+      "targetChars": [
+        "等",
+        "待"
+      ]
+    },
+    {
+      "id": "202620201019",
+      "examPhase": "midterm_before",
+      "readText": "午夜十二點",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "午",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "二",
+          "zhuyin": "ㄦˋ"
+        },
+        {
+          "type": "blank",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU010",
+      "requiredSpan": "午夜十二點",
+      "targetChars": [
+        "午",
+        "夜",
+        "十",
+        "二",
+        "點"
+      ]
+    },
+    {
+      "id": "202620201020",
+      "examPhase": "midterm_before",
+      "readText": "相片",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU012",
+      "requiredSpan": "相片",
+      "targetChars": [
+        "相",
+        "片"
+      ]
+    },
+    {
+      "id": "202620201021",
+      "examPhase": "midterm_before",
+      "readText": "雖然美麗",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU013",
+      "requiredSpan": "雖然美麗",
+      "targetChars": [
+        "雖",
+        "然",
+        "美",
+        "麗"
+      ]
+    },
+    {
+      "id": "202620201022",
+      "examPhase": "midterm_before",
+      "readText": "春節",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU014",
+      "requiredSpan": "春節",
+      "targetChars": [
+        "春",
+        "節"
+      ]
+    },
+    {
+      "id": "202620201023",
+      "examPhase": "midterm_before",
+      "readText": "買年貨",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "貨",
+          "zhuyin": "ㄏㄨㄛˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU015",
+      "requiredSpan": "買年貨",
+      "targetChars": [
+        "買",
+        "年",
+        "貨"
+      ]
+    },
+    {
+      "id": "202620201024",
+      "examPhase": "midterm_before",
+      "readText": "期待",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU016",
+      "requiredSpan": "期待",
+      "targetChars": [
+        "期",
+        "待"
+      ]
+    },
+    {
+      "id": "202620201025",
+      "examPhase": "midterm_before",
+      "readText": "年夜飯",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU017",
+      "requiredSpan": "年夜飯",
+      "targetChars": [
+        "年",
+        "夜",
+        "飯"
+      ]
+    },
+    {
+      "id": "202620201026",
+      "examPhase": "midterm_before",
+      "readText": "新年快樂",
+      "tokens": [
+        {
+          "type": "blank",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        }
+      ],
+      "questionType": "direct_dictation",
+      "dictationUnitId": "115-2-02-0-10-DU018",
+      "requiredSpan": "新年快樂",
+      "targetChars": [
+        "新",
+        "年",
+        "快",
+        "樂"
+      ]
+    },
+    {
+      "id": "202620201051",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫雪梨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "雪",
+          "zhuyin": "ㄒㄩㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "梨",
+          "zhuyin": "ㄌㄧˊ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU001",
+      "requiredSpan": "雪梨",
+      "targetChars": [
+        "雪",
+        "梨"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201052",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念跨年夜",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "跨",
+          "zhuyin": "ㄎㄨㄚˋ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU002",
+      "requiredSpan": "跨年夜",
+      "targetChars": [
+        "跨",
+        "年",
+        "夜"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201053",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念卻不是",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "卻",
+          "zhuyin": "ㄑㄩㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "不",
+          "zhuyin": "ㄅㄨˋ"
+        },
+        {
+          "type": "blank",
+          "char": "是",
+          "zhuyin": "ㄕˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU003",
+      "requiredSpan": "卻不是",
+      "targetChars": [
+        "卻",
+        "不",
+        "是"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201054",
+      "examPhase": "midterm_before",
+      "readText": "我把冷冷的冬天寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "冷",
+          "zhuyin": "ㄌㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "的",
+          "zhuyin": "ㄉㄜ˙"
+        },
+        {
+          "type": "blank",
+          "char": "冬",
+          "zhuyin": "ㄉㄨㄥ"
+        },
+        {
+          "type": "blank",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU004",
+      "requiredSpan": "冷冷的冬天",
+      "targetChars": [
+        "冷",
+        "冷",
+        "的",
+        "冬",
+        "天"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201055",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫臺灣",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "臺",
+          "zhuyin": "ㄊㄞˊ"
+        },
+        {
+          "type": "blank",
+          "char": "灣",
+          "zhuyin": "ㄨㄢ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU005",
+      "requiredSpan": "臺灣",
+      "targetChars": [
+        "臺",
+        "灣"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201056",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念季節正好相反",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "季",
+          "zhuyin": "ㄐㄧˋ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "blank",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "blank",
+          "char": "好",
+          "zhuyin": "ㄏㄠˇ"
+        },
+        {
+          "type": "blank",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤ"
+        },
+        {
+          "type": "blank",
+          "char": "反",
+          "zhuyin": "ㄈㄢˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU006",
+      "requiredSpan": "季節正好相反",
+      "targetChars": [
+        "季",
+        "節",
+        "正",
+        "好",
+        "相",
+        "反"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201057",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念煙火",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "煙",
+          "zhuyin": "ㄧㄢ"
+        },
+        {
+          "type": "blank",
+          "char": "火",
+          "zhuyin": "ㄏㄨㄛˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU008",
+      "requiredSpan": "煙火",
+      "targetChars": [
+        "煙",
+        "火"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201058",
+      "examPhase": "midterm_before",
+      "readText": "我把等待寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "等",
+          "zhuyin": "ㄉㄥˇ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU009",
+      "requiredSpan": "等待",
+      "targetChars": [
+        "等",
+        "待"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201059",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫午夜十二點",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "午",
+          "zhuyin": "ㄨˇ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "十",
+          "zhuyin": "ㄕˊ"
+        },
+        {
+          "type": "blank",
+          "char": "二",
+          "zhuyin": "ㄦˋ"
+        },
+        {
+          "type": "blank",
+          "char": "點",
+          "zhuyin": "ㄉㄧㄢˇ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU010",
+      "requiredSpan": "午夜十二點",
+      "targetChars": [
+        "午",
+        "夜",
+        "十",
+        "二",
+        "點"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201060",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念相片",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "相",
+          "zhuyin": "ㄒㄧㄤˋ"
+        },
+        {
+          "type": "blank",
+          "char": "片",
+          "zhuyin": "ㄆㄧㄢˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU012",
+      "requiredSpan": "相片",
+      "targetChars": [
+        "相",
+        "片"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201061",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念雖然美麗",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "雖",
+          "zhuyin": "ㄙㄨㄟ"
+        },
+        {
+          "type": "blank",
+          "char": "然",
+          "zhuyin": "ㄖㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "美",
+          "zhuyin": "ㄇㄟˇ"
+        },
+        {
+          "type": "blank",
+          "char": "麗",
+          "zhuyin": "ㄌㄧˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU013",
+      "requiredSpan": "雖然美麗",
+      "targetChars": [
+        "雖",
+        "然",
+        "美",
+        "麗"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201062",
+      "examPhase": "midterm_before",
+      "readText": "我把春節寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "春",
+          "zhuyin": "ㄔㄨㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "節",
+          "zhuyin": "ㄐㄧㄝˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU014",
+      "requiredSpan": "春節",
+      "targetChars": [
+        "春",
+        "節"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201063",
+      "examPhase": "midterm_before",
+      "readText": "今天練習寫買年貨",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
+        },
+        {
+          "type": "text",
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
+        },
+        {
+          "type": "text",
+          "char": "練",
+          "zhuyin": "ㄌㄧㄢˋ"
+        },
+        {
+          "type": "text",
+          "char": "習",
+          "zhuyin": "ㄒㄧˊ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "blank",
+          "char": "買",
+          "zhuyin": "ㄇㄞˇ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "貨",
+          "zhuyin": "ㄏㄨㄛˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU015",
+      "requiredSpan": "買年貨",
+      "targetChars": [
+        "買",
+        "年",
+        "貨"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201064",
+      "examPhase": "midterm_before",
+      "readText": "我跟著老師念期待",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "跟",
+          "zhuyin": "ㄍㄣ"
+        },
+        {
+          "type": "text",
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
+        },
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "期",
+          "zhuyin": "ㄑㄧ"
+        },
+        {
+          "type": "blank",
+          "char": "待",
+          "zhuyin": "ㄉㄞˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU016",
+      "requiredSpan": "期待",
+      "targetChars": [
+        "期",
+        "待"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201065",
+      "examPhase": "midterm_before",
+      "readText": "老師請我念年夜飯",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "老",
+          "zhuyin": "ㄌㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "師",
+          "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "請",
+          "zhuyin": "ㄑㄧㄥˇ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "念",
+          "zhuyin": "ㄋㄧㄢˋ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "夜",
+          "zhuyin": "ㄧㄝˋ"
+        },
+        {
+          "type": "blank",
+          "char": "飯",
+          "zhuyin": "ㄈㄢˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU017",
+      "requiredSpan": "年夜飯",
+      "targetChars": [
+        "年",
+        "夜",
+        "飯"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
+    },
+    {
+      "id": "202620201066",
+      "examPhase": "midterm_before",
+      "readText": "我把新年快樂寫在本子上",
+      "tokens": [
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "把",
+          "zhuyin": "ㄅㄚˇ"
+        },
+        {
+          "type": "blank",
+          "char": "新",
+          "zhuyin": "ㄒㄧㄣ"
+        },
+        {
+          "type": "blank",
+          "char": "年",
+          "zhuyin": "ㄋㄧㄢˊ"
+        },
+        {
+          "type": "blank",
+          "char": "快",
+          "zhuyin": "ㄎㄨㄞˋ"
+        },
+        {
+          "type": "blank",
+          "char": "樂",
+          "zhuyin": "ㄌㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "寫",
+          "zhuyin": "ㄒㄧㄝˇ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
+        },
+        {
+          "type": "text",
+          "char": "子",
+          "zhuyin": "ㄗ˙"
+        },
+        {
+          "type": "text",
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
+        }
+      ],
+      "questionType": "dictation_generalization",
+      "dictationUnitId": "115-2-02-0-10-DU018",
+      "requiredSpan": "新年快樂",
+      "targetChars": [
+        "新",
+        "年",
+        "快",
+        "樂"
+      ],
+      "generationPolicy": "approved-unit-locked-v1"
     }
   ],
   "catalog": {
-    "included": true
+    "included": true,
+    "lessonTitle": "新年快樂"
   }
 }
