@@ -5,7 +5,7 @@
   "publisherCode": "2",
   "grade": "02",
   "semester": "0",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "questions": [
     {
       "id": "202620200101",
@@ -937,18 +937,8 @@
     {
       "id": "202620200151",
       "examPhase": "midterm_before",
-      "readText": "我把新的學年寫在本子上",
+      "readText": "新的學年開始了",
       "tokens": [
-        {
-          "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
-        },
-        {
-          "type": "text",
-          "char": "把",
-          "zhuyin": "ㄅㄚˇ"
-        },
         {
           "type": "blank",
           "char": "新",
@@ -971,28 +961,18 @@
         },
         {
           "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
         },
         {
           "type": "text",
-          "char": "在",
-          "zhuyin": "ㄗㄞˋ"
+          "char": "始",
+          "zhuyin": "ㄕˇ"
         },
         {
           "type": "text",
-          "char": "本",
-          "zhuyin": "ㄅㄣˇ"
-        },
-        {
-          "type": "text",
-          "char": "子",
-          "zhuyin": "ㄗ˙"
-        },
-        {
-          "type": "text",
-          "char": "上",
-          "zhuyin": "ㄕㄤˋ"
+          "char": "了",
+          "zhuyin": "ㄌㄜ˙"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1004,37 +984,32 @@
         "學",
         "年"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200152",
       "examPhase": "midterm_before",
-      "readText": "今天練習寫新希望",
+      "readText": "我心中有新希望",
       "tokens": [
         {
           "type": "text",
-          "char": "今",
-          "zhuyin": "ㄐㄧㄣ"
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
         },
         {
           "type": "text",
-          "char": "天",
-          "zhuyin": "ㄊㄧㄢ"
+          "char": "心",
+          "zhuyin": "ㄒㄧㄣ"
         },
         {
           "type": "text",
-          "char": "練",
-          "zhuyin": "ㄌㄧㄢˋ"
+          "char": "中",
+          "zhuyin": "ㄓㄨㄥ"
         },
         {
           "type": "text",
-          "char": "習",
-          "zhuyin": "ㄒㄧˊ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
         },
         {
           "type": "blank",
@@ -1060,12 +1035,12 @@
         "希",
         "望"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200153",
       "examPhase": "midterm_before",
-      "readText": "我跟著老師念坐在新位子",
+      "readText": "我今天坐在新位子",
       "tokens": [
         {
           "type": "text",
@@ -1074,28 +1049,13 @@
         },
         {
           "type": "text",
-          "char": "跟",
-          "zhuyin": "ㄍㄣ"
+          "char": "今",
+          "zhuyin": "ㄐㄧㄣ"
         },
         {
           "type": "text",
-          "char": "著",
-          "zhuyin": "ㄓㄜ˙"
-        },
-        {
-          "type": "text",
-          "char": "老",
-          "zhuyin": "ㄌㄠˇ"
-        },
-        {
-          "type": "text",
-          "char": "師",
-          "zhuyin": "ㄕ"
-        },
-        {
-          "type": "text",
-          "char": "念",
-          "zhuyin": "ㄋㄧㄢˋ"
+          "char": "天",
+          "zhuyin": "ㄊㄧㄢ"
         },
         {
           "type": "blank",
@@ -1133,37 +1093,32 @@
         "位",
         "子"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200154",
       "examPhase": "midterm_before",
-      "readText": "老師請我念新課本",
+      "readText": "桌上放著新課本",
       "tokens": [
         {
           "type": "text",
-          "char": "老",
-          "zhuyin": "ㄌㄠˇ"
+          "char": "桌",
+          "zhuyin": "ㄓㄨㄛ"
         },
         {
           "type": "text",
-          "char": "師",
-          "zhuyin": "ㄕ"
+          "char": "上",
+          "zhuyin": "ㄕㄤˋ"
         },
         {
           "type": "text",
-          "char": "請",
-          "zhuyin": "ㄑㄧㄥˇ"
+          "char": "放",
+          "zhuyin": "ㄈㄤˋ"
         },
         {
           "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
-        },
-        {
-          "type": "text",
-          "char": "念",
-          "zhuyin": "ㄋㄧㄢˋ"
+          "char": "著",
+          "zhuyin": "ㄓㄜ˙"
         },
         {
           "type": "blank",
@@ -1189,22 +1144,32 @@
         "課",
         "本"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200155",
       "examPhase": "midterm_before",
-      "readText": "我把淡淡的書香寫在本子上",
+      "readText": "教室裡有淡淡的書香",
       "tokens": [
         {
           "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
+          "char": "教",
+          "zhuyin": "ㄐㄧㄠˋ"
         },
         {
           "type": "text",
-          "char": "把",
-          "zhuyin": "ㄅㄚˇ"
+          "char": "室",
+          "zhuyin": "ㄕˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
+        },
+        {
+          "type": "text",
+          "char": "有",
+          "zhuyin": "ㄧㄡˇ"
         },
         {
           "type": "blank",
@@ -1230,31 +1195,6 @@
           "type": "blank",
           "char": "香",
           "zhuyin": "ㄒㄧㄤ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
-        },
-        {
-          "type": "text",
-          "char": "在",
-          "zhuyin": "ㄗㄞˋ"
-        },
-        {
-          "type": "text",
-          "char": "本",
-          "zhuyin": "ㄅㄣˇ"
-        },
-        {
-          "type": "text",
-          "char": "子",
-          "zhuyin": "ㄗ˙"
-        },
-        {
-          "type": "text",
-          "char": "上",
-          "zhuyin": "ㄕㄤˋ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1267,38 +1207,13 @@
         "書",
         "香"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200156",
       "examPhase": "midterm_before",
-      "readText": "今天練習寫老師",
+      "readText": "老師在門口",
       "tokens": [
-        {
-          "type": "text",
-          "char": "今",
-          "zhuyin": "ㄐㄧㄣ"
-        },
-        {
-          "type": "text",
-          "char": "天",
-          "zhuyin": "ㄊㄧㄢ"
-        },
-        {
-          "type": "text",
-          "char": "練",
-          "zhuyin": "ㄌㄧㄢˋ"
-        },
-        {
-          "type": "text",
-          "char": "習",
-          "zhuyin": "ㄒㄧˊ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
-        },
         {
           "type": "blank",
           "char": "老",
@@ -1308,6 +1223,21 @@
           "type": "blank",
           "char": "師",
           "zhuyin": "ㄕ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
+        },
+        {
+          "type": "text",
+          "char": "口",
+          "zhuyin": "ㄎㄡˇ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1317,43 +1247,13 @@
         "老",
         "師"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200157",
       "examPhase": "midterm_before",
-      "readText": "我跟著老師念以前",
+      "readText": "以前我住這裡",
       "tokens": [
-        {
-          "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
-        },
-        {
-          "type": "text",
-          "char": "跟",
-          "zhuyin": "ㄍㄣ"
-        },
-        {
-          "type": "text",
-          "char": "著",
-          "zhuyin": "ㄓㄜ˙"
-        },
-        {
-          "type": "text",
-          "char": "老",
-          "zhuyin": "ㄌㄠˇ"
-        },
-        {
-          "type": "text",
-          "char": "師",
-          "zhuyin": "ㄕ"
-        },
-        {
-          "type": "text",
-          "char": "念",
-          "zhuyin": "ㄋㄧㄢˋ"
-        },
         {
           "type": "blank",
           "char": "以",
@@ -1363,6 +1263,26 @@
           "type": "blank",
           "char": "前",
           "zhuyin": "ㄑㄧㄢˊ"
+        },
+        {
+          "type": "text",
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
+        },
+        {
+          "type": "text",
+          "char": "住",
+          "zhuyin": "ㄓㄨˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "裡",
+          "zhuyin": "ㄌㄧˇ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1372,28 +1292,13 @@
         "以",
         "前"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200158",
       "examPhase": "midterm_before",
-      "readText": "老師請我念成為說故事高手",
+      "readText": "我想成為說故事高手",
       "tokens": [
-        {
-          "type": "text",
-          "char": "老",
-          "zhuyin": "ㄌㄠˇ"
-        },
-        {
-          "type": "text",
-          "char": "師",
-          "zhuyin": "ㄕ"
-        },
-        {
-          "type": "text",
-          "char": "請",
-          "zhuyin": "ㄑㄧㄥˇ"
-        },
         {
           "type": "text",
           "char": "我",
@@ -1401,8 +1306,8 @@
         },
         {
           "type": "text",
-          "char": "念",
-          "zhuyin": "ㄋㄧㄢˋ"
+          "char": "想",
+          "zhuyin": "ㄒㄧㄤˇ"
         },
         {
           "type": "blank",
@@ -1452,22 +1357,32 @@
         "高",
         "手"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200159",
       "examPhase": "midterm_before",
-      "readText": "我把說故事寫在本子上",
+      "readText": "爸爸正在說故事",
       "tokens": [
         {
           "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
         },
         {
           "type": "text",
-          "char": "把",
-          "zhuyin": "ㄅㄚˇ"
+          "char": "爸",
+          "zhuyin": "ㄅㄚˋ"
+        },
+        {
+          "type": "text",
+          "char": "正",
+          "zhuyin": "ㄓㄥˋ"
+        },
+        {
+          "type": "text",
+          "char": "在",
+          "zhuyin": "ㄗㄞˋ"
         },
         {
           "type": "blank",
@@ -1483,31 +1398,6 @@
           "type": "blank",
           "char": "事",
           "zhuyin": "ㄕˋ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
-        },
-        {
-          "type": "text",
-          "char": "在",
-          "zhuyin": "ㄗㄞˋ"
-        },
-        {
-          "type": "text",
-          "char": "本",
-          "zhuyin": "ㄅㄣˇ"
-        },
-        {
-          "type": "text",
-          "char": "子",
-          "zhuyin": "ㄗ˙"
-        },
-        {
-          "type": "text",
-          "char": "上",
-          "zhuyin": "ㄕㄤˋ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1518,37 +1408,17 @@
         "故",
         "事"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200160",
       "examPhase": "midterm_before",
-      "readText": "今天練習寫用力",
+      "readText": "我用力推開門",
       "tokens": [
         {
           "type": "text",
-          "char": "今",
-          "zhuyin": "ㄐㄧㄣ"
-        },
-        {
-          "type": "text",
-          "char": "天",
-          "zhuyin": "ㄊㄧㄢ"
-        },
-        {
-          "type": "text",
-          "char": "練",
-          "zhuyin": "ㄌㄧㄢˋ"
-        },
-        {
-          "type": "text",
-          "char": "習",
-          "zhuyin": "ㄒㄧˊ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
+          "char": "我",
+          "zhuyin": "ㄨㄛˇ"
         },
         {
           "type": "blank",
@@ -1559,6 +1429,21 @@
           "type": "blank",
           "char": "力",
           "zhuyin": "ㄌㄧˋ"
+        },
+        {
+          "type": "text",
+          "char": "推",
+          "zhuyin": "ㄊㄨㄟ"
+        },
+        {
+          "type": "text",
+          "char": "開",
+          "zhuyin": "ㄎㄞ"
+        },
+        {
+          "type": "text",
+          "char": "門",
+          "zhuyin": "ㄇㄣˊ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1568,42 +1453,22 @@
         "用",
         "力"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200161",
       "examPhase": "midterm_before",
-      "readText": "我跟著老師念只喜歡",
+      "readText": "弟弟只喜歡紅色",
       "tokens": [
         {
           "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
         },
         {
           "type": "text",
-          "char": "跟",
-          "zhuyin": "ㄍㄣ"
-        },
-        {
-          "type": "text",
-          "char": "著",
-          "zhuyin": "ㄓㄜ˙"
-        },
-        {
-          "type": "text",
-          "char": "老",
-          "zhuyin": "ㄌㄠˇ"
-        },
-        {
-          "type": "text",
-          "char": "師",
-          "zhuyin": "ㄕ"
-        },
-        {
-          "type": "text",
-          "char": "念",
-          "zhuyin": "ㄋㄧㄢˋ"
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
         },
         {
           "type": "blank",
@@ -1619,6 +1484,16 @@
           "type": "blank",
           "char": "歡",
           "zhuyin": "ㄏㄨㄢ"
+        },
+        {
+          "type": "text",
+          "char": "紅",
+          "zhuyin": "ㄏㄨㄥˊ"
+        },
+        {
+          "type": "text",
+          "char": "色",
+          "zhuyin": "ㄙㄜˋ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1629,38 +1504,13 @@
         "喜",
         "歡"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200162",
       "examPhase": "midterm_before",
-      "readText": "老師請我念現在",
+      "readText": "現在要回家",
       "tokens": [
-        {
-          "type": "text",
-          "char": "老",
-          "zhuyin": "ㄌㄠˇ"
-        },
-        {
-          "type": "text",
-          "char": "師",
-          "zhuyin": "ㄕ"
-        },
-        {
-          "type": "text",
-          "char": "請",
-          "zhuyin": "ㄑㄧㄥˇ"
-        },
-        {
-          "type": "text",
-          "char": "我",
-          "zhuyin": "ㄨㄛˇ"
-        },
-        {
-          "type": "text",
-          "char": "念",
-          "zhuyin": "ㄋㄧㄢˋ"
-        },
         {
           "type": "blank",
           "char": "現",
@@ -1670,6 +1520,21 @@
           "type": "blank",
           "char": "在",
           "zhuyin": "ㄗㄞˋ"
+        },
+        {
+          "type": "text",
+          "char": "要",
+          "zhuyin": "ㄧㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "回",
+          "zhuyin": "ㄏㄨㄟˊ"
+        },
+        {
+          "type": "text",
+          "char": "家",
+          "zhuyin": "ㄐㄧㄚ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1679,12 +1544,12 @@
         "現",
         "在"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200163",
       "examPhase": "midterm_before",
-      "readText": "我把好書寫在本子上",
+      "readText": "我找到這本好書",
       "tokens": [
         {
           "type": "text",
@@ -1693,8 +1558,23 @@
         },
         {
           "type": "text",
-          "char": "把",
-          "zhuyin": "ㄅㄚˇ"
+          "char": "找",
+          "zhuyin": "ㄓㄠˇ"
+        },
+        {
+          "type": "text",
+          "char": "到",
+          "zhuyin": "ㄉㄠˋ"
+        },
+        {
+          "type": "text",
+          "char": "這",
+          "zhuyin": "ㄓㄜˋ"
+        },
+        {
+          "type": "text",
+          "char": "本",
+          "zhuyin": "ㄅㄣˇ"
         },
         {
           "type": "blank",
@@ -1705,31 +1585,6 @@
           "type": "blank",
           "char": "書",
           "zhuyin": "ㄕㄨ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
-        },
-        {
-          "type": "text",
-          "char": "在",
-          "zhuyin": "ㄗㄞˋ"
-        },
-        {
-          "type": "text",
-          "char": "本",
-          "zhuyin": "ㄅㄣˇ"
-        },
-        {
-          "type": "text",
-          "char": "子",
-          "zhuyin": "ㄗ˙"
-        },
-        {
-          "type": "text",
-          "char": "上",
-          "zhuyin": "ㄕㄤˋ"
         }
       ],
       "questionType": "dictation_generalization",
@@ -1739,37 +1594,22 @@
         "好",
         "書"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     },
     {
       "id": "202620200164",
       "examPhase": "midterm_before",
-      "readText": "今天練習寫還要快快長高",
+      "readText": "弟弟還要快快長高",
       "tokens": [
         {
           "type": "text",
-          "char": "今",
-          "zhuyin": "ㄐㄧㄣ"
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
         },
         {
           "type": "text",
-          "char": "天",
-          "zhuyin": "ㄊㄧㄢ"
-        },
-        {
-          "type": "text",
-          "char": "練",
-          "zhuyin": "ㄌㄧㄢˋ"
-        },
-        {
-          "type": "text",
-          "char": "習",
-          "zhuyin": "ㄒㄧˊ"
-        },
-        {
-          "type": "text",
-          "char": "寫",
-          "zhuyin": "ㄒㄧㄝˇ"
+          "char": "弟",
+          "zhuyin": "ㄉㄧˋ"
         },
         {
           "type": "blank",
@@ -1813,7 +1653,7 @@
         "長",
         "高"
       ],
-      "generationPolicy": "approved-unit-locked-v1"
+      "generationPolicy": "approved-unit-locked-natural-v2"
     }
   ],
   "catalog": {
