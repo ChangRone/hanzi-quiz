@@ -5191,7 +5191,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "12",
       "lessonTitle": "我愛冬天",
       "questionCount": 38,
@@ -5244,7 +5244,7 @@
         "冬"
       ],
       "dataUrl": "packs/2026康軒小二上-12.json",
-      "sourceHash": "8819cb7c20c1e63910563aa4d49cc48c9541925d5e3c1079c66a57b714959796"
+      "sourceHash": "3327cd74265968d05a8b1b1806933a7fb21c5343d6ef7f433870cfc138bf2754"
     },
     {
       "key": "20260020|11",
@@ -5329,7 +5329,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "11",
       "lessonTitle": "遠方來的黑皮",
       "questionCount": 44,
@@ -5385,7 +5385,7 @@
         "忙"
       ],
       "dataUrl": "packs/2026康軒小二上-11.json",
-      "sourceHash": "5b180643a044d2aa5dbf66e2b8f276ca9e67527f1df004b93758c1a89b495699"
+      "sourceHash": "27c70fdd8d583363ff603f6230df1cdea33f97793bd2888f9da4dbb0ed615fea"
     },
     {
       "key": "20260020|10",
@@ -5470,7 +5470,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "10",
       "lessonTitle": "新年快樂",
       "questionCount": 42,
@@ -5519,7 +5519,7 @@
         "樂"
       ],
       "dataUrl": "packs/2026康軒小二上-10.json",
-      "sourceHash": "a713b62b2e22f008e990fb3dc0c464afa9d256ce7d5e9c83e7f728447ff3fe5a"
+      "sourceHash": "58d9beb6f6c5533973108e2462debf73f24f3a9f219a976762f042e6f2361bc1"
     },
     {
       "key": "20260020|09",
@@ -5604,7 +5604,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "09",
       "lessonTitle": "大象有多重？",
       "questionCount": 42,
@@ -5653,7 +5653,7 @@
         "年"
       ],
       "dataUrl": "packs/2026康軒小二上-09.json",
-      "sourceHash": "a54c0bb6109936e08b54a963fb5296b5443dbf34f7bec5990943b59cfa159351"
+      "sourceHash": "8dbd7ce0cb34b7a74e089d7d4f4668e9ce0b99b50af4c51c3834800c7f7991eb"
     },
     {
       "key": "20260020|08",
