@@ -5738,7 +5738,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "08",
       "lessonTitle": "「聰明」的小熊",
       "questionCount": 38,
@@ -5786,7 +5786,7 @@
         "是"
       ],
       "dataUrl": "packs/2026康軒小二上-08.json",
-      "sourceHash": "fe951743e8588f5c9631108aa3d5f3455897ef2cfa522c7d19654da87529166c"
+      "sourceHash": "eed92b96b17e86fdcb2c7834dab728eff347e4bc9b07e30ff97b805118eb136e"
     },
     {
       "key": "20260020|07",
@@ -5871,7 +5871,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "07",
       "lessonTitle": "國王的新衣裳",
       "questionCount": 40,
@@ -5918,7 +5918,7 @@
         "想"
       ],
       "dataUrl": "packs/2026康軒小二上-07.json",
-      "sourceHash": "6fc89748bff5f2b75e8243e9ba91f59dbf061330e3f24ceafc89f5878ed343bc"
+      "sourceHash": "031fdc412e664dbe3191c90683ea77eea9a930301442a27323d1e7ac95d9ae4c"
     },
     {
       "key": "20260020|06",
@@ -6003,7 +6003,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "06",
       "lessonTitle": "小鎮的柿餅節",
       "questionCount": 42,
@@ -6055,7 +6055,7 @@
         "友"
       ],
       "dataUrl": "packs/2026康軒小二上-06.json",
-      "sourceHash": "174a9ee0541c3097be8b4a4e3c345523c6114725f231ffe6332ab72eb54411ec"
+      "sourceHash": "71214b00ec18c2afe5174230b757f17c838253521e4f6c3f0535f691935821b0"
     },
     {
       "key": "20260020|05",
@@ -6140,7 +6140,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "05",
       "lessonTitle": "坐竹籃船",
       "questionCount": 48,
@@ -6197,7 +6197,7 @@
         "認"
       ],
       "dataUrl": "packs/2026康軒小二上-05.json",
-      "sourceHash": "0ebcb998f83f7b533a308ecc304edb6d14f8fa27682c80f18537aeb4229dad9e"
+      "sourceHash": "7b5a62bd8f9a88571e38925aa55b8d98432a57af554ed8eee5e1c58b2cb7c216"
     },
     {
       "key": "20260020|04",
