@@ -6282,7 +6282,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "04",
       "lessonTitle": "運動會",
       "questionCount": 44,
@@ -6335,7 +6335,7 @@
         "油"
       ],
       "dataUrl": "packs/2026康軒小二上-04.json",
-      "sourceHash": "2e4be53b208dbbc926dc9d5cbe4e91d369d436323f90076a3d4a3c06cb18cf36"
+      "sourceHash": "738a8628fb46945e3e18d40ef72728dc2c09e919426251fadf99b58c144be3aa"
     },
     {
       "key": "20260020|03",
@@ -6420,7 +6420,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "03",
       "lessonTitle": "走過小巷",
       "questionCount": 40,
@@ -6459,7 +6459,7 @@
         "模"
       ],
       "dataUrl": "packs/2026康軒小二上-03.json",
-      "sourceHash": "75b1c0b0e6bde17ff00d3e92b36c494a9a2e7487c0164c8a08fea5b5fc81fa02"
+      "sourceHash": "6246b1cc8489aa53e2d03f414962d5eb3e8b981e180b8a2fbfe2fd1ee526e57f"
     },
     {
       "key": "20260020|02",
@@ -6544,7 +6544,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "02",
       "lessonTitle": "一起做早餐",
       "questionCount": 36,
@@ -6593,7 +6593,7 @@
         "光"
       ],
       "dataUrl": "packs/2026康軒小二上-02.json",
-      "sourceHash": "68b1c3daec0a9a8fbab705933cae449fe6bb2ee706e1b3ccec89c8fad98b2160"
+      "sourceHash": "b8d7911b98453d156ef4a224cdfb314888015b9dbfed46a3d8a542d030e254d7"
     },
     {
       "key": "20260020|01",
@@ -6678,7 +6678,7 @@
       "publisherCode": "2",
       "grade": "02",
       "semester": "0",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "lessonCode": "01",
       "lessonTitle": "新學年新希望",
       "questionCount": 38,
@@ -6723,7 +6723,7 @@
         "長"
       ],
       "dataUrl": "packs/2026康軒小二上-01.json",
-      "sourceHash": "3c407df1e1a517d51b58cbc02d62ed5b2789829eb39f167bd6a3d69905c3bde0"
+      "sourceHash": "889dba87c721dc3a25d45ae51b3e12809fd7d3a7cb7e5f32aab29a33de7dfc02"
     },
     {
       "key": "20260010|07",
