@@ -35,7 +35,7 @@ try {
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
  await page.click('#start-practice');
  await page.waitForSelector('.zh-pilot-card',{timeout:25000});
- assert.equal(await page.$eval('.zh-pilot-slot canvas',els=>els.length),7,'all seven slots visible');
+ assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),7,'all seven slots visible');
  // Simulate a cancelled touch and verify no ghost pixels survive.
  const ghost = await page.evaluate(()=>{
   const canvas=document.querySelector('.zh-pilot-g0 canvas'), b=canvas.getBoundingClientRect();
