@@ -102,6 +102,7 @@ try {
     URL.createObjectURL = blob => { window.__lastExportBlob = blob; return oldCreate(blob); };
   });
   await page.click('#export-data');
+  await page.waitForFunction(() => !!window.__lastExportBlob, { timeout: 15000 });
   const exported = await page.evaluate(async () => JSON.parse(await window.__lastExportBlob.text()));
   assert.equal(exported.version, 2);
   assert.equal(exported.events.length, 3);
