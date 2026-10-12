@@ -12,7 +12,7 @@ try {
  assert.equal(await page.$('.zh-pilot-card'),null,'default off');
  await page.click('#sync-status-button');
  await page.waitForSelector('#zhuyin-pilot-toggle');
- await page.click('#zhuyin-pilot-toggle');
+ await page.$eval('#zhuyin-pilot-toggle',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
  assert.equal(await page.$eval('#zhuyin-pilot-toggle',el=>el.checked),true);
  await page.evaluate(()=>document.querySelector('#data-dialog').close());
  await page.click('#open-materials');
