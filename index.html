@@ -117,6 +117,11 @@
       <div id="storage-status" class="summary-box">讀取中…</div>
       <div class="data-actions"><button id="export-data" class="secondary-button" type="button">匯出備份</button><button id="import-data-button" class="secondary-button" type="button">匯入備份</button><input id="import-data-file" type="file" accept="application/json,.json" hidden /></div>
       <hr />
+      <div class="setting-row">
+        <div><div class="small-label">實驗功能：注音手寫</div><p class="profile-note">預設關閉；只增加獨立試寫區，不影響原本國字成績。</p></div>
+        <label class="switch" aria-label="啟用注音手寫實驗"><input id="zhuyin-pilot-toggle" type="checkbox" /><span class="slider"></span></label>
+      </div>
+      <hr />
       <div class="small-label">Google Drive</div><p id="drive-status" class="subtle">檢查同步設定中…</p>
       <div class="data-actions"><button id="drive-connect" class="primary-button" type="button">連接 Google Drive</button><button id="drive-sync" class="secondary-button" type="button">立即同步</button></div>
       <p class="fine-print">雲端使用 Google Drive 的 appDataFolder；本機仍以 IndexedDB 為主要資料庫。</p>
@@ -125,6 +130,8 @@
 
   <script src="assets/runtime-guard.js"></script>
   <script src="assets/review-event-v2.js"></script>
+  <script src="assets/zhuyin-layout.js"></script>
+  <script src="assets/zhuyin-handwriting.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
