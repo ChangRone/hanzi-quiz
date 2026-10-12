@@ -7,6 +7,7 @@ const browser=await puppeteer.launch({executablePath,headless:true,args:['--no-s
 try {
  const page=await browser.newPage();
  page.on('pageerror',err=>console.error('PAGE ERROR',err.message));
+ page.on('console',msg=>{if(['error','warning'].includes(msg.type()))console.log('PAGE CONSOLE',msg.type(),msg.text());});
  await page.goto('http://127.0.0.1:8124/',{waitUntil:'domcontentloaded',timeout:30000});
  await page.waitForFunction(()=>!document.querySelector('#open-materials').disabled,{timeout:20000});
  assert.equal(await page.$('.zh-pilot-card'),null,'default off');
@@ -34,6 +35,12 @@ try {
  await page.$eval('#save-materials',el=>el.click());
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
  await page.click('#start-practice');
+ await page.waitForSelector('.writer-card',{timeout:25000});
+ const diagnostic=await page.evaluate(()=>{
+  const prefs=JSON.parse(localStorage.getItem('hanziQuizPrefsV1')||'{}');
+  return {flag:prefs.zhuyinPilotEnabled,layout:!!window.HanziZhuyinLayout,engine:!!window.HanziZhuyinHandwriting,writerCount:document.querySelectorAll('.writer-card').length,firstReading:document.querySelector('.writer-label')?.textContent,quizOpen:!document.querySelector('#quiz-view').classList.contains('hidden')};
+ });
+ console.log('FEATURE PILOT DIAGNOSTIC',JSON.stringify(diagnostic));
  await page.waitForSelector('.zh-pilot-card',{timeout:25000});
  assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),7,'all seven slots visible');
  // Simulate a cancelled touch and verify no ghost pixels survive.
