@@ -32,3 +32,4 @@ jobs:
           python3 -m http.server 8124 --bind 127.0.0.1 >/tmp/hanzi-http.log 2>&1 &
           sleep 2
           node tools/quiz-tw-v1/smoke-review-event-v2-browser.mjs
+          node tools/quiz-tw-v1/smoke-review-event-v2-backup-browser.mjs
