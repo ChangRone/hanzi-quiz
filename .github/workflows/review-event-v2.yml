@@ -1,0 +1,34 @@
+name: Review Event v2 Migration Guard
+
+on:
+  pull_request:
+    paths:
+      - 'assets/app.js'
+      - 'assets/review-event-v2.js'
+      - 'index.html'
+      - 'tools/quiz-tw-v1/smoke-review-event-v2*'
+      - '.github/workflows/review-event-v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node --check assets/app.js
+          node --check assets/review-event-v2.js
+          node tools/quiz-tw-v1/smoke-review-event-v2.mjs
+      - name: Install browser harness
+        run: npm install --no-save puppeteer-core
+      - name: Browser migration smoke
+        run: |
+          python3 -m http.server 8124 --bind 127.0.0.1 >/tmp/hanzi-http.log 2>&1 &
+          sleep 2
+          node tools/quiz-tw-v1/smoke-review-event-v2-browser.mjs
