@@ -11,10 +11,11 @@ try {
  await page.waitForFunction(()=>!document.querySelector('#open-materials').disabled,{timeout:20000});
  assert.equal(await page.$('.zh-pilot-card'),null,'default off');
  // Exercise an actual question with the flag OFF.
- await page.click('#open-materials');
+ await page.$eval('#open-materials',el=>el.click());
+ await page.waitForFunction(()=>document.querySelector('#materials-dialog').open,{timeout:10000});
  await page.waitForSelector('input[data-lesson-key="20262020|03"]',{timeout:15000});
  await page.$eval('input[data-lesson-key="20262020|03"]',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
- await page.click('#save-materials');
+ await page.$eval('#save-materials',el=>el.click());
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
  await page.click('#start-practice');
  await page.waitForSelector('.writer-card',{timeout:25000});
@@ -26,14 +27,15 @@ try {
  await page.$eval('#zhuyin-pilot-toggle',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
  assert.equal(await page.$eval('#zhuyin-pilot-toggle',el=>el.checked),true);
  await page.evaluate(()=>document.querySelector('#data-dialog').close());
- await page.click('#open-materials');
+ await page.$eval('#open-materials',el=>el.click());
+ await page.waitForFunction(()=>document.querySelector('#materials-dialog').open,{timeout:10000});
  await page.waitForSelector('input[data-lesson-key="20262020|03"]',{timeout:15000});
  await page.$eval('input[data-lesson-key="20262020|03"]',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
- await page.click('#save-materials');
+ await page.$eval('#save-materials',el=>el.click());
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
  await page.click('#start-practice');
  await page.waitForSelector('.zh-pilot-card',{timeout:25000});
- assert.equal(await page.$('.zh-pilot-slot canvas').then(a=>a.length),7,'all seven slots visible');
+ assert.equal(await page.$eval('.zh-pilot-slot canvas',els=>els.length),7,'all seven slots visible');
  // Simulate a cancelled touch and verify no ghost pixels survive.
  const ghost = await page.evaluate(()=>{
   const canvas=document.querySelector('.zh-pilot-g0 canvas'), b=canvas.getBoundingClientRect();
