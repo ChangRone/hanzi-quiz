@@ -18,7 +18,9 @@ try {
  await page.$eval('input[data-lesson-key="20262020|03"]',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
  await page.$eval('#save-materials',el=>el.click());
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
- await page.click('#start-practice');
+ await page.waitForFunction(()=>!document.querySelector('#materials-dialog').open && !document.querySelector('#data-dialog').open,{timeout:10000});
+ await page.$eval('#start-practice',btn=>btn.click());
+ await page.waitForFunction(()=>!document.querySelector('#quiz-view').classList.contains('hidden'),{timeout:15000});
  await page.waitForSelector('.writer-card',{timeout:25000});
  assert.equal(await page.$('.zh-pilot-card'),null,'flag OFF: no handwriting panel in real quiz');
  await page.click('#back-home');
@@ -34,7 +36,9 @@ try {
  await page.$eval('input[data-lesson-key="20262020|03"]',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
  await page.$eval('#save-materials',el=>el.click());
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
- await page.click('#start-practice');
+ await page.waitForFunction(()=>!document.querySelector('#materials-dialog').open && !document.querySelector('#data-dialog').open,{timeout:10000});
+ await page.$eval('#start-practice',btn=>btn.click());
+ await page.waitForFunction(()=>!document.querySelector('#quiz-view').classList.contains('hidden'),{timeout:15000});
  await page.waitForSelector('.writer-card',{timeout:25000});
  const diagnostic=await page.evaluate(()=>{
   const prefs=JSON.parse(localStorage.getItem('hanziQuizPrefsV1')||'{}');
@@ -86,7 +90,9 @@ try {
  await page.click('#sync-status-button');
  await page.$eval('#zhuyin-pilot-toggle',el=>{el.checked=false;el.dispatchEvent(new Event('change',{bubbles:true}));});
  await page.evaluate(()=>document.querySelector('#data-dialog').close());
- await page.click('#start-practice');
+ await page.waitForFunction(()=>!document.querySelector('#materials-dialog').open && !document.querySelector('#data-dialog').open,{timeout:10000});
+ await page.$eval('#start-practice',btn=>btn.click());
+ await page.waitForFunction(()=>!document.querySelector('#quiz-view').classList.contains('hidden'),{timeout:15000});
  await page.waitForSelector('.writer-card',{timeout:25000});
  assert.equal(await page.$('.zh-pilot-card'),null,'opt out hides panel');
  console.log('ZHUYIN_HANDWRITING_BROWSER_PILOT=PASS');
