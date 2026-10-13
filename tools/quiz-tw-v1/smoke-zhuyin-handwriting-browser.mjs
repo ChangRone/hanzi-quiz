@@ -23,7 +23,8 @@ try {
  await page.waitForFunction(()=>!document.querySelector('#quiz-view').classList.contains('hidden'),{timeout:15000});
  await page.waitForSelector('.writer-card',{timeout:25000});
  assert.equal(await page.$('.zh-pilot-card'),null,'flag OFF: no handwriting panel in real quiz');
- await page.click('#back-home');
+ await page.$eval('#back-home',btn=>btn.click());
+ await page.waitForFunction(()=>!document.querySelector('#home-view').classList.contains('hidden'),{timeout:15000});
  await page.waitForFunction(()=>!document.querySelector('#home-view').classList.contains('hidden'));
  await page.click('#sync-status-button');
  await page.waitForSelector('#zhuyin-pilot-toggle');
@@ -81,7 +82,8 @@ try {
  assert.ok(events[0].zhuyinErrorKinds.includes('missing_symbol'));
  assert.ok(events[0].zhuyinErrorKinds.includes('extra_ink'));
  // Disable after testing: new question must no longer show the panel.
- await page.click('#back-home');
+ await page.$eval('#back-home',btn=>btn.click());
+ await page.waitForFunction(()=>!document.querySelector('#home-view').classList.contains('hidden'),{timeout:15000});
  await page.click('#sync-status-button');
  await page.$eval('#zhuyin-pilot-toggle',el=>{el.checked=false;el.dispatchEvent(new Event('change',{bubbles:true}));});
  await page.evaluate(()=>document.querySelector('#data-dialog').close());
