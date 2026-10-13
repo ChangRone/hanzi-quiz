@@ -886,7 +886,8 @@
         target: els.writers, char: blank.token.char, zhuyin: blank.token.zhuyin,
         onResult: async verdict => {
           // UNCERTAIN is never converted into a guessed success/failure.
-          if (verdict.state === 'uncertain' || eventRecorded) return;
+          // Location-only feedback and uncertain OCR are practice hints, not graded fails.
+          if (verdict.state === 'uncertain' || verdict.state === 'position_only' || eventRecorded) return;
           await recordReview({
             char: blank.token.char, skill: 'zhuyin_write', courseKey: question.courseKey,
             questionId: question.id, dictationUnitId: question.dictationUnitId || '',
