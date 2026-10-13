@@ -42,7 +42,7 @@ try {
  });
  console.log('FEATURE PILOT DIAGNOSTIC',JSON.stringify(diagnostic));
  await page.waitForSelector('.zh-pilot-card',{timeout:25000});
- assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),7,'all seven slots visible');
+ assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),5,'three phonetic plus one tone and neutral dot');
  // Simulate a cancelled touch and verify no ghost pixels survive.
  const ghost = await page.evaluate(()=>{
   const canvas=document.querySelector('.zh-pilot-g0 canvas'), b=canvas.getBoundingClientRect();
@@ -59,9 +59,11 @@ try {
  await page.evaluate(()=>{
   const reading=document.querySelector('.writer-label').textContent.trim();
   const expected=HanziZhuyinLayout.parseZhuyinSlots(reading);
-  const key=Object.keys(expected).find(k=>!expected[k]);
+  const tone=HanziZhuyinLayout.toneAnchorSlot(expected);
+  const key=['neutral','g0','g1','g2',tone].find(k=>!expected[k]);
   if(!key)throw new Error('No empty slot to test');
-  const canvas=document.querySelector('.zh-pilot-'+key+' canvas'),b=canvas.getBoundingClientRect();
+  const holder=key.startsWith('t')?'tone':key;
+  const canvas=document.querySelector('.zh-pilot-'+holder+' canvas'),b=canvas.getBoundingClientRect();
   const e={bubbles:true,pointerId:44,pointerType:'touch',clientX:b.left+25,clientY:b.top+25};
   canvas.dispatchEvent(new PointerEvent('pointerdown',e));
   canvas.dispatchEvent(new PointerEvent('pointerup',e));
