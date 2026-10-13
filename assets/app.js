@@ -172,7 +172,12 @@
           };
         }
       };
-      req.onsuccess = () => resolve(req.result);
+      req.onsuccess = () => {
+        const db = req.result;
+        db.onversionchange = () => db.close();
+        resolve(db);
+      };
+      req.onblocked = () => reject(new Error('其他分頁仍開啟舊版學習資料庫。請先關閉其他 Hanzi Quiz 分頁，再重新整理；既有紀錄不會刪除。'));
       req.onerror = () => reject(req.error || new Error('IndexedDB 無法開啟'));
     });
   }
@@ -1163,7 +1168,10 @@
   }
 
   async function importPayload(payload, merge = true) {
-    if (!payload || payload.schema !== 'hanzi-quiz-learning-backup' || !Array.isArray(payload.events)) throw new Error('不是支援的 Hanzi Quiz 備份格式');
+    if (!payload || payload.schema !== 'hanzi-quiz-learning-backup' ||
+        ![1, 2].includes(Number(payload.version)) || !Array.isArray(payload.events)) {
+      throw new Error('不是支援的 Hanzi Quiz v1/v2 備份格式，為保護既有資料已中止匯入。');
+    }
     const localEvents = merge ? await getAll('review_events') : [];
     const eventMap = new Map(localEvents.map(item => {
       const event = HanziReviewEventV2.normalizeEvent(item);
