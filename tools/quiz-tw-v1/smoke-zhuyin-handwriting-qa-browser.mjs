@@ -13,14 +13,14 @@ try{
   await page.goto('http://127.0.0.1:8124/poc/zhuyin-handwriting-qa/index.html',{waitUntil:'domcontentloaded'});
   await page.waitForSelector('.zh-pilot-card');
   assert.equal(await page.$eval('#case',e=>e.options.length),9);
-  assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),7);
+  assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),5);
   await page.click('.zh-pilot-actions button');
-  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('共 1 次'),{timeout:10000});
-  assert.match(await page.$eval('#results',e=>e.textContent),/FAIL 1/,'empty answer fails');
+  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('總測試 1 次'),{timeout:10000});
+  assert.match(await page.$eval('#results',e=>e.textContent),/錯誤 1/,'empty answer fails');
   await page.select('#case','4');
   assert.match(await page.$eval('#reading',e=>e.textContent),/ㄕㄨ˙/,'neutral tone case');
   await page.click('.zh-pilot-actions button');
-  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('共 2 次'),{timeout:10000});
+  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('總測試 2 次'),{timeout:10000});
   assert.equal(requests.filter(url=>!url.startsWith('http://127.0.0.1:8124/')).length,0,'standalone QA must not access third parties');
   const databases=await page.evaluate(()=>indexedDB.databases());
   assert.equal(databases.some(db=>db.name==='hanzi-quiz-learning-db'),false,
