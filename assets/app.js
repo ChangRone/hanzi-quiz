@@ -129,7 +129,9 @@
     state.allowBackwards = Boolean(prefs.allowBackwards);
     state.selectedLessonKeys = new Set(Array.isArray(prefs.selectedLessonKeys) ? prefs.selectedLessonKeys : []);
     state.driveEnabled = Boolean(prefs.driveEnabled);
-    state.zhuyinPilotEnabled = prefs.zhuyinPilotEnabled === true;
+    // Device-local opt-in: do not activate handwritten Zhuyin on other devices
+    // merely because a Drive backup restored a preference.
+    state.zhuyinPilotEnabled = localStorage.getItem('hanziQuizZhuyinPilotEnabled') === 'true';
     state.prefsUpdatedAt = prefs.updatedAt || new Date(0).toISOString();
     try {
       state.dev = { ...DEFAULT_DEV, ...JSON.parse(localStorage.getItem('hanziQuizDevSettings') || '{}') };
@@ -1189,11 +1191,17 @@
     await updateSyncChip();
   }
 
+  function getSyncSafePrefs() {
+    const prefs = { ...getPrefs() };
+    delete prefs.zhuyinPilotEnabled;
+    return prefs;
+  }
+
   async function exportPayload() {
     const events = await getAll('review_events');
     return {
       schema: 'hanzi-quiz-learning-backup', version: 2, exportedAt: nowIso(),
-      prefs: getPrefs(), events: events.map(HanziReviewEventV2.normalizeEvent)
+      prefs: getSyncSafePrefs(), events: events.map(HanziReviewEventV2.normalizeEvent)
     };
   }
 
@@ -1216,7 +1224,8 @@
     if (!merge) store.clear();
     eventMap.forEach(item => store.put(item));
     await new Promise((resolve, reject) => { tx.oncomplete = resolve; tx.onerror = () => reject(tx.error); });
-    const remotePrefs = payload.prefs || {};
+    const remotePrefs = { ...(payload.prefs || {}) };
+    delete remotePrefs.zhuyinPilotEnabled; // never import device-local experiment opt-in
     const localPrefs = getPrefs();
     if (String(remotePrefs.updatedAt || '') > String(localPrefs.updatedAt || '')) {
       localStorage.setItem('hanziQuizPrefsV1', JSON.stringify(remotePrefs));
@@ -1415,7 +1424,7 @@
     });
     if (els.zhuyinPilotToggle) els.zhuyinPilotToggle.addEventListener('change', () => {
       state.zhuyinPilotEnabled = els.zhuyinPilotToggle.checked;
-      savePrefs({ zhuyinPilotEnabled: state.zhuyinPilotEnabled });
+      localStorage.setItem('hanziQuizZhuyinPilotEnabled', String(state.zhuyinPilotEnabled));
     });
 
     els.openMaterials.addEventListener('click', () => {
