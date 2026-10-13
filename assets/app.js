@@ -3,7 +3,7 @@
 
   const APP_VERSION = 'learning-loop-v2-tw-catalog';
   const DB_NAME = 'hanzi-quiz-learning-db';
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
   const REVIEW_INTERVALS_DAYS = [1, 3, 10, 30, 90];
   const REVIEW_SPEED_MULTIPLIER = { dense: 0.7, normal: 1, relaxed: 1.5 };
   const REVIEW_SPEED_LABEL = { dense: '密集', normal: '標準', relaxed: '寬鬆' };
@@ -138,18 +138,46 @@
   function openDb() {
     return new Promise((resolve, reject) => {
       const req = indexedDB.open(DB_NAME, DB_VERSION);
-      req.onupgradeneeded = () => {
+      req.onupgradeneeded = event => {
         const db = req.result;
+        const upgrade = req.transaction;
+        let reviewStore;
         if (!db.objectStoreNames.contains('review_events')) {
-          const store = db.createObjectStore('review_events', { keyPath: 'id' });
-          store.createIndex('by_skill_key', 'skillKey', { unique: false });
-          store.createIndex('by_time', 'reviewedAt', { unique: false });
+          reviewStore = db.createObjectStore('review_events', { keyPath: 'id' });
+          reviewStore.createIndex('by_skill_key', 'skillKey', { unique: false });
+          reviewStore.createIndex('by_time', 'reviewedAt', { unique: false });
+        } else {
+          reviewStore = upgrade.objectStore('review_events');
+        }
+        if (!reviewStore.indexNames.contains('by_event_type')) {
+          reviewStore.createIndex('by_event_type', 'eventType', { unique: false });
         }
         if (!db.objectStoreNames.contains('skill_state')) {
           db.createObjectStore('skill_state', { keyPath: 'key' });
         }
+        // An upgrade transaction is atomic: any ambiguous legacy row aborts the
+        // whole migration, leaving DB v1 and every previous record untouched.
+        if (event.oldVersion < 2) {
+          const cursorRequest = reviewStore.openCursor();
+          cursorRequest.onsuccess = () => {
+            const cursor = cursorRequest.result;
+            if (!cursor) return;
+            try {
+              cursor.update(HanziReviewEventV2.normalizeEvent(cursor.value));
+              cursor.continue();
+            } catch (error) {
+              console.error('Review Event v2 migration aborted:', error);
+              upgrade.abort();
+            }
+          };
+        }
       };
-      req.onsuccess = () => resolve(req.result);
+      req.onsuccess = () => {
+        const db = req.result;
+        db.onversionchange = () => db.close();
+        resolve(db);
+      };
+      req.onblocked = () => reject(new Error('其他分頁仍開啟舊版學習資料庫。請先關閉其他 Hanzi Quiz 分頁，再重新整理；既有紀錄不會刪除。'));
       req.onerror = () => reject(req.error || new Error('IndexedDB 無法開啟'));
     });
   }
@@ -179,7 +207,7 @@
     return new Map(pairs.filter(([, value]) => value));
   }
 
-  async function recordReview({ char, skill, courseKey, result, mode }) {
+  async function recordReview({ char, skill, courseKey, questionId = '', dictationUnitId = '', result, mode }) {
     const key = stateKey(char, skill);
     const existing = await getSkillState(char, skill);
     const multiplier = REVIEW_SPEED_MULTIPLIER[state.reviewSpeed] || 1;
@@ -191,7 +219,8 @@
     const dueAt = new Date(Date.now() + dayMs(intervalDays)).toISOString();
     const event = {
       id: uuid(), appVersion: APP_VERSION, char, skill, skillKey: key, courseKey,
-      reviewedAt, result, mode, allowBackwards: state.allowBackwards
+      questionId, ...(dictationUnitId ? { dictationUnitId } : {}),
+      reviewedAt, eventType: 'tested', result, mode, allowBackwards: state.allowBackwards
     };
     const nextState = { key, char, skill, stage, dueAt, lastResult: result, lastReviewedAt: reviewedAt };
     const tx = state.db.transaction(['review_events', 'skill_state'], 'readwrite');
@@ -205,10 +234,36 @@
     return event;
   }
 
+  async function recordExposures(question) {
+    // Visible context != a test. No skill_state writes or mastery advancement.
+    const chars = [...new Set((question.tokens || [])
+      .filter(token => token.type === 'text' && token.char && /[\u3400-\u9fff]/u.test(token.char))
+      .map(token => token.char))];
+    if (!chars.length) return;
+    const tx = state.db.transaction('review_events', 'readwrite');
+    const store = tx.objectStore('review_events');
+    const reviewedAt = nowIso();
+    for (const char of chars) {
+      store.put({
+        id: uuid(), appVersion: APP_VERSION, char, skill: question.skill,
+        skillKey: stateKey(char, question.skill), courseKey: question.courseKey,
+        questionId: String(question.id || ''), reviewedAt,
+        eventType: 'exposed', result: null, mode: state.practiceMode
+      });
+    }
+    await new Promise((resolve, reject) => {
+      tx.oncomplete = resolve;
+      tx.onerror = () => reject(tx.error || new Error('Exposure event write failed'));
+      tx.onabort = () => reject(tx.error || new Error('Exposure event transaction aborted'));
+    });
+  }
+
   async function rebuildSkillStateFromEvents() {
     const events = (await getAll('review_events')).sort((a, b) => String(a.reviewedAt).localeCompare(String(b.reviewedAt)));
     const map = new Map();
-    for (const event of events) {
+    for (const rawEvent of events) {
+      const event = HanziReviewEventV2.normalizeEvent(rawEvent);
+      if (!HanziReviewEventV2.countsForMastery(event)) continue;
       const key = event.skillKey || stateKey(event.char, event.skill || 'context_write');
       const previous = map.get(key);
       const pass = event.result === 'pass';
@@ -802,7 +857,7 @@
     const resultKey = stateKey(ws.token.char, ws.question.skill);
     if (state.recordedKeysForCurrentQuestion.has(resultKey)) return;
     try {
-      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, result: groupedResult, mode: state.practiceMode });
+      await recordReview({ char: ws.token.char, skill: ws.question.skill, courseKey: ws.question.courseKey, questionId: ws.question.id, dictationUnitId: ws.question.dictationUnitId || '', result: groupedResult, mode: state.practiceMode });
       state.recordedKeysForCurrentQuestion.add(resultKey);
     } catch (err) {
       console.error(err);
@@ -991,6 +1046,8 @@
     setQuestionZoomed(false);
     els.progressLabel.textContent = '第' + (state.currentIndex + 1) + '／' + state.currentQueue.length + '題';
     els.questionText.innerHTML = renderQuestionText(question);
+    try { await recordExposures(question); }
+    catch (err) { console.warn('Exposure not recorded:', err); }
     requestAnimationFrame(fitQuestionText);
     preloadQuestionAudio(question);
     preloadQuestionAudio(state.currentQueue[state.currentIndex + 1]);
@@ -1105,16 +1162,25 @@
   async function exportPayload() {
     const events = await getAll('review_events');
     return {
-      schema: 'hanzi-quiz-learning-backup', version: 1, exportedAt: nowIso(),
-      prefs: getPrefs(), events
+      schema: 'hanzi-quiz-learning-backup', version: 2, exportedAt: nowIso(),
+      prefs: getPrefs(), events: events.map(HanziReviewEventV2.normalizeEvent)
     };
   }
 
   async function importPayload(payload, merge = true) {
-    if (!payload || payload.schema !== 'hanzi-quiz-learning-backup' || !Array.isArray(payload.events)) throw new Error('不是支援的 Hanzi Quiz 備份格式');
+    if (!payload || payload.schema !== 'hanzi-quiz-learning-backup' ||
+        ![1, 2].includes(Number(payload.version)) || !Array.isArray(payload.events)) {
+      throw new Error('不是支援的 Hanzi Quiz v1/v2 備份格式，為保護既有資料已中止匯入。');
+    }
     const localEvents = merge ? await getAll('review_events') : [];
-    const eventMap = new Map(localEvents.map(item => [item.id, item]));
-    payload.events.forEach(item => { if (item && item.id) eventMap.set(item.id, item); });
+    const eventMap = new Map(localEvents.map(item => {
+      const event = HanziReviewEventV2.normalizeEvent(item);
+      return [event.id, event];
+    }));
+    payload.events.forEach(item => {
+      const event = HanziReviewEventV2.normalizeEvent(item);
+      eventMap.set(event.id, { ...(eventMap.get(event.id) || {}), ...event });
+    });
     const tx = state.db.transaction('review_events', 'readwrite');
     const store = tx.objectStore('review_events');
     if (!merge) store.clear();
@@ -1257,11 +1323,14 @@
 
   function mergeBackups(localPayload, remotePayload) {
     const eventMap = new Map();
-    [...(remotePayload && remotePayload.events || []), ...(localPayload.events || [])].forEach(item => { if (item && item.id) eventMap.set(item.id, item); });
+    [...(remotePayload && remotePayload.events || []), ...(localPayload.events || [])].forEach(item => {
+      const event = HanziReviewEventV2.normalizeEvent(item);
+      eventMap.set(event.id, { ...(eventMap.get(event.id) || {}), ...event });
+    });
     const localPrefs = localPayload.prefs || {};
     const remotePrefs = remotePayload && remotePayload.prefs || {};
     const prefs = String(remotePrefs.updatedAt || '') > String(localPrefs.updatedAt || '') ? remotePrefs : localPrefs;
-    return { schema: 'hanzi-quiz-learning-backup', version: 1, exportedAt: nowIso(), prefs, events: [...eventMap.values()] };
+    return { schema: 'hanzi-quiz-learning-backup', version: 2, exportedAt: nowIso(), prefs, events: [...eventMap.values()] };
   }
 
   async function syncDrive(showMessage = true) {
@@ -1271,7 +1340,14 @@
     const file = await findDriveBackupFile();
     let merged = local;
     if (file) {
-      try { merged = mergeBackups(local, await readDriveBackup(file.id)); } catch { merged = local; }
+      // Fail closed. Never replace an unreadable or incompatible remote backup
+      // with the smaller local collection: this could erase historical records.
+      const remote = await readDriveBackup(file.id);
+      if (!remote || remote.schema !== 'hanzi-quiz-learning-backup' ||
+          !Array.isArray(remote.events) || ![1, 2].includes(Number(remote.version))) {
+        throw new Error('雲端備份格式不相容，已中止同步以保護既有學習紀錄。');
+      }
+      merged = mergeBackups(local, remote);
     }
     await importPayload(merged, false);
     await writeDriveBackup(await exportPayload(), file ? file.id : '');
