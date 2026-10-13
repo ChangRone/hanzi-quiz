@@ -13,6 +13,18 @@ for(const reading of ['ㄇㄠ','ㄒㄧㄤˋ','ㄧ','ㄕㄨˊ','ㄕㄨ˙','ㄩˇ'
  assert.equal(z.validateSlotOccupancy(slots,occ).ok,true);
  const blank=z.SLOT_KEYS.find(k=>!slots[k]);if(blank){occ[blank]=true;assert.equal(z.validateSlotOccupancy(slots,occ).ok,false);}
 }
+const one=z.parseZhuyinSlots('ㄩˇ');
+assert.equal(z.toneAnchorSlot(one),'t1','one glyph => middle-tone anchor');
+const two=z.parseZhuyinSlots('ㄇㄠ');
+assert.equal(z.toneAnchorSlot(two),'t2','two glyph => final lower glyph');
+const three=z.parseZhuyinSlots('ㄒㄧㄤˋ');
+assert.equal(z.toneAnchorSlot(three),'t2','three glyph => final lower glyph');
+assert.deepEqual(z.classifyConfirmedSymbols(one, {...one, g1:'',g0:'ㄩ'}),{
+ state:'position_only',symbolCorrect:true,positionCorrect:false
+},'correct glyph in wrong slot is not wrong pronunciation');
+assert.equal(z.classifyConfirmedSymbols(one,one).state,'pass');
+assert.equal(z.classifyConfirmedSymbols(one,{...one,g1:'ㄚ'}).state,'fail');
+assert.equal(z.classifyConfirmedSymbols(z.parseZhuyinSlots('ㄕㄨ˙'),z.parseZhuyinSlots('ㄕㄨ˙')).state,'pass');
 assert.equal(z.acceptNeutralGesture({strokeCount:1,pointCount:1,width:0,height:0,path:0}).state,'pass');
 assert.equal(z.acceptNeutralGesture({strokeCount:1,pointCount:20,width:80,height:10,path:140}).state,'fail');
 const code=readFileSync(new URL('../../assets/app.js',import.meta.url),'utf8');
