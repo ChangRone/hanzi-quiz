@@ -20,3 +20,11 @@
 ## Gate
 
 PR #5 維持 Draft；**不得自行合併或部署**。Event v2 正式切換前先取得實際使用者備份與人工驗收紀錄。
+
+## 使用者備份檢查（2026-10-13）
+
+- 使用者以離線 JSON 檢查工具回報：`PASS（依本工具可檢查範圍）`。
+- 正式網站匯出的 v1 備份：`version=1`、`events=0`、`uniqueIds=0`、`legacyEvents=0`、`errors=0`。
+- 此結果確認**備份格式可讀且其中沒有歷史 Review Events**，不是對有歷史事件的真實使用者帳號的遷移驗收；後者由 CI 的 v1 非空合成紀錄與回滾測試覆蓋。
+- 備份 JSON 不含獨立 `skill_state` object store；不可由上述 0 筆事件直接推斷 IndexedDB 的 `skill_state` 必為空。升版程式不清除現存 `skill_state`，自動測試會檢查升版前後保持一致。
+- 仍未取得正式 Google Drive 的人工同步驗收證據，因此此關卡不可標成全部正式上線完成。
