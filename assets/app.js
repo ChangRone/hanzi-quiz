@@ -1332,7 +1332,14 @@
     const file = await findDriveBackupFile();
     let merged = local;
     if (file) {
-      try { merged = mergeBackups(local, await readDriveBackup(file.id)); } catch { merged = local; }
+      // Fail closed. Never replace an unreadable or incompatible remote backup
+      // with the smaller local collection: this could erase historical records.
+      const remote = await readDriveBackup(file.id);
+      if (!remote || remote.schema !== 'hanzi-quiz-learning-backup' ||
+          !Array.isArray(remote.events) || ![1, 2].includes(Number(remote.version))) {
+        throw new Error('雲端備份格式不相容，已中止同步以保護既有學習紀錄。');
+      }
+      merged = mergeBackups(local, remote);
     }
     await importPayload(merged, false);
     await writeDriveBackup(await exportPayload(), file ? file.id : '');
