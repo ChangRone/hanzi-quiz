@@ -22,12 +22,8 @@ try{
   await page.click('.zh-pilot-actions button');
   await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('共 2 次'),{timeout:10000});
   assert.equal(requests.filter(url=>!url.startsWith('http://127.0.0.1:8124/')).length,0,'standalone QA must not access third parties');
-  const data=await page.evaluate(()=>new Promise((resolve,reject)=>{
-    const req=indexedDB.open('hanzi-quiz-learning-db');
-    req.onupgradeneeded=()=>{req.transaction.abort();reject(Error('QA unexpectedly creates production database'))};
-    req.onsuccess=()=>{req.result.close();reject(Error('QA unexpectedly uses production database'))};
-    req.onerror=()=>resolve(true);
-  }));
-  assert.equal(data,true);
+  const databases=await page.evaluate(()=>indexedDB.databases());
+  assert.equal(databases.some(db=>db.name==='hanzi-quiz-learning-db'),false,
+    'QA page must not create or open the production learning database');
   console.log('ZHUYIN_QA_STANDALONE_BROWSER=PASS');
 }finally{await browser.close()}
