@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hanzi Quiz E 注音手寫驗收｜獨立離線版</title><style>
+<title>Hanzi Quiz E｜教育部聲調位置與手寫驗收 v2</title><style>
 :root{font-family:system-ui,"Microsoft JhengHei",sans-serif;color:#172033;background:#f4f7fc}
 *{box-sizing:border-box}body{margin:0;padding:15px}main{max-width:920px;margin:0 auto}
 h1{font-size:1.45rem;margin:0 0 10px}h2{font-size:1.1rem;margin:0}
@@ -35,22 +35,41 @@ select{border-radius:8px;padding:6px 10px;background:white}
 #results{white-space:pre-wrap;font-size:.9rem;line-height:1.65;background:#f5f7fb;border-radius:9px;padding:14px}
 .note{background:#fffbeb;border-left:4px solid #dba540;padding:12px 14px;line-height:1.6}
 .status{font-weight:800}.status.pass{color:#08713b}.status.fail{color:#b91c1c}
+
+/* Updated lesson-friendly fixed slot guides and MOE single tone placement. */
+.zh-pilot-rule {margin:12px auto;padding:12px;background:#edf4ff;border-radius:10px;text-align:left;font-size:.88rem;line-height:1.65}
+.zh-pilot-grid{grid-template-columns:96px 116px;gap:8px 12px;align-items:start}
+.zh-pilot-tone{grid-column:2;transform:translateY(-10px);align-self:start}
+.zh-pilot-tone-t0{grid-row:2}
+.zh-pilot-tone-t1{grid-row:3}
+.zh-pilot-tone-t2{grid-row:4}
+.zh-pilot-tone canvas{width:64px;height:66px}
+.zh-pilot-tone span{max-width:116px;line-height:1.35;text-align:center}
+.zh-pilot-slot canvas{background-image:linear-gradient(to right,transparent 49%,#e9f0fa 50%,transparent 51%),linear-gradient(to bottom,transparent 49%,#e9f0fa 50%,transparent 51%)}
+.zh-pilot-examples[hidden]{display:none!important}
+.zh-pilot-examples{display:grid;gap:7px;margin:12px 0;text-align:left}
+.zh-pilot-sample{padding:9px 10px;border:1px solid #e0e7f1;border-radius:10px;background:#fff;font-size:.85rem;line-height:1.6}
+.zh-pilot-sample strong,.zh-pilot-sample span{display:block}
+.zh-pilot-example-btn{margin:0 auto;min-height:42px;background:#fff;border:1px solid #b2c8e9;border-radius:10px;color:#285aa6}
+.zh-pilot-result{font-weight:800;line-height:1.55}
+
 </style></head>
 <body><main>
-<article><h1>注音手寫驗收｜E 測試版</h1>
-<p>這是從 Hanzi Quiz PR #6 的原始注音位置與辨識程式產生的<strong>獨立測試頁</strong>，不連接正式 Quiz，也不寫入學生學習紀錄。請用手指或觸控筆在七個固定位置寫注音。</p>
-<p class="note">目前是<strong>未經學生手寫校準的實驗性字形比對</strong>，判斷只供評估，不作正式成績。筆跡留在記憶體，匯出結果不包含原始筆畫。</p></article>
+<article><h1>注音手寫驗收｜正式位置規則 v2</h1>
+<p>這是與 Hanzi Quiz PR #6 相同程式的<strong>獨立離線測試頁</strong>，不連接正式 Quiz，也不寫入學生學習紀錄。畫面為<strong>上／中／下、輕聲點、聲調</strong>五個區域，沒有「上調／中調／下調」。</p>
+<p class="note">正式位置依教育部《國語注音符號手冊》：二、三、四聲在最後一個符號右上角，輕聲點在整組上方，一聲不標。符號正確但放錯位置會另外提醒，不當成讀音錯誤。<strong>目前辨識仍為未校準原型，不作正式成績。</strong> 筆跡僅留在記憶體，不會匯出。</p></article>
 <article>
 <div class="row"><label for="case">例字：</label><select id="case"></select><button id="next" type="button">下一例字</button></div>
-<div class="row"><label for="human">本次預期：</label><select id="human"><option value="correct">故意寫正確</option><option value="incorrect">故意寫錯／空位亂畫</option></select></div>
+<div class="row"><label for="human">這次想測：</label><select id="human"><option value="correct">符號、位置都正確</option><option value="position">符號正確，但故意放錯位置</option><option value="incorrect">故意寫錯符號／空位亂畫</option></select></div>
 <div id="example" aria-live="polite"></div><div id="reading"></div>
 <div id="pilot"></div></article>
 <article><h2>累積驗收摘要</h2>
-<p class="subtle">每次按「檢查注音」後會記錄結果；如果結果為 UNCERTAIN，也會納入統計。必要時請清空重寫，再做其他測試。</p>
+<p class="subtle">每次按「檢查注音」後會記錄結果；包含 PASS／位置待調整／FAIL／UNCERTAIN 四種結果。測試時先點「看位置範例」，再寫一次；可用「清空重寫」重試。</p>
 <div id="results">尚未檢查。</div>
 <div class="row"><button type="button" id="export" class="primary">匯出 QA 統計 JSON</button><button type="button" id="clear">重設統計</button></div>
 </article></main>
-<script>(function (root, factory) {
+<script>
+(function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
   if (root) root.HanziZhuyinLayout = api;
@@ -125,24 +144,52 @@ select{border-radius:8px;padding:6px 10px;background:white}
     return { state: 'fail', reason: 'not_dot_like' };
   }
 
+  // MOE: in vertical Zhuyin, 2nd/3rd/4th tone sits at the
+  // upper-right corner of the LAST phonetic symbol; neutral dot goes on top.
+  // There is no official "upper/middle/lower tone" terminology.
+  function toneAnchorSlot(expectedSlots) {
+    const s = expectedSlots || {};
+    return s.g2 ? 't2' : s.g1 ? 't1' : 't0';
+  }
+
+  // For confirmed/typed glyphs, distinguish the correct symbol inventory
+  // from where those symbols were written. Handwriting OCR uncertainty is
+  // handled separately; this never invents a pronunciation.
+  function classifyConfirmedSymbols(expectedSlots, confirmedSlots) {
+    const wanted = SLOT_KEYS.filter(k => expectedSlots && expectedSlots[k]).map(k => [k, expectedSlots[k]]);
+    const actual = SLOT_KEYS.filter(k => confirmedSlots && confirmedSlots[k]).map(k => [k, confirmedSlots[k]]);
+    const signature = rows => rows.map(([, symbol]) => symbol).sort().join('|');
+    const symbolCorrect = signature(wanted) === signature(actual);
+    const positionCorrect = SLOT_KEYS.every(k =>
+      String(expectedSlots && expectedSlots[k] || '') === String(confirmedSlots && confirmedSlots[k] || ''));
+    return {
+      state: symbolCorrect ? (positionCorrect ? 'pass' : 'position_only') : 'fail',
+      symbolCorrect,
+      positionCorrect
+    };
+  }
+
   return {
     SLOT_KEYS,
     parseZhuyinSlots,
     composeVerifiedZhuyin,
     validateSlotOccupancy,
-    acceptNeutralGesture
+    acceptNeutralGesture,
+    toneAnchorSlot,
+    classifyConfirmedSymbols
   };
 });
 
 </script>
-<script>(function (root, factory) {
+<script>
+(function (root, factory) {
   const api = factory(root);
   if (typeof module === 'object' && module.exports) module.exports = api;
   if (root) root.HanziZhuyinHandwriting = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this, function (root) {
   'use strict';
   const KEYS = ['neutral', 'g0', 'g1', 'g2', 't0', 't1', 't2'];
-  const LABELS = { neutral:'輕聲', g0:'上', g1:'中', g2:'下', t0:'上調', t1:'中調', t2:'下調' };
+  const LABELS = { neutral:'輕聲點（上方）', g0:'上格', g1:'中格', g2:'下格', tone:'聲調（最後一個符號右上角）' };
   const GRID = 48;
 
   function maskFromCanvas(canvas) {
@@ -206,107 +253,202 @@ select{border-radius:8px;padding:6px 10px;background:white}
     return {strokeCount:strokes.length,pointCount:points.length,width:Math.max(...xs)-Math.min(...xs),height:Math.max(...ys)-Math.min(...ys),path};
   }
 
+
   function evaluateSlots(expectedSlots, drawing, documentRef, layout) {
-    const occupancy={};
-    for(const k of KEYS) occupancy[k]=Boolean(drawing[k]&&drawing[k].length);
-    const occupancyCheck=layout.validateSlotOccupancy(expectedSlots,occupancy);
-    if(!occupancyCheck.ok) return {state:'fail',errorKinds:[...new Set(occupancyCheck.errors.map(e=>e.kind))],details:occupancyCheck.errors};
-    const outcomes=[];
-    for(const key of KEYS) {
-      const expected=expectedSlots[key];
-      if(!expected) continue;
-      const strokes=drawing[key] || [];
-      if(key==='neutral') {
-        const check=layout.acceptNeutralGesture(neutralStats(strokes));
-        outcomes.push({key,state:check.state,score:check.state==='pass'?1:0});
-        continue;
+    const occupancy = {};
+    for (const k of KEYS) occupancy[k] = Boolean(drawing[k] && drawing[k].length);
+    const occupancyCheck = layout.validateSlotOccupancy(expectedSlots, occupancy);
+    const required = KEYS.filter(k => expectedSlots[k]);
+    const observed = KEYS.filter(k => occupancy[k]);
+    const maskCache = new Map(), glyphCache = new Map();
+
+    function match(key, symbol) {
+      if (symbol === '˙') {
+        const result = layout.acceptNeutralGesture(neutralStats(drawing[key] || []));
+        return { score: result.state === 'pass' ? 1 : result.state === 'uncertain' ? 0.55 : 0,
+          state: result.state };
       }
-      const ink=documentRef.createElement('canvas');
-      ink.width=72;ink.height=84;drawInk(ink,strokes);
-      const score=similarity(maskFromCanvas(ink),expectedGlyphMask(expected,documentRef));
-      outcomes.push({key,score,state:score>=0.70?'pass':score>=0.42?'uncertain':'fail'});
+      if (!maskCache.has(key)) {
+        const ink = documentRef.createElement('canvas');
+        ink.width = 72; ink.height = 84; drawInk(ink, drawing[key] || []);
+        maskCache.set(key, maskFromCanvas(ink));
+      }
+      if (!glyphCache.has(symbol)) glyphCache.set(symbol, expectedGlyphMask(symbol, documentRef));
+      const score = similarity(maskCache.get(key), glyphCache.get(symbol));
+      return { score, state: score >= 0.70 ? 'pass' : score >= 0.42 ? 'uncertain' : 'fail' };
     }
-    if(outcomes.some(x=>x.state==='fail')) return {state:'fail',errorKinds:['wrong_symbol'],details:outcomes};
-    if(outcomes.some(x=>x.state==='uncertain')) return {state:'uncertain',errorKinds:['uncertain'],details:outcomes};
-    return {state:'pass',errorKinds:[],details:outcomes};
+
+    if (occupancyCheck.ok) {
+      const details = required.map(key => ({ key, ...match(key, expectedSlots[key]) }));
+      if (details.some(x => x.state === 'fail')) {
+        return { state: 'fail', symbolCorrect: false, positionCorrect: true,
+          errorKinds: ['wrong_symbol'], details };
+      }
+      if (details.some(x => x.state === 'uncertain')) {
+        return { state: 'uncertain', symbolCorrect: null, positionCorrect: true,
+          errorKinds: ['uncertain'], details };
+      }
+      return { state: 'pass', symbolCorrect: true, positionCorrect: true,
+        errorKinds: [], details };
+    }
+
+    // A misplaced but correctly drawn symbol is a placement lesson, NOT
+    // evidence of wrong pronunciation. Each observed glyph may be matched
+    // to exactly one expected glyph regardless of which slot received it.
+    if (required.length && observed.length === required.length) {
+      function canMatch(threshold, index, used) {
+        if (index === required.length) return true;
+        const target = required[index];
+        for (const key of observed) {
+          if (used.has(key) || match(key, expectedSlots[target]).score < threshold) continue;
+          used.add(key);
+          if (canMatch(threshold, index + 1, used)) return true;
+          used.delete(key);
+        }
+        return false;
+      }
+      if (canMatch(0.70, 0, new Set())) {
+        return { state: 'position_only', symbolCorrect: true, positionCorrect: false,
+          errorKinds: ['wrong_slot'], details: occupancyCheck.errors };
+      }
+      // Avoid treating uncertain OCR as a definite pronunciation error.
+      return { state: 'uncertain', symbolCorrect: null, positionCorrect: false,
+        errorKinds: ['wrong_slot', 'uncertain'], details: occupancyCheck.errors };
+    }
+
+    return { state: 'fail', symbolCorrect: null, positionCorrect: false,
+      errorKinds: [...new Set(occupancyCheck.errors.map(x => x.kind))],
+      details: occupancyCheck.errors };
   }
 
-  function mountPilot({target,char,zhuyin,onResult}) {
-    const documentRef=target.ownerDocument;
-    const layout=root.HanziZhuyinLayout;
-    if(!layout) throw new Error('Zhuyin layout core is required');
-    const expected=layout.parseZhuyinSlots(zhuyin);
-    const drawing=Object.fromEntries(KEYS.map(k=>[k,[]]));
-    const panel=documentRef.createElement('section');
-    panel.className='zh-pilot-card';
-    const title=documentRef.createElement('h3');
-    title.textContent='注音手寫實驗（不影響原本國字作答）';
-    const subtitle=documentRef.createElement('p');
-    subtitle.textContent='請在固定位置手寫「'+char+'」的注音。沒寫的格子要保持空白；辨識不確定時請重寫。';
-    const grid=documentRef.createElement('div');grid.className='zh-pilot-grid';
-    const result=documentRef.createElement('p');
-    result.className='zh-pilot-result';result.setAttribute('aria-live','polite');
-    const controls=documentRef.createElement('div');controls.className='zh-pilot-actions';
-    let checked=false;
-    for(const key of KEYS) {
-      const holder=documentRef.createElement('div');
-      holder.className='zh-pilot-slot zh-pilot-'+key;
-      const label=documentRef.createElement('span');
-      label.textContent=LABELS[key];holder.appendChild(label);
-      const canvas=documentRef.createElement('canvas');
-      canvas.width=72;canvas.height=84;
-      canvas.setAttribute('aria-label',LABELS[key]+'注音手寫格');
-      canvas.style.touchAction='none';
-      holder.appendChild(canvas);grid.appendChild(holder);
-      let active=null, pointerId=null;
+  function mountPilot({ target, char, zhuyin, onResult }) {
+    const documentRef = target.ownerDocument;
+    const layout = root.HanziZhuyinLayout;
+    if (!layout) throw new Error('Zhuyin layout core is required');
+    const expected = layout.parseZhuyinSlots(zhuyin);
+    const toneKey = layout.toneAnchorSlot(expected);
+    const drawing = Object.fromEntries(KEYS.map(k => [k, []]));
+    const panel = documentRef.createElement('section');
+    panel.className = 'zh-pilot-card';
+    const title = documentRef.createElement('h3');
+    title.textContent = '注音手寫練習（位置錯誤分開提醒）';
+    const subtitle = documentRef.createElement('p');
+    subtitle.textContent = '請在格子裡寫「' + char + '」的注音。只寫錯位置不直接算讀音錯誤。';
+    const guide = documentRef.createElement('div');
+    guide.className = 'zh-pilot-rule';
+    guide.textContent = '固定位置：1 個符號寫中格；2 個寫上、下格；3 個寫上、中、下格。聲調寫最後一個符號右上角；輕聲點寫最上方。';
+    const exampleButton = documentRef.createElement('button');
+    exampleButton.type = 'button'; exampleButton.className = 'zh-pilot-example-btn';
+    exampleButton.textContent = '看位置範例';
+    exampleButton.setAttribute('aria-expanded', 'false');
+    const samples = documentRef.createElement('div');
+    samples.className = 'zh-pilot-examples';
+    samples.hidden = true;
+    const examples = [
+      ['1 個符號：語 ㄩˇ', '空', 'ㄩ', '空', 'ˇ 寫在ㄩ右上角'],
+      ['2 個符號：貓 ㄇㄠ', 'ㄇ', '空', 'ㄠ', '一聲不標'],
+      ['3 個符號：巷 ㄒㄧㄤˋ', 'ㄒ', 'ㄧ', 'ㄤ', 'ˋ 寫在ㄤ右上角'],
+      ['輕聲：叔 ㄕㄨ˙', 'ㄕ', '空', 'ㄨ', '˙ 寫在整組最上方']
+    ];
+    for (const [heading, upper, middle, lower, tone] of examples) {
+      const card = documentRef.createElement('div');
+      card.className = 'zh-pilot-sample';
+      const head = documentRef.createElement('strong'); head.textContent = heading;
+      const desc = documentRef.createElement('span');
+      desc.textContent = '上：' + upper + '　中：' + middle + '　下：' + lower + '　｜ ' + tone;
+      card.append(head, desc); samples.appendChild(card);
+    }
+    exampleButton.addEventListener('click', () => {
+      samples.hidden = !samples.hidden;
+      exampleButton.textContent = samples.hidden ? '看位置範例' : '收起位置範例';
+      exampleButton.setAttribute('aria-expanded', String(!samples.hidden));
+    });
+
+    const grid = documentRef.createElement('div'); grid.className = 'zh-pilot-grid';
+    const result = documentRef.createElement('p'); result.className = 'zh-pilot-result';
+    result.setAttribute('aria-live', 'polite');
+    const controls = documentRef.createElement('div'); controls.className = 'zh-pilot-actions';
+    let checked = false;
+    // Show only ONE tone-writing box, anchored to the last phonetic glyph.
+    // t0/t1/t2 remain internal layout coordinates, not three student choices.
+    for (const [visualKey, key] of [
+      ['neutral', 'neutral'], ['g0', 'g0'], ['g1', 'g1'], ['g2', 'g2'], ['tone', toneKey]
+    ]) {
+      const holder = documentRef.createElement('div');
+      holder.className = 'zh-pilot-slot zh-pilot-' + visualKey;
+      if (visualKey === 'tone') holder.classList.add('zh-pilot-tone-' + toneKey);
+      const label = documentRef.createElement('span');
+      label.textContent = LABELS[visualKey];
+      holder.appendChild(label);
+      const canvas = documentRef.createElement('canvas');
+      canvas.width = 72; canvas.height = 84;
+      canvas.setAttribute('aria-label', LABELS[visualKey] + '注音手寫格');
+      canvas.style.touchAction = 'none';
+      holder.appendChild(canvas); grid.appendChild(holder);
+      let active = null, pointerId = null;
       function point(event) {
-        const rect=canvas.getBoundingClientRect();
-        return [(event.clientX-rect.left)*canvas.width/rect.width,(event.clientY-rect.top)*canvas.height/rect.height];
+        const rect = canvas.getBoundingClientRect();
+        return [(event.clientX - rect.left) * canvas.width / rect.width,
+          (event.clientY - rect.top) * canvas.height / rect.height];
       }
-      canvas.addEventListener('pointerdown', event=>{
-        if(checked || pointerId!==null) return;
-        event.preventDefault();pointerId=event.pointerId;
-        try{canvas.setPointerCapture(event.pointerId)}catch{}
-        active=[point(event)];drawing[key].push(active);drawInk(canvas,drawing[key]);
+      canvas.addEventListener('pointerdown', event => {
+        if (checked || pointerId !== null) return;
+        event.preventDefault(); pointerId = event.pointerId;
+        try { canvas.setPointerCapture(event.pointerId); } catch { /* ignore */ }
+        active = [point(event)]; drawing[key].push(active); drawInk(canvas, drawing[key]);
       });
-      canvas.addEventListener('pointermove', event=>{
-        if(event.pointerId!==pointerId||!active)return;
-        event.preventDefault();active.push(point(event));drawInk(canvas,drawing[key]);
+      canvas.addEventListener('pointermove', event => {
+        if (event.pointerId !== pointerId || !active) return;
+        event.preventDefault(); active.push(point(event)); drawInk(canvas, drawing[key]);
       });
-      canvas.addEventListener('pointerup', event=>{
-        if(event.pointerId!==pointerId)return;
+      canvas.addEventListener('pointerup', event => {
+        if (event.pointerId !== pointerId) return;
         event.preventDefault();
-        if(active)active.push(point(event));
-        drawInk(canvas,drawing[key]);active=null;pointerId=null;
+        if (active) active.push(point(event));
+        drawInk(canvas, drawing[key]); active = null; pointerId = null;
       });
-      canvas.addEventListener('pointercancel', event=>{
-        if(event.pointerId!==pointerId)return;
-        if(active) drawing[key].pop(); // prevent cancelled touch leaving ghost ink
-        active=null;pointerId=null;drawInk(canvas,drawing[key]);
+      canvas.addEventListener('pointercancel', event => {
+        if (event.pointerId !== pointerId) return;
+        if (active) drawing[key].pop();
+        active = null; pointerId = null; drawInk(canvas, drawing[key]);
       });
     }
-    const checkBtn=documentRef.createElement('button');
-    checkBtn.type='button';checkBtn.textContent='檢查注音';
-    const clearBtn=documentRef.createElement('button');
-    clearBtn.type='button';clearBtn.textContent='清空重寫';
-    checkBtn.addEventListener('click',async()=>{
-      if(checked)return;
-      const verdict=evaluateSlots(expected,drawing,documentRef,layout);
-      if(verdict.state==='uncertain') {
-        result.textContent='UNCERTAIN：筆跡無法確定，請清空後重寫；這次不計分。';
+    const checkBtn = documentRef.createElement('button');
+    checkBtn.type = 'button'; checkBtn.textContent = '檢查注音';
+    const clearBtn = documentRef.createElement('button');
+    clearBtn.type = 'button'; clearBtn.textContent = '清空重寫';
+    checkBtn.addEventListener('click', async () => {
+      if (checked) return;
+      const verdict = evaluateSlots(expected, drawing, documentRef, layout);
+      if (verdict.state === 'uncertain') {
+        result.textContent = verdict.positionCorrect === false
+          ? '位置需要調整，筆跡尚無法確認；不計分，請看範例後重寫。'
+          : 'UNCERTAIN：筆跡尚無法確認，不計分，請重寫。';
+        if (onResult) await onResult(verdict);
         return;
       }
-      checked=true;checkBtn.disabled=true;
-      result.textContent=verdict.state==='pass'?'注音位置與手寫驗證通過。':'注音有缺漏、位置錯誤或筆跡不符。';
-      try {if(onResult) await onResult(verdict);}catch(err){result.textContent+=' 學習紀錄儲存失敗。';console.error(err);}
+      if (verdict.state === 'position_only') {
+        result.textContent = '符號辨識符合，但位置需要調整；不算讀音錯誤，請看範例後重寫。';
+        if (onResult) await onResult(verdict);
+        return;
+      }
+      checked = true; checkBtn.disabled = true;
+      result.textContent = verdict.state === 'pass'
+        ? '注音符號及位置皆通過。'
+        : verdict.positionCorrect ? '位置正確，但符號形狀或聲調仍需檢查。'
+          : '注音有缺漏或多寫，請檢查格子。';
+      try { if (onResult) await onResult(verdict); }
+      catch (err) { result.textContent += ' 學習紀錄儲存失敗。'; console.error(err); }
     });
-    clearBtn.addEventListener('click',()=>{
-      checked=false;checkBtn.disabled=false;result.textContent='';
-      for(const key of KEYS) drawing[key]=[];
-      grid.querySelectorAll('canvas').forEach(canvas=>drawInk(canvas,[]));
+    clearBtn.addEventListener('click', () => {
+      checked = false; checkBtn.disabled = false; result.textContent = '';
+      for (const key of KEYS) drawing[key] = [];
+      grid.querySelectorAll('canvas').forEach(canvas => drawInk(canvas, []));
     });
-    controls.append(checkBtn,clearBtn);panel.append(title,subtitle,grid,controls,result);target.appendChild(panel);
-    return {element:panel,clear:()=>clearBtn.click()};
+    controls.append(checkBtn, clearBtn);
+    panel.append(title, subtitle, guide, exampleButton, samples, grid, controls, result);
+    target.appendChild(panel);
+    return { element: panel, clear: () => clearBtn.click() };
   }
 
   return { mountPilot, similarity, evaluateSlots };
@@ -322,57 +464,61 @@ const examples=[
 ];
 const el=id=>document.getElementById(id);
 const select=el('case');
-examples.forEach(([label,zh],i)=>{const option=new Option(label+' '+zh,String(i));select.add(option)});
-let records=[],current=0,recorded=false,observer=null;
-function readVerdict(text) {
- if(text.includes('UNCERTAIN'))return 'uncertain';
- if(text.includes('驗證通過'))return 'pass';
- if(text.includes('注音有缺漏'))return 'fail';
- return null;
-}
+examples.forEach(([label,reading],index)=>select.add(new Option(label+' '+reading,String(index))));
+let records=[],current=0,recorded=false;
 function update(){
- const count={pass:0,fail:0,uncertain:0};
- let match=0;
- for(const r of records){count[r.actual]++;if((r.human==='correct'&&r.actual==='pass')||(r.human==='incorrect'&&r.actual==='fail'))match++}
+ const kinds={pass:0,position_only:0,fail:0,uncertain:0};
+ let matched=0;
+ for(const r of records) {
+  kinds[r.actual]=(kinds[r.actual]||0)+1;
+  if((r.human==='correct'&&r.actual==='pass')||
+     (r.human==='position'&&r.actual==='position_only')||
+     (r.human==='incorrect'&&r.actual==='fail')) matched++;
+ }
  const last=records.at(-1);
  el('results').textContent=
- '共 '+records.length+' 次｜PASS '+count.pass+'、FAIL '+count.fail+'、UNCERTAIN '+count.uncertain+'\n'+
- '與人工預期一致：'+match+' 次（不含 UNCERTAIN）'+
- (last?'\n最近一次：'+last.label+'、預期 '+(last.human==='correct'?'正確':'錯誤')+'、實際 '+last.actual:'');
+  '總測試 '+records.length+' 次｜全部通過 '+kinds.pass+
+  '｜只需調整位置 '+kinds.position_only+
+  '｜錯誤 '+kinds.fail+'｜無法確認 '+kinds.uncertain+'\n'+
+  '與人工預期一致 '+matched+' 次（僅為樣本，非正式準確率）'+
+  (last?'\n最近一次：'+last.label+'｜人工：'+last.human+'｜系統：'+last.actual+
+  '｜符號：'+String(last.symbolCorrect)+'｜位置：'+String(last.positionCorrect):'');
 }
-function record(verdict){
- if(!verdict || recorded)return;
+function record(verdict) {
+ if(!verdict||recorded)return;
  recorded=true;
  const [label,zhuyin]=examples[current];
- records.push({label,zhuyin,human:el('human').value,actual:verdict});
+ records.push({
+  label,zhuyin,human:el('human').value,actual:verdict.state,
+  symbolCorrect:verdict.symbolCorrect,positionCorrect:verdict.positionCorrect,
+  errorKinds:verdict.errorKinds||[]
+ });
  update();
 }
 function mount(){
- if(observer){observer.disconnect();observer=null}
  recorded=false;
  const [label,reading]=examples[current];
  el('example').textContent=label.startsWith('叔')?'叔':label;
  el('reading').textContent='測試讀音：'+reading;
  const target=el('pilot');target.replaceChildren();
  window.HanziZhuyinHandwriting.mountPilot({
-  target,char:label.startsWith('叔')?'叔':label,zhuyin:reading,
-  onResult:v=>record(v.state)
+  target,char:label.startsWith('叔')?'叔':label,
+  zhuyin:reading,onResult:verdict=>record(verdict)
  });
- const message=target.querySelector('.zh-pilot-result');
- observer=new MutationObserver(()=>record(readVerdict(message.textContent)));
- observer.observe(message,{childList:true,characterData:true,subtree:true});
+ const reset=target.querySelector('.zh-pilot-actions button:last-child');
+ reset.addEventListener('click',()=>{recorded=false});
 }
 select.onchange=()=>{current=Number(select.value);mount()};
 el('next').onclick=()=>{current=(current+1)%examples.length;select.value=String(current);mount()};
-el('human').onchange=()=>{recorded=false;mount()};
+el('human').onchange=()=>{mount()};
 el('clear').onclick=()=>{if(confirm('確定清除本頁 QA 統計？')){records=[];update()}};
 el('export').onclick=()=>{
- const data={schema:'hanzi-zhuyin-handwriting-manual-qa-v1',
-  source:'hanzi-quiz E pilot isolated embedded core',exportedAt:new Date().toISOString(),
+ const payload={schema:'hanzi-zhuyin-handwriting-manual-qa-v2',
+  source:'hanzi-quiz E MOE tone-placement pilot',exportedAt:new Date().toISOString(),
   total:records.length,results:records};
- const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+ const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
  const url=URL.createObjectURL(blob),a=document.createElement('a');
- a.href=url;a.download='hanzi-zhuyin-pilot-qa-'+new Date().toISOString().slice(0,10)+'.json';
+ a.href=url;a.download='hanzi-zhuyin-moe-v2-qa-'+new Date().toISOString().slice(0,10)+'.json';
  a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
 mount();update();
