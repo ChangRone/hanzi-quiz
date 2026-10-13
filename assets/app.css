@@ -551,3 +551,21 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 .zh-pilot-actions { display: flex; gap: 10px; justify-content: center; }
 .zh-pilot-actions button { min-height: 44px; border: 1px solid #8daae1; border-radius: 999px; background: #fff; padding: 8px 14px; font-weight: 800; }
 .zh-pilot-result { min-height: 1.5em; text-align: center; font-weight: 700; }
+
+
+/* MOE-aligned 5-box student interface: 3 phonetic, 1 neutral, 1 dynamic tone. */
+.zh-pilot-grid { grid-template-columns: 96px 116px; gap: 6px 12px; align-items: start; }
+.zh-pilot-tone { grid-column: 2; align-self: start; transform: translateY(-10px); }
+.zh-pilot-tone-t0 { grid-row: 2; }
+.zh-pilot-tone-t1 { grid-row: 3; }
+.zh-pilot-tone-t2 { grid-row: 4; }
+.zh-pilot-tone canvas { width: 64px; height: 66px; }
+.zh-pilot-tone span { max-width: 116px; line-height: 1.3; text-align: center; }
+.zh-pilot-rule { margin: 10px auto 12px; max-width: 440px; padding: 12px 14px; background: #edf4ff; border-radius: 10px; font-size: .86rem; text-align: left; line-height: 1.65; }
+.zh-pilot-example-btn { min-height: 40px; margin: 0 auto; display: block; background: #fff; border: 1px solid #adc0e1; color: #245eae; border-radius: 12px; font-weight: 800; padding: 7px 16px; }
+.zh-pilot-examples[hidden] { display: none !important; }
+.zh-pilot-examples { display: grid; gap: 6px; margin: 12px 0; text-align: left; }
+.zh-pilot-sample { padding: 9px 11px; background: #fff; border: 1px solid #e2e9f2; border-radius: 9px; font-size: .8rem; line-height: 1.6; }
+.zh-pilot-sample strong { display: block; font-size: .9rem; }
+.zh-pilot-sample span { display: block; }
+.zh-pilot-slot canvas { background-image: linear-gradient(to right, transparent 49.5%, #eff3fa 50%, transparent 50.5%), linear-gradient(to bottom, transparent 49.5%, #eff3fa 50%, transparent 50.5%); }
