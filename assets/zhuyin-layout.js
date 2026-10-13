@@ -73,11 +73,38 @@
     return { state: 'fail', reason: 'not_dot_like' };
   }
 
+  // MOE: in vertical Zhuyin, 2nd/3rd/4th tone sits at the
+  // upper-right corner of the LAST phonetic symbol; neutral dot goes on top.
+  // There is no official "upper/middle/lower tone" terminology.
+  function toneAnchorSlot(expectedSlots) {
+    const s = expectedSlots || {};
+    return s.g2 ? 't2' : s.g1 ? 't1' : 't0';
+  }
+
+  // For confirmed/typed glyphs, distinguish the correct symbol inventory
+  // from where those symbols were written. Handwriting OCR uncertainty is
+  // handled separately; this never invents a pronunciation.
+  function classifyConfirmedSymbols(expectedSlots, confirmedSlots) {
+    const wanted = SLOT_KEYS.filter(k => expectedSlots && expectedSlots[k]).map(k => [k, expectedSlots[k]]);
+    const actual = SLOT_KEYS.filter(k => confirmedSlots && confirmedSlots[k]).map(k => [k, confirmedSlots[k]]);
+    const signature = rows => rows.map(([, symbol]) => symbol).sort().join('|');
+    const symbolCorrect = signature(wanted) === signature(actual);
+    const positionCorrect = SLOT_KEYS.every(k =>
+      String(expectedSlots && expectedSlots[k] || '') === String(confirmedSlots && confirmedSlots[k] || ''));
+    return {
+      state: symbolCorrect ? (positionCorrect ? 'pass' : 'position_only') : 'fail',
+      symbolCorrect,
+      positionCorrect
+    };
+  }
+
   return {
     SLOT_KEYS,
     parseZhuyinSlots,
     composeVerifiedZhuyin,
     validateSlotOccupancy,
-    acceptNeutralGesture
+    acceptNeutralGesture,
+    toneAnchorSlot,
+    classifyConfirmedSymbols
   };
 });
