@@ -30,13 +30,8 @@ try {
  await page.$eval('#zhuyin-pilot-toggle',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
  assert.equal(await page.$eval('#zhuyin-pilot-toggle',el=>el.checked),true);
  await page.evaluate(()=>document.querySelector('#data-dialog').close());
- await page.$eval('#open-materials',el=>el.click());
- await page.waitForFunction(()=>document.querySelector('#materials-dialog').open,{timeout:10000});
- await page.waitForSelector('input[data-lesson-key="20262020|03"]',{timeout:15000});
- await page.$eval('input[data-lesson-key="20262020|03"]',el=>{el.checked=true;el.dispatchEvent(new Event('change',{bubbles:true}));});
- await page.$eval('#save-materials',el=>el.click());
+ // Selected lessons persist across toggling. Do not reopen Materials on entry #2.
  await page.waitForFunction(()=>!document.querySelector('#start-practice').disabled,{timeout:20000});
- await page.waitForFunction(()=>!document.querySelector('#materials-dialog').open && !document.querySelector('#data-dialog').open,{timeout:10000});
  await page.$eval('#start-practice',btn=>btn.click());
  await page.waitForFunction(()=>!document.querySelector('#quiz-view').classList.contains('hidden'),{timeout:15000});
  await page.waitForSelector('.writer-card',{timeout:25000});
