@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hanzi Quiz E 注音手寫驗收｜獨立離線版</title><style>
+:root{font-family:system-ui,"Microsoft JhengHei",sans-serif;color:#172033;background:#f4f7fc}
+*{box-sizing:border-box}body{margin:0;padding:15px}main{max-width:920px;margin:0 auto}
+h1{font-size:1.45rem;margin:0 0 10px}h2{font-size:1.1rem;margin:0}
+p{line-height:1.65}article{background:white;border:1px solid #dce3ed;border-radius:16px;margin:12px 0;padding:15px}
+.subtle{color:#576679;font-size:.94rem}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+fieldset{margin:14px 0;border:1px solid #dce3ed;border-radius:8px;padding:10px}
+input,select{font:inherit}label{font-weight:700}
+select,button{min-height:44px;font-size:1rem}
+button{border:1px solid #9babc6;background:#fff;padding:8px 13px;border-radius:9px;font-weight:700;cursor:pointer}
+button.primary{background:#285aa6;color:white;border-color:#285aa6}
+select{border-radius:8px;padding:6px 10px;background:white}
+#example{font-size:3rem;font-weight:800;text-align:center}
+#reading{text-align:center;font-size:1.4rem}
+#pilot{text-align:center}
+.zh-pilot-card{max-width:480px;margin:auto;padding:10px;border:1px solid #c6d5e8;border-radius:16px;background:#f8fbff}
+.zh-pilot-card h3{font-size:1rem;margin:0}
+.zh-pilot-card p{font-size:.86rem;line-height:1.5}
+.zh-pilot-grid{display:grid;grid-template-columns:86px 86px;grid-template-rows:repeat(4,auto);justify-content:center;gap:8px;margin:14px auto}
+.zh-pilot-slot{display:flex;flex-direction:column;align-items:center;gap:4px}
+.zh-pilot-slot span{color:#617086;font-size:.78rem}
+.zh-pilot-slot canvas{width:72px;height:84px;touch-action:none;border:1px dashed #94a3b8;background:white;border-radius:8px;cursor:crosshair}
+.zh-pilot-neutral{grid-column:1;grid-row:1}
+.zh-pilot-g0{grid-column:1;grid-row:2}
+.zh-pilot-g1{grid-column:1;grid-row:3}
+.zh-pilot-g2{grid-column:1;grid-row:4}
+.zh-pilot-t0{grid-column:2;grid-row:2}
+.zh-pilot-t1{grid-column:2;grid-row:3}
+.zh-pilot-t2{grid-column:2;grid-row:4}
+.zh-pilot-actions{display:flex;gap:10px;justify-content:center}
+.zh-pilot-result{min-height:1.8em;font-weight:800}
+#results{white-space:pre-wrap;font-size:.9rem;line-height:1.65;background:#f5f7fb;border-radius:9px;padding:14px}
+.note{background:#fffbeb;border-left:4px solid #dba540;padding:12px 14px;line-height:1.6}
+.status{font-weight:800}.status.pass{color:#08713b}.status.fail{color:#b91c1c}
+</style></head>
+<body><main>
+<article><h1>注音手寫驗收｜E 測試版</h1>
+<p>這是從 Hanzi Quiz PR #6 的原始注音位置與辨識程式產生的<strong>獨立測試頁</strong>，不連接正式 Quiz，也不寫入學生學習紀錄。請用手指或觸控筆在七個固定位置寫注音。</p>
+<p class="note">目前是<strong>未經學生手寫校準的實驗性字形比對</strong>，判斷只供評估，不作正式成績。筆跡留在記憶體，匯出結果不包含原始筆畫。</p></article>
+<article>
+<div class="row"><label for="case">例字：</label><select id="case"></select><button id="next" type="button">下一例字</button></div>
+<div class="row"><label for="human">本次預期：</label><select id="human"><option value="correct">故意寫正確</option><option value="incorrect">故意寫錯／空位亂畫</option></select></div>
+<div id="example" aria-live="polite"></div><div id="reading"></div>
+<div id="pilot"></div></article>
+<article><h2>累積驗收摘要</h2>
+<p class="subtle">每次按「檢查注音」後會記錄結果；如果結果為 UNCERTAIN，也會納入統計。必要時請清空重寫，再做其他測試。</p>
+<div id="results">尚未檢查。</div>
+<div class="row"><button type="button" id="export" class="primary">匯出 QA 統計 JSON</button><button type="button" id="clear">重設統計</button></div>
+</article></main>
+<script>(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  if (root) root.HanziZhuyinLayout = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+
+  const SLOT_KEYS = ['neutral', 'g0', 'g1', 'g2', 't0', 't1', 't2'];
+  const TONE_MARKS = new Set(['ˊ', 'ˇ', 'ˋ', '˙']);
+
+  function emptySlots() {
+    return { neutral: '', g0: '', g1: '', g2: '', t0: '', t1: '', t2: '' };
+  }
+
+  function parseZhuyinSlots(zhuyin) {
+    const raw = String(zhuyin || '').trim();
+    if (!raw) throw new Error('zhuyin is required');
+    const chars = [...raw];
+    const tone = chars.find(ch => TONE_MARKS.has(ch)) || '';
+    const main = chars.filter(ch => !TONE_MARKS.has(ch));
+    if (main.length < 1 || main.length > 3) {
+      throw new Error('written zhuyin must contain 1..3 main symbols');
+    }
+    const out = emptySlots();
+    if (main.length === 1) out.g1 = main[0];
+    if (main.length === 2) { out.g0 = main[0]; out.g2 = main[1]; }
+    if (main.length === 3) { out.g0 = main[0]; out.g1 = main[1]; out.g2 = main[2]; }
+
+    if (tone === '˙') {
+      out.neutral = '˙';
+    } else if (tone && ['ˊ', 'ˇ', 'ˋ'].includes(tone)) {
+      if (main.length === 1) out.t1 = tone;
+      else out.t2 = tone;
+    }
+    return out;
+  }
+
+  function composeVerifiedZhuyin(slots) {
+    const s = Object.assign(emptySlots(), slots || {});
+    const main = String(s.g0 || '') + String(s.g1 || '') + String(s.g2 || '');
+    const regularTone = [s.t0, s.t1, s.t2].find(Boolean) || '';
+    return main + (s.neutral || regularTone || '');
+  }
+
+  function validateSlotOccupancy(expectedSlots, observedInk) {
+    const errors = [];
+    for (const key of SLOT_KEYS) {
+      const expected = Boolean(expectedSlots && expectedSlots[key]);
+      const actual = Boolean(observedInk && observedInk[key]);
+      if (expected && !actual) errors.push({ slot: key, kind: 'missing_symbol' });
+      if (!expected && actual) errors.push({ slot: key, kind: 'extra_ink' });
+    }
+    return { ok: errors.length === 0, errors };
+  }
+
+  function acceptNeutralGesture(stats) {
+    if (!stats) return { state: 'fail', reason: 'empty' };
+    const strokeCount = Number(stats.strokeCount || 0);
+    const pointCount = Number(stats.pointCount || 0);
+    const width = Number(stats.width || 0);
+    const height = Number(stats.height || 0);
+    const path = Number(stats.path || 0);
+
+    if (strokeCount === 1 && pointCount <= 3 && path <= 12) {
+      return { state: 'pass', reason: 'short_tap' };
+    }
+    if (strokeCount <= 2 && width <= 22 && height <= 22 && path <= 70) {
+      return { state: 'pass', reason: 'small_dot' };
+    }
+    if (width <= 30 && height <= 30 && path <= 110) {
+      return { state: 'uncertain', reason: 'large_dot' };
+    }
+    return { state: 'fail', reason: 'not_dot_like' };
+  }
+
+  return {
+    SLOT_KEYS,
+    parseZhuyinSlots,
+    composeVerifiedZhuyin,
+    validateSlotOccupancy,
+    acceptNeutralGesture
+  };
+});
+
+</script>
+<script>(function (root, factory) {
+  const api = factory(root);
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  if (root) root.HanziZhuyinHandwriting = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (root) {
+  'use strict';
+  const KEYS = ['neutral', 'g0', 'g1', 'g2', 't0', 't1', 't2'];
+  const LABELS = { neutral:'輕聲', g0:'上', g1:'中', g2:'下', t0:'上調', t1:'中調', t2:'下調' };
+  const GRID = 48;
+
+  function maskFromCanvas(canvas) {
+    const ctx = canvas.getContext('2d', { willReadFrequently:true });
+    const { width, height } = canvas, img = ctx.getImageData(0, 0, width, height).data;
+    const ink = [];
+    for (let y=0;y<height;y++) for (let x=0;x<width;x++) {
+      if (img[(y*width+x)*4+3] >= 45) ink.push([x,y]);
+    }
+    if (!ink.length) return [];
+    const xs=ink.map(p=>p[0]), ys=ink.map(p=>p[1]);
+    const minX=Math.min(...xs), maxX=Math.max(...xs), minY=Math.min(...ys), maxY=Math.max(...ys);
+    const factor=39/Math.max(1,maxX-minX,maxY-minY);
+    const offsetX=(GRID-(maxX-minX)*factor)/2, offsetY=(GRID-(maxY-minY)*factor)/2;
+    const pixels=new Set(ink.map(([x,y]) => (Math.round(offsetY+(y-minY)*factor)*GRID+Math.round(offsetX+(x-minX)*factor))));
+    return [...pixels].map(key=>[key%GRID,Math.floor(key/GRID)]).filter(([x,y])=>x>=0&&x<GRID&&y>=0&&y<GRID);
+  }
+
+  function similarity(a,b,radius=6) {
+    if (!a.length||!b.length) return 0;
+    const near=(p,points)=>points.some(q=>(p[0]-q[0])**2+(p[1]-q[1])**2<=radius*radius);
+    // Both precision and recall must be adequate; a single line must not
+    // pass a complex Bopomofo symbol just because it touches one component.
+    const precision=a.filter(p=>near(p,b)).length/a.length;
+    const recall=b.filter(p=>near(p,a)).length/b.length;
+    return Math.min(precision,recall);
+  }
+
+  function drawInk(canvas,strokes) {
+    const ctx=canvas.getContext('2d');
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.lineWidth=7;
+    ctx.lineJoin='round'; ctx.lineCap='round'; ctx.strokeStyle='#172033'; ctx.fillStyle='#172033';
+    for(const stroke of strokes) {
+      if(!stroke.length) continue;
+      if(stroke.length===1) {
+        ctx.beginPath();ctx.arc(stroke[0][0],stroke[0][1],3.5,0,2*Math.PI);ctx.fill();continue;
+      }
+      ctx.beginPath();ctx.moveTo(stroke[0][0],stroke[0][1]);
+      for(const [x,y] of stroke.slice(1)) ctx.lineTo(x,y);
+      ctx.stroke();
+    }
+  }
+
+  function expectedGlyphMask(expected, documentRef) {
+    const canvas=documentRef.createElement('canvas');
+    canvas.width=72;canvas.height=84;
+    const ctx=canvas.getContext('2d');
+    ctx.font='bold 62px "Noto Sans TC", "Microsoft JhengHei", sans-serif';
+    ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#000';
+    ctx.fillText(expected,36,42);
+    return maskFromCanvas(canvas);
+  }
+
+  function neutralStats(strokes) {
+    const points=strokes.flat();
+    if(!points.length) return null;
+    const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
+    let path=0;
+    for(const stroke of strokes) for(let i=1;i<stroke.length;i++) path+=Math.hypot(stroke[i][0]-stroke[i-1][0],stroke[i][1]-stroke[i-1][1]);
+    return {strokeCount:strokes.length,pointCount:points.length,width:Math.max(...xs)-Math.min(...xs),height:Math.max(...ys)-Math.min(...ys),path};
+  }
+
+  function evaluateSlots(expectedSlots, drawing, documentRef, layout) {
+    const occupancy={};
+    for(const k of KEYS) occupancy[k]=Boolean(drawing[k]&&drawing[k].length);
+    const occupancyCheck=layout.validateSlotOccupancy(expectedSlots,occupancy);
+    if(!occupancyCheck.ok) return {state:'fail',errorKinds:[...new Set(occupancyCheck.errors.map(e=>e.kind))],details:occupancyCheck.errors};
+    const outcomes=[];
+    for(const key of KEYS) {
+      const expected=expectedSlots[key];
+      if(!expected) continue;
+      const strokes=drawing[key] || [];
+      if(key==='neutral') {
+        const check=layout.acceptNeutralGesture(neutralStats(strokes));
+        outcomes.push({key,state:check.state,score:check.state==='pass'?1:0});
+        continue;
+      }
+      const ink=documentRef.createElement('canvas');
+      ink.width=72;ink.height=84;drawInk(ink,strokes);
+      const score=similarity(maskFromCanvas(ink),expectedGlyphMask(expected,documentRef));
+      outcomes.push({key,score,state:score>=0.70?'pass':score>=0.42?'uncertain':'fail'});
+    }
+    if(outcomes.some(x=>x.state==='fail')) return {state:'fail',errorKinds:['wrong_symbol'],details:outcomes};
+    if(outcomes.some(x=>x.state==='uncertain')) return {state:'uncertain',errorKinds:['uncertain'],details:outcomes};
+    return {state:'pass',errorKinds:[],details:outcomes};
+  }
+
+  function mountPilot({target,char,zhuyin,onResult}) {
+    const documentRef=target.ownerDocument;
+    const layout=root.HanziZhuyinLayout;
+    if(!layout) throw new Error('Zhuyin layout core is required');
+    const expected=layout.parseZhuyinSlots(zhuyin);
+    const drawing=Object.fromEntries(KEYS.map(k=>[k,[]]));
+    const panel=documentRef.createElement('section');
+    panel.className='zh-pilot-card';
+    const title=documentRef.createElement('h3');
+    title.textContent='注音手寫實驗（不影響原本國字作答）';
+    const subtitle=documentRef.createElement('p');
+    subtitle.textContent='請在固定位置手寫「'+char+'」的注音。沒寫的格子要保持空白；辨識不確定時請重寫。';
+    const grid=documentRef.createElement('div');grid.className='zh-pilot-grid';
+    const result=documentRef.createElement('p');
+    result.className='zh-pilot-result';result.setAttribute('aria-live','polite');
+    const controls=documentRef.createElement('div');controls.className='zh-pilot-actions';
+    let checked=false;
+    for(const key of KEYS) {
+      const holder=documentRef.createElement('div');
+      holder.className='zh-pilot-slot zh-pilot-'+key;
+      const label=documentRef.createElement('span');
+      label.textContent=LABELS[key];holder.appendChild(label);
+      const canvas=documentRef.createElement('canvas');
+      canvas.width=72;canvas.height=84;
+      canvas.setAttribute('aria-label',LABELS[key]+'注音手寫格');
+      canvas.style.touchAction='none';
+      holder.appendChild(canvas);grid.appendChild(holder);
+      let active=null, pointerId=null;
+      function point(event) {
+        const rect=canvas.getBoundingClientRect();
+        return [(event.clientX-rect.left)*canvas.width/rect.width,(event.clientY-rect.top)*canvas.height/rect.height];
+      }
+      canvas.addEventListener('pointerdown', event=>{
+        if(checked || pointerId!==null) return;
+        event.preventDefault();pointerId=event.pointerId;
+        try{canvas.setPointerCapture(event.pointerId)}catch{}
+        active=[point(event)];drawing[key].push(active);drawInk(canvas,drawing[key]);
+      });
+      canvas.addEventListener('pointermove', event=>{
+        if(event.pointerId!==pointerId||!active)return;
+        event.preventDefault();active.push(point(event));drawInk(canvas,drawing[key]);
+      });
+      canvas.addEventListener('pointerup', event=>{
+        if(event.pointerId!==pointerId)return;
+        event.preventDefault();
+        if(active)active.push(point(event));
+        drawInk(canvas,drawing[key]);active=null;pointerId=null;
+      });
+      canvas.addEventListener('pointercancel', event=>{
+        if(event.pointerId!==pointerId)return;
+        if(active) drawing[key].pop(); // prevent cancelled touch leaving ghost ink
+        active=null;pointerId=null;drawInk(canvas,drawing[key]);
+      });
+    }
+    const checkBtn=documentRef.createElement('button');
+    checkBtn.type='button';checkBtn.textContent='檢查注音';
+    const clearBtn=documentRef.createElement('button');
+    clearBtn.type='button';clearBtn.textContent='清空重寫';
+    checkBtn.addEventListener('click',async()=>{
+      if(checked)return;
+      const verdict=evaluateSlots(expected,drawing,documentRef,layout);
+      if(verdict.state==='uncertain') {
+        result.textContent='UNCERTAIN：筆跡無法確定，請清空後重寫；這次不計分。';
+        return;
+      }
+      checked=true;checkBtn.disabled=true;
+      result.textContent=verdict.state==='pass'?'注音位置與手寫驗證通過。':'注音有缺漏、位置錯誤或筆跡不符。';
+      try {if(onResult) await onResult(verdict);}catch(err){result.textContent+=' 學習紀錄儲存失敗。';console.error(err);}
+    });
+    clearBtn.addEventListener('click',()=>{
+      checked=false;checkBtn.disabled=false;result.textContent='';
+      for(const key of KEYS) drawing[key]=[];
+      grid.querySelectorAll('canvas').forEach(canvas=>drawInk(canvas,[]));
+    });
+    controls.append(checkBtn,clearBtn);panel.append(title,subtitle,grid,controls,result);target.appendChild(panel);
+    return {element:panel,clear:()=>clearBtn.click()};
+  }
+
+  return { mountPilot, similarity, evaluateSlots };
+});
+
+</script>
+<script>
+(() => {
+"use strict";
+const examples=[
+ ['貓','ㄇㄠ'],['巷','ㄒㄧㄤˋ'],['一','ㄧ'],['叔（二聲）','ㄕㄨˊ'],
+ ['叔（輕聲）','ㄕㄨ˙'],['語','ㄩˇ'],['園','ㄩㄢˊ'],['徐','ㄒㄩˊ'],['旋','ㄒㄩㄢˊ']
+];
+const el=id=>document.getElementById(id);
+const select=el('case');
+examples.forEach(([label,zh],i)=>{const option=new Option(label+' '+zh,String(i));select.add(option)});
+let records=[],current=0,recorded=false,observer=null;
+function readVerdict(text) {
+ if(text.includes('UNCERTAIN'))return 'uncertain';
+ if(text.includes('驗證通過'))return 'pass';
+ if(text.includes('注音有缺漏'))return 'fail';
+ return null;
+}
+function update(){
+ const count={pass:0,fail:0,uncertain:0};
+ let match=0;
+ for(const r of records){count[r.actual]++;if((r.human==='correct'&&r.actual==='pass')||(r.human==='incorrect'&&r.actual==='fail'))match++}
+ const last=records.at(-1);
+ el('results').textContent=
+ '共 '+records.length+' 次｜PASS '+count.pass+'、FAIL '+count.fail+'、UNCERTAIN '+count.uncertain+'\n'+
+ '與人工預期一致：'+match+' 次（不含 UNCERTAIN）'+
+ (last?'\n最近一次：'+last.label+'、預期 '+(last.human==='correct'?'正確':'錯誤')+'、實際 '+last.actual:'');
+}
+function record(verdict){
+ if(!verdict || recorded)return;
+ recorded=true;
+ const [label,zhuyin]=examples[current];
+ records.push({label,zhuyin,human:el('human').value,actual:verdict});
+ update();
+}
+function mount(){
+ if(observer){observer.disconnect();observer=null}
+ recorded=false;
+ const [label,reading]=examples[current];
+ el('example').textContent=label.startsWith('叔')?'叔':label;
+ el('reading').textContent='測試讀音：'+reading;
+ const target=el('pilot');target.replaceChildren();
+ window.HanziZhuyinHandwriting.mountPilot({
+  target,char:label.startsWith('叔')?'叔':label,zhuyin:reading,
+  onResult:v=>record(v.state)
+ });
+ const message=target.querySelector('.zh-pilot-result');
+ observer=new MutationObserver(()=>record(readVerdict(message.textContent)));
+ observer.observe(message,{childList:true,characterData:true,subtree:true});
+}
+select.onchange=()=>{current=Number(select.value);mount()};
+el('next').onclick=()=>{current=(current+1)%examples.length;select.value=String(current);mount()};
+el('human').onchange=()=>{recorded=false;mount()};
+el('clear').onclick=()=>{if(confirm('確定清除本頁 QA 統計？')){records=[];update()}};
+el('export').onclick=()=>{
+ const data={schema:'hanzi-zhuyin-handwriting-manual-qa-v1',
+  source:'hanzi-quiz E pilot isolated embedded core',exportedAt:new Date().toISOString(),
+  total:records.length,results:records};
+ const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+ const url=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=url;a.download='hanzi-zhuyin-pilot-qa-'+new Date().toISOString().slice(0,10)+'.json';
+ a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+mount();update();
+})();
+</script>
+</body></html>
