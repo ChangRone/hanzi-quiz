@@ -17,6 +17,8 @@
     const bad = [];
     let touchSamples = 0, neutralDotSamples = 0, missingNeutralDot = 0;
     const readings = new Set();
+    const perReading = Object.fromEntries(REQUIRED_READINGS.map(r =>
+      [r, { correct: 0, position: 0, incorrect: 0 }]));
 
     records.forEach((record, i) => {
       if (!record || !LABELS.includes(record.human) || !RESULTS.includes(record.actual)) {
@@ -24,9 +26,24 @@
       }
       matrix[record.human][record.actual]++;
       count[record.human]++;
-      if (record.human === 'correct' && record.zhuyin) readings.add(record.zhuyin);
-      if (record.inputMode === 'finger' || record.inputMode === 'stylus') touchSamples++;
-      if (record.zhuyin === 'ㄕㄨ˙' && record.neutralSingleTap === true) {
+      // A selected input-type dropdown is not proof of touch. Only genuine
+      // browser PointerEvents (isTrusted) from the claimed touch/pen input
+      // count toward the real-handwriting acceptance gate.
+      const evidence = Array.isArray(record.trustedPointerTypes)
+        ? record.trustedPointerTypes : [];
+      const expectedType = record.inputMode === 'finger' ? 'touch'
+        : record.inputMode === 'stylus' ? 'pen' : '';
+      const verifiedTouch = record.verifiedRealTouch === true &&
+        Number(record.trustedTouchStarts) >= 1 &&
+        Boolean(expectedType) && evidence.includes(expectedType) &&
+        !evidence.includes('mouse');
+      if (verifiedTouch) {
+        touchSamples++;
+        if (record.human === 'correct' && record.zhuyin) readings.add(record.zhuyin);
+        if (perReading[record.zhuyin]) perReading[record.zhuyin][record.human]++;
+      }
+      if (verifiedTouch && record.zhuyin === 'ㄕㄨ˙' &&
+          record.neutralSingleTap === true) {
         neutralDotSamples++;
         if (record.neutralDotDetected !== true) missingNeutralDot++;
       }
@@ -51,7 +68,10 @@
     const sufficient = count.correct >= min.correct && count.incorrect >= min.incorrect &&
       count.position >= min.position &&
       neutralDotSamples >= min.neutralTap && touchSamples >= count.correct + count.incorrect + count.position &&
-      REQUIRED_READINGS.every(x => readings.has(x));
+      REQUIRED_READINGS.every(x =>
+        perReading[x].correct >= 3 &&
+        perReading[x].incorrect >= 3 &&
+        perReading[x].position >= 1);
 
     const problems = [];
     if (bad.length) problems.push('invalid_records');
@@ -71,6 +91,7 @@
       invalidRecordIndexes: bad, realTouchSamples: touchSamples,
       readingsCovered: REQUIRED_READINGS.filter(x => readings.has(x)),
       readingsMissing: REQUIRED_READINGS.filter(x => !readings.has(x)),
+      perReading,
       neutralDotSamples, neutralDotMisses: missingNeutralDot, matrix, metrics,
       requirements: min, problems,
       warning: '僅統計所提供的真實手寫樣本；不能取代未參與測試的學生及裝置驗證。'
