@@ -63,20 +63,35 @@ select{border-radius:8px;padding:6px 10px;background:white}
 .zh-pilot-card .zh-pilot-slot canvas { width:78px; height:76px; border:1px solid #bfcee1; border-radius:11px; touch-action:none; display:block; }
 .zh-pilot-card .zh-pilot-tone canvas,.zh-pilot-card .zh-pilot-neutral canvas { width:72px; height:72px; }
 .zh-pilot-card .zh-pilot-tone-note { position:absolute; width:210px; background:#edf4ff; border-radius:11px; padding:12px;line-height:1.55;font-size:14px;color:#31517f;text-align:left; }
+
+#qa-notice{padding:10px 12px;border:1px dashed #acbfdd;border-radius:9px;background:#f5f9ff}
+#include-strokes{width:18px;height:18px;vertical-align:middle}
+#results{font-variant-numeric:tabular-nums}
 </style></head>
 <body><main>
 <article><h1>注音手寫驗收｜精簡版型 v2（已確認）</h1>
-<p>這是與 Hanzi Quiz PR #6 相同程式的<strong>獨立離線測試頁</strong>，不連接正式 Quiz，也不寫入學生學習紀錄。畫面採用已確認的<strong>精簡版型 v2</strong>：輕聲點上移、上中下三格緊密排列，聲調格固定在中格右側，只有聲調提供補充說明，沒有「上調／中調／下調」。</p>
+<p>這是與 Hanzi Quiz PR #6 相同程式的<strong>獨立離線測試頁</strong>，不連接正式 Quiz，也不寫入學生學習紀錄或遠端服務。畫面採用已確認的<strong>精簡版型 v2</strong>：輕聲點上移、上中下三格緊密排列，聲調格固定在中格右側，只有聲調提供補充說明，沒有「上調／中調／下調」。</p>
 <p class="note">依教育部《國語注音符號手冊》：二、三、四聲在最後一個符號右上角，輕聲點在整組上方，一聲不標。上／中／下三個書寫格則是本專案的教學輔助設計，不是教育部規定必須命中的格線；符號符合但放錯位置會另外提醒，不當成讀音錯誤。<strong>目前辨識仍為未校準原型，不作正式成績。</strong> 筆跡僅留在記憶體，不會匯出。</p></article>
 <article>
 <div class="row"><label for="case">例字：</label><select id="case"></select><button id="next" type="button">下一例字</button></div>
-<div class="row"><label for="human">這次想測：</label><select id="human"><option value="correct">符號、位置都正確</option><option value="position">符號正確，但故意放錯位置</option><option value="incorrect">故意寫錯符號／空位亂畫</option></select></div>
+<div class="row"><label for="human">人工確認實際寫法：</label>
+<select id="human" required><option value="">請先選擇</option>
+<option value="correct">符號正確、位置正確</option>
+<option value="position">符號正確、位置錯誤</option>
+<option value="incorrect">符號錯誤／多寫／漏寫</option></select></div>
+<div class="row"><label for="input-mode">實際輸入方式：</label>
+<select id="input-mode" required><option value="">請選擇</option>
+<option value="finger">真人手指</option><option value="stylus">真人觸控筆</option>
+<option value="mouse">滑鼠（不算真實觸控樣本）</option></select></div>
+<p id="qa-notice" class="subtle" role="status" aria-live="polite"></p>
 <div id="example" aria-live="polite"></div><div id="reading"></div>
 <div id="pilot"></div></article>
 <article><h2>累積驗收摘要</h2>
-<p class="subtle">每次按「檢查注音」後會記錄結果；包含 PASS／位置待調整／FAIL／UNCERTAIN 四種結果。測試時先點「看位置範例」，再寫一次；可用「清空重寫」重試。</p>
+<p class="subtle">每次以真人手指或觸控筆寫完，先<strong>人工確認實際寫出來的符號與位置</strong>，再按「檢查注音」，系統會記錄 PASS／位置待調整／FAIL／UNCERTAIN。建議每個讀音至少 3 次寫對、3 次故意寫錯，再另做 9 次位置錯誤及 3 次輕聲單點。</p>
 <div id="results">尚未檢查。</div>
-<div class="row"><button type="button" id="export" class="primary">匯出 QA 統計 JSON</button><button type="button" id="clear">重設統計</button></div>
+<p><label><input type="checkbox" id="include-strokes"> 另將原始筆跡座標匯出到本機 JSON（自願勾選，預設不收集）</label></p>
+<div class="row"><button type="button" id="export" class="primary">匯出驗收報告 JSON</button>
+<button type="button" id="clear">重設統計</button></div>
 </article></main>
 <script>
 (function (root, factory) {
@@ -334,7 +349,7 @@ select{border-radius:8px;padding:6px 10px;background:white}
       details: occupancyCheck.errors };
   }
 
-  function mountPilot({ target, char, zhuyin, onResult }) {
+  function mountPilot({ target, char, zhuyin, onResult, onCapture = null }) {
     const documentRef = target.ownerDocument;
     const layout = root.HanziZhuyinLayout;
     if (!layout) throw new Error('Zhuyin layout core is required');
@@ -457,6 +472,12 @@ select{border-radius:8px;padding:6px 10px;background:white}
     checkBtn.addEventListener('click', async () => {
       if (checked) return;
       const verdict = evaluateSlots(expected, drawing, documentRef, layout);
+      // Only the standalone QA can opt in to receiving raw strokes. Quiz never passes onCapture.
+      if (typeof onCapture === 'function') {
+        const captured = JSON.parse(JSON.stringify(drawing));
+        try { onCapture({ char, zhuyin, drawing: captured, verdict: { ...verdict } }); }
+        catch (captureError) { console.warn('QA capture error:', captureError); }
+      }
       if (verdict.state === 'uncertain') {
         result.textContent = verdict.positionCorrect === false
           ? '位置需要調整，筆跡尚無法確認；不計分，請看範例後重寫。'
@@ -511,72 +532,196 @@ select{border-radius:8px;padding:6px 10px;background:white}
 
 </script>
 <script>
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  if (root) root.HanziRealHandwritingQA = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+
+  const LABELS = ['correct', 'position', 'incorrect'];
+  const RESULTS = ['pass', 'position_only', 'fail', 'uncertain'];
+  const REQUIRED_READINGS = ['ㄇㄠ', 'ㄒㄧㄤˋ', 'ㄧ', 'ㄕㄨˊ', 'ㄕㄨ˙', 'ㄩˇ', 'ㄩㄢˊ', 'ㄒㄩˊ', 'ㄒㄩㄢˊ'];
+
+  function summarize(input) {
+    const records = Array.isArray(input) ? input : (input && input.results) || [];
+    const matrix = Object.fromEntries(LABELS.map(expected =>
+      [expected, Object.fromEntries(RESULTS.map(actual => [actual, 0]))]));
+    const count = Object.fromEntries(LABELS.map(v => [v, 0]));
+    const bad = [];
+    let touchSamples = 0, neutralDotSamples = 0, missingNeutralDot = 0;
+    const readings = new Set();
+
+    records.forEach((record, i) => {
+      if (!record || !LABELS.includes(record.human) || !RESULTS.includes(record.actual)) {
+        bad.push(i + 1); return;
+      }
+      matrix[record.human][record.actual]++;
+      count[record.human]++;
+      if (record.human === 'correct' && record.zhuyin) readings.add(record.zhuyin);
+      if (record.inputMode === 'finger' || record.inputMode === 'stylus') touchSamples++;
+      if (record.zhuyin === 'ㄕㄨ˙' && record.neutralSingleTap === true) {
+        neutralDotSamples++;
+        if (record.neutralDotDetected !== true) missingNeutralDot++;
+      }
+    });
+
+    const correctDenom = count.correct;
+    const incorrectDenom = count.incorrect;
+    const positionDenom = count.position;
+    const ratio = (n, d) => d ? n / d : null;
+    const metrics = {
+      correctRecognitionRate: ratio(matrix.correct.pass, correctDenom),
+      incorrectFalsePassRate: ratio(matrix.incorrect.pass, incorrectDenom),
+      placementFalsePassRate: ratio(matrix.position.pass, positionDenom),
+      placementSeparatedRate: ratio(matrix.position.position_only, positionDenom),
+      correctUncertainRate: ratio(matrix.correct.uncertain, correctDenom),
+      neutralTapDetectedRate: ratio(neutralDotSamples-missingNeutralDot, neutralDotSamples)
+    };
+
+    // These thresholds are project acceptance criteria, NOT a claim that
+    // a government standard certifies the classifier.
+    const min = { correct: 27, incorrect: 27, position: 9, neutralTap: 3 };
+    const sufficient = count.correct >= min.correct && count.incorrect >= min.incorrect &&
+      count.position >= min.position &&
+      neutralDotSamples >= min.neutralTap && touchSamples >= count.correct + count.incorrect + count.position &&
+      REQUIRED_READINGS.every(x => readings.has(x));
+
+    const problems = [];
+    if (bad.length) problems.push('invalid_records');
+    if (!sufficient) problems.push('insufficient_real_touch_samples');
+    if (sufficient) {
+      if (metrics.correctRecognitionRate < 0.90) problems.push('correct_recognition_below_90_percent');
+      if (metrics.incorrectFalsePassRate !== 0) problems.push('incorrect_pronunciation_false_pass');
+      if (metrics.placementFalsePassRate !== 0) problems.push('placement_mistaken_as_full_pass');
+      if (metrics.placementSeparatedRate < 0.70) problems.push('placement_separation_below_70_percent');
+      if (metrics.neutralTapDetectedRate !== 1) problems.push('neutral_tap_not_always_detected');
+    }
+
+    return {
+      status: bad.length || !sufficient ? 'INSUFFICIENT_EVIDENCE' :
+        problems.length ? 'NOT_ACCEPTED' : 'ACCEPTED_ON_SUBMITTED_SAMPLES',
+      count, sampleCount: records.length, acceptedSamples: count.correct+count.incorrect+count.position,
+      invalidRecordIndexes: bad, realTouchSamples: touchSamples,
+      readingsCovered: REQUIRED_READINGS.filter(x => readings.has(x)),
+      readingsMissing: REQUIRED_READINGS.filter(x => !readings.has(x)),
+      neutralDotSamples, neutralDotMisses: missingNeutralDot, matrix, metrics,
+      requirements: min, problems,
+      warning: '僅統計所提供的真實手寫樣本；不能取代未參與測試的學生及裝置驗證。'
+    };
+  }
+  return { summarize, LABELS, RESULTS, REQUIRED_READINGS };
+});
+
+</script>
+<script>
 (() => {
-"use strict";
-const examples=[
+'use strict';
+const examples = [
  ['貓','ㄇㄠ'],['巷','ㄒㄧㄤˋ'],['一','ㄧ'],['叔（二聲）','ㄕㄨˊ'],
  ['叔（輕聲）','ㄕㄨ˙'],['語','ㄩˇ'],['園','ㄩㄢˊ'],['徐','ㄒㄩˊ'],['旋','ㄒㄩㄢˊ']
 ];
-const el=id=>document.getElementById(id);
-const select=el('case');
-examples.forEach(([label,reading],index)=>select.add(new Option(label+' '+reading,String(index))));
-let records=[],current=0,recorded=false;
-function update(){
- const kinds={pass:0,position_only:0,fail:0,uncertain:0};
- let matched=0;
- for(const r of records) {
-  kinds[r.actual]=(kinds[r.actual]||0)+1;
-  if((r.human==='correct'&&r.actual==='pass')||
-     (r.human==='position'&&r.actual==='position_only')||
-     (r.human==='incorrect'&&r.actual==='fail')) matched++;
+const $ = id => document.getElementById(id);
+const select = $('case');
+examples.forEach(([label,reading],i)=>select.add(new Option(label+' '+reading,String(i))));
+const reviewed = new Set();
+let records = [], current = 0, currentCapture = null, recorded = false;
+
+function resetForNewTrial() {
+ recorded = false; currentCapture = null;
+ $('qa-notice').textContent = '請用真實手指或觸控筆練習，並人工選擇本次實際寫法；再按「檢查注音」。';
+}
+function display() {
+ const summary = HanziRealHandwritingQA.summarize(records);
+ const m = summary.matrix, n = summary.count, metrics = summary.metrics;
+ const pct = value => value === null ? '樣本不足' : (100*value).toFixed(1)+'%';
+ $('results').textContent =
+  '驗收狀態：'+summary.status+'\n'+
+  '已收錄 '+summary.sampleCount+' 次，真人觸控輸入 '+summary.realTouchSamples+' 次\n'+
+  '人工確認：符號及位置正確 '+n.correct+' 次、僅位置錯 '+n.position+' 次、符號錯 '+n.incorrect+' 次\n'+
+  '已覆蓋讀音 '+summary.readingsCovered.length+'/9，輕聲單點樣本 '+summary.neutralDotSamples+' 次\n'+
+  '正確寫法判通過率 '+pct(metrics.correctRecognitionRate)+'\n'+
+  '錯誤符號誤判通過率 '+pct(metrics.incorrectFalsePassRate)+'\n'+
+  '錯誤位置誤判完全通過率 '+pct(metrics.placementFalsePassRate)+'\n'+
+  '錯誤位置正確分離率 '+pct(metrics.placementSeparatedRate)+'\n'+
+  '輕聲單點被保留率 '+pct(metrics.neutralTapDetectedRate)+'\n'+
+  '混淆矩陣（列為人工確認；欄為系統預測：pass / position_only / fail / uncertain）：\n'+
+  '正確 '+Object.values(m.correct).join(' / ')+'\n'+
+  '位置錯 '+Object.values(m.position).join(' / ')+'\n'+
+  '符號錯 '+Object.values(m.incorrect).join(' / ')+'\n'+
+  '剩餘問題：'+(summary.problems.join('、')||'無')+
+  '\n提醒：沒有真實觸控樣本時，驗收必須維持「證據不足」。';
+}
+function acceptVerdict(verdict) {
+ if (recorded) return;
+ const human = $('human').value, inputMode = $('input-mode').value;
+ if (!human || !inputMode) {
+  $('qa-notice').textContent = '尚未人工確認實際寫法或輸入方式；這次不收錄。';
+  return;
  }
- const last=records.at(-1);
- el('results').textContent=
-  '總測試 '+records.length+' 次｜全部通過 '+kinds.pass+
-  '｜只需調整位置 '+kinds.position_only+
-  '｜錯誤 '+kinds.fail+'｜無法確認 '+kinds.uncertain+'\n'+
-  '與人工預期一致 '+matched+' 次（僅為樣本，非正式準確率）'+
-  (last?'\n最近一次：'+last.label+'｜人工：'+last.human+'｜系統：'+last.actual+
-  '｜符號：'+String(last.symbolCorrect)+'｜位置：'+String(last.positionCorrect):'');
+ recorded = true;
+ const [label,zhuyin] = examples[current];
+ const neutralStroke = currentCapture?.drawing?.neutral || [];
+ const isTap = neutralStroke.length === 1 && neutralStroke[0].length === 1;
+ const record = {
+  label, zhuyin, human, inputMode, actual: verdict.state,
+  symbolCorrect: verdict.symbolCorrect, positionCorrect: verdict.positionCorrect,
+  errorKinds: verdict.errorKinds || [],
+  neutralSingleTap: zhuyin === 'ㄕㄨ˙' && isTap,
+  neutralDotDetected: zhuyin === 'ㄕㄨ˙' && isTap && neutralStroke[0].length > 0
+ };
+ if ($('include-strokes').checked && currentCapture) {
+  record.drawing = currentCapture.drawing;
+ }
+ records.push(record);
+ $('qa-notice').textContent = '已收錄第 '+records.length+' 筆。可選下一字，或按「清空重寫」再測試。';
+ display();
 }
-function record(verdict) {
- if(!verdict||recorded)return;
- recorded=true;
- const [label,zhuyin]=examples[current];
- records.push({
-  label,zhuyin,human:el('human').value,actual:verdict.state,
-  symbolCorrect:verdict.symbolCorrect,positionCorrect:verdict.positionCorrect,
-  errorKinds:verdict.errorKinds||[]
+function mount() {
+ resetForNewTrial();
+ const [label,reading] = examples[current];
+ $('example').textContent = label.startsWith('叔') ? '叔' : label;
+ $('reading').textContent = '測試讀音：'+reading;
+ const target = $('pilot'); target.replaceChildren();
+ HanziZhuyinHandwriting.mountPilot({
+  target, char:label.startsWith('叔') ? '叔' : label, zhuyin:reading,
+  onCapture: item => { currentCapture = item; },
+  onResult: acceptVerdict
  });
- update();
+ const clear = target.querySelector('.zh-pilot-actions button:last-child');
+ clear.addEventListener('click', resetForNewTrial);
 }
-function mount(){
- recorded=false;
- const [label,reading]=examples[current];
- el('example').textContent=label.startsWith('叔')?'叔':label;
- el('reading').textContent='測試讀音：'+reading;
- const target=el('pilot');target.replaceChildren();
- window.HanziZhuyinHandwriting.mountPilot({
-  target,char:label.startsWith('叔')?'叔':label,
-  zhuyin:reading,onResult:verdict=>record(verdict)
- });
- const reset=target.querySelector('.zh-pilot-actions button:last-child');
- reset.addEventListener('click',()=>{recorded=false});
-}
-select.onchange=()=>{current=Number(select.value);mount()};
-el('next').onclick=()=>{current=(current+1)%examples.length;select.value=String(current);mount()};
-el('human').onchange=()=>{mount()};
-el('clear').onclick=()=>{if(confirm('確定清除本頁 QA 統計？')){records=[];update()}};
-el('export').onclick=()=>{
- const payload={schema:'hanzi-zhuyin-handwriting-manual-qa-v2',
-  source:'hanzi-quiz E MOE tone-placement pilot',exportedAt:new Date().toISOString(),
-  total:records.length,results:records};
- const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
- const url=URL.createObjectURL(blob),a=document.createElement('a');
- a.href=url;a.download='hanzi-zhuyin-moe-v2-qa-'+new Date().toISOString().slice(0,10)+'.json';
- a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+$('case').onchange = () => {current=Number(select.value); mount();};
+$('next').onclick = () => {current=(current+1)%examples.length; select.value=String(current); mount();};
+$('human').onchange = () => { if(!recorded) $('qa-notice').textContent = '已設定人工確認結果，寫好後可按「檢查注音」。'; };
+$('clear').onclick = () => {
+ if (confirm('確定清除這個分頁已收集的全部手寫驗收結果？')) {
+  records=[];display();resetForNewTrial();
+ }
 };
-mount();update();
+$('export').onclick = () => {
+ const summary = HanziRealHandwritingQA.summarize(records);
+ const payload = {
+  schema:'hanzi-zhuyin-real-handwriting-qa-v1',
+  source:'hanzi-quiz E standalone handwriting QA',
+  exportedAt:new Date().toISOString(),
+  scope:'anonymous offline reviewer labelled handwriting',
+  includesRawStrokes:$('include-strokes').checked && records.some(r=>r.drawing),
+  summary,
+  results: records.map(r => $('include-strokes').checked ? {...r} : (({drawing,...other}) => other)(r))
+ };
+ const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement('a');
+ a.href=url; a.download='hanzi-real-handwriting-qa-'+new Date().toISOString().slice(0,10)+'.json';
+ a.click(); setTimeout(()=>URL.revokeObjectURL(url),2000);
+};
+$('include-strokes').onchange = () => {
+ $('qa-notice').textContent = $('include-strokes').checked ?
+  '已啟用本機筆跡匯出。除非你自願提供 JSON，檔案只保存在你的裝置。' :
+  '只匯出統計與判定摘要，不含原始筆跡。';
+};
+mount();display();
 })();
 </script>
 </body></html>
