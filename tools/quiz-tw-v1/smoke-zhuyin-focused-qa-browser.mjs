@@ -18,7 +18,7 @@ try {
   assert.equal(await page.$eval('#case',e=>e.options.length),10);
   assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-slot canvas').length),5,'five original writing zones');
 
-  const categories={similar:23,tone:6,neutral:3,placement:6,all:48,risk:10};
+  const categories={similar:33,tone:6,neutral:3,placement:6,all:58,risk:10};
   for(const [cat,num] of Object.entries(categories)){
     await page.select('#category',cat);
     assert.equal(await page.$eval('#case',e=>e.options.length),num,cat+' coverage');
@@ -45,7 +45,7 @@ try {
   await page.waitForFunction(()=>!!window.__capturedQA);
   const payload=await page.evaluate(async()=>JSON.parse(await window.__capturedQA.text()));
   assert.equal(payload.schema,'hanzi-zhuyin-focused-handwriting-qa-v3');
-  assert.equal(payload.focused.targetScenarios.length,48);
+  assert.equal(payload.focused.targetScenarios.length,58);
   assert.equal(payload.results.length,1);
   assert.equal(payload.results[0].caseId,'R02');
   assert.equal(payload.results[0].target,'ㄇ → ㄋ');
