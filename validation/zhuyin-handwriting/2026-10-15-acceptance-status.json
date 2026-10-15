@@ -11,6 +11,13 @@
     "recognitionMethod": "expected-glyph raster similarity prototype",
     "proofOfTouchAccuracy": false
   },
-  "nextStep": "Collect manually labelled real handwriting results via poc/zhuyin-handwriting-qa/index.html and compute confusion matrix before deciding whether to merge E.",
-  "privacy": "No raw student strokes stored in repository. Optional consented stroke export stays local until the user chooses to send it."
+  "nextStep": "Wait for manually verified touchscreen/pen QA results. Do not mark real recognition as accepted before empirical confusion matrix and sample coverage.",
+  "privacy": "No raw student strokes stored in repository. Optional consented stroke export stays local until the user chooses to send it.",
+  "latestAudit": {
+    "eventInputVerification": "Only isTrusted touch/pen PointerEvents matching the declared mode may count as real-touch evidence",
+    "sampling": "Nine readings, each >=3 correct, >=3 incorrect, >=1 misplaced, and >=3 neutral single-tap successes total",
+    "ci": "Real-device data not present; synthetic and browser QA regression passed on feature branch",
+    "actualTouchAccuracy": "NOT_MEASURED",
+    "userAction": "Open standalone QA on touchscreen, collect 63 labelled trials, export anonymized JSON, and provide it for acceptance review"
+  }
 }
