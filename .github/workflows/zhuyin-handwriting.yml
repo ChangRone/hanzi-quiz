@@ -9,6 +9,7 @@ on:
       - 'index.html'
       - 'tools/quiz-tw-v1/smoke-zhuyin-*'
       - 'poc/zhuyin-handwriting-qa/**'
+      - 'poc/zhuyin-handwriting-qa-v3/**'
       - '.github/workflows/zhuyin-handwriting.yml'
   workflow_dispatch:
 
@@ -39,3 +40,4 @@ jobs:
           node tools/quiz-tw-v1/smoke-review-event-v2-browser.mjs
           node tools/quiz-tw-v1/smoke-zhuyin-handwriting-browser.mjs
           node tools/quiz-tw-v1/smoke-zhuyin-handwriting-qa-browser.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-focused-qa-browser.mjs
