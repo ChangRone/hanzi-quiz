@@ -28,8 +28,8 @@ try{
   await page.select('#human','incorrect');
   await page.select('#input-mode','mouse');
   await page.click('.zh-pilot-actions button');
-  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('總測試 1 次'),{timeout:10000});
-  assert.match(await page.$eval('#results',e=>e.textContent),/錯誤 1/,'empty answer fails');
+  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('已收錄 1 次'),{timeout:10000});
+  assert.match(await page.$eval('#results',e=>e.textContent),/符號錯 1 次/,'empty answer fails');
   await page.select('#case','4');
   // Neutral-tone single tap must be painted and counted without pointermove.
   const dot = await page.evaluate(()=>{
@@ -44,7 +44,7 @@ try{
   assert.match(await page.$eval('#reading',e=>e.textContent),/ㄕㄨ˙/,'neutral tone case');
   await page.select('#human','incorrect');
   await page.click('.zh-pilot-actions button');
-  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('總測試 2 次'),{timeout:10000});
+  await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('已收錄 2 次'),{timeout:10000});
   assert.match(await page.$eval('#results',e=>e.textContent),/INSUFFICIENT_EVIDENCE/,'automation cannot qualify as real-touch acceptance');
   assert.equal(await page.$eval('#include-strokes',e=>e.checked),false,'raw handwriting capture opt-in must be OFF');
     assert.equal(requests.filter(url=>!url.startsWith('http://127.0.0.1:8124/')).length,0,'standalone QA must not access third parties');
