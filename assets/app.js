@@ -54,6 +54,7 @@
     driveTokenClient: null,
     driveAccessToken: '',
     driveEnabled: false,
+    zhuyinPilotEnabled: false,
     prefsUpdatedAt: new Date(0).toISOString()
   };
 
@@ -73,7 +74,8 @@
     questionText: el('question-text'), questionLoading: el('question-loading'), questionZoomButton: el('question-zoom-button'), writers: el('writers'), quizMessage: el('quiz-message'),
     audioButton: el('audio-button'), resetButton: el('reset-button'), hintButton: el('hint-button'), nextButton: el('next-button'),
     dataDialog: el('data-dialog'), storageStatus: el('storage-status'), exportData: el('export-data'), importDataButton: el('import-data-button'), importDataFile: el('import-data-file'),
-    driveStatus: el('drive-status'), driveConnect: el('drive-connect'), driveSync: el('drive-sync')
+    driveStatus: el('drive-status'), driveConnect: el('drive-connect'), driveSync: el('drive-sync'),
+    zhuyinPilotToggle: el('zhuyin-pilot-toggle')
   };
 
   function escapeHtml(value) {
@@ -127,6 +129,9 @@
     state.allowBackwards = Boolean(prefs.allowBackwards);
     state.selectedLessonKeys = new Set(Array.isArray(prefs.selectedLessonKeys) ? prefs.selectedLessonKeys : []);
     state.driveEnabled = Boolean(prefs.driveEnabled);
+    // Device-local opt-in: do not activate handwritten Zhuyin on other devices
+    // merely because a Drive backup restored a preference.
+    state.zhuyinPilotEnabled = localStorage.getItem('hanziQuizZhuyinPilotEnabled') === 'true';
     state.prefsUpdatedAt = prefs.updatedAt || new Date(0).toISOString();
     try {
       state.dev = { ...DEFAULT_DEV, ...JSON.parse(localStorage.getItem('hanziQuizDevSettings') || '{}') };
@@ -207,7 +212,7 @@
     return new Map(pairs.filter(([, value]) => value));
   }
 
-  async function recordReview({ char, skill, courseKey, questionId = '', dictationUnitId = '', result, mode }) {
+  async function recordReview({ char, skill, courseKey, questionId = '', dictationUnitId = '', result, mode, zhuyinCorrect = null, zhuyinErrorKinds = [] }) {
     const key = stateKey(char, skill);
     const existing = await getSkillState(char, skill);
     const multiplier = REVIEW_SPEED_MULTIPLIER[state.reviewSpeed] || 1;
@@ -220,7 +225,8 @@
     const event = {
       id: uuid(), appVersion: APP_VERSION, char, skill, skillKey: key, courseKey,
       questionId, ...(dictationUnitId ? { dictationUnitId } : {}),
-      reviewedAt, eventType: 'tested', result, mode, allowBackwards: state.allowBackwards
+      reviewedAt, eventType: 'tested', result, mode, allowBackwards: state.allowBackwards,
+      ...(zhuyinCorrect === null ? {} : { zhuyinCorrect, zhuyinErrorKinds })
     };
     const nextState = { key, char, skill, stage, dueAt, lastResult: result, lastReviewedAt: reviewedAt };
     const tx = state.db.transaction(['review_events', 'skill_state'], 'readwrite');
@@ -665,6 +671,7 @@
   function renderHomeControls() {
     els.profileGrade.value = String(state.profileGrade);
     els.allowBackwards.checked = state.allowBackwards;
+    if (els.zhuyinPilotToggle) els.zhuyinPilotToggle.checked = state.zhuyinPilotEnabled;
     els.reviewSpeedLabel.textContent = REVIEW_SPEED_LABEL[state.reviewSpeed] || '標準';
     document.querySelectorAll('input[name="practice-mode"]').forEach(input => { input.checked = input.value === state.practiceMode; });
     renderRecommendedPath();
@@ -870,6 +877,31 @@
     await Promise.all(jobs);
   }
 
+  function showZhuyinPilot(question, blank) {
+    if (!state.zhuyinPilotEnabled || !blank || !blank.token.zhuyin) return;
+    if (!window.HanziZhuyinHandwriting || !window.HanziZhuyinLayout) return;
+    let eventRecorded = false;
+    try {
+      window.HanziZhuyinHandwriting.mountPilot({
+        target: els.writers, char: blank.token.char, zhuyin: blank.token.zhuyin,
+        onResult: async verdict => {
+          // UNCERTAIN is never converted into a guessed success/failure.
+          // Location-only feedback and uncertain OCR are practice hints, not graded fails.
+          if (verdict.state === 'uncertain' || verdict.state === 'position_only' || eventRecorded) return;
+          await recordReview({
+            char: blank.token.char, skill: 'zhuyin_write', courseKey: question.courseKey,
+            questionId: question.id, dictationUnitId: question.dictationUnitId || '',
+            result: verdict.state === 'pass' ? 'pass' : 'fail', mode: 'zhuyin_pilot',
+            zhuyinCorrect: verdict.state === 'pass', zhuyinErrorKinds: verdict.errorKinds
+          });
+          eventRecorded = true;
+        }
+      });
+    } catch (error) {
+      console.warn('Zhuyin pilot unavailable; normal Hanzi quiz stays active', error);
+    }
+  }
+
   function setQuestionZoomed(value) {
     state.questionZoomed = Boolean(value);
     els.quizView.classList.toggle('question-zoomed', state.questionZoomed);
@@ -1059,6 +1091,7 @@
     const blanks = question.tokens.map((token, index) => ({ token, index })).filter(item => item.token.type === 'blank');
     blanks.forEach(item => state.writerStates.push(createWriterState(question, item.token, item.index)));
     await Promise.all(state.writerStates.map(ws => ws.loaded));
+    showZhuyinPilot(question, blanks[0]);
     scheduleLayoutRefresh();
     els.questionLoading.classList.add('hidden');
     els.audioButton.disabled = false;
@@ -1159,11 +1192,17 @@
     await updateSyncChip();
   }
 
+  function getSyncSafePrefs() {
+    const prefs = { ...getPrefs() };
+    delete prefs.zhuyinPilotEnabled;
+    return prefs;
+  }
+
   async function exportPayload() {
     const events = await getAll('review_events');
     return {
       schema: 'hanzi-quiz-learning-backup', version: 2, exportedAt: nowIso(),
-      prefs: getPrefs(), events: events.map(HanziReviewEventV2.normalizeEvent)
+      prefs: getSyncSafePrefs(), events: events.map(HanziReviewEventV2.normalizeEvent)
     };
   }
 
@@ -1186,7 +1225,8 @@
     if (!merge) store.clear();
     eventMap.forEach(item => store.put(item));
     await new Promise((resolve, reject) => { tx.oncomplete = resolve; tx.onerror = () => reject(tx.error); });
-    const remotePrefs = payload.prefs || {};
+    const remotePrefs = { ...(payload.prefs || {}) };
+    delete remotePrefs.zhuyinPilotEnabled; // never import device-local experiment opt-in
     const localPrefs = getPrefs();
     if (String(remotePrefs.updatedAt || '') > String(localPrefs.updatedAt || '')) {
       localStorage.setItem('hanziQuizPrefsV1', JSON.stringify(remotePrefs));
@@ -1382,6 +1422,10 @@
     els.allowBackwards.addEventListener('change', () => {
       state.allowBackwards = els.allowBackwards.checked;
       savePrefs({ allowBackwards: state.allowBackwards });
+    });
+    if (els.zhuyinPilotToggle) els.zhuyinPilotToggle.addEventListener('change', () => {
+      state.zhuyinPilotEnabled = els.zhuyinPilotToggle.checked;
+      localStorage.setItem('hanziQuizZhuyinPilotEnabled', String(state.zhuyinPilotEnabled));
     });
 
     els.openMaterials.addEventListener('click', () => {

@@ -1,0 +1,43 @@
+name: Written Zhuyin Feature Flag Guard
+
+on:
+  pull_request:
+    paths:
+      - 'assets/app.js'
+      - 'assets/app.css'
+      - 'assets/zhuyin-*'
+      - 'index.html'
+      - 'tools/quiz-tw-v1/smoke-zhuyin-*'
+      - 'poc/zhuyin-handwriting-qa/**'
+      - 'poc/zhuyin-handwriting-qa-v3/**'
+      - '.github/workflows/zhuyin-handwriting.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node --check assets/app.js
+          node --check assets/zhuyin-layout.js
+          node --check assets/zhuyin-handwriting.js
+          node tools/quiz-tw-v1/smoke-zhuyin-layout.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-handwriting.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-real-handwriting-qa.mjs
+          node tools/quiz-tw-v1/smoke-review-event-v2.mjs
+      - run: npm install --no-save puppeteer-core
+      - name: Feature-flagged browser smoke
+        run: |
+          python3 -m http.server 8124 --bind 127.0.0.1 >/tmp/hanzi-http.log 2>&1 &
+          sleep 2
+          node tools/quiz-tw-v1/smoke-review-event-v2-browser.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-handwriting-browser.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-handwriting-qa-browser.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-focused-qa-browser.mjs
