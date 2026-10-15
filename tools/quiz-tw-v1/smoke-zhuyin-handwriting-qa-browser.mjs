@@ -25,6 +25,8 @@ try{
   assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-tone-note').length),1,'one tone note');
   assert.equal(await page.evaluate(()=>document.querySelectorAll('.zh-pilot-rule').length),0,'no extra slot teaching paragraph');
   assert.equal(await page.$eval('.zh-pilot-g0 span',e=>e.textContent),'上格');
+  await page.select('#human','incorrect');
+  await page.select('#input-mode','mouse');
   await page.click('.zh-pilot-actions button');
   await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('總測試 1 次'),{timeout:10000});
   assert.match(await page.$eval('#results',e=>e.textContent),/錯誤 1/,'empty answer fails');
@@ -40,9 +42,12 @@ try{
   });
   assert(dot>0,'single neutral tap must leave a visible ink dot');
   assert.match(await page.$eval('#reading',e=>e.textContent),/ㄕㄨ˙/,'neutral tone case');
+  await page.select('#human','incorrect');
   await page.click('.zh-pilot-actions button');
   await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('總測試 2 次'),{timeout:10000});
-  assert.equal(requests.filter(url=>!url.startsWith('http://127.0.0.1:8124/')).length,0,'standalone QA must not access third parties');
+  assert.match(await page.$eval('#results',e=>e.textContent),/INSUFFICIENT_EVIDENCE/,'automation cannot qualify as real-touch acceptance');
+  assert.equal(await page.$eval('#include-strokes',e=>e.checked),false,'raw handwriting capture opt-in must be OFF');
+    assert.equal(requests.filter(url=>!url.startsWith('http://127.0.0.1:8124/')).length,0,'standalone QA must not access third parties');
   const databases=await page.evaluate(()=>indexedDB.databases());
   assert.equal(databases.some(db=>db.name==='hanzi-quiz-learning-db'),false,
     'QA page must not create or open the production learning database');
