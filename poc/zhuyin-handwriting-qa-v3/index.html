@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hanzi Quiz E｜教育部聲調位置與手寫驗收 v2</title><style>
+:root{font-family:system-ui,"Microsoft JhengHei",sans-serif;color:#172033;background:#f4f7fc}
+*{box-sizing:border-box}body{margin:0;padding:15px}main{max-width:920px;margin:0 auto}
+h1{font-size:1.45rem;margin:0 0 10px}h2{font-size:1.1rem;margin:0}
+p{line-height:1.65}article{background:white;border:1px solid #dce3ed;border-radius:16px;margin:12px 0;padding:15px}
+.subtle{color:#576679;font-size:.94rem}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+fieldset{margin:14px 0;border:1px solid #dce3ed;border-radius:8px;padding:10px}
+input,select{font:inherit}label{font-weight:700}
+select,button{min-height:44px;font-size:1rem}
+button{border:1px solid #9babc6;background:#fff;padding:8px 13px;border-radius:9px;font-weight:700;cursor:pointer}
+button.primary{background:#285aa6;color:white;border-color:#285aa6}
+select{border-radius:8px;padding:6px 10px;background:white}
+#example{font-size:3rem;font-weight:800;text-align:center}
+#reading{text-align:center;font-size:1.4rem}
+#pilot{text-align:center}
+.zh-pilot-card{max-width:480px;margin:auto;padding:10px;border:1px solid #c6d5e8;border-radius:16px;background:#f8fbff}
+.zh-pilot-card h3{font-size:1rem;margin:0}
+.zh-pilot-card p{font-size:.86rem;line-height:1.5}
+.zh-pilot-grid{display:grid;grid-template-columns:86px 86px;grid-template-rows:repeat(4,auto);justify-content:center;gap:8px;margin:14px auto}
+.zh-pilot-slot{display:flex;flex-direction:column;align-items:center;gap:4px}
+.zh-pilot-slot span{color:#617086;font-size:.78rem}
+.zh-pilot-slot canvas{width:72px;height:84px;touch-action:none;border:1px dashed #94a3b8;background:white;border-radius:8px;cursor:crosshair}
+.zh-pilot-neutral{grid-column:1;grid-row:1}
+.zh-pilot-g0{grid-column:1;grid-row:2}
+.zh-pilot-g1{grid-column:1;grid-row:3}
+.zh-pilot-g2{grid-column:1;grid-row:4}
+.zh-pilot-t0{grid-column:2;grid-row:2}
+.zh-pilot-t1{grid-column:2;grid-row:3}
+.zh-pilot-t2{grid-column:2;grid-row:4}
+.zh-pilot-actions{display:flex;gap:10px;justify-content:center}
+.zh-pilot-result{min-height:1.8em;font-weight:800}
+#results{white-space:pre-wrap;font-size:.9rem;line-height:1.65;background:#f5f7fb;border-radius:9px;padding:14px}
+.note{background:#fffbeb;border-left:4px solid #dba540;padding:12px 14px;line-height:1.6}
+.status{font-weight:800}.status.pass{color:#08713b}.status.fail{color:#b91c1c}
+
+/* Updated lesson-friendly fixed slot guides and MOE single tone placement. */
+.zh-pilot-rule {margin:12px auto;padding:12px;background:#edf4ff;border-radius:10px;text-align:left;font-size:.88rem;line-height:1.65}
+.zh-pilot-grid{grid-template-columns:96px 116px;gap:8px 12px;align-items:start}
+.zh-pilot-tone{grid-column:2;transform:translateY(-10px);align-self:start}
+.zh-pilot-tone-t0{grid-row:2}
+.zh-pilot-tone-t1{grid-row:3}
+.zh-pilot-tone-t2{grid-row:4}
+.zh-pilot-tone canvas{width:64px;height:66px}
+.zh-pilot-tone span{max-width:116px;line-height:1.35;text-align:center}
+.zh-pilot-slot canvas{background-image:linear-gradient(to right,transparent 49%,#e9f0fa 50%,transparent 51%),linear-gradient(to bottom,transparent 49%,#e9f0fa 50%,transparent 51%)}
+.zh-pilot-examples[hidden]{display:none!important}
+.zh-pilot-examples{display:grid;gap:7px;margin:12px 0;text-align:left}
+.zh-pilot-sample{padding:9px 10px;border:1px solid #e0e7f1;border-radius:10px;background:#fff;font-size:.85rem;line-height:1.6}
+.zh-pilot-sample strong,.zh-pilot-sample span{display:block}
+.zh-pilot-example-btn{margin:0 auto;min-height:42px;background:#fff;border:1px solid #b2c8e9;border-radius:10px;color:#285aa6}
+.zh-pilot-result{font-weight:800;line-height:1.55}
+
+
+/* Exact compact-v2 QA: all positions match config/zhuyin-compact-layout-v2.json */
+.zh-pilot-card { max-width: 660px; }
+.zh-pilot-layout-viewport { width: 100%; position: relative; overflow: hidden; }
+.zh-pilot-card .zh-pilot-grid { display: block; position: relative; min-width: 625px; width:625px; height:510px; margin:0; padding:0; transform-origin:top left; gap:0; }
+.zh-pilot-card .zh-pilot-slot { position:absolute; display:flex; flex-direction:column; width:86px; align-items:center; gap:2px; transform:none; grid-row:auto;grid-column:auto; }
+.zh-pilot-card .zh-pilot-slot span { font-size:13px; line-height:1.25; }
+.zh-pilot-card .zh-pilot-slot canvas { width:78px; height:76px; border:1px solid #bfcee1; border-radius:11px; touch-action:none; display:block; }
+.zh-pilot-card .zh-pilot-tone canvas,.zh-pilot-card .zh-pilot-neutral canvas { width:72px; height:72px; }
+.zh-pilot-card .zh-pilot-tone-note { position:absolute; width:210px; background:#edf4ff; border-radius:11px; padding:12px;line-height:1.55;font-size:14px;color:#31517f;text-align:left; }
+
+#qa-notice{padding:10px 12px;border:1px dashed #acbfdd;border-radius:9px;background:#f5f9ff}
+#include-strokes{width:18px;height:18px;vertical-align:middle}
+#results{font-variant-numeric:tabular-nums}
+
+/* v3 focused confusing-symbol regression suite */
+#qa-task{padding:14px 16px;background:#edf4ff;border-left:4px solid #2963ba;border-radius:12px;line-height:1.75;margin:12px 0}
+#qa-task strong{font-size:1.02rem;color:#123d77}
+#qa-focus{font-size:1.1rem;font-weight:800;color:#a54115}
+#qa-banner{background:#fff8e8;border:1px solid #eadab5;border-radius:10px;padding:12px 14px;margin:10px 0;line-height:1.6}
+#qa-progress{margin:10px 0;font-size:.93rem;color:#475569}
+#qa-notice{padding:10px 12px;background:#eff6ff;border:1px dashed #adc4ee;border-radius:9px;line-height:1.5}
+#case{max-width:100%;flex:1;min-width:220px}
+#category{flex:1}
+#results{font-variant-numeric:tabular-nums;line-height:1.7;white-space:pre-wrap}
+button,select{min-height:44px}
+button:disabled{opacity:.5}
+#pilot{max-width:650px;margin:auto}
+#qa-baseline table{border-collapse:collapse;width:100%;font-size:.88rem}
+#qa-baseline th,#qa-baseline td{padding:7px 8px;border-bottom:1px solid #e2e8f0;text-align:left}
+#qa-baseline th{background:#f8fafc}
+#caseCounter{display:inline-block;background:#f0f5ff;border-radius:9px;padding:8px 12px}
+#qa-case-list {color:#64748b;font-size:.88rem}
+
+</style></head>
+
+<body><main>
+<article>
+<h1>注音真實手寫驗收 v3｜易混淆符號加強版</h1>
+<p class="subtle">保留精簡五格：輕聲點上方、三格相距 82px、聲調在中格旁。使用 <b>同一套 Hanzi Quiz E 的實驗辨識核心</b>，本頁不連結正式 Quiz、不上傳紀錄。</p>
+<div id="qa-banner"><b>上一輪 50 筆（提供的 JSON）：</b>正確書寫 17/24 PASS（70.8%）、錯誤書寫 1/16 誤判完全 PASS（6.25%）、錯位置 7/10 正確分離（70%）。最需重新測的是 ㄇㄠ、ㄩˇ、ㄩㄢˊ、ㄒㄩˊ、ㄒㄩㄢˊ、ㄕㄨˊ 與輕聲單點。<br><b>注意：</b>舊資料沒有原始筆畫，無法知道當時具體寫錯哪一個符號。以下對照題是針對疑點設計的後續實驗，而不是從舊 JSON 已證實的混淆對。</div>
+<p class="subtle">五格是練習輸入區；正式直式聲調依教育部規範在最後一個注音符號右上角。這一版尚未經過充分真人筆跡校準，<b>請不要把結果當成學生正式分數</b>。</p>
+</article>
+<article>
+<h2>1. 選擇加強測試</h2>
+<div class="row"><label for="category">測試類別：</label>
+<select id="category">
+<option value="risk">優先回歸（上一輪異常）</option>
+<option value="similar">易混淆符號（雙向替換）</option>
+<option value="tone">聲調（ˊ／ˇ／ˋ／一聲）</option>
+<option value="neutral">輕聲單點與漏點</option>
+<option value="placement">正確符號放錯位置</option>
+<option value="all">全部題目</option>
+</select></div>
+<div class="row"><label for="case">題目：</label><select id="case"></select>
+<button id="next" type="button">下一題</button><button id="next-pending" type="button">下一個未達 3 次的題目</button></div>
+<div id="qa-task" aria-live="polite"></div><div id="qa-progress"></div>
+<div class="row"><label for="human">人工確認實際寫法：</label>
+<select id="human" required>
+<option value="">請先選擇（不可由系統判定自動帶入）</option>
+<option value="correct">符號及位置都正確</option>
+<option value="position">符號正確、位置錯誤</option>
+<option value="incorrect">確實寫錯符號／聲調、漏寫、多寫</option>
+</select></div>
+<div class="row"><label for="input-mode">實際使用：</label>
+<select id="input-mode" required>
+<option value="">請選擇</option><option value="stylus">觸控筆</option><option value="finger">手指</option><option value="mouse">滑鼠（不計入實際觸控）</option>
+</select></div>
+<p id="qa-notice" aria-live="polite" class="subtle"></p>
+<div id="example" aria-live="polite"></div><div id="reading"></div>
+<div id="pilot"></div>
+</article>
+<article>
+<h2>2. 加強驗收統計</h2>
+<p class="subtle">預設每個情境測三次；可只先做「優先回歸」及「易混淆符號」。每次記錄人工結果、系統結果、觸控來源與此題混淆方向。若需要分析**哪些筆畫**誤判，可自願勾選匯出原始筆畫座標。</p>
+<div id="results">尚未檢查。</div>
+<p><label><input type="checkbox" id="include-strokes"> 自願將原始筆跡座標匯出到本機 JSON（預設關閉，可能含筆跡個人特徵）</label></p>
+<div class="row"><button type="button" class="primary" id="export">匯出加強驗收 JSON</button><button type="button" id="clear">清空這次測試</button></div>
+<p class="subtle" id="qa-case-list">下載後可上傳 JSON 供我統計；若要分享原始筆畫，先確認有權提供。</p>
+</article>
+</main>
+
+<script>
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  if (root) root.HanziZhuyinLayout = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+
+  const SLOT_KEYS = ['neutral', 'g0', 'g1', 'g2', 't0', 't1', 't2'];
+  const TONE_MARKS = new Set(['ˊ', 'ˇ', 'ˋ', '˙']);
+
+  function emptySlots() {
+    return { neutral: '', g0: '', g1: '', g2: '', t0: '', t1: '', t2: '' };
+  }
+
+  function parseZhuyinSlots(zhuyin) {
+    const raw = String(zhuyin || '').trim();
+    if (!raw) throw new Error('zhuyin is required');
+    const chars = [...raw];
+    const tone = chars.find(ch => TONE_MARKS.has(ch)) || '';
+    const main = chars.filter(ch => !TONE_MARKS.has(ch));
+    if (main.length < 1 || main.length > 3) {
+      throw new Error('written zhuyin must contain 1..3 main symbols');
+    }
+    const out = emptySlots();
+    if (main.length === 1) out.g1 = main[0];
+    if (main.length === 2) { out.g0 = main[0]; out.g2 = main[1]; }
+    if (main.length === 3) { out.g0 = main[0]; out.g1 = main[1]; out.g2 = main[2]; }
+
+    if (tone === '˙') {
+      out.neutral = '˙';
+    } else if (tone && ['ˊ', 'ˇ', 'ˋ'].includes(tone)) {
+      if (main.length === 1) out.t1 = tone;
+      else out.t2 = tone;
+    }
+    return out;
+  }
+
+  function composeVerifiedZhuyin(slots) {
+    const s = Object.assign(emptySlots(), slots || {});
+    const main = String(s.g0 || '') + String(s.g1 || '') + String(s.g2 || '');
+    const regularTone = [s.t0, s.t1, s.t2].find(Boolean) || '';
+    return main + (s.neutral || regularTone || '');
+  }
+
+  function validateSlotOccupancy(expectedSlots, observedInk) {
+    const errors = [];
+    for (const key of SLOT_KEYS) {
+      const expected = Boolean(expectedSlots && expectedSlots[key]);
+      const actual = Boolean(observedInk && observedInk[key]);
+      if (expected && !actual) errors.push({ slot: key, kind: 'missing_symbol' });
+      if (!expected && actual) errors.push({ slot: key, kind: 'extra_ink' });
+    }
+    return { ok: errors.length === 0, errors };
+  }
+
+  function acceptNeutralGesture(stats) {
+    if (!stats) return { state: 'fail', reason: 'empty' };
+    const strokeCount = Number(stats.strokeCount || 0);
+    const pointCount = Number(stats.pointCount || 0);
+    const width = Number(stats.width || 0);
+    const height = Number(stats.height || 0);
+    const path = Number(stats.path || 0);
+
+    if (strokeCount === 1 && pointCount <= 3 && path <= 12) {
+      return { state: 'pass', reason: 'short_tap' };
+    }
+    if (strokeCount <= 2 && width <= 22 && height <= 22 && path <= 70) {
+      return { state: 'pass', reason: 'small_dot' };
+    }
+    if (width <= 30 && height <= 30 && path <= 110) {
+      return { state: 'uncertain', reason: 'large_dot' };
+    }
+    return { state: 'fail', reason: 'not_dot_like' };
+  }
+
+  // MOE: in vertical Zhuyin, 2nd/3rd/4th tone sits at the
+  // upper-right corner of the LAST phonetic symbol; neutral dot goes on top.
+  // There is no official "upper/middle/lower tone" terminology.
+  function toneAnchorSlot(expectedSlots) {
+    const s = expectedSlots || {};
+    return s.g2 ? 't2' : s.g1 ? 't1' : 't0';
+  }
+
+  // For confirmed/typed glyphs, distinguish the correct symbol inventory
+  // from where those symbols were written. Handwriting OCR uncertainty is
+  // handled separately; this never invents a pronunciation.
+  function classifyConfirmedSymbols(expectedSlots, confirmedSlots) {
+    const wanted = SLOT_KEYS.filter(k => expectedSlots && expectedSlots[k]).map(k => [k, expectedSlots[k]]);
+    const actual = SLOT_KEYS.filter(k => confirmedSlots && confirmedSlots[k]).map(k => [k, confirmedSlots[k]]);
+    const signature = rows => rows.map(([, symbol]) => symbol).sort().join('|');
+    const symbolCorrect = signature(wanted) === signature(actual);
+    const positionCorrect = SLOT_KEYS.every(k =>
+      String(expectedSlots && expectedSlots[k] || '') === String(confirmedSlots && confirmedSlots[k] || ''));
+    return {
+      state: symbolCorrect ? (positionCorrect ? 'pass' : 'position_only') : 'fail',
+      symbolCorrect,
+      positionCorrect
+    };
+  }
+
+  return {
+    SLOT_KEYS,
+    parseZhuyinSlots,
+    composeVerifiedZhuyin,
+    validateSlotOccupancy,
+    acceptNeutralGesture,
+    toneAnchorSlot,
+    classifyConfirmedSymbols
+  };
+});
+
+</script>
+<script>
+(function (root, factory) {
+  const api = factory(root);
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  if (root) root.HanziZhuyinHandwriting = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (root) {
+  'use strict';
+  const KEYS = ['neutral', 'g0', 'g1', 'g2', 't0', 't1', 't2'];
+  const LABELS = { neutral:'輕聲點', g0:'上格', g1:'中格', g2:'下格', tone:'聲調' };
+  const GRID = 48;
+  // Locked to the user-approved template; visible tone stays next to the middle box.
+  const COMPACT_LAYOUT = Object.freeze({neutral:[169,43],g0:[172,163],g1:[170,245],g2:[168,327],tone:[255,245],toneLabel:[346,251]});
+  const LAYOUT_SIZE = Object.freeze({width:625,height:510});
+
+  function maskFromCanvas(canvas) {
+    const ctx = canvas.getContext('2d', { willReadFrequently:true });
+    const { width, height } = canvas, img = ctx.getImageData(0, 0, width, height).data;
+    const ink = [];
+    for (let y=0;y<height;y++) for (let x=0;x<width;x++) {
+      if (img[(y*width+x)*4+3] >= 45) ink.push([x,y]);
+    }
+    if (!ink.length) return [];
+    const xs=ink.map(p=>p[0]), ys=ink.map(p=>p[1]);
+    const minX=Math.min(...xs), maxX=Math.max(...xs), minY=Math.min(...ys), maxY=Math.max(...ys);
+    const factor=39/Math.max(1,maxX-minX,maxY-minY);
+    const offsetX=(GRID-(maxX-minX)*factor)/2, offsetY=(GRID-(maxY-minY)*factor)/2;
+    const pixels=new Set(ink.map(([x,y]) => (Math.round(offsetY+(y-minY)*factor)*GRID+Math.round(offsetX+(x-minX)*factor))));
+    return [...pixels].map(key=>[key%GRID,Math.floor(key/GRID)]).filter(([x,y])=>x>=0&&x<GRID&&y>=0&&y<GRID);
+  }
+
+  function similarity(a,b,radius=6) {
+    if (!a.length||!b.length) return 0;
+    const near=(p,points)=>points.some(q=>(p[0]-q[0])**2+(p[1]-q[1])**2<=radius*radius);
+    // Both precision and recall must be adequate; a single line must not
+    // pass a complex Bopomofo symbol just because it touches one component.
+    const precision=a.filter(p=>near(p,b)).length/a.length;
+    const recall=b.filter(p=>near(p,a)).length/b.length;
+    return Math.min(precision,recall);
+  }
+
+  function drawInk(canvas,strokes) {
+    const ctx=canvas.getContext('2d');
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.lineWidth=7;
+    ctx.lineJoin='round'; ctx.lineCap='round'; ctx.strokeStyle='#172033'; ctx.fillStyle='#172033';
+    for(const stroke of strokes) {
+      if(!stroke.length) continue;
+      if(stroke.length===1) {
+        ctx.beginPath();ctx.arc(stroke[0][0],stroke[0][1],4.2,0,2*Math.PI);ctx.fill();continue;
+      }
+      ctx.beginPath();ctx.moveTo(stroke[0][0],stroke[0][1]);
+      for(const [x,y] of stroke.slice(1)) ctx.lineTo(x,y);
+      ctx.stroke();
+    }
+  }
+
+  function expectedGlyphMask(expected, documentRef) {
+    const canvas=documentRef.createElement('canvas');
+    canvas.width=72;canvas.height=84;
+    const ctx=canvas.getContext('2d');
+    ctx.font='bold 62px "Noto Sans TC", "Microsoft JhengHei", sans-serif';
+    ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#000';
+    ctx.fillText(expected,36,42);
+    return maskFromCanvas(canvas);
+  }
+
+  function neutralStats(strokes) {
+    const points=strokes.flat();
+    if(!points.length) return null;
+    const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
+    let path=0;
+    for(const stroke of strokes) for(let i=1;i<stroke.length;i++) path+=Math.hypot(stroke[i][0]-stroke[i-1][0],stroke[i][1]-stroke[i-1][1]);
+    return {strokeCount:strokes.length,pointCount:points.length,width:Math.max(...xs)-Math.min(...xs),height:Math.max(...ys)-Math.min(...ys),path};
+  }
+
+
+  function evaluateSlots(expectedSlots, drawing, documentRef, layout) {
+    const occupancy = {};
+    for (const k of KEYS) occupancy[k] = Boolean(drawing[k] && drawing[k].length);
+    const occupancyCheck = layout.validateSlotOccupancy(expectedSlots, occupancy);
+    const required = KEYS.filter(k => expectedSlots[k]);
+    const observed = KEYS.filter(k => occupancy[k]);
+    const maskCache = new Map(), glyphCache = new Map();
+
+    function match(key, symbol) {
+      if (symbol === '˙') {
+        const result = layout.acceptNeutralGesture(neutralStats(drawing[key] || []));
+        return { score: result.state === 'pass' ? 1 : result.state === 'uncertain' ? 0.55 : 0,
+          state: result.state };
+      }
+      if (!maskCache.has(key)) {
+        const ink = documentRef.createElement('canvas');
+        ink.width = 72; ink.height = 84; drawInk(ink, drawing[key] || []);
+        maskCache.set(key, maskFromCanvas(ink));
+      }
+      if (!glyphCache.has(symbol)) glyphCache.set(symbol, expectedGlyphMask(symbol, documentRef));
+      const score = similarity(maskCache.get(key), glyphCache.get(symbol));
+      return { score, state: score >= 0.70 ? 'pass' : score >= 0.42 ? 'uncertain' : 'fail' };
+    }
+
+    if (occupancyCheck.ok) {
+      const details = required.map(key => ({ key, ...match(key, expectedSlots[key]) }));
+      if (details.some(x => x.state === 'fail')) {
+        return { state: 'fail', symbolCorrect: false, positionCorrect: true,
+          errorKinds: ['wrong_symbol'], details };
+      }
+      if (details.some(x => x.state === 'uncertain')) {
+        return { state: 'uncertain', symbolCorrect: null, positionCorrect: true,
+          errorKinds: ['uncertain'], details };
+      }
+      return { state: 'pass', symbolCorrect: true, positionCorrect: true,
+        errorKinds: [], details };
+    }
+
+    // A misplaced but correctly drawn symbol is a placement lesson, NOT
+    // evidence of wrong pronunciation. Each observed glyph may be matched
+    // to exactly one expected glyph regardless of which slot received it.
+    if (required.length && observed.length === required.length) {
+      function canMatch(threshold, index, used) {
+        if (index === required.length) return true;
+        const target = required[index];
+        for (const key of observed) {
+          if (used.has(key) || match(key, expectedSlots[target]).score < threshold) continue;
+          used.add(key);
+          if (canMatch(threshold, index + 1, used)) return true;
+          used.delete(key);
+        }
+        return false;
+      }
+      if (canMatch(0.70, 0, new Set())) {
+        return { state: 'position_only', symbolCorrect: true, positionCorrect: false,
+          errorKinds: ['wrong_slot'], details: occupancyCheck.errors };
+      }
+      // Avoid treating uncertain OCR as a definite pronunciation error.
+      return { state: 'uncertain', symbolCorrect: null, positionCorrect: false,
+        errorKinds: ['wrong_slot', 'uncertain'], details: occupancyCheck.errors };
+    }
+
+    return { state: 'fail', symbolCorrect: null, positionCorrect: false,
+      errorKinds: [...new Set(occupancyCheck.errors.map(x => x.kind))],
+      details: occupancyCheck.errors };
+  }
+
+  function mountPilot({ target, char, zhuyin, onResult, onCapture = null }) {
+    const documentRef = target.ownerDocument;
+    const layout = root.HanziZhuyinLayout;
+    if (!layout) throw new Error('Zhuyin layout core is required');
+    const expected = layout.parseZhuyinSlots(zhuyin);
+    const toneKey = layout.toneAnchorSlot(expected);
+    const drawing = Object.fromEntries(KEYS.map(k => [k, []]));
+    // QA-only provenance: do not infer real touch from a manually selected
+    // label or a script-dispatched (untrusted) PointerEvent.
+    const qaDevice = {
+      pointerTypes: new Set(), trustedPointerTypes: new Set(),
+      pointerDownCount: 0, trustedTouchStarts: 0, pointerCancelCount: 0
+    };
+    const panel = documentRef.createElement('section');
+    panel.className = 'zh-pilot-card';
+    const title = documentRef.createElement('h3');
+    title.textContent = '注音手寫練習（位置錯誤分開提醒）';
+    const subtitle = documentRef.createElement('p');
+    subtitle.textContent = '請在格子裡寫「' + char + '」的注音。只寫錯位置不直接算讀音錯誤。';
+    // No teaching paragraphs beside the three main writing boxes.
+    // The approved layout reserves a single explanatory note beside the tone.
+    const exampleButton = documentRef.createElement('button');
+    exampleButton.type = 'button'; exampleButton.className = 'zh-pilot-example-btn';
+    exampleButton.textContent = '看位置範例';
+    exampleButton.setAttribute('aria-expanded', 'false');
+    const samples = documentRef.createElement('div');
+    samples.className = 'zh-pilot-examples';
+    samples.hidden = true;
+    const examples = [
+      ['1 個符號：語 ㄩˇ', '空', 'ㄩ', '空', 'ˇ 寫在ㄩ右上角'],
+      ['2 個符號：貓 ㄇㄠ', 'ㄇ', '空', 'ㄠ', '一聲不標'],
+      ['3 個符號：巷 ㄒㄧㄤˋ', 'ㄒ', 'ㄧ', 'ㄤ', 'ˋ 寫在ㄤ右上角'],
+      ['輕聲：叔 ㄕㄨ˙', 'ㄕ', '空', 'ㄨ', '˙ 寫在整組最上方']
+    ];
+    for (const [heading, upper, middle, lower, tone] of examples) {
+      const card = documentRef.createElement('div');
+      card.className = 'zh-pilot-sample';
+      const head = documentRef.createElement('strong'); head.textContent = heading;
+      const desc = documentRef.createElement('span');
+      desc.textContent = '上：' + upper + '　中：' + middle + '　下：' + lower + '　｜ ' + tone;
+      card.append(head, desc); samples.appendChild(card);
+    }
+    exampleButton.addEventListener('click', () => {
+      samples.hidden = !samples.hidden;
+      exampleButton.textContent = samples.hidden ? '看位置範例' : '收起位置範例';
+      exampleButton.setAttribute('aria-expanded', String(!samples.hidden));
+    });
+
+    const viewport = documentRef.createElement('div');
+    viewport.className = 'zh-pilot-layout-viewport';
+    const grid = documentRef.createElement('div');
+    grid.className = 'zh-pilot-grid';
+    grid.setAttribute('data-layout-version', 'compact-v2');
+    // The lesson's spoken answer is not exposed in the permanent grid labels.
+    const note = documentRef.createElement('div');
+    note.className = 'zh-pilot-tone-note';
+    note.textContent = '聲調：練習時固定寫在中格旁；正式直式注音要標在最後一個符號右上角，一聲不標。';
+    note.style.left = COMPACT_LAYOUT.toneLabel[0] + 'px';
+    note.style.top = COMPACT_LAYOUT.toneLabel[1] + 'px';
+    grid.appendChild(note);
+    const result = documentRef.createElement('p'); result.className = 'zh-pilot-result';
+    result.setAttribute('aria-live', 'polite');
+    const controls = documentRef.createElement('div'); controls.className = 'zh-pilot-actions';
+    let checked = false;
+    // Show only ONE tone-writing box, anchored to the last phonetic glyph.
+    // t0/t1/t2 remain internal layout coordinates, not three student choices.
+    for (const [visualKey, key] of [
+      ['neutral', 'neutral'], ['g0', 'g0'], ['g1', 'g1'], ['g2', 'g2'], ['tone', toneKey]
+    ]) {
+      const holder = documentRef.createElement('div');
+      holder.className = 'zh-pilot-slot zh-pilot-' + visualKey;
+      if (visualKey === 'tone') holder.classList.add('zh-pilot-tone-middle');
+      const pos = COMPACT_LAYOUT[visualKey];
+      holder.style.left = pos[0] + 'px';
+      holder.style.top = pos[1] + 'px';
+      const label = documentRef.createElement('span');
+      label.textContent = LABELS[visualKey];
+      holder.appendChild(label);
+      const canvas = documentRef.createElement('canvas');
+      canvas.width = 72; canvas.height = 84;
+      canvas.setAttribute('aria-label', LABELS[visualKey] + '注音手寫格');
+      canvas.style.touchAction = 'none';
+      holder.appendChild(canvas); grid.appendChild(holder);
+      let active = null, pointerId = null;
+      function point(event) {
+        const rect = canvas.getBoundingClientRect();
+        return [(event.clientX - rect.left) * canvas.width / rect.width,
+          (event.clientY - rect.top) * canvas.height / rect.height];
+      }
+      canvas.addEventListener('pointerdown', event => {
+        if (checked || pointerId !== null) return;
+        if (typeof onCapture === 'function') {
+          const input = String(event.pointerType || 'unknown');
+          qaDevice.pointerTypes.add(input);
+          qaDevice.pointerDownCount++;
+          if (event.isTrusted) {
+            qaDevice.trustedPointerTypes.add(input);
+            if (input === 'touch' || input === 'pen') qaDevice.trustedTouchStarts++;
+          }
+        }
+        event.preventDefault(); pointerId = event.pointerId;
+        try { canvas.setPointerCapture(event.pointerId); } catch { /* ignore */ }
+        active = [point(event)]; drawing[key].push(active); drawInk(canvas, drawing[key]);
+      });
+      canvas.addEventListener('pointermove', event => {
+        if (event.pointerId !== pointerId || !active) return;
+        event.preventDefault(); active.push(point(event)); drawInk(canvas, drawing[key]);
+      });
+      canvas.addEventListener('pointerup', event => {
+        if (event.pointerId !== pointerId) return;
+        event.preventDefault();
+        if (active) {
+          const next = point(event);
+          const first = active[0];
+          if (visualKey === 'neutral' && active.length <= 3 &&
+              Math.hypot(next[0]-first[0],next[1]-first[1]) < 8) {
+            // A short tap is a legitimate neutral-tone dot, even with
+            // no pointermove. Store one point and keep it visibly painted.
+            drawing[key][drawing[key].length-1] = [first];
+          } else {
+            active.push(next);
+          }
+        }
+        drawInk(canvas, drawing[key]); active = null; pointerId = null;
+      });
+      canvas.addEventListener('pointercancel', event => {
+        if (event.pointerId !== pointerId) return;
+        if (typeof onCapture === 'function') qaDevice.pointerCancelCount++;
+        if (active) drawing[key].pop();
+        active = null; pointerId = null; drawInk(canvas, drawing[key]);
+      });
+    }
+    const checkBtn = documentRef.createElement('button');
+    checkBtn.type = 'button'; checkBtn.textContent = '檢查注音';
+    const clearBtn = documentRef.createElement('button');
+    clearBtn.type = 'button'; clearBtn.textContent = '清空重寫';
+    checkBtn.addEventListener('click', async () => {
+      if (checked) return;
+      const verdict = evaluateSlots(expected, drawing, documentRef, layout);
+      // Only the standalone QA can opt in to receiving raw strokes. Quiz never passes onCapture.
+      if (typeof onCapture === 'function') {
+        const captured = JSON.parse(JSON.stringify(drawing));
+        const dotCanvas = grid.querySelector('.zh-pilot-neutral canvas');
+        let neutralInkPixels = 0;
+        if (dotCanvas) {
+          const pixels = dotCanvas.getContext('2d', { willReadFrequently:true })
+            .getImageData(0, 0, dotCanvas.width, dotCanvas.height).data;
+          for (let i = 3; i < pixels.length; i += 4) {
+            if (pixels[i] >= 45) neutralInkPixels++;
+          }
+        }
+        try {
+          onCapture({
+            char, zhuyin, drawing: captured, neutralInkPixels, verdict: { ...verdict },
+            inputEvidence: {
+              pointerTypes: [...qaDevice.pointerTypes].sort(),
+              trustedPointerTypes: [...qaDevice.trustedPointerTypes].sort(),
+              pointerDownCount: qaDevice.pointerDownCount,
+              trustedTouchStarts: qaDevice.trustedTouchStarts,
+              pointerCancelCount: qaDevice.pointerCancelCount
+            }
+          });
+        }
+        catch (captureError) { console.warn('QA capture error:', captureError); }
+      }
+      if (verdict.state === 'uncertain') {
+        result.textContent = verdict.positionCorrect === false
+          ? '位置需要調整，筆跡尚無法確認；不計分，請看範例後重寫。'
+          : 'UNCERTAIN：筆跡尚無法確認，不計分，請重寫。';
+        if (onResult) await onResult(verdict);
+        return;
+      }
+      if (verdict.state === 'position_only') {
+        result.textContent = '符號辨識符合，但位置需要調整；不算讀音錯誤，請看範例後重寫。';
+        if (onResult) await onResult(verdict);
+        return;
+      }
+      checked = true; checkBtn.disabled = true;
+      result.textContent = verdict.state === 'pass'
+        ? '注音符號及位置皆通過。'
+        : verdict.positionCorrect ? '位置正確，但符號形狀或聲調仍需檢查。'
+          : '注音有缺漏或多寫，請檢查格子。';
+      try { if (onResult) await onResult(verdict); }
+      catch (err) { result.textContent += ' 學習紀錄儲存失敗。'; console.error(err); }
+    });
+    clearBtn.addEventListener('click', () => {
+      checked = false; checkBtn.disabled = false; result.textContent = '';
+      for (const key of KEYS) drawing[key] = [];
+      qaDevice.pointerTypes.clear(); qaDevice.trustedPointerTypes.clear();
+      qaDevice.pointerDownCount = 0; qaDevice.trustedTouchStarts = 0;
+      qaDevice.pointerCancelCount = 0;
+      grid.querySelectorAll('canvas').forEach(canvas => drawInk(canvas, []));
+    });
+    controls.append(checkBtn, clearBtn);
+    viewport.appendChild(grid);
+    panel.append(title, subtitle, exampleButton, samples, viewport, controls, result);
+    target.appendChild(panel);
+    function fitCompactLayout() {
+      const available = viewport.clientWidth || viewport.parentElement?.clientWidth || LAYOUT_SIZE.width;
+      const zoom = Math.min(1, Math.max(0.35, available / LAYOUT_SIZE.width));
+      grid.style.transform = 'scale(' + zoom + ')';
+      viewport.style.height = Math.ceil(LAYOUT_SIZE.height * zoom) + 'px';
+    }
+    fitCompactLayout();
+    // The viewport is fully responsive; detach the observer when the Quiz
+    // disposes the previous question panel.
+    if (typeof ResizeObserver !== 'undefined') {
+      const observer = new ResizeObserver(() => {
+        if (!panel.isConnected) { observer.disconnect(); return; }
+        fitCompactLayout();
+      });
+      observer.observe(viewport);
+    }
+    if (typeof requestAnimationFrame === 'function') requestAnimationFrame(fitCompactLayout);
+    return { element: panel, clear: () => clearBtn.click() };
+  }
+
+  return { mountPilot, similarity, evaluateSlots, COMPACT_LAYOUT };
+});
+
+</script>
+<script>
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  if (root) root.HanziRealHandwritingQA = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+
+  const LABELS = ['correct', 'position', 'incorrect'];
+  const RESULTS = ['pass', 'position_only', 'fail', 'uncertain'];
+  const REQUIRED_READINGS = ['ㄇㄠ', 'ㄒㄧㄤˋ', 'ㄧ', 'ㄕㄨˊ', 'ㄕㄨ˙', 'ㄩˇ', 'ㄩㄢˊ', 'ㄒㄩˊ', 'ㄒㄩㄢˊ'];
+
+  function summarize(input) {
+    const records = Array.isArray(input) ? input : (input && input.results) || [];
+    const matrix = Object.fromEntries(LABELS.map(expected =>
+      [expected, Object.fromEntries(RESULTS.map(actual => [actual, 0]))]));
+    const count = Object.fromEntries(LABELS.map(v => [v, 0]));
+    const bad = [];
+    let touchSamples = 0, neutralDotSamples = 0, missingNeutralDot = 0;
+    const readings = new Set();
+    const perReading = Object.fromEntries(REQUIRED_READINGS.map(r =>
+      [r, { correct: 0, position: 0, incorrect: 0 }]));
+
+    records.forEach((record, i) => {
+      if (!record || !LABELS.includes(record.human) || !RESULTS.includes(record.actual)) {
+        bad.push(i + 1); return;
+      }
+      matrix[record.human][record.actual]++;
+      count[record.human]++;
+      // A selected input-type dropdown is not proof of touch. Only genuine
+      // browser PointerEvents (isTrusted) from the claimed touch/pen input
+      // count toward the real-handwriting acceptance gate.
+      const evidence = Array.isArray(record.trustedPointerTypes)
+        ? record.trustedPointerTypes : [];
+      const expectedType = record.inputMode === 'finger' ? 'touch'
+        : record.inputMode === 'stylus' ? 'pen' : '';
+      const verifiedTouch = record.verifiedRealTouch === true &&
+        Number(record.trustedTouchStarts) >= 1 &&
+        Boolean(expectedType) && evidence.includes(expectedType) &&
+        !evidence.includes('mouse');
+      if (verifiedTouch) {
+        touchSamples++;
+        if (record.human === 'correct' && record.zhuyin) readings.add(record.zhuyin);
+        if (perReading[record.zhuyin]) perReading[record.zhuyin][record.human]++;
+      }
+      if (verifiedTouch && record.zhuyin === 'ㄕㄨ˙' &&
+          record.neutralSingleTap === true) {
+        neutralDotSamples++;
+        if (record.neutralDotDetected !== true) missingNeutralDot++;
+      }
+    });
+
+    const correctDenom = count.correct;
+    const incorrectDenom = count.incorrect;
+    const positionDenom = count.position;
+    const ratio = (n, d) => d ? n / d : null;
+    const metrics = {
+      correctRecognitionRate: ratio(matrix.correct.pass, correctDenom),
+      incorrectFalsePassRate: ratio(matrix.incorrect.pass, incorrectDenom),
+      placementFalsePassRate: ratio(matrix.position.pass, positionDenom),
+      placementSeparatedRate: ratio(matrix.position.position_only, positionDenom),
+      correctUncertainRate: ratio(matrix.correct.uncertain, correctDenom),
+      neutralTapDetectedRate: ratio(neutralDotSamples-missingNeutralDot, neutralDotSamples)
+    };
+
+    // These thresholds are project acceptance criteria, NOT a claim that
+    // a government standard certifies the classifier.
+    const min = { correct: 27, incorrect: 27, position: 9, neutralTap: 3 };
+    const sufficient = count.correct >= min.correct && count.incorrect >= min.incorrect &&
+      count.position >= min.position &&
+      neutralDotSamples >= min.neutralTap && touchSamples >= count.correct + count.incorrect + count.position &&
+      REQUIRED_READINGS.every(x =>
+        perReading[x].correct >= 3 &&
+        perReading[x].incorrect >= 3 &&
+        perReading[x].position >= 1);
+
+    const problems = [];
+    if (bad.length) problems.push('invalid_records');
+    if (!sufficient) problems.push('insufficient_real_touch_samples');
+    if (sufficient) {
+      if (metrics.correctRecognitionRate < 0.90) problems.push('correct_recognition_below_90_percent');
+      if (metrics.incorrectFalsePassRate !== 0) problems.push('incorrect_pronunciation_false_pass');
+      if (metrics.placementFalsePassRate !== 0) problems.push('placement_mistaken_as_full_pass');
+      if (metrics.placementSeparatedRate < 0.70) problems.push('placement_separation_below_70_percent');
+      if (metrics.neutralTapDetectedRate !== 1) problems.push('neutral_tap_not_always_detected');
+    }
+
+    return {
+      status: bad.length || !sufficient ? 'INSUFFICIENT_EVIDENCE' :
+        problems.length ? 'NOT_ACCEPTED' : 'ACCEPTED_ON_SUBMITTED_SAMPLES',
+      count, sampleCount: records.length, acceptedSamples: count.correct+count.incorrect+count.position,
+      invalidRecordIndexes: bad, realTouchSamples: touchSamples,
+      readingsCovered: REQUIRED_READINGS.filter(x => readings.has(x)),
+      readingsMissing: REQUIRED_READINGS.filter(x => !readings.has(x)),
+      perReading,
+      neutralDotSamples, neutralDotMisses: missingNeutralDot, matrix, metrics,
+      requirements: min, problems,
+      warning: '僅統計所提供的真實手寫樣本；不能取代未參與測試的學生及裝置驗證。'
+    };
+  }
+  return { summarize, LABELS, RESULTS, REQUIRED_READINGS };
+});
+
+</script>
+<script>
+
+(() => {
+'use strict';
+const CASES = [{"id":"R01","cat":"risk","label":"貓","reading":"ㄇㄠ","expected":"correct","instruction":"正常書寫 ㄇㄠ；觀察是否出現 UNCERTAIN（第一輪 1/3 次）。","target":"ㄇ、ㄠ","reps":3},{"id":"R02","cat":"risk","label":"貓","reading":"ㄇㄠ","expected":"incorrect","instruction":"將 ㄇ 寫成 ㄋ，其餘正確；前一輪曾發生錯誤卻判 PASS。","target":"ㄇ → ㄋ","reps":3},{"id":"R03","cat":"risk","label":"貓","reading":"ㄇㄠ","expected":"position","instruction":"只交換 ㄇ 與 ㄠ 的格子，符號本身正確。","target":"ㄇ / ㄠ 位置","reps":3},{"id":"R04","cat":"risk","label":"語","reading":"ㄩˇ","expected":"correct","instruction":"正常書寫 ㄩˇ；第一輪曾把正確字形誤判 FAIL。","target":"ㄩ、ˇ","reps":3},{"id":"R05","cat":"risk","label":"園","reading":"ㄩㄢˊ","expected":"correct","instruction":"正常書寫 ㄩㄢˊ；第一輪 2/3 次 UNCERTAIN。","target":"ㄩ、ㄢ、ˊ","reps":3},{"id":"R06","cat":"risk","label":"徐","reading":"ㄒㄩˊ","expected":"correct","instruction":"正常書寫 ㄒㄩˊ；第一輪 2/3 次 UNCERTAIN。","target":"ㄒ、ㄩ、ˊ","reps":3},{"id":"R07","cat":"risk","label":"旋","reading":"ㄒㄩㄢˊ","expected":"correct","instruction":"正常書寫 ㄒㄩㄢˊ；第一輪曾出現 UNCERTAIN。","target":"ㄒ、ㄩ、ㄢ、ˊ","reps":3},{"id":"R08","cat":"risk","label":"淑","reading":"ㄕㄨˊ","expected":"correct","instruction":"正常書寫 ㄕㄨˊ；上一輪完全缺少這個二聲讀音。","target":"ㄕ、ㄨ、ˊ","reps":3},{"id":"R09","cat":"risk","label":"叔（叔叔第二字）","reading":"ㄕㄨ˙","expected":"correct","instruction":"輕聲點只輕點一次、不移動，再寫完整 ㄕㄨ；檢查是否留下筆跡。","target":"˙ 輕聲單點","reps":3},{"id":"R10","cat":"risk","label":"語","reading":"ㄩˇ","expected":"incorrect","instruction":"把 ㄩ 換成 ㄧ，聲調 ˇ 不改；觀察錯誤符號是否誤判為位置錯。","target":"ㄩ → ㄧ","reps":3},{"id":"C01","cat":"similar","label":"貓","reading":"ㄇㄠ","expected":"incorrect","instruction":"故意把 ㄠ 寫成 ㄡ，其餘正確。","target":"ㄠ → ㄡ","reps":3},{"id":"C02","cat":"similar","label":"某","reading":"ㄇㄡˇ","expected":"incorrect","instruction":"故意把 ㄡ 寫成 ㄠ，其餘正確。","target":"ㄡ → ㄠ","reps":3},{"id":"C03","cat":"similar","label":"椅","reading":"ㄧˇ","expected":"incorrect","instruction":"故意把 ㄧ 寫成 ㄩ，聲調不變。","target":"ㄧ → ㄩ","reps":3},{"id":"C04","cat":"similar","label":"五","reading":"ㄨˇ","expected":"incorrect","instruction":"故意把 ㄨ 寫成 ㄩ，聲調不變。","target":"ㄨ → ㄩ","reps":3},{"id":"C05","cat":"similar","label":"語","reading":"ㄩˇ","expected":"incorrect","instruction":"故意把 ㄩ 寫成 ㄨ，聲調不變。","target":"ㄩ → ㄨ","reps":3},{"id":"C06","cat":"similar","label":"安","reading":"ㄢ","expected":"incorrect","instruction":"故意把 ㄢ 寫成 ㄣ。","target":"ㄢ → ㄣ","reps":3},{"id":"C07","cat":"similar","label":"恩","reading":"ㄣ","expected":"incorrect","instruction":"故意把 ㄣ 寫成 ㄢ。","target":"ㄣ → ㄢ","reps":3},{"id":"C08","cat":"similar","label":"羊","reading":"ㄧㄤˊ","expected":"incorrect","instruction":"故意把 ㄤ 寫成 ㄥ，其他符號正確。","target":"ㄤ → ㄥ","reps":3},{"id":"C09","cat":"similar","label":"風","reading":"ㄈㄥ","expected":"incorrect","instruction":"故意把 ㄥ 寫成 ㄤ，其他符號正確。","target":"ㄥ → ㄤ","reps":3},{"id":"C10","cat":"similar","label":"徐","reading":"ㄒㄩˊ","expected":"incorrect","instruction":"故意把 ㄒ 寫成 ㄕ。","target":"ㄒ → ㄕ","reps":3},{"id":"C11","cat":"similar","label":"書","reading":"ㄕㄨ","expected":"incorrect","instruction":"故意把 ㄕ 寫成 ㄒ。","target":"ㄕ → ㄒ","reps":3},{"id":"C12","cat":"similar","label":"知","reading":"ㄓ","expected":"incorrect","instruction":"故意把 ㄓ 寫成 ㄔ。","target":"ㄓ → ㄔ","reps":3},{"id":"C13","cat":"similar","label":"吃","reading":"ㄔ","expected":"incorrect","instruction":"故意把 ㄔ 寫成 ㄓ。","target":"ㄔ → ㄓ","reps":3},{"id":"C14","cat":"similar","label":"資","reading":"ㄗ","expected":"incorrect","instruction":"故意把 ㄗ 寫成 ㄘ。","target":"ㄗ → ㄘ","reps":3},{"id":"C15","cat":"similar","label":"此","reading":"ㄘˇ","expected":"incorrect","instruction":"故意把 ㄘ 寫成 ㄗ，聲調不變。","target":"ㄘ → ㄗ","reps":3},{"id":"C16","cat":"similar","label":"八","reading":"ㄅㄚ","expected":"incorrect","instruction":"故意把 ㄅ 寫成 ㄆ。","target":"ㄅ → ㄆ","reps":3},{"id":"C17","cat":"similar","label":"趴","reading":"ㄆㄚ","expected":"incorrect","instruction":"故意把 ㄆ 寫成 ㄅ。","target":"ㄆ → ㄅ","reps":3},{"id":"C18","cat":"similar","label":"刀","reading":"ㄉㄠ","expected":"incorrect","instruction":"故意把 ㄉ 寫成 ㄊ。","target":"ㄉ → ㄊ","reps":3},{"id":"C19","cat":"similar","label":"桃","reading":"ㄊㄠˊ","expected":"incorrect","instruction":"故意把 ㄊ 寫成 ㄉ。","target":"ㄊ → ㄉ","reps":3},{"id":"C20","cat":"similar","label":"哥","reading":"ㄍㄜ","expected":"incorrect","instruction":"故意把 ㄍ 寫成 ㄎ。","target":"ㄍ → ㄎ","reps":3},{"id":"C21","cat":"similar","label":"科","reading":"ㄎㄜ","expected":"incorrect","instruction":"故意把 ㄎ 寫成 ㄍ。","target":"ㄎ → ㄍ","reps":3},{"id":"C22","cat":"similar","label":"喝","reading":"ㄏㄜ","expected":"incorrect","instruction":"故意把 ㄜ 寫成 ㄝ。","target":"ㄜ → ㄝ","reps":3},{"id":"C23","cat":"similar","label":"爺","reading":"ㄧㄝˊ","expected":"incorrect","instruction":"故意把 ㄝ 寫成 ㄜ。","target":"ㄝ → ㄜ","reps":3},{"id":"T01","cat":"tone","label":"語","reading":"ㄩˇ","expected":"incorrect","instruction":"ㄩ 正確，但把三聲 ˇ 寫成二聲 ˊ。","target":"ˇ → ˊ","reps":3},{"id":"T02","cat":"tone","label":"魚","reading":"ㄩˊ","expected":"incorrect","instruction":"ㄩ 正確，但把二聲 ˊ 寫成三聲 ˇ。","target":"ˊ → ˇ","reps":3},{"id":"T03","cat":"tone","label":"語","reading":"ㄩˇ","expected":"incorrect","instruction":"ㄩ 正確，但把三聲 ˇ 寫成四聲 ˋ。","target":"ˇ → ˋ","reps":3},{"id":"T04","cat":"tone","label":"樹","reading":"ㄕㄨˋ","expected":"incorrect","instruction":"ㄕㄨ 正確，但把四聲 ˋ 寫成二聲 ˊ。","target":"ˋ → ˊ","reps":3},{"id":"T05","cat":"tone","label":"淑","reading":"ㄕㄨˊ","expected":"incorrect","instruction":"ㄕㄨ 正確，但完全不寫二聲調號。","target":"少寫 ˊ","reps":3},{"id":"T06","cat":"tone","label":"書","reading":"ㄕㄨ","expected":"incorrect","instruction":"ㄕㄨ 正確，但在一聲上多寫 ˊ。","target":"一聲多寫 ˊ","reps":3},{"id":"N01","cat":"neutral","label":"叔（叔叔第二字）","reading":"ㄕㄨ˙","expected":"correct","instruction":"用觸控筆只單點一次輕聲格，完整寫出 ㄕㄨ。","target":"輕聲單點","reps":3},{"id":"N02","cat":"neutral","label":"叔（叔叔第二字）","reading":"ㄕㄨ˙","expected":"incorrect","instruction":"完整寫 ㄕㄨ，但刻意漏掉輕聲點。","target":"漏寫 ˙","reps":3},{"id":"N03","cat":"neutral","label":"叔（叔叔第二字）","reading":"ㄕㄨ˙","expected":"incorrect","instruction":"輕聲格故意畫一大條線，不是小圓點。","target":"錯誤輕聲筆畫","reps":3},{"id":"P01","cat":"placement","label":"貓","reading":"ㄇㄠ","expected":"position","instruction":"符號 ㄇ、ㄠ 都正確，但故意放到不符合三格練習位置的格子。","target":"兩符號錯位","reps":3},{"id":"P02","cat":"placement","label":"語","reading":"ㄩˇ","expected":"position","instruction":"符號與調號都正確，但 ㄩ 寫在上格而非中格。","target":"單符號錯位","reps":3},{"id":"P03","cat":"placement","label":"園","reading":"ㄩㄢˊ","expected":"position","instruction":"符號正確，故意對調 ㄩ 與 ㄢ 的書寫格。","target":"兩符號對調","reps":3},{"id":"P04","cat":"placement","label":"巷","reading":"ㄒㄧㄤˋ","expected":"position","instruction":"三個符號正確，故意交換其中兩個格子。","target":"三符號錯位","reps":3},{"id":"P05","cat":"placement","label":"一","reading":"ㄧ","expected":"position","instruction":"只有 ㄧ，故意寫到上格或下格。","target":"單符號錯位","reps":3},{"id":"P06","cat":"placement","label":"徐","reading":"ㄒㄩˊ","expected":"position","instruction":"正確寫 ㄒㄩˊ，但將 ㄒ 與 ㄩ 的格子交換。","target":"ㄒ、ㄩ 對調","reps":3}];
+const CATEGORIES = {risk:'優先回歸',similar:'易混淆符號',tone:'聲調',neutral:'輕聲',placement:'位置'};
+const $=id=>document.getElementById(id);
+const oldMode = $('input-mode');
+const categorySelect=$('category'),select=$('case');
+let records=[],current=0,captured=null,alreadyRecorded=false;
+let currentIds=[];
+function updateChoices() {
+ const selectedCategory=categorySelect.value;
+ currentIds=CASES.map((c,i)=>i).filter(i=>selectedCategory==='all'||CASES[i].cat===selectedCategory);
+ select.replaceChildren();
+ for(const i of currentIds) {
+   const c=CASES[i];
+   const label=c.id+'｜'+c.label+' '+c.reading+'｜'+c.target;
+   select.add(new Option(label,String(i)));
+ }
+ if(!currentIds.includes(current))current=currentIds[0]??0;
+ select.value=String(current);
+}
+function progressFor(c) { return records.filter(r=>r.caseId===c.id).length; }
+function resetForNewTrial() {
+ alreadyRecorded=false;captured=null;$('human').value='';
+ $('qa-notice').textContent='手寫後先由人確認實際寫的是什麼，再按「檢查注音」。';
+}
+function refreshTask() {
+ const c=CASES[current];
+ $('qa-task').replaceChildren();
+ const strong=document.createElement('strong');
+ strong.textContent=CATEGORIES[c.cat]+'｜'+c.id+'｜'+c.label+'（標準 '+c.reading+'）';
+ const desc=document.createElement('div');
+ desc.textContent=c.instruction;
+ const focus=document.createElement('div');focus.id='qa-focus';focus.textContent='這次特別檢驗：'+c.target;
+ $('qa-task').append(strong,desc,focus);
+ $('qa-progress').textContent='本題已記錄 '+progressFor(c)+' / '+c.reps+' 次（此題設定至少 '+c.reps+' 次）｜本分類共 '+currentIds.length+' 題';
+ $('example').textContent=c.label.includes('叔（')?'叔':c.label;
+ $('reading').textContent='系統預期注音：'+c.reading;
+}
+function display() {
+ const matrix={correct:{pass:0,position_only:0,fail:0,uncertain:0},
+ position:{pass:0,position_only:0,fail:0,uncertain:0},
+ incorrect:{pass:0,position_only:0,fail:0,uncertain:0}};
+ const counts={};let touch=0, falsePass=0, confusedAsPosition=0, correctlyAccepted=0, correctCount=0;
+ for(const rec of records) {
+   if(matrix[rec.human])matrix[rec.human][rec.actual]=(matrix[rec.human][rec.actual]||0)+1;
+   counts[rec.caseId]=(counts[rec.caseId]||0)+1;
+   if(rec.verifiedRealTouch)touch++;
+   if(rec.human==='incorrect'&&rec.actual==='pass')falsePass++;
+   if(rec.human==='incorrect'&&rec.actual==='position_only')confusedAsPosition++;
+   if(rec.human==='correct'){correctCount++;if(rec.actual==='pass')correctlyAccepted++}
+ }
+ const finished=CASES.filter(c=>(counts[c.id]||0)>=c.reps).length;
+ $('results').textContent=
+  '已測 '+records.length+' 次｜具真實觸控事件 '+touch+' 次｜已完成情境 '+finished+'/'+CASES.length+'\n'+
+  '正確寫法判 PASS：'+correctlyAccepted+'/'+correctCount+'\n'+
+  '錯誤寫法被判 PASS：'+falsePass+' 次（重要風險）\n'+
+  '錯誤寫法被判「只有位置錯」：'+confusedAsPosition+' 次（重要風險）\n'+
+  '混淆矩陣：\n'+
+  '人工正確（PASS / 位置 / FAIL / UNCERTAIN）：'+Object.values(matrix.correct).join(' / ')+'\n'+
+  '人工位置錯：'+Object.values(matrix.position).join(' / ')+'\n'+
+  '人工符號錯：'+Object.values(matrix.incorrect).join(' / ')+'\n'+
+  '本頁為追蹤診斷，不會單靠滿足三次就宣告正式辨識驗收通過。';
+ if(CASES[current])refreshTask();
+}
+function recordVerdict(verdict) {
+ if(alreadyRecorded)return;
+ const human=$('human').value,inputMode=oldMode.value;
+ if(!human||!inputMode){
+   $('qa-notice').textContent='請先完成人工實際書寫確認及輸入方式選擇。這次沒有收錄。';
+   return;
+ }
+ const c=CASES[current],ev=captured?.inputEvidence||{};
+ const trusted=Array.isArray(ev.trustedPointerTypes)?ev.trustedPointerTypes:[];
+ const t=inputMode==='stylus'?'pen':inputMode==='finger'?'touch':'';
+ const verifiedRealTouch=Boolean(t)&&trusted.includes(t)&&Number(ev.trustedTouchStarts)>0&&!trusted.includes('mouse');
+ const neutralStroke=captured?.drawing?.neutral||[];
+ const isTap=neutralStroke.length===1&&neutralStroke[0].length===1;
+ const rec={
+   caseId:c.id,category:c.cat,label:c.label,zhuyin:c.reading,target:c.target,
+   instructedHuman:c.expected,human,inputMode,actual:verdict.state,
+   instruction:c.instruction,
+   verifiedRealTouch,trustedPointerTypes:trusted,
+   pointerTypes:ev.pointerTypes||[],trustedTouchStarts:ev.trustedTouchStarts||0,
+   pointerCancelCount:ev.pointerCancelCount||0,
+   symbolCorrect:verdict.symbolCorrect,positionCorrect:verdict.positionCorrect,
+   errorKinds:verdict.errorKinds||[],
+   symbolConfidence:(captured?.verdict?.details||[]).filter(x=>x&&typeof x==='object'&&'score' in x)
+     .map(x=>({slot:x.key,score:x.score,state:x.state})),
+   neutralSingleTap:c.reading.includes('˙')&&isTap,
+   neutralDotDetected:c.reading.includes('˙')&&isTap&&(captured?.neutralInkPixels||0)>0,
+   timestamp:new Date().toISOString()
+ };
+ if($('include-strokes').checked&&captured?.drawing)rec.drawing=captured.drawing;
+ alreadyRecorded=true;records.push(rec);
+ $('qa-notice').textContent='已收錄 '+c.id+' 第 '+progressFor(c)+' 次'+
+  (verifiedRealTouch?'（偵測到實際觸控）':'（未取得可信任觸控證據）')+
+  '。下一步可按「清空重寫」或下一題。';
+ display();
+}
+function mount(){
+ resetForNewTrial();refreshTask();
+ const c=CASES[current],target=$('pilot');target.replaceChildren();
+ window.HanziZhuyinHandwriting.mountPilot({
+  target,char:c.label.includes('（')?c.label.split('（')[0]:c.label,
+  zhuyin:c.reading,
+  onCapture:x=>{captured=x},onResult:recordVerdict
+ });
+ target.querySelector('.zh-pilot-actions button:last-child')?.addEventListener('click',resetForNewTrial);
+}
+function setCase(n) {current=n;select.value=String(n);mount();}
+categorySelect.addEventListener('change',()=>{updateChoices();mount();display()});
+select.addEventListener('change',()=>{setCase(Number(select.value))});
+$('next').addEventListener('click',()=>{
+ const i=currentIds.indexOf(current);
+ setCase(currentIds[(i+1)%currentIds.length]);
+});
+$('next-pending').addEventListener('click',()=>{
+ const i=currentIds.indexOf(current);
+ const next=[...currentIds.slice(i+1),...currentIds.slice(0,i+1)]
+   .find(index=>progressFor(CASES[index])<CASES[index].reps);
+ if(next===undefined){
+   $('qa-notice').textContent='本分類所有預定測試次數已完成。';
+   return;
+ }
+ setCase(next);
+});
+$('clear').addEventListener('click',()=>{
+ if(!confirm('確定清除這個頁面目前累積的驗收紀錄嗎？（建議先匯出 JSON）'))return;
+ records=[];mount();display();
+});
+$('export').addEventListener('click',()=>{
+ const focused={
+  sampleCount:records.length,
+  targetScenarios:CASES.map(c=>({id:c.id,category:c.cat,target:c.target,
+    expectedTrials:c.reps,count:progressFor(c)})),
+  wrongFullPass:records.filter(r=>r.human==='incorrect'&&r.actual==='pass').length,
+  wrongPositionOnly:records.filter(r=>r.human==='incorrect'&&r.actual==='position_only').length,
+  correctPassed:records.filter(r=>r.human==='correct'&&r.actual==='pass').length,
+  note:'對照診斷階段，樣本不足時不宣稱正式準確度，題目設計源於第一輪匿名彙總。'
+ };
+ const data={
+  schema:'hanzi-zhuyin-focused-handwriting-qa-v3',
+  source:'hanzi-quiz E independent focused regression',
+  exportedAt:new Date().toISOString(),
+  suiteVersion:'v3',
+  scope:'anonymous, separately manually reviewed, local-only',
+  includesRawStrokes:records.some(r=>r.drawing),
+  focused,
+  legacyAcceptanceSummary:window.HanziRealHandwritingQA.summarize(records),
+  results:records
+ };
+ const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),
+ url=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=url;a.download='hanzi-zhuyin-focused-v3-'+new Date().toISOString().slice(0,10)+'.json';
+ a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);
+});
+updateChoices();mount();display();
+})();
+
+</script>
+</body></html>
