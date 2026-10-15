@@ -12,7 +12,16 @@ const labels=[
   ...Array.from({length:27},(_,i)=>({human:'incorrect',actual:'fail',inputMode:'stylus',zhuyin:qa.REQUIRED_READINGS[i%9]})),
   ...Array.from({length:9},(_,i)=>({human:'position',actual:'position_only',inputMode:'finger',zhuyin:qa.REQUIRED_READINGS[i]}))
 ];
-for(let i=0;i<3;i++)labels[i]={...labels[i],zhuyin:'ㄕㄨ˙',neutralSingleTap:true,neutralDotDetected:true};
+// Synthetic evidence tests summary maths only; it is NOT human handwriting.
+for (const row of labels) {
+  row.verifiedRealTouch = true;
+  row.trustedTouchStarts = 2;
+  row.trustedPointerTypes = [row.inputMode === 'finger' ? 'touch' : 'pen'];
+}
+for (const i of [4,13,22]) {
+  labels[i].neutralSingleTap = true;
+  labels[i].neutralDotDetected = true;
+}
 const synthetic=qa.summarize(labels);
 assert.equal(synthetic.status,'ACCEPTED_ON_SUBMITTED_SAMPLES','synthetic ideal corpus tests only report logic');
 assert.equal(synthetic.metrics.correctRecognitionRate,1);
@@ -21,6 +30,10 @@ assert.equal(synthetic.metrics.placementSeparatedRate,1);
 assert.equal(synthetic.neutralDotSamples,3);
 assert.equal(synthetic.readingsCovered.length,9);
 
+const fakeTouch=qa.summarize(labels.map(x=>({...x,verifiedRealTouch:false, trustedTouchStarts:0, trustedPointerTypes:[]})));
+assert.equal(fakeTouch.status,'INSUFFICIENT_EVIDENCE','manually selecting touch without trusted events is not evidence');
+const unbalanced=qa.summarize(labels.map((row,i)=>i===0?{...row,zhuyin:'ㄕㄨ˙'}:row));
+assert.equal(unbalanced.status,'INSUFFICIENT_EVIDENCE','total counts alone cannot hide insufficient samples of one reading');
 const wrongPass=qa.summarize(labels.map((x,i)=>i===27?{...x,actual:'pass'}:x));
 assert.equal(wrongPass.status,'NOT_ACCEPTED');
 assert(wrongPass.problems.includes('incorrect_pronunciation_false_pass'));
