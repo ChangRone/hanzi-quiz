@@ -31,6 +31,7 @@ try{
   await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('已收錄 1 次'),{timeout:10000});
   assert.match(await page.$eval('#results',e=>e.textContent),/符號錯 1 次/,'empty answer fails');
   await page.select('#case','4');
+  await page.select('#input-mode','finger'); // False claim must not count fake touch
   // Neutral-tone single tap must be painted and counted without pointermove.
   const dot = await page.evaluate(()=>{
     const canvas=document.querySelector('.zh-pilot-neutral canvas'), rect=canvas.getBoundingClientRect();
@@ -46,6 +47,10 @@ try{
   await page.click('.zh-pilot-actions button');
   await page.waitForFunction(()=>document.querySelector('#results').textContent.includes('已收錄 2 次'),{timeout:10000});
   assert.match(await page.$eval('#results',e=>e.textContent),/INSUFFICIENT_EVIDENCE/,'automation cannot qualify as real-touch acceptance');
+  assert.match(await page.$eval('#results',e=>e.textContent),/符合實際觸控證據 0 次/,
+    'synthetic PointerEvent pretending to be touch is not trusted');
+  assert.match(await page.$eval('#qa-notice',e=>e.textContent),/不能計入真人觸控 Gate/,
+    'manual choice alone cannot count as verified touchscreen evidence');
   assert.equal(await page.$eval('#include-strokes',e=>e.checked),false,'raw handwriting capture opt-in must be OFF');
     assert.equal(requests.filter(url=>!url.startsWith('http://127.0.0.1:8124/')).length,0,'standalone QA must not access third parties');
   const databases=await page.evaluate(()=>indexedDB.databases());
