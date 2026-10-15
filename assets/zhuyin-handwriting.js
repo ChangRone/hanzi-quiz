@@ -282,9 +282,18 @@
       // Only the standalone QA can opt in to receiving raw strokes. Quiz never passes onCapture.
       if (typeof onCapture === 'function') {
         const captured = JSON.parse(JSON.stringify(drawing));
+        const dotCanvas = grid.querySelector('.zh-pilot-neutral canvas');
+        let neutralInkPixels = 0;
+        if (dotCanvas) {
+          const pixels = dotCanvas.getContext('2d', { willReadFrequently:true })
+            .getImageData(0, 0, dotCanvas.width, dotCanvas.height).data;
+          for (let i = 3; i < pixels.length; i += 4) {
+            if (pixels[i] >= 45) neutralInkPixels++;
+          }
+        }
         try {
           onCapture({
-            char, zhuyin, drawing: captured, verdict: { ...verdict },
+            char, zhuyin, drawing: captured, neutralInkPixels, verdict: { ...verdict },
             inputEvidence: {
               pointerTypes: [...qaDevice.pointerTypes].sort(),
               trustedPointerTypes: [...qaDevice.trustedPointerTypes].sort(),
