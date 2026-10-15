@@ -140,7 +140,7 @@
       details: occupancyCheck.errors };
   }
 
-  function mountPilot({ target, char, zhuyin, onResult }) {
+  function mountPilot({ target, char, zhuyin, onResult, onCapture = null }) {
     const documentRef = target.ownerDocument;
     const layout = root.HanziZhuyinLayout;
     if (!layout) throw new Error('Zhuyin layout core is required');
@@ -263,6 +263,12 @@
     checkBtn.addEventListener('click', async () => {
       if (checked) return;
       const verdict = evaluateSlots(expected, drawing, documentRef, layout);
+      // Only the standalone QA can opt in to receiving raw strokes. Quiz never passes onCapture.
+      if (typeof onCapture === 'function') {
+        const captured = JSON.parse(JSON.stringify(drawing));
+        try { onCapture({ char, zhuyin, drawing: captured, verdict: { ...verdict } }); }
+        catch (captureError) { console.warn('QA capture error:', captureError); }
+      }
       if (verdict.state === 'uncertain') {
         result.textContent = verdict.positionCorrect === false
           ? '位置需要調整，筆跡尚無法確認；不計分，請看範例後重寫。'
