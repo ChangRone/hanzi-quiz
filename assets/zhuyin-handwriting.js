@@ -147,6 +147,12 @@
     const expected = layout.parseZhuyinSlots(zhuyin);
     const toneKey = layout.toneAnchorSlot(expected);
     const drawing = Object.fromEntries(KEYS.map(k => [k, []]));
+    // QA-only provenance: do not infer real touch from a manually selected
+    // label or a script-dispatched (untrusted) PointerEvent.
+    const qaDevice = {
+      pointerTypes: new Set(), trustedPointerTypes: new Set(),
+      pointerDownCount: 0, trustedTouchStarts: 0, pointerCancelCount: 0
+    };
     const panel = documentRef.createElement('section');
     panel.className = 'zh-pilot-card';
     const title = documentRef.createElement('h3');
@@ -225,6 +231,15 @@
       }
       canvas.addEventListener('pointerdown', event => {
         if (checked || pointerId !== null) return;
+        if (typeof onCapture === 'function') {
+          const input = String(event.pointerType || 'unknown');
+          qaDevice.pointerTypes.add(input);
+          qaDevice.pointerDownCount++;
+          if (event.isTrusted) {
+            qaDevice.trustedPointerTypes.add(input);
+            if (input === 'touch' || input === 'pen') qaDevice.trustedTouchStarts++;
+          }
+        }
         event.preventDefault(); pointerId = event.pointerId;
         try { canvas.setPointerCapture(event.pointerId); } catch { /* ignore */ }
         active = [point(event)]; drawing[key].push(active); drawInk(canvas, drawing[key]);
@@ -252,6 +267,7 @@
       });
       canvas.addEventListener('pointercancel', event => {
         if (event.pointerId !== pointerId) return;
+        if (typeof onCapture === 'function') qaDevice.pointerCancelCount++;
         if (active) drawing[key].pop();
         active = null; pointerId = null; drawInk(canvas, drawing[key]);
       });
@@ -266,7 +282,18 @@
       // Only the standalone QA can opt in to receiving raw strokes. Quiz never passes onCapture.
       if (typeof onCapture === 'function') {
         const captured = JSON.parse(JSON.stringify(drawing));
-        try { onCapture({ char, zhuyin, drawing: captured, verdict: { ...verdict } }); }
+        try {
+          onCapture({
+            char, zhuyin, drawing: captured, verdict: { ...verdict },
+            inputEvidence: {
+              pointerTypes: [...qaDevice.pointerTypes].sort(),
+              trustedPointerTypes: [...qaDevice.trustedPointerTypes].sort(),
+              pointerDownCount: qaDevice.pointerDownCount,
+              trustedTouchStarts: qaDevice.trustedTouchStarts,
+              pointerCancelCount: qaDevice.pointerCancelCount
+            }
+          });
+        }
         catch (captureError) { console.warn('QA capture error:', captureError); }
       }
       if (verdict.state === 'uncertain') {
@@ -292,6 +319,9 @@
     clearBtn.addEventListener('click', () => {
       checked = false; checkBtn.disabled = false; result.textContent = '';
       for (const key of KEYS) drawing[key] = [];
+      qaDevice.pointerTypes.clear(); qaDevice.trustedPointerTypes.clear();
+      qaDevice.pointerDownCount = 0; qaDevice.trustedTouchStarts = 0;
+      qaDevice.pointerCancelCount = 0;
       grid.querySelectorAll('canvas').forEach(canvas => drawInk(canvas, []));
     });
     controls.append(checkBtn, clearBtn);
