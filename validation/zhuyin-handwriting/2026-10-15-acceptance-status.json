@@ -1,0 +1,16 @@
+{
+  "schema": "hanzi-real-handwriting-acceptance-state-v1",
+  "date": "2026-10-15",
+  "status": "INSUFFICIENT_EVIDENCE",
+  "realTouchSamplesReceived": 0,
+  "manuallyReviewedSamplesReceived": 0,
+  "scope": "E feature branch only, NOT merged or deployed",
+  "automatedChecks": "GitHub Actions tests are software regression only",
+  "baseline": {
+    "approvedTemplate": "config/zhuyin-compact-layout-v2.json",
+    "recognitionMethod": "expected-glyph raster similarity prototype",
+    "proofOfTouchAccuracy": false
+  },
+  "nextStep": "Collect manually labelled real handwriting results via poc/zhuyin-handwriting-qa/index.html and compute confusion matrix before deciding whether to merge E.",
+  "privacy": "No raw student strokes stored in repository. Optional consented stroke export stays local until the user chooses to send it."
+}
