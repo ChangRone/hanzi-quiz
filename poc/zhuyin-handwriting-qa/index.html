@@ -79,7 +79,7 @@ select{border-radius:8px;padding:6px 10px;background:white}
 <option value="correct">符號正確、位置正確</option>
 <option value="position">符號正確、位置錯誤</option>
 <option value="incorrect">符號錯誤／多寫／漏寫</option></select></div>
-<div class="row"><label for="input-mode">實際輸入方式：</label>
+<div class="row"><label for="input-mode">人工確認使用的工具（會和瀏覽器觸控紀錄核對）：</label>
 <select id="input-mode" required><option value="">請選擇</option>
 <option value="finger">真人手指</option><option value="stylus">真人觸控筆</option>
 <option value="mouse">滑鼠（不算真實觸控樣本）</option></select></div>
@@ -356,6 +356,12 @@ select{border-radius:8px;padding:6px 10px;background:white}
     const expected = layout.parseZhuyinSlots(zhuyin);
     const toneKey = layout.toneAnchorSlot(expected);
     const drawing = Object.fromEntries(KEYS.map(k => [k, []]));
+    // QA-only provenance: do not infer real touch from a manually selected
+    // label or a script-dispatched (untrusted) PointerEvent.
+    const qaDevice = {
+      pointerTypes: new Set(), trustedPointerTypes: new Set(),
+      pointerDownCount: 0, trustedTouchStarts: 0, pointerCancelCount: 0
+    };
     const panel = documentRef.createElement('section');
     panel.className = 'zh-pilot-card';
     const title = documentRef.createElement('h3');
@@ -434,6 +440,15 @@ select{border-radius:8px;padding:6px 10px;background:white}
       }
       canvas.addEventListener('pointerdown', event => {
         if (checked || pointerId !== null) return;
+        if (typeof onCapture === 'function') {
+          const input = String(event.pointerType || 'unknown');
+          qaDevice.pointerTypes.add(input);
+          qaDevice.pointerDownCount++;
+          if (event.isTrusted) {
+            qaDevice.trustedPointerTypes.add(input);
+            if (input === 'touch' || input === 'pen') qaDevice.trustedTouchStarts++;
+          }
+        }
         event.preventDefault(); pointerId = event.pointerId;
         try { canvas.setPointerCapture(event.pointerId); } catch { /* ignore */ }
         active = [point(event)]; drawing[key].push(active); drawInk(canvas, drawing[key]);
@@ -461,6 +476,7 @@ select{border-radius:8px;padding:6px 10px;background:white}
       });
       canvas.addEventListener('pointercancel', event => {
         if (event.pointerId !== pointerId) return;
+        if (typeof onCapture === 'function') qaDevice.pointerCancelCount++;
         if (active) drawing[key].pop();
         active = null; pointerId = null; drawInk(canvas, drawing[key]);
       });
@@ -475,7 +491,18 @@ select{border-radius:8px;padding:6px 10px;background:white}
       // Only the standalone QA can opt in to receiving raw strokes. Quiz never passes onCapture.
       if (typeof onCapture === 'function') {
         const captured = JSON.parse(JSON.stringify(drawing));
-        try { onCapture({ char, zhuyin, drawing: captured, verdict: { ...verdict } }); }
+        try {
+          onCapture({
+            char, zhuyin, drawing: captured, verdict: { ...verdict },
+            inputEvidence: {
+              pointerTypes: [...qaDevice.pointerTypes].sort(),
+              trustedPointerTypes: [...qaDevice.trustedPointerTypes].sort(),
+              pointerDownCount: qaDevice.pointerDownCount,
+              trustedTouchStarts: qaDevice.trustedTouchStarts,
+              pointerCancelCount: qaDevice.pointerCancelCount
+            }
+          });
+        }
         catch (captureError) { console.warn('QA capture error:', captureError); }
       }
       if (verdict.state === 'uncertain') {
@@ -501,6 +528,9 @@ select{border-radius:8px;padding:6px 10px;background:white}
     clearBtn.addEventListener('click', () => {
       checked = false; checkBtn.disabled = false; result.textContent = '';
       for (const key of KEYS) drawing[key] = [];
+      qaDevice.pointerTypes.clear(); qaDevice.trustedPointerTypes.clear();
+      qaDevice.pointerDownCount = 0; qaDevice.trustedTouchStarts = 0;
+      qaDevice.pointerCancelCount = 0;
       grid.querySelectorAll('canvas').forEach(canvas => drawInk(canvas, []));
     });
     controls.append(checkBtn, clearBtn);
@@ -551,6 +581,8 @@ select{border-radius:8px;padding:6px 10px;background:white}
     const bad = [];
     let touchSamples = 0, neutralDotSamples = 0, missingNeutralDot = 0;
     const readings = new Set();
+    const perReading = Object.fromEntries(REQUIRED_READINGS.map(r =>
+      [r, { correct: 0, position: 0, incorrect: 0 }]));
 
     records.forEach((record, i) => {
       if (!record || !LABELS.includes(record.human) || !RESULTS.includes(record.actual)) {
@@ -558,9 +590,24 @@ select{border-radius:8px;padding:6px 10px;background:white}
       }
       matrix[record.human][record.actual]++;
       count[record.human]++;
-      if (record.human === 'correct' && record.zhuyin) readings.add(record.zhuyin);
-      if (record.inputMode === 'finger' || record.inputMode === 'stylus') touchSamples++;
-      if (record.zhuyin === 'ㄕㄨ˙' && record.neutralSingleTap === true) {
+      // A selected input-type dropdown is not proof of touch. Only genuine
+      // browser PointerEvents (isTrusted) from the claimed touch/pen input
+      // count toward the real-handwriting acceptance gate.
+      const evidence = Array.isArray(record.trustedPointerTypes)
+        ? record.trustedPointerTypes : [];
+      const expectedType = record.inputMode === 'finger' ? 'touch'
+        : record.inputMode === 'stylus' ? 'pen' : '';
+      const verifiedTouch = record.verifiedRealTouch === true &&
+        Number(record.trustedTouchStarts) >= 1 &&
+        Boolean(expectedType) && evidence.includes(expectedType) &&
+        !evidence.includes('mouse');
+      if (verifiedTouch) {
+        touchSamples++;
+        if (record.human === 'correct' && record.zhuyin) readings.add(record.zhuyin);
+        if (perReading[record.zhuyin]) perReading[record.zhuyin][record.human]++;
+      }
+      if (verifiedTouch && record.zhuyin === 'ㄕㄨ˙' &&
+          record.neutralSingleTap === true) {
         neutralDotSamples++;
         if (record.neutralDotDetected !== true) missingNeutralDot++;
       }
@@ -585,7 +632,10 @@ select{border-radius:8px;padding:6px 10px;background:white}
     const sufficient = count.correct >= min.correct && count.incorrect >= min.incorrect &&
       count.position >= min.position &&
       neutralDotSamples >= min.neutralTap && touchSamples >= count.correct + count.incorrect + count.position &&
-      REQUIRED_READINGS.every(x => readings.has(x));
+      REQUIRED_READINGS.every(x =>
+        perReading[x].correct >= 3 &&
+        perReading[x].incorrect >= 3 &&
+        perReading[x].position >= 1);
 
     const problems = [];
     if (bad.length) problems.push('invalid_records');
@@ -605,6 +655,7 @@ select{border-radius:8px;padding:6px 10px;background:white}
       invalidRecordIndexes: bad, realTouchSamples: touchSamples,
       readingsCovered: REQUIRED_READINGS.filter(x => readings.has(x)),
       readingsMissing: REQUIRED_READINGS.filter(x => !readings.has(x)),
+      perReading,
       neutralDotSamples, neutralDotMisses: missingNeutralDot, matrix, metrics,
       requirements: min, problems,
       warning: '僅統計所提供的真實手寫樣本；不能取代未參與測試的學生及裝置驗證。'
@@ -637,7 +688,7 @@ function display() {
  const pct = value => value === null ? '樣本不足' : (100*value).toFixed(1)+'%';
  $('results').textContent =
   '驗收狀態：'+summary.status+'\n'+
-  '已收錄 '+summary.sampleCount+' 次，真人觸控輸入 '+summary.realTouchSamples+' 次\n'+
+  '已收錄 '+summary.sampleCount+' 次，符合實際觸控證據 '+summary.realTouchSamples+' 次\n'+
   '人工確認：符號及位置正確 '+n.correct+' 次、僅位置錯 '+n.position+' 次、符號錯 '+n.incorrect+' 次\n'+
   '已覆蓋讀音 '+summary.readingsCovered.length+'/9，輕聲單點樣本 '+summary.neutralDotSamples+' 次\n'+
   '正確寫法判通過率 '+pct(metrics.correctRecognitionRate)+'\n'+
@@ -663,8 +714,16 @@ function acceptVerdict(verdict) {
  const [label,zhuyin] = examples[current];
  const neutralStroke = currentCapture?.drawing?.neutral || [];
  const isTap = neutralStroke.length === 1 && neutralStroke[0].length === 1;
+ const ev = currentCapture?.inputEvidence || {};
+ const expectedType = inputMode === 'finger' ? 'touch' : inputMode === 'stylus' ? 'pen' : '';
+ const trusted = ev.trustedPointerTypes || [];
+ const verifiedRealTouch = Boolean(expectedType) && ev.trustedTouchStarts > 0 &&
+    trusted.includes(expectedType) && !trusted.includes('mouse');
  const record = {
   label, zhuyin, human, inputMode, actual: verdict.state,
+  verifiedRealTouch, pointerTypes: ev.pointerTypes || [],
+  trustedPointerTypes: trusted, trustedTouchStarts: ev.trustedTouchStarts || 0,
+  pointerCancelCount: ev.pointerCancelCount || 0,
   symbolCorrect: verdict.symbolCorrect, positionCorrect: verdict.positionCorrect,
   errorKinds: verdict.errorKinds || [],
   neutralSingleTap: zhuyin === 'ㄕㄨ˙' && isTap,
@@ -674,7 +733,10 @@ function acceptVerdict(verdict) {
   record.drawing = currentCapture.drawing;
  }
  records.push(record);
- $('qa-notice').textContent = '已收錄第 '+records.length+' 筆。可選下一字，或按「清空重寫」再測試。';
+ $('qa-notice').textContent = '已收錄第 '+records.length+' 筆。'+
+   (verifiedRealTouch ? '瀏覽器已偵測可信任觸控／觸控筆事件。'
+    : '本次未取得可信任且符合人工標註的觸控事件，不能計入真人觸控 Gate。')+
+   ' 可選下一字或按「清空重寫」。';
  display();
 }
 function mount() {
