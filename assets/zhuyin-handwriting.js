@@ -5,8 +5,11 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function (root) {
   'use strict';
   const KEYS = ['neutral', 'g0', 'g1', 'g2', 't0', 't1', 't2'];
-  const LABELS = { neutral:'輕聲點（上方）', g0:'上格', g1:'中格', g2:'下格', tone:'聲調（最後一個符號右上角）' };
+  const LABELS = { neutral:'輕聲點', g0:'上格', g1:'中格', g2:'下格', tone:'聲調' };
   const GRID = 48;
+  // Locked to the user-approved template; visible tone stays next to the middle box.
+  const COMPACT_LAYOUT = Object.freeze({neutral:[169,43],g0:[172,163],g1:[170,245],g2:[168,327],tone:[255,245],toneLabel:[346,251]});
+  const LAYOUT_SIZE = Object.freeze({width:625,height:510});
 
   function maskFromCanvas(canvas) {
     const ctx = canvas.getContext('2d', { willReadFrequently:true });
@@ -42,7 +45,7 @@
     for(const stroke of strokes) {
       if(!stroke.length) continue;
       if(stroke.length===1) {
-        ctx.beginPath();ctx.arc(stroke[0][0],stroke[0][1],3.5,0,2*Math.PI);ctx.fill();continue;
+        ctx.beginPath();ctx.arc(stroke[0][0],stroke[0][1],4.2,0,2*Math.PI);ctx.fill();continue;
       }
       ctx.beginPath();ctx.moveTo(stroke[0][0],stroke[0][1]);
       for(const [x,y] of stroke.slice(1)) ctx.lineTo(x,y);
@@ -150,9 +153,8 @@
     title.textContent = '注音手寫練習（位置錯誤分開提醒）';
     const subtitle = documentRef.createElement('p');
     subtitle.textContent = '請在格子裡寫「' + char + '」的注音。只寫錯位置不直接算讀音錯誤。';
-    const guide = documentRef.createElement('div');
-    guide.className = 'zh-pilot-rule';
-    guide.textContent = '固定位置：1 個符號寫中格；2 個寫上、下格；3 個寫上、中、下格。聲調寫最後一個符號右上角；輕聲點寫最上方。';
+    // No teaching paragraphs beside the three main writing boxes.
+    // The approved layout reserves a single explanatory note beside the tone.
     const exampleButton = documentRef.createElement('button');
     exampleButton.type = 'button'; exampleButton.className = 'zh-pilot-example-btn';
     exampleButton.textContent = '看位置範例';
@@ -180,7 +182,18 @@
       exampleButton.setAttribute('aria-expanded', String(!samples.hidden));
     });
 
-    const grid = documentRef.createElement('div'); grid.className = 'zh-pilot-grid';
+    const viewport = documentRef.createElement('div');
+    viewport.className = 'zh-pilot-layout-viewport';
+    const grid = documentRef.createElement('div');
+    grid.className = 'zh-pilot-grid';
+    grid.setAttribute('data-layout-version', 'compact-v2');
+    // The lesson's spoken answer is not exposed in the permanent grid labels.
+    const note = documentRef.createElement('div');
+    note.className = 'zh-pilot-tone-note';
+    note.textContent = '聲調：練習時固定寫在中格旁；正式直式注音要標在最後一個符號右上角，一聲不標。';
+    note.style.left = COMPACT_LAYOUT.toneLabel[0] + 'px';
+    note.style.top = COMPACT_LAYOUT.toneLabel[1] + 'px';
+    grid.appendChild(note);
     const result = documentRef.createElement('p'); result.className = 'zh-pilot-result';
     result.setAttribute('aria-live', 'polite');
     const controls = documentRef.createElement('div'); controls.className = 'zh-pilot-actions';
@@ -192,7 +205,10 @@
     ]) {
       const holder = documentRef.createElement('div');
       holder.className = 'zh-pilot-slot zh-pilot-' + visualKey;
-      if (visualKey === 'tone') holder.classList.add('zh-pilot-tone-' + toneKey);
+      if (visualKey === 'tone') holder.classList.add('zh-pilot-tone-middle');
+      const pos = COMPACT_LAYOUT[visualKey];
+      holder.style.left = pos[0] + 'px';
+      holder.style.top = pos[1] + 'px';
       const label = documentRef.createElement('span');
       label.textContent = LABELS[visualKey];
       holder.appendChild(label);
@@ -220,7 +236,18 @@
       canvas.addEventListener('pointerup', event => {
         if (event.pointerId !== pointerId) return;
         event.preventDefault();
-        if (active) active.push(point(event));
+        if (active) {
+          const next = point(event);
+          const first = active[0];
+          if (visualKey === 'neutral' && active.length <= 3 &&
+              Math.hypot(next[0]-first[0],next[1]-first[1]) < 8) {
+            // A short tap is a legitimate neutral-tone dot, even with
+            // no pointermove. Store one point and keep it visibly painted.
+            drawing[key][drawing[key].length-1] = [first];
+          } else {
+            active.push(next);
+          }
+        }
         drawInk(canvas, drawing[key]); active = null; pointerId = null;
       });
       canvas.addEventListener('pointercancel', event => {
@@ -262,10 +289,28 @@
       grid.querySelectorAll('canvas').forEach(canvas => drawInk(canvas, []));
     });
     controls.append(checkBtn, clearBtn);
-    panel.append(title, subtitle, guide, exampleButton, samples, grid, controls, result);
+    viewport.appendChild(grid);
+    panel.append(title, subtitle, exampleButton, samples, viewport, controls, result);
     target.appendChild(panel);
+    function fitCompactLayout() {
+      const available = viewport.clientWidth || viewport.parentElement?.clientWidth || LAYOUT_SIZE.width;
+      const zoom = Math.min(1, Math.max(0.35, available / LAYOUT_SIZE.width));
+      grid.style.transform = 'scale(' + zoom + ')';
+      viewport.style.height = Math.ceil(LAYOUT_SIZE.height * zoom) + 'px';
+    }
+    fitCompactLayout();
+    // The viewport is fully responsive; detach the observer when the Quiz
+    // disposes the previous question panel.
+    if (typeof ResizeObserver !== 'undefined') {
+      const observer = new ResizeObserver(() => {
+        if (!panel.isConnected) { observer.disconnect(); return; }
+        fitCompactLayout();
+      });
+      observer.observe(viewport);
+    }
+    if (typeof requestAnimationFrame === 'function') requestAnimationFrame(fitCompactLayout);
     return { element: panel, clear: () => clearBtn.click() };
   }
 
-  return { mountPilot, similarity, evaluateSlots };
+  return { mountPilot, similarity, evaluateSlots, COMPACT_LAYOUT };
 });
