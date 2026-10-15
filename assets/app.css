@@ -569,3 +569,39 @@ hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 .zh-pilot-sample strong { display: block; font-size: .9rem; }
 .zh-pilot-sample span { display: block; }
 .zh-pilot-slot canvas { background-image: linear-gradient(to right, transparent 49.5%, #eff3fa 50%, transparent 50.5%), linear-gradient(to bottom, transparent 49.5%, #eff3fa 50%, transparent 50.5%); }
+
+
+/* Compact v2: user approved fixed coordinates, scaled as one artboard.
+   Three practice boxes use only their names; tone has the only note. */
+.zh-pilot-card { max-width: 660px; }
+.zh-pilot-layout-viewport { width: 100%; overflow: hidden; position: relative; min-height: 0; }
+.zh-pilot-card .zh-pilot-grid {
+  display: block; position: relative; width: 625px; height: 510px;
+  min-width: 625px; margin: 0; padding: 0; gap: 0;
+  transform-origin: top left;
+}
+.zh-pilot-card .zh-pilot-slot {
+  position: absolute; display: flex; flex-direction: column;
+  width: 86px; align-items: center; gap: 2px;
+  transform: none; grid-row: auto; grid-column: auto;
+}
+.zh-pilot-card .zh-pilot-slot span {
+  font-size: 13px; line-height: 1.25; font-weight: 750;
+  color: #506783; max-width: unset;
+}
+.zh-pilot-card .zh-pilot-slot canvas {
+  display: block; width: 78px; height: 76px;
+  border: 1px solid #bfcee1; border-radius: 11px; background-color: #fff;
+  touch-action: none;
+}
+.zh-pilot-card .zh-pilot-tone canvas,
+.zh-pilot-card .zh-pilot-neutral canvas {
+  width: 72px; height: 72px;
+}
+.zh-pilot-card .zh-pilot-tone-note {
+  position: absolute; width: 210px;
+  background: #edf4ff; border-radius: 11px; padding: 12px;
+  line-height: 1.55; font-size: 14px; font-weight: 600; color: #31517f;
+}
+.zh-pilot-card .zh-pilot-examples[hidden] { display: none !important; }
+.zh-pilot-card .zh-pilot-examples { display: grid; }
