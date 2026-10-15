@@ -7,7 +7,7 @@ on:
       - 'assets/app.css'
       - 'assets/zhuyin-*'
       - 'index.html'
-      - 'tools/quiz-tw-v1/smoke-zhuyin-handwriting*'
+      - 'tools/quiz-tw-v1/smoke-zhuyin-*'
       - 'poc/zhuyin-handwriting-qa/**'
       - '.github/workflows/zhuyin-handwriting.yml'
   workflow_dispatch:
@@ -29,6 +29,7 @@ jobs:
           node --check assets/zhuyin-handwriting.js
           node tools/quiz-tw-v1/smoke-zhuyin-layout.mjs
           node tools/quiz-tw-v1/smoke-zhuyin-handwriting.mjs
+          node tools/quiz-tw-v1/smoke-zhuyin-real-handwriting-qa.mjs
           node tools/quiz-tw-v1/smoke-review-event-v2.mjs
       - run: npm install --no-save puppeteer-core
       - name: Feature-flagged browser smoke
