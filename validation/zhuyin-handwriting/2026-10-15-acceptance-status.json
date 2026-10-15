@@ -2,22 +2,102 @@
   "schema": "hanzi-real-handwriting-acceptance-state-v1",
   "date": "2026-10-15",
   "status": "INSUFFICIENT_EVIDENCE",
-  "realTouchSamplesReceived": 0,
-  "manuallyReviewedSamplesReceived": 0,
+  "realTouchSamplesReceived": 50,
+  "manuallyReviewedSamplesReceived": 50,
   "scope": "E feature branch only, NOT merged or deployed",
-  "automatedChecks": "GitHub Actions tests are software regression only",
+  "automatedChecks": "PASS (previous CI); separate from real handwriting acceptance",
   "baseline": {
     "approvedTemplate": "config/zhuyin-compact-layout-v2.json",
     "recognitionMethod": "expected-glyph raster similarity prototype",
     "proofOfTouchAccuracy": false
   },
-  "nextStep": "Wait for manually verified touchscreen/pen QA results. Do not mark real recognition as accepted before empirical confusion matrix and sample coverage.",
+  "nextStep": "Block official handwriting grading. Obtain consented de-identified failed stroke samples for false pass and false fail diagnosis, fix glyph scoring, repeat independent real-device evaluation including neutral single taps, then reassess full per-reading gate.",
   "privacy": "No raw student strokes stored in repository. Optional consented stroke export stays local until the user chooses to send it.",
   "latestAudit": {
-    "eventInputVerification": "Only isTrusted touch/pen PointerEvents matching the declared mode may count as real-touch evidence",
-    "sampling": "Nine readings, each >=3 correct, >=3 incorrect, >=1 misplaced, and >=3 neutral single-tap successes total",
-    "ci": "Real-device data not present; synthetic and browser QA regression passed on feature branch",
-    "actualTouchAccuracy": "NOT_MEASURED",
-    "userAction": "Open standalone QA on touchscreen, collect 63 labelled trials, export anonymized JSON, and provide it for acceptance review"
+    "source": "User-supplied anonymous hand-labelled QA summary (2026-10-15), 50 records; no raw strokes",
+    "actualTouchAccuracy": "MEASURED_ON_50_STYLUS_TRIALS__BELOW_REQUIREMENTS",
+    "provenance": "All 50 records report verifiedRealTouch=true, inputMode=stylus, trustedPointerTypes=[pen]",
+    "sampleCount": 50,
+    "inputMode": "stylus",
+    "labels": {
+      "correct": 24,
+      "position": 10,
+      "incorrect": 16
+    },
+    "confusion": {
+      "correct": {
+        "pass": 17,
+        "position_only": 0,
+        "fail": 1,
+        "uncertain": 6
+      },
+      "position": {
+        "pass": 0,
+        "position_only": 7,
+        "fail": 0,
+        "uncertain": 3
+      },
+      "incorrect": {
+        "pass": 1,
+        "position_only": 3,
+        "fail": 11,
+        "uncertain": 1
+      }
+    },
+    "rates": {
+      "correctRecognition": 0.7083333333333334,
+      "incorrectFalsePass": 0.0625,
+      "placementFullyPassedIncorrectly": 0,
+      "placementSeparation": 0.7,
+      "correctUncertain": 0.25
+    },
+    "hardFailures": [
+      "one incorrect ㄇㄠ trial classified PASS",
+      "one correctly written ㄩˇ trial classified FAIL",
+      "three incorrectly written trials classified position_only"
+    ],
+    "coverage": {
+      "readingsCovered": 8,
+      "requiredReadings": 9,
+      "missing": [
+        "ㄕㄨˊ"
+      ],
+      "neutralSingleTap": 0,
+      "requiredNeutralSingleTap": 3
+    },
+    "missingToPerReadingMinimum": {
+      "ㄒㄧㄤˋ": {
+        "position": 1,
+        "incorrect": 1
+      },
+      "ㄕㄨˊ": {
+        "correct": 3,
+        "position": 1,
+        "incorrect": 3
+      },
+      "ㄕㄨ˙": {
+        "incorrect": 3
+      },
+      "ㄩˇ": {
+        "position": 1,
+        "incorrect": 1
+      },
+      "ㄩㄢˊ": {
+        "position": 1
+      },
+      "ㄒㄩˊ": {
+        "position": 1,
+        "incorrect": 3
+      },
+      "ㄒㄩㄢˊ": {
+        "correct": 1,
+        "position": 1,
+        "incorrect": 3
+      }
+    },
+    "minimumAdditionalTrials": 24,
+    "note": "Three valid neutral single taps also required; can be collected in further correctly written ㄕㄨ˙ trials. Current false PASS blocks grading even if more samples are added.",
+    "limitations": "No raw strokes in uploaded report: cannot independently inspect labels or retune glyph templates from this data alone.",
+    "safety": "Do not merge or deploy PR #6; no raw handwriting or identifiers committed"
   }
 }
